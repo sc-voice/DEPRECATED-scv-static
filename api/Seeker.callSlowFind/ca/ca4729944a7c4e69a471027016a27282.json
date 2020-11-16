@@ -1,0 +1,89 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "weisheit in ihrem ganzen umfang",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "weisheit in ihrem ganzen umfang",
+    "elapsed": 0.026,
+    "method": "keywords",
+    "resultPattern": "\\bweisheit|\\bin|\\bihrem|\\bganzen|\\bumfang",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an3.26/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.26",
+        "lang": "de",
+        "segMap": {
+          "an3.26:3.6": {
+            "scid": "an3.26:3.6",
+            "pli": "aparipūraṁ vā samādhikkhandhaṁ paripūressāmi, paripūraṁ vā samādhikkhandhaṁ tattha tattha paññāya anuggahessāmi; ",
+            "de": "Ich werde die Versenkung, die ich noch nicht erfüllt habe, \u001b[38;5;121min\u001b[0m \u001b[38;5;121mihrem\u001b[0m \u001b[38;5;121mganzen\u001b[0m \u001b[38;5;121mUmfang\u001b[0m erfüllen, und werde die Versenkung, die ich bereits erfüllt habe, \u001b[38;5;121min\u001b[0m jedem Moment mit \u001b[38;5;121mWeisheit\u001b[0m stärken. ",
+            "en": "I’ll fulfill the entire spectrum of immersion I haven’t yet fulfilled, or support with wisdom \u001b[38;5;121min\u001b[0m every situation the immersion I’ve already fulfilled. ",
+            "matched": true
+          },
+          "an3.26:3.7": {
+            "scid": "an3.26:3.7",
+            "pli": "aparipūraṁ vā paññākkhandhaṁ paripūressāmi, paripūraṁ vā paññākkhandhaṁ tattha tattha paññāya anuggahessāmīti. ",
+            "de": "Ich werde die \u001b[38;5;121mWeisheit\u001b[0m, die ich noch nicht erfüllt habe, \u001b[38;5;121min\u001b[0m \u001b[38;5;121mihrem\u001b[0m \u001b[38;5;121mganzen\u001b[0m \u001b[38;5;121mUmfang\u001b[0m erfüllen, und werde die \u001b[38;5;121mWeisheit\u001b[0m, die ich bereits erfüllt habe, \u001b[38;5;121min\u001b[0m jedem Moment mit \u001b[38;5;121mWeisheit\u001b[0m stärken.‘ ",
+            "en": "I’ll fulfill the entire spectrum of wisdom I haven’t yet fulfilled, or support with wisdom \u001b[38;5;121min\u001b[0m every situation the wisdom I’ve already fulfilled.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.061,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
+        }
+      }
+    ]
+  }
+}

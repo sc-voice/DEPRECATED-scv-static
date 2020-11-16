@@ -1,0 +1,107 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "gedenken",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gedenken",
+    "elapsed": 0.003,
+    "method": "phrase",
+    "resultPattern": "\\bgedenken",
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.12_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an3.12/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.12",
+        "lang": "de",
+        "segMap": {
+          "an3.12:0.3": {
+            "scid": "an3.12:0.3",
+            "pli": "12. Sāraṇīyasutta ",
+            "de": "12. \u001b[38;5;121mGedenken\u001b[0m ",
+            "en": "12. Commemoration ",
+            "matched": true
+          },
+          "an3.12:1.1": {
+            "scid": "an3.12:1.1",
+            "pli": "“Tīṇimāni, bhikkhave, rañño khattiyassa muddhāvasittassa yāvajīvaṁ sāraṇīyāni bhavanti. ",
+            "de": "„Ein gesalbter König sollte dreier Orte \u001b[38;5;121mgedenken\u001b[0m, solange er lebt. ",
+            "en": "“An anointed king should commemorate three places as long as he lives. ",
+            "matched": true
+          },
+          "an3.12:3.3": {
+            "scid": "an3.12:3.3",
+            "pli": "Imāni kho, bhikkhave, tīṇi rañño khattiyassa muddhāvasittassa yāvajīvaṁ sāraṇīyāni bhavanti. ",
+            "de": "Dieser drei Orte sollte ein gesalbter König \u001b[38;5;121mgedenken\u001b[0m, solange er lebt. ",
+            "en": "These are the three places an anointed king should commemorate as long as he lives. ",
+            "matched": true
+          },
+          "an3.12:4.1": {
+            "scid": "an3.12:4.1",
+            "pli": "Evamevaṁ kho, bhikkhave, tīṇimāni bhikkhussa yāvajīvaṁ sāraṇīyāni bhavanti. ",
+            "de": "Ebenso sollten ein Mönch oder eine Nonne dreier Orte \u001b[38;5;121mgedenken\u001b[0m, solange sie leben. ",
+            "en": "In the same way, a mendicant should commemorate three places as long as they live. ",
+            "matched": true
+          },
+          "an3.12:6.3": {
+            "scid": "an3.12:6.3",
+            "pli": "Imāni kho, bhikkhave, tīṇi bhikkhussa yāvajīvaṁ sāraṇīyāni bhavantī”ti. ",
+            "de": "Dieser drei Orte sollten ein Mönch oder eine Nonne \u001b[38;5;121mgedenken\u001b[0m, solange sie leben.“ ",
+            "en": "These are the three places a mendicant should commemorate as long as they live.” ",
+            "matched": true
+          }
+        },
+        "score": 5.227,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 22,
+          "de": 21,
+          "en": 21
+        }
+      }
+    ]
+  }
+}

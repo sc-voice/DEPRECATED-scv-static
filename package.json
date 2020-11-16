@@ -1,0 +1,64 @@
+{
+  "name": "scv-examples",
+  "version": "0.1.0",
+  "description": "SuttaCentral Voice bilara-data example library",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-plugin-html": "^4.0.5",
+    "mocha": "^7.1.1",
+    "scv-bilara": "^1.4.36",
+    "memo-again": "^0.3.12",
+    "should": "^11.2.0"
+  },
+  "scripts": {
+    "build": "scripts/build.js",
+    "test": "npm run test:verbose",
+    "test:test": "mocha -w --watch-ignore node_modules,.git,local -R min --inline-diffs -g TEST './@(src|test)/**/*.js'",
+    "test:verbose": "mocha --inline-diffs",
+    "test:watch": "mocha -w --inline-diffs"
+  },
+  "repository": {
+    "tag": "git"
+  },
+  "bin": {},
+  "keywords": [
+    "SuttaCentral",
+    "SuttaCentral Voice",
+    "EBT",
+    "Voice",
+    "Buddha",
+    "Pali",
+    "translation",
+    "Javascript",
+    "bilara-data",
+    "Bilara"
+  ],
+  "author": "Karl Lew",
+  "homepage": "https://github.com/sc-voice/scv-bilara",
+  "license": "MIT",
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}

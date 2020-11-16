@@ -1,0 +1,74 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "seeing impermanence",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "seeing impermanence",
+    "elapsed": 0.004,
+    "method": "phrase",
+    "resultPattern": "\\bseeing impermanence",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.49_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.49_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.49/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.49_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.49_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.49",
+        "lang": "en",
+        "segMap": {
+          "an4.49:6.3": {
+            "scid": "an4.49:6.3",
+            "pli": "Aniccaṁ aniccato dakkhuṁ, ",
+            "en": "\u001b[38;5;121mSeeing impermanence\u001b[0m as impermanence, ",
+            "matched": true
+          }
+        },
+        "score": 1.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 40,
+          "en": 39
+        }
+      }
+    ]
+  }
+}

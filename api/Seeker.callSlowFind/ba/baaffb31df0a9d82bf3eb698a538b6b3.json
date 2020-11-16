@@ -1,0 +1,216 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "against the stream",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "against the stream",
+    "elapsed": 0.086,
+    "method": "phrase",
+    "resultPattern": "\\bagainst the stream",
+    "segsMatched": 8,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.5/en/sujato",
+      "sn6.1/en/sujato",
+      "mn85/en/sujato",
+      "mn26/en/sujato",
+      "dn14/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.5",
+        "lang": "en",
+        "segMap": {
+          "an4.5:1.3": {
+            "scid": "an4.5:1.3",
+            "pli": "Anusotagāmī puggalo, paṭisotagāmī puggalo, ṭhitatto puggalo, tiṇṇo pāraṅgato thale tiṭṭhati brāhmaṇo. ",
+            "en": "A person who goes with the stream; a person who goes \u001b[38;5;121magainst the stream\u001b[0m; a steadfast person; and a brahmin who has crossed over and stands on the far shore. ",
+            "matched": true
+          },
+          "an4.5:2.1": {
+            "scid": "an4.5:2.1",
+            "pli": "Katamo ca, bhikkhave, paṭisotagāmī puggalo? ",
+            "en": "And who is the person who goes \u001b[38;5;121magainst the stream\u001b[0m? ",
+            "matched": true
+          },
+          "an4.5:2.3": {
+            "scid": "an4.5:2.3",
+            "pli": "Ayaṁ vuccati, bhikkhave, paṭisotagāmī puggalo. ",
+            "en": "This is called a person who goes \u001b[38;5;121magainst the stream\u001b[0m. ",
+            "matched": true
+          },
+          "an4.5:6.4": {
+            "scid": "an4.5:6.4",
+            "pli": "Paṭisotagāmīti tamāhu puggalaṁ. ",
+            "en": "they call that person ‘one who goes \u001b[38;5;121magainst the stream\u001b[0m’. ",
+            "matched": true
+          }
+        },
+        "score": 4.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 36,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.1",
+        "lang": "en",
+        "segMap": {
+          "sn6.1:3.2": {
+            "scid": "sn6.1:3.2",
+            "pli": "gambhīraṁ duddasaṁ aṇuṁ; ",
+            "en": "what’s subtle, going \u001b[38;5;121magainst the stream\u001b[0m, ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 53,
+          "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "en",
+        "segMap": {
+          "mn26:19.13": {
+            "scid": "mn26:19.13",
+            "pli": "gambhīraṁ duddasaṁ aṇuṁ; ",
+            "en": "what’s subtle, going \u001b[38;5;121magainst the stream\u001b[0m, ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "en": 364
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn85",
+        "lang": "en",
+        "segMap": {
+          "mn85:43.13": {
+            "scid": "mn85:43.13",
+            "pli": "gambhīraṁ duddasaṁ aṇuṁ; ",
+            "en": "what’s subtle, going \u001b[38;5;121magainst the stream\u001b[0m, ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 553,
+          "en": 552
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "en",
+        "segMap": {
+          "dn14:3.2.7": {
+            "scid": "dn14:3.2.7",
+            "pli": "gambhīraṁ duddasaṁ aṇuṁ; ",
+            "en": "what’s subtle, going \u001b[38;5;121magainst the stream\u001b[0m, ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 851,
+          "en": 850
+        }
+      }
+    ]
+  }
+}

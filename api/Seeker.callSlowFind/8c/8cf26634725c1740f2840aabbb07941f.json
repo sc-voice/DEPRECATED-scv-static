@@ -1,0 +1,51 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "root of anger",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "root of anger",
+    "elapsed": 0.051,
+    "method": "keywords",
+    "resultPattern": "\\broot|\\bof|\\banger",
+    "segsMatched": 0,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.9_translation-en-sujato.json"
+    ],
+    "suttaRefs": [],
+    "mlDocs": []
+  }
+}

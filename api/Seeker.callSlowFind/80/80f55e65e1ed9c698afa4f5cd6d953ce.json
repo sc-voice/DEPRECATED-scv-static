@@ -1,0 +1,184 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "schenkt schönheit",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "schenkt schönheit",
+    "elapsed": 0.023,
+    "method": "keywords",
+    "resultPattern": "\\bschenkt|\\bschönheit",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.59_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.59_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.57_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.58/de/sabbamitta",
+      "an4.59/de/sabbamitta",
+      "an5.37/de/sabbamitta",
+      "an4.57/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.59_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.59_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.59",
+        "lang": "de",
+        "segMap": {
+          "an4.59:1.5": {
+            "scid": "an4.59:1.5",
+            "pli": "Vaṇṇaṁ datvā … sukhaṁ datvā … balaṁ datvā balassa bhāgī hoti dibbassa vā mānusassa vā. ",
+            "de": "Da sie \u001b[38;5;121mSchönheit\u001b[0m … Glück … Kraft \u001b[38;5;121mschenkt\u001b[0m, hat sie selbst göttliche oder menschliche Kraft. ",
+            "en": " ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.58",
+        "lang": "de",
+        "segMap": {
+          "an4.58:2.5": {
+            "scid": "an4.58:2.5",
+            "pli": "Vaṇṇaṁ datvā … sukhaṁ datvā … balaṁ datvā balassa bhāgī hoti dibbassa vā mānusassa vā. ",
+            "de": "Da er \u001b[38;5;121mSchönheit\u001b[0m … Glück … Kraft \u001b[38;5;121mschenkt\u001b[0m, hat er selbst göttliche oder menschliche Kraft. ",
+            "en": "Giving beauty … happiness … strength … ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.37",
+        "lang": "de",
+        "segMap": {
+          "an5.37:1.5": {
+            "scid": "an5.37:1.5",
+            "pli": "vaṇṇaṁ datvā vaṇṇassa bhāgī hoti dibbassa vā mānusassa vā; ",
+            "de": "Da sie \u001b[38;5;121mSchönheit\u001b[0m \u001b[38;5;121mschenkt\u001b[0m, hat sie selbst göttliche oder menschliche \u001b[38;5;121mSchönheit\u001b[0m. ",
+            "en": "Giving beauty, they have beauty as a god or human. ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.57",
+        "lang": "de",
+        "segMap": {
+          "an4.57:2.5": {
+            "scid": "an4.57:2.5",
+            "pli": "Vaṇṇaṁ datvā vaṇṇassa bhāginī hoti dibbassa vā mānusassa vā. ",
+            "de": "Da sie \u001b[38;5;121mSchönheit\u001b[0m \u001b[38;5;121mschenkt\u001b[0m, hat sie selbst göttliche oder menschliche \u001b[38;5;121mSchönheit\u001b[0m. ",
+            "en": "Giving beauty, she has beauty as a god or human. ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      }
+    ]
+  }
+}

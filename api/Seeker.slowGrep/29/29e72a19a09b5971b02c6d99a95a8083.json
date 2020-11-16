@@ -1,0 +1,36 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bgenießt",
+      "maxResults": 0,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an6/an6.15_translation-de-sabbamitta.json:6",
+    "translation/de/sabbamitta/sutta/an/an6/an6.14_translation-de-sabbamitta.json:6",
+    "translation/de/sabbamitta/sutta/an/an4/an4.123_translation-de-sabbamitta.json:4",
+    "translation/de/sabbamitta/sutta/an/an3/an3.116_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/kn/thag/thag15.2_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an6/an6.31_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an6/an6.21_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an5/an5.89_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an5/an5.34_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an5/an5.150_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an5/an5.149_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an4/an4.62_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an4/an4.171_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an4/an4.125_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an3/an3.123_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an6/an6.22_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an5/an5.38_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an5/an5.209_translation-de-sabbamitta.json:1"
+  ]
+}

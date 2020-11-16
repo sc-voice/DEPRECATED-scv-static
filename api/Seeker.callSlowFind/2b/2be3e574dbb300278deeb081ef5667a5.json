@@ -1,0 +1,41 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sammosa",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "pli",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sammosa",
+    "elapsed": 0,
+    "method": "keywords",
+    "resultPattern": "\\bs(a|ā)(m|ṁ|ṃ)(m|ṁ|ṃ)os(a|ā)",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
+  }
+}

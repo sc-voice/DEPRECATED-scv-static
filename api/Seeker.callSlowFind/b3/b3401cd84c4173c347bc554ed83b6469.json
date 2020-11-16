@@ -1,0 +1,141 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wish of an ethical person",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wish of an ethical person",
+    "elapsed": 0.1,
+    "method": "phrase",
+    "resultPattern": "\\bwish of an ethical person",
+    "segsMatched": 8,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.35_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.35_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn33/en/sujato",
+      "an8.35/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.35_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.35_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.35",
+        "lang": "en",
+        "segMap": {
+          "an8.35:1.12": {
+            "scid": "an8.35:1.12",
+            "pli": "Ijjhati, bhikkhave, sīlavato cetopaṇidhi visuddhattā. #1",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their purity. ",
+            "matched": true
+          },
+          "an8.35:2.11": {
+            "scid": "an8.35:2.11",
+            "pli": "Ijjhati, bhikkhave, sīlavato cetopaṇidhi visuddhattā. #2",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their purity. ",
+            "matched": true
+          },
+          "an8.35:3.15": {
+            "scid": "an8.35:3.15",
+            "pli": "Ijjhati, bhikkhave, sīlavato cetopaṇidhi visuddhattā. #3–7 ",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their purity. ",
+            "matched": true
+          },
+          "an8.35:4.12": {
+            "scid": "an8.35:4.12",
+            "pli": "Ijjhati, bhikkhave, sīlavato cetopaṇidhi vītarāgattā. ",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their freedom from desire. ",
+            "matched": true
+          }
+        },
+        "score": 4.073,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 55,
+          "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "en",
+        "segMap": {
+          "dn33:3.1.105": {
+            "scid": "dn33:3.1.105",
+            "pli": "Ijjhatāvuso, sīlavato cetopaṇidhi visuddhattā. #7.1 ",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their purity. ",
+            "matched": true
+          },
+          "dn33:3.1.114": {
+            "scid": "dn33:3.1.114",
+            "pli": "Ijjhatāvuso, sīlavato cetopaṇidhi visuddhattā. #7.2 ",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their purity. ",
+            "matched": true
+          },
+          "dn33:3.1.127": {
+            "scid": "dn33:3.1.127",
+            "pli": "Ijjhatāvuso, sīlavato cetopaṇidhi visuddhattā. #7.3–7 ",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their purity. ",
+            "matched": true
+          },
+          "dn33:3.1.137": {
+            "scid": "dn33:3.1.137",
+            "pli": "Ijjhatāvuso, sīlavato cetopaṇidhi vītarāgattā. #7.8 ",
+            "en": "The heart’s \u001b[38;5;121mwish of an ethical person\u001b[0m succeeds because of their freedom from desire. ",
+            "matched": true
+          }
+        },
+        "score": 4.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 1167,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

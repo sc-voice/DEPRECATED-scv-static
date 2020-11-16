@@ -1,0 +1,93 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "vier grundlagen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "vier grundlagen",
+    "elapsed": 0.057,
+    "method": "phrase",
+    "resultPattern": "\\bvier grundlagen",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.11.14": {
+            "scid": "dn33:1.11.14",
+            "pli": "Cattāro iddhipādā. ",
+            "de": "\u001b[38;5;121mVier Grundlagen\u001b[0m der Wunderkräfte: ",
+            "en": "Four bases of psychic power. ",
+            "matched": true
+          },
+          "dn33:1.11.122": {
+            "scid": "dn33:1.11.122",
+            "pli": "Catasso viññāṇaṭṭhitiyo. ",
+            "de": "\u001b[38;5;121mVier Grundlagen\u001b[0m, auf denen Bewusstsein besteht: ",
+            "en": "Four bases for consciousness to remain. ",
+            "matched": true
+          },
+          "dn33:1.11.149": {
+            "scid": "dn33:1.11.149",
+            "pli": "Cattāri adhiṭṭhānāni—",
+            "de": "\u001b[38;5;121mVier Grundlagen\u001b[0m: ",
+            "en": "Four foundations: ",
+            "matched": true
+          }
+        },
+        "score": 3.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

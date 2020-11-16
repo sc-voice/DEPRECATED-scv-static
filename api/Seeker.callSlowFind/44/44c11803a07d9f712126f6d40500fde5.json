@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "householders of bamboo gate",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "householders of bamboo gate",
+    "elapsed": 0.008,
+    "method": "phrase",
+    "resultPattern": "\\bhouseholders of bamboo gate",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn55/sn55.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn55/sn55.7_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn55.7/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn55/sn55.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn55/sn55.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn55.7",
+        "lang": "en",
+        "segMap": {
+          "sn55.7:1.3": {
+            "scid": "sn55.7:1.3",
+            "pli": "Assosuṁ kho te veḷudvāreyyakā brāhmaṇagahapatikā: ",
+            "en": "The brahmins and \u001b[38;5;121mhouseholders of Bamboo Gate\u001b[0m heard: ",
+            "matched": true
+          },
+          "sn55.7:2.1": {
+            "scid": "sn55.7:2.1",
+            "pli": "Atha kho te veḷudvāreyyakā brāhmaṇagahapatikā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā appekacce bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Appekacce bhagavatā saddhiṁ sammodiṁsu; sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. Appekacce yena bhagavā tenañjaliṁ paṇāmetvā ekamantaṁ nisīdiṁsu. Appekacce bhagavato santike nāmagottaṁ sāvetvā ekamantaṁ nisīdiṁsu. Appekacce tuṇhībhūtā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te veḷudvāreyyakā brāhmaṇagahapatikā bhagavantaṁ etadavocuṁ: ",
+            "en": "Then the brahmins and \u001b[38;5;121mhouseholders of Bamboo Gate\u001b[0m went up to the Buddha. Before sitting down to one side, some bowed, some exchanged greetings and polite conversation, some held up their joined palms toward the Buddha, some announced their name and clan, while some kept silent. Seated to one side they said to the Buddha: ",
+            "matched": true
+          },
+          "sn55.7:12.1": {
+            "scid": "sn55.7:12.1",
+            "pli": "Evaṁ vutte, veḷudvāreyyakā brāhmaṇagahapatikā bhagavantaṁ etadavocuṁ: ",
+            "en": "When he had spoken, the brahmins and \u001b[38;5;121mhouseholders of Bamboo Gate\u001b[0m said to the Buddha, ",
+            "matched": true
+          }
+        },
+        "score": 3.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 78,
+          "en": 77
+        }
+      }
+    ]
+  }
+}

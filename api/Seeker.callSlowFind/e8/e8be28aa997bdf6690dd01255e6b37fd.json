@@ -1,0 +1,141 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "more peaceful",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "more peaceful",
+    "elapsed": 0.021,
+    "method": "phrase",
+    "resultPattern": "\\bmore peaceful",
+    "segsMatched": 8,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn68/en/sujato",
+      "mn14/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn14",
+        "lang": "en",
+        "segMap": {
+          "mn14:4.2": {
+            "scid": "mn14:4.2",
+            "pli": "iti cepi, mahānāma, ariyasāvakassa yathābhūtaṁ sammappaññāya sudiṭṭhaṁ hoti, so ca aññatreva kāmehi aññatra akusalehi dhammehi pītisukhaṁ nādhigacchati, aññaṁ vā tato santataraṁ; ",
+            "en": "Even though a noble disciple has clearly seen this with right wisdom, so long as they don’t achieve the rapture and bliss that are apart from sensual pleasures and unskillful qualities, or something even \u001b[38;5;121mmore peaceful\u001b[0m than that, ",
+            "matched": true
+          },
+          "mn14:4.4": {
+            "scid": "mn14:4.4",
+            "pli": "Yato ca kho, mahānāma, ariyasāvakassa ‘appassādā kāmā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo’ti—evametaṁ yathābhūtaṁ sammappaññāya sudiṭṭhaṁ hoti, so ca aññatreva kāmehi aññatra akusalehi dhammehi pītisukhaṁ adhigacchati aññaṁ vā tato santataraṁ; ",
+            "en": "But when they do achieve that rapture and bliss, or something \u001b[38;5;121mmore peaceful\u001b[0m than that, ",
+            "matched": true
+          },
+          "mn14:5.3": {
+            "scid": "mn14:5.3",
+            "pli": "so ca aññatreva kāmehi aññatra akusalehi dhammehi pītisukhaṁ nājjhagamaṁ, aññaṁ vā tato santataraṁ; ",
+            "en": "But so long as I didn’t achieve the rapture and bliss that are apart from sensual pleasures and unskillful qualities, or something even \u001b[38;5;121mmore peaceful\u001b[0m than that, ",
+            "matched": true
+          },
+          "mn14:5.5": {
+            "scid": "mn14:5.5",
+            "pli": "Yato ca kho me, mahānāma, ‘appassādā kāmā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo’ti—evametaṁ yathābhūtaṁ sammappaññāya sudiṭṭhaṁ ahosi, so ca aññatreva kāmehi aññatra akusalehi dhammehi pītisukhaṁ ajjhagamaṁ, aññaṁ vā tato santataraṁ; ",
+            "en": "But when I did achieve that rapture and bliss, or something \u001b[38;5;121mmore peaceful\u001b[0m than that, ",
+            "matched": true
+          }
+        },
+        "score": 4.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 144,
+          "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn68",
+        "lang": "en",
+        "segMap": {
+          "mn68:6.2": {
+            "scid": "mn68:6.2",
+            "pli": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ nādhigacchati aññaṁ vā tato santataraṁ, tassa abhijjhāpi cittaṁ pariyādāya tiṭṭhati, byāpādopi cittaṁ pariyādāya tiṭṭhati, thinamiddhampi cittaṁ pariyādāya tiṭṭhati uddhaccakukkuccampi cittaṁ pariyādāya tiṭṭhati, vicikicchāpi cittaṁ pariyādāya tiṭṭhati, aratīpi cittaṁ pariyādāya tiṭṭhati, tandīpi cittaṁ pariyādāya tiṭṭhati. ",
+            "en": "Take someone who doesn’t achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even \u001b[38;5;121mmore peaceful\u001b[0m than that. Their mind is still occupied by desire, ill will, dullness and drowsiness, restlessness and remorse, doubt, discontent, and sloth. ",
+            "matched": true
+          },
+          "mn68:6.3": {
+            "scid": "mn68:6.3",
+            "pli": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ nādhigacchati aññaṁ vā tato santataraṁ. ",
+            "en": "That’s someone who doesn’t achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even \u001b[38;5;121mmore peaceful\u001b[0m than that. ",
+            "matched": true
+          },
+          "mn68:6.4": {
+            "scid": "mn68:6.4",
+            "pli": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ adhigacchati aññaṁ vā tato santataraṁ, tassa abhijjhāpi cittaṁ na pariyādāya tiṭṭhati, byāpādopi cittaṁ na pariyādāya tiṭṭhati, thinamiddhampi cittaṁ na pariyādāya tiṭṭhati, uddhaccakukkuccampi cittaṁ na pariyādāya tiṭṭhati, vicikicchāpi cittaṁ na pariyādāya tiṭṭhati, aratīpi cittaṁ na pariyādāya tiṭṭhati, tandīpi cittaṁ na pariyādāya tiṭṭhati. ",
+            "en": "Take someone who does achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even \u001b[38;5;121mmore peaceful\u001b[0m than that. Their mind is not occupied by desire, ill will, dullness and drowsiness, restlessness and remorse, doubt, discontent, and sloth. ",
+            "matched": true
+          },
+          "mn68:6.5": {
+            "scid": "mn68:6.5",
+            "pli": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ adhigacchati aññaṁ vā tato santataraṁ. ",
+            "en": "That’s someone who does achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even \u001b[38;5;121mmore peaceful\u001b[0m than that. ",
+            "matched": true
+          }
+        },
+        "score": 4.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 177,
+          "en": 176
+        }
+      }
+    ]
+  }
+}

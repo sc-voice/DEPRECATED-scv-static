@@ -1,0 +1,121 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "erbärmlich",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "erbärmlich",
+    "elapsed": 0.012,
+    "method": "phrase",
+    "resultPattern": "\\berbärmlich",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.24/de/sabbamitta",
+      "an3.36/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.24",
+        "lang": "de",
+        "segMap": {
+          "an6.24:1.1": {
+            "scid": "an6.24:1.1",
+            "pli": "“Chahi, bhikkhave, dhammehi samannāgato bhikkhu himavantaṁ pabbatarājaṁ padāleyya, ko pana vādo chavāya avijjāya. ",
+            "de": "„Mönche und Nonnen, ein Mönch, der sechs Eigenschaften besitzt, könnte den Himalaya, den König der Berge, zerschmettern – von dieser \u001b[38;5;121merbärmlich\u001b[0men Unwissenheit ganz zu schweigen! ",
+            "en": "“Mendicants, a mendicant who has six qualities could shatter Himalaya, the king of mountains, let alone this wretched ignorance! ",
+            "matched": true
+          },
+          "an6.24:1.4": {
+            "scid": "an6.24:1.4",
+            "pli": "Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu himavantaṁ pabbatarājaṁ padāleyya, ko pana vādo chavāya avijjāyā”ti. ",
+            "de": "Ein Mönch, der diese sechs Eigenschaften besitzt, könnte den Himalaya, den König der Berge, zerschmettern – von dieser \u001b[38;5;121merbärmlich\u001b[0men Unwissenheit ganz zu schweigen!“ ",
+            "en": "A mendicant who has these six qualities could shatter Himalaya, the king of mountains, let alone this wretched ignorance!” ",
+            "matched": true
+          }
+        },
+        "score": 2.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.36",
+        "lang": "de",
+        "segMap": {
+          "an3.36:19.4": {
+            "scid": "an3.36:19.4",
+            "pli": "hīnakāyūpagā narā. ",
+            "de": "wenn sie zu diesem \u001b[38;5;121merbärmlich\u001b[0men Ort gehen. ",
+            "en": "when they go to that wretched place. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "de": 107,
+          "en": 107
+        }
+      }
+    ]
+  }
+}

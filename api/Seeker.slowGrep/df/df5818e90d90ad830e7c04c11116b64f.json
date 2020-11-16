@@ -1,0 +1,52 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\blicht",
+      "maxResults": 0,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/sn/sn3/sn3.21_translation-de-sabbamitta.json:16",
+    "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json:11",
+    "translation/de/sabbamitta/sutta/an/an4/an4.85_translation-de-sabbamitta.json:11",
+    "translation/de/sabbamitta/sutta/an/an4/an4.127_translation-de-sabbamitta.json:9",
+    "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json:6",
+    "translation/de/sabbamitta/sutta/an/an4/an4.143_translation-de-sabbamitta.json:5",
+    "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json:4",
+    "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/an/an4/an4.197_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/an/an3/an3.59_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/an/an3/an3.58_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/sn/sn12/sn12.4_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/sn/sn12/sn12.10_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an3/an3.80_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/sn/sn5/sn5.7_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/sn/sn12/sn12.17_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an5/an5.75_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an5/an5.194_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an4/an4.49_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an4/an4.47_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an4/an4.41_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an4/an4.100_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.72_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.63_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.53_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.25_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.13_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an2/an2.11-20_translation-de-sabbamitta.json:1"
+  ]
+}

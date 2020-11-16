@@ -1,0 +1,117 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "slain by conceit",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "slain by conceit",
+    "elapsed": 0.021,
+    "method": "phrase",
+    "resultPattern": "\\bslain by conceit",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn8/sn8.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn8.3/en/sujato",
+      "thag21.1/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn8/sn8.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn8/sn8.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn8.3",
+        "lang": "en",
+        "segMap": {
+          "sn8.3:3.1": {
+            "scid": "sn8.3:3.1",
+            "pli": "Makkhena makkhitā pajā, ",
+            "en": "Smeared by smears and \u001b[38;5;121mslain by conceit\u001b[0m, ",
+            "matched": true
+          },
+          "sn8.3:3.3": {
+            "scid": "sn8.3:3.3",
+            "pli": "Socanti janā cirarattaṁ, ",
+            "en": "When people \u001b[38;5;121mslain by conceit\u001b[0m are reborn in hell, ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag21.1",
+        "lang": "en",
+        "segMap": {
+          "thag21.1:12.1": {
+            "scid": "thag21.1:12.1",
+            "pli": "Makkhena makkhitā pajā,",
+            "en": "Smeared by smears and \u001b[38;5;121mslain by conceit\u001b[0m,",
+            "matched": true
+          },
+          "thag21.1:12.3": {
+            "scid": "thag21.1:12.3",
+            "pli": "Socanti janā cirarattaṁ,",
+            "en": "When people \u001b[38;5;121mslain by conceit\u001b[0m are reborn in hell,",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 309,
+          "en": 308
+        }
+      }
+    ]
+  }
+}

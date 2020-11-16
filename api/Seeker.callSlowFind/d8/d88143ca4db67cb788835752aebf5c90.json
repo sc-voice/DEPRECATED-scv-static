@@ -1,0 +1,184 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "fear and terror",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "fear and terror",
+    "elapsed": 0.019,
+    "method": "phrase",
+    "resultPattern": "\\bfear and terror",
+    "segsMatched": 11,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn11/sn11.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn6_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn6_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn11.3/en/sujato",
+      "mn6/en/sujato",
+      "mn4/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn11/sn11.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn11/sn11.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn11.3",
+        "lang": "en",
+        "segMap": {
+          "sn11.3:3.2": {
+            "scid": "sn11.3:3.2",
+            "pli": "Mamañhi vo dhajaggaṁ ullokayataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyissati. ",
+            "en": "Then your \u001b[38;5;121mfear and terror\u001b[0m will go away. ",
+            "matched": true
+          },
+          "sn11.3:4.2": {
+            "scid": "sn11.3:4.2",
+            "pli": "Pajāpatissa hi vo devarājassa dhajaggaṁ ullokayataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyissati. ",
+            "en": "Then your \u001b[38;5;121mfear and terror\u001b[0m will go away. ",
+            "matched": true
+          },
+          "sn11.3:5.2": {
+            "scid": "sn11.3:5.2",
+            "pli": "Varuṇassa hi vo devarājassa dhajaggaṁ ullokayataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyissati. ",
+            "en": "Then your \u001b[38;5;121mfear and terror\u001b[0m will go away. ",
+            "matched": true
+          },
+          "sn11.3:6.2": {
+            "scid": "sn11.3:6.2",
+            "pli": "Īsānassa hi vo devarājassa dhajaggaṁ ullokayataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyissatī’ti. ",
+            "en": "Then your \u001b[38;5;121mfear and terror\u001b[0m will go away.’ ",
+            "matched": true
+          },
+          "sn11.3:7.1": {
+            "scid": "sn11.3:7.1",
+            "pli": "Taṁ kho pana, bhikkhave, sakkassa vā devānamindassa dhajaggaṁ ullokayataṁ, pajāpatissa vā devarājassa dhajaggaṁ ullokayataṁ, varuṇassa vā devarājassa dhajaggaṁ ullokayataṁ, īsānassa vā devarājassa dhajaggaṁ ullokayataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyethāpi nopi pahīyetha. ",
+            "en": "However, when they look up at those banner’s crests their \u001b[38;5;121mfear and terror\u001b[0m might go away or it might not. ",
+            "matched": true
+          },
+          "sn11.3:9.4": {
+            "scid": "sn11.3:9.4",
+            "pli": "Mamañhi vo, bhikkhave, anussarataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyissati. ",
+            "en": "Then your \u001b[38;5;121mfear and terror\u001b[0m will go away. ",
+            "matched": true
+          },
+          "sn11.3:10.3": {
+            "scid": "sn11.3:10.3",
+            "pli": "Dhammañhi vo, bhikkhave, anussarataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyissati. ",
+            "en": "Then your \u001b[38;5;121mfear and terror\u001b[0m will go away. ",
+            "matched": true
+          },
+          "sn11.3:11.3": {
+            "scid": "sn11.3:11.3",
+            "pli": "Saṅghañhi vo, bhikkhave, anussarataṁ yaṁ bhavissati bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, so pahīyissati. ",
+            "en": "Then your \u001b[38;5;121mfear and terror\u001b[0m will go away. ",
+            "matched": true
+          },
+          "sn11.3:16.3": {
+            "scid": "sn11.3:16.3",
+            "pli": "Bhayaṁ vā chambhitattaṁ vā, ",
+            "en": "\u001b[38;5;121mfear and terror\u001b[0m ",
+            "matched": true
+          }
+        },
+        "score": 9.176,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 9,
+        "langSegs": {
+          "pli": 51,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn6_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn6",
+        "lang": "en",
+        "segMap": {
+          "mn6:8.1": {
+            "scid": "mn6:8.1",
+            "pli": "Ākaṅkheyya ce, bhikkhave, bhikkhu: ‘bhayabheravasaho assaṁ, na ca maṁ bhayabheravaṁ saheyya, uppannaṁ bhayabheravaṁ abhibhuyya abhibhuyya vihareyyan’ti, sīlesvevassa paripūrakārī …pe… brūhetā suññāgārānaṁ. #6",
+            "en": "A mendicant might wish: ‘May I prevail over \u001b[38;5;121mfear and terror\u001b[0m, and may fear and dread not prevail over me. May I live having mastered fear and dread whenever they arose.’ So let them fulfill their precepts … ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn4",
+        "lang": "en",
+        "segMap": {
+          "mn4:20.12": {
+            "scid": "mn4:20.12",
+            "pli": "‘kiṁ nu kho ahaṁ aññadatthu bhayapaṭikaṅkhī viharāmi? ",
+            "en": "‘Why do I always meditate expecting that \u001b[38;5;121mfear and terror\u001b[0m to come? ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 164,
+          "en": 163
+        }
+      }
+    ]
+  }
+}

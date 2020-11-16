@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sich vermischen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sich vermischen",
+    "elapsed": 0.005,
+    "method": "phrase",
+    "resultPattern": "\\bsich vermischen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an2.1-10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.1-10",
+        "lang": "de",
+        "segMap": {
+          "an2.9:1.5": {
+            "scid": "an2.9:1.5",
+            "pli": "Sambhedaṁ loko agamissa, yathā ajeḷakā kukkuṭasūkarā soṇasiṅgālā. ",
+            "de": "Die Welt würde \u001b[38;5;121msich vermischen\u001b[0m wie Ziegen und Schafe, Hühner und Schweine, Hunde und Schakale. ",
+            "en": "The world would become promiscuous, like goats and sheep, chickens and pigs, and dogs and jackals. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 126,
+          "de": 124,
+          "en": 124
+        }
+      }
+    ]
+  }
+}

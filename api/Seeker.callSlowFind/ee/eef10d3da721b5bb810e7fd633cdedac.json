@@ -1,0 +1,74 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "develop immersion in three ways",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "develop immersion in three ways",
+    "elapsed": 0.022,
+    "method": "phrase",
+    "resultPattern": "\\bdevelop immersion in three ways",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn128/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "en",
+        "segMap": {
+          "mn128:31.3": {
+            "scid": "mn128:31.3",
+            "pli": "Handa dānāhaṁ tividhena samādhiṁ bhāvemī’ti. ",
+            "en": "Now let me \u001b[38;5;121mdevelop immersion in three ways\u001b[0m.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 281,
+          "en": 280
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "the eye is burning",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "the eye is burning",
+    "elapsed": 0.005,
+    "method": "phrase",
+    "resultPattern": "\\bthe eye is burning",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.28_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.28_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn35.28/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.28_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.28_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.28",
+        "lang": "en",
+        "segMap": {
+          "sn35.28:1.5": {
+            "scid": "sn35.28:1.5",
+            "pli": "Cakkhu, bhikkhave, ādittaṁ, rūpā ādittā, cakkhuviññāṇaṁ ādittaṁ, cakkhusamphasso āditto. Yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi ādittaṁ. ",
+            "en": "\u001b[38;5;121mThe eye is burning\u001b[0m. Sights are burning. Eye consciousness is burning. Eye contact is burning. The painful, pleasant, or neutral feeling that arises conditioned by eye contact is also burning. ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      }
+    ]
+  }
+}

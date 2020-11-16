@@ -1,0 +1,49 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "finding peace",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "finding peace",
+    "elapsed": 0.04,
+    "method": "keywords",
+    "resultPattern": "\\bfinding|\\bpeace",
+    "segsMatched": 0,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag5.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag5.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig5.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thig/thig5.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig9.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thig/thig9.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [],
+    "mlDocs": []
+  }
+}

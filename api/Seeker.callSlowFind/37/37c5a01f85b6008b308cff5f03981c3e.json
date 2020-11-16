@@ -1,0 +1,82 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sehvermögen zügelt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sehvermögen zügelt",
+    "elapsed": 0.021,
+    "method": "keywords",
+    "resultPattern": "\\bsehvermögen|\\bzügelt",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn2/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn2",
+        "lang": "de",
+        "segMap": {
+          "mn2:12.3": {
+            "scid": "mn2:12.3",
+            "pli": "Yañhissa, bhikkhave, cakkhundriyasaṁvaraṁ asaṁvutassa viharato uppajjeyyuṁ āsavā vighātapariḷāhā, cakkhundriyasaṁvaraṁ saṁvutassa viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+            "de": "Denn die bedrängenden, fiebrigen Befleckungen, die entstehen können, wenn man das \u001b[38;5;121mSehvermögen\u001b[0m nicht \u001b[38;5;121mzügelt\u001b[0m, entstehen nicht, wenn man es \u001b[38;5;121mzügelt\u001b[0m. ",
+            "en": "For the distressing and feverish defilements that might arise in someone who lives without restraint of the eye faculty do not arise when there is such restraint. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 125,
+          "de": 124,
+          "en": 124
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2747 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "dhamma|dharma",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "dhamma|dharma",
+    "elapsed": 0.431,
+    "method": "phrase",
+    "resultPattern": "\\bdhamma|dharma",
+    "segsMatched": 196,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.139_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.139_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.139_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.159_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.159_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.159_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.191_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.191_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.191_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.128_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.128_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.131_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.131_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.131_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.48_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.48_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.209_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.209_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.209_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.146_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.146_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.146_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.132_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.132_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.132_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.124_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.124_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.124_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.257_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.257_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.257_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.245_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.245_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.245_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.192_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.192_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.130_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.130_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.130_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.129_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.129_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.129_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.91_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.72_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.72_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.72_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.43_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.11-20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.11-20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.170-187_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig6.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig6.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig6.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig3.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig3.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig3.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig1.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig1.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig1.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag15.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.53_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.53_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.99_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.74_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.73_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.73_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.73_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.59_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.59_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.59_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.233_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.233_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.233_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.133_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.160_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.160_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.160_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.157_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.157_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.157_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.127_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.127_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.127_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.118_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.118_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.118_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.73_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.73_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.73_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.378-393_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.378-393_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.378-393_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.235-247_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.235-247_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.235-247_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn14/de/sabbamitta",
+      "an3.61/de/sabbamitta",
+      "an4.139/de/sabbamitta",
+      "an5.26/de/sabbamitta",
+      "dn33/de/sabbamitta",
+      "sn6.1/de/sabbamitta",
+      "an5.159/de/sabbamitta",
+      "sn56.11/de/sabbamitta",
+      "sn12.16/de/sabbamitta",
+      "an3.30/de/sabbamitta",
+      "an4.191/de/sabbamitta",
+      "an4.128/de/sabbamitta",
+      "an5.131/de/sabbamitta",
+      "an4.48/de/sabbamitta",
+      "an4.33/de/sabbamitta",
+      "mn33/de/sabbamitta",
+      "an8.63/de/sabbamitta",
+      "an5.38/de/sabbamitta",
+      "an5.209/de/sabbamitta",
+      "an5.146/de/sabbamitta",
+      "an5.132/de/sabbamitta",
+      "an5.124/de/sabbamitta",
+      "an4.257/de/sabbamitta",
+      "an4.245/de/sabbamitta",
+      "an4.192/de/sabbamitta",
+      "an4.130/de/sabbamitta",
+      "an4.129/de/sabbamitta",
+      "an3.91/de/sabbamitta",
+      "an3.72/de/sabbamitta",
+      "an3.43/de/sabbamitta",
+      "an3.33/de/sabbamitta",
+      "an3.22/de/sabbamitta",
+      "an2.11-20/de/sabbamitta",
+      "an1.170-187/de/sabbamitta",
+      "sn5.8/de/sabbamitta",
+      "sn5.6/de/sabbamitta",
+      "sn5.2/de/sabbamitta",
+      "sn47.9/de/sabbamitta",
+      "sn12.18/de/sabbamitta",
+      "sn12.17/de/sabbamitta",
+      "sn12.15/de/sabbamitta",
+      "thig6.8/de/sabbamitta",
+      "thig3.8/de/sabbamitta",
+      "thig1.12/de/sabbamitta",
+      "thag15.2/de/sabbamitta",
+      "dn12/de/sabbamitta",
+      "dn10/de/sabbamitta",
+      "an8.53/de/sabbamitta",
+      "an6.43/de/sabbamitta",
+      "an6.42/de/sabbamitta",
+      "an5.99/de/sabbamitta",
+      "an5.74/de/sabbamitta",
+      "an5.73/de/sabbamitta",
+      "an5.60/de/sabbamitta",
+      "an5.59/de/sabbamitta",
+      "an5.35/de/sabbamitta",
+      "an5.30/de/sabbamitta",
+      "an5.233/de/sabbamitta",
+      "an5.133/de/sabbamitta",
+      "an4.8/de/sabbamitta",
+      "an4.198/de/sabbamitta",
+      "an4.160/de/sabbamitta",
+      "an4.157/de/sabbamitta",
+      "an4.127/de/sabbamitta",
+      "an4.118/de/sabbamitta",
+      "an3.73/de/sabbamitta",
+      "an3.70/de/sabbamitta",
+      "an3.63/de/sabbamitta",
+      "an3.60/de/sabbamitta",
+      "an3.36/de/sabbamitta",
+      "an3.14/de/sabbamitta",
+      "an1.378-393/de/sabbamitta",
+      "an1.235-247/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "de",
+        "segMap": {
+          "dn14:1.1.3": {
+            "scid": "dn14:1.1.3",
+            "pli": "Atha kho sambahulānaṁ bhikkhūnaṁ pacchābhattaṁ piṇḍapātapaṭikkantānaṁ karerimaṇḍalamāḷe sannisinnānaṁ sannipatitānaṁ pubbenivāsapaṭisaṁyuttā dhammī kathā udapādi: ",
+            "de": "Da saßen nach dem Essen, als sie vom Almosengang zurückkamen, mehrere altehrwürdige Mönche und Nonnen in der Halle beim Karibaum beisammen, und es kam dieses \u001b[38;5;121mDhamma\u001b[0mgespräch über frühere Leben unter ihnen auf: ",
+            "en": "Then after the meal, on return from alms-round, several senior mendicants sat together in the pavilion by the kari tree and this \u001b[38;5;121mDhamma\u001b[0m talk on the subject of past lives came up among them, ",
+            "matched": true
+          },
+          "dn14:1.3.1": {
+            "scid": "dn14:1.3.1",
+            "pli": "“Iccheyyātha no tumhe, bhikkhave, pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ sotun”ti? ",
+            "de": "„Würdet ihr gerne einen \u001b[38;5;121mDhamma\u001b[0mvortrag über frühere Leben hören?“ ",
+            "en": "“Would you like to hear a \u001b[38;5;121mDhamma\u001b[0m talk on the subject of past lives?” ",
+            "matched": true
+          },
+          "dn14:1.3.3": {
+            "scid": "dn14:1.3.3",
+            "pli": "yaṁ bhagavā pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ kareyya, bhagavato sutvā bhikkhū dhāressantī”ti. ",
+            "de": "Der Buddha mag einen \u001b[38;5;121mDhamma\u001b[0mvortrag über frühere Leben halten. Die Mönche und Nonnen werden zuhören und ihn sich merken.“ ",
+            "en": "Let the Buddha give a \u001b[38;5;121mDhamma\u001b[0m talk on the subject of past lives. The mendicants will listen and remember it.” ",
+            "matched": true
+          },
+          "dn14:1.15.5": {
+            "scid": "dn14:1.15.5",
+            "pli": "Iccheyyātha no tumhe, bhikkhave, bhiyyoso mattāya pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ sotun”ti? ",
+            "de": "Würdet ihr gerne einen weiteren \u001b[38;5;121mDhamma\u001b[0mvortrag über frühere Leben hören?“ ",
+            "en": "Would you like to hear a further \u001b[38;5;121mDhamma\u001b[0m talk on the subject of past lives?” ",
+            "matched": true
+          },
+          "dn14:1.15.7": {
+            "scid": "dn14:1.15.7",
+            "pli": "yaṁ bhagavā bhiyyoso mattāya pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ kareyya, bhagavato sutvā bhikkhū dhāressantī”ti. ",
+            "de": "Der Buddha mag einen weiteren \u001b[38;5;121mDhamma\u001b[0mvortrag über frühere Leben halten. Die Mönche und Nonnen werden zuhören und ihn sich merken.“ ",
+            "en": "Let the Buddha give a further \u001b[38;5;121mDhamma\u001b[0m talk on the subject of past lives. The mendicants will listen and remember it.” ",
+            "matched": true
+          },
+          "dn14:3.1.2": {
+            "scid": "dn14:3.1.2",
+            "pli": "‘yannūnāhaṁ \u001b[38;5;121mdhamma\u001b[0mṁ deseyyan’ti. ",
+            "de": "‚Warum lehre ich nicht den \u001b[38;5;121mDhamma\u001b[0m?‘ ",
+            "en": "‘Why don’t I teach the \u001b[38;5;121mDhamma\u001b[0m?’ ",
+            "matched": true
+          },
+          "dn14:3.1.8": {
+            "scid": "dn14:3.1.8",
+            "pli": "Ahañceva kho pana \u001b[38;5;121mdhamma\u001b[0mṁ deseyyaṁ, pare ca me na ājāneyyuṁ; so mamassa kilamatho, sā mamassa vihesā’ti. ",
+            "de": "Wenn ich den \u001b[38;5;121mDhamma\u001b[0m lehren würde, würden andere mich vielleicht nicht verstehen, und das wäre ermüdend und beschwerlich für mich.‘ ",
+            "en": "And if I were to teach the \u001b[38;5;121mDhamma\u001b[0m, others might not understand me, which would be wearying and troublesome for me.’ ",
+            "matched": true
+          },
+          "dn14:3.2.10": {
+            "scid": "dn14:3.2.10",
+            "pli": "Itiha, bhikkhave, vipassissa bhagavato arahato sammāsambuddhassa paṭisañcikkhato appossukkatāya cittaṁ nami, no \u001b[38;5;121mdhamma\u001b[0mdesanāya. ",
+            "de": "Und als der Buddha Vipassī so nachdachte, neigte sein Geist dazu, untätig zu bleiben, nicht dazu, den \u001b[38;5;121mDhamma\u001b[0m zu lehren. ",
+            "en": "So, as the Buddha Vipassī reflected like this, his mind inclined to remaining passive, not to teaching the \u001b[38;5;121mDhamma\u001b[0m. ",
+            "matched": true
+          },
+          "dn14:3.2.12": {
+            "scid": "dn14:3.2.12",
+            "pli": "‘nassati vata bho loko, vinassati vata bho loko, yatra hi nāma vipassissa bhagavato arahato sammāsambuddhassa appossukkatāya cittaṁ namati, no \u001b[38;5;121mdhamma\u001b[0mdesanāyā’ti. ",
+            "de": "‚Du lieber Himmel! Die Welt ist verloren, die Welt geht unter! Denn der Geist Vipassīs des Gesegneten, des Vollendeten, des vollkommen erwachten Buddha neigt dazu, untätig zu bleiben, nicht dazu, den \u001b[38;5;121mDhamma\u001b[0m zu lehren.‘ ",
+            "en": "‘Oh my goodness! The world will be lost, the world will perish! For the mind of the Realized One Vipassī, the perfected one, the fully awakened Buddha, inclines to remaining passive, not to teaching the \u001b[38;5;121mDhamma\u001b[0m.’ ",
+            "matched": true
+          },
+          "dn14:3.3.2": {
+            "scid": "dn14:3.3.2",
+            "pli": "‘desetu, bhante, bhagavā \u001b[38;5;121mdhamma\u001b[0mṁ, desetu sugato \u001b[38;5;121mdhamma\u001b[0mṁ, ",
+            "de": "‚Herr, der Buddha lehre doch den \u001b[38;5;121mDhamma\u001b[0m! Der Heilige lehre doch den \u001b[38;5;121mDhamma\u001b[0m! ",
+            "en": "‘Sir, let the Blessed One teach the \u001b[38;5;121mDhamma\u001b[0m! Let the Holy One teach the \u001b[38;5;121mDhamma\u001b[0m! ",
+            "matched": true
+          },
+          "dn14:3.4.3": {
+            "scid": "dn14:3.4.3",
+            "pli": "“yannūnāhaṁ \u001b[38;5;121mdhamma\u001b[0mṁ deseyyan”ti. ",
+            "de": "„Warum lehre ich nicht den \u001b[38;5;121mDhamma\u001b[0m?“ ",
+            "en": "“Why don’t I teach the \u001b[38;5;121mDhamma\u001b[0m?” ",
+            "matched": true
+          },
+          "dn14:3.4.9": {
+            "scid": "dn14:3.4.9",
+            "pli": "Ahañceva kho pana \u001b[38;5;121mdhamma\u001b[0mṁ deseyyaṁ, pare ca me na ājāneyyuṁ; so mamassa kilamatho, sā mamassa vihesā”ti. ",
+            "de": "„Wenn ich den \u001b[38;5;121mDhamma\u001b[0m lehren würde, würden andere mich vielleicht nicht verstehen, und das wäre ermüdend und beschwerlich für mich.“ ",
+            "en": "“If I were to teach the \u001b[38;5;121mDhamma\u001b[0m, others might not understand me, which would be wearying and troublesome for me.” ",
+            "matched": true
+          },
+          "dn14:3.4.19": {
+            "scid": "dn14:3.4.19",
+            "pli": "Itiha me, brahme, paṭisañcikkhato appossukkatāya cittaṁ nami, no \u001b[38;5;121mdhamma\u001b[0mdesanāyā’ti. ",
+            "de": "Daher neigte mein Geist, als ich so nachdachte, dazu, untätig zu bleiben, nicht dazu, den \u001b[38;5;121mDhamma\u001b[0m zu lehren.‘ ",
+            "en": "So, as I reflected like this, my mind inclined to remaining passive, not to teaching the \u001b[38;5;121mDhamma\u001b[0m.’ ",
+            "matched": true
+          },
+          "dn14:3.7.10": {
+            "scid": "dn14:3.7.10",
+            "pli": "Desassu bhagavā \u001b[38;5;121mdhamma\u001b[0mṁ, ",
+            "de": "Der Buddha lehre doch den \u001b[38;5;121mDhamma\u001b[0m! ",
+            "en": "Let the Blessed One teach the \u001b[38;5;121mDhamma\u001b[0m! ",
+            "matched": true
+          },
+          "dn14:3.7.16": {
+            "scid": "dn14:3.7.16",
+            "pli": "\u001b[38;5;121mDhamma\u001b[0mṁ paṇītaṁ manujesu brahme’ti. ",
+            "de": "den scharfsinnigen, erhabenen \u001b[38;5;121mDhamma\u001b[0m nicht unter den Menschen gelehrt.‘ ",
+            "en": "the sophisticated, sublime \u001b[38;5;121mDhamma\u001b[0m among humans.’ ",
+            "matched": true
+          },
+          "dn14:3.7.17": {
+            "scid": "dn14:3.7.17",
+            "pli": "Atha kho so, bhikkhave, mahābrahmā: ‘katāvakāso khomhi vipassinā bhagavatā arahatā sammāsambuddhena \u001b[38;5;121mdhamma\u001b[0mdesanāyā’ti vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā padakkhiṇaṁ katvā tattheva antaradhāyi. ",
+            "de": "Und als der Große Brahmā wusste, dass seiner Aufforderung, dass der Buddha Vipassī den \u001b[38;5;121mDhamma\u001b[0m lehre, stattgegeben war, verbeugte er sich, umrundete ihn respektvoll, die rechte Seite ihm zugewandt, und verschwand von dort, wo er stand. ",
+            "en": "Then the Great Brahmā, knowing that his request for the Buddha Vipassī to teach the \u001b[38;5;121mDhamma\u001b[0m had been granted, bowed and respectfully circled him, keeping him on his right, before vanishing right there. ",
+            "matched": true
+          },
+          "dn14:3.11.6": {
+            "scid": "dn14:3.11.6",
+            "pli": "evameva khaṇḍassa ca rājaputtassa tissassa ca purohitaputtassa tasmiṁyeva āsane virajaṁ vītamalaṁ \u001b[38;5;121mdhamma\u001b[0mcakkhuṁ udapādi: ",
+            "de": "ebenso ging da Khaṇḍa, dem Sohn des Königs, und Tissa, dem Sohn des Oberpriesters, da, wo sie saßen, das unbefleckte, makellose Auge des \u001b[38;5;121mDhamma\u001b[0m auf: ",
+            "en": "in that very seat the stainless, immaculate vision of the \u001b[38;5;121mDhamma\u001b[0m arose in the king’s son Khaṇḍa and the high priest’s son Tissa: ",
+            "matched": true
+          },
+          "dn14:3.12.1": {
+            "scid": "dn14:3.12.1",
+            "pli": "Te diṭṭhadhammā pattadhammā viditadhammā pariyogāḷhadhammā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavocuṁ: ",
+            "de": "Sie sahen, erfassten, verstanden und ergründeten den \u001b[38;5;121mDhamma\u001b[0m. Sie gingen über den Zweifel hinaus, machten sich von Unschlüssigkeit los und gewannen Selbstvertrauen, wurden in der Anleitung des Lehrers von anderen unabhängig. Sie sagten zum Buddha Vipassī: ",
+            "en": "They saw, attained, understood, and fathomed the \u001b[38;5;121mDhamma\u001b[0m. They went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. They said to the Buddha Vipassī, ",
+            "matched": true
+          },
+          "dn14:3.13.2": {
+            "scid": "dn14:3.13.2",
+            "pli": "Te vipassī bhagavā arahaṁ sammāsambuddho dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi; ",
+            "de": "Dann leitete der Buddha Vipassī sie mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag an, ermunterte sie, begeisterte sie und regte sie an. ",
+            "en": "Then the Buddha Vipassī educated, encouraged, fired up, and inspired them with a \u001b[38;5;121mDhamma\u001b[0m talk. ",
+            "matched": true
+          },
+          "dn14:3.15.6": {
+            "scid": "dn14:3.15.6",
+            "pli": "evameva tesaṁ caturāsītipāṇasahassānaṁ tasmiṁyeva āsane virajaṁ vītamalaṁ \u001b[38;5;121mdhamma\u001b[0mcakkhuṁ udapādi: ",
+            "de": "ebenso ging da diesen 84.000 Menschen da, wo sie saßen, das unbefleckte, makellose Auge des \u001b[38;5;121mDhamma\u001b[0m auf: ",
+            "en": "in that very seat the stainless, immaculate vision of the \u001b[38;5;121mDhamma\u001b[0m arose in those 84,000 people: ",
+            "matched": true
+          },
+          "dn14:3.16.1": {
+            "scid": "dn14:3.16.1",
+            "pli": "Te diṭṭhadhammā pattadhammā viditadhammā pariyogāḷhadhammā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavocuṁ: ",
+            "de": "Sie sahen, erfassten, verstanden und ergründeten den \u001b[38;5;121mDhamma\u001b[0m. Sie gingen über den Zweifel hinaus, machten sich von Unschlüssigkeit los und gewannen Selbstvertrauen, wurden in der Anleitung des Lehrers von anderen unabhängig. Sie sagten zum Buddha Vipassī: ",
+            "en": "They saw, attained, understood, and fathomed the \u001b[38;5;121mDhamma\u001b[0m. They went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. They said to the Buddha Vipassī, ",
+            "matched": true
+          },
+          "dn14:3.18.2": {
+            "scid": "dn14:3.18.2",
+            "pli": "‘vipassī kira bhagavā arahaṁ sammāsambuddho bandhumatiṁ rājadhāniṁ anuppatto kheme migadāye viharati, \u001b[38;5;121mdhamma\u001b[0mñca kira desetī’ti. ",
+            "de": "‚Es scheint, Vipassī der Gesegnete, der Vollendete, der vollkommen erwachte Buddha ist in Bandhumatī angekommen und hält sich im Wildpark mit dem Namen Geborgenheit auf. Und er lehrt den \u001b[38;5;121mDhamma\u001b[0m!‘ ",
+            "en": "‘It seems the Blessed One Vipassī, the perfected one, the fully awakened Buddha, has arrived at Bandhumatī and is staying in the deer park named Sanctuary. And he is teaching the \u001b[38;5;121mDhamma\u001b[0m!’ ",
+            "matched": true
+          },
+          "dn14:3.19.6": {
+            "scid": "dn14:3.19.6",
+            "pli": "evameva tesaṁ caturāsītipabbajitasahassānaṁ tasmiṁyeva āsane virajaṁ vītamalaṁ \u001b[38;5;121mdhamma\u001b[0mcakkhuṁ udapādi: ",
+            "de": "ebenso ging da diesen 84.000 Menschen da, wo sie saßen, das unbefleckte, makellose Auge des \u001b[38;5;121mDhamma\u001b[0m auf: ",
+            "en": " ",
+            "matched": true
+          },
+          "dn14:3.22.6": {
+            "scid": "dn14:3.22.6",
+            "pli": "desetha, bhikkhave, \u001b[38;5;121mdhamma\u001b[0mṁ ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
+            "de": "Lehrt den \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und legt eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "Teach the \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          },
+          "dn14:3.26.3": {
+            "scid": "dn14:3.26.3",
+            "pli": "desetha, bhikkhave, \u001b[38;5;121mdhamma\u001b[0mṁ ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
+            "de": "Lehrt den \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und legt eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "Teach the \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          },
+          "dn14:3.29.18": {
+            "scid": "dn14:3.29.18",
+            "pli": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa evaṁ abhinikkhamanaṁ ahosi evaṁ pabbajjā evaṁ padhānaṁ evaṁ abhisambodhi evaṁ \u001b[38;5;121mdhamma\u001b[0mcakkappavattanaṁ. ",
+            "de": "Und so war seine Entsagung, so sein Fortziehen, so seine Anstrengung, so sein Erwachen, und so brachte er das Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen. ",
+            "en": "And such was his renunciation, such his going forth, such his striving, such his awakening, and such his rolling forth of the wheel of \u001b[38;5;121mDhamma\u001b[0m. ",
+            "matched": true
+          },
+          "dn14:3.30.13": {
+            "scid": "dn14:3.30.13",
+            "pli": "Bhagavato, mārisā, evaṁ abhinikkhamanaṁ ahosi evaṁ pabbajjā evaṁ padhānaṁ evaṁ abhisambodhi evaṁ \u001b[38;5;121mdhamma\u001b[0mcakkappavattanaṁ. ",
+            "de": "Und so war deine Entsagung, so dein Fortziehen, so deine Anstrengung, so dein Erwachen, und so brachtest du das Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen. ",
+            "en": "And such was your renunciation, such your going forth, such your striving, such your awakening, and such your rolling forth of the wheel of \u001b[38;5;121mDhamma\u001b[0m. ",
+            "matched": true
+          }
+        },
+        "score": 27.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 27,
+        "langSegs": {
+          "pli": 851,
+          "de": 689,
+          "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.61",
+        "lang": "de",
+        "segMap": {
+          "an3.61:9.1": {
+            "scid": "an3.61:9.1",
+            "pli": "Ayaṁ kho pana, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "Aber der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe, kann nicht widerlegt werden, ist unbefleckt, über jede Kritik erhaben und wird von vernünftigen Asketen und Brahmanen nicht verachtet. ",
+            "en": "But the \u001b[38;5;121mDhamma\u001b[0m that I’ve taught is irrefutable, uncorrupted, beyond reproach, and not scorned by sensible ascetics and brahmins. ",
+            "matched": true
+          },
+          "an3.61:9.2": {
+            "scid": "an3.61:9.2",
+            "pli": "Katamo ca, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhi? ",
+            "de": "Was ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe? ",
+            "en": "What is the \u001b[38;5;121mDhamma\u001b[0m that I’ve taught? ",
+            "matched": true
+          },
+          "an3.61:9.3": {
+            "scid": "an3.61:9.3",
+            "pli": "Imā cha dhātuyoti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "‚Das sind die sechs Elemente‘: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe … ",
+            "en": "‘These are the six elements’: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught … ",
+            "matched": true
+          },
+          "an3.61:9.4": {
+            "scid": "an3.61:9.4",
+            "pli": "Imāni cha phassāyatanānīti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "‚Das sind die sechs Berührungsfelder‘: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe … ",
+            "en": "‘These are the six fields of contact’: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught … ",
+            "matched": true
+          },
+          "an3.61:9.5": {
+            "scid": "an3.61:9.5",
+            "pli": "Ime aṭṭhārasa manopavicārāti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "‚Das sind die achtzehn Arten, wie der Geist absorbiert sein kann‘: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe … ",
+            "en": "‘These are the eighteen mental preoccupations’: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught … ",
+            "matched": true
+          },
+          "an3.61:9.6": {
+            "scid": "an3.61:9.6",
+            "pli": "Imāni cattāri ariyasaccānīti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "‚Das sind die vier edlen Wahrheiten‘: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe. Er kann nicht widerlegt werden, ist unbefleckt, über jede Kritik erhaben und wird von vernünftigen Asketen und Brahmanen nicht verachtet. ",
+            "en": "‘These are the four noble truths’: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught that is irrefutable, uncorrupted, beyond reproach, and is not scorned by sensible ascetics and brahmins. ",
+            "matched": true
+          },
+          "an3.61:10.1": {
+            "scid": "an3.61:10.1",
+            "pli": "Imā cha dhātuyoti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die sechs Elemente“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the six elements”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:10.6": {
+            "scid": "an3.61:10.6",
+            "pli": "Imā cha dhātuyoti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die sechs Elemente“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the six elements”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:11.1": {
+            "scid": "an3.61:11.1",
+            "pli": "Imāni cha phassāyatanānīti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die sechs Berührungsfelder“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the six fields of contact”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:11.6": {
+            "scid": "an3.61:11.6",
+            "pli": "Imāni cha phassāyatanānīti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die sechs Berührungsfelder“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the six fields of contact”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:12.1": {
+            "scid": "an3.61:12.1",
+            "pli": "Ime aṭṭhārasa manopavicārāti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die achtzehn Arten, wie der Geist absorbiert sein kann“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the eighteen mental preoccupations”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:12.10": {
+            "scid": "an3.61:12.10",
+            "pli": "Ime aṭṭhārasa manopavicārāti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die achtzehn Arten, wie der Geist absorbiert sein kann“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the eighteen mental preoccupations”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:13.1": {
+            "scid": "an3.61:13.1",
+            "pli": "Imāni cattāri ariyasaccānīti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die vier edlen Wahrheiten“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the four noble truths”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:17.5": {
+            "scid": "an3.61:17.5",
+            "pli": "‘Imāni cattāri ariyasaccānī’ti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die vier edlen Wahrheiten“: Das ist der \u001b[38;5;121mDhamma\u001b[0m, den ich gelehrt habe. Er kann nicht widerlegt werden, ist unbefleckt, über jede Kritik erhaben und wird von vernünftigen Asketen und Brahmanen nicht verachtet.‘ ",
+            "en": "‘“These are the four noble truths”: this is the \u001b[38;5;121mDhamma\u001b[0m I’ve taught that is irrefutable, uncorrupted, beyond reproach, and is not scorned by sensible ascetics and brahmins.’ ",
+            "matched": true
+          }
+        },
+        "score": 14.12,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 14,
+        "langSegs": {
+          "pli": 117,
+          "de": 116,
+          "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.139_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.139_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.139_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.139",
+        "lang": "de",
+        "segMap": {
+          "an4.139:0.3": {
+            "scid": "an4.139:0.3",
+            "pli": "139. \u001b[38;5;121mDhamma\u001b[0mkathikasutta ",
+            "de": "139. \u001b[38;5;121mDhamma\u001b[0mlehrer ",
+            "en": "139. \u001b[38;5;121mDhamma\u001b[0m Speakers ",
+            "matched": true
+          },
+          "an4.139:1.1": {
+            "scid": "an4.139:1.1",
+            "pli": "“Cattārome, bhikkhave, \u001b[38;5;121mdhamma\u001b[0mkathikā. ",
+            "de": "„Mönche und Nonnen, es gibt diese vier \u001b[38;5;121mDhamma\u001b[0mlehrer. ",
+            "en": "“Mendicants, there are these four \u001b[38;5;121mDhamma\u001b[0m speakers. ",
+            "matched": true
+          },
+          "an4.139:1.3": {
+            "scid": "an4.139:1.3",
+            "pli": "Idha, bhikkhave, ekacco \u001b[38;5;121mdhamma\u001b[0mkathiko appañca bhāsati asahitañca; ",
+            "de": "Ein \u001b[38;5;121mDhamma\u001b[0mlehrer spricht wenig und bleibt nicht beim Thema. ",
+            "en": "One \u001b[38;5;121mDhamma\u001b[0m speaker speaks little and off topic. ",
+            "matched": true
+          },
+          "an4.139:1.5": {
+            "scid": "an4.139:1.5",
+            "pli": "Evarūpo, bhikkhave, \u001b[38;5;121mdhamma\u001b[0mkathiko evarūpāya parisāya \u001b[38;5;121mdhamma\u001b[0mkathikotveva saṅkhaṁ gacchati. ",
+            "de": "Ein solcher \u001b[38;5;121mDhamma\u001b[0mlehrer gilt einer solchen Zuhörerschaft als \u001b[38;5;121mDhamma\u001b[0mlehrer. ",
+            "en": "Such an assembly regards such a \u001b[38;5;121mDhamma\u001b[0m speaker simply as a \u001b[38;5;121mDhamma\u001b[0m speaker. ",
+            "matched": true
+          },
+          "an4.139:2.1": {
+            "scid": "an4.139:2.1",
+            "pli": "Idha pana, bhikkhave, ekacco \u001b[38;5;121mdhamma\u001b[0mkathiko appañca bhāsati sahitañca; ",
+            "de": "Ein \u001b[38;5;121mDhamma\u001b[0mlehrer spricht wenig, aber bleibt beim Thema. ",
+            "en": "One \u001b[38;5;121mDhamma\u001b[0m speaker speaks little but stays on topic. ",
+            "matched": true
+          },
+          "an4.139:2.3": {
+            "scid": "an4.139:2.3",
+            "pli": "Evarūpo, bhikkhave, \u001b[38;5;121mdhamma\u001b[0mkathiko evarūpāya parisāya \u001b[38;5;121mdhamma\u001b[0mkathikotveva saṅkhaṁ gacchati. ",
+            "de": "Ein solcher \u001b[38;5;121mDhamma\u001b[0mlehrer gilt einer solchen Zuhörerschaft als \u001b[38;5;121mDhamma\u001b[0mlehrer. ",
+            "en": "Such an assembly regards such a \u001b[38;5;121mDhamma\u001b[0m speaker simply as a \u001b[38;5;121mDhamma\u001b[0m speaker. ",
+            "matched": true
+          },
+          "an4.139:3.1": {
+            "scid": "an4.139:3.1",
+            "pli": "Idha pana, bhikkhave, ekacco \u001b[38;5;121mdhamma\u001b[0mkathiko bahuñca bhāsati asahitañca; ",
+            "de": "Ein \u001b[38;5;121mDhamma\u001b[0mlehrer spricht viel, aber bleibt nicht beim Thema. ",
+            "en": "One \u001b[38;5;121mDhamma\u001b[0m speaker speaks much but off topic. ",
+            "matched": true
+          },
+          "an4.139:3.3": {
+            "scid": "an4.139:3.3",
+            "pli": "Evarūpo, bhikkhave, \u001b[38;5;121mdhamma\u001b[0mkathiko evarūpāya parisāya \u001b[38;5;121mdhamma\u001b[0mkathikotveva saṅkhaṁ gacchati. ",
+            "de": "Ein solcher \u001b[38;5;121mDhamma\u001b[0mlehrer gilt einer solchen Zuhörerschaft als \u001b[38;5;121mDhamma\u001b[0mlehrer. ",
+            "en": "Such an assembly regards such a \u001b[38;5;121mDhamma\u001b[0m speaker simply as a \u001b[38;5;121mDhamma\u001b[0m speaker. ",
+            "matched": true
+          },
+          "an4.139:4.1": {
+            "scid": "an4.139:4.1",
+            "pli": "Idha pana, bhikkhave, ekacco \u001b[38;5;121mdhamma\u001b[0mkathiko bahuñca bhāsati sahitañca; ",
+            "de": "Ein \u001b[38;5;121mDhamma\u001b[0mlehrer spricht viel und bleibt beim Thema. ",
+            "en": "One \u001b[38;5;121mDhamma\u001b[0m speaker speaks much and stays on topic. ",
+            "matched": true
+          },
+          "an4.139:4.3": {
+            "scid": "an4.139:4.3",
+            "pli": "Evarūpo, bhikkhave, \u001b[38;5;121mdhamma\u001b[0mkathiko evarūpāya parisāya \u001b[38;5;121mdhamma\u001b[0mkathikotveva saṅkhaṁ gacchati. ",
+            "de": "Ein solcher \u001b[38;5;121mDhamma\u001b[0mlehrer gilt einer solchen Zuhörerschaft als \u001b[38;5;121mDhamma\u001b[0mlehrer. ",
+            "en": "Such an assembly regards such a \u001b[38;5;121mDhamma\u001b[0m speaker simply as a \u001b[38;5;121mDhamma\u001b[0m speaker. ",
+            "matched": true
+          },
+          "an4.139:4.4": {
+            "scid": "an4.139:4.4",
+            "pli": "Ime kho, bhikkhave, cattāro \u001b[38;5;121mdhamma\u001b[0mkathikā”ti. ",
+            "de": "Das sind die vier \u001b[38;5;121mDhamma\u001b[0mlehrer.“ ",
+            "en": "These are the four \u001b[38;5;121mDhamma\u001b[0m speakers.” ",
+            "matched": true
+          }
+        },
+        "score": 11.579,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 11,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.26",
+        "lang": "de",
+        "segMap": {
+          "an5.26:2.2": {
+            "scid": "an5.26:2.2",
+            "pli": "Idha, bhikkhave, bhikkhuno satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti aññataro vā garuṭṭhāniyo sabrahmacārī. ",
+            "de": "Da lehrt der Lehrer oder eine angesehene geistliche Gefährtin eine Nonne den \u001b[38;5;121mDhamma\u001b[0m. ",
+            "en": "Firstly, the Teacher or a respected spiritual companion teaches \u001b[38;5;121mDhamma\u001b[0m to a mendicant. ",
+            "matched": true
+          },
+          "an5.26:2.3": {
+            "scid": "an5.26:2.3",
+            "pli": "Yathā yathā, bhikkhave, tassa bhikkhuno satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti, aññataro vā garuṭṭhāniyo sabrahmacārī tathā tathā so tasmiṁ dhamme atthapaṭisaṁvedī ca hoti \u001b[38;5;121mdhamma\u001b[0mpaṭisaṁvedī ca. ",
+            "de": "Diese Nonne ist ergriffen von der Bedeutung und der Lehre in diesem \u001b[38;5;121mDhamma\u001b[0m, ganz gleich, wie der Lehrer oder die angesehene geistliche Gefährtin ihn lehrt. ",
+            "en": "That mendicant feels inspired by the meaning and the teaching in that \u001b[38;5;121mDhamma\u001b[0m, no matter how the Teacher or a respected spiritual companion teaches it. ",
+            "matched": true
+          },
+          "an5.26:3.1": {
+            "scid": "an5.26:3.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhuno na heva kho satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti, aññataro vā garuṭṭhāniyo sabrahmacārī, api ca kho yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ deseti. ",
+            "de": "Weiterhin kann es sein, dass weder der Lehrer noch eine angesehene geistliche Gefährtin eine Nonne den \u001b[38;5;121mDhamma\u001b[0m lehrt. Aber die Nonne lehrt andere ausführlich den \u001b[38;5;121mDhamma\u001b[0m, wie sie ihn gehört und sich eingeprägt hat. ",
+            "en": "Furthermore, it may be that neither the Teacher nor a respected spiritual companion teaches \u001b[38;5;121mDhamma\u001b[0m to a mendicant. But the mendicant teaches \u001b[38;5;121mDhamma\u001b[0m in detail to others as they learned and memorized it. ",
+            "matched": true
+          },
+          "an5.26:3.2": {
+            "scid": "an5.26:3.2",
+            "pli": "Yathā yathā, bhikkhave, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ deseti tathā tathā so tasmiṁ dhamme atthapaṭisaṁvedī ca hoti \u001b[38;5;121mdhamma\u001b[0mpaṭisaṁvedī ca. ",
+            "de": "Diese Nonne ist ergriffen von der Bedeutung und der Lehre in diesem \u001b[38;5;121mDhamma\u001b[0m, ganz gleich, wie sie das, was sie gehört und sich eingeprägt hat, andere ausführlich lehrt. ",
+            "en": "That mendicant feels inspired by the meaning and the teaching in that \u001b[38;5;121mDhamma\u001b[0m, no matter how they teach it in detail to others as they learned and memorized it. ",
+            "matched": true
+          },
+          "an5.26:4.1": {
+            "scid": "an5.26:4.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhuno na heva kho satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti, aññataro vā garuṭṭhāniyo sabrahmacārī, nāpi yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ deseti, api ca kho yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena sajjhāyaṁ karoti. ",
+            "de": "Weiterhin kann es sein, dass weder der Lehrer noch … die Nonne den \u001b[38;5;121mDhamma\u001b[0m lehrt. Aber die Nonne sagt die Lehre ausführlich auf, wie sie sie gehört und sich eingeprägt hat. ",
+            "en": "Furthermore, it may be that neither the Teacher nor … the mendicant teaches \u001b[38;5;121mDhamma\u001b[0m. But the mendicant recites the teaching in detail as they learned and memorized it. ",
+            "matched": true
+          },
+          "an5.26:4.2": {
+            "scid": "an5.26:4.2",
+            "pli": "Yathā yathā, bhikkhave, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena sajjhāyaṁ karoti tathā tathā so tasmiṁ dhamme atthapaṭisaṁvedī ca hoti \u001b[38;5;121mdhamma\u001b[0mpaṭisaṁvedī ca. ",
+            "de": "Diese Nonne ist ergriffen von der Bedeutung und der Lehre in diesem \u001b[38;5;121mDhamma\u001b[0m, ganz gleich, wie sie das, was sie gehört und sich eingeprägt hat, ausführlich aufsagt. ",
+            "en": "That mendicant feels inspired by the meaning and the teaching in that \u001b[38;5;121mDhamma\u001b[0m, no matter how they recite it in detail as they learned and memorized it. ",
+            "matched": true
+          },
+          "an5.26:5.1": {
+            "scid": "an5.26:5.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhuno na heva kho satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti, aññataro vā garuṭṭhāniyo sabrahmacārī, nāpi yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ deseti, nāpi yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena sajjhāyaṁ karoti; ",
+            "de": "Weiterhin kann es sein, dass weder der Lehrer noch … die Nonne den \u001b[38;5;121mDhamma\u001b[0m lehrt … noch sagt die Nonne die Lehre auf. ",
+            "en": "Furthermore, it may be that neither the Teacher nor … the mendicant teaches \u001b[38;5;121mDhamma\u001b[0m … nor does the mendicant recite the teaching. ",
+            "matched": true
+          },
+          "an5.26:5.3": {
+            "scid": "an5.26:5.3",
+            "pli": "Yathā yathā, bhikkhave, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ cetasā anuvitakketi anuvicāreti manasānupekkhati tathā tathā so tasmiṁ dhamme atthapaṭisaṁvedī ca hoti \u001b[38;5;121mdhamma\u001b[0mpaṭisaṁvedī ca. ",
+            "de": "Diese Nonne ist ergriffen von der Bedeutung und der Lehre in diesem \u001b[38;5;121mDhamma\u001b[0m, ganz gleich, wie sie über das, was sie gehört und sich eingeprägt hat, im Herzen nachdenkt und es erwägt und es mit dem Geist untersucht. ",
+            "en": "That mendicant feels inspired by the meaning and the teaching in that \u001b[38;5;121mDhamma\u001b[0m, no matter how they think about and consider it in their heart, examining it with the mind as they learned and memorized it. ",
+            "matched": true
+          },
+          "an5.26:6.1": {
+            "scid": "an5.26:6.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhuno na heva kho satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti aññataro vā garuṭṭhāniyo sabrahmacārī, nāpi yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ deseti, nāpi yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena sajjhāyaṁ karoti, nāpi yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ cetasā anuvitakketi anuvicāreti manasānupekkhati; ",
+            "de": "Weiterhin kann es sein, dass weder der Lehrer noch … die Nonne den \u001b[38;5;121mDhamma\u001b[0m lehrt … noch sagt die Nonne die Lehre auf … noch denkt sie darüber nach. ",
+            "en": "Furthermore, it may be that neither the Teacher nor … the mendicant teaches \u001b[38;5;121mDhamma\u001b[0m … nor does the mendicant recite the teaching … or think about it. ",
+            "matched": true
+          },
+          "an5.26:6.3": {
+            "scid": "an5.26:6.3",
+            "pli": "Yathā yathā, bhikkhave, bhikkhuno aññataraṁ samādhinimittaṁ suggahitaṁ hoti sumanasikataṁ sūpadhāritaṁ suppaṭividdhaṁ paññāya tathā tathā so tasmiṁ dhamme atthapaṭisaṁvedī ca hoti \u001b[38;5;121mdhamma\u001b[0mpaṭisaṁvedī ca. ",
+            "de": "Diese Nonne ist ergriffen von der Bedeutung und der Lehre in diesem \u001b[38;5;121mDhamma\u001b[0m, ganz gleich, wie sie einen Meditationsgegenstand, der in die Versenkung führt, richtig ergreift, sich ihm richtig zuwendet, wie sie ihn nicht aus dem Sinn verliert und ihn richtig mit Weisheit erfasst. ",
+            "en": "That mendicant feels inspired by the meaning and the teaching in that \u001b[38;5;121mDhamma\u001b[0m, no matter how a meditation subject as a foundation of immersion is properly grasped, attended, borne in mind, and comprehended with wisdom. ",
+            "matched": true
+          }
+        },
+        "score": 10.204,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 10,
+        "langSegs": {
+          "pli": 49,
+          "de": 48,
+          "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.4.4": {
+            "scid": "dn33:1.4.4",
+            "pli": "Atha kho bhagavā pāveyyake malle bahudeva rattiṁ dhammiyā kathāya sandassetvā samādapetvā samuttejetvā sampahaṁsetvā uyyojesi: ",
+            "de": "Den größten Teil der Nacht verbrachte der Buddha damit, die Mallas mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. Dann entließ er sie mit den Worten: ",
+            "en": "The Buddha spent most of the night educating, encouraging, firing up, and inspiring the Mallas with a \u001b[38;5;121mDhamma\u001b[0m talk. Then he dismissed them, ",
+            "matched": true
+          },
+          "dn33:1.5.3": {
+            "scid": "dn33:1.5.3",
+            "pli": "Paṭibhātu taṁ, sāriputta, bhikkhūnaṁ dhammīkathā. ",
+            "de": "Halte einen \u001b[38;5;121mDhamma\u001b[0mvortrag für sie, so wie es dir in den Sinn kommt. ",
+            "en": "Give them some \u001b[38;5;121mDhamma\u001b[0m talk as you feel inspired. ",
+            "matched": true
+          },
+          "dn33:2.1.128": {
+            "scid": "dn33:2.1.128",
+            "pli": "Idhāvuso, bhikkhuno satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti aññataro vā garuṭṭhāniyo sabrahmacārī. ",
+            "de": "Da lehrt der Lehrer oder eine angesehene geistliche Gefährtin eine Nonne den \u001b[38;5;121mDhamma\u001b[0m. ",
+            "en": "Firstly, the Teacher or a respected spiritual companion teaches \u001b[38;5;121mDhamma\u001b[0m to a mendicant. ",
+            "matched": true
+          },
+          "dn33:2.1.129": {
+            "scid": "dn33:2.1.129",
+            "pli": "Yathā yathā, āvuso, bhikkhuno satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti aññataro vā garuṭṭhāniyo sabrahmacārī tathā tathā so tasmiṁ dhamme atthapaṭisaṁvedī ca hoti \u001b[38;5;121mdhamma\u001b[0mpaṭisaṁvedī ca. ",
+            "de": "Diese Nonne ist ergriffen von der Bedeutung und der Lehre in diesem \u001b[38;5;121mDhamma\u001b[0m, ganz gleich, wie der Lehrer oder die angesehene geistliche Gefährtin ihn lehrt. ",
+            "en": "That mendicant feels inspired by the meaning and the teaching in that \u001b[38;5;121mDhamma\u001b[0m, no matter how the Teacher or a respected spiritual companion teaches it. ",
+            "matched": true
+          },
+          "dn33:2.1.132": {
+            "scid": "dn33:2.1.132",
+            "pli": "Puna caparaṁ, āvuso, bhikkhuno na heva kho satthā \u001b[38;5;121mdhamma\u001b[0mṁ deseti aññataro vā garuṭṭhāniyo sabrahmacārī, api ca kho yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ deseti …pe… ",
+            "de": "Weiterhin kann es sein, dass weder der Lehrer noch ein angesehener geistlicher Gefährte einen Mönch den \u001b[38;5;121mDhamma\u001b[0m lehrt. Aber der Mönch lehrt andere ausführlich den \u001b[38;5;121mDhamma\u001b[0m, wie er ihn gehört und sich eingeprägt hat. … ",
+            "en": "Furthermore, it may be that neither the Teacher nor a respected spiritual companion teaches \u001b[38;5;121mDhamma\u001b[0m to a mendicant. But the mendicant teaches \u001b[38;5;121mDhamma\u001b[0m in detail to others as they learned and memorized it. … ",
+            "matched": true
+          },
+          "dn33:2.1.136": {
+            "scid": "dn33:2.1.136",
+            "pli": "Yathā yathā, āvuso, bhikkhuno aññataraṁ samādhinimittaṁ suggahitaṁ hoti sumanasikataṁ sūpadhāritaṁ suppaṭividdhaṁ paññāya tathā tathā so tasmiṁ dhamme atthapaṭisaṁvedī ca hoti \u001b[38;5;121mdhamma\u001b[0mpaṭisaṁvedī ca. ",
+            "de": "Diese Nonne ist ergriffen von der Bedeutung und der Lehre in diesem \u001b[38;5;121mDhamma\u001b[0m, ganz gleich, wie sie einen Meditationsgegenstand, der in die Versenkung führt, richtig ergreift, sich ihm richtig zuwendet, wie sie ihn nicht aus dem Sinn verliert und ihn richtig mit Weisheit erfasst. ",
+            "en": "That mendicant feels inspired by the meaning and the teaching in that \u001b[38;5;121mDhamma\u001b[0m, no matter how a meditation subject as a foundation of immersion is properly grasped, attended, borne in mind, and comprehended with wisdom. ",
+            "matched": true
+          },
+          "dn33:3.2.44": {
+            "scid": "dn33:3.2.44",
+            "pli": "Idhāvuso, tathāgato ca loke uppanno hoti arahaṁ sammāsambuddho, dhammo ca desiyati opasamiko parinibbāniko sambodhagāmī sugatappavedito. ",
+            "de": "Zunächst ist da ein Klargewordener in der Welt erschienen. Er lehrt den \u001b[38;5;121mDhamma\u001b[0m, der zum Frieden, zum Erlöschen, zum Erwachen führt, wie er vom Heiligen verkündet wurde. ",
+            "en": "Firstly, a Realized One has arisen in the world. He teaches the \u001b[38;5;121mDhamma\u001b[0m leading to peace, extinguishment, awakening, as proclaimed by the Holy One. ",
+            "matched": true
+          },
+          "dn33:3.2.70": {
+            "scid": "dn33:3.2.70",
+            "pli": "dhammo ca na desiyati opasamiko parinibbāniko sambodhagāmī sugatappavedito. Ayañca puggalo majjhimesu janapadesu paccājāto hoti, so ca hoti paññavā ajaḷo aneḷamūgo, paṭibalo subhāsitadubbhāsitānamatthamaññātuṁ. ",
+            "de": "Aber er lehrt nicht den \u001b[38;5;121mDhamma\u001b[0m, der zum Frieden, zum Erlöschen, zum Erwachen führt, wie er vom Heiligen verkündet wurde. Und man wurde in einem zentralen Land wiedergeboren. Und man ist weise, aufgeweckt und verständig, in der Lage, zu unterscheiden, was gut gesagt und was dürftig gesagt ist. ",
+            "en": "But he doesn’t teach the \u001b[38;5;121mDhamma\u001b[0m leading to peace, extinguishment, awakening, as proclaimed by the Holy One. And a person is reborn in a central country. And they’re wise, bright, clever, and able to distinguish what is well said from what is poorly said. ",
+            "matched": true
+          }
+        },
+        "score": 8.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.159_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.159_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.159_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.159",
+        "lang": "de",
+        "segMap": {
+          "an5.159:1.3": {
+            "scid": "an5.159:1.3",
+            "pli": "Tena kho pana samayena āyasmā udāyī mahatiyā gihiparisāya parivuto \u001b[38;5;121mdhamma\u001b[0mṁ desento nisinno hoti. ",
+            "de": "Zu dieser Zeit nun saß der Ehrwürdige Udāyī inmitten einer großen Versammlung von Laien und lehrte den \u001b[38;5;121mDhamma\u001b[0m. ",
+            "en": "Now, at that time Venerable Udāyī was sitting teaching \u001b[38;5;121mDhamma\u001b[0m, surrounded by a large assembly of laypeople. ",
+            "matched": true
+          },
+          "an5.159:1.6": {
+            "scid": "an5.159:1.6",
+            "pli": "“āyasmā, bhante, udāyī mahatiyā gihiparisāya parivuto \u001b[38;5;121mdhamma\u001b[0mṁ desetī”ti. ",
+            "de": "„Herr, der Ehrwürdige Udāyī sitzt inmitten einer großen Versammlung von Laien und lehrt den \u001b[38;5;121mDhamma\u001b[0m.“ ",
+            "en": "“Sir, Venerable Udāyī is teaching \u001b[38;5;121mDhamma\u001b[0m, surrounded by a large assembly of laypeople.” ",
+            "matched": true
+          },
+          "an5.159:2.1": {
+            "scid": "an5.159:2.1",
+            "pli": "“Na kho, ānanda, sukaraṁ paresaṁ \u001b[38;5;121mdhamma\u001b[0mṁ desetuṁ. ",
+            "de": "„Ānanda, es ist nicht einfach, andere den \u001b[38;5;121mDhamma\u001b[0m zu lehren. ",
+            "en": "“Ānanda, it’s not easy to teach \u001b[38;5;121mDhamma\u001b[0m to others. ",
+            "matched": true
+          },
+          "an5.159:2.2": {
+            "scid": "an5.159:2.2",
+            "pli": "Paresaṁ, ānanda, \u001b[38;5;121mdhamma\u001b[0mṁ desentena pañca dhamme ajjhattaṁ upaṭṭhāpetvā paresaṁ dhammo desetabbo. ",
+            "de": "Bevor man andere den \u001b[38;5;121mDhamma\u001b[0m lehrt, sollte man bei sich selbst fünf Dinge sicherstellen. ",
+            "en": "You should establish five things in yourself before teaching \u001b[38;5;121mDhamma\u001b[0m to others. ",
+            "matched": true
+          },
+          "an5.159:2.4": {
+            "scid": "an5.159:2.4",
+            "pli": "‘Anupubbiṁ kathaṁ kathessāmī’ti paresaṁ dhammo desetabbo; ",
+            "de": "Man sollte andere den \u001b[38;5;121mDhamma\u001b[0m lehren und denken: ‚Ich werde Schritt für Schritt lehren.‘ ",
+            "en": "You should teach \u001b[38;5;121mDhamma\u001b[0m to others thinking: ‘I will teach step by step.’ … ",
+            "matched": true
+          },
+          "an5.159:2.9": {
+            "scid": "an5.159:2.9",
+            "pli": "Na kho, ānanda, sukaraṁ paresaṁ \u001b[38;5;121mdhamma\u001b[0mṁ desetuṁ. ",
+            "de": "Es ist nicht einfach, andere den \u001b[38;5;121mDhamma\u001b[0m zu lehren. ",
+            "en": "It’s not easy to teach \u001b[38;5;121mDhamma\u001b[0m to others. ",
+            "matched": true
+          },
+          "an5.159:2.10": {
+            "scid": "an5.159:2.10",
+            "pli": "Paresaṁ, ānanda, \u001b[38;5;121mdhamma\u001b[0mṁ desentena ime pañca dhamme ajjhattaṁ upaṭṭhāpetvā paresaṁ dhammo desetabbo”ti. ",
+            "de": "Bevor man andere den \u001b[38;5;121mDhamma\u001b[0m lehrt, sollte man bei sich selbst diese fünf Dinge sicherstellen.“ ",
+            "en": "You should establish these five things in yourself before teaching \u001b[38;5;121mDhamma\u001b[0m to others.” ",
+            "matched": true
+          }
+        },
+        "score": 7.35,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.1",
+        "lang": "de",
+        "segMap": {
+          "sn6.1:1.8": {
+            "scid": "sn6.1:1.8",
+            "pli": "Ahañceva kho pana \u001b[38;5;121mdhamma\u001b[0mṁ deseyyaṁ; pare ca me na ājāneyyuṁ; so mamassa kilamatho, sā mamassa vihesā”ti. ",
+            "de": "Wenn ich den \u001b[38;5;121mDhamma\u001b[0m lehren würde, würden andere mich vielleicht nicht verstehen, und das wäre ermüdend und beschwerlich für mich.“ ",
+            "en": "And if I were to teach this principle, others might not understand me, which would be wearying and troublesome for me.” ",
+            "matched": true
+          },
+          "sn6.1:4.1": {
+            "scid": "sn6.1:4.1",
+            "pli": "Itiha bhagavato paṭisañcikkhato appossukkatāya cittaṁ namati, no \u001b[38;5;121mdhamma\u001b[0mdesanāya. ",
+            "de": "Und als der Buddha so nachdachte, neigte sein Geist dazu, untätig zu bleiben, nicht dazu, den \u001b[38;5;121mDhamma\u001b[0m zu lehren. ",
+            "en": "And as the Buddha reflected like this, his mind inclined to remaining passive, not to teaching the \u001b[38;5;121mDhamma\u001b[0m. ",
+            "matched": true
+          },
+          "sn6.1:5.2": {
+            "scid": "sn6.1:5.2",
+            "pli": "“nassati vata bho loko, vinassati vata bho loko, yatra hi nāma tathāgatassa arahato sammāsambuddhassa appossukkatāya cittaṁ namati, no \u001b[38;5;121mdhamma\u001b[0mdesanāyā”ti. ",
+            "de": "„Du lieber Himmel! Die Welt ist verloren, die Welt geht unter! Denn der Geist des Klargewordenen, des Vollendeten, des vollkommen erwachten Buddha neigt dazu, untätig zu bleiben, nicht dazu, den \u001b[38;5;121mDhamma\u001b[0m zu lehren.“ ",
+            "en": "“Oh my goodness! The world will be lost, the world will perish! For the mind of the Realized One, the perfected one, the fully awakened Buddha, inclines to remaining passive, not to teaching the \u001b[38;5;121mDhamma\u001b[0m.” ",
+            "matched": true
+          },
+          "sn6.1:5.5": {
+            "scid": "sn6.1:5.5",
+            "pli": "“desetu, bhante, bhagavā \u001b[38;5;121mdhamma\u001b[0mṁ, desetu sugato \u001b[38;5;121mdhamma\u001b[0mṁ. ",
+            "de": "„Herr, der Buddha lehre doch den \u001b[38;5;121mDhamma\u001b[0m! Der Heilige lehre doch den \u001b[38;5;121mDhamma\u001b[0m! ",
+            "en": "“Sir, let the Blessed One teach the \u001b[38;5;121mDhamma\u001b[0m! Let the Holy One teach the \u001b[38;5;121mDhamma\u001b[0m! ",
+            "matched": true
+          },
+          "sn6.1:8.3": {
+            "scid": "sn6.1:8.3",
+            "pli": "Desassu bhagavā \u001b[38;5;121mdhamma\u001b[0mṁ, ",
+            "de": "Der Buddha lehre doch den \u001b[38;5;121mDhamma\u001b[0m! ",
+            "en": "Let the Blessed One teach the \u001b[38;5;121mDhamma\u001b[0m! ",
+            "matched": true
+          },
+          "sn6.1:10.4": {
+            "scid": "sn6.1:10.4",
+            "pli": "\u001b[38;5;121mDhamma\u001b[0mṁ paṇītaṁ manujesu brahme”ti. ",
+            "de": "den scharfsinnigen, erhabenen \u001b[38;5;121mDhamma\u001b[0m nicht unter den Menschen gelehrt.“ ",
+            "en": "the sophisticated, sublime \u001b[38;5;121mDhamma\u001b[0m among humans.” ",
+            "matched": true
+          },
+          "sn6.1:11.1": {
+            "scid": "sn6.1:11.1",
+            "pli": "Atha kho brahmā sahampati “katāvakāso khomhi bhagavatā \u001b[38;5;121mdhamma\u001b[0mdesanāyā”ti bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyīti. ",
+            "de": "Und als der Brahmā Sahampati wusste, dass seiner Aufforderung, dass der Buddha den \u001b[38;5;121mDhamma\u001b[0m lehre, stattgegeben war, verbeugte er sich, umrundete ihn respektvoll, die rechte Seite ihm zugewandt, und verschwand von dort, wo er stand. ",
+            "en": "Then Brahmā Sahampati, knowing that his request for the Buddha to teach the \u001b[38;5;121mDhamma\u001b[0m had been granted, bowed and respectfully circled the Buddha, keeping him on his right, before vanishing right there.",
+            "matched": true
+          }
+        },
+        "score": 7.132,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 53,
+          "de": 53,
+          "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.16",
+        "lang": "de",
+        "segMap": {
+          "sn12.16:0.3": {
+            "scid": "sn12.16:0.3",
+            "pli": "16. \u001b[38;5;121mDhamma\u001b[0mkathikasutta ",
+            "de": "16. Ein \u001b[38;5;121mDhamma\u001b[0mlehrer ",
+            "en": "16. A \u001b[38;5;121mDhamma\u001b[0m Speaker ",
+            "matched": true
+          },
+          "sn12.16:1.3": {
+            "scid": "sn12.16:1.3",
+            "pli": "“‘\u001b[38;5;121mdhamma\u001b[0mkathiko \u001b[38;5;121mdhamma\u001b[0mkathiko’ti, bhante, vuccati. ",
+            "de": "„Herr, man spricht von einem ‚\u001b[38;5;121mDhamma\u001b[0mlehrer‘. ",
+            "en": "“Sir, they speak of a ‘\u001b[38;5;121mDhamma\u001b[0m speaker’. ",
+            "matched": true
+          },
+          "sn12.16:1.4": {
+            "scid": "sn12.16:1.4",
+            "pli": "Kittāvatā nu kho, bhante, \u001b[38;5;121mdhamma\u001b[0mkathiko hotī”ti? ",
+            "de": "Was versteht man unter einem \u001b[38;5;121mDhamma\u001b[0mlehrer?“ ",
+            "en": "How is a \u001b[38;5;121mDhamma\u001b[0m speaker defined?” ",
+            "matched": true
+          },
+          "sn12.16:2.1": {
+            "scid": "sn12.16:2.1",
+            "pli": "“Jarāmaraṇassa ce bhikkhu nibbidāya virāgāya nirodhāya \u001b[38;5;121mdhamma\u001b[0mṁ deseti, ‘\u001b[38;5;121mdhamma\u001b[0mkathiko bhikkhū’ti alaṁvacanāya. ",
+            "de": "„Wenn ein Mönch den \u001b[38;5;121mDhamma\u001b[0m für das Ziel der Ernüchterung, des Sichabwendens und des Aufhörens in Bezug auf Alter und Tod lehrt, darf er ein Mönch genannt werden, der den \u001b[38;5;121mDhamma\u001b[0m lehrt. ",
+            "en": "“If a mendicant teaches \u001b[38;5;121mDhamma\u001b[0m for disillusionment, dispassion, and cessation regarding old age and death, they’re qualified to be called a ‘mendicant who speaks on \u001b[38;5;121mDhamma\u001b[0m’. ",
+            "matched": true
+          },
+          "sn12.16:3.1": {
+            "scid": "sn12.16:3.1",
+            "pli": "Jātiyā ce bhikkhu …pe… ",
+            "de": "Wenn ein Mönch den \u001b[38;5;121mDhamma\u001b[0m für das Ziel der Ernüchterung, des Sichabwendens und des Aufhörens in Bezug auf Wiedergeburt lehrt … ",
+            "en": "If a mendicant teaches \u001b[38;5;121mDhamma\u001b[0m for disillusionment regarding rebirth … ",
+            "matched": true
+          },
+          "sn12.16:3.11": {
+            "scid": "sn12.16:3.11",
+            "pli": "avijjāya ce bhikkhu nibbidāya virāgāya nirodhāya \u001b[38;5;121mdhamma\u001b[0mṁ deseti, ‘\u001b[38;5;121mdhamma\u001b[0mkathiko bhikkhū’ti alaṁvacanāya. ",
+            "de": "Wenn ein Mönch den \u001b[38;5;121mDhamma\u001b[0m für das Ziel der Ernüchterung, des Sichabwendens und des Aufhörens in Bezug auf Unwissenheit lehrt, darf er ein Mönch genannt werden, der den \u001b[38;5;121mDhamma\u001b[0m lehrt. ",
+            "en": "If a mendicant teaches \u001b[38;5;121mDhamma\u001b[0m for disillusionment, dispassion, and cessation regarding ignorance, they’re qualified to be called a ‘mendicant who speaks on \u001b[38;5;121mDhamma\u001b[0m’. ",
+            "matched": true
+          }
+        },
+        "score": 6.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.11",
+        "lang": "de",
+        "segMap": {
+          "sn56.11:0.2": {
+            "scid": "sn56.11:0.2",
+            "pli": "2. \u001b[38;5;121mDhamma\u001b[0mcakkappavattanavagga ",
+            "de": "2. Das Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen bringen ",
+            "en": "2. Rolling Forth the Wheel of \u001b[38;5;121mDhamma\u001b[0m ",
+            "matched": true
+          },
+          "sn56.11:0.3": {
+            "scid": "sn56.11:0.3",
+            "pli": "11. \u001b[38;5;121mDhamma\u001b[0mcakkappavattanasutta ",
+            "de": "11. Das Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen bringen ",
+            "en": "11. Rolling Forth the Wheel of \u001b[38;5;121mDhamma\u001b[0m ",
+            "matched": true
+          },
+          "sn56.11:11.1": {
+            "scid": "sn56.11:11.1",
+            "pli": "Imasmiñca pana veyyākaraṇasmiṁ bhaññamāne āyasmato koṇḍaññassa virajaṁ vītamalaṁ \u001b[38;5;121mdhamma\u001b[0mcakkhuṁ udapādi: ",
+            "de": "Und während diese Lehrrede gesprochen wurde, ging dem Ehrwürdigen Koṇḍañña das unbefleckte, makellose Auge des \u001b[38;5;121mDhamma\u001b[0m auf: ",
+            "en": "And while this discourse was being spoken, the stainless, immaculate vision of the \u001b[38;5;121mDhamma\u001b[0m arose in Venerable Koṇḍañña: ",
+            "matched": true
+          },
+          "sn56.11:12.1": {
+            "scid": "sn56.11:12.1",
+            "pli": "Pavattite ca pana bhagavatā \u001b[38;5;121mdhamma\u001b[0mcakke bhummā devā saddamanussāvesuṁ: ",
+            "de": "Und als der Buddha das Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen gebracht hatte, erhoben die Erdgötter den Ruf: ",
+            "en": "And when the Buddha rolled forth the Wheel of \u001b[38;5;121mDhamma\u001b[0m, the earth gods raised the cry: ",
+            "matched": true
+          },
+          "sn56.11:12.2": {
+            "scid": "sn56.11:12.2",
+            "pli": "“etaṁ bhagavatā bārāṇasiyaṁ isipatane migadāye anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavattitaṁ appaṭivattiyaṁ samaṇena vā brāhmaṇena vā devena vā mārena vā brahmunā vā kenaci vā lokasmin”ti. ",
+            "de": "„Bei Benares, im Wildpark bei Isipatana, hat der Buddha das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen gebracht. Und dieses Rad kann von keinem Asketen oder Brahmanen oder Gott oder Māra oder Brahmā oder von irgendjemandem in der Welt zurückgerollt werden.“ ",
+            "en": "“Near Benares, in the deer park at Isipatana, the Buddha has rolled forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m. And that wheel cannot be rolled back by any ascetic or brahmin or god or Māra or Brahmā or by anyone in the world.” ",
+            "matched": true
+          },
+          "sn56.11:12.11": {
+            "scid": "sn56.11:12.11",
+            "pli": "“etaṁ bhagavatā bārāṇasiyaṁ isipatane migadāye anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavattitaṁ appaṭivattiyaṁ samaṇena vā brāhmaṇena vā devena vā mārena vā brahmunā vā kenaci vā lokasmin”ti. ",
+            "de": "„Bei Benares, im Wildpark bei Isipatana, hat der Buddha das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen gebracht. Und dieses Rad kann von keinem Asketen oder Brahmanen oder Gott oder Māra oder Brahmā oder von irgendjemandem in der Welt zurückgerollt werden.“ ",
+            "en": "“Near Benares, in the deer park at Isipatana, the Buddha has rolled forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m. And that wheel cannot be rolled back by any ascetic or brahmin or god or Māra or Brahmā or by anyone in the world.” ",
+            "matched": true
+          }
+        },
+        "score": 6.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 60,
+          "de": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.30",
+        "lang": "de",
+        "segMap": {
+          "an3.30:1.6": {
+            "scid": "an3.30:1.6",
+            "pli": "Tassa bhikkhū \u001b[38;5;121mdhamma\u001b[0mṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. ",
+            "de": "Die Mönche und Nonnen unterweisen ihn im \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und sie legen eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "The mendicants teach them \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And they reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          },
+          "an3.30:1.11": {
+            "scid": "an3.30:1.11",
+            "pli": "Tassa bhikkhū \u001b[38;5;121mdhamma\u001b[0mṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. ",
+            "de": "Die Mönche und Nonnen unterweisen ihn im \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und sie legen eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "The mendicants teach them \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And they reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          },
+          "an3.30:2.3": {
+            "scid": "an3.30:2.3",
+            "pli": "Tassa bhikkhū \u001b[38;5;121mdhamma\u001b[0mṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. ",
+            "de": "Die Mönche und Nonnen unterweisen ihn im \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und sie legen eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "The mendicants teach them \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And they reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          },
+          "an3.30:2.10": {
+            "scid": "an3.30:2.10",
+            "pli": "Tassa bhikkhū \u001b[38;5;121mdhamma\u001b[0mṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. ",
+            "de": "Die Mönche und Nonnen unterweisen ihn im \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und sie legen eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "The mendicants teach them \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And they reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          },
+          "an3.30:3.3": {
+            "scid": "an3.30:3.3",
+            "pli": "Tassa bhikkhū \u001b[38;5;121mdhamma\u001b[0mṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. ",
+            "de": "Die Mönche und Nonnen unterweisen ihn im \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und sie legen eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "The mendicants teach them \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And they reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          },
+          "an3.30:3.8": {
+            "scid": "an3.30:3.8",
+            "pli": "Tassa bhikkhū \u001b[38;5;121mdhamma\u001b[0mṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. ",
+            "de": "Die Mönche und Nonnen unterweisen ihn im \u001b[38;5;121mDhamma\u001b[0m, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und sie legen eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "The mendicants teach them \u001b[38;5;121mDhamma\u001b[0m that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And they reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          }
+        },
+        "score": 6.076,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 79,
+          "de": 77,
+          "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.128_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.128",
+        "lang": "de",
+        "segMap": {
+          "an4.128:1.4": {
+            "scid": "an4.128:1.4",
+            "pli": "sā tathāgatena anālaye dhamme desiyamāne sussūsati sotaṁ odahati aññā cittaṁ upaṭṭhapeti. ",
+            "de": "Doch wenn ein Klargewordener den \u001b[38;5;121mDhamma\u001b[0m über das Nicht-Haften lehrt, wollen sie zuhören, sie schenken ihm Gehör und gebrauchen ihren Verstand, um ihn zu verstehen. ",
+            "en": "Yet when a Realized One is teaching the \u001b[38;5;121mDhamma\u001b[0m of non-adherence, they want to listen, they lend an ear, and they apply their minds to understand it. ",
+            "matched": true
+          },
+          "an4.128:2.2": {
+            "scid": "an4.128:2.2",
+            "pli": "Sā tathāgatena mānavinaye dhamme desiyamāne sussūsati sotaṁ odahati aññā cittaṁ upaṭṭhapeti. ",
+            "de": "Doch wenn ein Klargewordener den \u001b[38;5;121mDhamma\u001b[0m über das Beseitigen der Einbildung lehrt, wollen sie zuhören, sie schenken ihm Gehör und gebrauchen ihren Verstand, um ihn zu verstehen. ",
+            "en": "Yet when a Realized One is teaching the \u001b[38;5;121mDhamma\u001b[0m of removing conceit, they want to listen, they lend an ear, and they apply their minds to understand it. ",
+            "matched": true
+          },
+          "an4.128:3.2": {
+            "scid": "an4.128:3.2",
+            "pli": "Sā tathāgatena opasamike dhamme desiyamāne sussūsati sotaṁ odahati aññā cittaṁ upaṭṭhapeti. ",
+            "de": "Doch wenn ein Klargewordener den \u001b[38;5;121mDhamma\u001b[0m über den Frieden lehrt, wollen sie zuhören, sie schenken ihm Gehör und gebrauchen ihren Verstand, um ihn zu verstehen. ",
+            "en": "Yet when a Realized One is teaching the \u001b[38;5;121mDhamma\u001b[0m of peace, they want to listen, they lend an ear, and they apply their minds to understand it. ",
+            "matched": true
+          },
+          "an4.128:4.2": {
+            "scid": "an4.128:4.2",
+            "pli": "Sā tathāgatena avijjāvinaye dhamme desiyamāne sussūsati sotaṁ odahati aññā cittaṁ upaṭṭhapeti. ",
+            "de": "Doch wenn ein Klargewordener den \u001b[38;5;121mDhamma\u001b[0m über das Beseitigen der Unwissenheit lehrt, wollen sie zuhören, sie schenken ihm Gehör und gebrauchen ihren Verstand, um ihn zu verstehen. ",
+            "en": "Yet when a Realized One is teaching the \u001b[38;5;121mDhamma\u001b[0m of removing ignorance, they want to listen, they lend an ear, and they apply their minds to understand it. ",
+            "matched": true
+          }
+        },
+        "score": 4.211,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.191_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.191_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.191_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.191",
+        "lang": "de",
+        "segMap": {
+          "an4.191:2.6": {
+            "scid": "an4.191:2.6",
+            "pli": "api ca kho bhikkhu iddhimā cetovasippatto devaparisāyaṁ \u001b[38;5;121mdhamma\u001b[0mṁ deseti. ",
+            "de": "Doch eine Nonne mit Wunderkräften, die ihren Geist gemeistert hat, unterweist die Versammlung der Götter im \u001b[38;5;121mDhamma\u001b[0m. ",
+            "en": "However, a mendicant with psychic powers, who has achieved mastery of the mind, teaches \u001b[38;5;121mDhamma\u001b[0m to the assembly of gods. ",
+            "matched": true
+          },
+          "an4.191:3.5": {
+            "scid": "an4.191:3.5",
+            "pli": "Tassa tattha na heva kho sukhino \u001b[38;5;121mdhamma\u001b[0mpadā plavanti, napi bhikkhu iddhimā cetovasippatto devaparisāyaṁ \u001b[38;5;121mdhamma\u001b[0mṁ deseti; ",
+            "de": "Obwohl sie dort glücklich ist, kommen ihr keine Abschnitte der Lehre wieder in den Sinn, und es gibt auch keine Nonne mit Wunderkräften …, die die Versammlung der Götter im \u001b[38;5;121mDhamma\u001b[0m unterweist. ",
+            "en": "But passages of the teaching don’t come back to them when they’re happy, nor does a mendicant with psychic powers … teach \u001b[38;5;121mDhamma\u001b[0m to the assembly of gods. ",
+            "matched": true
+          },
+          "an4.191:3.6": {
+            "scid": "an4.191:3.6",
+            "pli": "api ca kho devaputto devaparisāyaṁ \u001b[38;5;121mdhamma\u001b[0mṁ deseti. ",
+            "de": "Doch ein Gott unterweist die Versammlung der Götter im \u001b[38;5;121mDhamma\u001b[0m. ",
+            "en": "However, a god teaches \u001b[38;5;121mDhamma\u001b[0m to the assembly of gods. ",
+            "matched": true
+          },
+          "an4.191:4.5": {
+            "scid": "an4.191:4.5",
+            "pli": "Tassa tattha na heva kho sukhino \u001b[38;5;121mdhamma\u001b[0mpadā plavanti, napi bhikkhu iddhimā cetovasippatto devaparisāyaṁ \u001b[38;5;121mdhamma\u001b[0mṁ deseti, napi devaputto devaparisāyaṁ \u001b[38;5;121mdhamma\u001b[0mṁ deseti; ",
+            "de": "Obwohl er dort glücklich ist, kommen ihm keine Abschnitte der Lehre wieder in den Sinn, und es gibt auch keine Nonne mit Wunderkräften und keinen Gott …, der die Versammlung der Götter im \u001b[38;5;121mDhamma\u001b[0m unterweist. ",
+            "en": "But passages of the teaching don’t come back to them when they’re happy, and neither a mendicant with psychic powers … nor a god teaches \u001b[38;5;121mDhamma\u001b[0m to the assembly of gods. ",
+            "matched": true
+          }
+        },
+        "score": 4.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 96,
+          "de": 95,
+          "en": 95
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.131_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.131_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.131_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.131",
+        "lang": "de",
+        "segMap": {
+          "an5.131:3.1": {
+            "scid": "an5.131:3.1",
+            "pli": "Evamevaṁ kho, bhikkhave, pañcahi dhammehi samannāgato tathāgato arahaṁ sammāsambuddho dhammeneva anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavatteti; ",
+            "de": "Ebenso bringt ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha, der fünf Faktoren besitzt, das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m nur auf der Grundlage von natürlichen Gesetzmäßigkeiten ins Rollen. ",
+            "en": "In the same way, possessing five factors a Realized One, a perfected one, a fully awakened Buddha rolls forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m only in a principled manner. ",
+            "matched": true
+          },
+          "an5.131:4.3": {
+            "scid": "an5.131:4.3",
+            "pli": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato tathāgato arahaṁ sammāsambuddho dhammeneva anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavatteti; ",
+            "de": "Ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha, der diese fünf Faktoren besitzt, bringt das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m nur auf der Grundlage von natürlichen Gesetzmäßigkeiten ins Rollen. ",
+            "en": "Possessing these five factors a Realized One, a perfected one, a fully awakened Buddha rolls forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m only in a principled manner. ",
+            "matched": true
+          },
+          "an5.131:4.4": {
+            "scid": "an5.131:4.4",
+            "pli": "taṁ hoti \u001b[38;5;121mdhamma\u001b[0mcakkaṁ appaṭivattiyaṁ samaṇena vā brāhmaṇena vā devena vā mārena vā brahmunā vā kenaci vā lokasmin”ti. ",
+            "de": "Und dieses Rad des \u001b[38;5;121mDhamma\u001b[0m kann von keinem Asketen oder Brahmanen oder Gott oder Māra oder Brahmā oder von irgendjemandem in der Welt zurückgerollt werden.“ ",
+            "en": "And that wheel cannot be rolled back by any ascetic or brahmin or god or Māra or Brahmā or by anyone in the world.” ",
+            "matched": true
+          }
+        },
+        "score": 3.188,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.48_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.48_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.48_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.48",
+        "lang": "de",
+        "segMap": {
+          "an4.48:1.2": {
+            "scid": "an4.48:1.2",
+            "pli": "Tena kho pana samayena āyasmā visākho pañcālaputto upaṭṭhānasālāyaṁ bhikkhū dhammiyā kathāya sandasseti samādapeti samuttejeti sampahaṁseti, poriyā vācāya vissaṭṭhāya anelagalāya atthassa viññāpaniyā pariyāpannāya anissitāya. ",
+            "de": "Da nun leitete der Ehrwürdige Visākha, der Sohn Pañcālis, die Mönche und Nonnen in der Versammlungshalle mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag an, ermunterte sie, begeisterte sie und regte sie an. Seine Worte waren geschliffen, klar und deutlich, umfassend und unabhängig und brachten die Bedeutung zum Ausdruck. ",
+            "en": "Now at that time Venerable Visākha, Pañcāli’s son, was educating, encouraging, firing up, and inspiring the mendicants in the assembly hall with a \u001b[38;5;121mDhamma\u001b[0m talk. His words were polished, clear, articulate, expressing the meaning, comprehensive, and independent. ",
+            "matched": true
+          },
+          "an4.48:2.1": {
+            "scid": "an4.48:2.1",
+            "pli": "“Ko nu kho, bhikkhave, upaṭṭhānasālāyaṁ bhikkhū dhammiyā kathāya sandasseti samādapeti samuttejeti sampahaṁseti poriyā vācāya vissaṭṭhāya anelagalāya atthassa viññāpaniyā pariyāpannāya anissitāyā”ti? ",
+            "de": "„Mönche und Nonnen, wer hat die Mönche und Nonnen in der Versammlungshalle mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag angeleitet, ermuntert, begeistert und angeregt?“ ",
+            "en": "“Mendicants, who was educating, encouraging, firing up, and inspiring the mendicants in the assembly hall with a \u001b[38;5;121mDhamma\u001b[0m talk?” ",
+            "matched": true
+          },
+          "an4.48:3.3": {
+            "scid": "an4.48:3.3",
+            "pli": "Sādhu kho tvaṁ, visākha, bhikkhū dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi poriyā vācāya vissaṭṭhāya anelagalāya atthassa viññāpaniyā pariyāpannāya anissitāyāti. ",
+            "de": "Es ist gut, dass du die Mönche und Nonnen in der Versammlungshalle mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag angeleitet, ermuntert, begeistert und angeregt hast, mit geschliffenen Worten, klar und deutlich, umfassend und unabhängig und so, dass die Bedeutung zum Ausdruck kam. ",
+            "en": "It’s good that you educate, encourage, fire up, and inspire the mendicants in the assembly hall with a \u001b[38;5;121mDhamma\u001b[0m talk, with words that are polished, clear, articulate, expressing the meaning, comprehensive, and independent. ",
+            "matched": true
+          }
+        },
+        "score": 3.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.33",
+        "lang": "de",
+        "segMap": {
+          "an4.33:2.1": {
+            "scid": "an4.33:2.1",
+            "pli": "Evamevaṁ kho, bhikkhave, yadā tathāgato loke uppajjati arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā, so \u001b[38;5;121mdhamma\u001b[0mṁ deseti: ",
+            "de": "Ebenso ist es, wenn ein Klargewordener in der Welt erscheint, vollendet, ein vollkommen erwachter Buddha, von vollendetem Wissen und Verhalten, heilig, Kenner der Welt, höchster Anleiter für Übungswillige, Lehrer von Göttern und Menschen, erwacht, gesegnet – dann lehrt er den \u001b[38;5;121mDhamma\u001b[0m: ",
+            "en": "In the same way, when a Realized One arises in the world—perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those who wish to train, teacher of gods and humans, awakened, blessed—he teaches the \u001b[38;5;121mDhamma\u001b[0m: ",
+            "matched": true
+          },
+          "an4.33:3.3": {
+            "scid": "an4.33:3.3",
+            "pli": "Sadevakassa lokassa, ",
+            "de": "das Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen, ",
+            "en": "rolls forth the Wheel of \u001b[38;5;121mDhamma\u001b[0m ",
+            "matched": true
+          },
+          "an4.33:3.4": {
+            "scid": "an4.33:3.4",
+            "pli": "satthā appaṭipuggalo. ",
+            "de": "des \u001b[38;5;121mDhamma\u001b[0m aus seiner eigenen Einsicht: ",
+            "en": "from his own insight: ",
+            "matched": true
+          }
+        },
+        "score": 3.081,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.209_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.209_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.209_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.209",
+        "lang": "de",
+        "segMap": {
+          "an5.209:1.1": {
+            "scid": "an5.209:1.1",
+            "pli": "“Pañcime, bhikkhave, ādīnavā āyatakena gītassarena \u001b[38;5;121mdhamma\u001b[0mṁ bhaṇantassa. ",
+            "de": "„Mönche und Nonnen, den \u001b[38;5;121mDhamma\u001b[0m mit einem langgezogenen singenden Ton vorzutragen hat fünf nachteilige Folgen. ",
+            "en": "“Mendicants, there are these five drawbacks in reciting with a drawn-out singing sound. ",
+            "matched": true
+          },
+          "an5.209:1.5": {
+            "scid": "an5.209:1.5",
+            "pli": "Ime kho, bhikkhave, pañca ādīnavā āyatakena gītassarena \u001b[38;5;121mdhamma\u001b[0mṁ bhaṇantassā”ti. ",
+            "de": "Den \u001b[38;5;121mDhamma\u001b[0m mit einem langgezogenen singenden Ton vorzutragen hat diese fünf nachteiligen Folgen.“ ",
+            "en": "These are the five drawbacks in reciting with a drawn-out singing sound.” ",
+            "matched": true
+          }
+        },
+        "score": 2.222,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.43",
+        "lang": "de",
+        "segMap": {
+          "an3.43:1.1": {
+            "scid": "an3.43:1.1",
+            "pli": "“Tayo, bhikkhave, atthavase sampassamānena alameva paresaṁ \u001b[38;5;121mdhamma\u001b[0mṁ desetuṁ. ",
+            "de": "„Mönche und Nonnen, wenn man drei Gründe in Betracht zieht, so ist das Anreiz genug, andere den \u001b[38;5;121mDhamma\u001b[0m zu lehren. ",
+            "en": "“Mendicants, taking three reasons into consideration provides quite enough motivation to teach \u001b[38;5;121mDhamma\u001b[0m to another. ",
+            "matched": true
+          },
+          "an3.43:1.6": {
+            "scid": "an3.43:1.6",
+            "pli": "Ime kho, bhikkhave, tayo atthavase sampassamānena alameva paresaṁ \u001b[38;5;121mdhamma\u001b[0mṁ desetun”ti. ",
+            "de": "Wenn man diese drei Gründe in Betracht zieht, so ist das Anreiz genug, andere den \u001b[38;5;121mDhamma\u001b[0m zu lehren.“ ",
+            "en": "Taking these three reasons into consideration provides quite enough motivation to teach \u001b[38;5;121mDhamma\u001b[0m to another.” ",
+            "matched": true
+          }
+        },
+        "score": 2.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 10,
+          "de": 9,
+          "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.146_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.146_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.146_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.146",
+        "lang": "de",
+        "segMap": {
+          "an5.146:1.3": {
+            "scid": "an5.146:1.3",
+            "pli": "Kammantaṁ kāreti, adhikaraṇaṁ ādiyati, pāmokkhesu bhikkhūsu paṭiviruddho hoti, dīghacārikaṁ anavatthacārikaṁ anuyutto viharati, nappaṭibalo hoti kālena kālaṁ dhammiyā kathāya sandassetuṁ samādapetuṁ samuttejetuṁ sampahaṁsetuṁ. ",
+            "de": "Sie setzt Arbeitsmaßnahmen in Gang. Sie greift disziplinarische Angelegenheiten auf. Sie sucht Auseinandersetzungen mit leitenden Nonnen oder Mönchen. Sie reist gerne lange und ziellos umher. Und sie ist nicht in der Lage, euch von Zeit zu Zeit mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. ",
+            "en": "They start up work projects. They take up disciplinary issues. They conflict with leading mendicants. They like long and aimless wandering. They’re unable to educate, encourage, fire up, and inspire you from time to time with a \u001b[38;5;121mDhamma\u001b[0m talk. ",
+            "matched": true
+          },
+          "an5.146:2.3": {
+            "scid": "an5.146:2.3",
+            "pli": "Na kammantaṁ kāreti, na adhikaraṇaṁ ādiyati, na pāmokkhesu bhikkhūsu paṭiviruddho hoti, na dīghacārikaṁ anavatthacārikaṁ anuyutto viharati, paṭibalo hoti kālena kālaṁ dhammiyā kathāya sandassetuṁ samādapetuṁ samuttejetuṁ sampahaṁsetuṁ. ",
+            "de": "Sie setzt keine Arbeitsmaßnahmen in Gang. Sie greift keine disziplinarischen Angelegenheiten auf. Sie sucht keine Auseinandersetzungen mit leitenden Nonnen oder Mönchen. Sie reist nicht gerne lange und ziellos umher. Und sie ist in der Lage, euch von Zeit zu Zeit mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. ",
+            "en": "They don’t start up work projects. They don’t take up disciplinary issues. They don’t conflict with leading mendicants. They don’t like long and aimless wandering. They’re able to educate, encourage, fire up, and inspire you from time to time with a \u001b[38;5;121mDhamma\u001b[0m talk. ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.132_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.132_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.132_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.132",
+        "lang": "de",
+        "segMap": {
+          "an5.132:3.1": {
+            "scid": "an5.132:3.1",
+            "pli": "Evamevaṁ kho, bhikkhave, pañcahi dhammehi samannāgato sāriputto tathāgatena anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavattitaṁ sammadeva anuppavatteti; ",
+            "de": "Ebenso hält Sāriputta, der fünf Faktoren besitzt, das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m, das vom Klargewordenen ins Rollen gebracht wurde, nur auf der Grundlage von natürlichen Gesetzmäßigkeiten richtig am Rollen. ",
+            "en": "In the same way, possessing five factors Sāriputta rightly keeps rolling the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m that was rolled forth by the Realized One. ",
+            "matched": true
+          },
+          "an5.132:4.3": {
+            "scid": "an5.132:4.3",
+            "pli": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato sāriputto tathāgatena anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavattitaṁ sammadeva anuppavatteti; ",
+            "de": "Sāriputta, der diese fünf Faktoren besitzt, hält das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m, das vom Klargewordenen ins Rollen gebracht wurde, nur auf der Grundlage von natürlichen Gesetzmäßigkeiten richtig am Rollen. ",
+            "en": "Possessing these five factors Sāriputta rightly keeps rolling the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m that was rolled forth by the Realized One. ",
+            "matched": true
+          }
+        },
+        "score": 2.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.129_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.129_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.129_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.129",
+        "lang": "de",
+        "segMap": {
+          "an4.129:1.4": {
+            "scid": "an4.129:1.4",
+            "pli": "Tatra ce ānando \u001b[38;5;121mdhamma\u001b[0mṁ bhāsati, bhāsitenapi sā attamanā hoti. ",
+            "de": "Wenn er über den \u001b[38;5;121mDhamma\u001b[0m spricht, sind sie erhoben, wenn sie ihn sprechen hören. ",
+            "en": "and uplifted by hearing him speak. ",
+            "matched": true
+          },
+          "an4.129:4.2": {
+            "scid": "an4.129:4.2",
+            "pli": "Tatra ce ānando \u001b[38;5;121mdhamma\u001b[0mṁ bhāsati, bhāsitenapi sā attamanā hoti. ",
+            "de": "Wenn er über den \u001b[38;5;121mDhamma\u001b[0m spricht, sind sie erhoben, wenn sie ihn sprechen hören. ",
+            "en": "and uplifted by hearing him speak. ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.22",
+        "lang": "de",
+        "segMap": {
+          "an3.22:8.1": {
+            "scid": "an3.22:8.1",
+            "pli": "Tatra, bhikkhave, yvāyaṁ puggalo labhantova tathāgataṁ dassanāya no alabhanto, labhantova tathāgatappaveditaṁ \u001b[38;5;121mdhamma\u001b[0mvinayaṁ savanāya no alabhanto okkamati niyāmaṁ kusalesu dhammesu sammattaṁ, imaṁ kho, bhikkhave, puggalaṁ paṭicca \u001b[38;5;121mdhamma\u001b[0mdesanā anuññātā. ",
+            "de": "Und es ist zum Wohl dieser letztgenannten Menschen –, die bei den tauglichen Eigenschaften den sicheren Pfad betreten können, wenn sie einem Klargewordenen begegnen und die Lehre und Übung, die dieser verkündet, zu hören bekommen –, dass das Lehren des \u001b[38;5;121mDhamma\u001b[0m verordnet wird. ",
+            "en": "Now, it’s for the sake of this last person that teaching the \u001b[38;5;121mDhamma\u001b[0m is prescribed, that is, the one who can enter the sure path with regards to skillful qualities, but only if they get to see a Realized One, and to hear the teaching and training that he proclaims. ",
+            "matched": true
+          },
+          "an3.22:8.2": {
+            "scid": "an3.22:8.2",
+            "pli": "Imañca pana, bhikkhave, puggalaṁ paṭicca aññesampi dhammo desetabbo. ",
+            "de": "Aber zum Wohl dieser Menschen sollten auch die anderen im \u001b[38;5;121mDhamma\u001b[0m unterwiesen werden. ",
+            "en": "But also, for the sake of this person, the other people should be taught \u001b[38;5;121mDhamma\u001b[0m. ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.124_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.124_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.124_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.124",
+        "lang": "de",
+        "segMap": {
+          "an5.124:1.7": {
+            "scid": "an5.124:1.7",
+            "pli": "nappaṭibalo hoti gilānaṁ kālena kālaṁ dhammiyā kathāya sandassetuṁ samādapetuṁ samuttejetuṁ sampahaṁsetuṁ. ",
+            "de": "Sie ist nicht in der Lage, den Kranken von Zeit zu Zeit mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. ",
+            "en": "They’re unable to educate, encourage, fire up, and inspire the patient with a \u001b[38;5;121mDhamma\u001b[0m talk from time to time. ",
+            "matched": true
+          },
+          "an5.124:2.7": {
+            "scid": "an5.124:2.7",
+            "pli": "paṭibalo hoti gilānaṁ kālena kālaṁ dhammiyā kathāya sandassetuṁ samādapetuṁ samuttejetuṁ sampahaṁsetuṁ. ",
+            "de": "Sie ist in der Lage, den Kranken von Zeit zu Zeit mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. ",
+            "en": "They’re able to educate, encourage, fire up, and inspire the patient with a \u001b[38;5;121mDhamma\u001b[0m talk from time to time. ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.257_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.257_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.257_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.257",
+        "lang": "de",
+        "segMap": {
+          "an4.257:2.1": {
+            "scid": "an4.257:2.1",
+            "pli": "“Sādhu me, bhante, bhagavā saṅkhittena \u001b[38;5;121mdhamma\u001b[0mṁ desetu, yamahaṁ bhagavato \u001b[38;5;121mdhamma\u001b[0mṁ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto vihareyyan”ti. ",
+            "de": "„Herr, dass der Buddha mich den \u001b[38;5;121mDhamma\u001b[0m in kurzer Form lehre. Wenn ich ihn gehört habe, werde ich allein leben, zurückgezogen, beflissen, eifrig und entschlossen.“ ",
+            "en": "“Sir, may the Buddha please teach me \u001b[38;5;121mDhamma\u001b[0m in brief. When I’ve heard it, I’ll live alone, withdrawn, diligent, keen, and resolute.” ",
+            "matched": true
+          },
+          "an4.257:2.4": {
+            "scid": "an4.257:2.4",
+            "pli": "“Desetu me, bhante, bhagavā saṅkhittena \u001b[38;5;121mdhamma\u001b[0mṁ; desetu sugato saṅkhittena \u001b[38;5;121mdhamma\u001b[0mṁ. Appeva nāmāhaṁ bhagavato bhāsitassa atthaṁ ājāneyyaṁ; appeva nāmāhaṁ bhagavato bhāsitassa dāyādo assan”ti. ",
+            "de": "„Herr, dass der Buddha mich den \u001b[38;5;121mDhamma\u001b[0m in kurzer Form lehre! Dass der Heilige mich den \u001b[38;5;121mDhamma\u001b[0m in kurzer Form lehre! Hoffentlich kann ich die Bedeutung der Worte des Buddha verstehen! Hoffentlich kann ich ein Erbe der Lehre des Buddha werden!“ ",
+            "en": "“Sir, may the Buddha teach me the \u001b[38;5;121mDhamma\u001b[0m in brief! May the Holy One teach me the \u001b[38;5;121mDhamma\u001b[0m in brief! Hopefully I can understand the meaning of what the Buddha says! Hopefully I can be an heir of the Buddha’s teaching!” ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.33",
+        "lang": "de",
+        "segMap": {
+          "an3.33:1.2": {
+            "scid": "an3.33:1.2",
+            "pli": "“saṅkhittenapi kho ahaṁ, sāriputta, \u001b[38;5;121mdhamma\u001b[0mṁ deseyyaṁ; ",
+            "de": "„Ich kann den \u001b[38;5;121mDhamma\u001b[0m kurz lehren ",
+            "en": "“Maybe I’ll teach \u001b[38;5;121mDhamma\u001b[0m in brief, ",
+            "matched": true
+          },
+          "an3.33:1.7": {
+            "scid": "an3.33:1.7",
+            "pli": "yaṁ bhagavā saṅkhittenapi \u001b[38;5;121mdhamma\u001b[0mṁ deseyya, vitthārenapi \u001b[38;5;121mdhamma\u001b[0mṁ deseyya, saṅkhittavitthārenapi \u001b[38;5;121mdhamma\u001b[0mṁ deseyya. ",
+            "de": "Der Buddha lehre den \u001b[38;5;121mDhamma\u001b[0m kurz, ausführlich und sowohl kurz als auch ausführlich. ",
+            "en": "Let the Buddha teach \u001b[38;5;121mDhamma\u001b[0m in brief, in detail, and both in brief and in detail. ",
+            "matched": true
+          }
+        },
+        "score": 2.074,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.245_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.245_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.245_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.245",
+        "lang": "de",
+        "segMap": {
+          "an4.245:3.2": {
+            "scid": "an4.245:3.2",
+            "pli": "Idha, bhikkhave, mayā sāvakānaṁ dhammā desitā sabbaso sammā dukkhakkhayāya. ",
+            "de": "Ich habe meine Schülerinnen im \u001b[38;5;121mDhamma\u001b[0m unterwiesen, um das Leiden völlig und in jeder Hinsicht zu beenden. ",
+            "en": "I taught the \u001b[38;5;121mDhamma\u001b[0m to my disciples in order to rightly end suffering in every way. ",
+            "matched": true
+          },
+          "an4.245:4.2": {
+            "scid": "an4.245:4.2",
+            "pli": "Idha, bhikkhave, mayā sāvakānaṁ dhammā desitā sabbaso sammā dukkhakkhayāya. ",
+            "de": "Ich habe meine Schüler im \u001b[38;5;121mDhamma\u001b[0m unterwiesen, um das Leiden völlig und in jeder Hinsicht zu beenden. ",
+            "en": "I taught the \u001b[38;5;121mDhamma\u001b[0m to my disciples in order to rightly end suffering in every way. ",
+            "matched": true
+          }
+        },
+        "score": 2.074,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.130_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.130_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.130_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.130",
+        "lang": "de",
+        "segMap": {
+          "an4.130:5.4": {
+            "scid": "an4.130:5.4",
+            "pli": "Tatra ce ānando \u001b[38;5;121mdhamma\u001b[0mṁ bhāsati, bhāsitenapi sā attamanā hoti. ",
+            "de": "Wenn er über den \u001b[38;5;121mDhamma\u001b[0m spricht, sind sie erhoben, wenn sie ihn sprechen hören. ",
+            "en": "and uplifted by hearing him speak. ",
+            "matched": true
+          },
+          "an4.130:6.2": {
+            "scid": "an4.130:6.2",
+            "pli": "Tatra ce ānando \u001b[38;5;121mdhamma\u001b[0mṁ bhāsati, bhāsitenapi sā attamanā hoti. ",
+            "de": "Wenn er über den \u001b[38;5;121mDhamma\u001b[0m spricht, sind sie erhoben, wenn sie ihn sprechen hören. ",
+            "en": "and uplifted by hearing him speak. ",
+            "matched": true
+          }
+        },
+        "score": 2.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 34,
+          "de": 32,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.38",
+        "lang": "de",
+        "segMap": {
+          "an5.38:1.6": {
+            "scid": "an5.38:1.6",
+            "pli": "saddhaññeva paṭhamaṁ \u001b[38;5;121mdhamma\u001b[0mṁ desentā desenti, no tathā assaddhaṁ; ",
+            "de": "Sie lehren zuerst die Vertrauensvollen den \u001b[38;5;121mDhamma\u001b[0m, nicht die ohne Vertrauen. ",
+            "en": "They first teach \u001b[38;5;121mDhamma\u001b[0m to the faithful, not so much the unfaithful. ",
+            "matched": true
+          },
+          "an5.38:7.1": {
+            "scid": "an5.38:7.1",
+            "pli": "Te tassa \u001b[38;5;121mdhamma\u001b[0mṁ desenti, ",
+            "de": "Sie lehren ihn den \u001b[38;5;121mDhamma\u001b[0m, ",
+            "en": "They teach them the \u001b[38;5;121mDhamma\u001b[0m, ",
+            "matched": true
+          }
+        },
+        "score": 2.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 34,
+          "de": 33,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.170-187_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.170-187",
+        "lang": "de",
+        "segMap": {
+          "an1.187:1.1": {
+            "scid": "an1.187:1.1",
+            "pli": "“Nāhaṁ, bhikkhave, aññaṁ ekapuggalampi samanupassāmi yo evaṁ tathāgatena anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavattitaṁ sammadeva anuppavatteti yathayidaṁ, bhikkhave, sāriputto. ",
+            "de": "„Mönche und Nonnen, ich sehe keinen anderen Menschen als Sāriputta, der das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m, das vom Klargewordenen ins Rollen gebracht wurde, richtig am Rollen hält. ",
+            "en": "“Mendicants, I do not see a single other person who rightly keeps rolling the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m that was rolled forth by the Realized One like Sāriputta. ",
+            "matched": true
+          },
+          "an1.187:1.2": {
+            "scid": "an1.187:1.2",
+            "pli": "Sāriputto, bhikkhave, tathāgatena anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavattitaṁ sammadeva anuppavattetī”ti. ",
+            "de": "Sāriputta hält das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m, das vom Klargewordenen ins Rollen gebracht wurde, richtig am Rollen.“ ",
+            "en": "Sāriputta rightly keeps rolling the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m that was rolled forth by the Realized One.” ",
+            "matched": true
+          }
+        },
+        "score": 2.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.63",
+        "lang": "de",
+        "segMap": {
+          "an8.63:1.2": {
+            "scid": "an8.63:1.2",
+            "pli": "“sādhu me, bhante, bhagavā saṅkhittena \u001b[38;5;121mdhamma\u001b[0mṁ desetu, yamahaṁ bhagavato \u001b[38;5;121mdhamma\u001b[0mṁ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto vihareyyan”ti. ",
+            "de": "„Herr, dass der Buddha mich den \u001b[38;5;121mDhamma\u001b[0m in kurzer Form lehre. Wenn ich ihn gehört habe, werde ich allein leben, zurückgezogen, beflissen, eifrig und entschlossen.“ ",
+            "en": "“Sir, may the Buddha please teach me \u001b[38;5;121mDhamma\u001b[0m in brief. When I’ve heard it, I’ll live alone, withdrawn, diligent, keen, and resolute.” ",
+            "matched": true
+          },
+          "an8.63:1.5": {
+            "scid": "an8.63:1.5",
+            "pli": "“Desetu me, bhante, bhagavā saṅkhittena \u001b[38;5;121mdhamma\u001b[0mṁ, desetu sugato saṅkhittena \u001b[38;5;121mdhamma\u001b[0mṁ. Appeva nāmāhaṁ bhagavato bhāsitassa atthaṁ ājāneyyaṁ, appeva nāmāhaṁ bhagavato bhāsitassa dāyādo assan”ti. ",
+            "de": "„Herr, dass der Buddha mich den \u001b[38;5;121mDhamma\u001b[0m in kurzer Form lehre! Dass der Heilige mich den \u001b[38;5;121mDhamma\u001b[0m in kurzer Form lehre! Hoffentlich kann ich die Bedeutung der Worte des Buddha verstehen! Hoffentlich kann ich eine Erbin der Lehre des Buddha werden!“ ",
+            "en": "“Sir, may the Buddha teach me the \u001b[38;5;121mDhamma\u001b[0m in brief! May the Holy One teach me the \u001b[38;5;121mDhamma\u001b[0m in brief! Hopefully I can understand the meaning of what the Buddha says! Hopefully I can be an heir of the Buddha’s teaching!” ",
+            "matched": true
+          }
+        },
+        "score": 2.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.72_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.72_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.72_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.72",
+        "lang": "de",
+        "segMap": {
+          "an3.72:6.3": {
+            "scid": "an3.72:6.3",
+            "pli": "Āyataneva \u001b[38;5;121mdhamma\u001b[0mdesanā, attho ca vutto, attā ca anupanīto. ",
+            "de": "Nur auf die Sache bezogen wurde der \u001b[38;5;121mDhamma\u001b[0m gelehrt. Das Ziel wurde erklärt, doch ohne das Selbst einzubringen. ",
+            "en": "just teaching what’s relevant in that context. The goal is spoken of, but the self is not involved. ",
+            "matched": true
+          },
+          "an3.72:6.4": {
+            "scid": "an3.72:6.4",
+            "pli": "Tumhe, bhante ānanda, rāgassa pahānāya \u001b[38;5;121mdhamma\u001b[0mṁ desetha, dosassa …pe… mohassa pahanāya \u001b[38;5;121mdhamma\u001b[0mṁ desetha. ",
+            "de": "Du, Herr, lehrst den \u001b[38;5;121mDhamma\u001b[0m für das Ziel, Gier, Hass und Täuschung aufzugeben. ",
+            "en": "You, sir, teach \u001b[38;5;121mDhamma\u001b[0m for giving up greed, hate, and delusion. ",
+            "matched": true
+          }
+        },
+        "score": 2.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 44,
+          "de": 43,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.91_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.91",
+        "lang": "de",
+        "segMap": {
+          "an3.91:1.4": {
+            "scid": "an3.91:1.4",
+            "pli": "Tatra sudaṁ bhagavā sikkhāpadapaṭisaṁyuttāya dhammiyā kathāya bhikkhū sandasseti samādapeti samuttejeti sampahaṁseti. ",
+            "de": "Da leitete der Buddha die Mönche und Nonnen mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag über die Übungsregeln an, ermunterte sie, begeisterte sie und regte sie an. ",
+            "en": "There the Buddha educated, encouraged, fired up, and inspired the mendicants with a \u001b[38;5;121mDhamma\u001b[0m talk about the training rules. ",
+            "matched": true
+          },
+          "an3.91:3.11": {
+            "scid": "an3.91:3.11",
+            "pli": "Accayo maṁ, bhante, accagamā yathābālaṁ yathāmūḷhaṁ yathāakusalaṁ yassa me bhagavati sikkhāpadapaṭisaṁyuttāya dhammiyā kathāya bhikkhū sandassente samādapente samuttejente sampahaṁsente ahudeva akkhanti ahu appaccayo: ",
+            "de": "„Ich habe einen Fehler gemacht, Herr. Es war töricht, dumm und untauglich von mir, so ungeduldig und verdrießlich zu werden, als der Buddha die Mönche und Nonnen mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag über die Übungsregeln anleitete, sie ermunterte, begeisterte und anregte. Es war töricht von mir, zu denken: ",
+            "en": "“I have made a mistake, sir. It was foolish, stupid, and unskillful of me to become impatient and bitter when the Buddha was educating, encouraging, firing up, and inspiring the mendicants with a \u001b[38;5;121mDhamma\u001b[0m talk about the training rules, and to think, ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 61,
+          "de": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.192_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.192_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.192",
+        "lang": "de",
+        "segMap": {
+          "an4.192:8.7": {
+            "scid": "an4.192:8.7",
+            "pli": "Yañca ayamāyasmā \u001b[38;5;121mdhamma\u001b[0mṁ bhāsati tassa ca nappaṭibalo saṅkhittena vā vitthārena vā atthaṁ ācikkhituṁ desetuṁ paññāpetuṁ paṭṭhapetuṁ vivarituṁ vibhajituṁ uttānīkātuṁ. ",
+            "de": "Wenn diese Ehrwürdige über den \u001b[38;5;121mDhamma\u001b[0m spricht, ist sie nicht in der Lage, die Bedeutung zu erklären, weder kurz noch ausführlich. Sie lehrt sie nicht, stellt sie nicht fest, etabliert sie nicht, stellt sie nicht klar, gliedert sie nicht auf und enthüllt sie nicht. ",
+            "en": "When this venerable speaks on \u001b[38;5;121mDhamma\u001b[0m they’re not able to explain the meaning, either briefly or in detail. They can’t teach it, assert it, establish it, open it, analyze it, or make it clear. ",
+            "matched": true
+          },
+          "an4.192:10.5": {
+            "scid": "an4.192:10.5",
+            "pli": "Yañca ayamāyasmā \u001b[38;5;121mdhamma\u001b[0mṁ bhāsati, tassa ca paṭibalo saṅkhittena vā vitthārena vā atthaṁ ācikkhituṁ desetuṁ paññāpetuṁ paṭṭhapetuṁ vivarituṁ vibhajituṁ uttānīkātuṁ. ",
+            "de": "Wenn diese Ehrwürdige über den \u001b[38;5;121mDhamma\u001b[0m spricht, ist sie in der Lage, die Bedeutung zu erklären, sowohl kurz als auch ausführlich. Sie lehrt sie, stellt sie fest, etabliert sie, stellt sie klar, gliedert sie auf und enthüllt sie. ",
+            "en": "When this venerable speaks on \u001b[38;5;121mDhamma\u001b[0m they’re able to explain the meaning, either briefly or in detail. They teach it, assert it, establish it, open it, analyze it, and make it clear. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 76,
+          "de": 75,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn33",
+        "lang": "de",
+        "segMap": {
+          "mn33:8.2": {
+            "scid": "mn33:8.2",
+            "pli": "Idha, bhikkhave, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ na vitthārena paresaṁ desetā hoti. ",
+            "de": "Es ist, wenn ein Mönch andere nicht ausführlich im \u001b[38;5;121mDhamma\u001b[0m unterweist, wie er ihn gehört und sich eingeprägt hat. ",
+            "en": "It’s when a mendicant doesn’t teach others the \u001b[38;5;121mDhamma\u001b[0m in detail as they learned and memorized it. ",
+            "matched": true
+          },
+          "mn33:21.2": {
+            "scid": "mn33:21.2",
+            "pli": "Idha, bhikkhave, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ desetā hoti. ",
+            "de": "Es ist, wenn ein Mönch andere ausführlich im \u001b[38;5;121mDhamma\u001b[0m unterweist, wie er ihn gehört und sich eingeprägt hat. ",
+            "en": "It’s when a mendicant teaches others the \u001b[38;5;121mDhamma\u001b[0m in detail as they learned and memorized it. ",
+            "matched": true
+          }
+        },
+        "score": 2.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 118,
+          "de": 117,
+          "en": 117
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.11-20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.11-20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.11-20",
+        "lang": "de",
+        "segMap": {
+          "an2.14:1.1": {
+            "scid": "an2.14:1.1",
+            "pli": "“Dvemā, bhikkhave, tathāgatassa \u001b[38;5;121mdhamma\u001b[0mdesanā. ",
+            "de": "„Mönche und Nonnen, es gibt diese beiden Arten, den \u001b[38;5;121mDhamma\u001b[0m zu lehren. ",
+            "en": "“There are, mendicants, these two ways of teaching the \u001b[38;5;121mDhamma\u001b[0m. ",
+            "matched": true
+          },
+          "an2.14:1.4": {
+            "scid": "an2.14:1.4",
+            "pli": "Imā kho, bhikkhave, dve tathāgatassa \u001b[38;5;121mdhamma\u001b[0mdesanā”ti. ",
+            "de": "Das sind die beiden Arten, den \u001b[38;5;121mDhamma\u001b[0m zu lehren.“ ",
+            "en": "These are two ways of teaching the \u001b[38;5;121mDhamma\u001b[0m.” ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 176,
+          "de": 175,
+          "en": 175
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.59_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.59_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.59_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.59",
+        "lang": "de",
+        "segMap": {
+          "an5.59:1.3": {
+            "scid": "an5.59:1.3",
+            "pli": "Dullabho, bhikkhave, vuḍḍhapabbajito nipuṇo, dullabho ākappasampanno, dullabho bahussuto, dullabho \u001b[38;5;121mdhamma\u001b[0mkathiko, dullabho vinayadharo. ",
+            "de": "Jemand, der im Alter fortgezogen ist und der scharfsinnig ist, eine ordentliche Erscheinung hat, gelehrt ist, den \u001b[38;5;121mDhamma\u001b[0m lehren kann und sich die Texte über die Ordenssatzung eingeprägt hat, ist schwer zu finden. ",
+            "en": "It’s hard to find someone gone forth when old who is sophisticated, well-presented, and learned, who can teach \u001b[38;5;121mDhamma\u001b[0m, and has memorized the texts on monastic training. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig1.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig1.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig1.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig1.12",
+        "lang": "de",
+        "segMap": {
+          "thig1.12:0.3": {
+            "scid": "thig1.12:0.3",
+            "pli": "12. \u001b[38;5;121mDhamma\u001b[0mdinnātherīgāthā",
+            "de": "1.12. \u001b[38;5;121mDhamma\u001b[0mdinnā ",
+            "en": "1.12. \u001b[38;5;121mDhamma\u001b[0mdinnā",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.118_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.118_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.118_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.118",
+        "lang": "de",
+        "segMap": {
+          "an4.118:1.5": {
+            "scid": "an4.118:1.5",
+            "pli": "‘Idha tathāgato anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavattesī’ti, bhikkhave, saddhassa kulaputtassa dassanīyaṁ saṁvejanīyaṁ ṭhānaṁ. ",
+            "de": "Man denkt: ‚Hier hat der Klargewordene das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen gebracht!‘ – das ist ein ergreifender Ort. ",
+            "en": "Thinking: ‘Here the Realized One rolled forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m!’—that is an inspiring place. ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 10,
+          "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.233_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.233_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.233_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.233",
+        "lang": "de",
+        "segMap": {
+          "an5.233:1.6": {
+            "scid": "an5.233:1.6",
+            "pli": "paṭibalo hoti upasaṅkamante dhammiyā kathāya sandassetuṁ samādapetuṁ samuttejetuṁ sampahaṁsetuṁ; ",
+            "de": "Sie ist in der Lage, die, die zu ihr kommen, mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. ",
+            "en": "They’re able to educate, encourage, fire up, and inspire those who approach them with a \u001b[38;5;121mDhamma\u001b[0m talk. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.60",
+        "lang": "de",
+        "segMap": {
+          "an5.60:1.3": {
+            "scid": "an5.60:1.3",
+            "pli": "Dullabho, bhikkhave, vuḍḍhapabbajito suvaco, dullabho suggahitaggāhī, dullabho padakkhiṇaggāhī, dullabho \u001b[38;5;121mdhamma\u001b[0mkathiko, dullabho vinayadharo. ",
+            "de": "Jemand, der im Alter fortgezogen ist und der leicht zu ermahnen ist, der behält, was er lernt, der mit Respekt lernt, der den \u001b[38;5;121mDhamma\u001b[0m lehren kann und sich die Texte über die Ordenssatzung eingeprägt hat, ist schwer zu finden. ",
+            "en": "It’s hard to find someone gone forth when old who is easy to admonish, retains what they learn, and learns respectfully, who can teach the \u001b[38;5;121mDhamma\u001b[0m, and has memorized the texts on monastic training. ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 7,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.235-247_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.235-247_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.235-247_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.235-247",
+        "lang": "de",
+        "segMap": {
+          "an1.239:1.1": {
+            "scid": "an1.239:1.1",
+            "pli": "… \u001b[38;5;121mDhamma\u001b[0mkathikānaṁ yadidaṁ \u001b[38;5;121mdhamma\u001b[0mdinnā. #5",
+            "de": "… die über die Lehre sprechen, ist \u001b[38;5;121mDhamma\u001b[0mdinnā. ",
+            "en": "… who speak on the teaching is \u001b[38;5;121mDhamma\u001b[0mdinnā. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig3.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig3.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig3.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig3.8",
+        "lang": "de",
+        "segMap": {
+          "thig3.8:2.4": {
+            "scid": "thig3.8:2.4",
+            "pli": "sammā \u001b[38;5;121mdhamma\u001b[0mṁ vipassato.",
+            "de": "und man den \u001b[38;5;121mDhamma\u001b[0m klar sieht. ",
+            "en": "as you rightly discern the \u001b[38;5;121mDhamma\u001b[0m.",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.14",
+        "lang": "de",
+        "segMap": {
+          "an3.14:5.1": {
+            "scid": "an3.14:5.1",
+            "pli": "Sa kho so, bhikkhu, tathāgato arahaṁ sammāsambuddho dhammiko \u001b[38;5;121mdhamma\u001b[0mrājā \u001b[38;5;121mdhamma\u001b[0mṁyeva nissāya \u001b[38;5;121mdhamma\u001b[0mṁ sakkaronto \u001b[38;5;121mdhamma\u001b[0mṁ garuṁ karonto \u001b[38;5;121mdhamma\u001b[0mṁ apacāyamāno \u001b[38;5;121mdhamma\u001b[0mddhajo \u001b[38;5;121mdhamma\u001b[0mketu dhammādhipateyyo dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā kāyakammasmiṁ, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā vacīkammasmiṁ, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā manokammasmiṁ, dhammeneva anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavatteti. ",
+            "de": "Und wenn ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha gerechten Schutz und Sicherheit in Bezug auf Handlungen mit dem Körper, der Sprache und dem Geist bereitgestellt hat, bringt er das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen. ",
+            "en": "And when a Realized One, a perfected one, a fully awakened Buddha has provided just protection and security regarding actions of body, speech, and mind, he rolls forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m. ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.157_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.157_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.157_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.157",
+        "lang": "de",
+        "segMap": {
+          "an4.157:2.6": {
+            "scid": "an4.157:2.6",
+            "pli": "So saṅkhāya kulāni upasaṅkamati, saṅkhāya nisīdati, saṅkhāya \u001b[38;5;121mdhamma\u001b[0mṁ bhāsati, saṅkhāya uccārapassāvaṁ sandhāreti. ",
+            "de": "Sie hat ein heimliches Motiv, wenn sie Familien besucht. Sie hat ein heimliches Motiv, wenn sie sich hinsetzt, wenn sie über den \u001b[38;5;121mDhamma\u001b[0m spricht und sogar wenn sie Kot und Urin einhält. ",
+            "en": "They have an ulterior motive when they visit families. They have an ulterior motive when they sit down, when they speak on \u001b[38;5;121mDhamma\u001b[0m, and even when they hold it in when they need to go to the toilet. ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.378-393_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.378-393_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.378-393_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.378-393",
+        "lang": "de",
+        "segMap": {
+          "an1.382:1.1": {
+            "scid": "an1.382:1.1",
+            "pli": "\u001b[38;5;121mdhamma\u001b[0mkathikattaṁ … ",
+            "de": "den \u001b[38;5;121mDhamma\u001b[0m lehren … ",
+            "en": " teaching \u001b[38;5;121mDhamma\u001b[0m …",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.35",
+        "lang": "de",
+        "segMap": {
+          "an5.35:3.1": {
+            "scid": "an5.35:3.1",
+            "pli": "Te tassa \u001b[38;5;121mdhamma\u001b[0mṁ desenti, ",
+            "de": "Sie lehren einen den \u001b[38;5;121mDhamma\u001b[0m, ",
+            "en": "They teach you the \u001b[38;5;121mDhamma\u001b[0m ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.8",
+        "lang": "de",
+        "segMap": {
+          "an4.8:6.1": {
+            "scid": "an4.8:6.1",
+            "pli": "Yo \u001b[38;5;121mdhamma\u001b[0mcakkaṁ abhibhuyya kevalī, ",
+            "de": "Er bringt als ein Vollkommener das Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen, ",
+            "en": "He rolls forth the Wheel of \u001b[38;5;121mDhamma\u001b[0m as a consummate one, ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.74",
+        "lang": "de",
+        "segMap": {
+          "an5.74:3.1": {
+            "scid": "an5.74:3.1",
+            "pli": "Puna caparaṁ, bhikkhu, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ deseti, uttari cassa paññāya atthaṁ nappajānāti. ",
+            "de": "Dann unterweist da ein Mönch andere ausführlich im \u001b[38;5;121mDhamma\u001b[0m, wie er ihn gehört und sich eingeprägt hat. Doch er versteht die tiefere Bedeutung nicht. ",
+            "en": "Furthermore, a mendicant teaches \u001b[38;5;121mDhamma\u001b[0m in detail to others as they learned and memorized it. But they don’t understand the higher meaning. ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.15",
+        "lang": "de",
+        "segMap": {
+          "sn12.15:3.3": {
+            "scid": "sn12.15:3.3",
+            "pli": "Ete te, kaccāna, ubho ante anupagamma majjhena tathāgato \u001b[38;5;121mdhamma\u001b[0mṁ deseti: ",
+            "de": "Der Klargewordene vermeidet diese beiden Extreme und lehrt den \u001b[38;5;121mDhamma\u001b[0m auf die mittlere Art: ",
+            "en": "Avoiding these two extremes, the Realized One teaches by the middle way: ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.99",
+        "lang": "de",
+        "segMap": {
+          "an5.99:2.2": {
+            "scid": "an5.99:2.2",
+            "pli": "Yaṁ kho, bhikkhave, tathāgato parisāya \u001b[38;5;121mdhamma\u001b[0mṁ deseti, idamassa hoti sīhanādasmiṁ. ",
+            "de": "Wenn der Klargewordene vor einer Versammlung den \u001b[38;5;121mDhamma\u001b[0m lehrt, ist das sein Löwengebrüll. ",
+            "en": "When the Realized One teaches \u001b[38;5;121mDhamma\u001b[0m to an assembly, this is his lion’s roar. ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.133_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.133",
+        "lang": "de",
+        "segMap": {
+          "an5.133:6.1": {
+            "scid": "an5.133:6.1",
+            "pli": "Sa kho so, bhikkhu, tathāgato arahaṁ sammāsambuddho dhammiko \u001b[38;5;121mdhamma\u001b[0mrājā \u001b[38;5;121mdhamma\u001b[0mññeva nissāya \u001b[38;5;121mdhamma\u001b[0mṁ sakkaronto \u001b[38;5;121mdhamma\u001b[0mṁ garuṁ karonto \u001b[38;5;121mdhamma\u001b[0mṁ apacāyamāno \u001b[38;5;121mdhamma\u001b[0mddhajo \u001b[38;5;121mdhamma\u001b[0mketu dhammādhipateyyo dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā bhikkhūsu, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā bhikkhunīsu, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā upāsakesu, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā upāsikāsu dhammeneva anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavatteti; ",
+            "de": "Und wenn ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha den Mönchen, Nonnen, Laienmännern und Laienfrauen gerechten Schutz und Sicherheit bereitgestellt hat, bringt er das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen, indem er sich nur auf natürliche Gesetzmäßigkeiten stützt. ",
+            "en": "When a Realized One, a perfected one, a fully awakened Buddha has provided just protection and security for the monks, nuns, laymen, and laywomen, he rolls forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m only in a principled manner. ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "de": 25,
+          "en": 25
+        }
+      }
+    ]
+  }
+}

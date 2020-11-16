@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "mir hinterherzulaufen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "mir hinterherzulaufen",
+    "elapsed": 0.004,
+    "method": "phrase",
+    "resultPattern": "\\bmir hinterherzulaufen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.63/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.63",
+        "lang": "de",
+        "segMap": {
+          "an8.63:1.4": {
+            "scid": "an8.63:1.4",
+            "pli": "Dhamme ca bhāsite mamaññeva anubandhitabbaṁ maññantī”ti. ",
+            "de": "Doch wenn dann die Lehre dargelegt wurde, haben sie nur im Sinn, \u001b[38;5;121mmir hinterherzulaufen\u001b[0m.“ ",
+            "en": "But when the teaching has been explained they think only of following me around.” ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "unglück der vielen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "unglück der vielen",
+    "elapsed": 0.054,
+    "method": "phrase",
+    "resultPattern": "\\bunglück der vielen",
+    "segsMatched": 18,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an1/an1.98-139_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.98-139_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.98-139_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.316-332_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.316-332_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.150-169_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.150-169_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.150-169_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.88_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.88_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.88_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an1.98-139/de/sabbamitta",
+      "an1.316-332/de/sabbamitta",
+      "an1.150-169/de/sabbamitta",
+      "an6.36/de/sabbamitta",
+      "an5.88/de/sabbamitta",
+      "an3.11/de/sabbamitta",
+      "an2.32-41/de/sabbamitta",
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.150-169_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.150-169_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.150-169_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.150-169",
+        "lang": "de",
+        "segMap": {
+          "an1.150:1.1": {
+            "scid": "an1.150:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū anāpattiṁ āpattīti dīpenti te, bhikkhave, bhikkhū bahujanaahitāya paṭipannā bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die etwas, das kein Vergehen ist, als ein Vergehen darstellen, handeln zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain non-offense as an offense are acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an1.151:1.1": {
+            "scid": "an1.151:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū āpattiṁ anāpattīti dīpenti te, bhikkhave, bhikkhū bahujanaahitāya paṭipannā bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die ein Vergehen als etwas darstellen, das kein Vergehen ist, handeln zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain an offense as non-offense are acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an1.152-159:1.1": {
+            "scid": "an1.152-159:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū lahukaṁ āpattiṁ garukā āpattīti dīpenti …pe… garukaṁ āpattiṁ lahukā āpattīti dīpenti …pe… duṭṭhullaṁ āpattiṁ aduṭṭhullā āpattīti dīpenti …pe… aduṭṭhullaṁ āpattiṁ duṭṭhullā āpattīti dīpenti …pe… sāvasesaṁ āpattiṁ anavasesā āpattīti dīpenti …pe… anavasesaṁ āpattiṁ sāvasesā āpattīti dīpenti …pe… sappaṭikammaṁ āpattiṁ appaṭikammā āpattīti dīpenti …pe… appaṭikammaṁ āpattiṁ sappaṭikammā āpattīti dīpenti te, bhikkhave, bhikkhū bahujanaahitāya paṭipannā bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Jene Mönche und Nonnen, die ein leichtes Vergehen als ein schweres Vergehen darstellen, … ein schweres Vergehen als ein leichtes Vergehen … ein Vergehen, das in schamloser Absicht begangen wurde, als ein Vergehen, das nicht in schamloser Absicht begangen wurde, … ein Vergehen, das nicht in schamloser Absicht begangen wurde, als ein Vergehen, das in schamloser Absicht begangen wurde, … ein Vergehen, das Rehabilitierung erfordert, als ein Vergehen, das keine Rehabilitierung erfordert, … ein Vergehen, das keine Rehabilitierung erfordert, als ein Vergehen, das Rehabilitierung erfordert, … ein Vergehen mit Wiedergutmachung als ein Vergehen ohne Wiedergutmachung … die ein Vergehen ohne Wiedergutmachung als ein Vergehen mit Wiedergutmachung darstellen, handeln zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "“Those mendicants who explain a light offense as a serious offense … a serious offense as a light offense … an offense committed with corrupt intention as an offense not committed with corrupt intention … an offense not committed with corrupt intention as an offense committed with corrupt intention … an offense requiring rehabilitation as an offense not requiring rehabilitation … an offense not requiring rehabilitation as an offense requiring rehabilitation … an offense with redress as an offense without redress … an offense without redress as an offense with redress are acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 3.103,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.316-332_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.316-332_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.316-332",
+        "lang": "de",
+        "segMap": {
+          "an1.316:1.1": {
+            "scid": "an1.316:1.1",
+            "pli": "“Ekapuggalo, bhikkhave, loke uppajjamāno uppajjati bahujanaahitāya bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Ein Mensch, Mönche und Nonnen, erscheint in der Welt zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "“One person, mendicants, arises in the world for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an1.316:1.5": {
+            "scid": "an1.316:1.5",
+            "pli": "Ayaṁ kho, bhikkhave, ekapuggalo loke uppajjamāno uppajjati bahujanaahitāya bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānan”ti. ",
+            "de": "Das ist der eine Mensch, Mönche und Nonnen, der zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden von Göttern und Menschen in der Welt erscheint.“ ",
+            "en": "This is one person who arises in the world for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans.” ",
+            "matched": true
+          },
+          "an1.319:1.1": {
+            "scid": "an1.319:1.1",
+            "pli": "“Nāhaṁ, bhikkhave, aññaṁ ekapuggalampi samanupassāmi yo evaṁ bahujanaahitāya paṭipanno bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ yathayidaṁ, bhikkhave, makkhali moghapuriso. ",
+            "de": "„Mönche und Nonnen, ich sehe keinen anderen Menschen, der so zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m handelt, zum Nachteil, Schaden und Leiden vieler Menschen, von Göttern und Menschen, wie Makkhali, dieser törichte Mann. ",
+            "en": "“Mendicants, I do not see a single other person who acts for the hurt and unhappiness of the people, for the harm, hurt, and suffering of many people, of gods and humans like that silly man, Makkhali. ",
+            "matched": true
+          }
+        },
+        "score": 3.049,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 61,
+          "de": 60,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.98-139_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.98-139_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.98-139_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.98-139",
+        "lang": "de",
+        "segMap": {
+          "an1.130:1.1": {
+            "scid": "an1.130:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū adhammaṁ dhammoti dīpenti te, bhikkhave, bhikkhū bahujanaahitāya paṭipannā bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die das, was nicht die Lehre ist, als die Lehre darstellen, handeln zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain what is not the teaching as the teaching are acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an1.131:1.1": {
+            "scid": "an1.131:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū dhammaṁ adhammoti dīpenti te, bhikkhave, bhikkhū bahujanaahitāya paṭipannā bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die das, was die Lehre ist, als nicht die Lehre darstellen, handeln zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain what is the teaching as not the teaching are acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an1.132-139:1.2": {
+            "scid": "an1.132-139:1.2",
+            "pli": "te, bhikkhave, bhikkhū bahujanaahitāya paṭipannā bahujanaasukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "handeln zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "are acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 3.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 76,
+          "de": 75,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.11",
+        "lang": "de",
+        "segMap": {
+          "an3.11:1.1": {
+            "scid": "an3.11:1.1",
+            "pli": "“Tīhi, bhikkhave, dhammehi samannāgato ñāto bhikkhu bahujanaahitāya paṭipanno hoti bahujanadukkhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, ein namhafter Mönch, der drei Eigenschaften besitzt, handelt zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden vieler Menschen, von Göttern und Menschen. ",
+            "en": "“Mendicants, a well-known mendicant who has three qualities is acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an3.11:1.4": {
+            "scid": "an3.11:1.4",
+            "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato ñāto bhikkhu bahujanaahitāya paṭipanno hoti bahujanadukkhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "Ein namhafter Mönch, der diese drei Eigenschaften besitzt, handelt zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden vieler Menschen, von Göttern und Menschen. ",
+            "en": "A well-known mendicant who has these three qualities is acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.88_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.88_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.88_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.88",
+        "lang": "de",
+        "segMap": {
+          "an5.88:1.1": {
+            "scid": "an5.88:1.1",
+            "pli": "“Pañcahi, bhikkhave, dhammehi samannāgato thero bhikkhu bahujanaahitāya paṭipanno hoti bahujanaasukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, ein Ordensältester, der fünf Eigenschaften besitzt, handelt zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden vieler Menschen, von Göttern und Menschen. ",
+            "en": "“Mendicants, a senior mendicant who has five qualities is acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an5.88:2.8": {
+            "scid": "an5.88:2.8",
+            "pli": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato thero bhikkhu bahujanaahitāya paṭipanno hoti bahujanaasukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "Ein Ordensältester, der diese fünf Eigenschaften besitzt, handelt zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden vieler Menschen, von Göttern und Menschen. ",
+            "en": "A senior mendicant who has these five qualities is acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 22,
+          "de": 21,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.36",
+        "lang": "de",
+        "segMap": {
+          "an6.36:1.5": {
+            "scid": "an6.36:1.5",
+            "pli": "Yo so, bhikkhave, bhikkhu satthari agāravo viharati appatisso, dhamme agāravo viharati appatisso, saṅghe agāravo viharati appatisso, sikkhāya na paripūrakārī so saṅghe vivādaṁ janeti, yo hoti vivādo bahujanāhitāya bahujanāsukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "Er stiftet Zwist im Saṅgha; das ist zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "They create a dispute in the Saṅgha, which is for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          },
+          "an6.36:2.7": {
+            "scid": "an6.36:2.7",
+            "pli": "Yo so, bhikkhave, bhikkhu satthari agāravo viharati appatisso, dhamme … saṅghe agāravo viharati appatisso, sikkhāya na paripūrakārī, so saṅghe vivādaṁ janeti, yo hoti vivādo bahujanāhitāya bahujanāsukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "Er stiftet Zwist im Saṅgha; das ist zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "They create a dispute in the Saṅgha, which is for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.087,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.32-41",
+        "lang": "de",
+        "segMap": {
+          "an2.39:1.6": {
+            "scid": "an2.39:1.6",
+            "pli": "Tayidaṁ, bhikkhave, hoti bahujanāhitāya bahujanāsukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "Das ist zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden vieler Menschen, von Göttern und Menschen. ",
+            "en": "This is for the hurt and unhappiness of the people, for the harm, hurt, and suffering of many people, of gods and humans. ",
+            "matched": true
+          },
+          "an2.41:1.1": {
+            "scid": "an2.41:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū duggahitehi suttantehi byañjanappatirūpakehi atthañca dhammañca paṭibāhanti te, bhikkhave, bhikkhū bahujanāhitāya paṭipannā bahujanāsukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, indem sie sich die Lehrreden fehlerhaft einprägen und nur eine ähnliche Wendung nehmen, schließen manche Mönche und Nonnen die Bedeutung und den Wortlaut aus. Sie handeln zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Nachteil, Schaden und Leiden vieler Menschen, von Göttern und Menschen. ",
+            "en": "“Mendicants, by memorizing the discourses incorrectly, taking only a semblance of the phrasing, some mendicants shut out the meaning and the teaching. They act for the hurt and unhappiness of the people, for the harm, hurt, and suffering of many people, of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 169,
+          "de": 168,
+          "en": 168
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.2.53": {
+            "scid": "dn33:2.2.53",
+            "pli": "Yo so, āvuso, bhikkhu satthari agāravo viharati appatisso, dhamme agāravo viharati appatisso, saṅghe agāravo viharati appatisso, sikkhāya na paripūrakārī, so saṅghe vivādaṁ janeti. Yo hoti vivādo bahujanāhitāya bahujanāsukhāya anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+            "de": "Er stiftet Zwist im Saṅgha; das ist zum Schaden und \u001b[38;5;121mUnglück der Vielen\u001b[0m, zum Unheil, Schaden und Leiden von Göttern und Menschen. ",
+            "en": "They create a dispute in the Saṅgha, which is for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

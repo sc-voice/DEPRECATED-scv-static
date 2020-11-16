@@ -1,0 +1,21 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bschenkt",
+      "maxResults": 0,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an5/an5.37_translation-de-sabbamitta.json:7",
+    "translation/de/sabbamitta/sutta/an/an4/an4.57_translation-de-sabbamitta.json:6",
+    "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json:5",
+    "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json:5",
+    "translation/de/sabbamitta/sutta/an/an5/an5.36_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.67_translation-de-sabbamitta.json:1"
+  ]
+}

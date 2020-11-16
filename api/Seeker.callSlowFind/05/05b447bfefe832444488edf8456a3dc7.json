@@ -1,0 +1,111 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "knowing choices",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "knowing choices",
+    "elapsed": 0.01,
+    "method": "phrase",
+    "resultPattern": "\\bknowing choices",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn33/sn33.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn33/sn33.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.16_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.16_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn33.4/en/sujato",
+      "an4.16/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn33/sn33.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn33/sn33.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn33.4",
+        "lang": "en",
+        "segMap": {
+          "sn33.4:0.3": {
+            "scid": "sn33.4:0.3",
+            "pli": "4. Saṅkhāraaññāṇasutta ",
+            "en": "4. Not \u001b[38;5;121mKnowing Choices\u001b[0m ",
+            "matched": true
+          },
+          "sn33.4:1.6": {
+            "scid": "sn33.4:1.6",
+            "pli": "“Saṅkhāresu kho, vaccha, aññāṇā, saṅkhārasamudaye aññāṇā, saṅkhāranirodhe aññāṇā, saṅkhāranirodhagāminiyā paṭipadāya aññāṇā; ",
+            "en": "“Vaccha, it is because of not \u001b[38;5;121mknowing choices\u001b[0m, their origin, their cessation, and the practice that leads to their cessation …” ",
+            "matched": true
+          }
+        },
+        "score": 2.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 16,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.16_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.16",
+        "lang": "en",
+        "segMap": {
+          "an4.16:2.5": {
+            "scid": "an4.16:2.5",
+            "pli": "Saṅkhāre parato ñatvā, ",
+            "en": "and \u001b[38;5;121mknowing choices\u001b[0m as other, ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "en": 28
+        }
+      }
+    ]
+  }
+}

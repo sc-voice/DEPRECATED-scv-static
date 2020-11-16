@@ -1,0 +1,737 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "devadatta",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "pli",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "devadatta",
+    "elapsed": 0.082,
+    "method": "phrase",
+    "resultPattern": "\\bdevadatta",
+    "segsMatched": 49,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn17/sn17.36_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn17/sn17.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.68_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn17/sn17.35_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn17/sn17.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn58_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn58_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.26_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.100_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.100_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn14/sn14.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn14/sn14.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn17/sn17.34_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn17/sn17.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn17/sn17.33_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn17/sn17.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn17/sn17.32_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn17/sn17.32_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn17/sn17.31_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn17/sn17.31_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.7/en/sujato",
+      "sn17.36/en/sujato",
+      "an8.8/en/sujato",
+      "an6.62/en/sujato",
+      "an4.68/en/sujato",
+      "sn17.35/en/sujato",
+      "mn58/en/sujato",
+      "an9.26/en/sujato",
+      "an5.100/en/sujato",
+      "sn6.12/en/sujato",
+      "sn14.15/en/sujato",
+      "mn29/en/sujato",
+      "sn17.34/en/sujato",
+      "sn17.33/en/sujato",
+      "sn17.32/en/sujato",
+      "sn17.31/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.7",
+        "lang": "en",
+        "segMap": {
+          "an8.7:0.3": {
+            "scid": "an8.7:0.3",
+            "pli": "7. \u001b[38;5;121mDevadatta\u001b[0mvipattisutta ",
+            "en": "7. \u001b[38;5;121mDevadatta\u001b[0m’s Failure ",
+            "matched": true
+          },
+          "an8.7:1.1": {
+            "scid": "an8.7:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
+            "en": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after \u001b[38;5;121mDevadatta\u001b[0m had left. ",
+            "matched": true
+          },
+          "an8.7:1.2": {
+            "scid": "an8.7:1.2",
+            "pli": "Tatra bhagavā \u001b[38;5;121mdevadatta\u001b[0mṁ ārabbha bhikkhū āmantesi: ",
+            "en": "There the Buddha spoke to the mendicants about \u001b[38;5;121mDevadatta\u001b[0m: ",
+            "matched": true
+          },
+          "an8.7:1.7": {
+            "scid": "an8.7:1.7",
+            "pli": "Aṭṭhahi, bhikkhave, asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+            "en": "Overcome and overwhelmed by eight things that oppose the true teaching, \u001b[38;5;121mDevadatta\u001b[0m is going to a place of loss, to hell, there to remain for an eon, irredeemable. ",
+            "matched": true
+          },
+          "an8.7:2.9": {
+            "scid": "an8.7:2.9",
+            "pli": "pāpamittatāya, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+            "en": "bad friendship, \u001b[38;5;121mDevadatta\u001b[0m is going to a place of loss, to hell, there to remain for an eon, irredeemable. ",
+            "matched": true
+          },
+          "an8.7:2.10": {
+            "scid": "an8.7:2.10",
+            "pli": "Imehi kho, bhikkhave, aṭṭhahi asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+            "en": "Overcome and overwhelmed by these eight things that oppose the true teaching, \u001b[38;5;121mDevadatta\u001b[0m is going to a place of loss, to hell, there to remain for an eon, irredeemable. ",
+            "matched": true
+          }
+        },
+        "score": 6.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn17/sn17.36_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn17/sn17.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn17.36",
+        "lang": "en",
+        "segMap": {
+          "sn17.36:1.2": {
+            "scid": "sn17.36:1.2",
+            "pli": "Tena kho pana samayena \u001b[38;5;121mdevadatta\u001b[0mssa ajātasattukumāro pañcahi rathasatehi sāyaṁ pātaṁ upaṭṭhānaṁ gacchati, pañca ca thālipākasatāni bhattābhihāro abhiharīyati. ",
+            "en": "Now at that time Prince Ajātasattu was going with five hundred carts in the morning and the evening to attend on \u001b[38;5;121mDevadatta\u001b[0m, presenting him with an offering of five hundred servings of food. ",
+            "matched": true
+          },
+          "sn17.36:1.4": {
+            "scid": "sn17.36:1.4",
+            "pli": "“\u001b[38;5;121mdevadatta\u001b[0mssa, bhante, ajātasattukumāro pañcahi rathasatehi sāyaṁ pātaṁ upaṭṭhānaṁ gacchati, pañca ca thālipākasatāni bhattābhihāro abhiharīyatī”ti. ",
+            "en": "“Sir, Prince Ajātasattu is going with five hundred carts in the morning and the evening to attend on \u001b[38;5;121mDevadatta\u001b[0m, presenting him with an offering of five hundred servings of food.” ",
+            "matched": true
+          },
+          "sn17.36:1.5": {
+            "scid": "sn17.36:1.5",
+            "pli": "“Mā, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasilokaṁ pihayittha. ",
+            "en": "“Mendicants, don’t envy \u001b[38;5;121mDevadatta\u001b[0m’s possessions, honor, and popularity. ",
+            "matched": true
+          },
+          "sn17.36:1.6": {
+            "scid": "sn17.36:1.6",
+            "pli": "Yāvakīvañca, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa ajātasattukumāro pañcahi rathasatehi sāyaṁ pātaṁ upaṭṭhānaṁ gamissati, pañca ca thālipākasatāni bhattābhihāro āharīyissati, hāniyeva, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa pāṭikaṅkhā kusalesu dhammesu, no vuddhi. ",
+            "en": "As long as Prince Ajātasattu goes with five hundred carts in the morning and the evening to attend on \u001b[38;5;121mDevadatta\u001b[0m, presenting him with an offering of five hundred servings of food, \u001b[38;5;121mDevadatta\u001b[0m can expect decline, not growth, in skillful qualities. ",
+            "matched": true
+          },
+          "sn17.36:2.2": {
+            "scid": "sn17.36:2.2",
+            "pli": "evameva, bhikkhave, yāvakīvañca \u001b[38;5;121mdevadatta\u001b[0mssa ajātasattukumāro pañcahi rathasatehi sāyaṁ pātaṁ upaṭṭhānaṁ gamissati, pañca ca thālipākasatāni bhattābhihāro āharīyissati, hāniyeva, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa pāṭikaṅkhā kusalesu dhammesu, no vuddhi. ",
+            "en": "In the same way, as long as Prince Ajātasattu goes with five hundred carts in the morning and the evening to attend on \u001b[38;5;121mDevadatta\u001b[0m, presenting him with an offering of five hundred servings of food, \u001b[38;5;121mDevadatta\u001b[0m can expect decline, not growth, in skillful qualities. ",
+            "matched": true
+          }
+        },
+        "score": 5.357,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 14,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.68_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.68_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.68",
+        "lang": "en",
+        "segMap": {
+          "an4.68:0.3": {
+            "scid": "an4.68:0.3",
+            "pli": "68. \u001b[38;5;121mDevadatta\u001b[0msutta ",
+            "en": "68. \u001b[38;5;121mDevadatta\u001b[0m ",
+            "matched": true
+          },
+          "an4.68:1.1": {
+            "scid": "an4.68:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
+            "en": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after \u001b[38;5;121mDevadatta\u001b[0m had left. ",
+            "matched": true
+          },
+          "an4.68:1.2": {
+            "scid": "an4.68:1.2",
+            "pli": "Tatra kho bhagavā \u001b[38;5;121mdevadatta\u001b[0mṁ ārabbha bhikkhū āmantesi: ",
+            "en": "There the Buddha spoke to the mendicants about \u001b[38;5;121mDevadatta\u001b[0m: ",
+            "matched": true
+          },
+          "an4.68:1.3": {
+            "scid": "an4.68:1.3",
+            "pli": "“attavadhāya, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasiloko udapādi. ",
+            "en": "“Possessions, honor, and popularity came to \u001b[38;5;121mDevadatta\u001b[0m for his own ruin and downfall. ",
+            "matched": true
+          },
+          "an4.68:5.2": {
+            "scid": "an4.68:5.2",
+            "pli": "evamevaṁ kho, bhikkhave, attavadhāya \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasiloko udapādi, parābhavāya \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasiloko udapādīti. ",
+            "en": "In the same way, possessions, honor, and popularity came to \u001b[38;5;121mDevadatta\u001b[0m for his own ruin and downfall. ",
+            "matched": true
+          }
+        },
+        "score": 5.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.8",
+        "lang": "en",
+        "segMap": {
+          "an8.8:7.5": {
+            "scid": "an8.8:7.5",
+            "pli": "Ekamidaṁ, bhante uttara, samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
+            "en": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after \u001b[38;5;121mDevadatta\u001b[0m had left. ",
+            "matched": true
+          },
+          "an8.8:7.6": {
+            "scid": "an8.8:7.6",
+            "pli": "Tatra kho bhagavā \u001b[38;5;121mdevadatta\u001b[0mṁ ārabbha bhikkhū āmantesi: ",
+            "en": "There the Buddha spoke to the mendicants about \u001b[38;5;121mDevadatta\u001b[0m: ",
+            "matched": true
+          },
+          "an8.8:8.5": {
+            "scid": "an8.8:8.5",
+            "pli": "Aṭṭhahi, bhikkhave, asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+            "en": "Overcome and overwhelmed by eight things that oppose the true teaching, \u001b[38;5;121mDevadatta\u001b[0m is going to a place of loss, to hell, there to remain for an eon, irredeemable. ",
+            "matched": true
+          },
+          "an8.8:8.14": {
+            "scid": "an8.8:8.14",
+            "pli": "pāpamittatāya, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+            "en": "bad friendship, \u001b[38;5;121mDevadatta\u001b[0m is going to a place of loss, to hell, there to remain for an eon, irredeemable. ",
+            "matched": true
+          },
+          "an8.8:8.15": {
+            "scid": "an8.8:8.15",
+            "pli": "Imehi kho, bhikkhave, aṭṭhahi asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+            "en": "Overcome and overwhelmed by these eight things that oppose the true teaching, \u001b[38;5;121mDevadatta\u001b[0m is going to a place of loss, to hell, there to remain for an eon, irredeemable. ",
+            "matched": true
+          }
+        },
+        "score": 5.044,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 113,
+          "en": 112
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.62",
+        "lang": "en",
+        "segMap": {
+          "an6.62:2.4": {
+            "scid": "an6.62:2.4",
+            "pli": "“kiṁ nu kho, āvuso ānanda, sabbaṁ cetaso samannāharitvā nu kho devadatto bhagavatā byākato: ",
+            "en": "“Reverend Ānanda, when the Buddha declared that \u001b[38;5;121mDevadatta\u001b[0m was ",
+            "matched": true
+          },
+          "an6.62:4.3": {
+            "scid": "an6.62:4.3",
+            "pli": "Nāhaṁ, ānanda, aññaṁ ekapuggalampi samanupassāmi, yo evaṁ mayā sabbaṁ cetaso samannāharitvā byākato, yathayidaṁ devadatto. ",
+            "en": "I do not see a single other person concerning whom I have made a declaration about after giving such wholehearted deliberation as \u001b[38;5;121mDevadatta\u001b[0m. ",
+            "matched": true
+          },
+          "an6.62:4.4": {
+            "scid": "an6.62:4.4",
+            "pli": "Yāvakīvañcāhaṁ, ānanda, \u001b[38;5;121mdevadatta\u001b[0mssa vālaggakoṭinittudanamattampi sukkadhammaṁ addasaṁ; ",
+            "en": "As long as I saw even a fraction of a hair’s tip of goodness in \u001b[38;5;121mDevadatta\u001b[0m ",
+            "matched": true
+          },
+          "an6.62:4.7": {
+            "scid": "an6.62:4.7",
+            "pli": "Yato ca kho ahaṁ, ānanda, \u001b[38;5;121mdevadatta\u001b[0mssa vālaggakoṭinittudanamattampi sukkadhammaṁ na addasaṁ; ",
+            "en": "But when I saw that there was not even a fraction of a hair’s tip of goodness in \u001b[38;5;121mDevadatta\u001b[0m ",
+            "matched": true
+          },
+          "an6.62:5.5": {
+            "scid": "an6.62:5.5",
+            "pli": "Evamevaṁ kho ahaṁ, ānanda, yato \u001b[38;5;121mdevadatta\u001b[0mssa vālaggakoṭinittudanamattampi sukkadhammaṁ na addasaṁ; ",
+            "en": "In the same way, when I saw that there was not even a fraction of a hair’s tip of goodness in \u001b[38;5;121mDevadatta\u001b[0m ",
+            "matched": true
+          }
+        },
+        "score": 5.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 157,
+          "en": 156
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn17/sn17.35_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn17/sn17.35_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn17.35",
+        "lang": "en",
+        "segMap": {
+          "sn17.35:1.1": {
+            "scid": "sn17.35:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
+            "en": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after \u001b[38;5;121mDevadatta\u001b[0m had left. ",
+            "matched": true
+          },
+          "sn17.35:1.2": {
+            "scid": "sn17.35:1.2",
+            "pli": "Tatra kho bhagavā \u001b[38;5;121mdevadatta\u001b[0mṁ ārabbha bhikkhū āmantesi: ",
+            "en": "There the Buddha spoke to the mendicants about \u001b[38;5;121mDevadatta\u001b[0m: ",
+            "matched": true
+          },
+          "sn17.35:1.3": {
+            "scid": "sn17.35:1.3",
+            "pli": "“attavadhāya, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasiloko udapādi, parābhavāya \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasiloko udapādi. ",
+            "en": "“Possessions, honor, and popularity came to \u001b[38;5;121mDevadatta\u001b[0m for his own ruin and downfall. ",
+            "matched": true
+          },
+          "sn17.35:5.2": {
+            "scid": "sn17.35:5.2",
+            "pli": "evameva kho, bhikkhave, attavadhāya \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasiloko udapādi, parābhavāya \u001b[38;5;121mdevadatta\u001b[0mssa lābhasakkārasiloko udapādi. ",
+            "en": "In the same way, possessions, honor, and popularity came to \u001b[38;5;121mDevadatta\u001b[0m for his own ruin and downfall. ",
+            "matched": true
+          }
+        },
+        "score": 4.174,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.26_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an9/an9.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.26",
+        "lang": "en",
+        "segMap": {
+          "an9.26:1.4": {
+            "scid": "an9.26:1.4",
+            "pli": "“devadatto, āvuso, bhikkhūnaṁ evaṁ dhammaṁ deseti: ",
+            "en": "“Reverends, \u001b[38;5;121mDevadatta\u001b[0m teaches the mendicants like this: ",
+            "matched": true
+          },
+          "an9.26:2.2": {
+            "scid": "an9.26:2.2",
+            "pli": "“na kho, āvuso candikāputta, devadatto bhikkhūnaṁ evaṁ dhammaṁ deseti: ",
+            "en": "“Reverend Candikāputta, \u001b[38;5;121mDevadatta\u001b[0m does not teach the mendicants like that. ",
+            "matched": true
+          },
+          "an9.26:4.6": {
+            "scid": "an9.26:4.6",
+            "pli": "“na kho, āvuso candikāputta, devadatto bhikkhūnaṁ evaṁ dhammaṁ deseti: ",
+            "en": "“Reverend Candikāputta, \u001b[38;5;121mDevadatta\u001b[0m does not teach the mendicants like that. ",
+            "matched": true
+          }
+        },
+        "score": 3.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 67,
+          "en": 66
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn58_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn58_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn58",
+        "lang": "en",
+        "segMap": {
+          "mn58:3.13": {
+            "scid": "mn58:3.13",
+            "pli": "‘atha kiñcarahi te, bhante, devadatto byākato: ",
+            "en": "‘Then, sir, why exactly did you declare of \u001b[38;5;121mDevadatta\u001b[0m: ",
+            "matched": true
+          },
+          "mn58:3.14": {
+            "scid": "mn58:3.14",
+            "pli": "“āpāyiko devadatto, nerayiko devadatto, kappaṭṭho devadatto, atekiccho devadatto”ti? ",
+            "en": "“\u001b[38;5;121mDevadatta\u001b[0m is going to a place of loss, to hell, there to remain for an eon, irredeemable”? ",
+            "matched": true
+          },
+          "mn58:3.15": {
+            "scid": "mn58:3.15",
+            "pli": "Tāya ca pana te vācāya devadatto kupito ahosi anattamano’ti. ",
+            "en": "\u001b[38;5;121mDevadatta\u001b[0m was angry and upset with what you said.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 95,
+          "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.100_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.100_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.100",
+        "lang": "en",
+        "segMap": {
+          "an5.100:2.2": {
+            "scid": "an5.100:2.2",
+            "pli": "“\u001b[38;5;121mdevadatta\u001b[0mssa, bhante, evarūpaṁ icchāgataṁ uppajji: ",
+            "en": "“Sir, this fixed desire arose in \u001b[38;5;121mDevadatta\u001b[0m: ",
+            "matched": true
+          },
+          "an5.100:2.4": {
+            "scid": "an5.100:2.4",
+            "pli": "Sahacittuppādā ca, bhante, devadatto tassā iddhiyā parihīno”ti. ",
+            "en": "And as that thought arose, \u001b[38;5;121mDevadatta\u001b[0m lost that psychic power.” ",
+            "matched": true
+          },
+          "an5.100:5.7": {
+            "scid": "an5.100:5.7",
+            "pli": "Idāni so moghapuriso attanāva attānaṁ pātukarissati. ",
+            "en": "Now that silly man \u001b[38;5;121mDevadatta\u001b[0m will expose himself by his own deeds. ",
+            "matched": true
+          }
+        },
+        "score": 3.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 97,
+          "en": 95
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.12",
+        "lang": "en",
+        "segMap": {
+          "sn6.12:0.3": {
+            "scid": "sn6.12:0.3",
+            "pli": "12. \u001b[38;5;121mDevadatta\u001b[0msutta ",
+            "en": "12. About \u001b[38;5;121mDevadatta\u001b[0m ",
+            "matched": true
+          },
+          "sn6.12:1.2": {
+            "scid": "sn6.12:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
+            "en": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after \u001b[38;5;121mDevadatta\u001b[0m had left. ",
+            "matched": true
+          }
+        },
+        "score": 2.182,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn14/sn14.15_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn14/sn14.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn14.15",
+        "lang": "en",
+        "segMap": {
+          "sn14.15:1.9": {
+            "scid": "sn14.15:1.9",
+            "pli": "devadattopi kho sambahulehi bhikkhūhi saddhiṁ bhagavato avidūre caṅkamati. ",
+            "en": "and \u001b[38;5;121mDevadatta\u001b[0m. ",
+            "matched": true
+          },
+          "sn14.15:2.23": {
+            "scid": "sn14.15:2.23",
+            "pli": "Passatha no tumhe, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mṁ sambahulehi bhikkhūhi saddhiṁ caṅkamantan”ti? ",
+            "en": "Do you see \u001b[38;5;121mDevadatta\u001b[0m walking together with several mendicants?” ",
+            "matched": true
+          }
+        },
+        "score": 2.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 50,
+          "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn29",
+        "lang": "en",
+        "segMap": {
+          "mn29:1.2": {
+            "scid": "mn29:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
+            "en": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after \u001b[38;5;121mDevadatta\u001b[0m had left. ",
+            "matched": true
+          },
+          "mn29:1.3": {
+            "scid": "mn29:1.3",
+            "pli": "Tatra kho bhagavā \u001b[38;5;121mdevadatta\u001b[0mṁ ārabbha bhikkhū āmantesi: ",
+            "en": "There the Buddha spoke to the mendicants about \u001b[38;5;121mDevadatta\u001b[0m: ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 181,
+          "en": 180
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn17/sn17.31_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn17/sn17.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn17.31",
+        "lang": "en",
+        "segMap": {
+          "sn17.31:1.3": {
+            "scid": "sn17.31:1.3",
+            "pli": "Lābhasakkārasilokena abhibhūto pariyādiṇṇacitto, bhikkhave, devadatto saṅghaṁ bhindi. ",
+            "en": "\u001b[38;5;121mDevadatta\u001b[0m caused a schism in the Saṅgha because his mind was overcome and overwhelmed by possessions, honor, and popularity. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn17/sn17.32_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn17/sn17.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn17.32",
+        "lang": "en",
+        "segMap": {
+          "sn17.32:1.3": {
+            "scid": "sn17.32:1.3",
+            "pli": "Lābhasakkārasilokena abhibhūtassa pariyādiṇṇacittassa, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa kusalamūlaṁ samucchedamagamā. ",
+            "en": "\u001b[38;5;121mDevadatta\u001b[0m cut off his skillful root because his mind was overcome and overwhelmed by possessions, honor, and popularity. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn17/sn17.33_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn17/sn17.33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn17.33",
+        "lang": "en",
+        "segMap": {
+          "sn17.33:1.3": {
+            "scid": "sn17.33:1.3",
+            "pli": "Lābhasakkārasilokena abhibhūtassa pariyādiṇṇacittassa, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa kusalo dhammo samucchedamagamā. ",
+            "en": "\u001b[38;5;121mDevadatta\u001b[0m cut off his skillful quality because his mind was overcome and overwhelmed by possessions, honor, and popularity. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn17/sn17.34_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn17/sn17.34_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn17.34",
+        "lang": "en",
+        "segMap": {
+          "sn17.34:1.3": {
+            "scid": "sn17.34:1.3",
+            "pli": "Lābhasakkārasilokena abhibhūtassa pariyādiṇṇacittassa, bhikkhave, \u001b[38;5;121mdevadatta\u001b[0mssa sukko dhammo samucchedamagamā. ",
+            "en": "\u001b[38;5;121mDevadatta\u001b[0m cut off his bright quality because his mind was overcome and overwhelmed by possessions, honor, and popularity. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
+        }
+      }
+    ]
+  }
+}

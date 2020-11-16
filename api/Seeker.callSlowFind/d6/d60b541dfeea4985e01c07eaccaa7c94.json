@@ -1,0 +1,131 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sadness that greed, hate and delusion bring",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sadness that greed, hate and delusion bring",
+    "elapsed": 0.059,
+    "method": "keywords",
+    "resultPattern": "\\bsadness|\\bthat|\\bgreed,|\\bh(a|ā)(t|ṭ)e|\\band|\\bdelusion|\\bbring",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.162_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.162_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.162/en/sujato",
+      "mn45/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.162_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.162_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.162",
+        "lang": "en",
+        "segMap": {
+          "an4.162:2.2": {
+            "scid": "an4.162:2.2",
+            "pli": "Idha, bhikkhave, ekacco pakatiyāpi tibbarāgajātiko hoti, abhikkhaṇaṁ rāgajaṁ dukkhaṁ domanassaṁ paṭisaṁvedeti. ",
+            "en": "It’s when someone is ordinarily full of acute \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m. They often feel the pain \u001b[38;5;121mand\u001b[0m \u001b[38;5;121msadness\u001b[0m \u001b[38;5;121mthat\u001b[0m \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m \u001b[38;5;121mbring\u001b[0m. ",
+            "matched": true
+          },
+          "an4.162:3.2": {
+            "scid": "an4.162:3.2",
+            "pli": "Idha, bhikkhave, ekacco pakatiyāpi tibbarāgajātiko hoti, abhikkhaṇaṁ rāgajaṁ dukkhaṁ domanassaṁ paṭisaṁvedeti. ",
+            "en": "It’s when someone is ordinarily full of acute \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m. They often feel the pain \u001b[38;5;121mand\u001b[0m \u001b[38;5;121msadness\u001b[0m \u001b[38;5;121mthat\u001b[0m \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m \u001b[38;5;121mbring\u001b[0m. ",
+            "matched": true
+          },
+          "an4.162:4.2": {
+            "scid": "an4.162:4.2",
+            "pli": "Idha, bhikkhave, ekacco pakatiyāpi na tibbarāgajātiko hoti, nābhikkhaṇaṁ rāgajaṁ dukkhaṁ domanassaṁ paṭisaṁvedeti. ",
+            "en": "It’s when someone is not ordinarily full of acute \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m. They rarely feel the pain \u001b[38;5;121mand\u001b[0m \u001b[38;5;121msadness\u001b[0m \u001b[38;5;121mthat\u001b[0m \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m \u001b[38;5;121mbring\u001b[0m. ",
+            "matched": true
+          },
+          "an4.162:5.2": {
+            "scid": "an4.162:5.2",
+            "pli": "Idha, bhikkhave, ekacco pakatiyāpi na tibbarāgajātiko hoti, nābhikkhaṇaṁ rāgajaṁ dukkhaṁ domanassaṁ paṭisaṁvedeti. ",
+            "en": "It’s when someone is not ordinarily full of acute \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m. They rarely feel the pain \u001b[38;5;121mand\u001b[0m \u001b[38;5;121msadness\u001b[0m \u001b[38;5;121mthat\u001b[0m \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m \u001b[38;5;121mbring\u001b[0m. ",
+            "matched": true
+          }
+        },
+        "score": 4.093,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 43,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn45",
+        "lang": "en",
+        "segMap": {
+          "mn45:6.2": {
+            "scid": "mn45:6.2",
+            "pli": "Idha, bhikkhave, ekacco pakatiyā tibbarāgajātiko hoti, so abhikkhaṇaṁ rāgajaṁ dukkhaṁ domanassaṁ paṭisaṁvedeti; ",
+            "en": "It’s when someone is ordinarily full of acute \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m. They often feel the pain \u001b[38;5;121mand\u001b[0m \u001b[38;5;121msadness\u001b[0m \u001b[38;5;121mthat\u001b[0m \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m \u001b[38;5;121mbring\u001b[0m. ",
+            "matched": true
+          },
+          "mn45:7.2": {
+            "scid": "mn45:7.2",
+            "pli": "Idha, bhikkhave, ekacco pakatiyā na tibbarāgajātiko hoti, so na abhikkhaṇaṁ rāgajaṁ dukkhaṁ domanassaṁ paṭisaṁvedeti; ",
+            "en": "It’s when someone is not ordinarily full of acute \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m. They rarely feel the pain \u001b[38;5;121mand\u001b[0m \u001b[38;5;121msadness\u001b[0m \u001b[38;5;121mthat\u001b[0m \u001b[38;5;121mgreed,\u001b[0m \u001b[38;5;121mhate\u001b[0m, \u001b[38;5;121mand\u001b[0m \u001b[38;5;121mdelusion\u001b[0m \u001b[38;5;121mbring\u001b[0m. ",
+            "matched": true
+          }
+        },
+        "score": 2.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 97,
+          "en": 96
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "lachende weisheit",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "lachende weisheit",
+    "elapsed": 0.003,
+    "method": "keywords",
+    "resultPattern": "\\blachende|\\bweisheit",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an1/an1.575-615_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.575-615_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.575-615_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an1.575-615/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.575-615_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.575-615_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.575-615_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.575-615",
+        "lang": "de",
+        "segMap": {
+          "an1.600-615:1.1": {
+            "scid": "an1.600-615:1.1",
+            "pli": "“Ekadhammo, bhikkhave, bhāvito bahulīkato paññāpaṭilābhāya saṁvattati … paññāvuddhiyā saṁvattati … paññāvepullāya saṁvattati … mahāpaññatāya saṁvattati … puthupaññatāya saṁvattati … vipulapaññatāya saṁvattati … gambhīrapaññatāya saṁvattati … asāmantapaññatāya saṁvattati … bhūripaññatāya saṁvattati … paññābāhullāya saṁvattati … sīghapaññatāya saṁvattati … lahupaññatāya saṁvattati … hāsapaññatāya saṁvattati … javanapaññatāya saṁvattati … tikkhapaññatāya saṁvattati … nibbedhikapaññatāya saṁvattati. ",
+            "de": "„Ein Ding, Mönche und Nonnen, führt, wenn es entwickelt und gepflegt wird, zum Erlangen von \u001b[38;5;121mWeisheit\u001b[0m … zum Anwachsen von \u001b[38;5;121mWeisheit\u001b[0m … zur Zunahme von \u001b[38;5;121mWeisheit\u001b[0m … zu bedeutender \u001b[38;5;121mWeisheit\u001b[0m … zu umfassender \u001b[38;5;121mWeisheit\u001b[0m … zu überreichlicher \u001b[38;5;121mWeisheit\u001b[0m … zu tiefgründiger \u001b[38;5;121mWeisheit\u001b[0m … zu außerordentlicher \u001b[38;5;121mWeisheit\u001b[0m … zu ausgedehnter \u001b[38;5;121mWeisheit\u001b[0m … zu beträchtlicher \u001b[38;5;121mWeisheit\u001b[0m … zu schneller \u001b[38;5;121mWeisheit\u001b[0m … zu heller \u001b[38;5;121mWeisheit\u001b[0m … zu \u001b[38;5;121mlachende\u001b[0mr \u001b[38;5;121mWeisheit\u001b[0m … zu flinker \u001b[38;5;121mWeisheit\u001b[0m … zu scharfer \u001b[38;5;121mWeisheit\u001b[0m … zu durchdringender \u001b[38;5;121mWeisheit\u001b[0m. ",
+            "en": "“One thing, mendicants, when developed and cultivated, leads to the getting of wisdom … the growth of wisdom … the increase of wisdom … to great wisdom … to widespread wisdom … to abundant wisdom … to deep wisdom … to extraordinary wisdom … to vast wisdom … to much wisdom … to fast wisdom … to light wisdom … to laughing wisdom … to swift wisdom … to sharp wisdom … to penetrating wisdom. ",
+            "matched": true
+          },
+          "an1.600-615:1.4": {
+            "scid": "an1.600-615:1.4",
+            "pli": "Ayaṁ kho, bhikkhave, ekadhammo bhāvito bahulīkato paññāpaṭilābhāya saṁvattati … paññāvuddhiyā saṁvattati … paññāvepullāya saṁvattati … mahāpaññatāya saṁvattati … puthupaññatāya saṁvattati … vipulapaññatāya saṁvattati … gambhīrapaññatāya saṁvattati … asāmantapaññatāya saṁvattati … bhūripaññatāya saṁvattati … paññābāhullāya saṁvattati … sīghapaññatāya saṁvattati … lahupaññatāya saṁvattati … hāsapaññatāya saṁvattati … javanapaññatāya saṁvattati … tikkhapaññatāya saṁvattati … nibbedhikapaññatāya saṁvattatī”ti. ",
+            "de": "Dieses eine Ding führt, wenn es entwickelt und gepflegt wird, zum Erlangen von \u001b[38;5;121mWeisheit\u001b[0m … zum Anwachsen von \u001b[38;5;121mWeisheit\u001b[0m … zur Zunahme von \u001b[38;5;121mWeisheit\u001b[0m … zu bedeutender \u001b[38;5;121mWeisheit\u001b[0m … zu umfassender \u001b[38;5;121mWeisheit\u001b[0m … zu überreichlicher \u001b[38;5;121mWeisheit\u001b[0m … zu tiefgründiger \u001b[38;5;121mWeisheit\u001b[0m … zu außerordentlicher \u001b[38;5;121mWeisheit\u001b[0m … zu ausgedehnter \u001b[38;5;121mWeisheit\u001b[0m … zu beträchtlicher \u001b[38;5;121mWeisheit\u001b[0m … zu schneller \u001b[38;5;121mWeisheit\u001b[0m … zu heller \u001b[38;5;121mWeisheit\u001b[0m … zu \u001b[38;5;121mlachende\u001b[0mr \u001b[38;5;121mWeisheit\u001b[0m … zu flinker \u001b[38;5;121mWeisheit\u001b[0m … zu scharfer \u001b[38;5;121mWeisheit\u001b[0m … zu durchdringender \u001b[38;5;121mWeisheit\u001b[0m.“ ",
+            "en": "This one thing, when developed and cultivated, leads to the getting of wisdom … the growth of wisdom … the increase of wisdom … to great wisdom … to widespread wisdom … to abundant wisdom … to deep wisdom … to extraordinary wisdom … to vast wisdom … to much wisdom … to fast wisdom … to light wisdom … to laughing wisdom … to swift wisdom … to sharp wisdom … to penetrating wisdom.” ",
+            "matched": true
+          }
+        },
+        "score": 2.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 52,
+          "de": 51,
+          "en": 51
+        }
+      }
+    ]
+  }
+}

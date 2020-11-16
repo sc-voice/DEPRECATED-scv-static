@@ -1,0 +1,281 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "voller freude und wonne",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "voller freude und wonne",
+    "elapsed": 0.098,
+    "method": "keywords",
+    "resultPattern": "\\bvoller|\\bfreude|\\bund|\\bwonne",
+    "segsMatched": 13,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn33/de/sabbamitta",
+      "dn10/de/sabbamitta",
+      "an6.10/de/sabbamitta",
+      "an3.95/de/sabbamitta",
+      "mn7/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.10",
+        "lang": "de",
+        "segMap": {
+          "an6.10:2.7": {
+            "scid": "an6.10:2.7",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet er \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": "When they’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when they’re blissful, the mind becomes immersed in samādhi. ",
+            "matched": true
+          },
+          "an6.10:3.6": {
+            "scid": "an6.10:3.6",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet sie \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": " ",
+            "matched": true
+          },
+          "an6.10:4.6": {
+            "scid": "an6.10:4.6",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet er \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": " ",
+            "matched": true
+          },
+          "an6.10:5.5": {
+            "scid": "an6.10:5.5",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet sie \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": " ",
+            "matched": true
+          },
+          "an6.10:6.7": {
+            "scid": "an6.10:6.7",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet er \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": " ",
+            "matched": true
+          },
+          "an6.10:7.11": {
+            "scid": "an6.10:7.11",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet sie \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": "When you’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, you feel bliss. And when you’re blissful, the mind becomes immersed in samādhi. ",
+            "matched": true
+          }
+        },
+        "score": 6.088,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 68,
+          "de": 57,
+          "en": 66
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.95_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.95",
+        "lang": "de",
+        "segMap": {
+          "an3.95:5.3": {
+            "scid": "an3.95:5.3",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m sind, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet man \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn man \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": "When they’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when they’re blissful, the mind becomes immersed in samādhi. ",
+            "matched": true
+          },
+          "an3.95:7.3": {
+            "scid": "an3.95:7.3",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m sind, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet man \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn man \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": "When they’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when they’re blissful, the mind becomes immersed in samādhi. ",
+            "matched": true
+          }
+        },
+        "score": 2.087,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn7",
+        "lang": "de",
+        "segMap": {
+          "mn7:8.2": {
+            "scid": "mn7:8.2",
+            "pli": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati; ",
+            "de": "Wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet man \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn man \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": " ",
+            "matched": true
+          },
+          "mn7:11.2": {
+            "scid": "mn7:11.2",
+            "pli": "pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet man \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn man \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist im Samādhi. ",
+            "en": "When they’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when they’re blissful, the mind becomes immersed in samādhi. ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 147,
+          "de": 146,
+          "en": 146
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.1.130": {
+            "scid": "dn33:2.1.130",
+            "pli": "Tassa atthapaṭisaṁvedino dhammapaṭisaṁvedino pāmojjaṁ jāyati, pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn sie ergriffen ist, lodert \u001b[38;5;121mFreude\u001b[0m auf. Wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet man \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn man \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist. ",
+            "en": "Feeling inspired, joy springs up. Being joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, one feels bliss. And when blissful, the mind becomes immersed. ",
+            "matched": true
+          },
+          "dn33:2.1.137": {
+            "scid": "dn33:2.1.137",
+            "pli": "Tassa atthapaṭisaṁvedino dhammapaṭisaṁvedino pāmojjaṁ jāyati, pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn sie ergriffen ist, lodert \u001b[38;5;121mFreude\u001b[0m auf. Wenn sie \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet man \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn man \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist. ",
+            "en": "Feeling inspired, joy springs up. Being joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, one feels bliss. And when blissful, the mind becomes immersed. ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn10",
+        "lang": "de",
+        "segMap": {
+          "dn10:2.12.4": {
+            "scid": "dn10:2.12.4",
+            "pli": "Tassime pañca nīvaraṇe pahīne attani samanupassato pāmojjaṁ jāyati, pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn er sieht, dass die Hindernisse aufgegeben sind, lodert \u001b[38;5;121mFreude\u001b[0m auf. Wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mFreude\u001b[0m ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet er \u001b[38;5;121mWonne\u001b[0m. \u001b[38;5;121mUnd\u001b[0m wenn er \u001b[38;5;121mvoller\u001b[0m \u001b[38;5;121mWonne\u001b[0m ist, versenkt sich der Geist. ",
+            "en": "Seeing that the hindrances have been given up in them, joy springs up. Being joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when blissful, the mind becomes immersed. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 266,
+          "de": 210,
+          "en": 265
+        }
+      }
+    ]
+  }
+}

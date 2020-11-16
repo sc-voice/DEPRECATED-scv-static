@@ -1,0 +1,98 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "the outcomes of faith",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "the outcomes of faith",
+    "elapsed": 0.011,
+    "method": "phrase",
+    "resultPattern": "\\bthe outcomes of faith",
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an11/an11.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an11/an11.14_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an11.14/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an11/an11.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.14",
+        "lang": "en",
+        "segMap": {
+          "an11.14:2.1": {
+            "scid": "an11.14:2.1",
+            "pli": "“Kacci panāyaṁ, subhūti, saddho bhikkhu sudattassa upāsakassa putto saddhā agārasmā anagāriyaṁ pabbajito sandissati saddhāpadānesū”ti? ",
+            "en": "“Well, I hope this mendicant Saddha exhibits \u001b[38;5;121mthe outcomes of faith\u001b[0m.” ",
+            "matched": true
+          },
+          "an11.14:2.3": {
+            "scid": "an11.14:2.3",
+            "pli": "yaṁ bhagavā saddhassa saddhāpadānāni bhāseyya. ",
+            "en": "Let the Buddha to speak on \u001b[38;5;121mthe outcomes of faith\u001b[0m. ",
+            "matched": true
+          },
+          "an11.14:2.4": {
+            "scid": "an11.14:2.4",
+            "pli": "Idānāhaṁ jānissāmi yadi vā ayaṁ bhikkhu sandissati saddhāpadānesu yadi vā no”ti. ",
+            "en": "Now I will find out whether or not this mendicant Saddha exhibits \u001b[38;5;121mthe outcomes of faith\u001b[0m.” ",
+            "matched": true
+          },
+          "an11.14:15.2": {
+            "scid": "an11.14:15.2",
+            "pli": "“yānimāni, bhante, bhagavatā saddhassa saddhāpadānāni bhāsitāni, saṁvijjanti tāni imassa bhikkhuno, ayañca bhikkhu etesu sandissati. ",
+            "en": "“Sir, \u001b[38;5;121mthe outcomes of faith\u001b[0m for a faithful person that the Buddha speaks of are found in this mendicant; he does exhibit them. ",
+            "matched": true
+          },
+          "an11.14:26.2": {
+            "scid": "an11.14:26.2",
+            "pli": "Yānimāni, bhante, bhagavatā saddhassa saddhāpadānāni bhāsitāni, saṁvijjanti tāni imassa bhikkhuno, ayañca bhikkhu etesu sandissatī”ti. ",
+            "en": "\u001b[38;5;121mThe outcomes of faith\u001b[0m for a faithful person that the Buddha speaks of are found in this mendicant; he does exhibit them.” ",
+            "matched": true
+          }
+        },
+        "score": 5.093,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 54,
+          "en": 53
+        }
+      }
+    ]
+  }
+}
