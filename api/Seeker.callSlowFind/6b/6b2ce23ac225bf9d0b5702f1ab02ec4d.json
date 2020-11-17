@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "puppet",
-    "elapsed": 0.08,
     "method": "phrase",
     "resultPattern": "\\bpuppet",
     "segsMatched": 11,

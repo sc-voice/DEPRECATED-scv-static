@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das leiden, das im zugrundegehen liegt",
-    "elapsed": 0.065,
     "method": "phrase",
     "resultPattern": "\\bdas leiden, das im zugrundegehen liegt",
     "segsMatched": 1,

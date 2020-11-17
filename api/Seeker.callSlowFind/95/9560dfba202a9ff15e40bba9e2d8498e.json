@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wann immer ich will",
-    "elapsed": 0.027,
     "method": "phrase",
     "resultPattern": "\\bwann immer ich will",
     "segsMatched": 9,

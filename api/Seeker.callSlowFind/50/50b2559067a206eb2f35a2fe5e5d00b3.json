@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mind-made body",
-    "elapsed": 0.079,
     "method": "phrase",
     "resultPattern": "\\bmind-made body",
     "segsMatched": 14,

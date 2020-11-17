@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "auf beiden seiten",
-    "elapsed": 0.139,
     "method": "phrase",
     "resultPattern": "\\bauf beiden seiten",
     "segsMatched": 13,

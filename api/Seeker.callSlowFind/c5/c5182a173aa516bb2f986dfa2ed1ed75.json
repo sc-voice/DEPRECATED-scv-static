@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gewissen und zurückhaltung",
-    "elapsed": 0.122,
     "method": "phrase",
     "resultPattern": "\\bgewissen und zurückhaltung",
     "segsMatched": 23,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "serves as your refuge",
-    "elapsed": 0.025,
     "method": "phrase",
     "resultPattern": "\\bserves as your refuge",
     "segsMatched": 2,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die besinnung auf",
-    "elapsed": 0.075,
     "method": "phrase",
     "resultPattern": "\\bdie besinnung auf",
     "segsMatched": 18,

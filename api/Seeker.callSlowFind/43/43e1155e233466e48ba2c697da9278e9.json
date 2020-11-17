@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mindfulness of death",
-    "elapsed": 0.028,
     "method": "phrase",
     "resultPattern": "\\bmindfulness of death",
     "segsMatched": 53,

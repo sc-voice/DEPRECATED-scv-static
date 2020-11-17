@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn die sechs sinnesfelder schwinden",
-    "elapsed": 0.017,
     "method": "phrase",
     "resultPattern": "\\bwenn die sechs sinnesfelder schwinden",
     "segsMatched": 2,

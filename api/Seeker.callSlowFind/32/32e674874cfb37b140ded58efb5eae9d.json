@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "love myself",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\blove myself",
     "segsMatched": 2,

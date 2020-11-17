@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "four kinds of people",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bfour kinds of people",
     "segsMatched": 1,

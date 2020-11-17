@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "krank",
-    "elapsed": 0.495,
     "method": "phrase",
     "resultPattern": "\\bkrank",
     "segsMatched": 208,

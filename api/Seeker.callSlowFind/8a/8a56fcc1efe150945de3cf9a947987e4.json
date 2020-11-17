@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "giving up the five",
-    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\bgiving up the five",
     "segsMatched": 14,

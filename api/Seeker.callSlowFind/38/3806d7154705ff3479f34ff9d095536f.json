@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "weder sich noch andere zu quälen",
-    "elapsed": 0.081,
     "method": "phrase",
     "resultPattern": "\\bweder sich noch andere zu quälen",
     "segsMatched": 4,

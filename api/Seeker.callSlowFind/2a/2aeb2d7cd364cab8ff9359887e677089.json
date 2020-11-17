@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "investigate principles",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\binvestigate principles",
     "segsMatched": 3,

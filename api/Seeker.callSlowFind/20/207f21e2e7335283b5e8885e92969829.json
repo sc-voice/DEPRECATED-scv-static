@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "blameless happiness inside",
-    "elapsed": 0.179,
     "method": "phrase",
     "resultPattern": "\\bblameless happiness inside",
     "segsMatched": 11,

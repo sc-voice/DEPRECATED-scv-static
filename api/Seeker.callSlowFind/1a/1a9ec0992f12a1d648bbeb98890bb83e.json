@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zänker",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bzänker",
     "segsMatched": 1,

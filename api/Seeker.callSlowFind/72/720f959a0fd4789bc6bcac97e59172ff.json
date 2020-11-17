@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the ball of bath powder",
-    "elapsed": 0.076,
     "method": "phrase",
     "resultPattern": "\\bthe ball of bath powder",
     "segsMatched": 6,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "creating harmony",
-    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\bcreating harmony",
     "segsMatched": 1,

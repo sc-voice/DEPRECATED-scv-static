@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "has a beginning has an end",
-    "elapsed": 0.207,
     "method": "phrase",
     "resultPattern": "\\bhas a beginning has an end",
     "segsMatched": 16,

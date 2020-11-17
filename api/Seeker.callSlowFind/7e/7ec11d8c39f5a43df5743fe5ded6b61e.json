@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "noch für alle äußeren reize",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bnoch für alle äußeren reize",
     "segsMatched": 5,

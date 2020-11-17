@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "whenever i want",
-    "elapsed": 0.057,
     "method": "phrase",
     "resultPattern": "\\bwhenever i want",
     "segsMatched": 30,

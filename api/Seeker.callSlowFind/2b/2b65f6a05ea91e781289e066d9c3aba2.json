@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dachsparren",
-    "elapsed": 0.005,
     "method": "phrase",
     "resultPattern": "\\bdachsparren",
     "segsMatched": 4,

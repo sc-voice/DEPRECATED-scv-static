@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wald",
-    "elapsed": 0.3,
     "method": "phrase",
     "resultPattern": "\\bwald",
     "segsMatched": 80,

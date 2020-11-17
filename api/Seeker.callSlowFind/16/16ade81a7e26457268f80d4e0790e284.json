@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "marionette",
-    "elapsed": 0.005,
     "method": "phrase",
     "resultPattern": "\\bmarionette",
     "segsMatched": 3,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "have a reaction",
-    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\bhave a reaction",
     "segsMatched": 2,

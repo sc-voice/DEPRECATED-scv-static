@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "umfang der weisheit",
-    "elapsed": 0.035,
     "method": "phrase",
     "resultPattern": "\\bumfang der weisheit",
     "segsMatched": 9,

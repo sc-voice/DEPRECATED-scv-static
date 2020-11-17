@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the power of faith",
-    "elapsed": 0.062,
     "method": "phrase",
     "resultPattern": "\\bthe power of faith",
     "segsMatched": 21,

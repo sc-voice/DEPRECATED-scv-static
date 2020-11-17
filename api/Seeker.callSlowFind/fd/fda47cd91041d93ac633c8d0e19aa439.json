@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "by ear",
-    "elapsed": 0.044,
     "method": "phrase",
     "resultPattern": "\\bby ear",
     "segsMatched": 15,

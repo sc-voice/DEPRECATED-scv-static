@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "three characteristics",
-    "elapsed": 0.03,
     "method": "phrase",
     "resultPattern": "\\bthree characteristics",
     "segsMatched": 10,

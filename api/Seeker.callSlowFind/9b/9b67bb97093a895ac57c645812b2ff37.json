@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "choices are suffering",
-    "elapsed": 0.022,
     "method": "phrase",
     "resultPattern": "\\bchoices are suffering",
     "segsMatched": 2,

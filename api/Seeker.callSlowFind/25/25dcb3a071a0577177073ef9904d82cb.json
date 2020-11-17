@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "beträchtliches vermögen",
-    "elapsed": 0.053,
     "method": "phrase",
     "resultPattern": "\\bbeträchtliches vermögen",
     "segsMatched": 4,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the happiness of immersion",
-    "elapsed": 0.018,
     "method": "phrase",
     "resultPattern": "\\bthe happiness of immersion",
     "segsMatched": 2,

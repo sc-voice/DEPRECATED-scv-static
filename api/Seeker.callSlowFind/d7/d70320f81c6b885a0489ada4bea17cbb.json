@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ohne verlangen",
-    "elapsed": 0.002,
     "method": "phrase",
     "resultPattern": "\\bohne verlangen",
     "segsMatched": 1,

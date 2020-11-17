@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hopefully that’ll happen",
-    "elapsed": 0.011,
     "method": "phrase",
     "resultPattern": "\\bhopefully that’ll happen",
     "segsMatched": 1,

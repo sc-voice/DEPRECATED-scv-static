@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "auf die mittlere art",
-    "elapsed": 0.017,
     "method": "phrase",
     "resultPattern": "\\bauf die mittlere art",
     "segsMatched": 3,

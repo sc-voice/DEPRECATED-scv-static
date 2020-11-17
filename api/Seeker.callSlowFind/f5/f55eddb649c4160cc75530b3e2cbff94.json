@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "schwer zu erfüllen",
-    "elapsed": 0.005,
     "method": "phrase",
     "resultPattern": "\\bschwer zu erfüllen",
     "segsMatched": 2,

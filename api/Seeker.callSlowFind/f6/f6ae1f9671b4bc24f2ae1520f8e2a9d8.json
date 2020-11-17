@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gesund",
-    "elapsed": 0.162,
     "method": "phrase",
     "resultPattern": "\\bgesund",
     "segsMatched": 35,

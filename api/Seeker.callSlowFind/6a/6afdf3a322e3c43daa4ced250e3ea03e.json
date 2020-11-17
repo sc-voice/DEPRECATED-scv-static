@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "verschwinden der wahren lehre",
-    "elapsed": 0.041,
     "method": "phrase",
     "resultPattern": "\\bverschwinden der wahren lehre",
     "segsMatched": 27,

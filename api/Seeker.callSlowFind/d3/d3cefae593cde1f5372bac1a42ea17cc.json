@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a person’s ethics",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\ba person’s ethics",
     "segsMatched": 4,

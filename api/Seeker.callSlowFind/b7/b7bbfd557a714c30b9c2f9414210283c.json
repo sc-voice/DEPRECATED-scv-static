@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "edle rechte versenkung entwickel",
-    "elapsed": 0.084,
     "method": "keywords",
     "resultPattern": "\\bedle|\\brechte|\\bversenkung|\\bentwickel",
     "segsMatched": 11,

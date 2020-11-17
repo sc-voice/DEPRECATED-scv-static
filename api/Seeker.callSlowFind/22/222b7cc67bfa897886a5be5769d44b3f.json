@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "assess",
-    "elapsed": 0.07,
     "method": "phrase",
     "resultPattern": "\\bassess",
     "segsMatched": 18,

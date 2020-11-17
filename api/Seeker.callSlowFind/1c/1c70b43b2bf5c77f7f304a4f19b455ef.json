@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "blind",
-    "elapsed": 0.033,
     "method": "phrase",
     "resultPattern": "\\bblind",
     "segsMatched": 11,

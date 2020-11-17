@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "who sees the cessation of suffering",
-    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bwho sees the cessation of suffering",
     "segsMatched": 5,

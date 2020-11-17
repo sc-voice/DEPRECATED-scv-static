@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "jegliche art von form",
-    "elapsed": 0.021,
     "method": "phrase",
     "resultPattern": "\\bjegliche art von form",
     "segsMatched": 4,

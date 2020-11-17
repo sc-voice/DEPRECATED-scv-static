@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "i am a stream-enterer",
-    "elapsed": 0.148,
     "method": "phrase",
     "resultPattern": "\\bi am a stream-enterer",
     "segsMatched": 22,

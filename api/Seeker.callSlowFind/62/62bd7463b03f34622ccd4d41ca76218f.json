@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "perceive light",
-    "elapsed": 0.03,
     "method": "phrase",
     "resultPattern": "\\bperceive light",
     "segsMatched": 19,

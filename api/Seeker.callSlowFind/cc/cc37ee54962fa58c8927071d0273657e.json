@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "much suffering and distress",
-    "elapsed": 0.072,
     "method": "phrase",
     "resultPattern": "\\bmuch suffering and distress",
     "segsMatched": 19,

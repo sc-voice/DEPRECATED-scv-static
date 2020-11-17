@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "suffering in hell",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bsuffering in hell",
     "segsMatched": 2,

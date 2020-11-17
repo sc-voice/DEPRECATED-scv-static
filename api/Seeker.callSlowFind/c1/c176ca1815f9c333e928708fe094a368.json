@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a hateful person",
-    "elapsed": 0.053,
     "method": "phrase",
     "resultPattern": "\\ba hateful person",
     "segsMatched": 8,

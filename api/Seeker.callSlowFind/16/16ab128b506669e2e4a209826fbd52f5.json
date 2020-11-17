@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mired in suffering",
-    "elapsed": 0.07,
     "method": "phrase",
     "resultPattern": "\\bmired in suffering",
     "segsMatched": 15,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "cause for stinginess",
-    "elapsed": 0.043,
     "method": "phrase",
     "resultPattern": "\\bcause for stinginess",
     "segsMatched": 2,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "bauer",
-    "elapsed": 0.019,
     "method": "phrase",
     "resultPattern": "\\bbauer",
     "segsMatched": 10,

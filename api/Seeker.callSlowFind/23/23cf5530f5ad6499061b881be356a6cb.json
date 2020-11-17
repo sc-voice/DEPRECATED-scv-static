@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wildes fohlen",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bwildes fohlen",
     "segsMatched": 4,

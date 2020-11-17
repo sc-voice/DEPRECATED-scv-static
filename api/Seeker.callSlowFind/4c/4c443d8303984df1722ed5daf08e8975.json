@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sammosa",
-    "elapsed": 0,
     "method": "keywords",
     "resultPattern": "\\bs(a|ā)(m|ṁ|ṃ)(m|ṁ|ṃ)os(a|ā)",
     "segsMatched": 0,

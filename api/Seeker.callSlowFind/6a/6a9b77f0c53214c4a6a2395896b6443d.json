@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mindfulness and wisdom",
-    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bmindfulness and wisdom",
     "segsMatched": 2,

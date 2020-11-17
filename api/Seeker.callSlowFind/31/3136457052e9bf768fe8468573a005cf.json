@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in einem gefängnis eingesperrt",
-    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\bin einem gefängnis eingesperrt",
     "segsMatched": 1,

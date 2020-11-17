@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vier grundlagen",
-    "elapsed": 0.057,
     "method": "phrase",
     "resultPattern": "\\bvier grundlagen",
     "segsMatched": 3,

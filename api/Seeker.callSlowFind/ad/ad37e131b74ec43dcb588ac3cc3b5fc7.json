@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "fuel for ignorance",
-    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\bfuel for ignorance",
     "segsMatched": 4,

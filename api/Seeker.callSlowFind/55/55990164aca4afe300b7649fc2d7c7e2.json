@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gaben spendet",
-    "elapsed": 0.012,
     "method": "phrase",
     "resultPattern": "\\bgaben spendet",
     "segsMatched": 2,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "i will give gifts",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bi will give gifts",
     "segsMatched": 1,

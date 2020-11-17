@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unabhängig und frei, und könnte gehen",
-    "elapsed": 0.02,
     "method": "phrase",
     "resultPattern": "\\bunabhängig und frei, und könnte gehen",
     "segsMatched": 1,

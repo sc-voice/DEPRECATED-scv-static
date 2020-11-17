@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "devadatta",
-    "elapsed": 0.132,
     "method": "phrase",
     "resultPattern": "\\b(d|ḍ)ev(a|ā)(d|ḍ)(a|ā)(t|ṭ)(t|ṭ)(a|ā)",
     "segsMatched": 10,

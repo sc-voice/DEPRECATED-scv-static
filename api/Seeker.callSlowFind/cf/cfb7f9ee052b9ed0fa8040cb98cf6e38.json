@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "grasping the eye",
-    "elapsed": 0.018,
     "method": "phrase",
     "resultPattern": "\\bgrasping the eye",
     "segsMatched": 2,

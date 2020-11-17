@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "muschelschalen, steine und kiesel",
-    "elapsed": 0.024,
     "method": "phrase",
     "resultPattern": "\\bmuschelschalen, steine und kiesel",
     "segsMatched": 3,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "understands the eye, sights, and the fetter",
-    "elapsed": 0.034,
     "method": "phrase",
     "resultPattern": "\\bunderstands the eye, sights, and the fetter",
     "segsMatched": 2,

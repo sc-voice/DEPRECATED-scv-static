@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "verzichtet auf stock und schwert",
-    "elapsed": 0.036,
     "method": "phrase",
     "resultPattern": "\\bverzichtet auf stock und schwert",
     "segsMatched": 2,

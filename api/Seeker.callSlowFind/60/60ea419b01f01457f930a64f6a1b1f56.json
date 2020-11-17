@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nieder, derb, gewöhnlich, unedel und zwecklos",
-    "elapsed": 0.019,
     "method": "phrase",
     "resultPattern": "\\bnieder, derb, gewöhnlich, unedel und zwecklos",
     "segsMatched": 3,

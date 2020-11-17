@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "what kind of mendicant",
-    "elapsed": 0.024,
     "method": "phrase",
     "resultPattern": "\\bwhat kind of mendicant",
     "segsMatched": 8,

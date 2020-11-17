@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "fettered externally",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bfettered externally",
     "segsMatched": 4,

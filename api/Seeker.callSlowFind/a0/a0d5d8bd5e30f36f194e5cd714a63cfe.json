@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "internal confidence and unification of mind",
-    "elapsed": 0,
     "method": "phrase",
     "resultPattern": "\\binternal confidence and unification of mind",
     "segsMatched": 0,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "one who lacks joy",
-    "elapsed": 0.021,
     "method": "phrase",
     "resultPattern": "\\bone who lacks joy",
     "segsMatched": 5,

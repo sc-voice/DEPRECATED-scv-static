@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "all the suffering that arises",
-    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\ball the suffering that arises",
     "segsMatched": 3,

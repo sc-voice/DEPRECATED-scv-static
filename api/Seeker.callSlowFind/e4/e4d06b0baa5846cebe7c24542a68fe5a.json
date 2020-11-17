@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zu studieren",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bzu studieren",
     "segsMatched": 2,

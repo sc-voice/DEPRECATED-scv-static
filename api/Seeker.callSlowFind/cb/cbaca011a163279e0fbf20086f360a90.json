@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the impermanence of feeling",
-    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\bthe impermanence of feeling",
     "segsMatched": 1,

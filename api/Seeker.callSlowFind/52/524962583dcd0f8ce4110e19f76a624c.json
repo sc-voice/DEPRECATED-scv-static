@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "might not be mine",
-    "elapsed": 0.049,
     "method": "phrase",
     "resultPattern": "\\bmight not be mine",
     "segsMatched": 32,

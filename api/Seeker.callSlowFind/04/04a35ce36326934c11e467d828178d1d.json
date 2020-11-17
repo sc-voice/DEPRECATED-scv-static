@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "grab them by the hair",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bgrab them by the hair",
     "segsMatched": 1,

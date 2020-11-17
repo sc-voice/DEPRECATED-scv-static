@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "challenging",
-    "elapsed": 0.103,
     "method": "phrase",
     "resultPattern": "\\bchallenging",
     "segsMatched": 11,

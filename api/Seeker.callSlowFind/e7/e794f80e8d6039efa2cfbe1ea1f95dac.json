@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mere faith",
-    "elapsed": 0.106,
     "method": "phrase",
     "resultPattern": "\\bmere faith",
     "segsMatched": 14,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the nun knows me",
-    "elapsed": 0.361,
     "method": "keywords",
     "resultPattern": "\\bthe|\\bnun|\\bknows|\\b(m|ṁ|ṃ)e",
     "segsMatched": 10,

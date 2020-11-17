@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "herzenswunsch eines sittlichen menschen",
-    "elapsed": 0.033,
     "method": "phrase",
     "resultPattern": "\\bherzenswunsch eines sittlichen menschen",
     "segsMatched": 4,

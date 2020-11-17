@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "läuterung der ansicht",
-    "elapsed": 0.056,
     "method": "phrase",
     "resultPattern": "\\bläuterung der ansicht",
     "segsMatched": 4,

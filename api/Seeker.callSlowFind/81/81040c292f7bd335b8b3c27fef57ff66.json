@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wahrnehmung des hässlichen",
-    "elapsed": 0.094,
     "method": "phrase",
     "resultPattern": "\\bwahrnehmung des hässlichen",
     "segsMatched": 7,

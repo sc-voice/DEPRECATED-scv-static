@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "by the middle way",
-    "elapsed": 0.044,
     "method": "phrase",
     "resultPattern": "\\bby the middle way",
     "segsMatched": 13,

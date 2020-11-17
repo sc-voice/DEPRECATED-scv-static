@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "craving is given up",
-    "elapsed": 0.031,
     "method": "phrase",
     "resultPattern": "\\bcraving is given up",
     "segsMatched": 8,

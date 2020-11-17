@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenig sand in den augen",
-    "elapsed": 0.054,
     "method": "phrase",
     "resultPattern": "\\bwenig sand in den augen",
     "segsMatched": 9,

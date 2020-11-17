@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a condition for old age and death",
-    "elapsed": 0.233,
     "method": "phrase",
     "resultPattern": "\\ba condition for old age and death",
     "segsMatched": 42,

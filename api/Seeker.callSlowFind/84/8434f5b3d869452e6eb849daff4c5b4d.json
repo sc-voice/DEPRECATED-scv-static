@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das glück der versenkung",
-    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bdas glück der versenkung",
     "segsMatched": 2,

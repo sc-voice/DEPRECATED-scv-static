@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "conceit for all",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bconceit for all",
     "segsMatched": 5,

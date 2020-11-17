@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sensual desire in them",
-    "elapsed": 0.041,
     "method": "phrase",
     "resultPattern": "\\bsensual desire in them",
     "segsMatched": 3,

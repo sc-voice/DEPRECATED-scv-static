@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "half the spiritual life",
-    "elapsed": 0.012,
     "method": "phrase",
     "resultPattern": "\\bhalf the spiritual life",
     "segsMatched": 3,

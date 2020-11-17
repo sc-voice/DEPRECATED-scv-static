@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "has ceased",
-    "elapsed": 0.138,
     "method": "phrase",
     "resultPattern": "\\bhas ceased",
     "segsMatched": 42,

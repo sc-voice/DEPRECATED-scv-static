@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "giving food",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bgiving food",
     "segsMatched": 2,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sei.* abhängig entstanden",
-    "elapsed": 0.097,
     "method": "phrase",
     "resultPattern": "\\bsei.* abhängig entstanden",
     "segsMatched": 5,

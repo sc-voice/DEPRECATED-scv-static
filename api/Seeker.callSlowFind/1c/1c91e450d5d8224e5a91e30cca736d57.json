@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "du lieber himmel",
-    "elapsed": 0.05,
     "method": "phrase",
     "resultPattern": "\\bdu lieber himmel",
     "segsMatched": 2,

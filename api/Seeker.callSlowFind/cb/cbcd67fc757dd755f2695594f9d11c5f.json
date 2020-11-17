@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "geht: ‚ich gehe.‘",
-    "elapsed": 0.057,
     "method": "phrase",
     "resultPattern": "\\bgeht: ‚ich gehe.‘",
     "segsMatched": 1,

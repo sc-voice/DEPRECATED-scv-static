@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eye of wisdom",
-    "elapsed": 0.08,
     "method": "phrase",
     "resultPattern": "\\beye of wisdom",
     "segsMatched": 7,

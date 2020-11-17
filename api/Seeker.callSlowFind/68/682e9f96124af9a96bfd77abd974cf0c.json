@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "does immersion come first",
-    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\bdoes immersion come first",
     "segsMatched": 2,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "is eye contact permanent",
-    "elapsed": 0.007,
     "method": "phrase",
     "resultPattern": "\\bis eye contact permanent",
     "segsMatched": 3,

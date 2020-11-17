@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sadness connected with sensual pleasures",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bsadness connected with sensual pleasures",
     "segsMatched": 2,

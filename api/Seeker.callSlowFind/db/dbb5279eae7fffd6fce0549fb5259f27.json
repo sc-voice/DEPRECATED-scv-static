@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "be your own island",
-    "elapsed": 0.134,
     "method": "phrase",
     "resultPattern": "\\bbe your own island",
     "segsMatched": 18,

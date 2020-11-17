@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ausgeht und zurückkommt",
-    "elapsed": 0.065,
     "method": "phrase",
     "resultPattern": "\\bausgeht und zurückkommt",
     "segsMatched": 15,

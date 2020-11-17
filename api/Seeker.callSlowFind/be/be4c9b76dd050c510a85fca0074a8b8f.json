@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "geistgeschaffen körper",
-    "elapsed": 0.039,
     "method": "keywords",
     "resultPattern": "\\bgeistgeschaffen|\\bkörper",
     "segsMatched": 5,

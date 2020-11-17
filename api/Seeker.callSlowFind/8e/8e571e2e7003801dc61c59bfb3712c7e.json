@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sechs elemente",
-    "elapsed": 0.069,
     "method": "phrase",
     "resultPattern": "\\bsechs elemente",
     "segsMatched": 9,

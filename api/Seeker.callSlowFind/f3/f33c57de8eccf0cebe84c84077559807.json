@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dieses verdammte ding",
-    "elapsed": 0.052,
     "method": "phrase",
     "resultPattern": "\\bdieses verdammte ding",
     "segsMatched": 3,

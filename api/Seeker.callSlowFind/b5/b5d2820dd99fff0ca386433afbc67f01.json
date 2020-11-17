@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "restraint of the eye faculty",
-    "elapsed": 0.011,
     "method": "phrase",
     "resultPattern": "\\brestraint of the eye faculty",
     "segsMatched": 2,

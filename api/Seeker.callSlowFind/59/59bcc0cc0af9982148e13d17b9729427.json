@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "rose-apple",
-    "elapsed": 0.064,
     "method": "phrase",
     "resultPattern": "\\brose-apple",
     "segsMatched": 6,

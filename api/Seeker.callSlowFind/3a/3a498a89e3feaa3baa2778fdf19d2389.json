@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hätte wieder appetit und käme zu kräften",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bhätte wieder appetit und käme zu kräften",
     "segsMatched": 1,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "frausein",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bfrausein",
     "segsMatched": 2,

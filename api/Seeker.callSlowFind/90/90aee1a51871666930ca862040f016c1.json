@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "es war einmal",
-    "elapsed": 0.098,
     "method": "phrase",
     "resultPattern": "\\bes war einmal",
     "segsMatched": 7,

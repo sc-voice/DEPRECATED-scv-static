@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "my lasting welfare and happiness",
-    "elapsed": 0.161,
     "method": "phrase",
     "resultPattern": "\\bmy lasting welfare and happiness",
     "segsMatched": 16,

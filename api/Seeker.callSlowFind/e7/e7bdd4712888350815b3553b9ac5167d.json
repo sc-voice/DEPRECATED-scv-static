@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das auge brennt",
-    "elapsed": 0.009,
     "method": "phrase",
     "resultPattern": "\\bdas auge brennt",
     "segsMatched": 1,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "immersion is peaceful",
-    "elapsed": 0.103,
     "method": "phrase",
     "resultPattern": "\\bimmersion is peaceful",
     "segsMatched": 4,

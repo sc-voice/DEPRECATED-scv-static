@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "womanhood",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\bwomanhood",
     "segsMatched": 2,

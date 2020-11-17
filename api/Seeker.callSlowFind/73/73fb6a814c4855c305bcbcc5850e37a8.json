@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in bester absicht",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bin bester absicht",
     "segsMatched": 4,

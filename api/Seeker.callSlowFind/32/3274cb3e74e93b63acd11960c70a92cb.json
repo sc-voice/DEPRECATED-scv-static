@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the eye is burning",
-    "elapsed": 0.005,
     "method": "phrase",
     "resultPattern": "\\bthe eye is burning",
     "segsMatched": 1,

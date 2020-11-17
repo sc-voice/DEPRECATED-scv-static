@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "and they check their own reflection",
-    "elapsed": 0.07,
     "method": "phrase",
     "resultPattern": "\\band they check their own reflection",
     "segsMatched": 10,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "three foundations",
-    "elapsed": 0.002,
     "method": "phrase",
     "resultPattern": "\\bthree foundations",
     "segsMatched": 2,

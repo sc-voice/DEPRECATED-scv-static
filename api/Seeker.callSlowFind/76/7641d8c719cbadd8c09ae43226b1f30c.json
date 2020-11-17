@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "richtig eingeprägt",
-    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\brichtig eingeprägt",
     "segsMatched": 4,

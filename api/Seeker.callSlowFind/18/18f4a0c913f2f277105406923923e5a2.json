@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn der faktor des erwachens achtsamkeit",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\bwenn der faktor des erwachens achtsamkeit",
     "segsMatched": 1,

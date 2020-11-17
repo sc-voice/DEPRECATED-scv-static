@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "suicide",
-    "elapsed": 0,
     "method": "keywords",
     "resultPattern": "\\bsuicide",
     "segsMatched": 0,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "limited immersion and wisdom",
-    "elapsed": 0.018,
     "method": "phrase",
     "resultPattern": "\\blimited immersion and wisdom",
     "segsMatched": 11,

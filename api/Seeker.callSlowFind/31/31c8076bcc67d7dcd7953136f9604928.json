@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "glück der vielen",
-    "elapsed": 0.176,
     "method": "phrase",
     "resultPattern": "\\bglück der vielen",
     "segsMatched": 29,

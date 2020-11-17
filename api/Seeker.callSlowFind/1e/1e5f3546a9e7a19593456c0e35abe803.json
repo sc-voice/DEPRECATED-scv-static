@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the three times",
-    "elapsed": 0.074,
     "method": "phrase",
     "resultPattern": "\\bthe three times",
     "segsMatched": 19,

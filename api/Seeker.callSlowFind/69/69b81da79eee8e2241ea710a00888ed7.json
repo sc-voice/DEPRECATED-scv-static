@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dunkelheit licht",
-    "elapsed": 0.19,
     "method": "keywords",
     "resultPattern": "\\bdunkelheit|\\blicht",
     "segsMatched": 12,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "live as long",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\blive as long",
     "segsMatched": 18,

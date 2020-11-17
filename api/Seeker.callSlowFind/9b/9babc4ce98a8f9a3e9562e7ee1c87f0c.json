@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the recollection of",
-    "elapsed": 0.129,
     "method": "phrase",
     "resultPattern": "\\bthe recollection of",
     "segsMatched": 29,

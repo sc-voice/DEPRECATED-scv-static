@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "teich mit blauen seerosen",
-    "elapsed": 0.076,
     "method": "phrase",
     "resultPattern": "\\bteich mit blauen seerosen",
     "segsMatched": 4,

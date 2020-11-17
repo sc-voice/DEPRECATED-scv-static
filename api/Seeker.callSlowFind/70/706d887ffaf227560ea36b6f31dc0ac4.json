@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "faith as partner",
-    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\bfaith as partner",
     "segsMatched": 1,

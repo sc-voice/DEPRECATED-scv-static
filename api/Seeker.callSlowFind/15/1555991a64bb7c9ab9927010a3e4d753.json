@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a stilt longhouse at the central square",
-    "elapsed": 0.038,
     "method": "phrase",
     "resultPattern": "\\ba stilt longhouse at the central square",
     "segsMatched": 2,

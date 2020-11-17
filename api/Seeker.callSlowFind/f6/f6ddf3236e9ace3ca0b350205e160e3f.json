@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dhamma|dharma",
-    "elapsed": 2.661,
     "method": "phrase",
     "resultPattern": "\\bdhamma|dharma",
     "segsMatched": 746,

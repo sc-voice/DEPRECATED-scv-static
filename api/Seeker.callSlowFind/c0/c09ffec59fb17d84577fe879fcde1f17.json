@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gibt und bedenkt",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bgibt und bedenkt",
     "segsMatched": 1,

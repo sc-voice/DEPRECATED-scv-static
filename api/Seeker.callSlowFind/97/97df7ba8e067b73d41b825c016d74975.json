@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "imprisoned in a jail",
-    "elapsed": 0.044,
     "method": "phrase",
     "resultPattern": "\\bimprisoned in a jail",
     "segsMatched": 3,

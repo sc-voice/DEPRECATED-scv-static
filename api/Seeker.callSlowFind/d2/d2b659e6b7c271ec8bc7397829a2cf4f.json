@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "whether it is night or day",
-    "elapsed": 0.073,
     "method": "phrase",
     "resultPattern": "\\bwhether it is night or day",
     "segsMatched": 2,

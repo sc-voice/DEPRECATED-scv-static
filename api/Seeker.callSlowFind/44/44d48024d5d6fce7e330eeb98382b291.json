@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "root of suffering",
-    "elapsed": 0.117,
     "method": "phrase",
     "resultPattern": "\\broot of suffering",
     "segsMatched": 14,

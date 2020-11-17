@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sadness arises",
-    "elapsed": 0.038,
     "method": "phrase",
     "resultPattern": "\\bsadness arises",
     "segsMatched": 9,

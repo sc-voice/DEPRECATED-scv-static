@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mit dem ohr gefolgt",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bmit dem ohr gefolgt",
     "segsMatched": 11,

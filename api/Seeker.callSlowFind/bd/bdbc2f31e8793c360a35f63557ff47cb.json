@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "faculty of wisdom",
-    "elapsed": 0.112,
     "method": "phrase",
     "resultPattern": "\\bfaculty of wisdom",
     "segsMatched": 31,

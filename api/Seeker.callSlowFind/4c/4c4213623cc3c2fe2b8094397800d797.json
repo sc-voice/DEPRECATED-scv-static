@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "this the only truth",
-    "elapsed": 0.916,
     "method": "keywords",
     "resultPattern": "\\bthis|\\bthe|\\bo(n|ṅ|ñ|ṇ)(l|ḷ)y|\\btruth",
     "segsMatched": 63,

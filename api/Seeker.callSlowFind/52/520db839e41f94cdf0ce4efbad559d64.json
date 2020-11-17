@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "traurigkeit, die mit sinnlichkeit",
-    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\btraurigkeit, die mit sinnlichkeit",
     "segsMatched": 2,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "householders of bamboo gate",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\bhouseholders of bamboo gate",
     "segsMatched": 3,

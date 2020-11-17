@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ihr spiegelbild betrachten",
-    "elapsed": 0.02,
     "method": "phrase",
     "resultPattern": "\\bihr spiegelbild betrachten",
     "segsMatched": 1,

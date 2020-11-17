@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a state of immersion",
-    "elapsed": 0.07,
     "method": "phrase",
     "resultPattern": "\\ba state of immersion",
     "segsMatched": 30,

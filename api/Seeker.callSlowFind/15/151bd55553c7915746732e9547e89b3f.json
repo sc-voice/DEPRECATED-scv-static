@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "rid of resentment",
-    "elapsed": 0.131,
     "method": "phrase",
     "resultPattern": "\\brid of resentment",
     "segsMatched": 37,

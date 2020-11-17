@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "thoughts arise",
-    "elapsed": 0.009,
     "method": "phrase",
     "resultPattern": "\\bthoughts arise",
     "segsMatched": 6,

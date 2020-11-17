@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "purification of view",
-    "elapsed": 0.073,
     "method": "phrase",
     "resultPattern": "\\bpurification of view",
     "segsMatched": 6,

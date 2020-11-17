@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "pleasure of renunciation",
-    "elapsed": 0.039,
     "method": "phrase",
     "resultPattern": "\\bpleasure of renunciation",
     "segsMatched": 5,

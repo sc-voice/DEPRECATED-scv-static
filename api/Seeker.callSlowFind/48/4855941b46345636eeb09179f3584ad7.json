@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "anxiety",
-    "elapsed": 0.05,
     "method": "phrase",
     "resultPattern": "\\banxiety",
     "segsMatched": 26,

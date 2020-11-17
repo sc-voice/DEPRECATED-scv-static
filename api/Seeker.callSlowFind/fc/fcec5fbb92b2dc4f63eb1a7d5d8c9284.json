@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "suffering of many",
-    "elapsed": 0.023,
     "method": "phrase",
     "resultPattern": "\\bsuffering of many",
     "segsMatched": 5,

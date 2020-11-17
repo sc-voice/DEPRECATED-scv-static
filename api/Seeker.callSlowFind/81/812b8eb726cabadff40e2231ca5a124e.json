@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "awakening factor of mindfulness in them",
-    "elapsed": 0.035,
     "method": "phrase",
     "resultPattern": "\\bawakening factor of mindfulness in them",
     "segsMatched": 2,

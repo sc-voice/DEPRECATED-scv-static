@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "allein die wahrheit",
-    "elapsed": 0.048,
     "method": "phrase",
     "resultPattern": "\\ballein die wahrheit",
     "segsMatched": 3,

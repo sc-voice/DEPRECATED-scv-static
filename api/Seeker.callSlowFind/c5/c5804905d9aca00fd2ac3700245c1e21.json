@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "acquire faith",
-    "elapsed": 0.007,
     "method": "phrase",
     "resultPattern": "\\bacquire faith",
     "segsMatched": 2,

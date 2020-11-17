@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the impermanence of conditions",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\bthe impermanence of conditions",
     "segsMatched": 1,

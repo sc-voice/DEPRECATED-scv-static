@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zwei toren",
-    "elapsed": 0.028,
     "method": "phrase",
     "resultPattern": "\\bzwei toren",
     "segsMatched": 6,

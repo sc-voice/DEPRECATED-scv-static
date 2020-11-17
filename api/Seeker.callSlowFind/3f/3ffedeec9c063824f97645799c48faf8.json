@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "overcome by anger",
-    "elapsed": 0.012,
     "method": "phrase",
     "resultPattern": "\\bovercome by anger",
     "segsMatched": 9,

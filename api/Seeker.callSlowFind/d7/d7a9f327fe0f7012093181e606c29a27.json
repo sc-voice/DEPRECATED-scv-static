@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vermöchte zu tadeln",
-    "elapsed": 0.005,
     "method": "keywords",
     "resultPattern": "\\bvermöchte|\\bzu|\\btadeln",
     "segsMatched": 2,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "fruit of giving",
-    "elapsed": 0.023,
     "method": "phrase",
     "resultPattern": "\\bfruit of giving",
     "segsMatched": 11,

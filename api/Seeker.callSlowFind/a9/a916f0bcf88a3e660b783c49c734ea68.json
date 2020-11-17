@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "rasche einsicht",
-    "elapsed": 0.091,
     "method": "keywords",
     "resultPattern": "\\brasche|\\beinsicht",
     "segsMatched": 27,

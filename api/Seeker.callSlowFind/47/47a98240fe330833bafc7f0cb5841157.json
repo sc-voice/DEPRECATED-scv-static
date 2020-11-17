@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "spectrum of wisdom",
-    "elapsed": 0.047,
     "method": "phrase",
     "resultPattern": "\\bspectrum of wisdom",
     "segsMatched": 14,

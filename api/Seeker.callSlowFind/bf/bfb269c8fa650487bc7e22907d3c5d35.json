@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "begrenzte versenkung und weisheit",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bbegrenzte versenkung und weisheit",
     "segsMatched": 5,

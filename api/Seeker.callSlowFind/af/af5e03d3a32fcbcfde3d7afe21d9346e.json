@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "immersion truly",
-    "elapsed": 0.012,
     "method": "phrase",
     "resultPattern": "\\bimmersion truly",
     "segsMatched": 6,

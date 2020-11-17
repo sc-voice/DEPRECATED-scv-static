@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "substantial wealth",
-    "elapsed": 0.125,
     "method": "phrase",
     "resultPattern": "\\bsubstantial wealth",
     "segsMatched": 6,

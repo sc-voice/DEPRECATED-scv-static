@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "let me develop immersion",
-    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\blet me develop immersion",
     "segsMatched": 1,

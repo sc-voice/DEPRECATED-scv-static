@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "regain their appetite and their strength",
-    "elapsed": 0.065,
     "method": "phrase",
     "resultPattern": "\\bregain their appetite and their strength",
     "segsMatched": 3,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "focus only on beauty",
-    "elapsed": 0.249,
     "method": "keywords",
     "resultPattern": "\\bfocus|\\bo(n|ṅ|ñ|ṇ)(l|ḷ)y|\\bo(n|ṅ|ñ|ṇ)|\\bbeauty",
     "segsMatched": 10,

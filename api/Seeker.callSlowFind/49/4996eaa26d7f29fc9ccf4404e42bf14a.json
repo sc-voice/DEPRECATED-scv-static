@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "give with consideration",
-    "elapsed": 0.03,
     "method": "phrase",
     "resultPattern": "\\bgive with consideration",
     "segsMatched": 6,

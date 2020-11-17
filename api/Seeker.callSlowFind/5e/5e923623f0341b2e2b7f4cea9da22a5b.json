@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "asket des lotus",
-    "elapsed": 0.174,
     "method": "keywords",
     "resultPattern": "\\basket|\\bdes|\\blotus",
     "segsMatched": 21,

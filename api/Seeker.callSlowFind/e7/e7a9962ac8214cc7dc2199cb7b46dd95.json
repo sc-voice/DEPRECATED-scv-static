@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erster anfang",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\berster anfang",
     "segsMatched": 1,

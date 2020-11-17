@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mind purified by immersion",
-    "elapsed": 0.029,
     "method": "phrase",
     "resultPattern": "\\bmind purified by immersion",
     "segsMatched": 8,

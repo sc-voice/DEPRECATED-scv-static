@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "einen schilfhalm aus seiner scheide",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\beinen schilfhalm aus seiner scheide",
     "segsMatched": 1,

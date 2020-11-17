@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn unwissenheit schwindet",
-    "elapsed": 0.099,
     "method": "phrase",
     "resultPattern": "\\bwenn unwissenheit schwindet",
     "segsMatched": 14,

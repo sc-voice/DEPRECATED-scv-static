@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "alles leiden, das zustande kommt",
-    "elapsed": 0.007,
     "method": "phrase",
     "resultPattern": "\\balles leiden, das zustande kommt",
     "segsMatched": 3,

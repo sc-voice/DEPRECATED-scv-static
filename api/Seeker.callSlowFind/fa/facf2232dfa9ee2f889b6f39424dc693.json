@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ein gerechter und grundsatztreuer könig",
-    "elapsed": 0.049,
     "method": "phrase",
     "resultPattern": "\\bein gerechter und grundsatztreuer könig",
     "segsMatched": 7,

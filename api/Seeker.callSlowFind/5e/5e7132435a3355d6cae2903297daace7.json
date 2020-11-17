@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gedeihen unter wasser",
-    "elapsed": 0.093,
     "method": "phrase",
     "resultPattern": "\\bgedeihen unter wasser",
     "segsMatched": 4,

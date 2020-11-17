@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zum einswerden des geistes",
-    "elapsed": 0.018,
     "method": "phrase",
     "resultPattern": "\\bzum einswerden des geistes",
     "segsMatched": 2,

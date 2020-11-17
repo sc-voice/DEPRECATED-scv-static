@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unterscheiden",
-    "elapsed": 0.086,
     "method": "phrase",
     "resultPattern": "\\bunterscheiden",
     "segsMatched": 13,

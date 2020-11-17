@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "daraus jedes gefäß herstellen",
-    "elapsed": 0.023,
     "method": "phrase",
     "resultPattern": "\\bdaraus jedes gefäß herstellen",
     "segsMatched": 1,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gain unification of mind",
-    "elapsed": 0.019,
     "method": "phrase",
     "resultPattern": "\\bgain unification of mind",
     "segsMatched": 7,

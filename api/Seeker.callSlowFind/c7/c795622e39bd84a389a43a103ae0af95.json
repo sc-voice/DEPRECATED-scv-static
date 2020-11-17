@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the eye is mine",
-    "elapsed": 0.02,
     "method": "phrase",
     "resultPattern": "\\bthe eye is mine",
     "segsMatched": 10,

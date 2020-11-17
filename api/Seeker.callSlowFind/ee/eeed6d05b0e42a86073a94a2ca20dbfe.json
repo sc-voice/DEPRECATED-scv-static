@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "no danger in any quarter",
-    "elapsed": 0.061,
     "method": "phrase",
     "resultPattern": "\\bno danger in any quarter",
     "segsMatched": 9,

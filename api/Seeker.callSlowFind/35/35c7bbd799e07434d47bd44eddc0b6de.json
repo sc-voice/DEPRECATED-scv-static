@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "how many gallons",
-    "elapsed": 0.029,
     "method": "phrase",
     "resultPattern": "\\bhow many gallons",
     "segsMatched": 6,

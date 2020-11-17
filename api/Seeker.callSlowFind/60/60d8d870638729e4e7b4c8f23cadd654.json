@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "versenkung ist friedvoll",
-    "elapsed": 0.007,
     "method": "phrase",
     "resultPattern": "\\bversenkung ist friedvoll",
     "segsMatched": 3,

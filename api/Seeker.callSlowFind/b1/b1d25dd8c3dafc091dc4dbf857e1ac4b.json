@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "schmerzhafte erfreuliche entscheidungen",
-    "elapsed": 0.043,
     "method": "keywords",
     "resultPattern": "\\bschmerzhafte|\\berfreuliche|\\bentscheidungen",
     "segsMatched": 7,

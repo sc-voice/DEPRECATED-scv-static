@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mir hinterherzulaufen",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bmir hinterherzulaufen",
     "segsMatched": 1,

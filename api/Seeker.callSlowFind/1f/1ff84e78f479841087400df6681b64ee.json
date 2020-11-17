@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nodding off",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bnodding off",
     "segsMatched": 4,

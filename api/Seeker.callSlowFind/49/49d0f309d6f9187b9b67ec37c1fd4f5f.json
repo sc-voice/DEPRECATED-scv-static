@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "scrupulous and kind",
-    "elapsed": 0.307,
     "method": "phrase",
     "resultPattern": "\\bscrupulous and kind",
     "segsMatched": 33,

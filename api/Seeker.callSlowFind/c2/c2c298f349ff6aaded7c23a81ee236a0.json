@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die kugel aus seifenpulver",
-    "elapsed": 0.021,
     "method": "phrase",
     "resultPattern": "\\bdie kugel aus seifenpulver",
     "segsMatched": 2,

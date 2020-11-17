@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "to criticize",
-    "elapsed": 0.056,
     "method": "phrase",
     "resultPattern": "\\bto criticize",
     "segsMatched": 7,

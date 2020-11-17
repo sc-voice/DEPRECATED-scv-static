@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sittliche freude, die damit einhergeh",
-    "elapsed": 0.033,
     "method": "keywords",
     "resultPattern": "\\bsittliche|\\bfreude,|\\bdie|\\b(d|ḍ)(a|ā)(m|ṁ|ṃ)(i|ī)(t|ṭ)|\\beinhergeh",
     "segsMatched": 2,

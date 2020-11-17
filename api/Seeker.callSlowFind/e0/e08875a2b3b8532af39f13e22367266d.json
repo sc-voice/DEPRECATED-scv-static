@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "lack of faith",
-    "elapsed": 0.03,
     "method": "phrase",
     "resultPattern": "\\black of faith",
     "segsMatched": 15,

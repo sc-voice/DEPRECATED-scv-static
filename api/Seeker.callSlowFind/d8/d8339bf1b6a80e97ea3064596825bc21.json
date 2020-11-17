@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "she has the wisdom",
-    "elapsed": 0.011,
     "method": "phrase",
     "resultPattern": "\\bshe has the wisdom",
     "segsMatched": 2,

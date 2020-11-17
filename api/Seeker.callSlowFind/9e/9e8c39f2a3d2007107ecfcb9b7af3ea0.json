@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a raft",
-    "elapsed": 0.127,
     "method": "phrase",
     "resultPattern": "\\ba raft",
     "segsMatched": 12,

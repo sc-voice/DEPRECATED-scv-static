@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das stehlen auf",
-    "elapsed": 0.03,
     "method": "phrase",
     "resultPattern": "\\bdas stehlen auf",
     "segsMatched": 4,
