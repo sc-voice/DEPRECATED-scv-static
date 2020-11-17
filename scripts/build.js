@@ -12,7 +12,7 @@ const APP_DIR = path.join(__dirname, '..');
 const API_DIR = path.join(APP_DIR, 'api');
 const EXAMPLES_PATH = path.join(API_DIR, 'examples.json');
 
-//logger.logLevel = 'warn';
+logger.logLevel = 'warn';
 
 (async function(){
     let bilaraData = await new BilaraData().initialize();
@@ -35,6 +35,7 @@ const EXAMPLES_PATH = path.join(API_DIR, 'examples.json');
         bilaraData,
         memoizer,
     }).initialize();
+    skr.logLevel = 'info';
     let examples = bilaraData.examples;
     for (let lang in examples) {
         for (let eg of examples[lang]) {
@@ -42,7 +43,6 @@ const EXAMPLES_PATH = path.join(API_DIR, 'examples.json');
                 pattern: eg,
                 lang,
             });
-            skr.info(`loadExamples`, eg);
         }
     }
 })();
