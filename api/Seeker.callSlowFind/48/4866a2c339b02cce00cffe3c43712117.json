@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wohin er fliegt",
-    "elapsed": 0.092,
     "method": "phrase",
     "resultPattern": "\\bwohin er fliegt",
     "segsMatched": 2,

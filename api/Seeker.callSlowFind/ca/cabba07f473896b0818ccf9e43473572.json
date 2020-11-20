@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "burst out in tears",
-    "elapsed": 0.198,
     "method": "phrase",
     "resultPattern": "\\bburst out in tears",
     "segsMatched": 6,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "criticized on",
-    "elapsed": 0.088,
     "method": "phrase",
     "resultPattern": "\\bcriticized on",
     "segsMatched": 45,

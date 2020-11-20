@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zehn allumfassende dimensionen der meditation",
-    "elapsed": 0.364,
     "method": "phrase",
     "resultPattern": "\\bzehn allumfassende dimensionen der meditation",
     "segsMatched": 1,

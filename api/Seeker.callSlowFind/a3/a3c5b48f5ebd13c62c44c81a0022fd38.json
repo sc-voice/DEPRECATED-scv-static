@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "viel leiden und bedrängnis",
-    "elapsed": 0.032,
     "method": "phrase",
     "resultPattern": "\\bviel leiden und bedrängnis",
     "segsMatched": 5,

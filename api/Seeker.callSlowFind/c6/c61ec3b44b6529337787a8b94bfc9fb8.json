@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "extinguishment by not grasping",
-    "elapsed": 0.1,
     "method": "phrase",
     "resultPattern": "\\bextinguishment by not grasping",
     "segsMatched": 25,

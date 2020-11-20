@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "oh my goodness",
-    "elapsed": 0.505,
     "method": "phrase",
     "resultPattern": "\\boh my goodness",
     "segsMatched": 4,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "von nahrung erhalten",
-    "elapsed": 0.536,
     "method": "phrase",
     "resultPattern": "\\bvon nahrung erhalten",
     "segsMatched": 1,

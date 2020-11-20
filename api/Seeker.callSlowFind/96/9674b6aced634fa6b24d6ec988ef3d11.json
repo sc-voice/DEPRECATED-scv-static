@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gained through pleasure",
-    "elapsed": 0.169,
     "method": "phrase",
     "resultPattern": "\\bgained through pleasure",
     "segsMatched": 4,

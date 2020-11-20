@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das auge, die bilder und die fessel",
-    "elapsed": 0.056,
     "method": "phrase",
     "resultPattern": "\\bdas auge, die bilder und die fessel",
     "segsMatched": 1,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die meditation unterstützen",
-    "elapsed": 0.418,
     "method": "phrase",
     "resultPattern": "\\bdie meditation unterstützen",
     "segsMatched": 4,

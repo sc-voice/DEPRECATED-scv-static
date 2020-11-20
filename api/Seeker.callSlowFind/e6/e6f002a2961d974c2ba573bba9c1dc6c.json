@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erde, wasser, feuer und luft",
-    "elapsed": 0.361,
     "method": "phrase",
     "resultPattern": "\\berde, wasser, feuer und luft",
     "segsMatched": 4,

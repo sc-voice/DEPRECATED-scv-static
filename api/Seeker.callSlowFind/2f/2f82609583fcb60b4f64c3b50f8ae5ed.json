@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ohne ursache oder grund",
-    "elapsed": 0.029,
     "method": "phrase",
     "resultPattern": "\\bohne ursache oder grund",
     "segsMatched": 1,

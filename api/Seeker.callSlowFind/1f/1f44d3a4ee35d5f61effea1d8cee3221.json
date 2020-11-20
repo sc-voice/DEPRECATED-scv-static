@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vital conditions",
-    "elapsed": 0.184,
     "method": "phrase",
     "resultPattern": "\\bvital conditions",
     "segsMatched": 17,

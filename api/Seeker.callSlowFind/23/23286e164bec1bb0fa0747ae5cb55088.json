@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "external things",
-    "elapsed": 0.022,
     "method": "phrase",
     "resultPattern": "\\bexternal things",
     "segsMatched": 5,

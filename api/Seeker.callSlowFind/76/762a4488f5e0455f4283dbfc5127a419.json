@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "conducive to immersion",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bconducive to immersion",
     "segsMatched": 8,

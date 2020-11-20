@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the impermanence of sights",
-    "elapsed": 0.086,
     "method": "phrase",
     "resultPattern": "\\bthe impermanence of sights",
     "segsMatched": 4,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "äußere erkennen und sehen",
-    "elapsed": 0.076,
     "method": "phrase",
     "resultPattern": "\\bäußere erkennen und sehen",
     "segsMatched": 4,

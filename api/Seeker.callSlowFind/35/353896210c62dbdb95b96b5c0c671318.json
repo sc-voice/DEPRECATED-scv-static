@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the dart of craving",
-    "elapsed": 0.326,
     "method": "phrase",
     "resultPattern": "\\bthe dart of craving",
     "segsMatched": 16,

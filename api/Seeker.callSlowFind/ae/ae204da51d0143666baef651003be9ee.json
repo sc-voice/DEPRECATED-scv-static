@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nicht beschämend",
-    "elapsed": 0.031,
     "method": "phrase",
     "resultPattern": "\\bnicht beschämend",
     "segsMatched": 3,

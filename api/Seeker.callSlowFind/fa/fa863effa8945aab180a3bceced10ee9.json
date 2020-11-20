@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a hardened killer",
-    "elapsed": 0.274,
     "method": "phrase",
     "resultPattern": "\\ba hardened killer",
     "segsMatched": 12,

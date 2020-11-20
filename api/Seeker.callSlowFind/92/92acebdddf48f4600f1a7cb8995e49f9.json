@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "take the wealth",
-    "elapsed": 0.223,
     "method": "phrase",
     "resultPattern": "\\btake the wealth",
     "segsMatched": 10,

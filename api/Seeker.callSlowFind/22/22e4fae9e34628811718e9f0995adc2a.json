@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wie garn",
-    "elapsed": 0.071,
     "method": "phrase",
     "resultPattern": "\\bwie garn",
     "segsMatched": 3,

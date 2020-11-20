@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the problem",
-    "elapsed": 0.356,
     "method": "phrase",
     "resultPattern": "\\bthe problem",
     "segsMatched": 2,

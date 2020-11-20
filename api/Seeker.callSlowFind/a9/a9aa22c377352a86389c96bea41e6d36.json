@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gegen den strom",
-    "elapsed": 0.349,
     "method": "phrase",
     "resultPattern": "\\bgegen den strom",
     "segsMatched": 6,

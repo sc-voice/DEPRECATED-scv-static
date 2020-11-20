@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the seventh kind of wealth",
-    "elapsed": 0.016,
     "method": "phrase",
     "resultPattern": "\\bthe seventh kind of wealth",
     "segsMatched": 3,

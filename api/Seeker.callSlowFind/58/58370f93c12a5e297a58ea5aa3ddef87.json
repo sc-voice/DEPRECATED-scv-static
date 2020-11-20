@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "aber nicht zum eigenen",
-    "elapsed": 0.488,
     "method": "phrase",
     "resultPattern": "\\baber nicht zum eigenen",
     "segsMatched": 28,

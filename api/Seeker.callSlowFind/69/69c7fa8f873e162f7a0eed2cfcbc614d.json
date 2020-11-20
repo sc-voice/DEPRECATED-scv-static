@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "pull a cow",
-    "elapsed": 0.035,
     "method": "phrase",
     "resultPattern": "\\bpull a cow",
     "segsMatched": 4,

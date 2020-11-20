@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wesen ohne wahrnehmung",
-    "elapsed": 0.452,
     "method": "phrase",
     "resultPattern": "\\bwesen ohne wahrnehmung",
     "segsMatched": 2,

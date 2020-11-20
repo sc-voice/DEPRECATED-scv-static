@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "was ist eine bedingung für alter und tod",
-    "elapsed": 0.374,
     "method": "phrase",
     "resultPattern": "\\bwas ist eine bedingung für alter und tod",
     "segsMatched": 4,

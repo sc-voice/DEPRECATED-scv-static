@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unsullied bliss inside",
-    "elapsed": 0.55,
     "method": "phrase",
     "resultPattern": "\\bunsullied bliss inside",
     "segsMatched": 10,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gain and loss",
-    "elapsed": 0.627,
     "method": "phrase",
     "resultPattern": "\\bgain and loss",
     "segsMatched": 13,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erkenntnis der sechs sinnesfelder",
-    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\berkenntnis der sechs sinnesfelder",
     "segsMatched": 1,

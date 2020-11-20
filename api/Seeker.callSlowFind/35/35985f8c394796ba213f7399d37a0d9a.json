@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "spaltung herbei",
-    "elapsed": 0.037,
     "method": "keywords",
     "resultPattern": "\\bspaltung|\\bherbei",
     "segsMatched": 5,

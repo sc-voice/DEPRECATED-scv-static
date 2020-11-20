@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "perception of ugliness",
-    "elapsed": 0.719,
     "method": "phrase",
     "resultPattern": "\\bperception of ugliness",
     "segsMatched": 22,

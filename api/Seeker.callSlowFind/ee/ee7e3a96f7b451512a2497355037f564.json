@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "topic for recollection",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\btopic for recollection",
     "segsMatched": 7,

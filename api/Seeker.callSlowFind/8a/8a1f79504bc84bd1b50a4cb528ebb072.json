@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "closed fist of a teacher",
-    "elapsed": 0.556,
     "method": "phrase",
     "resultPattern": "\\bclosed fist of a teacher",
     "segsMatched": 2,

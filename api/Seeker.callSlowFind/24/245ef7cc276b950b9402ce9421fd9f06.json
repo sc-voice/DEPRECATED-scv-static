@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "kommt zuerst die versenkung",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\bkommt zuerst die versenkung",
     "segsMatched": 2,

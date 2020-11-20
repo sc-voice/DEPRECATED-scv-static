@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "when the six sense fields fade",
-    "elapsed": 0.073,
     "method": "phrase",
     "resultPattern": "\\bwhen the six sense fields fade",
     "segsMatched": 2,

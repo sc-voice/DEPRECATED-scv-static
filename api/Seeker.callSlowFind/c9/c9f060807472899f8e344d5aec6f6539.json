@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "after giving he regretted it",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bafter giving he regretted it",
     "segsMatched": 1,

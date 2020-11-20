@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wrapped from head to foot",
-    "elapsed": 0.558,
     "method": "phrase",
     "resultPattern": "\\bwrapped from head to foot",
     "segsMatched": 6,

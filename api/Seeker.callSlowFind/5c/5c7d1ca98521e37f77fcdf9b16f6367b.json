@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "auge der weisheit",
-    "elapsed": 0.395,
     "method": "phrase",
     "resultPattern": "\\bauge der weisheit",
     "segsMatched": 2,

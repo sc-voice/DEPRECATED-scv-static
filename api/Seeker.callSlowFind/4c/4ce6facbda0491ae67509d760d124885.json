@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "brach in tränen aus",
-    "elapsed": 0.12,
     "method": "phrase",
     "resultPattern": "\\bbrach in tränen aus",
     "segsMatched": 1,

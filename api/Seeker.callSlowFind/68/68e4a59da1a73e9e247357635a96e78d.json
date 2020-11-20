@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "speak the truth",
-    "elapsed": 0.817,
     "method": "phrase",
     "resultPattern": "\\bspeak the truth",
     "segsMatched": 18,

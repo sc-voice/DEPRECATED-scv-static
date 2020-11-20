@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "but not themselves",
-    "elapsed": 0.4,
     "method": "phrase",
     "resultPattern": "\\bbut not themselves",
     "segsMatched": 26,

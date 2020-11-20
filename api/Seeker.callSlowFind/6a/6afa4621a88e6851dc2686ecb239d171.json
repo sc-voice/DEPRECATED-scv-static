@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "to go beyond suffering",
-    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bto go beyond suffering",
     "segsMatched": 1,

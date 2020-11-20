@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "know for yourselves",
-    "elapsed": 0.061,
     "method": "phrase",
     "resultPattern": "\\bknow for yourselves",
     "segsMatched": 12,

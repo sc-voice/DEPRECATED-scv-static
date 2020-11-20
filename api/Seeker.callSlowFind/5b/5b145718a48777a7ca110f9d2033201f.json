@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "metteyya",
-    "elapsed": 0.068,
     "method": "phrase",
     "resultPattern": "\\b(m|ṁ|ṃ)e(t|ṭ)(t|ṭ)eyy(a|ā)",
     "segsMatched": 0,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "such is form",
-    "elapsed": 1.217,
     "method": "phrase",
     "resultPattern": "\\bsuch is form",
     "segsMatched": 23,

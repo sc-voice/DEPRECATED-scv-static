@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "solcherart ist form",
-    "elapsed": 0.758,
     "method": "phrase",
     "resultPattern": "\\bsolcherart ist form",
     "segsMatched": 9,

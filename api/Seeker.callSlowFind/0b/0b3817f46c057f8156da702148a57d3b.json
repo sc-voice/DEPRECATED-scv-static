@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eight worldly conditions",
-    "elapsed": 0.672,
     "method": "phrase",
     "resultPattern": "\\beight worldly conditions",
     "segsMatched": 9,

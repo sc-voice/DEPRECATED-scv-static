@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nahrung für unwissenheit",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bnahrung für unwissenheit",
     "segsMatched": 3,

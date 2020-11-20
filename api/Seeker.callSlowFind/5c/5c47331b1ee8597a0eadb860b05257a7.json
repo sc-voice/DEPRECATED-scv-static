@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "faith and love",
-    "elapsed": 0.287,
     "method": "phrase",
     "resultPattern": "\\bfaith and love",
     "segsMatched": 16,

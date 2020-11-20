@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "meditation did he not praise",
-    "elapsed": 0.043,
     "method": "phrase",
     "resultPattern": "\\bmeditation did he not praise",
     "segsMatched": 2,

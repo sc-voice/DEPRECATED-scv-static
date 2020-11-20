@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "power over those choices",
-    "elapsed": 0.077,
     "method": "phrase",
     "resultPattern": "\\bpower over those choices",
     "segsMatched": 1,

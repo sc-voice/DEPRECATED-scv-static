@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "abnehmend",
-    "elapsed": 0.048,
     "method": "phrase",
     "resultPattern": "\\babnehmend",
     "segsMatched": 4,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ending of craving is extinguishment",
-    "elapsed": 0.007,
     "method": "phrase",
     "resultPattern": "\\bending of craving is extinguishment",
     "segsMatched": 1,

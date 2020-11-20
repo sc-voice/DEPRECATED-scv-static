@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "moderation in eating",
-    "elapsed": 0.747,
     "method": "phrase",
     "resultPattern": "\\bmoderation in eating",
     "segsMatched": 7,

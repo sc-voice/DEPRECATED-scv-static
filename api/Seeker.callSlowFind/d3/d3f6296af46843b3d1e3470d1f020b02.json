@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sowohl öffentlich als insgeheim",
-    "elapsed": 0.429,
     "method": "phrase",
     "resultPattern": "\\bsowohl öffentlich als insgeheim",
     "segsMatched": 20,

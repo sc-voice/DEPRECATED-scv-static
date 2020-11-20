@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "disciples don’t want to listen",
-    "elapsed": 0.128,
     "method": "phrase",
     "resultPattern": "\\bdisciples don’t want to listen",
     "segsMatched": 9,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "who’s speaking this verse",
-    "elapsed": 0.058,
     "method": "phrase",
     "resultPattern": "\\bwho’s speaking this verse",
     "segsMatched": 7,

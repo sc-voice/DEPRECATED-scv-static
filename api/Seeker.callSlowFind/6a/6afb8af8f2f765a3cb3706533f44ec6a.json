@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a person traveling along the road",
-    "elapsed": 0.339,
     "method": "phrase",
     "resultPattern": "\\ba person traveling along the road",
     "segsMatched": 5,

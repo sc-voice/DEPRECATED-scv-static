@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "householders of the city",
-    "elapsed": 0.041,
     "method": "phrase",
     "resultPattern": "\\bhouseholders of the city",
     "segsMatched": 4,

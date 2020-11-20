@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "being full of joy",
-    "elapsed": 0.657,
     "method": "phrase",
     "resultPattern": "\\bbeing full of joy",
     "segsMatched": 15,

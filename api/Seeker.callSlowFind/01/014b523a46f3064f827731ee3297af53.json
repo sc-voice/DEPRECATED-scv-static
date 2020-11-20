@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "cause of good deeds",
-    "elapsed": 0.005,
     "method": "phrase",
     "resultPattern": "\\bcause of good deeds",
     "segsMatched": 4,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "jemand anderen vom geben abhält",
-    "elapsed": 0.018,
     "method": "phrase",
     "resultPattern": "\\bjemand anderen vom geben abhält",
     "segsMatched": 2,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die nonne kennt mich",
-    "elapsed": 1.03,
     "method": "keywords",
     "resultPattern": "\\bdie|\\bnonne|\\bkennt|\\bmich",
     "segsMatched": 10,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "schwer zu finden",
-    "elapsed": 0.067,
     "method": "phrase",
     "resultPattern": "\\bschwer zu finden",
     "segsMatched": 11,

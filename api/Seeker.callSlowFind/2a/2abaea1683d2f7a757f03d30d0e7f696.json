@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "someone with confident heart goes for refuge",
-    "elapsed": 0.118,
     "method": "phrase",
     "resultPattern": "\\bsomeone with confident heart goes for refuge",
     "segsMatched": 1,

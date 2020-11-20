@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "maß essen",
-    "elapsed": 0.829,
     "method": "keywords",
     "resultPattern": "\\bmaß|\\bessen",
     "segsMatched": 23,

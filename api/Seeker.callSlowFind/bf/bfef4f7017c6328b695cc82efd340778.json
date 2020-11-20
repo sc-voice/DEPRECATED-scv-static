@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "any kind of pot that they like",
-    "elapsed": 0.294,
     "method": "phrase",
     "resultPattern": "\\bany kind of pot that they like",
     "segsMatched": 3,

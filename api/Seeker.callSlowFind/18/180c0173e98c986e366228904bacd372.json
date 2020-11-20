@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "convergence",
-    "elapsed": 0.176,
     "method": "phrase",
     "resultPattern": "\\bconvergence",
     "segsMatched": 16,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "acht weltliche.* bedingungen",
-    "elapsed": 0.504,
     "method": "phrase",
     "resultPattern": "\\bacht weltliche.* bedingungen",
     "segsMatched": 3,

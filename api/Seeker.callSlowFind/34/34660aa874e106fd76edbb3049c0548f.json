@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "schüler.* wollen nicht zuhören",
-    "elapsed": 0.138,
     "method": "phrase",
     "resultPattern": "\\bschüler.* wollen nicht zuhören",
     "segsMatched": 3,

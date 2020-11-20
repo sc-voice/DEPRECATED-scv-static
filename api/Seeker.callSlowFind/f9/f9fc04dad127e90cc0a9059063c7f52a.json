@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "schwer einatmet, weiß",
-    "elapsed": 0.07,
     "method": "phrase",
     "resultPattern": "\\bschwer einatmet, weiß",
     "segsMatched": 3,

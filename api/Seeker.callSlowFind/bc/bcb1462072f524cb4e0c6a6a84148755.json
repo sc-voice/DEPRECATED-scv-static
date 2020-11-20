@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "entscheidungen als",
-    "elapsed": 0.027,
     "method": "phrase",
     "resultPattern": "\\bentscheidungen als",
     "segsMatched": 4,

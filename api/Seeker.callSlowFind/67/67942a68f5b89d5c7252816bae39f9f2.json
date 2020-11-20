@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nicht zwei auf einer straße",
-    "elapsed": 0.252,
     "method": "phrase",
     "resultPattern": "\\bnicht zwei auf einer straße",
     "segsMatched": 2,

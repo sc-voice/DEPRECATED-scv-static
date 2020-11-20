@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gut befreit",
-    "elapsed": 0.367,
     "method": "phrase",
     "resultPattern": "\\bgut befreit",
     "segsMatched": 12,

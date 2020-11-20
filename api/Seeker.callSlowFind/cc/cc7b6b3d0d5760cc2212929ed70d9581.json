@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die tore zur unsterblichkeit",
-    "elapsed": 0.331,
     "method": "phrase",
     "resultPattern": "\\bdie tore zur unsterblichkeit",
     "segsMatched": 4,

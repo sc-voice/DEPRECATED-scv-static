@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gains wisdom by wanting",
-    "elapsed": 0.036,
     "method": "phrase",
     "resultPattern": "\\bgains wisdom by wanting",
     "segsMatched": 1,

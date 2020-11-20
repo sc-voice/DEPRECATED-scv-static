@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "if i were to sorrow and pine",
-    "elapsed": 0.046,
     "method": "phrase",
     "resultPattern": "\\bif i were to sorrow and pine",
     "segsMatched": 8,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "see the mussel shells",
-    "elapsed": 0.344,
     "method": "phrase",
     "resultPattern": "\\bsee the mussel shells",
     "segsMatched": 6,

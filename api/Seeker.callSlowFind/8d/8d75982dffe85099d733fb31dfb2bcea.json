@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "neigung zur einbildung",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bneigung zur einbildung",
     "segsMatched": 8,

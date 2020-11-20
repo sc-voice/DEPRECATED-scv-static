@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gewissenhaft und gütig",
-    "elapsed": 0.143,
     "method": "phrase",
     "resultPattern": "\\bgewissenhaft und gütig",
     "segsMatched": 4,

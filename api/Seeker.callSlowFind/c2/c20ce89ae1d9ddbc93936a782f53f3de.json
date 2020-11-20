@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a beryl gem that was naturally beautiful",
-    "elapsed": 0.766,
     "method": "phrase",
     "resultPattern": "\\ba beryl gem that was naturally beautiful",
     "segsMatched": 10,

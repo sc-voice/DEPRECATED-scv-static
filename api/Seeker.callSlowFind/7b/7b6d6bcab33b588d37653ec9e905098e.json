@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "happiness or sadness or equanimity",
-    "elapsed": 0.113,
     "method": "phrase",
     "resultPattern": "\\bhappiness or sadness or equanimity",
     "segsMatched": 6,

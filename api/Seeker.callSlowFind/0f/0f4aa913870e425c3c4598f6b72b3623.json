@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "something left over",
-    "elapsed": 0.27,
     "method": "phrase",
     "resultPattern": "\\bsomething left over",
     "segsMatched": 23,

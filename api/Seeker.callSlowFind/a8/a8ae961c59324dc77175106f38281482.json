@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "drei vorführungen",
-    "elapsed": 0.546,
     "method": "phrase",
     "resultPattern": "\\bdrei vorführungen",
     "segsMatched": 8,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "arbeit genießt",
-    "elapsed": 0.041,
     "method": "keywords",
     "resultPattern": "\\barbeit|\\bgenießt",
     "segsMatched": 14,

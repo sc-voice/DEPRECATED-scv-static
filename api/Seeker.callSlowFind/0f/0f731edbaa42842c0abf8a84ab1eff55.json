@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "worth learning and memorizing",
-    "elapsed": 0.067,
     "method": "phrase",
     "resultPattern": "\\bworth learning and memorizing",
     "segsMatched": 9,

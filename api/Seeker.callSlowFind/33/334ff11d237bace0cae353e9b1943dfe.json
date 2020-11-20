@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "heed attention wholeheartedly",
-    "elapsed": 0.225,
     "method": "keywords",
     "resultPattern": "\\bheed|\\battention|\\bwholeheartedly",
     "segsMatched": 21,

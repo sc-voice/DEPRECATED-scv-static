@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "fähigkeit zur weisheit",
-    "elapsed": 0.065,
     "method": "phrase",
     "resultPattern": "\\bfähigkeit zur weisheit",
     "segsMatched": 5,

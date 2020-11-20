@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "cause you sorrow",
-    "elapsed": 0.011,
     "method": "phrase",
     "resultPattern": "\\bcause you sorrow",
     "segsMatched": 5,

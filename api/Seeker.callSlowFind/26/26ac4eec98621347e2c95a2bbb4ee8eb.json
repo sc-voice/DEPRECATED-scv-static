@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "knowledge and vision externally",
-    "elapsed": 1.273,
     "method": "keywords",
     "resultPattern": "\\bknowledge|\\band|\\bvision|\\bexternally",
     "segsMatched": 4,

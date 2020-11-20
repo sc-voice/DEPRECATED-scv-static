@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "pursue other material possessions",
-    "elapsed": 0.412,
     "method": "phrase",
     "resultPattern": "\\bpursue other material possessions",
     "segsMatched": 6,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zu hören und sich einzuprägen",
-    "elapsed": 0.057,
     "method": "phrase",
     "resultPattern": "\\bzu hören und sich einzuprägen",
     "segsMatched": 6,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "without learning",
-    "elapsed": 0.005,
     "method": "phrase",
     "resultPattern": "\\bwithout learning",
     "segsMatched": 1,

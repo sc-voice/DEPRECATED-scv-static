@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "voller freude über die lehre",
-    "elapsed": 0.433,
     "method": "phrase",
     "resultPattern": "\\bvoller freude über die lehre",
     "segsMatched": 1,

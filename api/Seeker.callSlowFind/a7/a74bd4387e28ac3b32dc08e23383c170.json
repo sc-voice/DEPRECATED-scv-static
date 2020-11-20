@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ein tiefer see, der von einer quelle gespeist",
-    "elapsed": 0.079,
     "method": "phrase",
     "resultPattern": "\\bein tiefer see, der von einer quelle gespeist",
     "segsMatched": 2,

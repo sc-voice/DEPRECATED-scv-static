@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gibt reste",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bgibt reste",
     "segsMatched": 2,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "herausragende leidenschaft",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bherausragende leidenschaft",
     "segsMatched": 9,

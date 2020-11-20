@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "slain by conceit",
-    "elapsed": 0.113,
     "method": "phrase",
     "resultPattern": "\\bslain by conceit",
     "segsMatched": 4,

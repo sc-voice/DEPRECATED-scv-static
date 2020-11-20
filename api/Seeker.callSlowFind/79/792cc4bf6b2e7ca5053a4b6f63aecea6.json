@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "truly understands: ‘this is suffering’",
-    "elapsed": 0.338,
     "method": "phrase",
     "resultPattern": "\\btruly understands: ‘this is suffering’",
     "segsMatched": 21,

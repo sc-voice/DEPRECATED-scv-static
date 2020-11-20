@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "bei tag und nacht, bei nacht und tag",
-    "elapsed": 0.388,
     "method": "phrase",
     "resultPattern": "\\bbei tag und nacht, bei nacht und tag",
     "segsMatched": 3,

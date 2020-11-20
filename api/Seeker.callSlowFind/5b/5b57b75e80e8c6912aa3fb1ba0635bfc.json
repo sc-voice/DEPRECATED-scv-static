@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dieser körper hat dieselbe natur",
-    "elapsed": 0.091,
     "method": "phrase",
     "resultPattern": "\\bdieser körper hat dieselbe natur",
     "segsMatched": 6,

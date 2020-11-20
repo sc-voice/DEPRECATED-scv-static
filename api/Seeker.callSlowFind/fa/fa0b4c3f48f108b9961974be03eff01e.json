@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "über das leiden hinaus",
-    "elapsed": 0.294,
     "method": "phrase",
     "resultPattern": "\\büber das leiden hinaus",
     "segsMatched": 3,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "grenzenlose versenkung des herzens",
-    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bgrenzenlose versenkung des herzens",
     "segsMatched": 5,

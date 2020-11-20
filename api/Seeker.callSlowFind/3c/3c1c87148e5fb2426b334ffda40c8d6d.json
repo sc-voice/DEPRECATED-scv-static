@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hurtful and pleasing choices",
-    "elapsed": 0.069,
     "method": "phrase",
     "resultPattern": "\\bhurtful and pleasing choices",
     "segsMatched": 11,

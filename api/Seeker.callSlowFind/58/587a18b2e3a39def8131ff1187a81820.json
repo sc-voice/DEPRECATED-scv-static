@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "establish in",
-    "elapsed": 0.011,
     "method": "phrase",
     "resultPattern": "\\bestablish in",
     "segsMatched": 6,

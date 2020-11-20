@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "cultivation of immersion",
-    "elapsed": 0.02,
     "method": "phrase",
     "resultPattern": "\\bcultivation of immersion",
     "segsMatched": 4,

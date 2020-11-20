@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "when this exists, that is",
-    "elapsed": 0.356,
     "method": "phrase",
     "resultPattern": "\\bwhen this exists, that is",
     "segsMatched": 14,

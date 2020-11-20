@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "developing immersion further",
-    "elapsed": 0.367,
     "method": "phrase",
     "resultPattern": "\\bdeveloping immersion further",
     "segsMatched": 28,

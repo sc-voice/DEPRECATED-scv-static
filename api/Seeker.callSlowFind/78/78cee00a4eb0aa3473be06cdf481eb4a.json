@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the eye is impermanent",
-    "elapsed": 0.047,
     "method": "phrase",
     "resultPattern": "\\bthe eye is impermanent",
     "segsMatched": 10,

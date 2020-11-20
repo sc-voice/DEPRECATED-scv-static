@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "let not two go",
-    "elapsed": 0.318,
     "method": "phrase",
     "resultPattern": "\\blet not two go",
     "segsMatched": 3,

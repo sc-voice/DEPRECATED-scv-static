@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "isst, was nicht zu tadeln ist",
-    "elapsed": 0.042,
     "method": "phrase",
     "resultPattern": "\\bisst, was nicht zu tadeln ist",
     "segsMatched": 2,

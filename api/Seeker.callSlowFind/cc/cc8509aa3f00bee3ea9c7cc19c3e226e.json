@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a deep lake fed by spring water",
-    "elapsed": 0.396,
     "method": "phrase",
     "resultPattern": "\\ba deep lake fed by spring water",
     "segsMatched": 6,

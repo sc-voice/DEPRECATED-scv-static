@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "pools fill up the lakes",
-    "elapsed": 0.081,
     "method": "phrase",
     "resultPattern": "\\bpools fill up the lakes",
     "segsMatched": 8,

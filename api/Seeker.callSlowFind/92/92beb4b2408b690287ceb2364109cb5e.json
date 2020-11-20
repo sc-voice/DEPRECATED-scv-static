@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zu zieren und auszurüsten",
-    "elapsed": 0.41,
     "method": "phrase",
     "resultPattern": "\\bzu zieren und auszurüsten",
     "segsMatched": 1,

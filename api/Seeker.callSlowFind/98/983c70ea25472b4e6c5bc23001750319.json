@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "stuck in the middle",
-    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bstuck in the middle",
     "segsMatched": 2,

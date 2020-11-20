@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "with suffering as outcome",
-    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bwith suffering as outcome",
     "segsMatched": 2,

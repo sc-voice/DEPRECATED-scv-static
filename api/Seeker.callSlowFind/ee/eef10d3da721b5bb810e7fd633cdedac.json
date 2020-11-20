@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "develop immersion in three ways",
-    "elapsed": 0.067,
     "method": "phrase",
     "resultPattern": "\\bdevelop immersion in three ways",
     "segsMatched": 1,

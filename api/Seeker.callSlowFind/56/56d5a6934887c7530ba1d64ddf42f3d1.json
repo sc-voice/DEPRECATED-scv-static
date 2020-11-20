@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in seinem herzen liebe",
-    "elapsed": 0.063,
     "method": "phrase",
     "resultPattern": "\\bin seinem herzen liebe",
     "segsMatched": 2,

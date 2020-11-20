@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wood",
-    "elapsed": 3.724,
     "method": "phrase",
     "resultPattern": "\\bwood",
     "segsMatched": 306,

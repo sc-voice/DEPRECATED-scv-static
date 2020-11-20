@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "joy and bliss",
-    "elapsed": 0,
     "method": "phrase",
     "resultPattern": "\\bjoy and bliss",
     "segsMatched": 0,

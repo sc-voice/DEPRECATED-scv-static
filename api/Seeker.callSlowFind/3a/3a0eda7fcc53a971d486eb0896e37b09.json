@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "power of wisdom",
-    "elapsed": 0.133,
     "method": "phrase",
     "resultPattern": "\\bpower of wisdom",
     "segsMatched": 33,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "achtsamkeit auf den tod",
-    "elapsed": 0.031,
     "method": "phrase",
     "resultPattern": "\\bachtsamkeit auf den tod",
     "segsMatched": 31,

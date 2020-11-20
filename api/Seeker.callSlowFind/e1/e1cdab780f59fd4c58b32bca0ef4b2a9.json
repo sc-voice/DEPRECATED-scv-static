@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "killing you approve",
-    "elapsed": 0.038,
     "method": "phrase",
     "resultPattern": "\\bkilling you approve",
     "segsMatched": 4,

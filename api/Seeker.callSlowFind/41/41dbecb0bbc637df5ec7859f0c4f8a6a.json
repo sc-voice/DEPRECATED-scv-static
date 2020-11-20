@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "cause a schism",
-    "elapsed": 0.053,
     "method": "phrase",
     "resultPattern": "\\bcause a schism",
     "segsMatched": 8,

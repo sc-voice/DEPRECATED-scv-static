@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erlöschen durch nicht-ergreifen",
-    "elapsed": 0.017,
     "method": "phrase",
     "resultPattern": "\\berlöschen durch nicht-ergreifen",
     "segsMatched": 2,

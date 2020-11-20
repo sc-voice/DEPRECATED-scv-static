@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "love in their heart",
-    "elapsed": 0.045,
     "method": "phrase",
     "resultPattern": "\\blove in their heart",
     "segsMatched": 2,

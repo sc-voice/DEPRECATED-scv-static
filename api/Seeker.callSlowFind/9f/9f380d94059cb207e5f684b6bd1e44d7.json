@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the buddha kept silent",
-    "elapsed": 0.187,
     "method": "phrase",
     "resultPattern": "\\bthe buddha kept silent",
     "segsMatched": 7,

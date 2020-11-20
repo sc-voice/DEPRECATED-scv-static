@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nicht möglich zu erkennen oder zu sehen",
-    "elapsed": 0.587,
     "method": "keywords",
     "resultPattern": "\\bnicht|\\bmöglich|\\bzu|\\berkennen|\\boder|\\bzu|\\bsehen",
     "segsMatched": 2,

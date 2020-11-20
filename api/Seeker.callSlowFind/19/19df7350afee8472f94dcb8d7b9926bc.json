@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "an beiden enden",
-    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\ban beiden enden",
     "segsMatched": 1,

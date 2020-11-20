@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "if they abuse",
-    "elapsed": 0.046,
     "method": "phrase",
     "resultPattern": "\\bif they abuse",
     "segsMatched": 4,

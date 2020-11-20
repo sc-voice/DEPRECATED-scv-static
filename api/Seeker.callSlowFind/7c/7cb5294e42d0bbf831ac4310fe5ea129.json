@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "from the soles of the feet",
-    "elapsed": 0.286,
     "method": "phrase",
     "resultPattern": "\\bfrom the soles of the feet",
     "segsMatched": 10,

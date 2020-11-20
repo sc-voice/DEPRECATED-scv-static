@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "jemand, der alt werden muss",
-    "elapsed": 0.046,
     "method": "phrase",
     "resultPattern": "\\bjemand, der alt werden muss",
     "segsMatched": 14,

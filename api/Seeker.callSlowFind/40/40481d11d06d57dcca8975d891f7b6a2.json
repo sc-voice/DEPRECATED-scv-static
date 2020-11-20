@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "four searches",
-    "elapsed": 0.692,
     "method": "keywords",
     "resultPattern": "\\bfour|\\bsearches",
     "segsMatched": 6,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "when faith vanishes",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bwhen faith vanishes",
     "segsMatched": 1,

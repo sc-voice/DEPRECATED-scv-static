@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "möglich zu entwickeln",
-    "elapsed": 0.539,
     "method": "keywords",
     "resultPattern": "\\bmöglich|\\bzu|\\bentwickeln",
     "segsMatched": 1,

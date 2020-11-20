@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erkläre mir das leiden",
-    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\berkläre mir das leiden",
     "segsMatched": 1,

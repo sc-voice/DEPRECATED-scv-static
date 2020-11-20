@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "griffe ihn an den haaren",
-    "elapsed": 0.043,
     "method": "phrase",
     "resultPattern": "\\bgriffe ihn an den haaren",
     "segsMatched": 1,

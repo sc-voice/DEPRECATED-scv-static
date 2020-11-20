@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "enjoying the eye",
-    "elapsed": 0.017,
     "method": "phrase",
     "resultPattern": "\\benjoying the eye",
     "segsMatched": 3,

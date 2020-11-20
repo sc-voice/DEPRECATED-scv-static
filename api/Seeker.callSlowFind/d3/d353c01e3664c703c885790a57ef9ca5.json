@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "internal joy",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\binternal joy",
     "segsMatched": 1,

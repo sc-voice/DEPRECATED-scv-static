@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "lernt die hymnen",
-    "elapsed": 0.036,
     "method": "phrase",
     "resultPattern": "\\blernt die hymnen",
     "segsMatched": 2,

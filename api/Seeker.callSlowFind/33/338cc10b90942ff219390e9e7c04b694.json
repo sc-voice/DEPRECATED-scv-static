@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mangel an vertrauen",
-    "elapsed": 0.023,
     "method": "phrase",
     "resultPattern": "\\bmangel an vertrauen",
     "segsMatched": 5,

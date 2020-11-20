@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "suffering is dependently originated",
-    "elapsed": 0.027,
     "method": "phrase",
     "resultPattern": "\\bsuffering is dependently originated",
     "segsMatched": 3,

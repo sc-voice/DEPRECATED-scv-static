@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "adornment and requisite",
-    "elapsed": 0.39,
     "method": "phrase",
     "resultPattern": "\\badornment and requisite",
     "segsMatched": 5,

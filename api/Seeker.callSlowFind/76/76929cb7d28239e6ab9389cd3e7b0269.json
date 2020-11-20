@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "causes of happiness",
-    "elapsed": 1.106,
     "method": "keywords",
     "resultPattern": "\\bcauses|\\bof|\\bhappiness",
     "segsMatched": 0,

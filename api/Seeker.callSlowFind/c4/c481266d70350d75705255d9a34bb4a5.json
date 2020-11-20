@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unconditioned",
-    "elapsed": 0.394,
     "method": "phrase",
     "resultPattern": "\\bunconditioned",
     "segsMatched": 50,

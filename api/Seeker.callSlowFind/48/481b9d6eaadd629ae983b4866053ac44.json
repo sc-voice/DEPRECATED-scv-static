@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "someone liable to old age",
-    "elapsed": 0.052,
     "method": "phrase",
     "resultPattern": "\\bsomeone liable to old age",
     "segsMatched": 19,

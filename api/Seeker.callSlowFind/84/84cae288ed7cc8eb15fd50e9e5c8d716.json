@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dinge bei sich selbst",
-    "elapsed": 0.395,
     "method": "phrase",
     "resultPattern": "\\bdinge bei sich selbst",
     "segsMatched": 4,

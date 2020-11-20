@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wesentliche bedingungen",
-    "elapsed": 0.022,
     "method": "phrase",
     "resultPattern": "\\bwesentliche bedingungen",
     "segsMatched": 3,

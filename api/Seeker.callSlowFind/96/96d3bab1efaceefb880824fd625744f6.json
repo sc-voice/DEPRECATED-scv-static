@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "internal things",
-    "elapsed": 0.017,
     "method": "phrase",
     "resultPattern": "\\binternal things",
     "segsMatched": 4,

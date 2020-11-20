@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "what is right",
-    "elapsed": 0.218,
     "method": "phrase",
     "resultPattern": "\\bwhat is right",
     "segsMatched": 44,

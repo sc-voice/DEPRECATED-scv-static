@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "verlangen wird aufgegeben",
-    "elapsed": 0.489,
     "method": "keywords",
     "resultPattern": "\\bverlangen|\\bwird|\\baufgegeben",
     "segsMatched": 1,

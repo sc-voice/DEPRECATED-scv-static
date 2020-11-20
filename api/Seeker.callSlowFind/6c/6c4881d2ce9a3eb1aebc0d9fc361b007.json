@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "farmer",
-    "elapsed": 1.03,
     "method": "phrase",
     "resultPattern": "\\bfarmer",
     "segsMatched": 42,

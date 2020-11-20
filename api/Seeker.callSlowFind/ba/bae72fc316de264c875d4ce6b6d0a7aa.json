@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "middle way of practice",
-    "elapsed": 0.147,
     "method": "phrase",
     "resultPattern": "\\bmiddle way of practice",
     "segsMatched": 16,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gewinn und verlust",
-    "elapsed": 0.444,
     "method": "phrase",
     "resultPattern": "\\bgewinn und verlust",
     "segsMatched": 3,

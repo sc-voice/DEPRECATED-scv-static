@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wild colt",
-    "elapsed": 0.115,
     "method": "phrase",
     "resultPattern": "\\bwild colt",
     "segsMatched": 49,

@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "blau seerosen",
-    "elapsed": 0.454,
     "method": "keywords",
     "resultPattern": "\\bblau|\\bseerosen",
     "segsMatched": 6,

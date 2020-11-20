@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wirklichkeitsgemäß.* erkennen und sehen",
-    "elapsed": 0.121,
     "method": "phrase",
     "resultPattern": "\\bwirklichkeitsgemäß.* erkennen und sehen",
     "segsMatched": 16,

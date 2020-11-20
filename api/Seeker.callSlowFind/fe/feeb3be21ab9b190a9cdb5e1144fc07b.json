@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "give the best",
-    "elapsed": 3.176,
     "method": "keywords",
     "resultPattern": "\\bgive|\\bthe|\\bbest",
     "segsMatched": 11,

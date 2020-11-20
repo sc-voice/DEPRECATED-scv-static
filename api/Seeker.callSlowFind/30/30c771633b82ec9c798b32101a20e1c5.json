@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "giving up craving",
-    "elapsed": 0.089,
     "method": "phrase",
     "resultPattern": "\\bgiving up craving",
     "segsMatched": 7,

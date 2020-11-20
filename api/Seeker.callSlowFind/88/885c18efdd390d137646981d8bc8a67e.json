@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "disappearance of the true teaching",
-    "elapsed": 0.102,
     "method": "phrase",
     "resultPattern": "\\bdisappearance of the true teaching",
     "segsMatched": 26,

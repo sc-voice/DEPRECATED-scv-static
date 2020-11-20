@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the known",
-    "elapsed": 0.161,
     "method": "phrase",
     "resultPattern": "\\bthe known",
     "segsMatched": 17,

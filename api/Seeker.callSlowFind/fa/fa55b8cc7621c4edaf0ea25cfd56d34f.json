@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die ethik eines menschen",
-    "elapsed": 0.025,
     "method": "phrase",
     "resultPattern": "\\bdie ethik eines menschen",
     "segsMatched": 3,

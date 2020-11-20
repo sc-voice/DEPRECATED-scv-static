@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "als unbeständig erkennt",
-    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\bals unbeständig erkennt",
     "segsMatched": 1,

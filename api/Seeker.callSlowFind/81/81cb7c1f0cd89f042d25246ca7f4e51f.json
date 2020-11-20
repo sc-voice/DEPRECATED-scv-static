@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in public and in private",
-    "elapsed": 1.416,
     "method": "phrase",
     "resultPattern": "\\bin public and in private",
     "segsMatched": 33,

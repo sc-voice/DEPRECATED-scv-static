@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the outcomes of faith",
-    "elapsed": 0.023,
     "method": "phrase",
     "resultPattern": "\\bthe outcomes of faith",
     "segsMatched": 5,

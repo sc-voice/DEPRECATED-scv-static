@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gibt es das erdelement",
-    "elapsed": 0.046,
     "method": "phrase",
     "resultPattern": "\\bgibt es das erdelement",
     "segsMatched": 1,

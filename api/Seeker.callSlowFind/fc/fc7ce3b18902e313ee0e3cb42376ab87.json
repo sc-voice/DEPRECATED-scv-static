@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ich bin in die strömung der lehre",
-    "elapsed": 0.461,
     "method": "keywords",
     "resultPattern": "\\bich|\\bbin|\\bin|\\bdie|\\bströmung|\\bder|\\blehre",
     "segsMatched": 0,

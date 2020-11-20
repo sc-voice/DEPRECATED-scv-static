@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "explain suffering to me",
-    "elapsed": 0.02,
     "method": "phrase",
     "resultPattern": "\\bexplain suffering to me",
     "segsMatched": 1,

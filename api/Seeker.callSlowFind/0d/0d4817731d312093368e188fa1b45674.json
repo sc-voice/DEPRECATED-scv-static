@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eye contact brings happiness",
-    "elapsed": 0.03,
     "method": "phrase",
     "resultPattern": "\\beye contact brings happiness",
     "segsMatched": 1,

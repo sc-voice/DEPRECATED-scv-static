@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "secret and public",
-    "elapsed": 0.574,
     "method": "phrase",
     "resultPattern": "\\bsecret and public",
     "segsMatched": 2,

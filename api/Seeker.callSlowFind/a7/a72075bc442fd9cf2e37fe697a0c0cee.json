@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die sorgen vieler zerstört",
-    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bdie sorgen vieler zerstört",
     "segsMatched": 1,

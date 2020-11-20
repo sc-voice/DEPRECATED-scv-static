@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the foundation of",
-    "elapsed": 0.511,
     "method": "phrase",
     "resultPattern": "\\bthe foundation of",
     "segsMatched": 16,

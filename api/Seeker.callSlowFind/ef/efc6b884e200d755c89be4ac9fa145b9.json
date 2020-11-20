@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "geheimen und öffentlichen",
-    "elapsed": 0.02,
     "method": "phrase",
     "resultPattern": "\\bgeheimen und öffentlichen",
     "segsMatched": 1,

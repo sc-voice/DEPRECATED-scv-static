@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "against the stream",
-    "elapsed": 0.482,
     "method": "phrase",
     "resultPattern": "\\bagainst the stream",
     "segsMatched": 8,

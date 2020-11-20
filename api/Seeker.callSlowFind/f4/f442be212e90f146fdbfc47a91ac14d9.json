@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hat aufgehört",
-    "elapsed": 0.565,
     "method": "keywords",
     "resultPattern": "\\bhat|\\baufgehört",
     "segsMatched": 9,

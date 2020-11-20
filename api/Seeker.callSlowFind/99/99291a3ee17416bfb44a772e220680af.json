@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "earth, water, fire, and air",
-    "elapsed": 0.454,
     "method": "phrase",
     "resultPattern": "\\bearth, water, fire, and air",
     "segsMatched": 17,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "to kill",
-    "elapsed": 0.548,
     "method": "phrase",
     "resultPattern": "\\bto kill",
     "segsMatched": 21,

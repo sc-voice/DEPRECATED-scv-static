@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "practicing like this",
-    "elapsed": 0.084,
     "method": "phrase",
     "resultPattern": "\\bpracticing like this",
     "segsMatched": 17,

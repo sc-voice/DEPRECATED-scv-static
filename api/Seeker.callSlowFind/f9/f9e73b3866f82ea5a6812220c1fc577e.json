@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hoffentlich kommt es so",
-    "elapsed": 0.038,
     "method": "phrase",
     "resultPattern": "\\bhoffentlich kommt es so",
     "segsMatched": 1,

@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "do you have faith",
-    "elapsed": 0.576,
     "method": "phrase",
     "resultPattern": "\\bdo you have faith",
     "segsMatched": 4,

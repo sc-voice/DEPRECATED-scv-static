@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "leiden vieler menschen",
-    "elapsed": 0.071,
     "method": "phrase",
     "resultPattern": "\\bleiden vieler menschen",
     "segsMatched": 8,

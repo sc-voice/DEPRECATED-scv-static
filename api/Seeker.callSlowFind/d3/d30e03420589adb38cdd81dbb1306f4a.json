@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "possible to realize",
-    "elapsed": 0.044,
     "method": "phrase",
     "resultPattern": "\\bpossible to realize",
     "segsMatched": 3,

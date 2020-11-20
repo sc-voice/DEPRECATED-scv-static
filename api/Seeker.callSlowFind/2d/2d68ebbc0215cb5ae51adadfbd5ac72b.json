@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mit ganzem herzen dabei",
-    "elapsed": 0.039,
     "method": "phrase",
     "resultPattern": "\\bmit ganzem herzen dabei",
     "segsMatched": 4,

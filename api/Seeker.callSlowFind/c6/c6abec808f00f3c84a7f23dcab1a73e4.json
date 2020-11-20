@@ -30,7 +30,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "merkmalslos",
-    "elapsed": 0.542,
     "method": "phrase",
     "resultPattern": "\\bmerkmalslos",
     "segsMatched": 7,

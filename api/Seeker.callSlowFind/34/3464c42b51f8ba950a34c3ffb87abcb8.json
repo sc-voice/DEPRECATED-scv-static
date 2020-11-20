@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "devadatta",
-    "elapsed": 0.171,
     "method": "phrase",
     "resultPattern": "\\bdevadatta",
     "segsMatched": 49,

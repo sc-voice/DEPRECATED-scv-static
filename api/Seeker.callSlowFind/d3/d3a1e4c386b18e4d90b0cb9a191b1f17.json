@@ -29,7 +29,6 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "observing the impermanence of all",
-    "elapsed": 0.065,
     "method": "phrase",
     "resultPattern": "\\bobserving the impermanence of all",
     "segsMatched": 4,
