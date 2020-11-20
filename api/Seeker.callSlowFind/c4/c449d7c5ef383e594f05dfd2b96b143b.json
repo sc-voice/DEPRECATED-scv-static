@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "may i feel joy",
+    "elapsed": 0.027,
     "method": "phrase",
     "resultPattern": "\\bmay i feel joy",
     "segsMatched": 2,

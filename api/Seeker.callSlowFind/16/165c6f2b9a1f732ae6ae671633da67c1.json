@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "head on fire",
+    "elapsed": 3.138,
     "method": "keywords",
     "resultPattern": "\\bhead|\\bo(n|ṅ|ñ|ṇ)|\\bfire",
     "segsMatched": 25,

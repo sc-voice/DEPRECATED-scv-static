@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "giant",
+    "elapsed": 0.34,
     "method": "phrase",
     "resultPattern": "\\bgiant",
     "segsMatched": 47,

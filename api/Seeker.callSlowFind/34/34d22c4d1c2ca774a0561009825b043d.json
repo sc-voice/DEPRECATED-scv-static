@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "not possible to know",
+    "elapsed": 0.089,
     "method": "phrase",
     "resultPattern": "\\bnot possible to know",
     "segsMatched": 10,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "truly knowing and seeing",
+    "elapsed": 0.059,
     "method": "phrase",
     "resultPattern": "\\btruly knowing and seeing",
     "segsMatched": 19,

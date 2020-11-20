@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "there is the earth element",
+    "elapsed": 0.184,
     "method": "phrase",
     "resultPattern": "\\bthere is the earth element",
     "segsMatched": 4,

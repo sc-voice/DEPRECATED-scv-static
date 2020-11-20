@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the eye faculty unrestrained",
+    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bthe eye faculty unrestrained",
     "segsMatched": 1,

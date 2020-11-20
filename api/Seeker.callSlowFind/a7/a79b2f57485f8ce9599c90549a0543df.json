@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wherever it flies",
+    "elapsed": 0.964,
     "method": "phrase",
     "resultPattern": "\\bwherever it flies",
     "segsMatched": 10,

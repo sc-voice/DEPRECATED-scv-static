@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "this body is also of that same nature",
+    "elapsed": 0.197,
     "method": "phrase",
     "resultPattern": "\\bthis body is also of that same nature",
     "segsMatched": 12,

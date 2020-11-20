@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "more peaceful",
+    "elapsed": 0.096,
     "method": "phrase",
     "resultPattern": "\\bmore peaceful",
     "segsMatched": 8,

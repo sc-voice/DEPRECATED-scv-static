@@ -30,9 +30,10 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ein gerechter und grundsatztreuer könig",
+    "elapsed": 0.363,
     "method": "phrase",
     "resultPattern": "\\bein gerechter und grundsatztreuer könig",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
@@ -42,12 +43,16 @@
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.14_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.133/de/sabbamitta",
       "dn14/de/sabbamitta",
-      "an3.14/de/sabbamitta"
+      "an3.14/de/sabbamitta",
+      "dn17/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -169,6 +174,37 @@
           "pli": 851,
           "de": 689,
           "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn17",
+        "lang": "de",
+        "segMap": {
+          "dn17:2.17.1": {
+            "scid": "dn17:2.17.1",
+            "pli": "Chakkhattuṁ kho panāhaṁ, ānanda, abhijānāmi imasmiṁ padese sarīraṁ nikkhipitaṁ, tañca kho rājāva samāno cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato, ayaṁ sattamo sarīranikkhepo. ",
+            "de": "Ānanda, ich erinnere mich, dass ich sechsmal an dieser Stelle meinen Körper niedergelegt habe. Und beim siebten Mal geschah es als ein Rad-drehender Herrscher, \u001b[38;5;121mein gerechter und grundsatztreuer König\u001b[0m, dessen Herrschaftsgebiet sich nach allen vier Seiten bis zum Ende erstreckte, der das Land sicher machte und die sieben Juwelen besaß. ",
+            "en": "Six times, Ānanda, I recall having laid down my body at this place. And the seventh time was as a wheel-turning monarch, a just and principled king, at which time my dominion extended to all four sides, I achieved stability in the country, and I possessed the seven treasures. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 444,
+          "de": 359,
+          "en": 443
         }
       }
     ]

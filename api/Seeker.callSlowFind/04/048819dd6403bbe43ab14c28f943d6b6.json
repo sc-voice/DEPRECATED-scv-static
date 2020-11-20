@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "possible to develop",
+    "elapsed": 0.048,
     "method": "phrase",
     "resultPattern": "\\bpossible to develop",
     "segsMatched": 1,

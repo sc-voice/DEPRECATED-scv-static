@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hard to see",
+    "elapsed": 0.76,
     "method": "phrase",
     "resultPattern": "\\bhard to see",
     "segsMatched": 38,

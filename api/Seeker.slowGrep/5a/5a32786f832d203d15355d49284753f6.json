@@ -1,0 +1,17 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bsomeone liable to grow old",
+      "maxResults": 1000,
+      "lang": "en",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/en/sujato/sutta/an/an4/an4.255_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/an/an4/an4.182_translation-en-sujato.json:1"
+  ]
+}

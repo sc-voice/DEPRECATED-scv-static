@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "householders of nagaravinda",
+    "elapsed": 0.012,
     "method": "phrase",
     "resultPattern": "\\bhouseholders of nagaravinda",
     "segsMatched": 3,

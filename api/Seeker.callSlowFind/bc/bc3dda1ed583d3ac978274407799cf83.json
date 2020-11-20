@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "correctly memorized",
+    "elapsed": 0.571,
     "method": "phrase",
     "resultPattern": "\\bcorrectly memorized",
     "segsMatched": 13,

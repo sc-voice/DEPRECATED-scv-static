@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "choices as self",
+    "elapsed": 0.123,
     "method": "phrase",
     "resultPattern": "\\bchoices as self",
     "segsMatched": 12,

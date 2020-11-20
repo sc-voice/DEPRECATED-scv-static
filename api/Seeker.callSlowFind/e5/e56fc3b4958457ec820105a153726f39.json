@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mittlere.* weg",
+    "elapsed": 0.109,
     "method": "phrase",
     "resultPattern": "\\bmittlere.* weg",
     "segsMatched": 3,

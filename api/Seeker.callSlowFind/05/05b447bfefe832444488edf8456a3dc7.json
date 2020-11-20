@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "knowing choices",
+    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\bknowing choices",
     "segsMatched": 3,

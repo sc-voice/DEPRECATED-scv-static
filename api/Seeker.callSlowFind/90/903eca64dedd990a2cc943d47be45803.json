@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "who has gotten into debt",
+    "elapsed": 0.277,
     "method": "phrase",
     "resultPattern": "\\bwho has gotten into debt",
     "segsMatched": 3,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "finest lady",
+    "elapsed": 0.25,
     "method": "phrase",
     "resultPattern": "\\bfinest lady",
     "segsMatched": 21,

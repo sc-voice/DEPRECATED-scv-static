@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "essen zur rechten zeit",
+    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bessen zur rechten zeit",
     "segsMatched": 2,

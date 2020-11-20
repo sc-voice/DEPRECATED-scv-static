@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wish of an ethical person",
+    "elapsed": 0.538,
     "method": "phrase",
     "resultPattern": "\\bwish of an ethical person",
     "segsMatched": 8,

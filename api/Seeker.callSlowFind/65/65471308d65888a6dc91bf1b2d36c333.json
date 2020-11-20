@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sorgfältig essen",
+    "elapsed": 0.02,
     "method": "phrase",
     "resultPattern": "\\bsorgfältig essen",
     "segsMatched": 2,

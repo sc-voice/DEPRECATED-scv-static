@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "breathing in heavily they know",
+    "elapsed": 0.582,
     "method": "phrase",
     "resultPattern": "\\bbreathing in heavily they know",
     "segsMatched": 12,

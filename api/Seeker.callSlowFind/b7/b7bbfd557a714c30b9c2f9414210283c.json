@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "edle rechte versenkung entwickel",
+    "elapsed": 0.573,
     "method": "keywords",
     "resultPattern": "\\bedle|\\brechte|\\bversenkung|\\bentwickel",
     "segsMatched": 11,
@@ -40,12 +41,21 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.28/de/sabbamitta"

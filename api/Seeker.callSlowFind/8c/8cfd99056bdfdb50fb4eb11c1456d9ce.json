@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "werden .* erhalten",
+    "elapsed": 0.48,
     "method": "phrase",
     "resultPattern": "\\bwerden .* erhalten",
     "segsMatched": 10,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "struck in the eye",
+    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\bstruck in the eye",
     "segsMatched": 1,

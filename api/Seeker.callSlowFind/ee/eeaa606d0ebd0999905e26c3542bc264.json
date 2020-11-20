@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "focus on the cause",
+    "elapsed": 1.103,
     "method": "keywords",
     "resultPattern": "\\bfocus|\\bo(n|ṅ|ñ|ṇ)|\\bthe|\\bcause",
     "segsMatched": 0,

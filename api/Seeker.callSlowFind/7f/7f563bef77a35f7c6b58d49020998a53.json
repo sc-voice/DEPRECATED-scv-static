@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "im leiden verstrickt",
+    "elapsed": 0.031,
     "method": "phrase",
     "resultPattern": "\\bim leiden verstrickt",
     "segsMatched": 4,

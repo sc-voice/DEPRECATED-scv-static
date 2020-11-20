@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "causes another to suffer",
+    "elapsed": 0.024,
     "method": "phrase",
     "resultPattern": "\\bcauses another to suffer",
     "segsMatched": 4,

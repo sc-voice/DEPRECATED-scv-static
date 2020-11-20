@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vertrauensvolle hausbesitzer",
+    "elapsed": 0.016,
     "method": "keywords",
     "resultPattern": "\\bvertrauensvolle|\\bhausbesitzer",
     "segsMatched": 1,

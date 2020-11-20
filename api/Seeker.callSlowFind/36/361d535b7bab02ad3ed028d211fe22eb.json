@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wurzel des leidens",
+    "elapsed": 0.016,
     "method": "phrase",
     "resultPattern": "\\bwurzel des leidens",
     "segsMatched": 5,

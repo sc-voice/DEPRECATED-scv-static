@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "three practice categories",
+    "elapsed": 0.028,
     "method": "phrase",
     "resultPattern": "\\bthree practice categories",
     "segsMatched": 2,

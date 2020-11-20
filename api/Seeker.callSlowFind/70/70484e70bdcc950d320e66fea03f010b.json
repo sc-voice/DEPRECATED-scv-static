@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "diminished",
+    "elapsed": 0.229,
     "method": "phrase",
     "resultPattern": "\\bdiminished",
     "segsMatched": 8,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "four noble truths",
+    "elapsed": 1.111,
     "method": "phrase",
     "resultPattern": "\\bfour noble truths",
     "segsMatched": 71,

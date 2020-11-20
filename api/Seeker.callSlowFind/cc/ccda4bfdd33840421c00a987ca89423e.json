@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "damn this thing",
+    "elapsed": 0.277,
     "method": "phrase",
     "resultPattern": "\\bdamn this thing",
     "segsMatched": 3,

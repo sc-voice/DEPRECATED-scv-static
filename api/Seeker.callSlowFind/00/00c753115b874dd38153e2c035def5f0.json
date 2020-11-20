@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "joy that ethical conduct brings",
+    "elapsed": 0.018,
     "method": "phrase",
     "resultPattern": "\\bjoy that ethical conduct brings",
     "segsMatched": 2,

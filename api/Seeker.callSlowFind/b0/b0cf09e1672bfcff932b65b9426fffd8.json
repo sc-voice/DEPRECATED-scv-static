@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "bodhisattva|bodhisatta",
+    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bbodhisattva|bodhisatta",
     "segsMatched": 1,

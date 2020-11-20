@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn ich so übe",
+    "elapsed": 0.025,
     "method": "phrase",
     "resultPattern": "\\bwenn ich so übe",
     "segsMatched": 12,

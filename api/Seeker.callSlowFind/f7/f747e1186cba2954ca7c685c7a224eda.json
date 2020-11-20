@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "um mehr materiellen besitz",
+    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bum mehr materiellen besitz",
     "segsMatched": 2,

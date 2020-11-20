@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in schulden geraten",
+    "elapsed": 0.102,
     "method": "phrase",
     "resultPattern": "\\bin schulden geraten",
     "segsMatched": 1,

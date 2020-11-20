@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in die pflicht",
+    "elapsed": 0.366,
     "method": "phrase",
     "resultPattern": "\\bin die pflicht",
     "segsMatched": 18,

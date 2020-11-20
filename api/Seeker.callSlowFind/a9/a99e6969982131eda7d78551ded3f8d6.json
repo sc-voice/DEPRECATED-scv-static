@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "leave their home village and go to another",
+    "elapsed": 0.399,
     "method": "phrase",
     "resultPattern": "\\bleave their home village and go to another",
     "segsMatched": 4,

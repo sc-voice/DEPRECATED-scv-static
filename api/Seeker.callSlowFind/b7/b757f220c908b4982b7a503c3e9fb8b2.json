@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "diese gabe gebe",
+    "elapsed": 0.378,
     "method": "phrase",
     "resultPattern": "\\bdiese gabe gebe",
     "segsMatched": 1,

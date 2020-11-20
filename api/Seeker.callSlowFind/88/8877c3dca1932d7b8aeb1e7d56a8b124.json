@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "any kind of form",
+    "elapsed": 0.412,
     "method": "phrase",
     "resultPattern": "\\bany kind of form",
     "segsMatched": 30,

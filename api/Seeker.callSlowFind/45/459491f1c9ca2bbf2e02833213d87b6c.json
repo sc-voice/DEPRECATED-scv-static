@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "conscience and prudence",
+    "elapsed": 0.812,
     "method": "phrase",
     "resultPattern": "\\bconscience and prudence",
     "segsMatched": 83,

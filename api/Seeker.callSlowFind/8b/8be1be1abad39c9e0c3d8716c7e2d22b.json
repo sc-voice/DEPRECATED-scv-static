@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unverdientes leid zufügt",
+    "elapsed": 0.027,
     "method": "phrase",
     "resultPattern": "\\bunverdientes leid zufügt",
     "segsMatched": 6,

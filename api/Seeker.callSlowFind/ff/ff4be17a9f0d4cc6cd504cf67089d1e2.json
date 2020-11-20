@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "walking they know",
+    "elapsed": 0.197,
     "method": "phrase",
     "resultPattern": "\\bwalking they know",
     "segsMatched": 3,

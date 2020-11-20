@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wrong immersion is blown away",
+    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bwrong immersion is blown away",
     "segsMatched": 1,

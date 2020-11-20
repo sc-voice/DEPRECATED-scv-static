@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "who has immersion truly understands",
+    "elapsed": 0.026,
     "method": "phrase",
     "resultPattern": "\\bwho has immersion truly understands",
     "segsMatched": 5,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zu quälen",
+    "elapsed": 0.412,
     "method": "phrase",
     "resultPattern": "\\bzu quälen",
     "segsMatched": 14,

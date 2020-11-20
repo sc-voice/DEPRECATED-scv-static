@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vier arten der suche",
+    "elapsed": 0.374,
     "method": "keywords",
     "resultPattern": "\\bvier|\\barten|\\bder|\\bsuche",
     "segsMatched": 5,

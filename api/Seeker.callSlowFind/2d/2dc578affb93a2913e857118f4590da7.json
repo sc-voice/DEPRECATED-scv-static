@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "kopf in flammen",
+    "elapsed": 0.012,
     "method": "phrase",
     "resultPattern": "\\bkopf in flammen",
     "segsMatched": 3,

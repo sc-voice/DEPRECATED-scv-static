@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "schmuckstück aus beryll von natürlicher schönheit",
+    "elapsed": 0.424,
     "method": "phrase",
     "resultPattern": "\\bschmuckstück aus beryll von natürlicher schönheit",
     "segsMatched": 5,
@@ -153,7 +154,7 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 444,
-          "de": 246,
+          "de": 359,
           "en": 443
         }
       }

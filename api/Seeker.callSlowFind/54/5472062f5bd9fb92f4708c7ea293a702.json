@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "three kinds of demonstration",
+    "elapsed": 0.075,
     "method": "phrase",
     "resultPattern": "\\bthree kinds of demonstration",
     "segsMatched": 9,

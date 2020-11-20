@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "to wander alone",
+    "elapsed": 0.06,
     "method": "phrase",
     "resultPattern": "\\bto wander alone",
     "segsMatched": 1,

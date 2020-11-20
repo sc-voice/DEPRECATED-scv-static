@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sustained by",
+    "elapsed": 0.733,
     "method": "phrase",
     "resultPattern": "\\bsustained by",
     "segsMatched": 21,

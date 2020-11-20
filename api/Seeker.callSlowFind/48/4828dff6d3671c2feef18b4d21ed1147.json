@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "study",
+    "elapsed": 0.044,
     "method": "phrase",
     "resultPattern": "\\bstudy",
     "segsMatched": 4,

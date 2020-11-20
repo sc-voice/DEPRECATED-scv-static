@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "faithful householders",
+    "elapsed": 0.111,
     "method": "phrase",
     "resultPattern": "\\bfaithful householders",
     "segsMatched": 3,

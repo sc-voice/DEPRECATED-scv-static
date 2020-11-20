@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ten universal dimensions of meditation",
+    "elapsed": 0.738,
     "method": "phrase",
     "resultPattern": "\\bten universal dimensions of meditation",
     "segsMatched": 8,

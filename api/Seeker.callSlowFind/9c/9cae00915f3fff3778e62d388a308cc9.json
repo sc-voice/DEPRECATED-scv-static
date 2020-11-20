@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ethics and wisdom",
+    "elapsed": 0.174,
     "method": "phrase",
     "resultPattern": "\\bethics and wisdom",
     "segsMatched": 17,

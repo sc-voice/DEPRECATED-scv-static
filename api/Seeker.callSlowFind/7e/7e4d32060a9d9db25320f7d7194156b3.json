@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "drei grundlagen",
+    "elapsed": 0.442,
     "method": "phrase",
     "resultPattern": "\\bdrei grundlagen",
     "segsMatched": 3,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gegenstände zur besinnung",
+    "elapsed": 0.487,
     "method": "phrase",
     "resultPattern": "\\bgegenstände zur besinnung",
     "segsMatched": 14,

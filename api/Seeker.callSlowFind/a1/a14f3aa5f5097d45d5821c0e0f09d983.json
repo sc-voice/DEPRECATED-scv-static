@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "rafter",
+    "elapsed": 0.401,
     "method": "phrase",
     "resultPattern": "\\brafter",
     "segsMatched": 17,

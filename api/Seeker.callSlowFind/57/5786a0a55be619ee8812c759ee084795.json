@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenig gelernt",
+    "elapsed": 0.05,
     "method": "phrase",
     "resultPattern": "\\bwenig gelernt",
     "segsMatched": 15,

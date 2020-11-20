@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wie wenn es auf einem berggipfel stark regnet",
+    "elapsed": 0.059,
     "method": "phrase",
     "resultPattern": "\\bwie wenn es auf einem berggipfel stark regnet",
     "segsMatched": 5,

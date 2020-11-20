@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "holz",
+    "elapsed": 0.06,
     "method": "phrase",
     "resultPattern": "\\bholz",
     "segsMatched": 5,

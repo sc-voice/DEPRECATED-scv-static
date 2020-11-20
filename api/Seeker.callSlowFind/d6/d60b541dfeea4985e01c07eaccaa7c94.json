@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sadness that greed, hate and delusion bring",
+    "elapsed": 0.491,
     "method": "keywords",
     "resultPattern": "\\bsadness|\\bthat|\\bgreed,|\\bh(a|ā)(t|ṭ)e|\\band|\\bdelusion|\\bbring",
     "segsMatched": 6,

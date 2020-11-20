@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "three kinds of people",
+    "elapsed": 0.054,
     "method": "phrase",
     "resultPattern": "\\bthree kinds of people",
     "segsMatched": 9,

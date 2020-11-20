@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "halten es auch für wert",
+    "elapsed": 0.045,
     "method": "phrase",
     "resultPattern": "\\bhalten es auch für wert",
     "segsMatched": 6,

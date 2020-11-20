@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "support meditation",
+    "elapsed": 0.788,
     "method": "phrase",
     "resultPattern": "\\bsupport meditation",
     "segsMatched": 15,

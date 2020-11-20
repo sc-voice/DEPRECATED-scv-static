@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gedenken",
+    "elapsed": 0.005,
     "method": "phrase",
     "resultPattern": "\\bgedenken",
     "segsMatched": 5,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "was ist recht",
+    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bwas ist recht",
     "segsMatched": 8,

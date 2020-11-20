@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wretched",
+    "elapsed": 0.102,
     "method": "phrase",
     "resultPattern": "\\bwretched",
     "segsMatched": 11,

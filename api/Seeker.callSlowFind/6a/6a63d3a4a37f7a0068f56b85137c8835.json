@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "little dust in their eyes",
+    "elapsed": 0.527,
     "method": "phrase",
     "resultPattern": "\\blittle dust in their eyes",
     "segsMatched": 16,

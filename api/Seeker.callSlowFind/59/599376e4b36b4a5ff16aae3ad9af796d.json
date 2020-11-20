@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "limitless immersion of heart",
+    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\blimitless immersion of heart",
     "segsMatched": 5,

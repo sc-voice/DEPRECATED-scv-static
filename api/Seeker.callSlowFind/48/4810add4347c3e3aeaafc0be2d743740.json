@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "give the dregs",
+    "elapsed": 0.037,
     "method": "phrase",
     "resultPattern": "\\bgive the dregs",
     "segsMatched": 6,

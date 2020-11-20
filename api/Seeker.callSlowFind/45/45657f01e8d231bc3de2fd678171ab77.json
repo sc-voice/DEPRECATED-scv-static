@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das erste gibt",
+    "elapsed": 0.017,
     "method": "phrase",
     "resultPattern": "\\bdas erste gibt",
     "segsMatched": 1,

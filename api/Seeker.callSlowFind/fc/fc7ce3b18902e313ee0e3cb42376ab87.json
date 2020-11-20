@@ -30,56 +30,31 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ich bin in die strömung der lehre",
-    "method": "phrase",
-    "resultPattern": "\\bich bin in die strömung der lehre",
-    "segsMatched": 2,
+    "elapsed": 0.461,
+    "method": "keywords",
+    "resultPattern": "\\bich|\\bbin|\\bin|\\bdie|\\bströmung|\\bder|\\blehre",
+    "segsMatched": 0,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.179_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.179_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.179_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.179_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.69_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.69_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.69_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.76_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.10_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "an5.179/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.179_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.179_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.179_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.179",
-        "lang": "de",
-        "segMap": {
-          "an5.179:1.4": {
-            "scid": "an5.179:1.4",
-            "pli": "‘khīṇanirayomhi khīṇatiracchānayoni khīṇapettivisayo khīṇāpāyaduggativinipāto, sotāpannohamasmi avinipātadhammo niyato sambodhiparāyaṇo’ti. ",
-            "de": "‚Ich habe mit der Wiedergeburt in der Hölle, dem Tierreich und dem Geisterreich abgeschlossen. Mit allen verlorenen Orten habe ich abgeschlossen, mit allen schlechten Orten, mit der Unterwelt. \u001b[38;5;121mIch bin in die Strömung der Lehre\u001b[0m eingetaucht! Ich muss nicht mehr in der Unterwelt wiedergeboren werden und bin auf dem Weg zum Erwachen.‘ ",
-            "en": "‘I’ve finished with rebirth in hell, the animal realm, and the ghost realm. I’ve finished with all places of loss, bad places, the underworld. I am a stream-enterer! I’m not liable to be reborn in the underworld, and am bound for awakening.’ ",
-            "matched": true
-          },
-          "an5.179:7.2": {
-            "scid": "an5.179:7.2",
-            "pli": "‘khīṇanirayomhi khīṇatiracchānayoni khīṇapettivisayo khīṇāpāyaduggativinipāto, sotāpannohamasmi avinipātadhammo niyato sambodhiparāyaṇo’ti. ",
-            "de": "‚Ich habe mit der Wiedergeburt in der Hölle, dem Tierreich und dem Geisterreich abgeschlossen. Mit allen verlorenen Orten habe ich abgeschlossen, mit allen schlechten Orten, mit der Unterwelt. \u001b[38;5;121mIch bin in die Strömung der Lehre\u001b[0m eingetaucht! Ich muss nicht mehr in der Unterwelt wiedergeboren werden und bin auf dem Weg zum Erwachen.‘ ",
-            "en": "‘I’ve finished with rebirth in hell, the animal realm, and the ghost realm. I’ve finished with all places of loss, bad places, the underworld. I am a stream-enterer! I’m not liable to be reborn in the underworld, and am bound for awakening.’ ",
-            "matched": true
-          }
-        },
-        "score": 2.023,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 86,
-          "de": 85,
-          "en": 85
-        }
-      }
-    ]
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

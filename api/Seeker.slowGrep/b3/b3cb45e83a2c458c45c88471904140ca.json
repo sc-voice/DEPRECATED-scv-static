@@ -1,0 +1,20 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bjemand, der alt werden muss",
+      "maxResults": 1000,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json:5",
+    "translation/de/sabbamitta/sutta/an/an5/an5.48_translation-de-sabbamitta.json:5",
+    "translation/de/sabbamitta/sutta/an/an4/an4.255_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an5/an5.49_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an4/an4.182_translation-de-sabbamitta.json:1"
+  ]
+}

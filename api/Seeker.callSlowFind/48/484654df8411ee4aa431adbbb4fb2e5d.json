@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unterweise mich über das leiden",
+    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bunterweise mich über das leiden",
     "segsMatched": 1,

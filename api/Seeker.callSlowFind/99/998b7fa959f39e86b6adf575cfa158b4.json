@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "schwer zu finden",
+    "elapsed": 0.067,
     "method": "phrase",
     "resultPattern": "\\bschwer zu finden",
     "segsMatched": 11,
@@ -267,7 +268,7 @@
           "an3.63:4.3": {
             "scid": "an3.63:4.3",
             "pli": "Dullabhāni tāni pabbajitānaṁ laddhā ca pana na kappanti. ",
-            "de": "sind für Enthaltsame \u001b[38;5;121mschwer zu finden\u001b[0m. Und selbst wenn man sie bekommt, sind sie nicht erlaubt. ",
+            "de": "sind für enthaltsam Lebende \u001b[38;5;121mschwer zu finden\u001b[0m. Und selbst wenn man sie bekommt, sind sie nicht erlaubt. ",
             "en": "are hard for renunciates to find. And even if they do get them, they’re not allowed. ",
             "matched": true
           }

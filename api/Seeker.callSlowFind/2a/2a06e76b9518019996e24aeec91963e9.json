@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "früchte des gebens",
+    "elapsed": 0.018,
     "method": "phrase",
     "resultPattern": "\\bfrüchte des gebens",
     "segsMatched": 2,

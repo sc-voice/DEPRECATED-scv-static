@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "haare berge",
+    "elapsed": 0.052,
     "method": "keywords",
     "resultPattern": "\\bhaare|\\bberge",
     "segsMatched": 15,

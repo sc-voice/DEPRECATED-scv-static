@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "lead the mendicant",
+    "elapsed": 0.076,
     "method": "phrase",
     "resultPattern": "\\blead the mendicant",
     "segsMatched": 5,

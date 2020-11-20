@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "not two go by one road",
+    "elapsed": 0.275,
     "method": "phrase",
     "resultPattern": "\\bnot two go by one road",
     "segsMatched": 3,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "milch und wasser",
+    "elapsed": 0.06,
     "method": "phrase",
     "resultPattern": "\\bmilch und wasser",
     "segsMatched": 6,

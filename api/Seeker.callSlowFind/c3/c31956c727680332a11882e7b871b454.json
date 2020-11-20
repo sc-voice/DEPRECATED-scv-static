@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the possible as possible",
+    "elapsed": 0.148,
     "method": "phrase",
     "resultPattern": "\\bthe possible as possible",
     "segsMatched": 7,

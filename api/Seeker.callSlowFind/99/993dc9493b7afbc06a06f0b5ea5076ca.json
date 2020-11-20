@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "voller freude und wonne",
+    "elapsed": 0.683,
     "method": "keywords",
     "resultPattern": "\\bvoller|\\bfreude|\\bund|\\bwonne",
     "segsMatched": 13,
@@ -54,7 +55,10 @@
       "translation/en/sujato/sutta/an/an3/an3.63_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",

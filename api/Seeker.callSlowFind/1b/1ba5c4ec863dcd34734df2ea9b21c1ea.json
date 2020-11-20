@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "develop noble right immersion",
+    "elapsed": 0.016,
     "method": "phrase",
     "resultPattern": "\\bdevelop noble right immersion",
     "segsMatched": 7,

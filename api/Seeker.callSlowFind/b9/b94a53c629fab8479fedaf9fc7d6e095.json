@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "versteht wirklich: ‚das ist leiden.‘",
+    "elapsed": 0,
     "method": "keywords",
     "resultPattern": "\\bversteht|\\bwirklich:|\\b‚das|\\bist|\\bleiden.‘",
     "segsMatched": 0,

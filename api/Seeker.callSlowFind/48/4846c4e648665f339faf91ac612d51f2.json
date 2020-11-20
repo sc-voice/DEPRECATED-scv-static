@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the suffering inherent in perishing",
+    "elapsed": 0.363,
     "method": "phrase",
     "resultPattern": "\\bthe suffering inherent in perishing",
     "segsMatched": 3,

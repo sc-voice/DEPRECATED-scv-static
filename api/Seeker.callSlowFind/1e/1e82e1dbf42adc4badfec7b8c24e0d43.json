@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ultimate purity",
+    "elapsed": 0.032,
     "method": "phrase",
     "resultPattern": "\\bultimate purity",
     "segsMatched": 3,

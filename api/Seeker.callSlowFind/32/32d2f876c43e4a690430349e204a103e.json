@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unbedingt",
+    "elapsed": 0.093,
     "method": "phrase",
     "resultPattern": "\\bunbedingt",
     "segsMatched": 7,
@@ -152,7 +153,7 @@
           "an4.34:3.1": {
             "scid": "an4.34:3.1",
             "pli": "Yāvatā, bhikkhave, dhammā saṅkhatā vā asaṅkhatā vā, virāgo tesaṁ aggamakkhāyati, yadidaṁ madanimmadano pipāsavinayo ālayasamugghāto vaṭṭupacchedo taṇhākkhayo virāgo nirodho nibbānaṁ. ",
-            "de": "Das Schwinden gilt unter den bedingten und \u001b[38;5;121munbedingt\u001b[0men Dingen als das beste, nämlich das Überwinden der Eitelkeit, das Löschen des Durstes, das Aufgeben des Anklammerns, das Ausbrechen aus dem Kreislauf, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen. ",
+            "de": "Das Schwinden gilt unter den bedingten und \u001b[38;5;121munbedingt\u001b[0men Dingen als das beste: nämlich das Überwinden der Eitelkeit, das Löschen des Durstes, das Aufgeben des Anklammerns, das Ausbrechen aus dem Kreislauf, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen. ",
             "en": "Fading away is said to be the best of all things whether conditioned or unconditioned. That is, the quelling of vanity, the removing of thirst, the abolishing of clinging, the breaking of the round, the ending of craving, fading away, cessation, extinguishment. ",
             "matched": true
           }
@@ -183,7 +184,7 @@
           "an5.32:5.1": {
             "scid": "an5.32:5.1",
             "pli": "Yāvatā, cundi, dhammā saṅkhatā vā asaṅkhatā vā, virāgo tesaṁ aggamakkhāyati, yadidaṁ—",
-            "de": "Das Schwinden gilt unter den bedingten und \u001b[38;5;121munbedingt\u001b[0men Dingen als das beste, ",
+            "de": "Das Schwinden gilt unter den bedingten und \u001b[38;5;121munbedingt\u001b[0men Dingen als das beste: ",
             "en": "Fading away is said to be the best of all things whether conditioned or unconditioned. ",
             "matched": true
           }

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "i feel a pleasant feeling",
+    "elapsed": 0.223,
     "method": "phrase",
     "resultPattern": "\\bi feel a pleasant feeling",
     "segsMatched": 11,

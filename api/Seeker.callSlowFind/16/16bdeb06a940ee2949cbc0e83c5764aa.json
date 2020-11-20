@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "experiences an immersion",
+    "elapsed": 0.28,
     "method": "phrase",
     "resultPattern": "\\bexperiences an immersion",
     "segsMatched": 0,

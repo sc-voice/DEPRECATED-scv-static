@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "conceit and arrogance",
+    "elapsed": 0.032,
     "method": "phrase",
     "resultPattern": "\\bconceit and arrogance",
     "segsMatched": 1,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "not mortifying",
+    "elapsed": 0.558,
     "method": "phrase",
     "resultPattern": "\\bnot mortifying",
     "segsMatched": 15,

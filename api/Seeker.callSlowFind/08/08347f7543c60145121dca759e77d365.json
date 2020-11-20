@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "taking refuge in oneself",
+    "elapsed": 0.127,
     "method": "phrase",
     "resultPattern": "\\btaking refuge in oneself",
     "segsMatched": 1,

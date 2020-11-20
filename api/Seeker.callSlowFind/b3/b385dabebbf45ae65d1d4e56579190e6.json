@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "when going out and coming back",
+    "elapsed": 1.919,
     "method": "phrase",
     "resultPattern": "\\bwhen going out and coming back",
     "segsMatched": 28,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a just and principled king",
+    "elapsed": 1.718,
     "method": "phrase",
     "resultPattern": "\\ba just and principled king",
     "segsMatched": 28,

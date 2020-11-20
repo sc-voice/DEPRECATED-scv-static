@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "where does that craving arise",
+    "elapsed": 0.191,
     "method": "phrase",
     "resultPattern": "\\bwhere does that craving arise",
     "segsMatched": 2,

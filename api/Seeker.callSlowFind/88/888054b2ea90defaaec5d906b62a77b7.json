@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "thriving underwater",
+    "elapsed": 0.802,
     "method": "phrase",
     "resultPattern": "\\bthriving underwater",
     "segsMatched": 10,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sehvermögen zügelt",
+    "elapsed": 0.061,
     "method": "keywords",
     "resultPattern": "\\bsehvermögen|\\bzügelt",
     "segsMatched": 1,
