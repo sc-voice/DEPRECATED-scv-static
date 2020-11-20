@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "worthy of veneration",
+    "elapsed": 0.296,
     "method": "phrase",
     "resultPattern": "\\bworthy of veneration",
     "segsMatched": 53,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "was man noch nicht gehört hat",
+    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bwas man noch nicht gehört hat",
     "segsMatched": 3,

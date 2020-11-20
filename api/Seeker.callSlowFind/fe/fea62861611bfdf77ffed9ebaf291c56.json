@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "until my mind is freed",
+    "elapsed": 0.034,
     "method": "phrase",
     "resultPattern": "\\buntil my mind is freed",
     "segsMatched": 1,

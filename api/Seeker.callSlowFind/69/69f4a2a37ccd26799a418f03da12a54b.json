@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "von keiner seite etwas zu befürchten",
+    "elapsed": 0.084,
     "method": "phrase",
     "resultPattern": "\\bvon keiner seite etwas zu befürchten",
     "segsMatched": 3,

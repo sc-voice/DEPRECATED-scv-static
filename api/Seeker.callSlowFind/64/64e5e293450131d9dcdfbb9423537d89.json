@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn sinnliches verlangen",
+    "elapsed": 0.06,
     "method": "phrase",
     "resultPattern": "\\bwenn sinnliches verlangen",
     "segsMatched": 2,

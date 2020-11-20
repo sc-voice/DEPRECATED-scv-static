@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "selbst versteh",
+    "elapsed": 0.078,
     "method": "phrase",
     "resultPattern": "\\bselbst versteh",
     "segsMatched": 12,

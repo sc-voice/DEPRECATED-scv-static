@@ -1,0 +1,128 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "mit ganzem herzen dabei",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "\u001b[38;5;121m$&\u001b[0m",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "mit ganzem herzen dabei",
+    "elapsed": 0.039,
+    "method": "phrase",
+    "resultPattern": "\\bmit ganzem herzen dabei",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an5/an5.140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.140_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.114_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.114_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.114_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an5.140/de/sabbamitta",
+      "an4.114/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.114_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.114_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.114_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.114",
+        "lang": "de",
+        "segMap": {
+          "an4.114:2.2": {
+            "scid": "an4.114:2.2",
+            "pli": "Idha, bhikkhave, rañño nāgo yamenaṁ hatthidammasārathi kāraṇaṁ kāreti—",
+            "de": "Es ist, wenn ein königlicher Elefantenbulle achtgibt, aufpasst, \u001b[38;5;121mmit ganzem Herzen dabei\u001b[0m ist und die Ohren spitzt, ganz gleich, welche Aufgabe der Elefantenzureiter von ihm verlangt ",
+            "en": "It’s when a royal bull elephant pays heed, pays attention, engages wholeheartedly, and lends an ear to whatever task the elephant trainer has it do, ",
+            "matched": true
+          },
+          "an4.114:7.2": {
+            "scid": "an4.114:7.2",
+            "pli": "Idha, bhikkhave, bhikkhu tathāgatappavedite dhammavinaye desiyamāne aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
+            "de": "Es ist, wenn ein Mönch achtgibt, aufpasst, \u001b[38;5;121mmit ganzem Herzen dabei\u001b[0m ist und die Ohren spitzt, wenn die Lehre und Übung, die von einem Klargewordenen verkündet wurde, gelehrt wird. ",
+            "en": "It’s when a mendicant pays heed, pays attention, engages wholeheartedly, and lends an ear when the teaching and training proclaimed by a Realized One is being taught. ",
+            "matched": true
+          }
+        },
+        "score": 2.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 40,
+          "de": 39,
+          "en": 39
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.140",
+        "lang": "de",
+        "segMap": {
+          "an5.140:2.2": {
+            "scid": "an5.140:2.2",
+            "pli": "Idha, bhikkhave, rañño nāgo yamenaṁ hatthidammasārathi kāraṇaṁ kāreti—",
+            "de": "Es ist, wenn ein königlicher Elefantenbulle achtgibt, aufpasst, \u001b[38;5;121mmit ganzem Herzen dabei\u001b[0m ist und die Ohren spitzt, ganz gleich, welche Aufgabe der Elefantenzureiter von ihm verlangt ",
+            "en": "It’s when a royal bull elephant pays heed, pays attention, engages wholeheartedly, and lends an ear to whatever task the elephant trainer has it do, ",
+            "matched": true
+          },
+          "an5.140:9.2": {
+            "scid": "an5.140:9.2",
+            "pli": "Idha, bhikkhave, bhikkhu tathāgatappavedite dhammavinaye desiyamāne aṭṭhiṅkatvā manasi katvā sabbaṁ cetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
+            "de": "Es ist, wenn eine Nonne achtgibt, aufpasst, \u001b[38;5;121mmit ganzem Herzen dabei\u001b[0m ist und die Ohren spitzt, wenn die Lehre und Übung, die von einem Klargewordenen verkündet wurde, gelehrt wird. ",
+            "en": "It’s when a mendicant pays heed, pays attention, engages wholeheartedly, and lends an ear when the teaching and training proclaimed by a Realized One is being taught. ",
+            "matched": true
+          }
+        },
+        "score": 2.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 59,
+          "de": 50,
+          "en": 57
+        }
+      }
+    ]
+  }
+}

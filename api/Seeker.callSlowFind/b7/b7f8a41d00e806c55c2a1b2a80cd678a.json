@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn ich betrübt wäre und jammern",
+    "elapsed": 0.039,
     "method": "phrase",
     "resultPattern": "\\bwenn ich betrübt wäre und jammern",
     "segsMatched": 8,

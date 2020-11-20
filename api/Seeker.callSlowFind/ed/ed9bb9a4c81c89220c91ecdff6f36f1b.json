@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "one-eyed turtle",
+    "elapsed": 0.162,
     "method": "phrase",
     "resultPattern": "\\bone-eyed turtle",
     "segsMatched": 9,

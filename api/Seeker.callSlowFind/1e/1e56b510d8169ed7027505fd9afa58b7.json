@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "whatever sight you see with your eye is unlikable",
+    "elapsed": 0.016,
     "method": "phrase",
     "resultPattern": "\\bwhatever sight you see with your eye is unlikable",
     "segsMatched": 3,

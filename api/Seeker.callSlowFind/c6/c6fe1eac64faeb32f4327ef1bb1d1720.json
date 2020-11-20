@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eats blameless things",
+    "elapsed": 0.038,
     "method": "phrase",
     "resultPattern": "\\beats blameless things",
     "segsMatched": 2,

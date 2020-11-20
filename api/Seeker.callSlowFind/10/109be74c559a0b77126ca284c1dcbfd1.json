@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "blue water lilies",
+    "elapsed": 0.932,
     "method": "phrase",
     "resultPattern": "\\bblue water lilies",
     "segsMatched": 12,

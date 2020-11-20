@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "door to the deathless",
+    "elapsed": 0.281,
     "method": "phrase",
     "resultPattern": "\\bdoor to the deathless",
     "segsMatched": 10,

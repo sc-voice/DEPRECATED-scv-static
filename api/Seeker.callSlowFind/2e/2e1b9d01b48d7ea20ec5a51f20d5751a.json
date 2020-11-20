@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "was entsteht, muss auch aufhören",
+    "elapsed": 0.296,
     "method": "phrase",
     "resultPattern": "\\bwas entsteht, muss auch aufhören",
     "segsMatched": 4,

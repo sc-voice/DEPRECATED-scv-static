@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "von kopf bis fuß in ein weißes tuch",
+    "elapsed": 0.121,
     "method": "phrase",
     "resultPattern": "\\bvon kopf bis fuß in ein weißes tuch",
     "segsMatched": 2,

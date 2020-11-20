@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sowohl öffentlich als insgeheim",
+    "elapsed": 0.429,
     "method": "phrase",
     "resultPattern": "\\bsowohl öffentlich als insgeheim",
     "segsMatched": 20,
@@ -295,14 +296,14 @@
           "mn33:14.2": {
             "scid": "mn33:14.2",
             "pli": "Idha, bhikkhave, bhikkhu ye te bhikkhū therā rattaññū cirapabbajitā saṅghapitaro saṅghapariṇāyakā, tesu na mettaṁ kāyakammaṁ paccupaṭṭhāpeti āvi ceva raho ca; ",
-            "de": "Es ist, wenn ein Mönch langjährige Ordensälteste, die schon lange fortgezogen sind, Väter und Leiter des Sangha, mit dem Körper, der Sprache und dem Geist nicht stets freundlich behandelt, \u001b[38;5;121msowohl öffentlich als insgeheim\u001b[0m. ",
+            "de": "Da behandelt ein Mönch langjährige Ordensälteste, die schon lange fortgezogen sind, die Väter und Leiter des Saṅgha, mit dem Körper, der Sprache und dem Geist nicht stets freundlich, \u001b[38;5;121msowohl öffentlich als insgeheim\u001b[0m. ",
             "en": "It’s when a mendicant doesn’t consistently treat senior mendicants of long standing, long gone forth, fathers and leaders of the Saṅgha with kindness by way of body, speech, and mind, both in public and in private. ",
             "matched": true
           },
           "mn33:27.2": {
             "scid": "mn33:27.2",
             "pli": "Idha, bhikkhave, bhikkhu ye te bhikkhū therā rattaññū cirapabbajitā saṅghapitaro saṅghapariṇāyakā tesu mettaṁ kāyakammaṁ paccupaṭṭhāpeti āvi ceva raho ca; ",
-            "de": "Es ist, wenn ein Mönch langjährige Ordensälteste, die schon lange fortgezogen sind, Väter und Leiter des Sangha, mit dem Körper, der Sprache und dem Geist stets freundlich behandelt, \u001b[38;5;121msowohl öffentlich als insgeheim\u001b[0m. ",
+            "de": "Da behandelt ein Mönch langjährige Ordensälteste, die schon lange fortgezogen sind, die Väter und Leiter des Saṅgha, mit dem Körper, der Sprache und dem Geist stets freundlich, \u001b[38;5;121msowohl öffentlich als insgeheim\u001b[0m. ",
             "en": "It’s when a mendicant consistently treats senior mendicants of long standing, long gone forth, fathers and leaders of the Saṅgha with kindness by way of body, speech, and mind, both in public and in private. ",
             "matched": true
           }

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "root of anger",
+    "elapsed": 0.236,
     "method": "keywords",
     "resultPattern": "\\broot|\\bof|\\banger",
     "segsMatched": 0,

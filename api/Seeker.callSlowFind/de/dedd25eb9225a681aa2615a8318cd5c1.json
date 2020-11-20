@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das ist friedvoll",
+    "elapsed": 0.028,
     "method": "phrase",
     "resultPattern": "\\bdas ist friedvoll",
     "segsMatched": 3,

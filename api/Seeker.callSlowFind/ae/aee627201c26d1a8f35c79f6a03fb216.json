@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wer spricht diese strophe",
+    "elapsed": 0.059,
     "method": "phrase",
     "resultPattern": "\\bwer spricht diese strophe",
     "segsMatched": 7,

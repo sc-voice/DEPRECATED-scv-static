@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zwei arten von menschen",
+    "elapsed": 0.058,
     "method": "phrase",
     "resultPattern": "\\bzwei arten von menschen",
     "segsMatched": 1,

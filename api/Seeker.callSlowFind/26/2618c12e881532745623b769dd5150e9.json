@@ -30,9 +30,10 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dhamma|dharma",
+    "elapsed": 1.76,
     "method": "phrase",
     "resultPattern": "\\bdhamma|dharma",
-    "segsMatched": 196,
+    "segsMatched": 199,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -82,6 +83,9 @@
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json",
@@ -169,6 +173,9 @@
       "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag15.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
@@ -271,6 +278,7 @@
       "an4.48/de/sabbamitta",
       "an4.33/de/sabbamitta",
       "mn33/de/sabbamitta",
+      "dn18/de/sabbamitta",
       "an8.63/de/sabbamitta",
       "an5.38/de/sabbamitta",
       "an5.209/de/sabbamitta",
@@ -300,6 +308,7 @@
       "thig3.8/de/sabbamitta",
       "thig1.12/de/sabbamitta",
       "thag15.2/de/sabbamitta",
+      "dn6/de/sabbamitta",
       "dn12/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an8.53/de/sabbamitta",
@@ -450,7 +459,7 @@
           "dn14:3.7.17": {
             "scid": "dn14:3.7.17",
             "pli": "Atha kho so, bhikkhave, mahābrahmā: ‘katāvakāso khomhi vipassinā bhagavatā arahatā sammāsambuddhena \u001b[38;5;121mdhamma\u001b[0mdesanāyā’ti vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā padakkhiṇaṁ katvā tattheva antaradhāyi. ",
-            "de": "Und als der Große Brahmā wusste, dass seiner Aufforderung, dass der Buddha Vipassī den \u001b[38;5;121mDhamma\u001b[0m lehre, stattgegeben war, verbeugte er sich, umrundete ihn respektvoll, die rechte Seite ihm zugewandt, und verschwand von dort, wo er stand. ",
+            "de": "Und als der Große Brahmā wusste, dass seiner Aufforderung, dass der Buddha Vipassī den \u001b[38;5;121mDhamma\u001b[0m lehre, stattgegeben war, verbeugte er sich, umrundete Vipassī respektvoll, die rechte Seite ihm zugewandt, und verschwand von dort, wo er stand. ",
             "en": "Then the Great Brahmā, knowing that his request for the Buddha Vipassī to teach the \u001b[38;5;121mDhamma\u001b[0m had been granted, bowed and respectfully circled him, keeping him on his right, before vanishing right there. ",
             "matched": true
           },
@@ -875,7 +884,7 @@
           "dn33:1.4.4": {
             "scid": "dn33:1.4.4",
             "pli": "Atha kho bhagavā pāveyyake malle bahudeva rattiṁ dhammiyā kathāya sandassetvā samādapetvā samuttejetvā sampahaṁsetvā uyyojesi: ",
-            "de": "Den größten Teil der Nacht verbrachte der Buddha damit, die Mallas mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. Dann entließ er sie mit den Worten: ",
+            "de": "Den größten Teil der Nacht verbrachte der Buddha damit, die Maller mit einem \u001b[38;5;121mDhamma\u001b[0mvortrag anzuleiten, zu ermuntern, zu begeistern und anzuregen. Dann entließ er sie mit den Worten: ",
             "en": "The Buddha spent most of the night educating, encouraging, firing up, and inspiring the Mallas with a \u001b[38;5;121mDhamma\u001b[0m talk. Then he dismissed them, ",
             "matched": true
           },
@@ -1070,7 +1079,7 @@
           "sn6.1:11.1": {
             "scid": "sn6.1:11.1",
             "pli": "Atha kho brahmā sahampati “katāvakāso khomhi bhagavatā \u001b[38;5;121mdhamma\u001b[0mdesanāyā”ti bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyīti. ",
-            "de": "Und als der Brahmā Sahampati wusste, dass seiner Aufforderung, dass der Buddha den \u001b[38;5;121mDhamma\u001b[0m lehre, stattgegeben war, verbeugte er sich, umrundete ihn respektvoll, die rechte Seite ihm zugewandt, und verschwand von dort, wo er stand. ",
+            "de": "Und als der Brahmā Sahampati wusste, dass seiner Aufforderung, dass der Buddha den \u001b[38;5;121mDhamma\u001b[0m lehre, stattgegeben war, verbeugte er sich, umrundete den Buddha respektvoll, die rechte Seite ihm zugewandt, und verschwand von dort, wo er stand. ",
             "en": "Then Brahmā Sahampati, knowing that his request for the Buddha to teach the \u001b[38;5;121mDhamma\u001b[0m had been granted, bowed and respectfully circled the Buddha, keeping him on his right, before vanishing right there.",
             "matched": true
           }
@@ -2184,14 +2193,14 @@
           "mn33:8.2": {
             "scid": "mn33:8.2",
             "pli": "Idha, bhikkhave, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ na vitthārena paresaṁ desetā hoti. ",
-            "de": "Es ist, wenn ein Mönch andere nicht ausführlich im \u001b[38;5;121mDhamma\u001b[0m unterweist, wie er ihn gehört und sich eingeprägt hat. ",
+            "de": "Da unterweist ein Mönch andere nicht ausführlich im \u001b[38;5;121mDhamma\u001b[0m, wie er ihn gehört und sich eingeprägt hat. ",
             "en": "It’s when a mendicant doesn’t teach others the \u001b[38;5;121mDhamma\u001b[0m in detail as they learned and memorized it. ",
             "matched": true
           },
           "mn33:21.2": {
             "scid": "mn33:21.2",
             "pli": "Idha, bhikkhave, bhikkhu yathāsutaṁ yathāpariyattaṁ \u001b[38;5;121mdhamma\u001b[0mṁ vitthārena paresaṁ desetā hoti. ",
-            "de": "Es ist, wenn ein Mönch andere ausführlich im \u001b[38;5;121mDhamma\u001b[0m unterweist, wie er ihn gehört und sich eingeprägt hat. ",
+            "de": "Da unterweist ein Mönch andere ausführlich im \u001b[38;5;121mDhamma\u001b[0m, wie er ihn gehört und sich eingeprägt hat. ",
             "en": "It’s when a mendicant teaches others the \u001b[38;5;121mDhamma\u001b[0m in detail as they learned and memorized it. ",
             "matched": true
           }
@@ -2243,6 +2252,44 @@
           "pli": 176,
           "de": 175,
           "en": 175
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn18",
+        "lang": "de",
+        "segMap": {
+          "dn18:4.4": {
+            "scid": "dn18:4.4",
+            "pli": "Te kho panāpi ahesuṁ buddhe pasannā dhamme pasannā saṅghe pasannā sīlesu paripūrakārino. ",
+            "de": "Doch auch sie hatten Zutrauen zum Buddha, zum \u001b[38;5;121mDhamma\u001b[0m und zum Saṅgha und hatten ihre Ethik erfüllt. ",
+            "en": "But they too had confidence in the Buddha, the teaching, and the Saṅgha, and had fulfilled their ethics. ",
+            "matched": true
+          },
+          "dn18:4.10": {
+            "scid": "dn18:4.10",
+            "pli": "So kho panāpi ahosi buddhe pasanno dhamme pasanno saṅghe pasanno sīlesu paripūrakārī. ",
+            "de": "Doch auch er hatte Zutrauen zum Buddha, zum \u001b[38;5;121mDhamma\u001b[0m und zum Saṅgha und hatte seine Ethik erfüllt. ",
+            "en": "He too had confidence in the Buddha, the teaching, and the Saṅgha, and had fulfilled his ethics. ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 299,
+          "de": 255,
+          "en": 298
         }
       },
       {
@@ -2708,37 +2755,6 @@
           "pli": 25,
           "de": 24,
           "en": 24
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.133_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.133",
-        "lang": "de",
-        "segMap": {
-          "an5.133:6.1": {
-            "scid": "an5.133:6.1",
-            "pli": "Sa kho so, bhikkhu, tathāgato arahaṁ sammāsambuddho dhammiko \u001b[38;5;121mdhamma\u001b[0mrājā \u001b[38;5;121mdhamma\u001b[0mññeva nissāya \u001b[38;5;121mdhamma\u001b[0mṁ sakkaronto \u001b[38;5;121mdhamma\u001b[0mṁ garuṁ karonto \u001b[38;5;121mdhamma\u001b[0mṁ apacāyamāno \u001b[38;5;121mdhamma\u001b[0mddhajo \u001b[38;5;121mdhamma\u001b[0mketu dhammādhipateyyo dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā bhikkhūsu, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā bhikkhunīsu, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā upāsakesu, dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahitvā upāsikāsu dhammeneva anuttaraṁ \u001b[38;5;121mdhamma\u001b[0mcakkaṁ pavatteti; ",
-            "de": "Und wenn ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha den Mönchen, Nonnen, Laienmännern und Laienfrauen gerechten Schutz und Sicherheit bereitgestellt hat, bringt er das höchste Rad des \u001b[38;5;121mDhamma\u001b[0m ins Rollen, indem er sich nur auf natürliche Gesetzmäßigkeiten stützt. ",
-            "en": "When a Realized One, a perfected one, a fully awakened Buddha has provided just protection and security for the monks, nuns, laymen, and laywomen, he rolls forth the supreme Wheel of \u001b[38;5;121mDhamma\u001b[0m only in a principled manner. ",
-            "matched": true
-          }
-        },
-        "score": 1.038,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 26,
-          "de": 25,
-          "en": 25
         }
       }
     ]

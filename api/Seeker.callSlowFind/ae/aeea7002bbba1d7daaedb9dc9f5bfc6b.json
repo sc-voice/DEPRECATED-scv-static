@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "versenkung besitzt",
+    "elapsed": 0.045,
     "method": "phrase",
     "resultPattern": "\\bversenkung besitzt",
     "segsMatched": 5,

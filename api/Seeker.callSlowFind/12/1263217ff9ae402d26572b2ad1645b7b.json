@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a reed out from its sheath",
+    "elapsed": 0.365,
     "method": "phrase",
     "resultPattern": "\\ba reed out from its sheath",
     "segsMatched": 3,

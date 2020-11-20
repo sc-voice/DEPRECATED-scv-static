@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "laughing wisdom",
+    "elapsed": 0.306,
     "method": "phrase",
     "resultPattern": "\\blaughing wisdom",
     "segsMatched": 20,

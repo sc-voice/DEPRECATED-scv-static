@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn das vertrauen verschwindet",
+    "elapsed": 0.007,
     "method": "phrase",
     "resultPattern": "\\bwenn das vertrauen verschwindet",
     "segsMatched": 1,

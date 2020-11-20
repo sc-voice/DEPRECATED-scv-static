@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "finding peace",
+    "elapsed": 0.161,
     "method": "keywords",
     "resultPattern": "\\bfinding|\\bpeace",
     "segsMatched": 0,

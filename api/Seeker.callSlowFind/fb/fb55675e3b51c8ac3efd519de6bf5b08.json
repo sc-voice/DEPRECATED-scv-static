@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "without cause or reason",
+    "elapsed": 0.327,
     "method": "phrase",
     "resultPattern": "\\bwithout cause or reason",
     "segsMatched": 12,

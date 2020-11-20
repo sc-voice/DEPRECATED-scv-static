@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "harp",
+    "elapsed": 0.804,
     "method": "phrase",
     "resultPattern": "\\bharp",
     "segsMatched": 27,

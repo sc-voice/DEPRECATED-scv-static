@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "starting arguments",
+    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bstarting arguments",
     "segsMatched": 1,

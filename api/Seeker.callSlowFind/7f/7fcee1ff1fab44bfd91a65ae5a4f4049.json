@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a householder does enough",
+    "elapsed": 0.067,
     "method": "phrase",
     "resultPattern": "\\ba householder does enough",
     "segsMatched": 2,

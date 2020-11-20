@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "krank",
+    "elapsed": 1.383,
     "method": "phrase",
     "resultPattern": "\\bkrank",
     "segsMatched": 208,
@@ -1253,7 +1254,7 @@
           "an5.57:8.1": {
             "scid": "an5.57:8.1",
             "pli": "‘Na kho ahaññeveko byādhidhammo byādhiṁ anatīto, atha kho yāvatā sattānaṁ āgati gati cuti upapatti sabbe sattā byādhidhammā byādhiṁ anatītā’ti. ",
-            "de": "‚Ich bin es nicht alleine, die \u001b[38;5;121mkrank\u001b[0m werden muss, der \u001b[38;5;121mKrank\u001b[0mheit nicht erspart bleibt. Denn alle Lebewesen müssen \u001b[38;5;121mkrank\u001b[0m werden entsprechend ihrer Natur, solange sie kommen und gehen, abscheiden und geboren werden.‘ ",
+            "de": "‚Ich bin es nicht alleine, die \u001b[38;5;121mkrank\u001b[0m werden muss, der \u001b[38;5;121mKrank\u001b[0mheit nicht erspart bleibt. Denn alle Lebewesen müssen \u001b[38;5;121mkrank\u001b[0m werden entsprechend ihrer Natur, solange sie kommen und gehen, abscheiden und wiedergeboren werden.‘ ",
             "en": "‘It’s not just me who is liable to get sick, not being exempt from sickness. For all sentient beings get sick according to their nature, as long as they come and go, pass away and are reborn.’ ",
             "matched": true
           },
@@ -1357,7 +1358,7 @@
           "an5.88:2.7": {
             "scid": "an5.88:2.7",
             "pli": "Thero bhikkhu rattaññū cirapabbajito itipissa diṭṭhānugatiṁ āpajjanti, ñāto thero bhikkhu yasassī sagahaṭṭhapabbajitānaṁ bahujanaparivāro itipissa diṭṭhānugatiṁ āpajjanti, lābhī thero bhikkhu cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ itipissa diṭṭhānugatiṁ āpajjanti, bahussuto thero bhikkhu sutadharo sutasannicayo itipissa diṭṭhānugatiṁ āpajjanti. ",
-            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von Enthaltsamen; oder dass er Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
+            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von enthaltsam Lebenden; oder dass er Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
             "en": "People follow their example, thinking that the senior mendicant is senior and has long gone forth. Or that they’re well-known, famous, with a large following that includes both laypeople and renunciates. Or that they receive robes, alms-food, lodgings, and medicines and supplies for the sick. Or that they’re very learned, remembering and keeping what they’ve learned. ",
             "matched": true
           },
@@ -1371,7 +1372,7 @@
           "an5.88:4.7": {
             "scid": "an5.88:4.7",
             "pli": "Thero bhikkhu rattaññū cirapabbajito itipissa diṭṭhānugatiṁ āpajjanti, ñāto thero bhikkhu yasassī sagahaṭṭhapabbajitānaṁ bahujanaparivāro itipissa diṭṭhānugatiṁ āpajjanti, lābhī thero bhikkhu cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ itipissa diṭṭhānugatiṁ āpajjanti, bahussuto thero bhikkhu sutadharo sutasannicayo itipissa diṭṭhānugatiṁ āpajjanti. ",
-            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von Enthaltsamen; oder dass er Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
+            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von enthaltsam Lebenden; oder dass er Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
             "en": "People follow their example, thinking that the senior mendicant is senior and has long gone forth. Or that they’re well-known, famous, with a large following that includes both laypeople and renunciates. Or that they receive robes, alms-food, lodgings, and medicines and supplies for the sick. Or that they’re very learned, remembering and keeping what they’ve learned. ",
             "matched": true
           }
@@ -2526,14 +2527,14 @@
           "mn33:13.2": {
             "scid": "mn33:13.2",
             "pli": "Idha, bhikkhave, bhikkhuṁ saddhā gahapatikā abhihaṭṭhuṁ pavārenti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārehi, tatra bhikkhu mattaṁ na jānāti paṭiggahaṇāya. ",
-            "de": "Es ist, wenn eine Nonne von einer Hausbesitzerin eingeladen wird, Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung anzunehmen und diese Nonne kennt kein Maß beim Nehmen. ",
+            "de": "Da wird eine Nonne von einer Hausbesitzerin eingeladen, Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung anzunehmen, und sie kennt kein Maß beim Nehmen. ",
             "en": "It’s when a mendicant is invited by a householder to accept robes, alms-food, lodgings, and medicines and supplies for the sick, and that mendicant doesn’t know moderation in accepting. ",
             "matched": true
           },
           "mn33:26.2": {
             "scid": "mn33:26.2",
             "pli": "Idha, bhikkhave, bhikkhuṁ saddhā gahapatikā abhihaṭṭhuṁ pavārenti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārehi. ",
-            "de": "Es ist, wenn eine Nonne von einer Hausbesitzerin eingeladen wird, Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung anzunehmen ",
+            "de": "Da wird eine Nonne von einer Hausbesitzerin eingeladen, Roben, Almosen, Quartier sowie Arznei und \u001b[38;5;121mKrank\u001b[0menversorgung anzunehmen, ",
             "en": "It’s when a mendicant is invited by a householder to accept robes, alms-food, lodgings, and medicines and supplies for the sick, ",
             "matched": true
           }

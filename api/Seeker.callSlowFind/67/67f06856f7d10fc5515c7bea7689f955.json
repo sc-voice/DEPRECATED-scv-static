@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "kraft der weisheit",
+    "elapsed": 0.083,
     "method": "phrase",
     "resultPattern": "\\bkraft der weisheit",
     "segsMatched": 20,

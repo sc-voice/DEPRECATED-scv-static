@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "lachende weisheit",
+    "elapsed": 0.01,
     "method": "keywords",
     "resultPattern": "\\blachende|\\bweisheit",
     "segsMatched": 2,

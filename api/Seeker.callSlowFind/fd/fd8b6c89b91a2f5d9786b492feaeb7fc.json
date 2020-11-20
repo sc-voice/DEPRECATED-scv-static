@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "overwhelmed by suffering",
+    "elapsed": 0.038,
     "method": "phrase",
     "resultPattern": "\\boverwhelmed by suffering",
     "segsMatched": 1,

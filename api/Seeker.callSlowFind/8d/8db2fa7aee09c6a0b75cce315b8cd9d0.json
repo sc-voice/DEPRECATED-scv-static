@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "glück oder traurigkeit oder gleichmut",
+    "elapsed": 0.028,
     "method": "phrase",
     "resultPattern": "\\bglück oder traurigkeit oder gleichmut",
     "segsMatched": 2,

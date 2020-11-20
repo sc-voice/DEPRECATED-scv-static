@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "geistgeschaffen körper",
+    "elapsed": 0.138,
     "method": "keywords",
     "resultPattern": "\\bgeistgeschaffen|\\bkörper",
     "segsMatched": 5,
@@ -110,7 +111,7 @@
           "an1.198:1.1": {
             "scid": "an1.198:1.1",
             "pli": "“Etadaggaṁ, bhikkhave, mama sāvakānaṁ bhikkhūnaṁ manomayaṁ kāyaṁ abhinimminantānaṁ yadidaṁ cūḷapanthako. #1",
-            "de": "„Der führende unter meinen Mönchsschülern, was das Hervorbringen eines \u001b[38;5;121mgeistgeschaffen\u001b[0men \u001b[38;5;121mKörper\u001b[0ms betrifft, ist Cūḷapanthaka. ",
+            "de": "„Der Vorderste unter meinen Mönchsschülern, was das Hervorbringen eines \u001b[38;5;121mgeistgeschaffen\u001b[0men \u001b[38;5;121mKörper\u001b[0ms betrifft, ist Cūḷapanthaka. ",
             "en": "“The foremost of my monk disciples in creating a mind-made body is Cūḷapanthaka. ",
             "matched": true
           }

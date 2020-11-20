@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "geschlossene faust eines lehrers",
+    "elapsed": 0.016,
     "method": "phrase",
     "resultPattern": "\\bgeschlossene faust eines lehrers",
     "segsMatched": 1,

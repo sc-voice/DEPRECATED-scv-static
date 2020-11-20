@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "äußerlich gefesselt",
+    "elapsed": 0.04,
     "method": "phrase",
     "resultPattern": "\\bäußerlich gefesselt",
     "segsMatched": 6,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "versenkungszustand",
+    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bversenkungszustand",
     "segsMatched": 3,

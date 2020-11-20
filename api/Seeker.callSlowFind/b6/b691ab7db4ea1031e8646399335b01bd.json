@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "well freed",
+    "elapsed": 0.896,
     "method": "phrase",
     "resultPattern": "\\bwell freed",
     "segsMatched": 75,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "be comfortable",
+    "elapsed": 0.075,
     "method": "phrase",
     "resultPattern": "\\bbe comfortable",
     "segsMatched": 2,

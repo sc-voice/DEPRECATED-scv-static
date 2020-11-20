@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "no first point",
+    "elapsed": 0.203,
     "method": "phrase",
     "resultPattern": "\\bno first point",
     "segsMatched": 19,

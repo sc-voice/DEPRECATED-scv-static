@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ihr heimatdorf verließe und zu einem anderen",
+    "elapsed": 0.065,
     "method": "phrase",
     "resultPattern": "\\bihr heimatdorf verließe und zu einem anderen",
     "segsMatched": 1,

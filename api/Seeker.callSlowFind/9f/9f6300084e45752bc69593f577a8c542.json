@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "promiscuous",
+    "elapsed": 0.139,
     "method": "phrase",
     "resultPattern": "\\bpromiscuous",
     "segsMatched": 2,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "judgment on people",
+    "elapsed": 0.039,
     "method": "phrase",
     "resultPattern": "\\bjudgment on people",
     "segsMatched": 16,

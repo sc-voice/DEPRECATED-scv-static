@@ -30,9 +30,10 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "glück der vielen",
+    "elapsed": 0.834,
     "method": "phrase",
     "resultPattern": "\\bglück der vielen",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -69,7 +70,10 @@
       "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.170-187_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
@@ -83,7 +87,8 @@
       "an2.52-63/de/sabbamitta",
       "an2.32-41/de/sabbamitta",
       "an1.316-332/de/sabbamitta",
-      "an1.170-187/de/sabbamitta"
+      "an1.170-187/de/sabbamitta",
+      "dn18/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -575,6 +580,37 @@
           "pli": 851,
           "de": 689,
           "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn18",
+        "lang": "de",
+        "segMap": {
+          "dn18:20.2": {
+            "scid": "dn18:20.2",
+            "pli": "“taṁ kiṁ maññanti, bhonto devā tāvatiṁsā, yāvañca so bhagavā bahujanahitāya paṭipanno bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Was denken die guten Götter der Dreiunddreißig: Wie sehr hat der Buddha zum Nutzen und \u001b[38;5;121mGlück der Vielen\u001b[0m gehandelt, zum Vorteil, Nutzen und Glück von Göttern und Menschen? ",
+            "en": "“What do the good gods of the Thirty-Three think about how much the Buddha has acted for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans? ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 255,
+          "en": 298
         }
       }
     ]

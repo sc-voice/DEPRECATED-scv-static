@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "give up stealing",
+    "elapsed": 0.699,
     "method": "phrase",
     "resultPattern": "\\bgive up stealing",
     "segsMatched": 21,

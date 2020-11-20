@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "basis of immersion",
+    "elapsed": 0.051,
     "method": "phrase",
     "resultPattern": "\\bbasis of immersion",
     "segsMatched": 1,

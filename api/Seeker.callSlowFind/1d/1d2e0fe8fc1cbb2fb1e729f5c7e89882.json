@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "if you sorrow and wail",
+    "elapsed": 0.068,
     "method": "phrase",
     "resultPattern": "\\bif you sorrow and wail",
     "segsMatched": 4,

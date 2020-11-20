@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "von den fußsohlen aufwärts",
+    "elapsed": 0.075,
     "method": "phrase",
     "resultPattern": "\\bvon den fußsohlen aufwärts",
     "segsMatched": 4,

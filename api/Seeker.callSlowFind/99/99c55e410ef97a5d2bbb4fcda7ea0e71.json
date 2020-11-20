@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "swift insight",
+    "elapsed": 0.491,
     "method": "phrase",
     "resultPattern": "\\bswift insight",
     "segsMatched": 34,

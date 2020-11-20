@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "disillusioned with craving",
+    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bdisillusioned with craving",
     "segsMatched": 1,

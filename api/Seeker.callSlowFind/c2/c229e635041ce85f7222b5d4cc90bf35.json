@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "von groll los",
+    "elapsed": 0.465,
     "method": "phrase",
     "resultPattern": "\\bvon groll los",
     "segsMatched": 22,

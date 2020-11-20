@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "loved one",
+    "elapsed": 0.468,
     "method": "phrase",
     "resultPattern": "\\bloved one",
     "segsMatched": 23,

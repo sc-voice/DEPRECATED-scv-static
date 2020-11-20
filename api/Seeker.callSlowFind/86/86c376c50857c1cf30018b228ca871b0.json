@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "two fools",
+    "elapsed": 0.04,
     "method": "phrase",
     "resultPattern": "\\btwo fools",
     "segsMatched": 14,

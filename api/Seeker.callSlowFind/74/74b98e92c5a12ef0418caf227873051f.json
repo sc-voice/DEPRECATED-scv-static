@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the impermanence of thoughts",
+    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bthe impermanence of thoughts",
     "segsMatched": 1,

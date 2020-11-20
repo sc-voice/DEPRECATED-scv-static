@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "both ends",
+    "elapsed": 0.883,
     "method": "phrase",
     "resultPattern": "\\bboth ends",
     "segsMatched": 18,

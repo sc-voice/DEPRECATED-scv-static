@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "emancipated individual able to go",
+    "elapsed": 0.272,
     "method": "phrase",
     "resultPattern": "\\bemancipated individual able to go",
     "segsMatched": 3,

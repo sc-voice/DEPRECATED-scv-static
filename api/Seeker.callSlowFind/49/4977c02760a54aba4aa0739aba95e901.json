@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "traurigkeit, die mit gier, hass und täuschung",
+    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\btraurigkeit, die mit gier, hass und täuschung",
     "segsMatched": 4,

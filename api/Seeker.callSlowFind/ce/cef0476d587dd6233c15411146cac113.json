@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a little learning",
+    "elapsed": 0.011,
     "method": "phrase",
     "resultPattern": "\\ba little learning",
     "segsMatched": 6,

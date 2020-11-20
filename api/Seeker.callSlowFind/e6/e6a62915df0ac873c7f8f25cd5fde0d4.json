@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "knows mind with greed",
+    "elapsed": 0.153,
     "method": "phrase",
     "resultPattern": "\\bknows mind with greed",
     "segsMatched": 2,

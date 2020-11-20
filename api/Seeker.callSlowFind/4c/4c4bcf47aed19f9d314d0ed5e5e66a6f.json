@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "durch vertrauen befreit",
+    "elapsed": 0.398,
     "method": "phrase",
     "resultPattern": "\\bdurch vertrauen befreit",
     "segsMatched": 13,

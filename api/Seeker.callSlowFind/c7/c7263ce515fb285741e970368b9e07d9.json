@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "drei menschen",
+    "elapsed": 0.576,
     "method": "phrase",
     "resultPattern": "\\bdrei menschen",
     "segsMatched": 52,

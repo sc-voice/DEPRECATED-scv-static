@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "make a refuge for themselves",
+    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\bmake a refuge for themselves",
     "segsMatched": 1,

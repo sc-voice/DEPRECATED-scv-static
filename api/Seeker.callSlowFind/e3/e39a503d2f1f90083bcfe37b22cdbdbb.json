@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "rid of craving",
+    "elapsed": 0.228,
     "method": "phrase",
     "resultPattern": "\\brid of craving",
     "segsMatched": 9,

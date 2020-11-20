@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eight kinds of people",
+    "elapsed": 0.011,
     "method": "phrase",
     "resultPattern": "\\beight kinds of people",
     "segsMatched": 1,

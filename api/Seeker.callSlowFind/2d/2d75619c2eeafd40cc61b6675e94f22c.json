@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "observes the sabbath",
+    "elapsed": 0.1,
     "method": "phrase",
     "resultPattern": "\\bobserves the sabbath",
     "segsMatched": 6,

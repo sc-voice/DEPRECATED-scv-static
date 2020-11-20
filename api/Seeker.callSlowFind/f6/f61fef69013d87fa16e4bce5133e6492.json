@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gibt dem besten",
+    "elapsed": 0.015,
     "method": "phrase",
     "resultPattern": "\\bgibt dem besten",
     "segsMatched": 2,

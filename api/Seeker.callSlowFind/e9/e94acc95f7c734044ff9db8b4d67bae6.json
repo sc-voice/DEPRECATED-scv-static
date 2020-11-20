@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "as long as a finger",
+    "elapsed": 0.095,
     "method": "phrase",
     "resultPattern": "\\bas long as a finger",
     "segsMatched": 10,

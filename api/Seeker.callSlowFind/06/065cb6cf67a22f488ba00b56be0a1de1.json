@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ein stelzen-langhaus am zentralen platz",
+    "elapsed": 0.064,
     "method": "phrase",
     "resultPattern": "\\bein stelzen-langhaus am zentralen platz",
     "segsMatched": 1,

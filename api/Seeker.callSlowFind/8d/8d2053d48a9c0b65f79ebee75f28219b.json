@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in äußeren dingen",
+    "elapsed": 0.008,
     "method": "phrase",
     "resultPattern": "\\bin äußeren dingen",
     "segsMatched": 1,

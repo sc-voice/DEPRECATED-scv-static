@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "durch die wüste entlangwanderte",
+    "elapsed": 0.075,
     "method": "phrase",
     "resultPattern": "\\bdurch die wüste entlangwanderte",
     "segsMatched": 1,

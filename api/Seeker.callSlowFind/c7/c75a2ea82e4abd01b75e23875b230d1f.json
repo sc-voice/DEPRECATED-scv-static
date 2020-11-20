@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the wise give",
+    "elapsed": 0.024,
     "method": "phrase",
     "resultPattern": "\\bthe wise give",
     "segsMatched": 2,

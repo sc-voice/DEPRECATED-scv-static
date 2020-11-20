@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erbärmlich",
+    "elapsed": 0.027,
     "method": "phrase",
     "resultPattern": "\\berbärmlich",
     "segsMatched": 3,

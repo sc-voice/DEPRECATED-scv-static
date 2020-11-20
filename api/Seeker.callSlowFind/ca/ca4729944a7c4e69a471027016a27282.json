@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "weisheit in ihrem ganzen umfang",
+    "elapsed": 0.083,
     "method": "keywords",
     "resultPattern": "\\bweisheit|\\bin|\\bihrem|\\bganzen|\\bumfang",
     "segsMatched": 2,

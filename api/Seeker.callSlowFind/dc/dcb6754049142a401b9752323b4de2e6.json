@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "two kinds of people",
+    "elapsed": 0.071,
     "method": "phrase",
     "resultPattern": "\\btwo kinds of people",
     "segsMatched": 8,

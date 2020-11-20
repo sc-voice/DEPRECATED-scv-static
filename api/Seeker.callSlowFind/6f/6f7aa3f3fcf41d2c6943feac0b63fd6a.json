@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "blau seerosen",
+    "elapsed": 0.454,
     "method": "keywords",
     "resultPattern": "\\bblau|\\bseerosen",
     "segsMatched": 6,
@@ -201,7 +202,7 @@
           "dn17:1.23.2": {
             "scid": "dn17:1.23.2",
             "pli": "‘yannūnāhaṁ imāsu pokkharaṇīsu evarūpaṁ mālaṁ ropāpeyyaṁ uppalaṁ padumaṁ kumudaṁ puṇḍarīkaṁ sabbotukaṁ sabbajanassa anāvaṭan’ti. ",
-            "de": "‚Warum lasse ich nicht ich in den Lotusteichen Blumen anpflanzen wie \u001b[38;5;121mblau\u001b[0me \u001b[38;5;121mSeerosen\u001b[0m, rosa, gelbe und weiße Lotusblumen, die das ganze Jahr über blühen und für die Öffentlichkeit zugänglich sind?‘ ",
+            "de": "‚Warum lasse ich nicht in den Lotusteichen Blumen anpflanzen wie \u001b[38;5;121mblau\u001b[0me \u001b[38;5;121mSeerosen\u001b[0m, rosa, gelbe und weiße Lotusblumen, die das ganze Jahr über blühen und für die Öffentlichkeit zugänglich sind?‘ ",
             "en": "‘Why don’t I plant flowers in the lotus ponds such as blue water lilies, and lotuses of pink, yellow, and white, blooming all year round, and accessible to the public?’ ",
             "matched": true
           }
@@ -213,7 +214,7 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 444,
-          "de": 246,
+          "de": 359,
           "en": 443
         }
       },

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "things in themselves",
+    "elapsed": 0.363,
     "method": "phrase",
     "resultPattern": "\\bthings in themselves",
     "segsMatched": 11,

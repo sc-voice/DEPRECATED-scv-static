@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "um die wesen zu läutern",
+    "elapsed": 0.094,
     "method": "phrase",
     "resultPattern": "\\bum die wesen zu läutern",
     "segsMatched": 9,

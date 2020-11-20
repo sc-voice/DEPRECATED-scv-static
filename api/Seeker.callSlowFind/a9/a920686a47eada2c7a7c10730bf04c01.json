@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "etwas übrig bleibt",
+    "elapsed": 0.059,
     "method": "phrase",
     "resultPattern": "\\betwas übrig bleibt",
     "segsMatched": 6,

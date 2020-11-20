@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "einzig der schönheit zugeneigt",
+    "elapsed": 0,
     "method": "keywords",
     "resultPattern": "\\beinzig|\\bder|\\bschönheit|\\bzugeneigt",
     "segsMatched": 0,

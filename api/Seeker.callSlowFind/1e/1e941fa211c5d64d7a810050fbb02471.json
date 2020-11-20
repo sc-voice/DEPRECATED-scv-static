@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "cause you suffering",
+    "elapsed": 0.004,
     "method": "phrase",
     "resultPattern": "\\bcause you suffering",
     "segsMatched": 1,

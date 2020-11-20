@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "lotus ascetic",
+    "elapsed": 0.462,
     "method": "phrase",
     "resultPattern": "\\blotus ascetic",
     "segsMatched": 21,

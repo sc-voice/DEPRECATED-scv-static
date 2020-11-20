@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "herr des waldes",
+    "elapsed": 0.018,
     "method": "keywords",
     "resultPattern": "\\bherr|\\bdes|\\bwaldes",
     "segsMatched": 2,

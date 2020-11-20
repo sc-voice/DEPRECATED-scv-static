@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in order to purify sentient beings",
+    "elapsed": 0.297,
     "method": "phrase",
     "resultPattern": "\\bin order to purify sentient beings",
     "segsMatched": 23,

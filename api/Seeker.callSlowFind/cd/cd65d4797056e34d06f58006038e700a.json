@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sag wahrheit",
+    "elapsed": 0.821,
     "method": "keywords",
     "resultPattern": "\\bsag|\\bwahrheit",
     "segsMatched": 4,

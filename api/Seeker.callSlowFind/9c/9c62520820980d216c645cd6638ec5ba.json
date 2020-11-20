@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "goldschmied",
+    "elapsed": 0,
     "method": "keywords",
     "resultPattern": "\\bgoldschmied",
     "segsMatched": 0,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "peaceful meditations",
+    "elapsed": 0.628,
     "method": "phrase",
     "resultPattern": "\\bpeaceful meditations",
     "segsMatched": 7,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dich bekümmern",
+    "elapsed": 0.014,
     "method": "phrase",
     "resultPattern": "\\bdich bekümmern",
     "segsMatched": 1,

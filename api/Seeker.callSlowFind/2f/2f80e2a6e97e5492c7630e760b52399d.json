@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn dieses besteht, ist jenes",
+    "elapsed": 0.022,
     "method": "phrase",
     "resultPattern": "\\bwenn dieses besteht, ist jenes",
     "segsMatched": 4,

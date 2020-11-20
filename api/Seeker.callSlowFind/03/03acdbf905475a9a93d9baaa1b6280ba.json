@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "destroyer of the sorrows of many",
+    "elapsed": 0.017,
     "method": "phrase",
     "resultPattern": "\\bdestroyer of the sorrows of many",
     "segsMatched": 2,

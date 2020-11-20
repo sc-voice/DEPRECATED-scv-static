@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dunklen auf dem weg zum licht",
+    "elapsed": 0.449,
     "method": "phrase",
     "resultPattern": "\\bdunklen auf dem weg zum licht",
     "segsMatched": 3,

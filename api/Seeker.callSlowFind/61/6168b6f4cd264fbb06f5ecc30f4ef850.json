@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unglück der vielen",
+    "elapsed": 0.681,
     "method": "phrase",
     "resultPattern": "\\bunglück der vielen",
     "segsMatched": 18,

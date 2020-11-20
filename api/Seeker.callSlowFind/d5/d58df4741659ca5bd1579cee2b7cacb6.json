@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "commemorate",
+    "elapsed": 0.006,
     "method": "phrase",
     "resultPattern": "\\bcommemorate",
     "segsMatched": 4,

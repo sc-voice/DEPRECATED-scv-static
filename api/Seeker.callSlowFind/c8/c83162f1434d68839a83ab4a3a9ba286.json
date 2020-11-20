@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "der ethik und der weisheit",
+    "elapsed": 0.045,
     "method": "phrase",
     "resultPattern": "\\bder ethik und der weisheit",
     "segsMatched": 3,

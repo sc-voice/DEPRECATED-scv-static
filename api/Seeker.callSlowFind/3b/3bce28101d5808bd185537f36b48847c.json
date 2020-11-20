@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "prevent another from giving",
+    "elapsed": 0.871,
     "method": "keywords",
     "resultPattern": "\\bprevent|\\banother|\\bfrom|\\bgiving",
     "segsMatched": 2,

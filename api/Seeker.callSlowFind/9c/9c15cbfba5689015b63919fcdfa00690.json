@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "outstanding enthusiasm",
+    "elapsed": 0.07,
     "method": "phrase",
     "resultPattern": "\\boutstanding enthusiasm",
     "segsMatched": 28,

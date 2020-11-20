@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "speisen aus vertrauen gespendet",
+    "elapsed": 0.089,
     "method": "keywords",
     "resultPattern": "\\bspeisen|\\baus|\\bvertrauen|\\bgespendet",
     "segsMatched": 1,
@@ -57,7 +58,7 @@
           "dn10:1.28.1": {
             "scid": "dn10:1.28.1",
             "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
-            "de": "Da sind manche Asketen und Brahmanen, die \u001b[38;5;121mSpeisen\u001b[0m genießen, die \u001b[38;5;121maus\u001b[0m \u001b[38;5;121mVertrauen\u001b[0m \u001b[38;5;121mgespendet\u001b[0m wurden. Und dennoch verdienen sie ihren Unterhalt mit unwürdigen Wissenszweigen, mit einem falschen Lebenserwerb, ",
+            "de": "Da sind manche Asketen und Brahmanen, die \u001b[38;5;121mSpeisen\u001b[0m genießen, die \u001b[38;5;121maus\u001b[0m \u001b[38;5;121mVertrauen\u001b[0m \u001b[38;5;121mgespendet\u001b[0m wurden. Und dennoch verdienen sie ihren Unterhalt mit unwürdigen Wissenszweigen, mit einem falschen Lebenserwerb: ",
             "en": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
             "matched": true
           }

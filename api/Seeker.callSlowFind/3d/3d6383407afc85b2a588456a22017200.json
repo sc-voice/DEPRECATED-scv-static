@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "all skillful qualities",
+    "elapsed": 0.105,
     "method": "phrase",
     "resultPattern": "\\ball skillful qualities",
     "segsMatched": 11,

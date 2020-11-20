@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "like a ball of thread",
+    "elapsed": 0.092,
     "method": "phrase",
     "resultPattern": "\\blike a ball of thread",
     "segsMatched": 6,

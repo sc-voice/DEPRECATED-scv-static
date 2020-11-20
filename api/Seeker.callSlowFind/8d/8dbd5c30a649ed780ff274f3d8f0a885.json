@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "brutal",
+    "elapsed": 0.156,
     "method": "phrase",
     "resultPattern": "\\bbrutal",
     "segsMatched": 53,

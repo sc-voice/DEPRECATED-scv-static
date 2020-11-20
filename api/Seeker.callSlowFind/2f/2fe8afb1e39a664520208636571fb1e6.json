@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "goosebumps",
+    "elapsed": 0.787,
     "method": "phrase",
     "resultPattern": "\\bgoosebumps",
     "segsMatched": 33,

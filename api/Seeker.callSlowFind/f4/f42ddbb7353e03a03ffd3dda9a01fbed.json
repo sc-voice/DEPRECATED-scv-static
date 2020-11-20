@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zu kummer",
+    "elapsed": 0.038,
     "method": "phrase",
     "resultPattern": "\\bzu kummer",
     "segsMatched": 5,

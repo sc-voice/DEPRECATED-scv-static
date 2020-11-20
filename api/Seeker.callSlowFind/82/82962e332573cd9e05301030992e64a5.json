@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "low, crude, ordinary, ignoble, and pointless",
+    "elapsed": 0.346,
     "method": "phrase",
     "resultPattern": "\\blow, crude, ordinary, ignoble, and pointless",
     "segsMatched": 20,

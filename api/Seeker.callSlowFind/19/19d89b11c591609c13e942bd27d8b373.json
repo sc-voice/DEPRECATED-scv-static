@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "fingerschnippen",
+    "elapsed": 0.059,
     "method": "phrase",
     "resultPattern": "\\bfingerschnippen",
     "segsMatched": 19,

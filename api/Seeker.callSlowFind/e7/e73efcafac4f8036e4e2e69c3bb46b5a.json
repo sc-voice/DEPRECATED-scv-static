@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "traveling along a desert road",
+    "elapsed": 0.25,
     "method": "phrase",
     "resultPattern": "\\btraveling along a desert road",
     "segsMatched": 3,

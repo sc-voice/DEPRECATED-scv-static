@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vier edle wahrheiten",
+    "elapsed": 0.101,
     "method": "keywords",
     "resultPattern": "\\bvier|\\bedle|\\bwahrheiten",
     "segsMatched": 9,

@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "extinguished until i have nun disciples",
+    "elapsed": 0.616,
     "method": "phrase",
     "resultPattern": "\\bextinguished until i have nun disciples",
     "segsMatched": 3,

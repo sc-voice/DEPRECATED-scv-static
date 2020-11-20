@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "relish work",
+    "elapsed": 0.563,
     "method": "phrase",
     "resultPattern": "\\brelish work",
     "segsMatched": 18,

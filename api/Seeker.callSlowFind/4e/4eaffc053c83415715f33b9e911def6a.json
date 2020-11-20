@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "giving gifts",
+    "elapsed": 0.259,
     "method": "phrase",
     "resultPattern": "\\bgiving gifts",
     "segsMatched": 11,

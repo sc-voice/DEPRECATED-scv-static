@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "es für dich zu kummer",
+    "elapsed": 0.013,
     "method": "phrase",
     "resultPattern": "\\bes für dich zu kummer",
     "segsMatched": 4,

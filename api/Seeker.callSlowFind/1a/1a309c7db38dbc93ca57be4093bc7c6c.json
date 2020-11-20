@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "freed by faith",
+    "elapsed": 0.545,
     "method": "phrase",
     "resultPattern": "\\bfreed by faith",
     "segsMatched": 23,

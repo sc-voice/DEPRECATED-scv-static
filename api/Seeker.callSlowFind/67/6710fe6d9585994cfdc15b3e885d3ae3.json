@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "remember the householder",
+    "elapsed": 0.08,
     "method": "phrase",
     "resultPattern": "\\bremember the householder",
     "segsMatched": 9,

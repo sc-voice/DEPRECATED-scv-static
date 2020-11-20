@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "riese",
+    "elapsed": 0.055,
     "method": "phrase",
     "resultPattern": "\\briese",
     "segsMatched": 39,

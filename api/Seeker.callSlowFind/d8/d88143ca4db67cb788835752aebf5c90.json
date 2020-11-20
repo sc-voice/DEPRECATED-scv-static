@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "fear and terror",
+    "elapsed": 0.06,
     "method": "phrase",
     "resultPattern": "\\bfear and terror",
     "segsMatched": 11,

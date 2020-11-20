@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "lord of the",
+    "elapsed": 0.681,
     "method": "phrase",
     "resultPattern": "\\blord of the",
     "segsMatched": 42,

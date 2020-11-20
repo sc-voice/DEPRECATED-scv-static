@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eine fleckenlose wonne",
+    "elapsed": 0.089,
     "method": "phrase",
     "resultPattern": "\\beine fleckenlose wonne",
     "segsMatched": 2,

@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die weisen geben",
+    "elapsed": 0.007,
     "method": "phrase",
     "resultPattern": "\\bdie weisen geben",
     "segsMatched": 1,

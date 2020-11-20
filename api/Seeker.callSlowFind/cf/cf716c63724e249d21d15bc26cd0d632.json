@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vereinigung",
+    "elapsed": 0.058,
     "method": "phrase",
     "resultPattern": "\\bvereinigung",
     "segsMatched": 2,

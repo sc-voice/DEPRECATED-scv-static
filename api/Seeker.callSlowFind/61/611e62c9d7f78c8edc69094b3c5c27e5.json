@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wenn ich diese gabe gebe",
+    "elapsed": 0.361,
     "method": "phrase",
     "resultPattern": "\\bwenn ich diese gabe gebe",
     "segsMatched": 1,

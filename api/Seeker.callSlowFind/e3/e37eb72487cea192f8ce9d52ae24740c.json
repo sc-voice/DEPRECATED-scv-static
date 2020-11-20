@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "den besinnungstag ein",
+    "elapsed": 0.24,
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag ein",
     "segsMatched": 28,
@@ -342,7 +343,7 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 444,
-          "de": 246,
+          "de": 359,
           "en": 443
         }
       }

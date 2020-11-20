@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "versenkung weiterzuentwickeln",
+    "elapsed": 0.44,
     "method": "phrase",
     "resultPattern": "\\bversenkung weiterzuentwickeln",
     "segsMatched": 11,

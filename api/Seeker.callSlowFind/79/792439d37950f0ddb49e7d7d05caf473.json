@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "learn the characteristics",
+    "elapsed": 0.06,
     "method": "keywords",
     "resultPattern": "\\blearn|\\bthe|\\bcharacteristics",
     "segsMatched": 0,

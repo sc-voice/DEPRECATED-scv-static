@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "when wisdom vanishes",
+    "elapsed": 0.003,
     "method": "phrase",
     "resultPattern": "\\bwhen wisdom vanishes",
     "segsMatched": 1,

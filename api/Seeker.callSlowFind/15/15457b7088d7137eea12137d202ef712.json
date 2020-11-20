@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "so viele eimer",
+    "elapsed": 0.035,
     "method": "phrase",
     "resultPattern": "\\bso viele eimer",
     "segsMatched": 3,

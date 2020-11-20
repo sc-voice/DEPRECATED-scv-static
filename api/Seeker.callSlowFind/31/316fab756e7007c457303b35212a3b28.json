@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "drei kennzeichen",
+    "elapsed": 0.009,
     "method": "phrase",
     "resultPattern": "\\bdrei kennzeichen",
     "segsMatched": 8,

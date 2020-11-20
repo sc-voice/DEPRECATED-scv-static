@@ -29,6 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "becomes established",
+    "elapsed": 0.053,
     "method": "phrase",
     "resultPattern": "\\bbecomes established",
     "segsMatched": 17,

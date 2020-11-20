@@ -30,6 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sei deine eigene insel",
+    "elapsed": 0.01,
     "method": "phrase",
     "resultPattern": "\\bsei deine eigene insel",
     "segsMatched": 1,
