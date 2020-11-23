@@ -1,3 +1,4 @@
+.nuxt/
 ssl/
 *.wiki
 local/

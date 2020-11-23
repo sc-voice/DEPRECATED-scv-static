@@ -1388,6 +1388,6 @@
         let example = 'sei.* abhängig entstanden';
         let lang = 'de';
         let guid = '00573864f912535f6266440c1c89a471';
-        should(skr.exampleJson(example, lang)).equal(guid);
+        should(skr.exampleGuid(example, lang)).equal(guid);
     });
 })
