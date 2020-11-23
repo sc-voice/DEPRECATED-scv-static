@@ -2,13 +2,14 @@
 
 git status 2> /dev/null | grep "nothing to commit"; RC=$?
 if [ "$RC" == "0" ]; then
-  echo -e "BUILD\t: git is clean (OK)"
+  echo -e "DEPLOY\t: git is clean (OK)"
 else
-  echo -e "BUILD\t: git is NOT clean (CANCELED)"
+  echo -e "DEPLOY\t: git is NOT clean (CANCELED)"
   exit -1
 fi
 git checkout build
 git merge main -m "deploy: merge main" &&\
 npm run generate &&\
 npm run deploy &&\
+echo -e "DEPLOY\t: done"
 
