@@ -11,6 +11,7 @@ git checkout deploy
 git merge main -m "deploy: merge main" &&\
 npm run generate &&\
 npm run deploy &&\
+git push &&\
 git checkout main &&\
 echo -e "DEPLOY\t: done"
 
