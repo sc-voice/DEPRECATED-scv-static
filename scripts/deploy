@@ -7,7 +7,7 @@ else
   echo -e "DEPLOY\t: git is NOT clean (CANCELED)"
   exit -1
 fi
-git checkout build
+git checkout deploy
 git merge main -m "deploy: merge main" &&\
 npm run generate &&\
 npm run deploy &&\
