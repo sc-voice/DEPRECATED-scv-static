@@ -110,7 +110,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'ScvExamples'
+      title: 'scv-examples'
     }
   }
 }
