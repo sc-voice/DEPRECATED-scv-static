@@ -29,7 +29,8 @@
     "test:watch": "mocha -w --inline-diffs",
     "dev": "nuxt",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "repository": {
     "tag": "git"
