@@ -12,6 +12,7 @@
           <v-text-field 
             label="Search"
           />
+          examples: {{examples}}
         </v-card-text>
         <v-card-actions>
           <v-spacer />
@@ -30,10 +31,23 @@
 
 <script>
 import Logo from '~/components/logo.vue'
+import examples from '../api/examples.json'
 
 export default {
   components: {
     Logo,
-  }
+  },
+  computed: {
+    g() {
+        return this.$g || {};
+    },
+    examples() {
+        let {
+            language,
+        } = this.g;
+        let lang = (language||'noLanguage').split('-')[0];
+        return examples[lang] || `no-examples ${lang}`;
+    },
+  },
 }
 </script>
