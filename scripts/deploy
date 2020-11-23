@@ -8,4 +8,5 @@ else
   exit -1
 fi
 git checkout build
-git merge main
+git merge main -m "merge main"
+
