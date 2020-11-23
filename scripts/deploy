@@ -8,5 +8,7 @@ else
   exit -1
 fi
 git checkout build
-git merge main -m "merge main"
+git merge main -m "deploy: merge main" &&\
+npm run generate &&\
+npm run deploy &&\
 
