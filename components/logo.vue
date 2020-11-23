@@ -2,7 +2,7 @@
   <img
     class="Logo"
     alt="Logo"
-    src="/wheel.png"
+    src="wheel.png"
   >
 </template>
 
