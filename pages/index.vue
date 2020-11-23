@@ -6,7 +6,7 @@
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to ScvExamples
+          Welcome to scv-examples
         </v-card-title>
         <v-card-text>
           <v-text-field 
