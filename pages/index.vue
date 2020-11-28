@@ -1,18 +1,17 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <div class="text-center">
-        <Logo />
+      <div class="headline" style="display: flex; align-items: center"> 
+        <Logo/>
+        scv-examples 
       </div>
       <v-card>
-        <v-card-title class="headline">
-          Welcome to scv-examples
+        <v-card-title class="caption">
+          scv-search component
         </v-card-title>
         <v-card-text>
-          <v-text-field 
-            label="Search"
+          <scv-search
           />
-          examples: {{examples}}
         </v-card-text>
         <v-card-actions>
           <v-spacer />
@@ -30,23 +29,26 @@
 </template>
 
 <script>
-import Logo from '~/components/logo.vue'
-import examples from '../api/examples.json'
+import Vue from 'vue';
+import Logo from '~/components/logo.vue';
+import ScvSearch from '~/components/scv-search.vue';
 
 export default {
   components: {
     Logo,
+    ScvSearch,
+  },
+  data: function(){
+    return {
+    };
+  },
+  mounted() {
+  },
+  methods:{
   },
   computed: {
     g() {
         return this.$g || {};
-    },
-    examples() {
-        let {
-            language,
-        } = this.g;
-        let lang = (language||'noLanguage').split('-')[0];
-        return examples[lang] || `no-examples ${lang}`;
     },
   },
 }

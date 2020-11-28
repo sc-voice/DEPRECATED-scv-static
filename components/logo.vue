@@ -8,9 +8,9 @@
 
 <style>
 .Logo {
-  height: 180px;
-  width: 180px;
-  transform: rotateY(560deg);
+  height: 30px;
+  width: 30px;
+  transform: rotateY(560deg) rotateZ(360deg);
   animation: turn 3.5s ease-out forwards 1s;
 }
 
