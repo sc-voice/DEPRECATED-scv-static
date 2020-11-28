@@ -3,27 +3,35 @@
     <v-col cols="12" sm="8" md="6">
       <div class="headline" style="display: flex; align-items: center"> 
         <Logo/>
-        scv-examples 
+        Vue Components
       </div>
       <v-card>
-        <v-card-title class="caption">
-          scv-search component
+        <v-card-title class="h6">
+          &lt;scv-search-field /&gt;
         </v-card-title>
         <v-card-text>
-          <scv-search
-          />
+          ScvSearchField is an auto-completion text field that accepts
+          Suttacentral sutta references as well as arbitrary search strings.
+          Search strings are automatically completed with 
+          <a href="https://github.com/sc-voice/scv-examples/blob/main/api/examples.json"
+            target="_blank">
+            examples.json
+          </a>. 
+          It emits the <kbd>search-text</kbd> event with the search text as its value
+
+          <v-card light class="mt-5">
+            <scv-search-field
+              v-on:search-text="searchText"
+            />
+            <v-spacer/>
+          </v-card>
         </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
       </v-card>
+      <v-alert type="info" text elevation="10" :value="!!alertSearch"
+        transition="expand"
+      >
+        You searched for "{{alertSearch}}"
+      </v-alert/>
     </v-col>
   </v-row>
 </template>
@@ -31,20 +39,25 @@
 <script>
 import Vue from 'vue';
 import Logo from '~/components/logo.vue';
-import ScvSearch from '~/components/scv-search.vue';
+import ScvSearchField from '~/components/scv-search-field.vue';
 
 export default {
   components: {
     Logo,
-    ScvSearch,
+    ScvSearchField,
   },
   data: function(){
     return {
+      alertSearch: '',
     };
   },
   mounted() {
   },
   methods:{
+    searchText(value) {
+      console.log(`searchText`, value);
+      Vue.set(this, "alertSearch", value);
+    },
   },
   computed: {
     g() {
