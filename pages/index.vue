@@ -1,13 +1,10 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <div class="headline" style="display: flex; align-items: center"> 
-        <Logo/>
-        Vue Components
-      </div>
+      <div class="text-h5"> Vue Components </div>
       <v-card>
-        <v-card-title class="h6">
-          &lt;scv-search-field /&gt;
+        <v-card-title class="text-h6">
+          scv-search-field
         </v-card-title>
         <v-card-text>
           ScvSearchField is an auto-completion text field that accepts
@@ -21,6 +18,7 @@
 
           <v-card light class="mt-5">
             <scv-search-field
+              lang="de"
               v-on:search-text="searchText"
             />
             <v-spacer/>
@@ -38,12 +36,10 @@
 
 <script>
 import Vue from 'vue';
-import Logo from '~/components/logo.vue';
 import ScvSearchField from '~/components/scv-search-field.vue';
 
 export default {
   components: {
-    Logo,
     ScvSearchField,
   },
   data: function(){

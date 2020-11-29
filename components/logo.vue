@@ -8,8 +8,8 @@
 
 <style>
 .Logo {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   transform: rotateY(560deg) rotateZ(360deg);
   animation: turn 3.5s ease-out forwards 1s;
 }

@@ -18,6 +18,9 @@ const GITHUB = 'https://raw.githubusercontent.com';
 export default {
   components: {
   },
+  props: {
+    lang: String,
+  },
   data: function(){
     return {
       examples: 'tbd',
@@ -25,10 +28,7 @@ export default {
     };
   },
   async mounted() {
-    let {
-        language,
-    } = this.g;
-    let lang = (language||'noLanguage').split('-')[0];
+    let lang = (this.lang||'noLanguage').split('-')[0];
     let url = `${GITHUB}/sc-voice/scv-examples/main/api/examples.json`;
     let exLang = `no-examples ${lang}`;
     try {
@@ -53,9 +53,6 @@ export default {
     }
   },
   computed: {
-    g() {
-        return this.$g || {};
-    },
     searchItems() {
       var search = (this.search||'').toLowerCase();
       var examples = search
