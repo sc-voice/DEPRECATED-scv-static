@@ -2,6 +2,8 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <div class="text-h5"> Vue Components </div>
+      lang:{{lang}}
+      <v-select :items="langItems" filled v-model="lang" label="Language" />
       <v-card>
         <v-card-title class="text-h6">
           scv-search-field
@@ -18,7 +20,7 @@
 
           <v-card light class="mt-5">
             <scv-search-field
-              lang="de"
+              :lang="lang"
               v-on:search-text="searchText"
             />
             <v-spacer/>
@@ -45,6 +47,7 @@ export default {
   data: function(){
     return {
       alertSearch: '',
+      lang: 'de',
     };
   },
   mounted() {
@@ -58,6 +61,12 @@ export default {
   computed: {
     g() {
         return this.$g || {};
+    },
+    langItems() {
+      return [
+        { text: 'English', value: 'en', },
+        { text: 'Deutsch', value: 'de', },
+      ];
     },
   },
 }
