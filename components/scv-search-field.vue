@@ -1,13 +1,23 @@
 <template>
-  <v-autocomplete v-if="examples"
-    ref="refSearchAuto"
-    v-model="search"
-    :items="searchItems"
-    :search-input.sync="search"
-    :filter="searchFilter"
-    clearable
-    @input="onSearchInput($event)"
-  ></v-autocomplete>
+  <div v-if="examples">
+    <v-autocomplete 
+      ref="refSearchAuto"
+      v-model="search"
+      :items="searchItems"
+      :search-input.sync="search"
+      :filter="searchFilter"
+      clearable
+      @input="onSearchInput($event)"
+    ></v-autocomplete>
+    <div class="scv-inspire-row">
+      <v-btn @click="clickInspireMe()"
+        role="button"
+        :aria-label="$t('inspireMe')"
+        class="scv-inspire " :style="cssVars" small>
+        {{$t('inspireMe')}}
+      </v-btn>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -19,29 +29,34 @@ export default {
   components: {
   },
   props: {
-    lang: String,
   },
   data: function(){
     return {
-      examples: 'tbd',
+      examples: null,
       search: '',
     };
   },
   async mounted() {
-    let lang = (this.lang||'noLanguage').split('-')[0];
+    let { $vuetify, } = this;
+    let lang = ($vuetify.lang.current||'noLanguage').split('-')[0];
     let url = `${GITHUB}/sc-voice/scv-examples/main/api/examples.json`;
     let exLang = `no-examples ${lang}`;
     try {
       let res = await this.$axios.get(url);
-      exLang = res.data[lang] || exLang;
-      console.log(`current examples loaded ${lang}:${exLang.length}`);
+      Vue.set(this, 'examples', res.data);
+      console.log(`examples loaded: ${Object.keys(res.data)}`);
     } catch(e) {
-      exLang = examples[lang] || exLang;
-      console.warn(`${e.message} => using default examples ${lang}:${exLang.length}`);
+      Vue.set(this, 'examples', examples);
+      console.warn(`${e.message} => using default examples:${Object.keys(res.data)}`);
     }
-    Vue.set(this, "examples", exLang);
   },
   methods:{
+    $t(key) {
+      let { 
+        $vuetify,
+      } = this;
+      return $vuetify.lang.t(`$vuetify.scv.${key}`);
+    },
     onSearchInput(value) {
       console.log(`onSearchInput emit:${value}`);
       this.$emit("search-text", value);
@@ -50,14 +65,37 @@ export default {
       let it = itemText.toLowerCase();
       let qt = queryText.toLowerCase();
       return it.indexOf(qt) >= 0;
-    }
+    },
+    clickInspireMe() {
+      let { 
+        $vuetify,
+        examples, 
+      } = this;
+      let that = this;
+      let langEx = examples[$vuetify.lang.current] || examples.en;
+      let iExample = Math.trunc(Math.random() * langEx.length);
+      let eg = langEx[iExample];
+      Vue.set(this, "search", eg);
+      this.$nextTick(()=>{
+        that.onSearchInput(eg);
+      });
+      console.log('clickInspireMe', eg);
+    },
   },
   computed: {
+    cssVars() {
+      return {
+        //"--seg-text-width": this.segTextWidth,
+        //'--success-color': this.$vuetify.theme.success,
+      }
+    },
     searchItems() {
+      let { $vuetify, } = this;
       var search = (this.search||'').toLowerCase();
+      var langEx = this.examples[$vuetify.lang.current] || this.examples.en;
       var examples = search
-        ? this.examples.filter(ex=>ex.toLowerCase().indexOf(search)>=0)
-        : this.examples;
+        ? langEx.filter(ex=>ex.toLowerCase().indexOf(search)>=0)
+        : langEx;
       return !search || examples.includes(this.search) 
         ? [ ...examples ]
         : [`${this.search}`, ...examples];
@@ -65,3 +103,27 @@ export default {
   },
 }
 </script>
+<style>
+.scv-inspire {
+    margin-left: 1px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: none;
+    font-size: 12px;
+    border: 1px solid #383838;
+    height: 24px;
+    //background: #212121 !important;
+}
+.scv-inspire:focus {
+    border: 1pt solid #888;
+    border-color: #82B1FFa;
+    outline: 1pt solid #82B1FF;
+}
+.scv-inspire-row {
+    margin: -0.8em 0 0.5em 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+</style>

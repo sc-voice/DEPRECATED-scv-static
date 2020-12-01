@@ -1,4 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
+import en from './src/i18n/en.ts'
+import de from './src/i18n/de.ts'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -62,7 +64,13 @@ export default {
           success: colors.green.accent3
         }
       }
-    }
+    },
+    lang: {  // IMPORTANT: set up i18n "scv" labels
+        locales: {
+            en,
+            de,
+        },
+    },
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

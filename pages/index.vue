@@ -2,26 +2,28 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <div class="text-h5"> Vue Components </div>
-      lang:{{lang}}
-      <v-select :items="langItems" filled v-model="lang" label="Language" />
+      <v-select :items="langItems" filled 
+        v-model="$vuetify.lang.current" 
+        label="Language" 
+      />
       <v-card>
-        <v-card-title class="text-h6">
-          scv-search-field
-        </v-card-title>
         <v-card-text>
-          ScvSearchField is an auto-completion text field that accepts
-          Suttacentral sutta references as well as arbitrary search strings.
-          Search strings are automatically completed with 
-          <a href="https://github.com/sc-voice/scv-examples/blob/main/api/examples.json"
-            target="_blank">
-            examples.json
-          </a>. 
-          It emits the <kbd>search-text</kbd> event with the search text as its value
+          <details>
+            <summary class="text-h6">scv-search-field</summary>
+            ScvSearchField is an auto-completion text field that accepts
+            Suttacentral sutta references as well as arbitrary search strings.
+            Search strings are automatically completed with 
+            <a :href="githubUrl('api/examples.json')"
+              target="_blank">
+              examples.json
+            </a>. 
+            It emits the <kbd>search-text</kbd> event with the search text as its value
+          </details>
 
           <v-card light class="mt-5">
             <scv-search-field
               :lang="lang"
-              v-on:search-text="searchText"
+              v-on:search-text="search"
             />
             <v-spacer/>
           </v-card>
@@ -51,11 +53,16 @@ export default {
     };
   },
   mounted() {
+    let { $vuetify } = this;
+    console.log(`dbg index mounted`, Object.keys($vuetify), $vuetify.lang);
   },
   methods:{
-    searchText(value) {
-      console.log(`searchText`, value);
+    search(value) {
+      console.log(`search:`, value);
       Vue.set(this, "alertSearch", value);
+    },
+    githubUrl(path) {
+      return `https://github.com/sc-voice/scv-examples/blob/main/${path}`;
     },
   },
   computed: {
