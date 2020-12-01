@@ -60,13 +60,14 @@
       :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; {{ new Date().getFullYear() }} v{{version}}</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
 import Logo from '~/components/logo.vue';
+const { version } = require('~/package.json');
 
 export default {
   components: {
@@ -94,6 +95,11 @@ export default {
       rightDrawer: false,
       title: 'scv-examples'
     }
-  }
+  },
+  computed: {
+    version() {
+      return version;
+    },
+  },
 }
 </script>
