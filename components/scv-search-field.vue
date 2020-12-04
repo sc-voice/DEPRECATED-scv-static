@@ -25,6 +25,7 @@
 import Vue from 'vue';
 import examples from '../api/examples.json';
 const GITHUB = 'https://raw.githubusercontent.com';
+const ExampleSeeker = require('~/src/example-seeker');
 
 export default {
   components: {
@@ -35,6 +36,7 @@ export default {
     return {
       examples: null,
       search: '',
+      seeker: null,
     };
   },
   async mounted() {
@@ -50,6 +52,8 @@ export default {
       Vue.set(this, 'examples', examples);
       console.warn(`${e.message} => using default examples:${Object.keys(res.data)}`);
     }
+    let axios = this.$axios;
+    this.seeker = new ExampleSeeker({axios});
   },
   methods:{
     $t(key) {
@@ -58,10 +62,20 @@ export default {
       } = this;
       return $vuetify.lang.t(`$vuetify.scv.${key}`);
     },
-    onSearchInput(value) {
+    async onSearchInput(pattern) { try {
       console.log(`onSearchInput emit:${value}`);
+
+      let value = pattern
+        ? await this.seeker.find({
+            pattern, 
+            lang: this.$vuetify.lang.current,
+          })
+        : {};
+      this.$store.commit('scvSearchResults', value);
       this.$emit("search-text", value);
-    },
+    } catch(e) {
+      console.error(`onSearchInput(${pattern})`, e.message);
+    }},
     searchFilter(item, queryText, itemText) {
       let it = itemText.toLowerCase();
       let qt = queryText.toLowerCase();
