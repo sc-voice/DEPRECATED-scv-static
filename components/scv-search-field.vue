@@ -56,12 +56,6 @@ export default {
     this.seeker = new ExampleSeeker({axios});
   },
   methods:{
-    $t(key) {
-      let { 
-        $vuetify,
-      } = this;
-      return $vuetify.lang.t(`$vuetify.scv.${key}`);
-    },
     async onSearchInput(pattern) { try {
       console.log(`onSearchInput emit:${value}`);
 

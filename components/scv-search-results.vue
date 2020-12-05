@@ -7,7 +7,7 @@
       :aria-label="ariaFoundSuttas(resultCount, playlistDuration.aria)"
       class='title pt-1 pb-1'>
       <span aria-hidden=true>
-        {{t('foundSuttas')
+        {{$t('foundSuttas')
             .replace(/A_RESULTCOUNT/,resultCount)
             .replace(/A_SEARCH/, search)}}
         ({{playlistDuration.display}})
@@ -24,22 +24,22 @@
           <summary v-else
               role="main" ref="refResults"
               aria-level="1" 
-              :aria-label="$vuetify.lang.t('$vuetify.dataIterator.noResultsText')"
+              :aria-label="$t('noResultsText')"
               class='title'>
-              {{$vuetify.lang.t('$vuetify.dataIterator.noResultsText')}}
+              {{$t('dataIterator.noResultsText')}}
           </summary>
           <div class="scv-playlist ml-3 pt-2 pl-3" 
             v-if="gscv.voices.length" >
             <v-btn icon small fab v-if="playable"
                 @click="playSearchText()"
-                :title="$vuetify.lang.t('$vuetify.scv.speakSearchText')"
+                :title="$t('speakSearchText')"
                 :disabled="!playSearch.signature"
                 class="scv-icon-btn" :style="cssVars" >
                 <v-icon>chat_bubble_outline</v-icon>
             </v-btn>
             <v-btn icon v-if="playable"
                 @click="playAll()"
-                :title="$vuetify.lang.t('$vuetify.scv.playAll')"
+                :title="$t('playAll')"
                 class="scv-icon-btn" :style="cssVars" small>
                 <v-icon>play_circle_outline</v-icon>
             </v-btn>
@@ -110,7 +110,7 @@
                       </v-btn>
                   </div>
                   <div class="scv-score">
-                      {{$vuetify.lang.t('$vuetify.scv.relevance')}}
+                      {{$t('relevance')}}
                       {{score(result)}}
                   </div>
               </div>
@@ -157,15 +157,9 @@ export default {
     this.suttaDuration = await new SuttaDuration({axios}).initialize();
   },
   methods:{
-    t(key) {
-      let { 
-        $vuetify,
-      } = this;
-      return $vuetify.lang.t(`$vuetify.scv.${key}`);
-    },
     ariaFoundSuttas(resultCount, duration) {
         //:aria-label="`Found ${resultCount} sootas ${playlistDuration.aria}`"
-        var tmplt = this.t('ariaFoundSuttas');
+        var tmplt = this.$t('ariaFoundSuttas');
         var text = tmplt
             .replace("A_SEARCH", this.search)
             .replace("A_RESULTCOUNT", this.resultCount)
@@ -180,14 +174,14 @@ export default {
       var minutes = Math.trunc(seconds / 60);
       seconds -= minutes * 60;
       if (hours) {
-          var tDisplay = this.t('HHMM');
-          var tAria = this.t('ariaHHMM');
+          var tDisplay = this.$t('HHMM');
+          var tAria = this.$t('ariaHHMM');
       } else if (minutes) {
-          var tDisplay = this.t('MMSS');
-          var tAria = this.t('ariaMMSS');
+          var tDisplay = this.$t('MMSS');
+          var tAria = this.$t('ariaMMSS');
       } else {
-          var tDisplay = this.t('seconds');
-          var tAria = this.t('ariaSeconds');
+          var tDisplay = this.$t('seconds');
+          var tAria = this.$t('ariaSeconds');
       }
       var display = tDisplay
           .replace(/A_HOURS/, hours)
