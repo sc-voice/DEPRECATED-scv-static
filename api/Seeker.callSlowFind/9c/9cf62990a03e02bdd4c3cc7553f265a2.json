@@ -1,0 +1,288 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "es war einmal",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "es war einmal",
+    "method": "phrase",
+    "resultPattern": "\\bes war einmal",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.180_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.180_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.180_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.45_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn17/de/sabbamitta",
+      "an5.180/de/sabbamitta",
+      "an4.45/de/sabbamitta",
+      "an3.38/de/sabbamitta",
+      "an3.37/de/sabbamitta",
+      "an3.36/de/sabbamitta",
+      "an3.15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.38",
+        "lang": "de",
+        "segMap": {
+          "an3.38:1.1": {
+            "scid": "an3.38:1.1",
+            "pli": "“Bhūtapubbaṁ, bhikkhave, sakko devānamindo deve tāvatiṁse anunayamāno tāyaṁ velāyaṁ imaṁ gāthaṁ abhāsi: ",
+            "de": "„<span class=\"scv-matched\">Es war einmal</span> vor langer Zeit, Mönche und Nonnen, da sprach Sakka der Götterkönig, der die Götter der Dreiunddreißig anführt, diese Strophe: ",
+            "en": "“Once upon a time, mendicants, Sakka, lord of gods, guiding the gods of the Thirty-Three, recited this verse: ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.45",
+        "lang": "de",
+        "segMap": {
+          "an4.45:4.1": {
+            "scid": "an4.45:4.1",
+            "pli": "“Bhūtapubbāhaṁ, bhante, rohitasso nāma isi ahosiṁ bhojaputto iddhimā vehāsaṅgamo. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span>, da war ich ein Einsiedler mit Namen Rohitassa, der Sohn des Bhoja. Ich war ein Himmelswanderer, der Wunderkräfte besaß. ",
+            "en": "Once upon a time, I was a hermit called Rohitassa, son of Bhoja. I was a sky-walker with psychic powers. ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.37",
+        "lang": "de",
+        "segMap": {
+          "an3.37:4.1": {
+            "scid": "an3.37:4.1",
+            "pli": "Bhūtapubbaṁ, bhikkhave, sakko devānamindo deve tāvatiṁse anunayamāno tāyaṁ velāyaṁ imaṁ gāthaṁ abhāsi: ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> vor langer Zeit, da sprach Sakka der Götterkönig, der die Götter der Dreiunddreißig anführt, diese Strophe: ",
+            "en": "Once upon a time, Sakka, lord of gods, guiding the gods of the Thirty-Three, recited this verse: ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "de": 38,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.15",
+        "lang": "de",
+        "segMap": {
+          "an3.15:2.1": {
+            "scid": "an3.15:2.1",
+            "pli": "“Bhūtapubbaṁ, bhikkhave, rājā ahosi sacetano nāma. ",
+            "de": "„<span class=\"scv-matched\">Es war einmal</span> ein König mit Namen Pacetana. ",
+            "en": "“Once upon a time there was a king named Pacetana. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "de": 45,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.180_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.180_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.180_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.180",
+        "lang": "de",
+        "segMap": {
+          "an5.180:3.1": {
+            "scid": "an5.180:3.1",
+            "pli": "“Bhūtapubbaṁ, ānanda, imasmiṁ padese nagaraṁ ahosi iddhañceva phītañca bahujanaṁ ākiṇṇamanussaṁ. ",
+            "de": "„<span class=\"scv-matched\">Es war einmal</span>, Ānanda, eine Stadt, die stand an dieser Stelle, und sie war erfolgreich, blühend und voller Menschen. ",
+            "en": "“Once upon a time, Ānanda, there was a city in this spot that was successful and prosperous and full of people. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 96,
+          "de": 70,
+          "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.36",
+        "lang": "de",
+        "segMap": {
+          "an3.36:18.1": {
+            "scid": "an3.36:18.1",
+            "pli": "Bhūtapubbaṁ, bhikkhave, yamassa rañño etadahosi: ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> vor langer Zeit, da dachte König Yama: ",
+            "en": "Once upon a time, King Yama thought, ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "de": 107,
+          "en": 107
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn17",
+        "lang": "de",
+        "segMap": {
+          "dn17:1.3.4": {
+            "scid": "dn17:1.3.4",
+            "pli": "Bhūtapubbaṁ, ānanda, rājā mahāsudassano nāma ahosi khattiyo muddhāvasitto cāturanto vijitāvī janapadatthāvariyappatto. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> ein König mit Namen Mahāsudassana, dessen Herrschaftsgebiet sich nach allen vier Seiten bis zum Ende erstreckte und der das Land sicher machte. ",
+            "en": "Once upon a time there was a king named Mahāsudassana whose dominion extended to all four sides, and who achieved stability in the country. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 444,
+          "de": 359,
+          "en": 443
+        }
+      }
+    ]
+  }
+}

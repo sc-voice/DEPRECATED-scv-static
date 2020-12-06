@@ -31,6 +31,7 @@ logger.logLevel = 'warn';
         storeName,
         storePath,
     });
+    let matchHighlight = '<span class="scv-matched">$&</span>';
     let skr = await new Seeker({
         bilaraData,
         memoizer,
@@ -42,6 +43,7 @@ logger.logLevel = 'warn';
             var res = await skr.find({
                 pattern: eg,
                 lang,
+                matchHighlight,
             });
         }
     }

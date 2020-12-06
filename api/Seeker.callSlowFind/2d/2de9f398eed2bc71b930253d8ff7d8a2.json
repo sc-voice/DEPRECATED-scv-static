@@ -1,0 +1,46 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "experiences an immersion",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "experiences an immersion",
+    "method": "phrase",
+    "resultPattern": "\\bexperiences an immersion",
+    "segsMatched": 0,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn136_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn136_translation-en-sujato.json"
+    ],
+    "suttaRefs": [],
+    "mlDocs": []
+  }
+}

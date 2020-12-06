@@ -31,14 +31,14 @@
         let skr = new ExampleSeeker();
         let example = 'root of suffering';
         let lang = 'en';
-        let guid = '44d48024d5d6fce7e330eeb98382b291';
+        let guid = 'f0f933e47f162a7a7824c1378804efbf';
         should(skr.exampleGuid(example, lang)).equal(guid);
     });
     it("exampleGuid(...) => de guid", async()=>{
         let skr = new ExampleSeeker();
         let example = 'sei.* abhängig entstanden';
         let lang = 'de';
-        let guid = '00573864f912535f6266440c1c89a471';
+        let guid = 'e68b92c404fbf58e108917ab8d493c03';
         should(skr.exampleGuid(example, lang)).equal(guid);
     });
     it("TESTTESTfind(...) finds example", async()=>{

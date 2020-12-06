@@ -4,7 +4,7 @@
   >
     {{foundSuttas}}
   </div>
-  <details v-else-if="mlDocs.length > 1" open> <!-- mlDocs -->
+  <details v-else-if="mlDocs.length" open> <!-- mlDocs -->
     <summary v-if="resultCount"
       role="main"
       ref="refResults"

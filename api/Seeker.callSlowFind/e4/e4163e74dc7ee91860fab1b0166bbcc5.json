@@ -1,0 +1,141 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "werden .* erhalten",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "werden .* erhalten",
+    "method": "phrase",
+    "resultPattern": "\\bwerden .* erhalten",
+    "segsMatched": 10,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.8.2": {
+            "scid": "dn33:1.8.2",
+            "pli": "Sabbe sattā āhāraṭṭhitikā. ",
+            "de": "‚Alle Lebewesen <span class=\"scv-matched\">werden von Nahrung erhalten</span>.‘ ",
+            "en": "‘All sentient beings are sustained by food.’ ",
+            "matched": true
+          },
+          "dn33:1.8.3": {
+            "scid": "dn33:1.8.3",
+            "pli": "Sabbe sattā saṅkhāraṭṭhitikā. ",
+            "de": "‚Alle Lebewesen <span class=\"scv-matched\">werden von Bedingungen erhalten</span>.‘ ",
+            "en": "‘All sentient beings are sustained by conditions.’ ",
+            "matched": true
+          },
+          "dn33:3.1.31": {
+            "scid": "dn33:3.1.31",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu gāmaṁ vā nigamaṁ vā piṇḍāya caranto na labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. ",
+            "de": "Weiterhin ist da ein Mönch um Almosen umhergezogen, aber er hat nicht so viel grobe oder feine Speise erhalten, wie er wollte, um satt zu werden. ",
+            "en": "Furthermore, a mendicant has wandered for alms, but they didn’t get to fill up on as much food as they like, coarse or fine. ",
+            "matched": true
+          },
+          "dn33:3.1.33": {
+            "scid": "dn33:3.1.33",
+            "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto nālatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo kilanto akammañño, handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich bin um Almosen umhergezogen, aber ich habe nicht so viel grobe oder feine Speise erhalten, wie ich wollte, um satt zu werden. Mein Körper ist müde und taugt nicht zur Arbeit. Ich lege mich jetzt lieber hin.‘ ",
+            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, coarse or fine. My body is tired and unfit for work. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "dn33:3.1.36": {
+            "scid": "dn33:3.1.36",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu gāmaṁ vā nigamaṁ vā piṇḍāya caranto labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. ",
+            "de": "Weiterhin ist da eine Nonne um Almosen umhergezogen, und sie hat so viel grobe oder feine Speise erhalten, wie sie wollte, um satt zu werden. ",
+            "en": "Furthermore, a mendicant has wandered for alms, and they got to fill up on as much food as they like, coarse or fine. ",
+            "matched": true
+          },
+          "dn33:3.1.38": {
+            "scid": "dn33:3.1.38",
+            "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto alatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo garuko akammañño, māsācitaṁ maññe, handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich bin um Almosen umhergezogen, und ich habe so viel grobe oder feine Speise erhalten, wie ich wollte, um satt zu werden. Mein Körper ist schwer, fühlt sich vollgestopft an, und taugt nicht zur Arbeit. Ich lege mich jetzt lieber hin.‘ ",
+            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, coarse or fine. My body is heavy and unfit for work, like I’ve just eaten a load of beans. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "dn33:3.1.74": {
+            "scid": "dn33:3.1.74",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu gāmaṁ vā nigamaṁ vā piṇḍāya caranto na labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. ",
+            "de": "Weiterhin ist da ein Mönch um Almosen umhergezogen, aber er hat nicht so viel grobe oder feine Speise erhalten, wie er wollte, um satt zu werden. ",
+            "en": "Furthermore, a mendicant has wandered for alms, but they didn’t get to fill up on as much food as they like, coarse or fine. ",
+            "matched": true
+          },
+          "dn33:3.1.76": {
+            "scid": "dn33:3.1.76",
+            "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto nālatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo lahuko kammañño, handāhaṁ vīriyaṁ ārabhāmi …pe… ",
+            "de": "‚Ich bin um Almosen umhergezogen, aber ich habe nicht so viel grobe oder feine Speise erhalten, wie ich wollte, um satt zu werden. Mein Körper ist leicht und taugt zur Arbeit. Ich will lieber jetzt meine Energie aufrütteln.‘ ",
+            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, coarse or fine. My body is light and fit for work. I’d better preemptively rouse up energy.’ ",
+            "matched": true
+          },
+          "dn33:3.1.79": {
+            "scid": "dn33:3.1.79",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu gāmaṁ vā nigamaṁ vā piṇḍāya caranto labhati lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. ",
+            "de": "Weiterhin ist da eine Nonne um Almosen umhergezogen, und sie hat so viel grobe oder feine Speise erhalten, wie sie wollte, um satt zu werden. ",
+            "en": "Furthermore, a mendicant has wandered for alms, and they got to fill up on as much food as they like, coarse or fine. ",
+            "matched": true
+          },
+          "dn33:3.1.81": {
+            "scid": "dn33:3.1.81",
+            "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto alatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo balavā kammañño, handāhaṁ vīriyaṁ ārabhāmi …pe… ",
+            "de": "‚Ich bin um Almosen umhergezogen, und ich habe so viel grobe oder feine Speise erhalten, wie ich wollte, um satt zu werden. Mein Körper ist kräftig und taugt zur Arbeit. Ich will lieber jetzt meine Energie aufrütteln.‘ ",
+            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, coarse or fine. My body is strong and fit for work. I’d better preemptively rouse up energy.’ ",
+            "matched": true
+          }
+        },
+        "score": 10.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 10,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

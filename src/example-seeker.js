@@ -11,6 +11,8 @@
             this.mj = new MerkleJson;
             this.maxResults = opts.maxResults==null ? 1000 : opts.maxResults;
             this.axios = opts.axios;
+            this.matchHighlight = opts.matchHighlight ||
+                '<span class="scv-matched">$&</span>';
         }
 
         static sanitizePattern(pattern) {
@@ -79,7 +81,7 @@
                   maxResults: 1000,
                   maxDoc: 50,
                   minLang: lang === 'en' ? 2 : 3,
-                  matchHighlight: "\u001b[38;5;121m$&\u001b[0m",
+                  matchHighlight: this.matchHighlight,
                   types: [ "root", "translation" ],
                   includeUnpublished: false,
                   sortLines: undefined, // These are not serialized

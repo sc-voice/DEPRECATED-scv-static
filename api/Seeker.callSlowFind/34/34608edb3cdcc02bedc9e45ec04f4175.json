@@ -1,0 +1,120 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "nieder, derb, gewöhnlich, unedel und zwecklos",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "nieder, derb, gewöhnlich, unedel und zwecklos",
+    "method": "phrase",
+    "resultPattern": "\\bnieder, derb, gewöhnlich, unedel und zwecklos",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.30/de/sabbamitta",
+      "sn56.11/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.30",
+        "lang": "de",
+        "segMap": {
+          "an6.30:2.4": {
+            "scid": "an6.30:2.4",
+            "pli": "Tañca kho etaṁ, bhikkhave, dassanaṁ hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+            "de": "Dieses Sehen ist <span class=\"scv-matched\">nieder, derb, gewöhnlich, unedel und zwecklos</span>. Es führt nicht zu Ernüchterung, Sichabwenden, Aufhören, Frieden, Einsicht, Erwachen und Erlöschen. ",
+            "en": "That seeing is low, crude, ordinary, ignoble, and pointless. It doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. ",
+            "matched": true
+          },
+          "an6.30:7.4": {
+            "scid": "an6.30:7.4",
+            "pli": "Sā ca kho esā, bhikkhave, anussati hīnā gammā pothujjanikā anariyā anatthasaṁhitā, na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+            "de": "Diese Besinnung ist <span class=\"scv-matched\">nieder, derb, gewöhnlich, unedel und zwecklos</span>. Sie führt nicht zu Ernüchterung, Sichabwenden, Aufhören, Frieden, Einsicht, Erwachen und Erlöschen. ",
+            "en": "That recollection is low, crude, ordinary, ignoble, and pointless. It doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 2.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 67,
+          "de": 60,
+          "en": 65
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.11",
+        "lang": "de",
+        "segMap": {
+          "sn56.11:2.3": {
+            "scid": "sn56.11:2.3",
+            "pli": "Yo cāyaṁ kāmesu kāmasukhallikānuyogo hīno gammo pothujjaniko anariyo anatthasaṁhito, yo cāyaṁ attakilamathānuyogo dukkho anariyo anatthasaṁhito. ",
+            "de": "Das Schwelgen in Sinnenfreuden – es ist <span class=\"scv-matched\">nieder, derb, gewöhnlich, unedel und zwecklos</span>. Und das Schwelgen in Selbstquälerei – es ist schmerzvoll, unedel und zwecklos. ",
+            "en": "Indulgence in sensual pleasures, which is low, crude, ordinary, ignoble, and pointless. And indulgence in self-mortification, which is painful, ignoble, and pointless. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 60,
+          "de": 59,
+          "en": 59
+        }
+      }
+    ]
+  }
+}

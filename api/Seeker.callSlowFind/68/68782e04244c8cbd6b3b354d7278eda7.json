@@ -1,0 +1,85 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "um mehr materiellen besitz",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "um mehr materiellen besitz",
+    "method": "phrase",
+    "resultPattern": "\\bum mehr materiellen besitz",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an5/an5.83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.83_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an5.83/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.83",
+        "lang": "de",
+        "segMap": {
+          "an5.83:1.3": {
+            "scid": "an5.83:1.3",
+            "pli": "Kuhako ca hoti, lapako ca, nemittiko ca, nippesiko ca, lābhena ca lābhaṁ nijigīsitā—",
+            "de": "Sie betrügt, schmeichelt, macht Andeutungen und wertet andere ab, und sie benutzt materiellen Besitz, <span class=\"scv-matched\">um mehr materiellen Besitz</span> zu erlangen. ",
+            "en": "They use deceit, flattery, hinting, and belittling, and they use material possessions to pursue other material possessions. ",
+            "matched": true
+          },
+          "an5.83:2.3": {
+            "scid": "an5.83:2.3",
+            "pli": "Na ca kuhako hoti, na ca lapako, na ca nemittiko, na ca nippesiko, na ca lābhena lābhaṁ nijigīsitā—",
+            "de": "Sie betrügt nicht, schmeichelt nicht, macht keine Andeutungen und wertet andere nicht ab, und sie benutzt materiellen Besitz nicht, <span class=\"scv-matched\">um mehr materiellen Besitz</span> zu erlangen. ",
+            "en": "They don’t use deceit, flattery, hinting, or belittling, and they don’t use material possessions to pursue other material possessions. ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      }
+    ]
+  }
+}

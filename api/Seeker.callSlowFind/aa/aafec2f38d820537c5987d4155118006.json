@@ -1,0 +1,58 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "focus on the cause",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "focus on the cause",
+    "method": "keywords",
+    "resultPattern": "\\bfocus|\\bo(n|ṅ|ñ|ṇ)|\\bthe|\\bcause",
+    "segsMatched": 0,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.127_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.127_translation-en-sujato.json"
+    ],
+    "suttaRefs": [],
+    "mlDocs": []
+  }
+}

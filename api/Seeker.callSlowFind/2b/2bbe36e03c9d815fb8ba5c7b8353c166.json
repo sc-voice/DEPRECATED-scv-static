@@ -1,0 +1,571 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "maß essen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "maß essen",
+    "method": "keywords",
+    "resultPattern": "\\bmaß|\\bessen",
+    "segsMatched": 23,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.56_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.56_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.56_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.125_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.125_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.125_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.126_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.126_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.126_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.167_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.163-179_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.163-179_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.163-179_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.258_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.258_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.258_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.150_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.150_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.150_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.37/de/sabbamitta",
+      "an3.16/de/sabbamitta",
+      "an5.56/de/sabbamitta",
+      "an5.125/de/sabbamitta",
+      "an5.126/de/sabbamitta",
+      "an5.167/de/sabbamitta",
+      "dn33/de/sabbamitta",
+      "an2.163-179/de/sabbamitta",
+      "an4.258/de/sabbamitta",
+      "an5.150/de/sabbamitta",
+      "an6.17/de/sabbamitta",
+      "an6.31/de/sabbamitta",
+      "dn14/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.37",
+        "lang": "de",
+        "segMap": {
+          "an4.37:1.3": {
+            "scid": "an4.37:1.3",
+            "pli": "Idha, bhikkhave, bhikkhu sīlasampanno hoti, indriyesu guttadvāro hoti, bhojane mattaññū hoti, jāgariyaṁ anuyutto hoti. ",
+            "de": "Ein Mönch oder eine Nonne ist im sittlichen Verhalten vollendet, bewacht die Tore der Sinne, hält <span class=\"scv-matched\">Maß</span> beim <span class=\"scv-matched\">Essen</span> und weiht sich dem Wachsein. ",
+            "en": "A mendicant is accomplished in ethics, guards the sense doors, eats in moderation, and is dedicated to wakefulness. ",
+            "matched": true
+          },
+          "an4.37:4.1": {
+            "scid": "an4.37:4.1",
+            "pli": "Kathañca, bhikkhave, bhikkhu bhojane mattaññū hoti? ",
+            "de": "Und wie hält ein Mönch <span class=\"scv-matched\">Maß</span> beim <span class=\"scv-matched\">Essen</span>? ",
+            "en": "And how does a mendicant eat in moderation? ",
+            "matched": true
+          },
+          "an4.37:4.4": {
+            "scid": "an4.37:4.4",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu bhojane mattaññū hoti. ",
+            "de": "So hält ein Mönch <span class=\"scv-matched\">Maß</span> beim <span class=\"scv-matched\">Essen</span>. ",
+            "en": "That’s how a mendicant eats in moderation. ",
+            "matched": true
+          },
+          "an4.37:6.3": {
+            "scid": "an4.37:6.3",
+            "pli": "Bhojanamhi ca mattaññū, ",
+            "de": "mit <span class=\"scv-matched\">Maß</span> beim <span class=\"scv-matched\">Essen</span> ",
+            "en": "eating in moderation, ",
+            "matched": true
+          }
+        },
+        "score": 4.093,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 43,
+          "de": 42,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.16",
+        "lang": "de",
+        "segMap": {
+          "an3.16:1.3": {
+            "scid": "an3.16:1.3",
+            "pli": "Idha, bhikkhave, bhikkhu indriyesu guttadvāro hoti, bhojane mattaññū hoti, jāgariyaṁ anuyutto hoti. ",
+            "de": "Es ist, wenn ein Mönch oder eine Nonne die Tore der Sinne bewacht, beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">Maß</span> hält und sich dem Wachsein weiht. ",
+            "en": "It’s when a mendicant guards the sense doors, eats in moderation, and is dedicated to wakefulness. ",
+            "matched": true
+          },
+          "an3.16:3.1": {
+            "scid": "an3.16:3.1",
+            "pli": "Kathañca, bhikkhave, bhikkhu bhojane mattaññū hoti? ",
+            "de": "Und wie hält ein Mönch <span class=\"scv-matched\">Maß</span> beim <span class=\"scv-matched\">Essen</span>? ",
+            "en": "And how does a mendicant eat in moderation? ",
+            "matched": true
+          },
+          "an3.16:3.4": {
+            "scid": "an3.16:3.4",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu bhojane mattaññū hoti. ",
+            "de": "So hält ein Mönch <span class=\"scv-matched\">Maß</span> beim <span class=\"scv-matched\">Essen</span>. ",
+            "en": "That’s how a mendicant eats in moderation. ",
+            "matched": true
+          }
+        },
+        "score": 3.12,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.56_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.56_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.56_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.56",
+        "lang": "de",
+        "segMap": {
+          "an5.56:3.3": {
+            "scid": "an5.56:3.3",
+            "pli": "‘indriyesu guttadvāro bhavissāmi, bhojane mattaññū, jāgariyaṁ anuyutto, vipassako kusalānaṁ dhammānaṁ, pubbarattāpararattaṁ bodhipakkhiyānaṁ dhammānaṁ bhāvanānuyogaṁ anuyutto viharissāmī’ti. ",
+            "de": "‚Ich will die Tore meiner Sinne bewachen, beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">maß</span>halten, mich dem Wachsein weihen, taugliche Eigenschaften klar sehen und mich am Abend und vor der Morgendämmerung um die Entwicklung der Eigenschaften bemühen, die zum Erwachen führen.‘ ",
+            "en": "‘I will guard my sense doors, eat in moderation, be dedicated to wakefulness, discern skillful qualities, and pursue the development of the qualities that lead to awakening in the evening and toward dawn.’ ",
+            "matched": true
+          },
+          "an5.56:6.1": {
+            "scid": "an5.56:6.1",
+            "pli": "“Evañhetaṁ, bhikkhu, hoti indriyesu guttadvārassa, bhojane mattaññuno, jāgariyaṁ anuyuttassa, vipassakassa kusalānaṁ dhammānaṁ, pubbarattāpararattaṁ bodhipakkhiyānaṁ dhammānaṁ bhāvanānuyogaṁ anuyuttassa viharato, yaṁ na ceva madhurakajāto kāyo hoti, disā cassa pakkhāyanti, dhammā ca taṁ paṭibhanti, thinamiddhañcassa cittaṁ na pariyādāya tiṭṭhati, abhirato ca brahmacariyaṁ carati, na cassa hoti dhammesu vicikicchā. ",
+            "de": "„So ist es, Mönch, wenn die Tore deiner Sinne bewacht sind, wenn du beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">maß</span>hältst und dich dem Wachsein weihst, wenn du in der Lage bist, taugliche Eigenschaften klar zu sehen, und dich am Abend und vor der Morgendämmerung um die Entwicklung der Eigenschaften bemühst, die zum Erwachen führen. Dann fühlt sich dein Körper nicht an wie betäubt. Du bist nicht durcheinander, die Lehren fallen dir ein und dein Geist ist nicht dumpf und benommen. Du bist mit dem geistlichen Leben zufrieden und zweifelst nicht an den Lehren. ",
+            "en": "“That’s how it is, mendicant, when your sense doors are guarded, you’re moderate in eating, you’re dedicated to wakefulness, you’re able to discern skillful qualities, and you pursue the development of the qualities that lead to awakening in the evening and toward dawn. Your body doesn’t feel like it’s drugged. You’re not disorientated, the teachings spring to mind, and dullness and drowsiness don’t fill your mind. You lead the spiritual life satisfied, and have no doubts about the teachings. ",
+            "matched": true
+          },
+          "an5.56:6.3": {
+            "scid": "an5.56:6.3",
+            "pli": "‘indriyesu guttadvārā bhavissāma, bhojane mattaññuno, jāgariyaṁ anuyuttā, vipassakā kusalānaṁ dhammānaṁ, pubbarattāpararattaṁ bodhipakkhiyānaṁ dhammānaṁ bhāvanānuyogaṁ anuyuttā viharissāmā’ti. ",
+            "de": "‚Wir wollen die Tore unserer Sinne bewachen, beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">maß</span>halten, uns dem Wachsein weihen, taugliche Eigenschaften klar sehen und uns am Abend und vor der Morgendämmerung um die Entwicklung der Eigenschaften bemühen, die zum Erwachen führen.‘ ",
+            "en": "‘We will guard our sense doors, eat in moderation, be dedicated to wakefulness, discern skillful qualities, and pursue the development of the qualities that lead to awakening in the evening and toward dawn.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.115,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 26,
+          "de": 25,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.125_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.125_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.125_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.125",
+        "lang": "de",
+        "segMap": {
+          "an5.125:1.3": {
+            "scid": "an5.125:1.3",
+            "pli": "Asappāyakārī hoti, sappāye mattaṁ na jānāti, apariṇatabhojī ca hoti, akālacārī ca hoti, abrahmacārī ca. ",
+            "de": "Tun, was unzuträglich ist, und kein <span class=\"scv-matched\">Maß</span> kennen, bei dem, was zuträglich ist, unverdauliche Speisen <span class=\"scv-matched\">essen</span>, Tätigkeit zur unpassenden Zeit und Unkeuschheit. ",
+            "en": "Doing what is unsuitable, not knowing moderation in what is suitable, eating food unfit for consumption, activity at unsuitable times, and unchastity. ",
+            "matched": true
+          },
+          "an5.125:2.3": {
+            "scid": "an5.125:2.3",
+            "pli": "Sappāyakārī hoti, sappāye mattaṁ jānāti, pariṇatabhojī ca hoti, kālacārī ca hoti, brahmacārī ca. ",
+            "de": "Tun, was zuträglich ist, und dabei das <span class=\"scv-matched\">Maß</span> kennen, gut verdauliche Speisen <span class=\"scv-matched\">essen</span>, Tätigkeit zur passenden Zeit und Enthaltsamkeit. ",
+            "en": "Doing what is suitable, knowing moderation in what is suitable, eating food fit for consumption, activity at suitable times, and celibacy. ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.126_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.126_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.126_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.126",
+        "lang": "de",
+        "segMap": {
+          "an5.126:1.3": {
+            "scid": "an5.126:1.3",
+            "pli": "Asappāyakārī hoti, sappāye mattaṁ na jānāti, apariṇatabhojī ca hoti, dussīlo ca, pāpamitto ca. ",
+            "de": "Tun, was unzuträglich ist, und kein <span class=\"scv-matched\">Maß</span> kennen, bei dem, was zuträglich ist, unverdauliche Speisen <span class=\"scv-matched\">essen</span>, unmoralisches Verhalten und schlechte Freunde. ",
+            "en": "Doing what is unsuitable, not knowing moderation in what is suitable, eating food unfit for consumption, unethical behavior, and bad friends. ",
+            "matched": true
+          },
+          "an5.126:2.3": {
+            "scid": "an5.126:2.3",
+            "pli": "Sappāyakārī hoti, sappāye mattaṁ jānāti, pariṇatabhojī ca hoti, sīlavā ca, kalyāṇamitto ca. ",
+            "de": "Tun, was zuträglich ist, und dabei das <span class=\"scv-matched\">Maß</span> kennen, gut verdauliche Speisen <span class=\"scv-matched\">essen</span>, sittliches Verhalten und gute Freunde. ",
+            "en": "Doing what is suitable, knowing moderation in what is suitable, eating food fit for consumption, ethical conduct, and good friends. ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.167_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.167",
+        "lang": "de",
+        "segMap": {
+          "an5.167:11.1": {
+            "scid": "an5.167:11.1",
+            "pli": "“Ye te, bhante, puggalā assaddhā jīvikatthā na saddhā agārasmā anagāriyaṁ pabbajitā saṭhā māyāvino ketabino uddhatā unnaḷā capalā mukharā vikiṇṇavācā indriyesu aguttadvārā bhojane amattaññuno jāgariyaṁ ananuyuttā sāmaññe anapekkhavanto sikkhāya na tibbagāravā bāhulikā sāthalikā okkamane pubbaṅgamā paviveke nikkhittadhurā kusītā hīnavīriyā muṭṭhassatino asampajānā asamāhitā vibbhantacittā duppaññā eḷamūgā, te mayā evaṁ vuccamānā na padakkhiṇaṁ gaṇhanti. ",
+            "de": "„Herr, es gibt diese Menschen ohne Vertrauen, die nicht aus Vertrauen, sondern um des Lebenserwerbs willen aus dem Haus fortgezogen sind ins hauslose Leben. Sie sind doppelzüngig, betrügerisch und hinterhältig. Sie sind rastlos, anmaßend, launisch und schwatzhaft, mit loser Zunge. Sie bewachen die Tore der Sinne nicht, halten beim <span class=\"scv-matched\">Essen</span> kein <span class=\"scv-matched\">Maß</span> und weihen sich nicht dem Wachsein. Sie haben kein Interesse am Asketenleben und keinen eifrigen Respekt vor der Übung. Sie sind genießerisch und lasch, führend im Abrutschen, sie vernachlässigen die Abgeschiedenheit, sind faul und mit wenig Energie. Sie sind unachtsam, ohne Umsicht und Versenkung, mit schweifendem Geist, geistlos und dumm. Wenn ich zu ihnen so spreche, nehmen sie es nicht respektvoll an. ",
+            "en": "“Sir, there are those faithless people who went forth from the lay life to homelessness not out of faith but to earn a livelihood. They’re devious, deceitful, and sneaky. They’re restless, insolent, fickle, gossipy, and loose-tongued. They do not guard their sense doors or eat in moderation, and they are not dedicated to wakefulness. They don’t care about the ascetic life, and don’t keenly respect the training. They’re indulgent and slack, leaders in backsliding, neglecting seclusion, lazy, and lacking energy. They’re unmindful, lacking situational awareness and immersion, with straying minds, witless and stupid. When I speak to them like this, they don’t respectfully take it up. ",
+            "matched": true
+          },
+          "an5.167:12.1": {
+            "scid": "an5.167:12.1",
+            "pli": "Ye pana te, bhante, kulaputtā saddhā agārasmā anagāriyaṁ pabbajitā asaṭhā amāyāvino aketabino anuddhatā anunnaḷā acapalā amukharā avikiṇṇavācā indriyesu guttadvārā bhojane mattaññuno jāgariyaṁ anuyuttā sāmaññe apekkhavanto sikkhāya tibbagāravā na bāhulikā na sāthalikā okkamane nikkhittadhurā paviveke pubbaṅgamā āraddhavīriyā pahitattā upaṭṭhitassatino sampajānā samāhitā ekaggacittā paññavanto aneḷamūgā, te mayā evaṁ vuccamānā padakkhiṇaṁ gaṇhantī”ti. ",
+            "de": "Und, Herr, es gibt diese Söhne aus gutem Haus, die aus Vertrauen aus dem Haus fortgezogen sind ins hauslose Leben. Sie sind nicht doppelzüngig, betrügerisch oder hinterhältig. Sie sind nicht rastlos, anmaßend, launisch oder schwatzhaft, haben keine lose Zunge. Sie bewachen die Tore der Sinne, halten beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">Maß</span> und weihen sich dem Wachsein. Sie haben Interesse am Asketenleben und eifrigen Respekt vor der Übung. Sie sind nicht genießerisch oder lasch, nicht führend im Abrutschen, sie vernachlässigen die Abgeschiedenheit nicht, sind beflissen und entschlossen. Sie sind achtsam, mit Umsicht und Versenkung, mit geeintem Geist, weise, nicht dumm. Wenn ich zu ihnen so spreche, nehmen sie es respektvoll an.“ ",
+            "en": "Sir, there are those gentlemen who went forth from the lay life to homelessness out of faith. They’re not devious, deceitful, and sneaky. They’re not restless, insolent, fickle, gossipy, and loose-tongued. They guard their sense doors and eat in moderation, and they are dedicated to wakefulness. They care about the ascetic life, and keenly respect the training. They’re not indulgent or slack, nor are they leaders in backsliding, neglecting seclusion. They’re energetic and determined. They’re mindful, with situational awareness, immersion, and unified minds; wise, not stupid. When I speak to them like this, they do respectfully take it up.” ",
+            "matched": true
+          }
+        },
+        "score": 2.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 66,
+          "de": 65,
+          "en": 65
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.258_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.258_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.258_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.258",
+        "lang": "de",
+        "segMap": {
+          "an4.258:2.3": {
+            "scid": "an4.258:2.3",
+            "pli": "Naṭṭhaṁ gavesanti, jiṇṇaṁ paṭisaṅkharonti, parimitapānabhojanā honti, sīlavantaṁ itthiṁ vā purisaṁ vā ādhipacce ṭhapenti. ",
+            "de": "Sie suchen nach Verlorenem; sie reparieren alte Dinge; sie <span class=\"scv-matched\">essen</span> und trinken in <span class=\"scv-matched\">Maß</span>en; und sie übertragen Verantwortung an eine sittliche Frau oder einen sittlichen Mann. ",
+            "en": "They look for what’s lost; they fix old things; they eat and drink in moderation; and they put an ethical woman or man in charge. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.31",
+        "lang": "de",
+        "segMap": {
+          "an6.31:2.3": {
+            "scid": "an6.31:2.3",
+            "pli": "Na kammārāmatā, na bhassārāmatā, na niddārāmatā, na saṅgaṇikārāmatā, indriyesu guttadvāratā, bhojane mattaññutā—",
+            "de": "Er genießt Arbeit, Reden, Schlafen und Gesellschaft nicht. Er bewacht die Tore der Sinne und hält beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">Maß</span>. ",
+            "en": "They don’t relish work, talk, sleep, and company. They guard the sense doors, and they don’t eat too much. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.150_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.150_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.150_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.150",
+        "lang": "de",
+        "segMap": {
+          "an5.150:2.3": {
+            "scid": "an5.150:2.3",
+            "pli": "Na kammārāmatā, na bhassārāmatā, na niddārāmatā, indriyesu guttadvāratā, bhojane mattaññutā. ",
+            "de": "Sie genießt Arbeit, Reden und Schlafen nicht, sie bewacht die Tore der Sinne und hält beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">Maß</span>. ",
+            "en": "They don’t relish work, talk, sleep, and company. They guard the sense doors and they have moderation in eating. ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 11,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.17",
+        "lang": "de",
+        "segMap": {
+          "an6.17:5.2": {
+            "scid": "an6.17:5.2",
+            "pli": "‘indriyesu guttadvārā bhavissāma, bhojane mattaññuno, jāgariyaṁ anuyuttā, vipassakā kusalānaṁ dhammānaṁ, pubbarattāpararattaṁ bodhipakkhiyānaṁ dhammānaṁ, bhāvanānuyogamanuyuttā viharissāmā’ti. ",
+            "de": "‚Wir wollen die Tore unserer Sinne bewachen, beim <span class=\"scv-matched\">Essen</span> <span class=\"scv-matched\">maß</span>halten, uns dem Wachsein weihen, taugliche Eigenschaften klar sehen und uns am Abend und vor der Morgendämmerung um die Entwicklung der Eigenschaften bemühen, die zum Erwachen führen.‘ ",
+            "en": "‘We will guard our sense doors, eat in moderation, be dedicated to wakefulness, discern skillful qualities, and pursue the development of the qualities that lead to awakening in the evening and toward dawn.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 59,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.163-179_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.163-179_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.163-179_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.163-179",
+        "lang": "de",
+        "segMap": {
+          "an2.169:1.3": {
+            "scid": "an2.169:1.3",
+            "pli": "Indriyesu guttadvāratā ca bhojane mattaññutā ca. ",
+            "de": "Die Tore der Sinne bewachen und <span class=\"scv-matched\">Maß</span>halten beim <span class=\"scv-matched\">Essen</span>. ",
+            "en": "Guarding the sense doors and moderation in eating. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 90,
+          "de": 89,
+          "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "de",
+        "segMap": {
+          "dn14:3.28.12": {
+            "scid": "dn14:3.28.12",
+            "pli": "Mattaññutā ca bhattasmiṁ, ",
+            "de": "<span class=\"scv-matched\">Maß</span>halten beim <span class=\"scv-matched\">Essen</span>, ",
+            "en": "moderation in eating; ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 851,
+          "de": 689,
+          "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.9.23": {
+            "scid": "dn33:1.9.23",
+            "pli": "Indriyesu guttadvāratā ca bhojane mattaññutā ca. #20",
+            "de": "Die Tore der Sinne bewachen und <span class=\"scv-matched\">Maß</span>halten beim <span class=\"scv-matched\">Essen</span>. ",
+            "en": "Guarding the sense doors and moderation in eating. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

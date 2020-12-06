@@ -1,0 +1,218 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "holz",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "holz",
+    "method": "phrase",
+    "resultPattern": "\\bholz",
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.93_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.93_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.93_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.156-162_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.156-162_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.95/de/sabbamitta",
+      "an4.198/de/sabbamitta",
+      "an3.93/de/sabbamitta",
+      "an3.15/de/sabbamitta",
+      "an3.156-162/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.95_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.95",
+        "lang": "de",
+        "segMap": {
+          "an4.95:2.1": {
+            "scid": "an4.95:2.1",
+            "pli": "Seyyathāpi, bhikkhave, chavālātaṁ ubhato padittaṁ, majjhe gūthagataṁ, neva gāme kaṭṭhatthaṁ pharati na araññe (…); ",
+            "de": "Wie eine Fackel zum Anzünden eines Scheiterhaufens für eine Bestattung, die an beiden Enden brennt und in der Mitte mit Mist bestrichen ist: Weder im Dorf noch in der Wildnis könnte sie als <span class=\"scv-matched\">Holz</span> verwendet werden. ",
+            "en": "Suppose there was a firebrand for lighting a funeral pyre, burning at both ends, and smeared with dung in the middle. It couldn’t be used as timber either in the village or the wilderness. ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.93_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.93_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.93_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.93",
+        "lang": "de",
+        "segMap": {
+          "an3.93:2.1": {
+            "scid": "an3.93:2.1",
+            "pli": "Tatridaṁ, bhikkhave, aññatitthiyā paribbājakā cīvarapavivekasmiṁ paññāpenti, sāṇānipi dhārenti, masāṇānipi dhārenti, chavadussānipi dhārenti, paṁsukūlānipi dhārenti, tirīṭānipi dhārenti, ajinampi dhārenti, ajinakkhipampi dhārenti, kusacīrampi dhārenti, vākacīrampi dhārenti, phalakacīrampi dhārenti, kesakambalampi dhārenti, vālakambalampi dhārenti, ulūkapakkhikampi dhārenti. ",
+            "de": "Wanderer, die andere Wege gehen, treten für diese Art von Abgeschiedenheit in Bezug auf Roben ein: Sie tragen Roben aus Hanf, Hanf-Mischgewebe, Leichentuch, Lumpen, Baumrinde, Antilopenhaut, in Streifen geschnittener Antilopenhaut, Gewebe aus Kusagras, Rinden- oder <span class=\"scv-matched\">Holz</span>stückchen, Menschenhaar, Pferdehaar oder Eulenflügeln. ",
+            "en": "Wanderers who follow other paths advocate this kind of seclusion in robes. They wear robes of sunn hemp, mixed hemp, corpse-wrapping cloth, rags, lodh tree bark, antelope hide (whole or in strips), kusa grass, bark, wood-chips, human hair, horse-tail hair, or owls’ wings. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "de": 40,
+          "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.15",
+        "lang": "de",
+        "segMap": {
+          "an3.15:5.5": {
+            "scid": "an3.15:5.5",
+            "pli": "Tadāhaṁ, bhikkhave, kusalo dāruvaṅkānaṁ dārudosānaṁ dārukasāvānaṁ. ",
+            "de": "Damals war ich bewandert in den Krummheiten, Fehlern und Mängeln von <span class=\"scv-matched\">Holz</span>. ",
+            "en": "Then I was skilled in the crooks, flaws, and defects of wood. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "de": 45,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.156-162_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.156-162_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.156-162",
+        "lang": "de",
+        "segMap": {
+          "an3.156:4.1": {
+            "scid": "an3.156:4.1",
+            "pli": "So sāṇānipi dhāreti, masāṇānipi dhāreti, chavadussānipi dhāreti, paṁsukūlānipi dhāreti, tirīṭānipi dhāreti, ajinampi dhāreti, ajinakkhipampi dhāreti, kusacīrampi dhāreti, vākacīrampi dhāreti, phalakacīrampi dhāreti, kesakambalampi dhāreti, vāḷakambalampi dhāreti, ulūkapakkhikampi dhāreti, ",
+            "de": "Er trägt Roben aus Hanf, Hanf-Mischgewebe, Leichentuch, Lumpen, Baumrinde, Antilopenhaut, in Streifen geschnittener Antilopenhaut, Gewebe aus Kusagras, Rinden- oder <span class=\"scv-matched\">Holz</span>stückchen, Menschenhaar, Pferdehaar oder Eulenflügeln. ",
+            "en": "They wear robes of sunn hemp, mixed hemp, corpse-wrapping cloth, rags, lodh tree bark, antelope hide (whole or in strips), kusa grass, bark, wood-chips, human hair, horse-tail hair, or owls’ wings. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 81,
+          "de": 79,
+          "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.198",
+        "lang": "de",
+        "segMap": {
+          "an4.198:4.1": {
+            "scid": "an4.198:4.1",
+            "pli": "So sāṇānipi dhāreti masāṇānipi dhāreti chavadussānipi dhāreti paṁsukūlānipi dhāreti tirīṭānipi dhāreti ajinampi dhāreti ajinakkhipampi dhāreti kusacīrampi dhāreti vākacīrampi dhāreti phalakacīrampi dhāreti kesakambalampi dhāreti vāḷakambalampi dhāreti ulūkapakkhampi dhāreti; ",
+            "de": "Er trägt Roben aus Hanf, Hanf-Mischgewebe, Leichentuch, Lumpen, Baumrinde, Antilopenhaut, in Streifen geschnittener Antilopenhaut, Gewebe aus Kusagras, Rinden- oder <span class=\"scv-matched\">Holz</span>stückchen, Menschenhaar, Pferdehaar oder Eulenflügeln. ",
+            "en": "They wear robes of sunn hemp, mixed hemp, corpse-wrapping cloth, rags, lodh tree bark, antelope hide (whole or in strips), kusa grass, bark, wood-chips, human hair, horse-tail hair, or owls’ wings. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 111,
+          "de": 110,
+          "en": 110
+        }
+      }
+    ]
+  }
+}

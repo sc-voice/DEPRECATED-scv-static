@@ -1,0 +1,120 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "allein die wahrheit",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "allein die wahrheit",
+    "method": "phrase",
+    "resultPattern": "\\ballein die wahrheit",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an2.42-51/de/sabbamitta",
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.42-51",
+        "lang": "de",
+        "segMap": {
+          "an2.51:1.8": {
+            "scid": "an2.51:1.8",
+            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
+            "de": "‚Das ist <span class=\"scv-matched\">allein die Wahrheit</span>, andere Vorstellungen sind dumm.‘ ",
+            "en": "‘This is the only truth, other ideas are silly.’ ",
+            "matched": true
+          },
+          "an2.51:2.5": {
+            "scid": "an2.51:2.5",
+            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
+            "de": "‚Das ist <span class=\"scv-matched\">allein die Wahrheit</span>, andere Vorstellungen sind dumm.‘ ",
+            "en": "‘This is the only truth, other ideas are silly.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 146,
+          "de": 144,
+          "en": 144
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.11.170": {
+            "scid": "dn33:1.11.170",
+            "pli": "abhijjhā kāyagantho, byāpādo kāyagantho, sīlabbataparāmāso kāyagantho, idaṁsaccābhiniveso kāyagantho. #34",
+            "de": "was einen persönlich an Begierde kettet, an bösen Willen, an ein falsches Verständnis von Regeln und Gelübden und an das Bestehen darauf: ‚Das ist <span class=\"scv-matched\">allein die Wahrheit</span>‘. ",
+            "en": "the personal ties to covetousness, ill will, misapprehension of precepts and observances, and the insistence that this is the only truth. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

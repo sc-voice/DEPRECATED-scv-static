@@ -47,6 +47,19 @@
         </v-card-text>
       </v-card>
 
+      <v-card>
+        <v-card-text>
+          <details>
+            <summary class="text-h6">scv-sutta</summary>
+            ScvSutta displays a single sutta
+          </details>
+
+          <v-card light class="mt-5">
+            <scv-sutta />
+          </v-card>
+        </v-card-text>
+      </v-card>
+
     </v-col>
   </v-row>
 </template>
@@ -55,11 +68,13 @@
 import Vue from 'vue';
 import ScvSearchField from '~/components/scv-search-field.vue';
 import ScvSearchResults from '~/components/scv-search-results.vue';
+import ScvSutta from '~/components/scv-sutta.vue';
 
 export default {
   components: {
     ScvSearchField,
     ScvSearchResults,
+    ScvSutta,
   },
   data: function(){
     return {

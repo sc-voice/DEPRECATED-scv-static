@@ -1,0 +1,617 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "glück der vielen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "glück der vielen",
+    "method": "phrase",
+    "resultPattern": "\\bglück der vielen",
+    "segsMatched": 30,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.150-169_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.150-169_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.150-169_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.140-149_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.140-149_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.140-149_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.88_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.88_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.88_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.160_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.160_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.160_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.52-63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.52-63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.52-63_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.316-332_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.316-332_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.170-187_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn33/de/sabbamitta",
+      "an4.35/de/sabbamitta",
+      "an1.150-169/de/sabbamitta",
+      "an1.140-149/de/sabbamitta",
+      "dn14/de/sabbamitta",
+      "an5.88/de/sabbamitta",
+      "an4.160/de/sabbamitta",
+      "an3.11/de/sabbamitta",
+      "an2.52-63/de/sabbamitta",
+      "an2.32-41/de/sabbamitta",
+      "an1.316-332/de/sabbamitta",
+      "an1.170-187/de/sabbamitta",
+      "dn18/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.7.6": {
+            "scid": "dn33:1.7.6",
+            "pli": "Tattha sabbeheva saṅgāyitabbaṁ, na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen. ",
+            "en": "You should all recite this in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "dn33:1.7.11": {
+            "scid": "dn33:1.7.11",
+            "pli": "Tattha sabbeheva saṅgāyitabbaṁ, na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen. ",
+            "en": "You should all recite these in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "dn33:1.8.5": {
+            "scid": "dn33:1.8.5",
+            "pli": "Tattha sabbeheva saṅgāyitabbaṁ, na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen. ",
+            "en": "You should all recite these in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "dn33:3.3.89": {
+            "scid": "dn33:3.3.89",
+            "pli": "Tattha sabbeheva saṅgāyitabbaṁ na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan”ti. ",
+            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen.“ ",
+            "en": "You should all recite these in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
+            "matched": true
+          }
+        },
+        "score": 4.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.140-149_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.140-149_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.140-149_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.140-149",
+        "lang": "de",
+        "segMap": {
+          "an1.140:1.1": {
+            "scid": "an1.140:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū adhammaṁ adhammoti dīpenti te, bhikkhave, bhikkhū bahujanahitāya paṭipannā bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die das, was nicht die Lehre ist, als nicht die Lehre darstellen, handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain what is not the teaching as not the teaching are acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an1.141:1.1": {
+            "scid": "an1.141:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū dhammaṁ dhammoti dīpenti te, bhikkhave, bhikkhū bahujanahitāya paṭipannā bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die das, was die Lehre ist, als die Lehre darstellen, handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain what is the teaching as the teaching are acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an1.142-149:1.2": {
+            "scid": "an1.142-149:1.2",
+            "pli": "te, bhikkhave, bhikkhū bahujanahitāya paṭipannā bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "are acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 3.176,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.150-169_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.150-169_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.150-169_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.150-169",
+        "lang": "de",
+        "segMap": {
+          "an1.160:1.1": {
+            "scid": "an1.160:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū anāpattiṁ anāpattīti dīpenti te, bhikkhave, bhikkhū bahujanahitāya paṭipannā bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die etwas, das kein Vergehen ist, als kein Vergehen darstellen, handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain non-offense as non-offense are acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an1.161:1.1": {
+            "scid": "an1.161:1.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū āpattiṁ āpattīti dīpenti te, bhikkhave, bhikkhū bahujanahitāya paṭipannā bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, jene Mönche und Nonnen, die etwas, das ein Vergehen ist, als ein Vergehen darstellen, handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“Mendicants, those mendicants who explain an offense as an offense are acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an1.162-169:1.2": {
+            "scid": "an1.162-169:1.2",
+            "pli": "te, bhikkhave, bhikkhū bahujanahitāya paṭipannā bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "are acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of the people, of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 3.103,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.35",
+        "lang": "de",
+        "segMap": {
+          "an4.35:3.4": {
+            "scid": "an4.35:3.4",
+            "pli": "Idha, brāhmaṇa, bahujanahitāya paṭipanno hoti bahujanasukhāya; ",
+            "de": "Da handelt jemand zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>: ",
+            "en": "It’s when someone practices for the welfare and happiness of the people. ",
+            "matched": true
+          },
+          "an4.35:4.4": {
+            "scid": "an4.35:4.4",
+            "pli": "bhavañhi gotamo bahujanahitāya paṭipanno bahujanasukhāya; ",
+            "de": "Denn Meister Gotama handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span> … ",
+            "en": "For Master Gotama practices for the welfare and happiness of the people … ",
+            "matched": true
+          },
+          "an4.35:5.3": {
+            "scid": "an4.35:5.3",
+            "pli": "‘ahañhi, brāhmaṇa, bahujanahitāya paṭipanno bahujanasukhāya; ",
+            "de": "Denn ich handele zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span> … ",
+            "en": "For I do practice for the welfare and happiness of the people … ",
+            "matched": true
+          }
+        },
+        "score": 3.055,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 55,
+          "de": 54,
+          "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.11",
+        "lang": "de",
+        "segMap": {
+          "an3.11:2.1": {
+            "scid": "an3.11:2.1",
+            "pli": "Tīhi, bhikkhave, dhammehi samannāgato ñāto bhikkhu bahujanahitāya paṭipanno hoti bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Eine namhafte Nonne, die drei Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen. ",
+            "en": "A well-known mendicant who has three qualities is acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an3.11:2.4": {
+            "scid": "an3.11:2.4",
+            "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato ñāto bhikkhu bahujanahitāya paṭipanno hoti bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānan”ti. ",
+            "de": "Eine namhafte Nonne, die diese drei Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen.“ ",
+            "en": "A well-known mendicant who has these three qualities is acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.88_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.88_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.88_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.88",
+        "lang": "de",
+        "segMap": {
+          "an5.88:3.1": {
+            "scid": "an5.88:3.1",
+            "pli": "Pañcahi, bhikkhave, dhammehi samannāgato thero bhikkhu bahujanahitāya paṭipanno hoti bahujanasukhāya bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Ein Ordensältester, der fünf Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen. ",
+            "en": "A senior mendicant who has five qualities is acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an5.88:4.8": {
+            "scid": "an5.88:4.8",
+            "pli": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato thero bhikkhu bahujanahitāya paṭipanno hoti bahujanasukhāya bahuno janassa atthāya hitāya sukhāya devamanussānan”ti. ",
+            "de": "Ein Ordensältester, der diese fünf Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen.“ ",
+            "en": "A senior mendicant who has these five qualities is acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
+            "matched": true
+          }
+        },
+        "score": 2.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 22,
+          "de": 21,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.170-187_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.170-187",
+        "lang": "de",
+        "segMap": {
+          "an1.170:1.1": {
+            "scid": "an1.170:1.1",
+            "pli": "“Ekapuggalo, bhikkhave, loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Ein Mensch, Mönche und Nonnen, erscheint in der Welt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“One person, mendicants, arises in the world for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an1.170:1.4": {
+            "scid": "an1.170:1.4",
+            "pli": "Ayaṁ kho, bhikkhave, ekapuggalo loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan”ti. ",
+            "de": "Das ist der eine Mensch, Mönche und Nonnen, der zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen in der Welt erscheint.“ ",
+            "en": "This is the one person, mendicants, who arises in the world for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans.” ",
+            "matched": true
+          }
+        },
+        "score": 2.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.160_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.160_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.160_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.160",
+        "lang": "de",
+        "segMap": {
+          "an4.160:1.1": {
+            "scid": "an4.160:1.1",
+            "pli": "“Sugato vā, bhikkhave, loke tiṭṭhamāno sugatavinayo vā tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Mönche und Nonnen, ein Heiliger oder die Übung eines Heiligen bleibt in der Welt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“Mendicants, a Holy One or a Holy One’s training remain in the world for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an4.160:3.4": {
+            "scid": "an4.160:3.4",
+            "pli": "Evaṁ sugato vā, bhikkhave, loke tiṭṭhamāno sugatavinayo vā tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānanti. ",
+            "de": "So bleibt ein Heiliger oder die Übung eines Heiligen in der Welt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "This is how a Holy One or a Holy One’s training remain in the world for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 48,
+          "de": 46,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.316-332_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.316-332_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.316-332",
+        "lang": "de",
+        "segMap": {
+          "an1.317:1.1": {
+            "scid": "an1.317:1.1",
+            "pli": "“Ekapuggalo, bhikkhave, loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Ein Mensch, Mönche und Nonnen, erscheint in der Welt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“One person, mendicants, arises in the world for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an1.317:1.5": {
+            "scid": "an1.317:1.5",
+            "pli": "Ayaṁ kho, bhikkhave, ekapuggalo loke uppajjamāno uppajjati bahujanahitāya bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānan”ti. ",
+            "de": "Das ist der eine Mensch, Mönche und Nonnen, der zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen in der Welt erscheint.“ ",
+            "en": "This is one person who arises in the world for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 61,
+          "de": 60,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.52-63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.52-63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.52-63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.52-63",
+        "lang": "de",
+        "segMap": {
+          "an2.52:1.1": {
+            "scid": "an2.52:1.1",
+            "pli": "“Dveme, bhikkhave, puggalā loke uppajjamānā uppajjanti bahujanahitāya bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Zwei Menschen, Mönche und Nonnen, erscheinen in der Welt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“Two people, mendicants, arise in the world for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "an2.52:1.4": {
+            "scid": "an2.52:1.4",
+            "pli": "Ime kho, bhikkhave, dve puggalā loke uppajjamānā uppajjanti bahujanahitāya bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānan”ti. ",
+            "de": "Das sind die beiden Menschen, die zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen in der Welt erscheinen.“ ",
+            "en": "These two people arise in the world for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
+            "matched": true
+          }
+        },
+        "score": 2.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 88,
+          "de": 87,
+          "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.32-41",
+        "lang": "de",
+        "segMap": {
+          "an2.39:2.6": {
+            "scid": "an2.39:2.6",
+            "pli": "Tayidaṁ, bhikkhave, hoti bahujanahitāya bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānan”ti. ",
+            "de": "Das ist zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück vieler Menschen, von Göttern und Menschen.“ ",
+            "en": "This is for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
+            "matched": true
+          },
+          "an2.41:2.1": {
+            "scid": "an2.41:2.1",
+            "pli": "Ye te, bhikkhave, bhikkhū suggahitehi suttantehi byañjanappatirūpakehi atthañca dhammañca anulomenti te, bhikkhave, bhikkhū bahujanahitāya paṭipannā bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Aber indem sie sich die Lehrreden gut einprägen und nicht nur eine ähnliche Wendung nehmen, stellen manche Mönche und Nonnen die Bedeutung und den Wortlaut richtig. Sie handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück vieler Menschen, von Göttern und Menschen. ",
+            "en": "But by memorizing the discourses well, not taking only a semblance of the phrasing, some mendicants reinforce the meaning and the teaching. They act for the welfare and happiness of the people, for the benefit, welfare, and happiness of the people, of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 169,
+          "de": 168,
+          "en": 168
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "de",
+        "segMap": {
+          "dn14:3.22.4": {
+            "scid": "dn14:3.22.4",
+            "pli": "“caratha, bhikkhave, cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ; ",
+            "de": "„Wandert los, Mönche und Nonnen, zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "“Wander forth, mendicants, for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "dn14:3.26.1": {
+            "scid": "dn14:3.26.1",
+            "pli": "‘Anujānāmi, bhikkhave, caratha cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ; ",
+            "de": "‚Wandert los, Mönche und Nonnen, zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "‘Wander forth, mendicants, for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 851,
+          "de": 689,
+          "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn18",
+        "lang": "de",
+        "segMap": {
+          "dn18:20.2": {
+            "scid": "dn18:20.2",
+            "pli": "“taṁ kiṁ maññanti, bhonto devā tāvatiṁsā, yāvañca so bhagavā bahujanahitāya paṭipanno bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "„Was denken die guten Götter der Dreiunddreißig: Wie sehr hat der Buddha zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span> gehandelt, zum Vorteil, Nutzen und Glück von Göttern und Menschen? ",
+            "en": "“What do the good gods of the Thirty-Three think about how much the Buddha has acted for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans? ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 255,
+          "en": 298
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2768 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wood",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wood",
+    "method": "phrase",
+    "resultPattern": "\\bwood",
+    "segsMatched": 306,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn96_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn96_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn20/sn20.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn90_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn90_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.72_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.72_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.52_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.52_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.16_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.58_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.39_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.39_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.55_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.63_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn52/sn52.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn52/sn52.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn52/sn52.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn52/sn52.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.18_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.40_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.37_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn14/sn14.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn14/sn14.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.67_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.60_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.333-377_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.45_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.45_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn55/sn55.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn55/sn55.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn52/sn52.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn52/sn52.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn52/sn52.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn52/sn52.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.23_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.43_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.43_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.26_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.39_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.39_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.69_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.69_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.131_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.131_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.124_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.124_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.86_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.86_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.78_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.78_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn21/sn21.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn21/sn21.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn20/sn20.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn71_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn71_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn63_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn63_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn108_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn108_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.72_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.72_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.109_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.109_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag10.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag10.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.37_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.53_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.52_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.52_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.48_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.59_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.59_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.57_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.46_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.46_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.22_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.40_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.44_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.34_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.33_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.201_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.201_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.195_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.195_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.194_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.194_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.144_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.144_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.143_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.143_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.121_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.121_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.103_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.103_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.55_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.33_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.93_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.93_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.84_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.84_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.74_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.50_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.50_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.156-162_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.198-208_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.198-208_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an11/an11.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.89_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.89_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.47_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.47_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn20/en/sujato",
+      "dn23/en/sujato",
+      "mn125/en/sujato",
+      "mn96/en/sujato",
+      "mn93/en/sujato",
+      "sn20.8/en/sujato",
+      "mn90/en/sujato",
+      "mn27/en/sujato",
+      "dn24/en/sujato",
+      "an10.72/en/sujato",
+      "sn12.52/en/sujato",
+      "mn35/en/sujato",
+      "an6.16/en/sujato",
+      "an5.58/en/sujato",
+      "sn47.1/en/sujato",
+      "sn1.39/en/sujato",
+      "mn18/en/sujato",
+      "mn12/en/sujato",
+      "thig14.1/en/sujato",
+      "dn6/en/sujato",
+      "dn16/en/sujato",
+      "an8.30/en/sujato",
+      "an6.55/en/sujato",
+      "an4.196/en/sujato",
+      "an3.63/en/sujato",
+      "sn9.8/en/sujato",
+      "sn9.1/en/sujato",
+      "sn7.9/en/sujato",
+      "sn52.9/en/sujato",
+      "sn52.4/en/sujato",
+      "sn47.7/en/sujato",
+      "sn47.2/en/sujato",
+      "sn2.18/en/sujato",
+      "sn22.80/en/sujato",
+      "sn1.40/en/sujato",
+      "sn1.37/en/sujato",
+      "sn14.12/en/sujato",
+      "mn95/en/sujato",
+      "mn85/en/sujato",
+      "mn50/en/sujato",
+      "mn36/en/sujato",
+      "mn130/en/sujato",
+      "thag19.1/en/sujato",
+      "dn5/en/sujato",
+      "dn4/en/sujato",
+      "dn21/en/sujato",
+      "an9.41/en/sujato",
+      "an8.51/en/sujato",
+      "an7.67/en/sujato",
+      "an7.61/en/sujato",
+      "an6.60/en/sujato",
+      "an1.333-377/en/sujato",
+      "sn9.9/en/sujato",
+      "sn9.7/en/sujato",
+      "sn9.6/en/sujato",
+      "sn9.5/en/sujato",
+      "sn9.4/en/sujato",
+      "sn9.3/en/sujato",
+      "sn9.2/en/sujato",
+      "sn9.14/en/sujato",
+      "sn9.13/en/sujato",
+      "sn9.12/en/sujato",
+      "sn9.11/en/sujato",
+      "sn9.10/en/sujato",
+      "sn6.10/en/sujato",
+      "sn5.3/en/sujato",
+      "sn56.45/en/sujato",
+      "sn55.30/en/sujato",
+      "sn54.9/en/sujato",
+      "sn54.10/en/sujato",
+      "sn52.6/en/sujato",
+      "sn52.5/en/sujato",
+      "sn51.10/en/sujato",
+      "sn4.23/en/sujato",
+      "sn4.21/en/sujato",
+      "sn4.17/en/sujato",
+      "sn48.43/en/sujato",
+      "sn47.9/en/sujato",
+      "sn47.8/en/sujato",
+      "sn47.6/en/sujato",
+      "sn47.5/en/sujato",
+      "sn47.4/en/sujato",
+      "sn47.3/en/sujato",
+      "sn47.26/en/sujato",
+      "sn47.10/en/sujato",
+      "sn46.6/en/sujato",
+      "sn46.39/en/sujato",
+      "sn44.2/en/sujato",
+      "sn42.10/en/sujato",
+      "sn3.10/en/sujato",
+      "sn36.8/en/sujato",
+      "sn36.7/en/sujato",
+      "sn35.69/en/sujato",
+      "sn35.131/en/sujato",
+      "sn35.124/en/sujato",
+      "sn22.86/en/sujato",
+      "sn22.78/en/sujato",
+      "sn22.60/en/sujato",
+      "sn22.1/en/sujato",
+      "sn21.7/en/sujato",
+      "sn20.7/en/sujato",
+      "sn11.6/en/sujato",
+      "sn11.13/en/sujato",
+      "sn10.3/en/sujato",
+      "mn94/en/sujato",
+      "mn92/en/sujato",
+      "mn77/en/sujato",
+      "mn71/en/sujato",
+      "mn63/en/sujato",
+      "mn54/en/sujato",
+      "mn51/en/sujato",
+      "mn45/en/sujato",
+      "mn15/en/sujato",
+      "mn108/en/sujato",
+      "mn107/en/sujato",
+      "mn105/en/sujato",
+      "thag1.72/en/sujato",
+      "thag16.10/en/sujato",
+      "thag1.19/en/sujato",
+      "thag1.109/en/sujato",
+      "thag10.2/en/sujato",
+      "dn8/en/sujato",
+      "dn3/en/sujato",
+      "dn32/en/sujato",
+      "dn25/en/sujato",
+      "dn12/en/sujato",
+      "an9.37/en/sujato",
+      "an8.70/en/sujato",
+      "an8.53/en/sujato",
+      "an8.52/en/sujato",
+      "an8.48/en/sujato",
+      "an8.44/en/sujato",
+      "an8.21/en/sujato",
+      "an8.12/en/sujato",
+      "an8.10/en/sujato",
+      "an7.66/en/sujato",
+      "an7.59/en/sujato",
+      "an7.57/en/sujato",
+      "an7.47/en/sujato",
+      "an7.46/en/sujato",
+      "an7.22/en/sujato",
+      "an6.40/en/sujato",
+      "an5.44/en/sujato",
+      "an5.34/en/sujato",
+      "an5.33/en/sujato",
+      "an5.201/en/sujato",
+      "an5.195/en/sujato",
+      "an5.194/en/sujato",
+      "an5.144/en/sujato",
+      "an5.143/en/sujato",
+      "an5.121/en/sujato",
+      "an5.103/en/sujato",
+      "an4.55/en/sujato",
+      "an4.33/en/sujato",
+      "an4.198/en/sujato",
+      "an4.193/en/sujato",
+      "an3.93/en/sujato",
+      "an3.84/en/sujato",
+      "an3.74/en/sujato",
+      "an3.50/en/sujato",
+      "an3.15/en/sujato",
+      "an3.156-162/en/sujato",
+      "an1.198-208/en/sujato",
+      "an11.13/en/sujato",
+      "an10.89/en/sujato",
+      "an10.47/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn20",
+        "lang": "en",
+        "segMap": {
+          "dn20:1.2": {
+            "scid": "dn20:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā sakkesu viharati kapilavatthusmiṁ mahāvane mahatā bhikkhusaṅghena saddhiṁ pañcamattehi bhikkhusatehi sabbeheva arahantehi; ",
+            "en": "At one time the Buddha was staying in the land of the Sakyans, near Kapilavatthu in the Great <span class=\"scv-matched\">Wood</span>, together with a large Saṅgha of around five hundred mendicants, all of whom were perfected ones. ",
+            "matched": true
+          },
+          "dn20:3.4": {
+            "scid": "dn20:3.4",
+            "pli": "“Mahāsamayo pavanasmiṁ, ",
+            "en": "“There’s a great congregation in the <span class=\"scv-matched\">wood</span>s, ",
+            "matched": true
+          },
+          "dn20:5.10": {
+            "scid": "dn20:5.10",
+            "pli": "vane kāpilavatthave; ",
+            "en": "were in the <span class=\"scv-matched\">wood</span> at Kapilavatthu. ",
+            "matched": true
+          },
+          "dn20:7.6": {
+            "scid": "dn20:7.6",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:7.12": {
+            "scid": "dn20:7.12",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:7.18": {
+            "scid": "dn20:7.18",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:7.24": {
+            "scid": "dn20:7.24",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:8.6": {
+            "scid": "dn20:8.6",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:8.12": {
+            "scid": "dn20:8.12",
+            "pli": "sopāgā samitiṁ vanaṁ. ",
+            "en": "also came to the meeting in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:9.10": {
+            "scid": "dn20:9.10",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:9.20": {
+            "scid": "dn20:9.20",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:9.30": {
+            "scid": "dn20:9.30",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:9.40": {
+            "scid": "dn20:9.40",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:9.48": {
+            "scid": "dn20:9.48",
+            "pli": "vane kāpilavatthave. ",
+            "en": "in the <span class=\"scv-matched\">wood</span> at Kapilavatthu. ",
+            "matched": true
+          },
+          "dn20:10.16": {
+            "scid": "dn20:10.16",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:11.8": {
+            "scid": "dn20:11.8",
+            "pli": "sopāgā samitiṁ vanaṁ. ",
+            "en": "also came to the meeting in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:11.11": {
+            "scid": "dn20:11.11",
+            "pli": "Vehāyasā te vanamajjhapattā, ",
+            "en": "swoop down to the <span class=\"scv-matched\">wood</span> from the sky; ",
+            "matched": true
+          },
+          "dn20:12.14": {
+            "scid": "dn20:12.14",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ’. ",
+            "en": "for the meeting of mendicants in the <span class=\"scv-matched\">wood</span>.’ ",
+            "matched": true
+          },
+          "dn20:13.12": {
+            "scid": "dn20:13.12",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:14.16": {
+            "scid": "dn20:14.16",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:15.14": {
+            "scid": "dn20:15.14",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:16.14": {
+            "scid": "dn20:16.14",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:17.14": {
+            "scid": "dn20:17.14",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:18.12": {
+            "scid": "dn20:18.12",
+            "pli": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+            "en": "to the meeting of mendicants in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "dn20:20.4": {
+            "scid": "dn20:20.4",
+            "pli": "sopāga samitiṁ vanaṁ. ",
+            "en": "also came to the meeting in the <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 25.074,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 25,
+        "langSegs": {
+          "pli": 337,
+          "en": 336
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "en",
+        "segMap": {
+          "dn23:1.4": {
+            "scid": "dn23:1.4",
+            "pli": "Tena kho pana samayena pāyāsi rājañño setabyaṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā pasenadinā kosalena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "en": "Now at that time the chieftain Pāyāsi was living in Setavyā. It was a crown property given by King Pasenadi of Kosala, teeming with living creatures, full of hay, <span class=\"scv-matched\">wood</span>, water, and grain, a royal endowment of the highest quality. ",
+            "matched": true
+          },
+          "dn23:15.2": {
+            "scid": "dn23:15.2",
+            "pli": "Abhijānāsi no tvaṁ, rājañña, divā seyyaṁ upagato supinakaṁ passitā ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇīrāmaṇeyyakan”ti? ",
+            "en": "Do you recall ever having a midday nap and seeing delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds in a dream?” ",
+            "matched": true
+          },
+          "dn23:23.4": {
+            "scid": "dn23:23.4",
+            "pli": "So yena yena gacchi, khippaṁyeva pariyādiyati tiṇakaṭṭhodakaṁ haritakapaṇṇaṁ. ",
+            "en": "Wherever they went they quickly used up the grass, <span class=\"scv-matched\">wood</span>, water, and the green foliage. ",
+            "matched": true
+          },
+          "dn23:23.8": {
+            "scid": "dn23:23.8",
+            "pli": "te mayaṁ yena yena gacchāma, khippameva pariyādiyati tiṇakaṭṭhodakaṁ haritakapaṇṇaṁ. ",
+            "en": "Wherever we go we quickly use up the grass, <span class=\"scv-matched\">wood</span>, water, and the green foliage. ",
+            "matched": true
+          },
+          "dn23:23.12": {
+            "scid": "dn23:23.12",
+            "pli": "Eko satthavāho bahuṁ tiṇañca kaṭṭhañca udakañca āropetvā satthaṁ payāpesi. ",
+            "en": "One caravan leader, having prepared much grass, <span class=\"scv-matched\">wood</span>, and water, started the caravan. ",
+            "matched": true
+          },
+          "dn23:23.19": {
+            "scid": "dn23:23.19",
+            "pli": "‘Evaṁ, bho, purato kantāre mahāmegho abhippavuṭṭho, āsittodakāni vaṭumāni, bahu tiṇañca kaṭṭhañca udakañca. ",
+            "en": "‘Indeed there has, sir. The paths are sprinkled with water, and there is much grass, <span class=\"scv-matched\">wood</span>, and water. ",
+            "matched": true
+          },
+          "dn23:23.20": {
+            "scid": "dn23:23.20",
+            "pli": "Chaḍḍetha, bho, purāṇāni tiṇāni kaṭṭhāni udakāni, lahubhārehi sakaṭehi sīghaṁ sīghaṁ gacchatha, mā yoggāni kilamitthā’ti. ",
+            "en": "Toss out your grass, <span class=\"scv-matched\">wood</span>, and water. Your wagons will move swiftly when lightly-laden, so don’t tire your draught teams.’ ",
+            "matched": true
+          },
+          "dn23:23.24": {
+            "scid": "dn23:23.24",
+            "pli": "Chaḍḍetha, bho, purāṇāni tiṇāni kaṭṭhāni udakāni, lahubhārehi sakaṭehi sīghaṁ sīghaṁ gacchatha, mā yoggāni kilamitthā”ti. ",
+            "en": "He advises us to toss out the grass, <span class=\"scv-matched\">wood</span>, and water. The wagons will move swiftly when lightly-laden, and won’t tire our draught teams. ",
+            "matched": true
+          },
+          "dn23:23.25": {
+            "scid": "dn23:23.25",
+            "pli": "Chaḍḍetha, bho, purāṇāni tiṇāni kaṭṭhāni udakāni, lahubhārehi sakaṭehi satthaṁ payāpethā’ti. ",
+            "en": "So let’s toss out the grass, <span class=\"scv-matched\">wood</span>, and water and restart the caravan with lightly-laden wagons.’ ",
+            "matched": true
+          },
+          "dn23:23.27": {
+            "scid": "dn23:23.27",
+            "pli": "Te paṭhamepi satthavāse na addasaṁsu tiṇaṁ vā kaṭṭhaṁ vā udakaṁ vā. ",
+            "en": "But in the caravan’s first campsite they saw no grass, <span class=\"scv-matched\">wood</span>, or water. ",
+            "matched": true
+          },
+          "dn23:23.33": {
+            "scid": "dn23:23.33",
+            "pli": "sattamepi satthavāse na addasaṁsu tiṇaṁ vā kaṭṭhaṁ vā udakaṁ vā. ",
+            "en": "and seventh campsites they saw no grass, <span class=\"scv-matched\">wood</span>, or water. ",
+            "matched": true
+          },
+          "dn23:23.38": {
+            "scid": "dn23:23.38",
+            "pli": "‘bahunikkhanto kho, bho, dāni so sattho’ti bahuṁ tiṇañca kaṭṭhañca udakañca āropetvā satthaṁ payāpesi. ",
+            "en": "the first caravan was well underway, he prepared much grass, <span class=\"scv-matched\">wood</span>, and water and started the caravan. ",
+            "matched": true
+          },
+          "dn23:23.45": {
+            "scid": "dn23:23.45",
+            "pli": "‘Evaṁ, bho, purato kantāre mahāmegho abhippavuṭṭho. Āsittodakāni vaṭumāni, bahu tiṇañca kaṭṭhañca udakañca. ",
+            "en": "‘Indeed there has, sir. The paths are sprinkled with water, and there is much grass, <span class=\"scv-matched\">wood</span>, and water. ",
+            "matched": true
+          },
+          "dn23:23.46": {
+            "scid": "dn23:23.46",
+            "pli": "Chaḍḍetha, bho, purāṇāni tiṇāni kaṭṭhāni udakāni, lahubhārehi sakaṭehi sīghaṁ sīghaṁ gacchatha, mā yoggāni kilamitthā’ti. ",
+            "en": "Toss out your grass, <span class=\"scv-matched\">wood</span>, and water. Your wagons will move swiftly when lightly-laden, so don’t tire your draught teams.’ ",
+            "matched": true
+          },
+          "dn23:23.50": {
+            "scid": "dn23:23.50",
+            "pli": "Chaḍḍetha, bho, purāṇāni tiṇāni kaṭṭhāni udakāni, lahubhārehi sakaṭehi sīghaṁ sīghaṁ gacchatha; mā yoggāni kilamitthā”ti. ",
+            "en": "He advises us to toss out the grass, <span class=\"scv-matched\">wood</span>, and water. The wagons will move swiftly when lightly-laden, and won’t tire our draught teams. ",
+            "matched": true
+          },
+          "dn23:23.52": {
+            "scid": "dn23:23.52",
+            "pli": "Na vo chaḍḍetabbāni purāṇāni tiṇāni kaṭṭhāni udakāni, yathābhatena bhaṇḍena satthaṁ payāpetha. ",
+            "en": "We shouldn’t toss out any grass, <span class=\"scv-matched\">wood</span>, or water, but continue with our goods laden as before. ",
+            "matched": true
+          },
+          "dn23:23.55": {
+            "scid": "dn23:23.55",
+            "pli": "Te paṭhamepi satthavāse na addasaṁsu tiṇaṁ vā kaṭṭhaṁ vā udakaṁ vā. ",
+            "en": "And in the caravan’s first campsite they saw no grass, <span class=\"scv-matched\">wood</span>, or water. ",
+            "matched": true
+          },
+          "dn23:23.61": {
+            "scid": "dn23:23.61",
+            "pli": "sattamepi satthavāse na addasaṁsu tiṇaṁ vā kaṭṭhaṁ vā udakaṁ vā. ",
+            "en": "and seventh campsites they saw no grass, <span class=\"scv-matched\">wood</span>, or water. ",
+            "matched": true
+          },
+          "dn23:31.2": {
+            "scid": "dn23:31.2",
+            "pli": "Seyyathāpi, rājañña, kassako bījanaṅgalaṁ ādāya vanaṁ paviseyya. ",
+            "en": "Suppose a farmer was to enter a <span class=\"scv-matched\">wood</span> taking seed and plough. ",
+            "matched": true
+          },
+          "dn23:31.9": {
+            "scid": "dn23:31.9",
+            "pli": "Seyyathāpi, rājañña, kassako bījanaṅgalaṁ ādāya vanaṁ paviseyya. ",
+            "en": "Suppose a farmer was to enter a <span class=\"scv-matched\">wood</span> taking seed and plough. ",
+            "matched": true
+          }
+        },
+        "score": 20.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 20,
+        "langSegs": {
+          "pli": 714,
+          "en": 712
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn125",
+        "lang": "en",
+        "segMap": {
+          "mn125:9.6": {
+            "scid": "mn125:9.6",
+            "pli": "‘passāmi kho ahaṁ, samma, uparipabbate ṭhito ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇīrāmaṇeyyakan’ti. ",
+            "en": "‘Standing at the peak, I see delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds!’ ",
+            "matched": true
+          },
+          "mn125:9.8": {
+            "scid": "mn125:9.8",
+            "pli": "‘aṭṭhānaṁ kho etaṁ, samma, anavakāso yaṁ tvaṁ uparipabbate ṭhito passeyyāsi ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇīrāmaṇeyyakan’ti. ",
+            "en": "‘It’s impossible, it cannot happen that, standing at the peak, you can see delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds.’ ",
+            "matched": true
+          },
+          "mn125:9.12": {
+            "scid": "mn125:9.12",
+            "pli": "‘passāmi kho ahaṁ, samma, uparipabbate ṭhito ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇīrāmaṇeyyakan’ti. ",
+            "en": "‘Standing at the peak, I see delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds!’ ",
+            "matched": true
+          },
+          "mn125:9.15": {
+            "scid": "mn125:9.15",
+            "pli": "aṭṭhānaṁ kho etaṁ samma, anavakāso yaṁ tvaṁ uparipabbate ṭhito passeyyāsi ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇīrāmaṇeyyakan’ti. ",
+            "en": "“It’s impossible, it cannot happen that, standing at the peak, you can see delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds.” ",
+            "matched": true
+          },
+          "mn125:9.17": {
+            "scid": "mn125:9.17",
+            "pli": "‘passāmi kho ahaṁ, samma, uparipabbate ṭhito ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇīrāmaṇeyyakan’ti. ",
+            "en": "“Standing at the peak, I see delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds!”’ ",
+            "matched": true
+          },
+          "mn125:12.2": {
+            "scid": "mn125:12.2",
+            "pli": "‘ehi tvaṁ, samma nāgavanika, rañño nāgaṁ abhiruhitvā nāgavanaṁ pavisitvā āraññakaṁ nāgaṁ atipassitvā rañño nāgassa gīvāyaṁ upanibandhāhī’ti. ",
+            "en": "‘Please, my good elephant tracker, mount the royal bull elephant and enter the elephant <span class=\"scv-matched\">wood</span>. When you see a wild bull elephant, tether it by the neck to the royal elephant.’ ",
+            "matched": true
+          },
+          "mn125:12.6": {
+            "scid": "mn125:12.6",
+            "pli": "Etthagedhā hi, aggivessana, āraññakā nāgā yadidaṁ—nāgavanaṁ. ",
+            "en": "for a wild bull elephant clings to the elephant <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 7.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 145,
+          "en": 144
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn96_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn96_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn96",
+        "lang": "en",
+        "segMap": {
+          "mn96:16.3": {
+            "scid": "mn96:16.3",
+            "pli": "‘āyantu bhonto ye tattha khattiyakulā brāhmaṇakulā rājaññakulā uppannā sākassa vā sālassa vā salaḷassa vā candanassa vā padumakassa vā uttarāraṇiṁ ādāya aggiṁ abhinibbattentu, tejo pātukarontu; ",
+            "en": "‘Please gentlemen, let anyone here who was born in a family of aristocrats, brahmins, or chieftains take a drill-stick made of teak, sal, frankincense <span class=\"scv-matched\">wood</span>, sandalwood, or cherry <span class=\"scv-matched\">wood</span>, light a fire and produce heat. ",
+            "matched": true
+          },
+          "mn96:16.4": {
+            "scid": "mn96:16.4",
+            "pli": "āyantu pana bhonto ye tattha caṇḍālakulā nesādakulā venakulā rathakārakulā pukkusakulā uppannā sāpānadoṇiyā vā sūkaradoṇiyā vā rajakadoṇiyā vā eraṇḍakaṭṭhassa vā uttarāraṇiṁ ādāya aggiṁ abhinibbattentu, tejo pātukarontū’”ti? ",
+            "en": "And let anyone here who was born in a family of outcastes, hunters, bamboo-workers, chariot-makers, or waste-collectors take a drill-stick made from a dog’s drinking trough, a pig’s trough, a dustbin, or castor-oil <span class=\"scv-matched\">wood</span>, light a fire and produce heat.’ ",
+            "matched": true
+          },
+          "mn96:16.6": {
+            "scid": "mn96:16.6",
+            "pli": "yo evaṁ nu kho so khattiyakulā brāhmaṇakulā rājaññakulā uppannehi sākassa vā sālassa vā salaḷassa vā candanassa vā padumakassa vā uttarāraṇiṁ ādāya aggi abhinibbatto tejo pātukato so eva nu khvāssa aggi accimā ceva vaṇṇavā ca pabhassaro ca tena ca sakkā agginā aggikaraṇīyaṁ kātuṁ; ",
+            "en": "Would only the fire produced by the high class people with good quality <span class=\"scv-matched\">wood</span> have flames, color, and radiance, and be usable as fire, ",
+            "matched": true
+          },
+          "mn96:16.7": {
+            "scid": "mn96:16.7",
+            "pli": "yo pana so caṇḍālakulā nesādakulā venakulā rathakārakulā pukkusakulā uppannehi sāpānadoṇiyā vā sūkaradoṇiyā vā rajakadoṇiyā vā eraṇḍakaṭṭhassa vā uttarāraṇiṁ ādāya aggi abhinibbatto tejo pātukato svāssa aggi na ceva accimā na ca vaṇṇavā na ca pabhassaro na ca tena sakkā agginā aggikaraṇīyaṁ kātun”ti? ",
+            "en": "and not the fire produced by the low class people with poor quality <span class=\"scv-matched\">wood</span>?” ",
+            "matched": true
+          },
+          "mn96:16.9": {
+            "scid": "mn96:16.9",
+            "pli": "Yopi hi so, bho gotama, khattiyakulā brāhmaṇakulā rājaññakulā uppannehi sākassa vā sālassa vā salaḷassa vā candanassa vā padumakassa vā uttarāraṇiṁ ādāya aggi abhinibbatto tejo pātukato svāssa aggi accimā ceva vaṇṇavā ca pabhassaro ca tena ca sakkā agginā aggikaraṇīyaṁ kātuṁ; ",
+            "en": "The fire produced by the high class people with good quality <span class=\"scv-matched\">wood</span> would have flames, color, and radiance, and be usable as fire, ",
+            "matched": true
+          },
+          "mn96:16.10": {
+            "scid": "mn96:16.10",
+            "pli": "yopi so caṇḍālakulā nesādakulā venakulā rathakārakulā pukkusakulā uppannehi sāpānadoṇiyā vā sūkaradoṇiyā vā rajakadoṇiyā vā eraṇḍakaṭṭhassa vā uttarāraṇiṁ ādāya aggi abhinibbatto tejo pātukato svāssa aggi accimā ceva vaṇṇavā ca pabhassaro ca tena ca sakkā agginā aggikaraṇīyaṁ kātuṁ. ",
+            "en": "and so would the fire produced by the low class people with poor quality <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 6.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 143,
+          "en": 142
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn93",
+        "lang": "en",
+        "segMap": {
+          "mn93:11.6": {
+            "scid": "mn93:11.6",
+            "pli": "‘āyantu bhonto ye tattha khattiyakulā brāhmaṇakulā rājaññakulā uppannā, sākassa vā sālassa vā salaḷassa vā candanassa vā padumakassa vā uttarāraṇiṁ ādāya, aggiṁ abhinibbattentu, tejo pātukarontu. ",
+            "en": "‘Please gentlemen, let anyone here who was born in a family of aristocrats, brahmins, or chieftains take a drill-stick made of teak, sal, frankincense <span class=\"scv-matched\">wood</span>, sandalwood, or cherry <span class=\"scv-matched\">wood</span>, light a fire and produce heat. ",
+            "matched": true
+          },
+          "mn93:11.7": {
+            "scid": "mn93:11.7",
+            "pli": "Āyantu pana bhonto ye tattha caṇḍālakulā nesādakulā venakulā rathakārakulā pukkusakulā uppannā, sāpānadoṇiyā vā sūkaradoṇiyā vā rajakadoṇiyā vā eraṇḍakaṭṭhassa vā uttarāraṇiṁ ādāya, aggiṁ abhinibbattentu, tejo pātukarontū’ti. ",
+            "en": "And let anyone here who was born in a family of outcastes, hunters, bamboo-workers, chariot-makers, or waste-collectors take a drill-stick made from a dog’s drinking trough, a pig’s trough, a dustbin, or castor-oil <span class=\"scv-matched\">wood</span>, light a fire and produce heat.’ ",
+            "matched": true
+          },
+          "mn93:11.9": {
+            "scid": "mn93:11.9",
+            "pli": "yo evaṁ nu kho so khattiyakulā brāhmaṇakulā rājaññakulā uppannehi sākassa vā sālassa vā salaḷassa vā candanassa vā padumakassa vā uttarāraṇiṁ ādāya aggi abhinibbatto, tejo pātukato, so eva nu khvāssa aggi accimā ceva vaṇṇavā ca pabhassaro ca, tena ca sakkā agginā aggikaraṇīyaṁ kātuṁ; ",
+            "en": "Would only the fire produced by the high class people with good quality <span class=\"scv-matched\">wood</span> have flames, color, and radiance, and be usable as fire, ",
+            "matched": true
+          },
+          "mn93:11.10": {
+            "scid": "mn93:11.10",
+            "pli": "yo pana so caṇḍālakulā nesādakulā venakulā rathakārakulā pukkusakulā uppannehi sāpānadoṇiyā vā sūkaradoṇiyā vā rajakadoṇiyā vā eraṇḍakaṭṭhassa vā uttarāraṇiṁ ādāya aggi abhinibbatto, tejo pātukato svāssa aggi na ceva accimā na ca vaṇṇavā na ca pabhassaro, na ca tena sakkā agginā aggikaraṇīyaṁ kātun”ti? ",
+            "en": "and not the fire produced by the low class people with poor quality <span class=\"scv-matched\">wood</span>?” ",
+            "matched": true
+          },
+          "mn93:11.12": {
+            "scid": "mn93:11.12",
+            "pli": "Yopi hi so, bho gotama, khattiyakulā brāhmaṇakulā rājaññakulā uppannehi sākassa vā sālassa vā salaḷassa vā candanassa vā padumakassa vā uttarāraṇiṁ ādāya aggi abhinibbatto, tejo pātukato svāssa aggi accimā ceva vaṇṇavā ca pabhassaro ca, tena ca sakkā agginā aggikaraṇīyaṁ kātuṁ; ",
+            "en": "The fire produced by the high class people with good quality <span class=\"scv-matched\">wood</span> would have flames, color, and radiance, and be usable as fire, ",
+            "matched": true
+          },
+          "mn93:11.13": {
+            "scid": "mn93:11.13",
+            "pli": "yopi so caṇḍālakulā nesādakulā venakulā rathakārakulā pukkusakulā uppannehi sāpānadoṇiyā vā sūkaradoṇiyā vā rajakadoṇiyā vā eraṇḍakaṭṭhassa vā uttarāraṇiṁ ādāya aggi abhinibbatto, tejo pātukato, svāssa aggi accimā ceva vaṇṇavā ca pabhassaro ca, tena ca sakkā agginā aggikaraṇīyaṁ kātuṁ. ",
+            "en": "and so would the fire produced by the low class people with poor quality <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 6.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 244,
+          "en": 243
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn20/sn20.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn20/sn20.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn20.8",
+        "lang": "en",
+        "segMap": {
+          "sn20.8:0.3": {
+            "scid": "sn20.8:0.3",
+            "pli": "8. Kaliṅgarasutta ",
+            "en": "8. <span class=\"scv-matched\">Wood</span> Blocks ",
+            "matched": true
+          },
+          "sn20.8:1.2": {
+            "scid": "sn20.8:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "sn20.8:2.1": {
+            "scid": "sn20.8:2.1",
+            "pli": "“Kaliṅgarūpadhānā, bhikkhave, etarahi licchavī viharanti appamattā ātāpino upāsanasmiṁ. ",
+            "en": "“Mendicants, these days the Licchavis live using <span class=\"scv-matched\">wood</span> blocks as pillows, and they exercise diligently and keenly. ",
+            "matched": true
+          },
+          "sn20.8:3.1": {
+            "scid": "sn20.8:3.1",
+            "pli": "Kaliṅgarūpadhānā, bhikkhave, etarahi bhikkhū viharanti appamattā ātāpino padhānasmiṁ. ",
+            "en": "These days the mendicants live using <span class=\"scv-matched\">wood</span> blocks as pillows, and they meditate diligently and keenly. ",
+            "matched": true
+          },
+          "sn20.8:3.7": {
+            "scid": "sn20.8:3.7",
+            "pli": "‘kaliṅgarūpadhānā viharissāma appamattā ātāpino padhānasmin’ti. ",
+            "en": "‘We will live using <span class=\"scv-matched\">wood</span> blocks as pillows, and we will meditate diligently and keenly.’ ",
+            "matched": true
+          }
+        },
+        "score": 5.217,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.72_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.72_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.72",
+        "lang": "en",
+        "segMap": {
+          "an10.72:1.1": {
+            "scid": "an10.72:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ sambahulehi abhiññātehi abhiññātehi therehi sāvakehi saddhiṁ—",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof, together with several well-known senior disciples. ",
+            "matched": true
+          },
+          "an10.72:2.1": {
+            "scid": "an10.72:2.1",
+            "pli": "Tena kho pana samayena sambahulā abhiññātā abhiññātā licchavī bhadrehi bhadrehi yānehi parapurāya uccāsaddā mahāsaddā mahāvanaṁ ajjhogāhanti bhagavantaṁ dassanāya. ",
+            "en": "Now at that time several well-known Licchavis plunged deep into the Great <span class=\"scv-matched\">Wood</span> to see the Buddha. Driving a succession of fine carriages, they made a dreadful racket. ",
+            "matched": true
+          },
+          "an10.72:2.3": {
+            "scid": "an10.72:2.3",
+            "pli": "“ime kho sambahulā abhiññātā abhiññātā licchavī bhadrehi bhadrehi yānehi parapurāya uccāsaddā mahāsaddā mahāvanaṁ ajjhogāhanti bhagavantaṁ dassanāya. ",
+            "en": "“These several well-known Licchavis have plunged deep into the Great <span class=\"scv-matched\">Wood</span> to see the Buddha. Driving a succession of fine carriages, they’re making a dreadful racket. ",
+            "matched": true
+          },
+          "an10.72:2.5": {
+            "scid": "an10.72:2.5",
+            "pli": "Yannūna mayaṁ yena gosiṅgasālavanadāyo tenupasaṅkameyyāma. ",
+            "en": "Let’s go to the Gosiṅga Sal <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "an10.72:2.7": {
+            "scid": "an10.72:2.7",
+            "pli": "Atha kho te āyasmanto yena gosiṅgasālavanadāyo tenupasaṅkamiṁsu; ",
+            "en": "Then those venerables went to the Gosiṅga Sal <span class=\"scv-matched\">Wood</span>, ",
+            "matched": true
+          }
+        },
+        "score": 5.156,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 32,
+          "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn90_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn90_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn90",
+        "lang": "en",
+        "segMap": {
+          "mn90:12.7": {
+            "scid": "mn90:12.7",
+            "pli": "Seyyathāpi, mahārāja, puriso sukkhaṁ sākakaṭṭhaṁ ādāya aggiṁ abhinibbatteyya, tejo pātukareyya; ",
+            "en": "Suppose a person took dry teak <span class=\"scv-matched\">wood</span> and lit a fire and produced heat. ",
+            "matched": true
+          },
+          "mn90:12.8": {
+            "scid": "mn90:12.8",
+            "pli": "athāparo puriso sukkhaṁ sālakaṭṭhaṁ ādāya aggiṁ abhinibbatteyya, tejo pātukareyya; ",
+            "en": "Then another person did the same using sāl <span class=\"scv-matched\">wood</span>, ",
+            "matched": true
+          },
+          "mn90:12.9": {
+            "scid": "mn90:12.9",
+            "pli": "athāparo puriso sukkhaṁ ambakaṭṭhaṁ ādāya aggiṁ abhinibbatteyya, tejo pātukareyya; ",
+            "en": "another used mango <span class=\"scv-matched\">wood</span>, ",
+            "matched": true
+          },
+          "mn90:12.10": {
+            "scid": "mn90:12.10",
+            "pli": "athāparo puriso sukkhaṁ udumbarakaṭṭhaṁ ādāya aggiṁ abhinibbatteyya, tejo pātukareyya. ",
+            "en": "while another used <span class=\"scv-matched\">wood</span> of the cluster fig. ",
+            "matched": true
+          },
+          "mn90:12.12": {
+            "scid": "mn90:12.12",
+            "pli": "siyā nu kho tesaṁ aggīnaṁ nānādāruto abhinibbattānaṁ kiñci nānākaraṇaṁ acciyā vā acciṁ, vaṇṇena vā vaṇṇaṁ, ābhāya vā ābhan”ti? ",
+            "en": "Would there be any difference between the fires produced by these different kinds of <span class=\"scv-matched\">wood</span>, that is, in the flame, color, or light?” ",
+            "matched": true
+          }
+        },
+        "score": 5.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 172,
+          "en": 170
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn27",
+        "lang": "en",
+        "segMap": {
+          "mn27:3.1": {
+            "scid": "mn27:3.1",
+            "pli": "“Seyyathāpi, bho, kusalo nāgavaniko nāgavanaṁ paviseyya. ",
+            "en": "“Suppose that a skilled elephant tracker were to enter an elephant <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "mn27:10.1": {
+            "scid": "mn27:10.1",
+            "pli": "“Seyyathāpi, brāhmaṇa, nāgavaniko nāgavanaṁ paviseyya. ",
+            "en": "“Suppose that an elephant tracker were to enter an elephant <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "mn27:10.6": {
+            "scid": "mn27:10.6",
+            "pli": "Santi hi, brāhmaṇa, nāgavane vāmanikā nāma hatthiniyo mahāpadā, tāsaṁ petaṁ padaṁ assāti. ",
+            "en": "Because in an elephant <span class=\"scv-matched\">wood</span> there are dwarf she-elephants with big footprints, and this footprint might be one of theirs. ",
+            "matched": true
+          },
+          "mn27:10.12": {
+            "scid": "mn27:10.12",
+            "pli": "Santi hi, brāhmaṇa, nāgavane uccā kāḷārikā nāma hatthiniyo mahāpadā, tāsaṁ petaṁ padaṁ assāti. ",
+            "en": "Because in an elephant <span class=\"scv-matched\">wood</span> there are tall she-elephants with long trunks and big footprints, and this footprint might be one of theirs. ",
+            "matched": true
+          },
+          "mn27:10.18": {
+            "scid": "mn27:10.18",
+            "pli": "Santi hi, brāhmaṇa, nāgavane uccā kaṇerukā nāma hatthiniyo mahāpadā, tāsaṁ petaṁ padaṁ assāti. ",
+            "en": "Because in an elephant <span class=\"scv-matched\">wood</span> there are tall and fully-grown she-elephants with big footprints, and this footprint might be one of theirs. ",
+            "matched": true
+          }
+        },
+        "score": 5.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 201,
+          "en": 200
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "en",
+        "segMap": {
+          "dn24:1.11.1": {
+            "scid": "dn24:1.11.1",
+            "pli": "Ekamidāhaṁ, bhaggava, samayaṁ vesāliyaṁ viharāmi mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "This one time, Bhaggava, I was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "dn24:1.15.1": {
+            "scid": "dn24:1.15.1",
+            "pli": "Ekamidāhaṁ, bhaggava, samayaṁ tattheva vesāliyaṁ viharāmi mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "This one time, Bhaggava, I was staying right there near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "dn24:2.4.1": {
+            "scid": "dn24:2.4.1",
+            "pli": "Atha kho, bhaggava, jāliyo dārupattikantevāsī uṭṭhāyāsanā taṁ parisaṁ etadavoca: ",
+            "en": "Then, Bhaggava, Jāliya, the pupil of the <span class=\"scv-matched\">wood</span>-bowl ascetic, stood up and said to the assembly, ",
+            "matched": true
+          },
+          "dn24:2.10.5": {
+            "scid": "dn24:2.10.5",
+            "pli": "Mahāvane suññavane vivaḍḍho, ",
+            "en": "thriving in the great, empty <span class=\"scv-matched\">wood</span>, ",
+            "matched": true
+          },
+          "dn24:2.13.1": {
+            "scid": "dn24:2.13.1",
+            "pli": "Atha khvāhaṁ, bhaggava, taṁ parisaṁ dhammiyā kathāya sandassesiṁ samādapesiṁ samuttejesiṁ sampahaṁsesiṁ, taṁ parisaṁ dhammiyā kathāya sandassetvā samādapetvā samuttejetvā sampahaṁsetvā mahābandhanā mokkhaṁ karitvā caturāsītipāṇasahassāni mahāviduggā uddharitvā tejodhātuṁ samāpajjitvā sattatālaṁ vehāsaṁ abbhuggantvā aññaṁ sattatālampi acciṁ abhinimminitvā pajjalitvā dhūmāyitvā mahāvane kūṭāgārasālāyaṁ paccuṭṭhāsiṁ. ",
+            "en": "Then, Bhaggava, I educated, encouraged, fired up, and inspired that assembly with a Dhamma talk. I released that assembly from the great bondage, and lifted 84,000 beings from the great swamp. Next I entered upon the fire element, rose into the sky to the height of seven palm trees, and created a flame another seven palm trees high, blazing and smoking. Finally I landed at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          }
+        },
+        "score": 5.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 581,
+          "en": 580
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.52_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.52_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.52",
+        "lang": "en",
+        "segMap": {
+          "sn12.52:2.1": {
+            "scid": "sn12.52:2.1",
+            "pli": "Seyyathāpi, bhikkhave, dasannaṁ vā kaṭṭhavāhānaṁ vīsāya vā kaṭṭhavāhānaṁ tiṁsāya vā kaṭṭhavāhānaṁ cattārīsāya vā kaṭṭhavāhānaṁ mahāaggikkhandho jaleyya. ",
+            "en": "Suppose a bonfire was burning with ten, twenty, thirty, or forty loads of <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "sn12.52:2.2": {
+            "scid": "sn12.52:2.2",
+            "pli": "Tatra puriso kālena kālaṁ sukkhāni ceva tiṇāni pakkhipeyya, sukkhāni ca gomayāni pakkhipeyya, sukkhāni ca kaṭṭhāni pakkhipeyya. ",
+            "en": "And from time to time someone would toss in dry grass, cow dung, or <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "sn12.52:4.1": {
+            "scid": "sn12.52:4.1",
+            "pli": "Seyyathāpi, bhikkhave, dasannaṁ vā kaṭṭhavāhānaṁ vīsāya vā tiṁsāya vā cattārīsāya vā kaṭṭhavāhānaṁ mahāaggikkhandho jaleyya; ",
+            "en": "Suppose a bonfire was burning with ten, twenty, thirty, or forty loads of <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "sn12.52:4.2": {
+            "scid": "sn12.52:4.2",
+            "pli": "tatra puriso na kālena kālaṁ sukkhāni ceva tiṇāni pakkhipeyya, na sukkhāni ca gomayāni pakkhipeyya, na sukkhāni ca kaṭṭhāni pakkhipeyya. ",
+            "en": "And no-one would toss in dry grass, cow dung, or <span class=\"scv-matched\">wood</span> from time to time. ",
+            "matched": true
+          }
+        },
+        "score": 4.138,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 29,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.58_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.58",
+        "lang": "en",
+        "segMap": {
+          "an5.58:1.1": {
+            "scid": "an5.58:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "an5.58:1.3": {
+            "scid": "an5.58:1.3",
+            "pli": "Vesāliyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto mahāvanaṁ ajjhogāhetvā aññatarasmiṁ rukkhamūle divāvihāraṁ nisīdi. ",
+            "en": "Then after the meal, on his return from alms-round, he plunged deep into the Great <span class=\"scv-matched\">Wood</span> and sat at the root of a tree for the day’s meditation. ",
+            "matched": true
+          },
+          "an5.58:2.1": {
+            "scid": "an5.58:2.1",
+            "pli": "Tena kho pana samayena sambahulā licchavikumārakā sajjāni dhanūni ādāya kukkurasaṅghaparivutā mahāvane anucaṅkamamānā anuvicaramānā addasu bhagavantaṁ aññatarasmiṁ rukkhamūle nisinnaṁ; ",
+            "en": "Now at that time several Licchavi youths took strung bows and, escorted by a pack of hounds, were going for a walk in the Great <span class=\"scv-matched\">Wood</span> when they saw the Buddha seated at the root of a tree. ",
+            "matched": true
+          },
+          "an5.58:3.1": {
+            "scid": "an5.58:3.1",
+            "pli": "Tena kho pana samayena mahānāmo licchavi mahāvane jaṅghāvihāraṁ anucaṅkamamāno addasa te licchavikumārake tuṇhībhūte tuṇhībhūte pañjalike bhagavantaṁ payirupāsante; ",
+            "en": "Now at that time Mahānāma the Licchavi was going for a walk in the Great <span class=\"scv-matched\">Wood</span> when he saw those Licchavi youths silently paying homage to the Buddha with joined palms. ",
+            "matched": true
+          }
+        },
+        "score": 4.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 60,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.16_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.16",
+        "lang": "en",
+        "segMap": {
+          "an6.16:1.1": {
+            "scid": "an6.16:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā bhaggesu viharati susumāragire bhesakaḷāvane migadāye. ",
+            "en": "At one time the Buddha was staying in the land of the Bhaggas on Crocodile Hill, in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "an6.16:5.5": {
+            "scid": "an6.16:5.5",
+            "pli": "Yassa kho panassa kaṅkhā vā vimati vā—ayaṁ so bhagavā arahaṁ sammāsambuddho bhaggesu viharati susumāragire bhesakaḷāvane migadāye—taṁ bhagavantaṁ upasaṅkamitvā pucchatu. ",
+            "en": "Whoever doubts this can go and ask the Buddha. He is staying in the land of the Bhaggas on Crocodile Hill, in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "an6.16:6.5": {
+            "scid": "an6.16:6.5",
+            "pli": "Yassa kho panassa kaṅkhā vā vimati vā—ayaṁ so bhagavā arahaṁ sammāsambuddho bhaggesu viharati susumāragire bhesakaḷāvane migadāye—taṁ bhagavantaṁ upasaṅkamitvā pucchatu. ",
+            "en": "Whoever doubts this can go and ask the Buddha. He is staying in the land of the Bhaggas on Crocodile Hill, in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "an6.16:7.5": {
+            "scid": "an6.16:7.5",
+            "pli": "Yassa kho panassa kaṅkhā vā vimati vā—ayaṁ so bhagavā arahaṁ sammāsambuddho bhaggesu viharati susumāragire bhesakaḷāvane migadāye—taṁ bhagavantaṁ upasaṅkamitvā pucchatu. ",
+            "en": "Whoever doubts this can go and ask the Buddha. He is staying in the land of the Bhaggas on Crocodile Hill, in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 4.06,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 67,
+          "en": 66
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn35",
+        "lang": "en",
+        "segMap": {
+          "mn35:1.2": {
+            "scid": "mn35:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "mn35:6.5": {
+            "scid": "mn35:6.5",
+            "pli": "Atha kho saccako nigaṇṭhaputto pañcamattehi licchavisatehi parivuto yena mahāvanaṁ kūṭāgārasālā tenupasaṅkami. ",
+            "en": "Then Saccaka, escorted by the five hundred Licchavis, went to the hall with the peaked roof in the Great <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "mn35:7.5": {
+            "scid": "mn35:7.5",
+            "pli": "“Esa, aggivessana, bhagavā mahāvanaṁ ajjhogāhetvā aññatarasmiṁ rukkhamūle divāvihāraṁ nisinno”ti. ",
+            "en": "“Aggivessana, the Buddha has plunged deep into the Great <span class=\"scv-matched\">Wood</span> and is sitting at the root of a tree for the day’s meditation.” ",
+            "matched": true
+          },
+          "mn35:8.1": {
+            "scid": "mn35:8.1",
+            "pli": "Atha kho saccako nigaṇṭhaputto mahatiyā licchaviparisāya saddhiṁ mahāvanaṁ ajjhogāhetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+            "en": "Then Saccaka, together with a large group of Licchavis, went to see the Buddha in the Great <span class=\"scv-matched\">Wood</span>, and exchanged greetings with him. ",
+            "matched": true
+          }
+        },
+        "score": 4.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 235,
+          "en": 234
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.1",
+        "lang": "en",
+        "segMap": {
+          "sn47.1:0.2": {
+            "scid": "sn47.1:0.2",
+            "pli": "1. Ambapālivagga ",
+            "en": "1. In Ambapālī’s <span class=\"scv-matched\">Wood</span> ",
+            "matched": true
+          },
+          "sn47.1:0.3": {
+            "scid": "sn47.1:0.3",
+            "pli": "1. Ambapālisutta ",
+            "en": "1. In Ambapālī’s <span class=\"scv-matched\">Wood</span> ",
+            "matched": true
+          },
+          "sn47.1:1.2": {
+            "scid": "sn47.1:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati ambapālivane. ",
+            "en": "At one time the Buddha was staying near Vesālī, in Ambapālī’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 3.158,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 19,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.39_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.39_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.39",
+        "lang": "en",
+        "segMap": {
+          "sn1.39:1.2": {
+            "scid": "sn1.39:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "sn1.39:1.3": {
+            "scid": "sn1.39:1.3",
+            "pli": "Atha kho kokanadā pajjunnassa dhītā abhikkantāya rattiyā abhikkantavaṇṇā kevalakappaṁ mahāvanaṁ obhāsetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. ",
+            "en": "Then, late at night, the beautiful Kokanadā, Pajjunna’s daughter, lighting up the entire Great <span class=\"scv-matched\">Wood</span>, went up to the Buddha, bowed, stood to one side, ",
+            "matched": true
+          },
+          "sn1.39:2.1": {
+            "scid": "sn1.39:2.1",
+            "pli": "“Vesāliyaṁ vane viharantaṁ, ",
+            "en": "“Staying in the <span class=\"scv-matched\">wood</span>s of Vesālī ",
+            "matched": true
+          }
+        },
+        "score": 3.13,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.196",
+        "lang": "en",
+        "segMap": {
+          "an4.196:1.1": {
+            "scid": "an4.196:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "an4.196:4.1": {
+            "scid": "an4.196:4.1",
+            "pli": "Seyyathāpi, sāḷha, puriso nadiṁ taritukāmo tiṇhaṁ kuṭhāriṁ ādāya vanaṁ paviseyya. ",
+            "en": "Suppose a man who wanted to cross a river took a sharp axe into a <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "an4.196:8.1": {
+            "scid": "an4.196:8.1",
+            "pli": "Seyyathāpi, sāḷha, puriso nadiṁ taritukāmo tiṇhaṁ kuṭhāriṁ ādāya vanaṁ paviseyya. ",
+            "en": "Suppose a man who wanted to cross a river took a sharp axe into a <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 3.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 71,
+          "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.63_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.63",
+        "lang": "en",
+        "segMap": {
+          "an3.63:6.3": {
+            "scid": "an3.63:6.3",
+            "pli": "So pacchābhattaṁ piṇḍapātapaṭikkanto vanantaññeva pavisāmi. ",
+            "en": "After the meal, on my return from alms-round, I enter a <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "an3.63:8.3": {
+            "scid": "an3.63:8.3",
+            "pli": "So pacchābhattaṁ piṇḍapātapaṭikkanto vanantaññeva pavisāmi. ",
+            "en": "After the meal, on my return from alms-round, I enter a <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          },
+          "an3.63:10.3": {
+            "scid": "an3.63:10.3",
+            "pli": "So pacchābhattaṁ piṇḍapātapaṭikkanto vanantaññeva pavisāmi. ",
+            "en": "After the meal, on my return from alms-round, I enter a <span class=\"scv-matched\">wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 3.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 79,
+          "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.55_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.55",
+        "lang": "en",
+        "segMap": {
+          "an6.55:1.3": {
+            "scid": "an6.55:1.3",
+            "pli": "Tena kho pana samayena āyasmā soṇo rājagahe viharati sītavanasmiṁ. ",
+            "en": "Now at that time Venerable Soṇa was staying near Rājagaha in the Cool <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "an6.55:2.1": {
+            "scid": "an6.55:2.1",
+            "pli": "Atha kho bhagavā āyasmato soṇassa cetasā cetoparivitakkamaññāya—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ kho—gijjhakūṭe pabbate antarahito sītavane āyasmato soṇassa sammukhe pāturahosi. ",
+            "en": "Then the Buddha knew what Venerable Soṇa was thinking. As easily as a strong person would extend or contract their arm, he vanished from the Vulture’s Peak and reappeared in the Cool <span class=\"scv-matched\">Wood</span> in front of Soṇa, ",
+            "matched": true
+          },
+          "an6.55:7.4": {
+            "scid": "an6.55:7.4",
+            "pli": "Atha kho bhagavā āyasmantaṁ soṇaṁ iminā ovādena ovaditvā—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ kho—sītavane antarahito gijjhakūṭe pabbate pāturahosi. ",
+            "en": "After advising Soṇa like this, the Buddha, as easily as a strong person would extend or contract their arm, vanished from the Cool <span class=\"scv-matched\">Wood</span> and reappeared on the Vulture’s Peak. ",
+            "matched": true
+          }
+        },
+        "score": 3.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 97,
+          "en": 96
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.30",
+        "lang": "en",
+        "segMap": {
+          "an8.30:1.1": {
+            "scid": "an8.30:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā bhaggesu viharati suṁsumāragire bhesakaḷāvane migadāye. ",
+            "en": "At one time the Buddha was staying in the land of the Bhaggas on Crocodile Hill, in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "an8.30:2.1": {
+            "scid": "an8.30:2.1",
+            "pli": "Atha kho bhagavā āyasmato anuruddhassa cetasā cetoparivitakkamaññāya—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ—bhaggesu susumāragire bhesakaḷāvane migadāye antarahito cetīsu pācīnavaṁsadāye āyasmato anuruddhassa sammukhe pāturahosi. ",
+            "en": "Then the Buddha knew what Anuruddha was thinking. As easily as a strong person would extend or contract their arm, he vanished from the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span> in the land of the Bhaggas and reappeared in front of Anurruddha in the Eastern Bamboo Park in the land of the Cetīs, ",
+            "matched": true
+          },
+          "an8.30:13.1": {
+            "scid": "an8.30:13.1",
+            "pli": "Atha kho bhagavā āyasmantaṁ anuruddhaṁ iminā ovādena ovaditvā—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ—cetīsu pācīnavaṁsadāye antarahito bhaggesu susumāragire bhesakaḷāvane migadāye pāturahosīti. ",
+            "en": "After advising Anuruddha like this, the Buddha—as easily as a strong person would extend or contract their arm, vanished from the Eastern Bamboo Park in the land of the Cetīs and reappeared in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span> in the land of the Bhaggas. ",
+            "matched": true
+          }
+        },
+        "score": 3.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 119,
+          "en": 117
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig14.1",
+        "lang": "en",
+        "segMap": {
+          "thig14.1:6.2": {
+            "scid": "thig14.1:6.2",
+            "pli": "Kusumarajena samuṭṭhitā dumā;",
+            "en": "born of the flowering <span class=\"scv-matched\">wood</span>s.",
+            "matched": true
+          },
+          "thig14.1:7.4": {
+            "scid": "thig14.1:7.4",
+            "pli": "Yadi ekā vanamogahissasi.",
+            "en": "if you plunge into the <span class=\"scv-matched\">wood</span>s all alone?",
+            "matched": true
+          },
+          "thig14.1:25.2": {
+            "scid": "thig14.1:25.2",
+            "pli": "Sombhā dārukapillakāni vā;",
+            "en": "dolls and <span class=\"scv-matched\">wood</span>en puppets,",
+            "matched": true
+          }
+        },
+        "score": 3.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 142,
+          "en": 140
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn18",
+        "lang": "en",
+        "segMap": {
+          "mn18:2.2": {
+            "scid": "mn18:2.2",
+            "pli": "Kapilavatthusmiṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena mahāvanaṁ tenupasaṅkami divāvihārāya. ",
+            "en": "He wandered for alms in Kapilavatthu. After the meal, on his return from alms-round, he went to the Great <span class=\"scv-matched\">Wood</span>, ",
+            "matched": true
+          },
+          "mn18:2.3": {
+            "scid": "mn18:2.3",
+            "pli": "Mahāvanaṁ ajjhogāhetvā beluvalaṭṭhikāya mūle divāvihāraṁ nisīdi. ",
+            "en": "plunged deep into it, and sat at the root of a young <span class=\"scv-matched\">wood</span> apple tree for the day’s meditation. ",
+            "matched": true
+          },
+          "mn18:3.2": {
+            "scid": "mn18:3.2",
+            "pli": "Mahāvanaṁ ajjhogāhetvā yena beluvalaṭṭhikā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+            "en": "plunged deep into the Great <span class=\"scv-matched\">Wood</span>. He approached the Buddha and exchanged greetings with him. ",
+            "matched": true
+          }
+        },
+        "score": 3.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 150,
+          "en": 149
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn6",
+        "lang": "en",
+        "segMap": {
+          "dn6:1.2": {
+            "scid": "dn6:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "dn6:1.5": {
+            "scid": "dn6:1.5",
+            "pli": "“samaṇo khalu, bho, gotamo sakyaputto sakyakulā pabbajito vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "“It seems the ascetic Gotama—a Sakyan, gone forth from a Sakyan family—is staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "dn6:2.1": {
+            "scid": "dn6:2.1",
+            "pli": "Atha kho te kosalakā ca brāhmaṇadūtā māgadhakā ca brāhmaṇadūtā yena mahāvanaṁ kūṭāgārasālā tenupasaṅkamiṁsu. ",
+            "en": "Then they went to the hall with the peaked roof in the Great <span class=\"scv-matched\">Wood</span> to see the Buddha. ",
+            "matched": true
+          }
+        },
+        "score": 3.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 156,
+          "en": 155
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "en",
+        "segMap": {
+          "mn12:1.2": {
+            "scid": "mn12:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati bahinagare aparapure vanasaṇḍe. ",
+            "en": "At one time the Buddha was staying near Vesālī in a <span class=\"scv-matched\">wood</span>land grove behind the town. ",
+            "matched": true
+          },
+          "mn12:42.9": {
+            "scid": "mn12:42.9",
+            "pli": "Tamenaṁ passeyya aparena samayena taṁ pokkharaṇiṁ ogāhetvā nhāyitvā ca pivitvā ca sabbadarathakilamathapariḷāhaṁ paṭippassambhetvā paccuttaritvā tasmiṁ vanasaṇḍe nisinnaṁ vā nipannaṁ vā, ekantasukhā vedanā vedayamānaṁ. ",
+            "en": "Then some time later they would see that person after they had plunged into that lotus pond, bathed and drunk. When all their stress, weariness, and heat exhaustion had faded away, they emerged and sat or lay down in that <span class=\"scv-matched\">wood</span>land thicket, where they experienced exclusively pleasant feelings. ",
+            "matched": true
+          },
+          "mn12:45.7": {
+            "scid": "mn12:45.7",
+            "pli": "So sāṇānipi dhāremi, masāṇānipi dhāremi, chavadussānipi dhāremi, paṁsukūlānipi dhāremi, tirīṭānipi dhāremi, ajinampi dhāremi, ajinakkhipampi dhāremi, kusacīrampi dhāremi, vākacīrampi dhāremi, phalakacīrampi dhāremi, kesakambalampi dhāremi, vāḷakambalampi dhāremi, ulūkapakkhampi dhāremi; ",
+            "en": "I wore robes of sunn hemp, mixed hemp, corpse-wrapping cloth, rags, lodh tree bark, antelope hide (whole or in strips), kusa grass, bark, <span class=\"scv-matched\">wood</span>-chips, human hair, horse-tail hair, or owls’ wings. ",
+            "matched": true
+          }
+        },
+        "score": 3.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 356,
+          "en": 355
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:1.5.2": {
+            "scid": "dn16:1.5.2",
+            "pli": "“ekamidāhaṁ, brāhmaṇa, samayaṁ vesāliyaṁ viharāmi sārandade cetiye. ",
+            "en": "“Brahmin, this one time I was staying near Vesālī at the Sārandada <span class=\"scv-matched\">wood</span>land shrine. ",
+            "matched": true
+          },
+          "dn16:3.42.5": {
+            "scid": "dn16:3.42.5",
+            "pli": "tattheva rājagahe viharāmi sītavane sappasoṇḍikapabbhāre … ",
+            "en": "in the Cool <span class=\"scv-matched\">Wood</span>, under the Snake’s Hood Grotto … ",
+            "matched": true
+          },
+          "dn16:3.48.8": {
+            "scid": "dn16:3.48.8",
+            "pli": "Āyāmānanda, yena mahāvanaṁ kūṭāgārasālā tenupasaṅkamissāmā”ti. ",
+            "en": "Come, Ānanda, let’s go to the Great <span class=\"scv-matched\">Wood</span>, the hall with the peaked roof.” ",
+            "matched": true
+          }
+        },
+        "score": 3.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 1665,
+          "en": 1664
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn52/sn52.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn52/sn52.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn52.4",
+        "lang": "en",
+        "segMap": {
+          "sn52.4:0.3": {
+            "scid": "sn52.4:0.3",
+            "pli": "4. Paṭhamakaṇḍakīsutta ",
+            "en": "4. At Thorny <span class=\"scv-matched\">Wood</span> (1st) ",
+            "matched": true
+          },
+          "sn52.4:1.1": {
+            "scid": "sn52.4:1.1",
+            "pli": "Ekaṁ samayaṁ āyasmā ca anuruddho āyasmā ca sāriputto āyasmā ca mahāmoggallāno sākete viharanti kaṇḍakīvane. ",
+            "en": "At one time the venerables Anuruddha, Sāriputta, and Mahāmoggallāna were staying near Sāketa, in the Thorny <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.133,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.8",
+        "lang": "en",
+        "segMap": {
+          "sn9.8:0.2": {
+            "scid": "sn9.8:0.2",
+            "pli": "1. Vanavagga ",
+            "en": "1. In the <span class=\"scv-matched\">Wood</span>s ",
+            "matched": true
+          },
+          "sn9.8:4.2": {
+            "scid": "sn9.8:4.2",
+            "pli": "vane vātamigo yathā; ",
+            "en": "like a wind-deer in the <span class=\"scv-matched\">wood</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn52/sn52.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn52/sn52.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn52.9",
+        "lang": "en",
+        "segMap": {
+          "sn52.9:0.3": {
+            "scid": "sn52.9:0.3",
+            "pli": "9. Ambapālivanasutta ",
+            "en": "9. In Ambapālī’s <span class=\"scv-matched\">Wood</span> ",
+            "matched": true
+          },
+          "sn52.9:1.1": {
+            "scid": "sn52.9:1.1",
+            "pli": "Ekaṁ samayaṁ āyasmā ca anuruddho āyasmā ca sāriputto vesāliyaṁ viharanti ambapālivane. ",
+            "en": "At one time the venerables Anuruddha and Sāriputta were staying near Vesālī, in Ambapālī’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.1",
+        "lang": "en",
+        "segMap": {
+          "sn9.1:0.2": {
+            "scid": "sn9.1:0.2",
+            "pli": "1. Vanavagga ",
+            "en": "1. In the <span class=\"scv-matched\">Wood</span>s ",
+            "matched": true
+          },
+          "sn9.1:2.1": {
+            "scid": "sn9.1:2.1",
+            "pli": "“Vivekakāmosi vanaṁ paviṭṭho, ",
+            "en": "“You entered the <span class=\"scv-matched\">wood</span>s desiring seclusion, ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.2",
+        "lang": "en",
+        "segMap": {
+          "sn47.2:0.2": {
+            "scid": "sn47.2:0.2",
+            "pli": "1. Ambapālivagga ",
+            "en": "1. In Ambapālī’s <span class=\"scv-matched\">Wood</span> ",
+            "matched": true
+          },
+          "sn47.2:1.1": {
+            "scid": "sn47.2:1.1",
+            "pli": "Ekaṁ samayaṁ bhagavā vesāliyaṁ viharati ambapālivane. ",
+            "en": "At one time the Buddha was staying near Vesālī, in Ambapālī’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 22,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.40_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.40_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.40",
+        "lang": "en",
+        "segMap": {
+          "sn1.40:1.2": {
+            "scid": "sn1.40:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "sn1.40:1.3": {
+            "scid": "sn1.40:1.3",
+            "pli": "Atha kho cūḷakokanadā pajjunnassa dhītā abhikkantāya rattiyā abhikkantavaṇṇā kevalakappaṁ mahāvanaṁ obhāsetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. ",
+            "en": "Then, late at night, the beautiful Kokanadā the Younger, Pajjunna’s daughter, lighting up the entire Great <span class=\"scv-matched\">Wood</span>, went up to the Buddha, bowed, stood to one side, ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.37_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.37",
+        "lang": "en",
+        "segMap": {
+          "sn1.37:1.2": {
+            "scid": "sn1.37:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā sakkesu viharati kapilavatthusmiṁ mahāvane mahatā bhikkhusaṅghena saddhiṁ pañcamattehi bhikkhusatehi sabbeheva arahantehi; ",
+            "en": "At one time the Buddha was staying in the land of the Sakyans, near Kapilavatthu in the Great <span class=\"scv-matched\">Wood</span>, together with a large Saṅgha of around five hundred mendicants, all of whom were perfected ones. ",
+            "matched": true
+          },
+          "sn1.37:3.1": {
+            "scid": "sn1.37:3.1",
+            "pli": "“Mahāsamayo pavanasmiṁ, ",
+            "en": "“There’s a great congregation in the <span class=\"scv-matched\">wood</span>s, ",
+            "matched": true
+          }
+        },
+        "score": 2.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 32,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.18_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.18",
+        "lang": "en",
+        "segMap": {
+          "sn2.18:1.2": {
+            "scid": "sn2.18:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā sākete viharati añjanavane migadāye. ",
+            "en": "At one time the Buddha was staying near Sāketa in the deer park at the Añjana <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "sn2.18:1.3": {
+            "scid": "sn2.18:1.3",
+            "pli": "Atha kho kakudho devaputto abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ añjanavanaṁ obhāsetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho kakudho devaputto bhagavantaṁ etadavoca: ",
+            "en": "Then, late at night, the glorious god Kakudha, lighting up the entire Añjana <span class=\"scv-matched\">Wood</span>, went up to the Buddha, bowed, stood to one side, and said to him, ",
+            "matched": true
+          }
+        },
+        "score": 2.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 32,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn14/sn14.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn14/sn14.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn14.12",
+        "lang": "en",
+        "segMap": {
+          "sn14.12:5.1": {
+            "scid": "sn14.12:5.1",
+            "pli": "Seyyathāpi, bhikkhave, puriso ādittaṁ tiṇukkaṁ sukkhe tiṇadāye nikkhipeyya; no ce hatthehi ca pādehi ca khippameva nibbāpeyya. Evañhi, bhikkhave, ye tiṇakaṭṭhanissitā pāṇā te anayabyasanaṁ āpajjeyyuṁ. ",
+            "en": "Suppose a person was to drop a burning torch in a thicket of dry grass. If they don’t quickly extinguish it with their hands and feet, the creatures living in the grass and <span class=\"scv-matched\">wood</span> would come to ruin. ",
+            "matched": true
+          },
+          "sn14.12:10.1": {
+            "scid": "sn14.12:10.1",
+            "pli": "Seyyathāpi, bhikkhave, puriso ādittaṁ tiṇukkaṁ sukkhe tiṇadāye nikkhipeyya; tamenaṁ hatthehi ca pādehi ca khippameva nibbāpeyya. Evañhi, bhikkhave, ye tiṇakaṭṭhanissitā pāṇā te na anayabyasanaṁ āpajjeyyuṁ. ",
+            "en": "Suppose a person was to drop a burning torch in a thicket of dry grass. If they were to quickly extinguish it with their hands and feet, the creatures living in the grass and <span class=\"scv-matched\">wood</span> wouldn’t come to ruin. ",
+            "matched": true
+          }
+        },
+        "score": 2.051,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 39,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.7",
+        "lang": "en",
+        "segMap": {
+          "sn47.7:0.2": {
+            "scid": "sn47.7:0.2",
+            "pli": "1. Ambapālivagga ",
+            "en": "1. In Ambapālī’s <span class=\"scv-matched\">Wood</span> ",
+            "matched": true
+          },
+          "sn47.7:2.13": {
+            "scid": "sn47.7:2.13",
+            "pli": "Tamenaṁ, bhikkhave, luddo vijjhitvā tasmiṁyeva kaṭṭhakataṅgāre avassajjetvā yena kāmaṁ pakkamati. ",
+            "en": "The hunter spears him, pries him off that tarred block of <span class=\"scv-matched\">wood</span>, and goes wherever he wants. ",
+            "matched": true
+          }
+        },
+        "score": 2.044,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 45,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.61",
+        "lang": "en",
+        "segMap": {
+          "an7.61:1.2": {
+            "scid": "an7.61:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā bhaggesu viharati susumāragire bhesakaḷāvane migadāye. ",
+            "en": "At one time the Buddha was staying in the land of the Bhaggas on Crocodile Hill, in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "an7.61:1.6": {
+            "scid": "an7.61:1.6",
+            "pli": "seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ—bhaggesu susumāragire bhesakaḷāvane migadāye antarahito magadhesu kallavāḷaputtagāme āyasmato mahāmoggallānassa sammukhe pāturahosi. ",
+            "en": "Then, as easily as a strong person would extend or contract their arm, he vanished from the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span> in the land of the Bhaggas and reappeared in front of Mahāmoggallāna near Kallavāḷamutta Village in the land of the Magadhans. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 61,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.9",
+        "lang": "en",
+        "segMap": {
+          "sn7.9:3.2": {
+            "scid": "sn7.9:3.2",
+            "pli": "Kaṭṭhā have jāyati jātavedo; ",
+            "en": "For any <span class=\"scv-matched\">wood</span> can surely generate fire. ",
+            "matched": true
+          },
+          "sn7.9:12.1": {
+            "scid": "sn7.9:12.1",
+            "pli": "“Mā brāhmaṇa dāru samādahāno, ",
+            "en": "“When you’re kindling the <span class=\"scv-matched\">wood</span>, brahmin, ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 70,
+          "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.80",
+        "lang": "en",
+        "segMap": {
+          "sn22.80:1.3": {
+            "scid": "sn22.80:1.3",
+            "pli": "Kapilavatthusmiṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena mahāvanaṁ tenupasaṅkami divāvihārāya. ",
+            "en": "He wandered for alms in Kapilavatthu. After the meal, on his return from alms-round, he went to the Great <span class=\"scv-matched\">Wood</span>, ",
+            "matched": true
+          },
+          "sn22.80:1.4": {
+            "scid": "sn22.80:1.4",
+            "pli": "Mahāvanaṁ ajjhogāhetvā beluvalaṭṭhikāya mūle divāvihāraṁ nisīdi. ",
+            "en": "plunged deep into it, and sat at the root of a young <span class=\"scv-matched\">wood</span> apple tree for the day’s meditation. ",
+            "matched": true
+          }
+        },
+        "score": 2.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 80,
+          "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.333-377_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.333-377",
+        "lang": "en",
+        "segMap": {
+          "an1.333:1.1": {
+            "scid": "an1.333:1.1",
+            "pli": "“Seyyathāpi, bhikkhave, appamattakaṁ imasmiṁ jambudīpe ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇirāmaṇeyyakaṁ; ",
+            "en": "“Just as, mendicants, in India the delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds are few, ",
+            "matched": true
+          },
+          "an1.348-350:1.1": {
+            "scid": "an1.348-350:1.1",
+            "pli": "“Seyyathāpi, bhikkhave, appamattakaṁ imasmiṁ jambudīpe ārāmarāmaṇeyyakaṁ vanarāmaṇeyyakaṁ bhūmirāmaṇeyyakaṁ pokkharaṇirāmaṇeyyakaṁ; ",
+            "en": "“Just as, mendicants, in India the delightful parks, <span class=\"scv-matched\">wood</span>s, meadows, and lotus ponds are few, ",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 85,
+          "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.51",
+        "lang": "en",
+        "segMap": {
+          "an8.51:5.3": {
+            "scid": "an8.51:5.3",
+            "pli": "Tatra sudaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "where he stayed at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "an8.51:5.5": {
+            "scid": "an8.51:5.5",
+            "pli": "Anupubbena yena vesālī mahāvanaṁ kūṭāgārasālā tenupasaṅkami. ",
+            "en": "Traveling stage by stage, she arrived at Vesālī and went to the Great <span class=\"scv-matched\">Wood</span>, the hall with the peaked roof. ",
+            "matched": true
+          }
+        },
+        "score": 2.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 92,
+          "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.67_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.67",
+        "lang": "en",
+        "segMap": {
+          "an7.67:9.2": {
+            "scid": "an7.67:9.2",
+            "pli": "Idha, bhikkhave, rañño paccantime nagare bahuṁ tiṇakaṭṭhodakaṁ sannicitaṁ hoti abbhantarānaṁ ratiyā aparitassāya phāsuvihārāya bāhirānaṁ paṭighātāya. #1",
+            "en": "Firstly, a king’s frontier citadel has much hay, <span class=\"scv-matched\">wood</span>, and water stored up for the enjoyment, relief, and comfort of those within and to repel those outside. ",
+            "matched": true
+          },
+          "an7.67:21.2": {
+            "scid": "an7.67:21.2",
+            "pli": "Seyyathāpi, bhikkhave, rañño paccantime nagare bahuṁ tiṇakaṭṭhodakaṁ sannicitaṁ hoti abbhantarānaṁ ratiyā aparitassāya phāsuvihārāya bāhirānaṁ paṭighātāya. ",
+            "en": "Just as a king’s frontier citadel has much hay, <span class=\"scv-matched\">wood</span>, and water stored up for the enjoyment, relief, and comfort of those within and to repel those outside, ",
+            "matched": true
+          }
+        },
+        "score": 2.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 97,
+          "en": 96
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.60_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.60_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.60",
+        "lang": "en",
+        "segMap": {
+          "an6.60:8.7": {
+            "scid": "an6.60:8.7",
+            "pli": "Yo nu kho, āvuso, evaṁ vadeyya: ‘na dāni amusmiṁ vanasaṇḍe punadeva cīrikasaddo pātubhavissatī’ti, sammā nu kho so, āvuso, vadamāno vadeyyā”ti? ",
+            "en": "Would it be right to say that now the chirping of crickets will never be heard in this <span class=\"scv-matched\">wood</span>land grove again?” ",
+            "matched": true
+          },
+          "an6.60:8.9": {
+            "scid": "an6.60:8.9",
+            "pli": "“Ṭhānañhetaṁ, āvuso, vijjati, yaṁ so rājā vā rājamahāmatto vā tamhā vanasaṇḍā pakkameyya, atha punadeva cīrikasaddo pātubhaveyyāti. ",
+            "en": "For it is quite possible that the ruler or their minister will depart from that <span class=\"scv-matched\">wood</span>land grove so that the chirping of crickets will be heard there again.” ",
+            "matched": true
+          }
+        },
+        "score": 2.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 98,
+          "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.41",
+        "lang": "en",
+        "segMap": {
+          "an9.41:1.4": {
+            "scid": "an9.41:1.4",
+            "pli": "“idheva tāva tvaṁ, ānanda, hohi, yāvāhaṁ mahāvanaṁ ajjhogāhāmi divāvihārāyā”ti. ",
+            "en": "“Ānanda, you stay right here, while I plunge deep into the Great <span class=\"scv-matched\">Wood</span> for the day’s meditation.” ",
+            "matched": true
+          },
+          "an9.41:1.6": {
+            "scid": "an9.41:1.6",
+            "pli": "Atha kho bhagavā mahāvanaṁ ajjhogāhetvā aññatarasmiṁ rukkhamūle divāvihāraṁ nisīdi. ",
+            "en": "Then the Buddha plunged deep into the Great <span class=\"scv-matched\">Wood</span> and sat at the root of a tree for the day’s meditation. ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 177,
+          "en": 175
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn130",
+        "lang": "en",
+        "segMap": {
+          "mn130:22.1": {
+            "scid": "mn130:22.1",
+            "pli": "Tassa kho pana, bhikkhave, kukkulanirayassa samanantarā sahitameva mahantaṁ simbalivanaṁ uddhaṁ yojanamuggataṁ soḷasaṅgulakaṇṭakaṁ ādittaṁ sampajjalitaṁ sajotibhūtaṁ. ",
+            "en": "Immediately adjacent to the Hell of Hot Coals is the vast Hell of the Red Silk-Cotton <span class=\"scv-matched\">Wood</span>. It’s a league high, full of sixteen-inch thorns, burning, blazing, and glowing. ",
+            "matched": true
+          },
+          "mn130:23.1": {
+            "scid": "mn130:23.1",
+            "pli": "Tassa kho pana, bhikkhave, simbalivanassa samanantarā sahitameva mahantaṁ asipattavanaṁ. ",
+            "en": "Immediately adjacent to the Hell of the Red Silk-Cotton <span class=\"scv-matched\">Wood</span> is the vast Hell of the Sword-Leaf Trees. ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 203,
+          "en": 201
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag19.1",
+        "lang": "en",
+        "segMap": {
+          "thag19.1:3.1": {
+            "scid": "thag19.1:3.1",
+            "pli": "Kadā aniccaṁ vadharoganīḷaṁ,",
+            "en": "Oh, when will I stay alone in the <span class=\"scv-matched\">wood</span>,",
+            "matched": true
+          },
+          "thag19.1:11.4": {
+            "scid": "thag19.1:11.4",
+            "pli": "Samaṁ tuleyyaṁ tadidaṁ kadā me.",
+            "en": "<span class=\"scv-matched\">wood</span>, grass, and creepers? When will it be?",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 232,
+          "en": 224
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn50",
+        "lang": "en",
+        "segMap": {
+          "mn50:1.2": {
+            "scid": "mn50:1.2",
+            "pli": "ekaṁ samayaṁ āyasmā mahāmoggallāno bhaggesu viharati susumāragire bhesakaḷāvane migadāye. ",
+            "en": "At one time Venerable Mahāmoggallāna was staying in the land of the Bhaggas on Crocodile Hill, in the deer park at Bhesakaḷā’s <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          },
+          "mn50:10.8": {
+            "scid": "mn50:10.8",
+            "pli": "Atha kho te, pāpima, gopālakā pasupālakā kassakā pathāvino tiṇañca kaṭṭhañca gomayañca saṅkaḍḍhitvā āyasmato sañjīvassa kāye upacinitvā aggiṁ datvā pakkamiṁsu. ",
+            "en": "They collected grass, <span class=\"scv-matched\">wood</span>, and cow-dung, heaped it all on Sañjīva’s body, set it on fire, and left. ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 239,
+          "en": 236
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn4",
+        "lang": "en",
+        "segMap": {
+          "dn4:1.4": {
+            "scid": "dn4:1.4",
+            "pli": "Tena kho pana samayena soṇadaṇḍo brāhmaṇo campaṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā māgadhena seniyena bimbisārena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "en": "Now at that time the brahmin Soṇadaṇḍa was living in Campā. It was a crown property given by King Seniya Bimbisāra of Magadha, teeming with living creatures, full of hay, <span class=\"scv-matched\">wood</span>, water, and grain, a royal endowment of the highest quality. ",
+            "matched": true
+          },
+          "dn4:5.19": {
+            "scid": "dn4:5.19",
+            "pli": "Bhavañhi soṇadaṇḍo campaṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ, raññā māgadhena seniyena bimbisārena dinnaṁ, rājadāyaṁ brahmadeyyaṁ. ",
+            "en": "You live in Campā, a crown property given by King Seniya Bimbisāra of Magadha, teeming with living creatures, full of hay, <span class=\"scv-matched\">wood</span>, water, and grain, a royal endowment of the highest quality. ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 297,
+          "en": 296
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn95",
+        "lang": "en",
+        "segMap": {
+          "mn95:2.1": {
+            "scid": "mn95:2.1",
+            "pli": "Tena kho pana samayena caṅkī brāhmaṇo opāsādaṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā pasenadinā kosalena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "en": "Now at that time the brahmin Caṅkī was living in Opāsāda. It was a crown property given by King Pasenadi of Kosala, teeming with living creatures, full of hay, <span class=\"scv-matched\">wood</span>, water, and grain, a royal endowment of the highest quality. ",
+            "matched": true
+          },
+          "mn95:8.15": {
+            "scid": "mn95:8.15",
+            "pli": "bhavañhi caṅkī opāsādaṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā pasenadinā kosalena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "en": "You live in Opāsāda, a crown property given by King Pasenadi of Kosala, teeming with living creatures, full of hay, <span class=\"scv-matched\">wood</span>, water, and grain, a royal endowment of the highest quality. ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 305,
+          "en": 304
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "en",
+        "segMap": {
+          "mn36:1.2": {
+            "scid": "mn36:1.2",
+            "pli": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+            "en": "At one time the Buddha was staying near Vesālī, at the Great <span class=\"scv-matched\">Wood</span>, in the hall with the peaked roof. ",
+            "matched": true
+          },
+          "mn36:3.1": {
+            "scid": "mn36:3.1",
+            "pli": "Atha kho saccako nigaṇṭhaputto jaṅghāvihāraṁ anucaṅkamamāno anuvicaramāno yena mahāvanaṁ kūṭāgārasālā tenupasaṅkami. ",
+            "en": "Then as Saccaka, the son of Jain parents, was going for a walk he approached the hall with the peaked roof in the Great <span class=\"scv-matched\">Wood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 360,
+          "en": 359
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "en",
+        "segMap": {
+          "dn5:1.4": {
+            "scid": "dn5:1.4",
+            "pli": "Tena kho pana samayena kūṭadanto brāhmaṇo khāṇumataṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā māgadhena seniyena bimbisārena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "en": "Now at that time the brahmin Kūṭadanta was living in Khāṇumata. It was a crown property given by King Seniya Bimbisāra of Magadha, teeming with living creatures, full of hay, <span class=\"scv-matched\">wood</span>, water, and grain, a royal endowment of the highest quality. ",
+            "matched": true
+          },
+          "dn5:6.19": {
+            "scid": "dn5:6.19",
+            "pli": "Bhavañhi kūṭadanto khāṇumataṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā māgadhena seniyena bimbisārena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "en": "You live in Khāṇumata, a crown property given by King Seniya Bimbisāra of Magadha, teeming with living creatures, full of hay, <span class=\"scv-matched\">wood</span>, water, and grain, a royal endowment of the highest quality. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 375,
+          "en": 374
+        }
+      }
+    ]
+  }
+}

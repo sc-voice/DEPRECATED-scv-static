@@ -1,0 +1,218 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "vier edle wahrheiten",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "vier edle wahrheiten",
+    "method": "keywords",
+    "resultPattern": "\\bvier|\\bedle|\\bwahrheiten",
+    "segsMatched": 9,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig6.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig6.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig6.8_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an3.61/de/sabbamitta",
+      "mn10/de/sabbamitta",
+      "sn56.11/de/sabbamitta",
+      "thig6.8/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.61",
+        "lang": "de",
+        "segMap": {
+          "an3.61:9.6": {
+            "scid": "an3.61:9.6",
+            "pli": "Imāni cattāri ariyasaccānīti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "‚Das sind die <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span>‘: Das ist der Dhamma, den ich gelehrt habe. Er kann nicht widerlegt werden, ist unbefleckt, über jede Kritik erhaben und wird von vernünftigen Asketen und Brahmanen nicht verachtet. ",
+            "en": "‘These are the four noble truths’: this is the Dhamma I’ve taught that is irrefutable, uncorrupted, beyond reproach, and is not scorned by sensible ascetics and brahmins. ",
+            "matched": true
+          },
+          "an3.61:13.1": {
+            "scid": "an3.61:13.1",
+            "pli": "Imāni cattāri ariyasaccānīti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span>“: Das ist der Dhamma, den ich gelehrt habe …‘ ",
+            "en": "‘“These are the four noble truths”: this is the Dhamma I’ve taught …’ ",
+            "matched": true
+          },
+          "an3.61:17.5": {
+            "scid": "an3.61:17.5",
+            "pli": "‘Imāni cattāri ariyasaccānī’ti, bhikkhave, mayā dhammo desito aniggahito asaṅkiliṭṭho anupavajjo appaṭikuṭṭho samaṇehi brāhmaṇehi viññūhīti. ",
+            "de": "‚„Das sind die <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span>“: Das ist der Dhamma, den ich gelehrt habe. Er kann nicht widerlegt werden, ist unbefleckt, über jede Kritik erhaben und wird von vernünftigen Asketen und Brahmanen nicht verachtet.‘ ",
+            "en": "‘“These are the four noble truths”: this is the Dhamma I’ve taught that is irrefutable, uncorrupted, beyond reproach, and is not scorned by sensible ascetics and brahmins.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 117,
+          "de": 116,
+          "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn10",
+        "lang": "de",
+        "segMap": {
+          "mn10:44.1": {
+            "scid": "mn10:44.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu dhammesu dhammānupassī viharati catūsu ariyasaccesu. ",
+            "de": "Dann meditiert da eine Nonne, indem sie einen Aspekt der natürlichen Gesetzmäßigkeiten in Bezug auf die <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span> beobachtet. ",
+            "en": "Furthermore, a mendicant meditates by observing an aspect of principles with respect to the four noble truths. ",
+            "matched": true
+          },
+          "mn10:44.2": {
+            "scid": "mn10:44.2",
+            "pli": "Kathañca pana, bhikkhave, bhikkhu dhammesu dhammānupassī viharati catūsu ariyasaccesu? ",
+            "de": "Und wie meditiert eine Nonne, indem sie einen Aspekt der natürlichen Gesetzmäßigkeiten in Bezug auf die <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span> beobachtet? ",
+            "en": "And how does a mendicant meditate observing an aspect of principles with respect to the four noble truths? ",
+            "matched": true
+          },
+          "mn10:45.5": {
+            "scid": "mn10:45.5",
+            "pli": "Evampi kho, bhikkhave, bhikkhu dhammesu dhammānupassī viharati catūsu ariyasaccesu. ",
+            "de": "So meditiert eine Nonne, indem sie einen Aspekt der natürlichen Gesetzmäßigkeiten in Bezug auf die <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span> beobachtet. ",
+            "en": "That’s how a mendicant meditates by observing an aspect of principles with respect to the four noble truths. ",
+            "matched": true
+          }
+        },
+        "score": 3.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 226,
+          "de": 193,
+          "en": 224
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.11",
+        "lang": "de",
+        "segMap": {
+          "sn56.11:9.1": {
+            "scid": "sn56.11:9.1",
+            "pli": "Yāvakīvañca me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ na suvisuddhaṁ ahosi, neva tāvāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Solange mein wirkliches Erkennen und Sehen dieser <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span> nicht in diesen drei Richtungen und in der zwölffachen Hinsicht vollständig geläutert war, solange habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht mein höchstes vollkommenes Erwachen erklärt. ",
+            "en": "As long as my true knowledge and vision about these four noble truths was not fully purified in these three perspectives and twelve respects, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          },
+          "sn56.11:10.1": {
+            "scid": "sn56.11:10.1",
+            "pli": "Yato ca kho me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ suvisuddhaṁ ahosi, athāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Doch als mein wirkliches Erkennen und Sehen dieser <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span> in diesen drei Richtungen und in der zwölffachen Hinsicht vollständig geläutert war, da habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen mein höchstes vollkommenes Erwachen erklärt. ",
+            "en": "But when my true knowledge and vision about these four noble truths was fully purified in these three perspectives and twelve respects, I announced my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 60,
+          "de": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig6.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig6.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig6.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig6.8",
+        "lang": "de",
+        "segMap": {
+          "thig6.8:3.1": {
+            "scid": "thig6.8:3.1",
+            "pli": "Cattāri ariyasaccāni,",
+            "de": "die <span class=\"scv-matched\">vier</span> <span class=\"scv-matched\">edle</span>n <span class=\"scv-matched\">Wahrheiten</span>, ",
+            "en": "the four noble truths,",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "de": 28,
+          "en": 28
+        }
+      }
+    ]
+  }
+}
