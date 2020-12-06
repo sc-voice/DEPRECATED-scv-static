@@ -65,8 +65,8 @@ export default {
             lang: this.$vuetify.lang.current,
           })
         : {};
-      this.$store.commit('scvSearchResults', value);
-      this.$store.commit('scvSearch', pattern);
+      this.$store.commit('scv/searchResults', value);
+      this.$store.commit('scv/search', pattern);
       this.$emit("search-text", value);
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);
