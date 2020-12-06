@@ -1,16 +1,18 @@
 <template>
-  <details v-if="mlDocs.length > 1" open> <!-- mlDocs -->
+  <div v-if="mlDocs.length === 0"
+    class="text-h6 pl-2"
+  >
+    {{foundSuttas}}
+  </div>
+  <details v-else-if="mlDocs.length > 1" open> <!-- mlDocs -->
     <summary v-if="resultCount"
       role="main"
       ref="refResults"
       aria-level="1"
       :aria-label="ariaFoundSuttas(resultCount, playlistDuration.aria)"
-      class='title pt-1 pb-1'>
+      class='text-h6 pt-1 pb-1'>
       <span aria-hidden=true>
-        {{$t('foundSuttas')
-            .replace(/A_RESULTCOUNT/,resultCount)
-            .replace(/A_SEARCH/, search)}}
-        ({{playlistDuration.display}})
+        {{foundSuttas}}
       </span>
     </summary>
     <v-card>
@@ -22,32 +24,32 @@
         <details v-show="searchResults" open>
         <!--
           <summary v-else
-              role="main" ref="refResults"
-              aria-level="1" 
-              :aria-label="$t('noResultsText')"
-              class='title'>
-              {{$t('dataIterator.noResultsText')}}
+            role="main" ref="refResults"
+            aria-level="1" 
+            :aria-label="$t('noResultsText')"
+            class='title'>
+            {{$t('dataIterator.noResultsText')}}
           </summary>
           <div class="scv-playlist ml-3 pt-2 pl-3" 
             v-if="gscv.voices.length" >
             <v-btn icon small fab v-if="playable"
-                @click="playSearchText()"
-                :title="$t('speakSearchText')"
-                :disabled="!playSearch.signature"
-                class="scv-icon-btn" :style="cssVars" >
-                <v-icon>chat_bubble_outline</v-icon>
+              @click="playSearchText()"
+              :title="$t('speakSearchText')"
+              :disabled="!playSearch.signature"
+              class="scv-icon-btn" :style="cssVars" >
+              <v-icon>chat_bubble_outline</v-icon>
             </v-btn>
             <v-btn icon v-if="playable"
-                @click="playAll()"
-                :title="$t('playAll')"
-                class="scv-icon-btn" :style="cssVars" small>
-                <v-icon>play_circle_outline</v-icon>
+              @click="playAll()"
+              :title="$t('playAll')"
+              class="scv-icon-btn" :style="cssVars" small>
+              <v-icon>play_circle_outline</v-icon>
             </v-btn>
             <v-btn icon v-if="playable"
-                @click="downloadBuild()"
-                :aria-label="`${ariaDownload} ${resultId()}`"
-                class="scv-icon-btn" :style="cssVars" small>
-                <v-icon>arrow_downward</v-icon>
+              @click="downloadBuild()"
+              :aria-label="`${ariaDownload} ${resultId()}`"
+              class="scv-icon-btn" :style="cssVars" small>
+              <v-icon>arrow_downward</v-icon>
             </v-btn>
           </div>
           <details role="heading" aria-level="2"
@@ -55,66 +57,66 @@
               :key="`${result.uid}_${i}`"
               class="scv-search-result" :style="cssVars">
               <summary class="scv-search-result-summary">
-                  <div style="display: inline-block; width: 96%; ">
-                      <div style="display:flex; justify-content: space-between; ">
-                          <div v-html="resultTitle(result)"></div>
-                          <div class="caption" 
-                              :aria-label="duration(result.stats.seconds).aria">
-                             {{duration(result.stats.seconds).display}}
-                          </div>
-                      </div>
+                <div style="display: inline-block; width: 96%; ">
+                  <div style="display:flex; justify-content: space-between; ">
+                    <div v-html="resultTitle(result)"></div>
+                    <div class="caption" 
+                      :aria-label="duration(result.stats.seconds).aria">
+                      {{duration(result.stats.seconds).display}}
+                    </div>
                   </div>
+                </div>
               </summary>
               <div v-if="gscv.showId" class="scv-search-result-scid scv-scid">
-                  SC&nbsp;{{result.quote.scid}}
+                SC&nbsp;{{result.quote.scid}}
               </div>
               <div v-if="result.quote && showPali && result.quote.pli"
-                  class="scv-search-result-pli">
-                  <div>
-                      <div v-html="result.quote.pli"></div>
-                  </div>
+                class="scv-search-result-pli">
+                <div>
+                  <div v-html="result.quote.pli"></div>
+                </div>
               </div>
               <div v-if="result.quote && showTrans && result.quote[language]"
-                  class="scv-search-result-lang">
-                  <div>
-                      <span v-html="result.quote[gscv.lang]"></span>
-                      <div v-if="gscv.showId" class='scv-scid'>
-                          &mdash;
-                          {{result.author}} 
-                      </div>
+                class="scv-search-result-lang">
+                <div>
+                  <span v-html="result.quote[gscv.lang]"></span>
+                  <div v-if="gscv.showId" class='scv-scid'>
+                    &mdash;
+                    {{result.author}} 
                   </div>
+                </div>
               </div>
               <div class="ml-3 pt-2" 
-                  style="display:flex; justify-content: space-between">
-                  <div>
-                      <v-btn icon v-if="result.quote && playable"
-                          @click="playQuotes(i, result)"
-                          :class="btnPlayQuotesClass(i)" :style="cssVars" small>
-                          <v-icon>chat_bubble_outline</v-icon>
-                      </v-btn>
-                      <v-btn icon v-if="result.quote && playable"
-                          @click="playOne(result)"
-                          class="scv-icon-btn" :style="cssVars" small>
-                          <v-icon>play_circle_outline</v-icon>
-                      </v-btn>
-                      <v-btn icon v-if="result.quote"
-                          :href="resultLink(result)"
-                          class="scv-icon-btn" :style="cssVars" small>
-                          <v-icon>open_in_new</v-icon>
-                      </v-btn>
-                      <v-btn icon v-if="playable"
-                          @click="downloadBuild(resultRef(result))"
-                          :aria-label="`${ariaDownload} ${resultId()}`"
-                          class="scv-icon-btn" :style="cssVars" small>
-                          <v-icon>arrow_downward</v-icon>
-                      </v-btn>
-                  </div>
-                  <div class="scv-score">
-                      {{$t('relevance')}}
-                      {{score(result)}}
-                  </div>
-              </div>
-              -->
+                style="display:flex; justify-content: space-between">
+                <div>
+                  <v-btn icon v-if="result.quote && playable"
+                    @click="playQuotes(i, result)"
+                    :class="btnPlayQuotesClass(i)" :style="cssVars" small>
+                    <v-icon>chat_bubble_outline</v-icon>
+                  </v-btn>
+                  <v-btn icon v-if="result.quote && playable"
+                    @click="playOne(result)"
+                    class="scv-icon-btn" :style="cssVars" small>
+                    <v-icon>play_circle_outline</v-icon>
+                  </v-btn>
+                  <v-btn icon v-if="result.quote"
+                    :href="resultLink(result)"
+                    class="scv-icon-btn" :style="cssVars" small>
+                  <v-icon>open_in_new</v-icon>
+                  </v-btn>
+                  <v-btn icon v-if="playable"
+                    @click="downloadBuild(resultRef(result))"
+                    :aria-label="`${ariaDownload} ${resultId()}`"
+                    class="scv-icon-btn" :style="cssVars" small>
+                    <v-icon>arrow_downward</v-icon>
+                  </v-btn>
+                </div>
+                <div class="scv-score">
+                  {{$t('relevance')}}
+                  {{score(result)}}
+                </div>
+            </div>
+            -->
           </details><!-- search result i -->
         </div>
       </v-card-text>
@@ -159,7 +161,7 @@ export default {
   methods:{
     ariaFoundSuttas(resultCount, duration) {
         //:aria-label="`Found ${resultCount} sootas ${playlistDuration.aria}`"
-        var tmplt = this.$t('ariaFoundSuttas');
+        var tmplt = this.$t && this.$t('ariaFoundSuttas') || '';
         var text = tmplt
             .replace("A_SEARCH", this.search)
             .replace("A_RESULTCOUNT", this.resultCount)
@@ -203,6 +205,12 @@ export default {
     },
   },
   computed: {
+    foundSuttas() {
+      let { resultCount, search, } = this;
+      return this.$t && this.$t('foundSuttas')
+        .replace(/A_RESULTCOUNT/,resultCount)
+        .replace(/A_SEARCH/, search);
+    },
     mlDocs() {
       return this.results.mlDocs || [];
     },
@@ -211,14 +219,16 @@ export default {
       return { results }
     },
     results() {
-      return this.$store.state.scvSearchResults || {};
+      return this.$store.state.scv.searchResults || {};
     },
     resultCount() {
       return this.mlDocs.length;
     },
     duration() {
       let { results, suttaDuration:sd } = this;
-      return results.mlDocs.reduce((a,mld)=> a + (sd.duration(mld.sutta_uid)||0), 0);
+      return sd
+        ? results.mlDocs.reduce((a,mld)=> a + (sd.duration(mld.sutta_uid)||0), 0)
+        : 0;
     },
     playlistDuration() {
       let { mlDocs, suttaDuration:sd } = this;

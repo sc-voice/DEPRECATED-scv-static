@@ -26,11 +26,6 @@
               :lang="lang"
               v-on:search-text="search"
             />
-            <v-alert type="info" text elevation="10" :value="!!alertSearch"
-              transition="expand"
-            >
-              You searched for "{{alertSearch}}"
-            </v-alert/>
           </v-card>
         </v-card-text>
       </v-card>
@@ -68,7 +63,6 @@ export default {
   },
   data: function(){
     return {
-      alertSearch: '',
       lang: 'de',
     };
   },
@@ -79,7 +73,6 @@ export default {
   methods:{
     search(value) {
       console.log(`search:`, value);
-      Vue.set(this, "alertSearch", value.pattern);
     },
     githubUrl(path) {
       return `https://github.com/sc-voice/scv-examples/blob/main/${path}`;

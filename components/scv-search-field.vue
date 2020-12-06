@@ -1,5 +1,5 @@
 <template>
-  <div v-if="examples">
+  <div v-if="examples" class="pl-1">
     <v-autocomplete 
       ref="refSearchAuto"
       v-model="search"
@@ -66,6 +66,7 @@ export default {
           })
         : {};
       this.$store.commit('scvSearchResults', value);
+      this.$store.commit('scvSearch', pattern);
       this.$emit("search-text", value);
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);
