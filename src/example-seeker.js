@@ -225,8 +225,13 @@
                     guid.substring(0,2),
                     `${guid}.json`,
                 ].join('/');
-                let res = await axios.get(url);
-                result = res.data.value;
+                try {
+                    let res = await axios.get(url);
+                    result = res.data.value;
+                } catch(e) {
+                    let err = new Error(`${url} => ${e.message}`);
+                    throw err;
+                }
             } else {
                 console.log(`dbg find() non-example:`, pattern);
             }
