@@ -68,6 +68,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n12. Bound for Loss\n121. Purity (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 25,
@@ -96,6 +97,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 226,
@@ -124,6 +126,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 439,

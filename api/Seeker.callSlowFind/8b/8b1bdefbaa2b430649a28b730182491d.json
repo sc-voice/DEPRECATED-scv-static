@@ -80,6 +80,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 1\n5. A Spike\n41–50",
         "segsMatched": 2,
         "langSegs": {
           "pli": 67,
@@ -108,6 +109,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 39\nThe Longer Discourse at Assapura",
         "segsMatched": 1,
         "langSegs": {
           "pli": 191,
@@ -136,6 +138,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 266,
@@ -164,6 +167,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
         "segsMatched": 1,
         "langSegs": {
           "pli": 358,
@@ -192,6 +196,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
           "pli": 617,

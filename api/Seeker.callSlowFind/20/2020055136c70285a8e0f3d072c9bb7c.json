@@ -83,6 +83,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 3\n2. Childless\n13. A Bucket of Rice",
         "segsMatched": 2,
         "langSegs": {
           "pli": 24,
@@ -111,6 +112,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n15. At Tikaṇḍakī\n150. Temporarily Free (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 19,
@@ -139,6 +141,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 2\n15. Attainment\n163–179",
         "segsMatched": 1,
         "langSegs": {
           "pli": 90,
@@ -167,6 +170,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 53\nA Trainee",
         "segsMatched": 1,
         "langSegs": {
           "pli": 100,
@@ -195,6 +199,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 14\nThe Great Discourse on the Harvest of Deeds\n1. On Past Lives",
         "segsMatched": 1,
         "langSegs": {
           "pli": 851,
@@ -223,6 +228,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1167,

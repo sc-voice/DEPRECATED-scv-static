@@ -116,6 +116,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n6. The Great Chapter\n61. In the Middle",
         "segsMatched": 2,
         "langSegs": {
           "pli": 56,
@@ -144,6 +145,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n10. Demons\n95. A Firebrand",
         "segsMatched": 1,
         "langSegs": {
           "pli": 18,
@@ -172,6 +174,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n4. Messengers of the Gods\n35. With Hatthaka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 43,
@@ -200,6 +203,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n10. Flowers\n96. A Lump of Cow Dung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 49,
@@ -228,6 +232,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n2. The Lion’s Roar\n20. About Velāma",
         "segsMatched": 1,
         "langSegs": {
           "pli": 56,
@@ -256,6 +261,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n5. With King Muṇḍa\n44. Agreeable",
         "segsMatched": 1,
         "langSegs": {
           "pli": 65,
@@ -284,6 +290,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n7. The Great Chapter\n63. At Venāgapura",
         "segsMatched": 1,
         "langSegs": {
           "pli": 79,
@@ -312,6 +319,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n8. Itchy\n80. Beggars",
         "segsMatched": 1,
         "langSegs": {
           "pli": 80,
@@ -340,6 +348,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n6. The Undeclared Points\n64. Irritable",
         "segsMatched": 1,
         "langSegs": {
           "pli": 128,
@@ -368,6 +377,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n3. Householders\n30. Anuruddha and the Great Thoughts",
         "segsMatched": 1,
         "langSegs": {
           "pli": 119,
@@ -396,6 +406,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 1,
         "langSegs": {
           "pli": 174,
@@ -424,6 +435,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 226,
@@ -452,6 +464,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 12\nThe Longer Discourse on the Lion’s Roar",
         "segsMatched": 1,
         "langSegs": {
           "pli": 356,
@@ -480,6 +493,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 1\nThe Prime Net\n1. Talk on Wanderers",
         "segsMatched": 1,
         "langSegs": {
           "pli": 662,
@@ -508,6 +522,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
           "pli": 617,
@@ -536,6 +551,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 17\nKing Mahāsudassana",
         "segsMatched": 1,
         "langSegs": {
           "pli": 444,
@@ -564,6 +580,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 439,

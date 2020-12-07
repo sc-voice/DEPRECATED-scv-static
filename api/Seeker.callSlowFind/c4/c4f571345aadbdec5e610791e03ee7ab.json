@@ -128,6 +128,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n9. Confirmed\n90. Aggregates",
         "segsMatched": 2,
         "langSegs": {
           "pli": 37,
@@ -162,6 +163,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n9. Senior Mendicants\n89. With Khemaka",
         "segsMatched": 2,
         "langSegs": {
           "pli": 131,
@@ -190,6 +192,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 12\n3. The Ten Powers\n21. The Ten Powers",
         "segsMatched": 1,
         "langSegs": {
           "pli": 19,
@@ -218,6 +221,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 12\n3. The Ten Powers\n22. The Ten Powers (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 34,
@@ -246,6 +250,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 46\n3. With Udāyī\n30. With Udāyī",
         "segsMatched": 1,
         "langSegs": {
           "pli": 35,
@@ -274,6 +279,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n5. With Rohitassa\n41. Ways of Developing Immersion Further",
         "segsMatched": 1,
         "langSegs": {
           "pli": 36,
@@ -302,6 +308,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n8. Itchy\n78. The Lion",
         "segsMatched": 1,
         "langSegs": {
           "pli": 39,
@@ -330,6 +337,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n10. Flowers\n102. The Perception of Impermanence",
         "segsMatched": 1,
         "langSegs": {
           "pli": 45,
@@ -358,6 +366,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n1. Love\n2. Wisdom",
         "segsMatched": 1,
         "langSegs": {
           "pli": 64,
@@ -386,6 +395,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n10. Flowers\n101. The Adze",
         "segsMatched": 1,
         "langSegs": {
           "pli": 61,
@@ -414,6 +424,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 35\n19. The Simile of the Vipers\n244. Entailing Suffering",
         "segsMatched": 1,
         "langSegs": {
           "pli": 61,
@@ -442,6 +453,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 12\n1. The Buddhas\n2. Analysis",
         "segsMatched": 1,
         "langSegs": {
           "pli": 79,
@@ -470,6 +482,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 12\n3. The Ten Powers\n23. Vital Conditions",
         "segsMatched": 1,
         "langSegs": {
           "pli": 93,
@@ -498,6 +511,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 72\nWith Vacchagotta on Fire",
         "segsMatched": 1,
         "langSegs": {
           "pli": 161,
@@ -526,6 +540,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 122\nThe Longer Discourse on Emptiness",
         "segsMatched": 1,
         "langSegs": {
           "pli": 172,
@@ -554,6 +569,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 9\nRight View",
         "segsMatched": 1,
         "langSegs": {
           "pli": 234,
@@ -582,6 +598,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 226,
@@ -610,6 +627,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 439,
@@ -638,6 +656,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 14\nThe Great Discourse on the Harvest of Deeds\n1. On Past Lives",
         "segsMatched": 1,
         "langSegs": {
           "pli": 851,
@@ -666,6 +685,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1167,
@@ -694,6 +714,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
           "pli": 892,

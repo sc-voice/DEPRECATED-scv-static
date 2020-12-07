@@ -104,6 +104,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 42\n1. Chiefs\n11. With Bhadraka",
         "segsMatched": 5,
         "langSegs": {
           "pli": 55,
@@ -144,6 +145,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 105\nWith Sunakkhatta",
         "segsMatched": 3,
         "langSegs": {
           "pli": 188,
@@ -178,6 +180,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 1\nThe Root of All Things",
         "segsMatched": 2,
         "langSegs": {
           "pli": 334,
@@ -206,6 +209,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 56\n3. At the Village of Koṭi\n21. At the Village of Koṭi (1st)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 23,
@@ -234,6 +238,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 116\nAt Isigili",
         "segsMatched": 1,
         "langSegs": {
           "pli": 96,
@@ -262,6 +267,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 66\nThe Simile of the Quail",
         "segsMatched": 1,
         "langSegs": {
           "pli": 202,
@@ -290,6 +296,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1665,

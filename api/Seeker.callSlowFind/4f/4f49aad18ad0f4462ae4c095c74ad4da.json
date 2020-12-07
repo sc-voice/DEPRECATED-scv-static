@@ -89,6 +89,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 11\nThe Shorter Discourse on the Lion’s Roar",
         "segsMatched": 3,
         "langSegs": {
           "pli": 132,
@@ -123,6 +124,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 18\nThe Honey-Cake",
         "segsMatched": 2,
         "langSegs": {
           "pli": 150,
@@ -151,6 +153,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n1. At Bhaṇḍa Village\n9. The Arising of Craving",
         "segsMatched": 1,
         "langSegs": {
           "pli": 19,
@@ -179,6 +182,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twenties\nChapter One\n16.4. Raṭṭhapāla",
         "segsMatched": 1,
         "langSegs": {
           "pli": 105,
@@ -207,6 +211,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twenties\nChapter One\n16.8. Aṅgulimāla",
         "segsMatched": 1,
         "langSegs": {
           "pli": 109,
@@ -235,6 +240,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 82\nWith Raṭṭhapāla",
         "segsMatched": 1,
         "langSegs": {
           "pli": 434,

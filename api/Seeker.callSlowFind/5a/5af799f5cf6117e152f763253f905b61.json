@@ -445,6 +445,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n3. Menschen\n22. Kranke",
         "segsMatched": 10,
         "langSegs": {
           "pli": 20,
@@ -539,6 +540,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 14\nDie große Lehrrede über die Ernte aus den Taten\n1. Von früheren Leben",
         "segsMatched": 10,
         "langSegs": {
           "pli": 851,
@@ -633,6 +635,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 10,
         "langSegs": {
           "pli": 1167,
@@ -720,6 +723,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n124. Pflegekraft (2)",
         "segsMatched": 9,
         "langSegs": {
           "pli": 20,
@@ -800,6 +804,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n16. Fähigkeiten\n157. Krankheit",
         "segsMatched": 8,
         "langSegs": {
           "pli": 19,
@@ -880,6 +885,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n19. Brahmanen\n184. Ohne Furcht",
         "segsMatched": 8,
         "langSegs": {
           "pli": 67,
@@ -953,6 +959,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n123. Pflegekraft (1)",
         "segsMatched": 7,
         "langSegs": {
           "pli": 12,
@@ -1019,6 +1026,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n121. Kranke",
         "segsMatched": 6,
         "langSegs": {
           "pli": 15,
@@ -1085,6 +1093,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n1. In Ambapālīs Wald\n9. Krank",
         "segsMatched": 6,
         "langSegs": {
           "pli": 47,
@@ -1151,6 +1160,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n6. Der eigene Geist\n60. Mit Girimānanda",
         "segsMatched": 6,
         "langSegs": {
           "pli": 80,
@@ -1210,6 +1220,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n7. Das große Kapitel\n62. Gefahren",
         "segsMatched": 5,
         "langSegs": {
           "pli": 55,
@@ -1269,6 +1280,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n6. Hindernisse\n57. Gegenstände zur regelmäßigen Betrachtung",
         "segsMatched": 5,
         "langSegs": {
           "pli": 78,
@@ -1328,6 +1340,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n10. Mit Kakudha\n100. Mit Kakudha",
         "segsMatched": 5,
         "langSegs": {
           "pli": 97,
@@ -1380,6 +1393,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n9. Ordensälteste\n88. Ordensälteste",
         "segsMatched": 4,
         "langSegs": {
           "pli": 22,
@@ -1432,6 +1446,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n3. Unübertrefflich\n23. Gefahren",
         "segsMatched": 4,
         "langSegs": {
           "pli": 30,
@@ -1484,6 +1499,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n8. Krieger\n78. Künftige Gefahren (2)",
         "segsMatched": 4,
         "langSegs": {
           "pli": 46,
@@ -1536,6 +1552,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n2. Warmherzig\n16. Nakulas Vater",
         "segsMatched": 4,
         "langSegs": {
           "pli": 67,
@@ -1581,6 +1598,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n127. Abgesondert leben",
         "segsMatched": 3,
         "langSegs": {
           "pli": 12,
@@ -1626,6 +1644,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n128. Asketenglück",
         "segsMatched": 3,
         "langSegs": {
           "pli": 12,
@@ -1671,6 +1690,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n14. Ein Krieger\n140. Ein wildes Fohlen",
         "segsMatched": 3,
         "langSegs": {
           "pli": 42,
@@ -1716,6 +1736,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n14. Ein Krieger\n141. Erstklassige Pferde",
         "segsMatched": 3,
         "langSegs": {
           "pli": 42,
@@ -1761,6 +1782,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n4. Götterboten\n39. Ein zarter Lebensstil",
         "segsMatched": 3,
         "langSegs": {
           "pli": 54,
@@ -1806,6 +1828,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n5. Mit König Muṇḍa\n48. Was man nicht bekommen kann",
         "segsMatched": 3,
         "langSegs": {
           "pli": 55,
@@ -1851,6 +1874,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n5. Mit König Muṇḍa\n50. Mit Nārada",
         "segsMatched": 3,
         "langSegs": {
           "pli": 110,
@@ -1896,6 +1920,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 10\nMit Subha",
         "segsMatched": 3,
         "langSegs": {
           "pli": 266,
@@ -1934,6 +1959,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n23. Lange Reisen\n221. Lange Reisen (1)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -1972,6 +1998,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n23. Lange Reisen\n222. Lange Reisen (2)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -2010,6 +2037,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n13. Furcht\n124. Unterschied (2)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 15,
@@ -2048,6 +2076,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n13. Furcht\n126. Liebe (2)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 17,
@@ -2086,6 +2115,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n26. Einsicht\n255. Arten der Suche",
         "segsMatched": 2,
         "langSegs": {
           "pli": 18,
@@ -2124,6 +2154,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n11. Unbeschwert leben\n104. Eine vorzüglicher Asketin unter den Asketen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 21,
@@ -2162,6 +2193,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n6. Überfließendes Verdienst\n60. Richtige Übung für Laien",
         "segsMatched": 2,
         "langSegs": {
           "pli": 25,
@@ -2200,6 +2232,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n8. Ānanda\n73. Mit dem Sakyer Mahānāma",
         "segsMatched": 2,
         "langSegs": {
           "pli": 29,
@@ -2238,6 +2271,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n6. Hindernisse\n54. Gute Gelegenheiten",
         "segsMatched": 2,
         "langSegs": {
           "pli": 34,
@@ -2276,6 +2310,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n9. Unbeirrbar\n87. Der Sohn",
         "segsMatched": 2,
         "langSegs": {
           "pli": 35,
@@ -2314,6 +2349,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n18. Ein Laienschüler\n176. Ekstase",
         "segsMatched": 2,
         "langSegs": {
           "pli": 35,
@@ -2352,6 +2388,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n14. Könige\n135. Anstreben (1)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 44,
@@ -2390,6 +2427,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n10. Ein Salzklümpchen\n99. Jute",
         "segsMatched": 2,
         "langSegs": {
           "pli": 49,
@@ -2428,6 +2466,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n4. Gottheiten\n42. Mit Nāgita",
         "segsMatched": 2,
         "langSegs": {
           "pli": 61,
@@ -2466,6 +2505,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verbundene Lehrreden 3\n3. Kosala\n21. Menschen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 101,
@@ -2504,6 +2544,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n4. Götterboten\n36. Götterboten",
         "segsMatched": 2,
         "langSegs": {
           "pli": 108,
@@ -2542,6 +2583,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Mittlere Lehrreden 33\nDie längere Lehrrede vom Kuhhirten",
         "segsMatched": 2,
         "langSegs": {
           "pli": 118,
@@ -2580,6 +2622,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Mittlere Lehrreden 2\nAlle Befleckungen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 125,
@@ -2611,6 +2654,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n12. Mit Kesi\n119. Gefahren (1)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 8,
@@ -2642,6 +2686,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n129. Unheilbare Wunden",
         "segsMatched": 1,
         "langSegs": {
           "pli": 8,
@@ -2673,6 +2718,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n22. Beschimpfung\n211. Beschimpfung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 8,
@@ -2704,6 +2750,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n122. Fest verankerte Achtsamkeit",
         "segsMatched": 1,
         "langSegs": {
           "pli": 10,
@@ -2735,6 +2782,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n11. Unbeschwert leben\n109. Alle vier Himmelsrichtungen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 12,
@@ -2766,6 +2814,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n125. Langes Leben (1)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 12,
@@ -2797,6 +2846,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n13. Kranke\n126. Langes Leben (2)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 12,

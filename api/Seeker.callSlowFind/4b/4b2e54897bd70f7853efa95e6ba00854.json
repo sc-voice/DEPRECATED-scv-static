@@ -701,6 +701,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 20\nThe Great Congregation",
         "segsMatched": 25,
         "langSegs": {
           "pli": 337,
@@ -843,6 +844,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 23\nWith Pāyāsi",
         "segsMatched": 20,
         "langSegs": {
           "pli": 714,
@@ -907,6 +909,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 125\nThe Level of the Tamed",
         "segsMatched": 7,
         "langSegs": {
           "pli": 145,
@@ -965,6 +968,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 96\nWith Esukārī",
         "segsMatched": 6,
         "langSegs": {
           "pli": 143,
@@ -1023,6 +1027,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 93\nWith Assalāyana",
         "segsMatched": 6,
         "langSegs": {
           "pli": 244,
@@ -1075,6 +1080,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 20\n1. Similes\n8. Wood Blocks",
         "segsMatched": 5,
         "langSegs": {
           "pli": 23,
@@ -1127,6 +1133,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n8. If You Want\n72. Thorns",
         "segsMatched": 5,
         "langSegs": {
           "pli": 32,
@@ -1179,6 +1186,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 90\nAt Kaṇṇakatthala",
         "segsMatched": 5,
         "langSegs": {
           "pli": 172,
@@ -1231,6 +1239,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 27\nThe Shorter Elephant’s Footprint Simile",
         "segsMatched": 5,
         "langSegs": {
           "pli": 201,
@@ -1283,6 +1292,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 24\nAbout Pāṭikaputta\n1. On Sunakkhatta",
         "segsMatched": 5,
         "langSegs": {
           "pli": 581,
@@ -1329,6 +1339,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 12\n6. Suffering\n52. Grasping",
         "segsMatched": 4,
         "langSegs": {
           "pli": 29,
@@ -1375,6 +1386,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n6. Hindrances\n58. The Licchavi Youths",
         "segsMatched": 4,
         "langSegs": {
           "pli": 60,
@@ -1421,6 +1433,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n2. Warm-hearted\n16. Nakula’s Father",
         "segsMatched": 4,
         "langSegs": {
           "pli": 67,
@@ -1467,6 +1480,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 35\nThe Shorter Discourse With Saccaka",
         "segsMatched": 4,
         "langSegs": {
           "pli": 235,
@@ -1507,6 +1521,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 47\n1. In Ambapālī’s Wood\n1. In Ambapālī’s Wood",
         "segsMatched": 3,
         "langSegs": {
           "pli": 19,
@@ -1547,6 +1562,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 1\n4. The Satullapa Group\n39. With Pajjunna’s Daughter (1st)",
         "segsMatched": 3,
         "langSegs": {
           "pli": 23,
@@ -1587,6 +1603,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n20. The Great Chapter\n196. With Sāḷha",
         "segsMatched": 3,
         "langSegs": {
           "pli": 71,
@@ -1627,6 +1644,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n7. The Great Chapter\n63. At Venāgapura",
         "segsMatched": 3,
         "langSegs": {
           "pli": 79,
@@ -1667,6 +1685,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n6. The Great Chapter\n55. With Soṇa",
         "segsMatched": 3,
         "langSegs": {
           "pli": 97,
@@ -1707,6 +1726,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n3. Householders\n30. Anuruddha and the Great Thoughts",
         "segsMatched": 3,
         "langSegs": {
           "pli": 119,
@@ -1747,6 +1767,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Thirties\n14.1. Subhā of Jīvaka’s Mango Grove",
         "segsMatched": 3,
         "langSegs": {
           "pli": 142,
@@ -1787,6 +1808,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 18\nThe Honey-Cake",
         "segsMatched": 3,
         "langSegs": {
           "pli": 150,
@@ -1827,6 +1849,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 6\nWith Mahāli\n1. On the Brahmin Emissaries",
         "segsMatched": 3,
         "langSegs": {
           "pli": 156,
@@ -1867,6 +1890,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 12\nThe Longer Discourse on the Lion’s Roar",
         "segsMatched": 3,
         "langSegs": {
           "pli": 356,
@@ -1907,6 +1931,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 3,
         "langSegs": {
           "pli": 1665,
@@ -1941,6 +1966,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 52\n1. In Private\n4. At Thorny Wood (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 15,
@@ -1975,6 +2001,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 9\n1. In the Woods\n8. The Mistress of the House",
         "segsMatched": 2,
         "langSegs": {
           "pli": 18,
@@ -2009,6 +2036,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 52\n1. In Private\n9. In Ambapālī’s Wood",
         "segsMatched": 2,
         "langSegs": {
           "pli": 18,
@@ -2043,6 +2071,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 9\n1. In the Woods\n1. Seclusion",
         "segsMatched": 2,
         "langSegs": {
           "pli": 20,
@@ -2077,6 +2106,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 47\n1. In Ambapālī’s Wood\n2. Mindful",
         "segsMatched": 2,
         "langSegs": {
           "pli": 22,
@@ -2111,6 +2141,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 1\n4. The Satullapa Group\n40. With Pajjunna’s Daughter (2nd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 25,
@@ -2145,6 +2176,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 1\n4. The Satullapa Group\n37. The Congregation",
         "segsMatched": 2,
         "langSegs": {
           "pli": 32,
@@ -2179,6 +2211,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 2\n2. With Anāthapiṇḍika\n18. With Kakudha",
         "segsMatched": 2,
         "langSegs": {
           "pli": 32,
@@ -2213,6 +2246,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 14\nChapter Two\n12. With a Cause",
         "segsMatched": 2,
         "langSegs": {
           "pli": 39,
@@ -2247,6 +2281,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 47\n1. In Ambapālī’s Wood\n7. A Monkey",
         "segsMatched": 2,
         "langSegs": {
           "pli": 45,
@@ -2281,6 +2316,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n6. The Undeclared Points\n61. Nodding Off",
         "segsMatched": 2,
         "langSegs": {
           "pli": 61,
@@ -2315,6 +2351,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 7\n1. The Perfected Ones\n9. With Bhāradvāja of Sundarika",
         "segsMatched": 2,
         "langSegs": {
           "pli": 70,
@@ -2349,6 +2386,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n8. Itchy\n80. Beggars",
         "segsMatched": 2,
         "langSegs": {
           "pli": 80,
@@ -2383,6 +2421,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 1\n27. Fourth\n333–377",
         "segsMatched": 2,
         "langSegs": {
           "pli": 85,
@@ -2417,6 +2456,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n6. Gotamī\n51. With Gotamī",
         "segsMatched": 2,
         "langSegs": {
           "pli": 92,
@@ -2451,6 +2491,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n7. The Great Chapter\n67. The Simile of the Citadel",
         "segsMatched": 2,
         "langSegs": {
           "pli": 97,
@@ -2485,6 +2526,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n6. The Great Chapter\n60. With Hatthisāriputta",
         "segsMatched": 2,
         "langSegs": {
           "pli": 98,
@@ -2519,6 +2561,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n4. The Great Chapter\n41. With the Householder Tapussa",
         "segsMatched": 2,
         "langSegs": {
           "pli": 177,
@@ -2553,6 +2596,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 130\nMessengers of the Gods",
         "segsMatched": 2,
         "langSegs": {
           "pli": 203,
@@ -2587,6 +2631,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Fifties\nChapter One\n19.1. Tālapuṭa",
         "segsMatched": 2,
         "langSegs": {
           "pli": 232,
@@ -2621,6 +2666,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 50\nThe Rebuke of Māra",
         "segsMatched": 2,
         "langSegs": {
           "pli": 239,
@@ -2655,6 +2701,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 4\nWith Soṇadaṇḍa\n1. The Brahmins and Householders of Campā",
         "segsMatched": 2,
         "langSegs": {
           "pli": 297,
@@ -2689,6 +2736,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 95\nWith Caṅkī",
         "segsMatched": 2,
         "langSegs": {
           "pli": 305,
@@ -2723,6 +2771,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 36\nThe Longer Discourse With Saccaka",
         "segsMatched": 2,
         "langSegs": {
           "pli": 360,
@@ -2757,6 +2806,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 5\nWith Kūṭadanta\n1. The Brahmins and Householders of Khāṇumata",
         "segsMatched": 2,
         "langSegs": {
           "pli": 375,

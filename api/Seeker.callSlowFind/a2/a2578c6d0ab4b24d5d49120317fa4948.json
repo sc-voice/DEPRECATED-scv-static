@@ -116,6 +116,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n7. The Great Chapter\n70. Sabbath",
         "segsMatched": 3,
         "langSegs": {
           "pli": 234,
@@ -150,6 +151,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n5. Sabbath\n41. The Sabbath With Eight Factors, In Brief",
         "segsMatched": 2,
         "langSegs": {
           "pli": 46,
@@ -178,6 +180,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 11\nChapter Two\n11. Vows",
         "segsMatched": 1,
         "langSegs": {
           "pli": 22,
@@ -206,6 +209,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 11\nChapter Two\n12. Sakka’s Names",
         "segsMatched": 1,
         "langSegs": {
           "pli": 30,
@@ -234,6 +238,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 11\nChapter Two\n13. With Mahāli",
         "segsMatched": 1,
         "langSegs": {
           "pli": 36,
@@ -262,6 +267,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n20. The Great Chapter\n198. Self-mortification",
         "segsMatched": 1,
         "langSegs": {
           "pli": 111,
@@ -290,6 +296,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n10. With Upāli\n99. With Upāli",
         "segsMatched": 1,
         "langSegs": {
           "pli": 148,
@@ -318,6 +325,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 27\nThe Shorter Elephant’s Footprint Simile",
         "segsMatched": 1,
         "langSegs": {
           "pli": 201,
@@ -346,6 +354,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 51\nWith Kandaraka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 190,
@@ -374,6 +383,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 86\nWith Aṅgulimāla",
         "segsMatched": 1,
         "langSegs": {
           "pli": 208,
@@ -402,6 +412,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 94\nWith Ghoṭamukha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 203,
@@ -430,6 +441,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 101\nAt Devadaha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 362,
@@ -458,6 +470,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
           "pli": 617,
@@ -486,6 +499,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 38\nThe Longer Discourse on the Ending of Craving",
         "segsMatched": 1,
         "langSegs": {
           "pli": 445,
@@ -514,6 +528,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 82\nWith Raṭṭhapāla",
         "segsMatched": 1,
         "langSegs": {
           "pli": 434,

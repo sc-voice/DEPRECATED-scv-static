@@ -101,6 +101,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n9. Unbeirrbar\n90. Aggregate",
         "segsMatched": 2,
         "langSegs": {
           "pli": 37,
@@ -132,6 +133,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n3. Die zehn Kräfte\n21. Die zehn Kräfte",
         "segsMatched": 1,
         "langSegs": {
           "pli": 19,
@@ -163,6 +165,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n3. Die zehn Kräfte\n22. Die zehn Kräfte (2)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 34,
@@ -194,6 +197,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n5. Mit Rohitassa\n41. Wie man Versenkung weiterentwickelt",
         "segsMatched": 1,
         "langSegs": {
           "pli": 36,
@@ -225,6 +229,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n3. Die zehn Kräfte\n23. Wesentliche Bedingungen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 93,
@@ -256,6 +261,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Mittlere Lehrreden 10\nAchtsamkeitsmeditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 226,
@@ -287,6 +293,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 14\nDie große Lehrrede über die Ernte aus den Taten\n1. Von früheren Leben",
         "segsMatched": 1,
         "langSegs": {
           "pli": 851,
@@ -318,6 +325,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1167,

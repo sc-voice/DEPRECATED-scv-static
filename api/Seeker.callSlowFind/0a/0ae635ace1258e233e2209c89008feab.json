@@ -135,6 +135,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 4,
         "langSegs": {
           "pli": 1167,
@@ -180,6 +181,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n11. Nicht die Lehre\n140–149",
         "segsMatched": 3,
         "langSegs": {
           "pli": 17,
@@ -225,6 +227,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n12. Kein Vergehen\n150–169",
         "segsMatched": 3,
         "langSegs": {
           "pli": 29,
@@ -270,6 +273,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n4. Umstände\n35. Mit Vassakāra",
         "segsMatched": 3,
         "langSegs": {
           "pli": 55,
@@ -308,6 +312,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n2. Der Wagenbauer\n11. Namhaft",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -346,6 +351,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n9. Ordensälteste\n88. Ordensälteste",
         "segsMatched": 2,
         "langSegs": {
           "pli": 22,
@@ -384,6 +390,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n13. Ein Mensch\n170–187",
         "segsMatched": 2,
         "langSegs": {
           "pli": 37,
@@ -422,6 +429,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n16. Fähigkeiten\n160. Die Übung eines Heiligen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 48,
@@ -460,6 +468,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n26. Drittes\n316–332",
         "segsMatched": 2,
         "langSegs": {
           "pli": 61,
@@ -498,6 +507,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n6. Menschen\n52–63",
         "segsMatched": 2,
         "langSegs": {
           "pli": 88,
@@ -536,6 +546,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n4. Friedvoller Geist\n32–41",
         "segsMatched": 2,
         "langSegs": {
           "pli": 169,
@@ -574,6 +585,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 14\nDie große Lehrrede über die Ernte aus den Taten\n1. Von früheren Leben",
         "segsMatched": 2,
         "langSegs": {
           "pli": 851,
@@ -605,6 +617,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 18\nMit Janavasabha\n1. Bekanntgabe, wo Menschen aus Nādika und anderen Orten wiedergeboren wurden",
         "segsMatched": 1,
         "langSegs": {
           "pli": 299,

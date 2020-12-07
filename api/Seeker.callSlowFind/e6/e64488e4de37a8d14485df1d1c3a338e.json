@@ -80,6 +80,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 48\n7. Leading to Awakening\n67. A Tree (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 14,
@@ -108,6 +109,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Fours\nChapter One\n4.11. Sappaka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 21,
@@ -136,6 +138,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 36\nThe Longer Discourse With Saccaka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 360,
@@ -164,6 +167,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 100\nWith Saṅgārava",
         "segsMatched": 1,
         "langSegs": {
           "pli": 306,
@@ -192,6 +196,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 85\nWith Prince Bodhi",
         "segsMatched": 1,
         "langSegs": {
           "pli": 553,

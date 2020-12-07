@@ -239,6 +239,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n2. The Great Chapter\n14. A Wild Colt",
         "segsMatched": 28,
         "langSegs": {
           "pli": 90,
@@ -303,6 +304,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n14. A Warrior\n140. A Wild Colt",
         "segsMatched": 7,
         "langSegs": {
           "pli": 42,
@@ -367,6 +369,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n3. Abodes of Sentient Beings\n22. A Wild Colt",
         "segsMatched": 7,
         "langSegs": {
           "pli": 74,
@@ -419,6 +422,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n1. Dependence\n9. With Sandha",
         "segsMatched": 5,
         "langSegs": {
           "pli": 59,
@@ -447,6 +451,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n9. Senior Mendicants\n87. Disciplinary Issues",
         "segsMatched": 1,
         "langSegs": {
           "pli": 72,
@@ -475,6 +480,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Thirties\nChapter One\n17.1. Phussa",
         "segsMatched": 1,
         "langSegs": {
           "pli": 133,

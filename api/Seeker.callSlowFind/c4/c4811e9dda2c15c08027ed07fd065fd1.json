@@ -107,6 +107,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n3. Unsurpassable\n30. Unsurpassable",
         "segsMatched": 6,
         "langSegs": {
           "pli": 67,
@@ -165,6 +166,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 65\nWith Bhaddāli",
         "segsMatched": 6,
         "langSegs": {
           "pli": 211,
@@ -193,6 +195,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 55\n3. About Sarakāni\n24. About Sarakāni (1st)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 78,
@@ -221,6 +224,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 55\n3. About Sarakāni\n25. About Sarakāni the Sakyan (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 91,
@@ -249,6 +253,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 70\nAt Kīṭāgiri",
         "segsMatched": 1,
         "langSegs": {
           "pli": 203,
@@ -277,6 +282,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 22\nThe Simile of the Snake",
         "segsMatched": 1,
         "langSegs": {
           "pli": 359,

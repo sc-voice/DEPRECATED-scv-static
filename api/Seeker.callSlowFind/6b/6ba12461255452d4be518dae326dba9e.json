@@ -126,6 +126,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n1. Einer Gabe würdig\n10. Mit Mahānāma",
         "segsMatched": 6,
         "langSegs": {
           "pli": 68,
@@ -164,6 +165,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n10. Ein Salzklümpchen\n95. Versammlungen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 23,
@@ -202,6 +204,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Mittlere Lehrreden 7\nDas Gleichnis vom Tuch",
         "segsMatched": 2,
         "langSegs": {
           "pli": 147,
@@ -240,6 +243,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 1167,
@@ -271,6 +275,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 10\nMit Subha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 266,

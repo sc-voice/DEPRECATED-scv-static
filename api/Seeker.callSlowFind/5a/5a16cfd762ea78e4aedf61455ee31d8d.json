@@ -92,6 +92,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 5\n1. Nuns\n9. With Selā",
         "segsMatched": 3,
         "langSegs": {
           "pli": 30,
@@ -126,6 +127,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Thirties\n14.1. Subhā of Jīvaka’s Mango Grove",
         "segsMatched": 2,
         "langSegs": {
           "pli": 142,
@@ -160,6 +162,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Thirties\nChapter One\n17.3. Ānanda",
         "segsMatched": 2,
         "langSegs": {
           "pli": 160,
@@ -188,6 +191,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 48\n5. Old Age\n41. Old Age",
         "segsMatched": 1,
         "langSegs": {
           "pli": 25,
@@ -216,6 +220,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twenties\nChapter One\n16.4. Raṭṭhapāla",
         "segsMatched": 1,
         "langSegs": {
           "pli": 105,
@@ -244,6 +249,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Sixties\nChapter One\n20.1. Mahāmoggallāna",
         "segsMatched": 1,
         "langSegs": {
           "pli": 299,
@@ -272,6 +278,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 82\nWith Raṭṭhapāla",
         "segsMatched": 1,
         "langSegs": {
           "pli": 434,

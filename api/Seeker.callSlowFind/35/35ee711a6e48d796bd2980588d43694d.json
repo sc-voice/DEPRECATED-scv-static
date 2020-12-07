@@ -128,6 +128,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 105\nWith Sunakkhatta",
         "segsMatched": 8,
         "langSegs": {
           "pli": 188,
@@ -156,6 +157,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 1\n7. Oppressed\n66. Beaten Down",
         "segsMatched": 1,
         "langSegs": {
           "pli": 11,
@@ -184,6 +186,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Threes\nChapter One\n3.2. Paccaya",
         "segsMatched": 1,
         "langSegs": {
           "pli": 17,
@@ -212,6 +215,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Sixes\nChapter One\n6.13. Sirimaṇḍa",
         "segsMatched": 1,
         "langSegs": {
           "pli": 29,
@@ -240,6 +244,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Fours\nChapter One\n4.12. Mudita",
         "segsMatched": 1,
         "langSegs": {
           "pli": 34,
@@ -268,6 +273,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 8\n1. With Vaṅgīsa\n7. The Invitation to Admonish",
         "segsMatched": 1,
         "langSegs": {
           "pli": 42,
@@ -296,6 +302,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Eights\nChapter One\n8.3. Mahāpanthaka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 44,
@@ -324,6 +331,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Great Book\nChapter One\n21.1. Vaṅgīsa",
         "segsMatched": 1,
         "langSegs": {
           "pli": 309,
@@ -352,6 +360,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 21\nSakka’s Questions",
         "segsMatched": 1,
         "langSegs": {
           "pli": 515,

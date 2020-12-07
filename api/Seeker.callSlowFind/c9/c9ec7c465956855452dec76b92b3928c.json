@@ -86,6 +86,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 56\n5. A Cliff\n45. Splitting Hairs",
         "segsMatched": 2,
         "langSegs": {
           "pli": 22,
@@ -120,6 +121,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 2\n1. Punishments\n1–10",
         "segsMatched": 2,
         "langSegs": {
           "pli": 126,
@@ -154,6 +156,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 4\nFear and Dread",
         "segsMatched": 2,
         "langSegs": {
           "pli": 164,
@@ -188,6 +191,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 2,
         "langSegs": {
           "pli": 1665,
@@ -216,6 +220,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Threes\n3.8. Somā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 18,
@@ -244,6 +249,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 5\n1. Nuns\n2. With Somā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 26,
@@ -272,6 +278,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n10. With Upāli\n99. With Upāli",
         "segsMatched": 1,
         "langSegs": {
           "pli": 148,

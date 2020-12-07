@@ -110,6 +110,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n2. Warmherzig\n11. Warmherzig (1)",
         "segsMatched": 5,
         "langSegs": {
           "pli": 13,
@@ -169,6 +170,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n2. Warmherzig\n12. Warmherzig (2)",
         "segsMatched": 5,
         "langSegs": {
           "pli": 15,
@@ -228,6 +230,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 5,
         "langSegs": {
           "pli": 1167,
@@ -273,6 +276,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n11. Unbeschwert leben\n105. Unbeschwert leben",
         "segsMatched": 3,
         "langSegs": {
           "pli": 10,
@@ -311,6 +315,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Mittlere Lehrreden 33\nDie längere Lehrrede vom Kuhhirten",
         "segsMatched": 2,
         "langSegs": {
           "pli": 118,

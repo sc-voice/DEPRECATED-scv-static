@@ -116,6 +116,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n1. Dependence\n7. Percipient",
         "segsMatched": 5,
         "langSegs": {
           "pli": 25,
@@ -156,6 +157,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n1. Benefits\n6. Immersion",
         "segsMatched": 3,
         "langSegs": {
           "pli": 11,
@@ -196,6 +198,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n2. Recollection\n19. Immersion (2nd)",
         "segsMatched": 3,
         "langSegs": {
           "pli": 18,
@@ -236,6 +239,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n4. Messengers of the Gods\n32. With Ānanda",
         "segsMatched": 3,
         "langSegs": {
           "pli": 20,
@@ -276,6 +280,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n2. Recollection\n21. Immersion (4th)",
         "segsMatched": 3,
         "langSegs": {
           "pli": 23,
@@ -316,6 +321,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 41\n1. With Citta\n8. Nigaṇṭha Nāṭaputta",
         "segsMatched": 3,
         "langSegs": {
           "pli": 44,
@@ -350,6 +356,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n2. Recollection\n18. Immersion (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 11,
@@ -384,6 +391,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n2. Recollection\n20. Immersion (3rd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -418,6 +426,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n1. Benefits\n7. Sāriputta",
         "segsMatched": 2,
         "langSegs": {
           "pli": 16,
@@ -452,6 +461,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n1. Dependence\n8. Awareness",
         "segsMatched": 2,
         "langSegs": {
           "pli": 17,
@@ -486,6 +496,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 11\nWith Kevaddha",
         "segsMatched": 2,
         "langSegs": {
           "pli": 199,

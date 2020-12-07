@@ -225,6 +225,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n7. Das große Kapitel\n70. Besinnungstag",
         "segsMatched": 22,
         "langSegs": {
           "pli": 234,
@@ -270,6 +271,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n4. Götterboten\n37. Die Vier Großen Könige (1)",
         "segsMatched": 3,
         "langSegs": {
           "pli": 39,
@@ -308,6 +310,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n4. Götterboten\n38. Die Vier Großen Könige (2)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 23,
@@ -339,6 +342,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 17\nDer König Mahāsudassana",
         "segsMatched": 1,
         "langSegs": {
           "pli": 444,

@@ -115,6 +115,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n14. Menschen\n139. Dhammalehrer",
         "segsMatched": 4,
         "langSegs": {
           "pli": 19,
@@ -153,6 +154,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n27. Viertes\n333–377",
         "segsMatched": 2,
         "langSegs": {
           "pli": 85,
@@ -191,6 +193,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 1167,
@@ -222,6 +225,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n1. In Ambapālīs Wald\n9. Krank",
         "segsMatched": 1,
         "langSegs": {
           "pli": 47,
@@ -253,6 +257,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n5. Mit König Muṇḍa\n48. Was man nicht bekommen kann",
         "segsMatched": 1,
         "langSegs": {
           "pli": 55,
@@ -284,6 +289,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzehnerbuch\nErstes Kapitel\n15.2. Udāyī",
         "segsMatched": 1,
         "langSegs": {
           "pli": 76,
@@ -315,6 +321,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n43. Der Riese",
         "segsMatched": 1,
         "langSegs": {
           "pli": 98,
@@ -346,6 +353,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n5. Mit König Muṇḍa\n50. Mit Nārada",
         "segsMatched": 1,
         "langSegs": {
           "pli": 110,

@@ -122,6 +122,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n14. A Warrior\n140. A Wild Colt",
         "segsMatched": 3,
         "langSegs": {
           "pli": 42,
@@ -156,6 +157,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n3. Persons\n25. Like Diamond",
         "segsMatched": 2,
         "langSegs": {
           "pli": 25,
@@ -190,6 +192,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 56\n4. In a Rosewood Forest\n40. Looking For a Debate",
         "segsMatched": 2,
         "langSegs": {
           "pli": 32,
@@ -218,6 +221,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 56\n4. In a Rosewood Forest\n36. Living Creatures",
         "segsMatched": 1,
         "langSegs": {
           "pli": 15,
@@ -246,6 +250,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n2. The Chariot-maker\n12. Commemoration",
         "segsMatched": 1,
         "langSegs": {
           "pli": 22,
@@ -274,6 +279,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n10. A Lump of Salt\n96. The Thoroughbred (1st)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 24,
@@ -302,6 +308,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n14. A Warrior\n133. A Warrior",
         "segsMatched": 1,
         "langSegs": {
           "pli": 25,
@@ -330,6 +337,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n20. The Great Chapter\n194. At Sāpūga",
         "segsMatched": 1,
         "langSegs": {
           "pli": 27,
@@ -358,6 +366,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 48\n6. The Boar’s Cave\n53. A Trainee",
         "segsMatched": 1,
         "langSegs": {
           "pli": 33,
@@ -386,6 +395,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n2. The Chariot-maker\n20. A Shopkeeper (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 43,
@@ -414,6 +424,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n20. The Great Chapter\n196. With Sāḷha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 71,
@@ -442,6 +453,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n3. Abodes of Sentient Beings\n22. A Wild Colt",
         "segsMatched": 1,
         "langSegs": {
           "pli": 74,
@@ -470,6 +482,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n8. Warriors\n75. Warriors (1st)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 103,
@@ -498,6 +511,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n8. Warriors\n76. Warriors (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 138,
@@ -526,6 +540,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 39\nThe Longer Discourse at Assapura",
         "segsMatched": 1,
         "langSegs": {
           "pli": 191,
@@ -554,6 +569,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 226,
@@ -582,6 +598,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 439,

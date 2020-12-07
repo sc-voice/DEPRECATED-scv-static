@@ -89,6 +89,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n3. Unsurpassable\n24. The Himalaya",
         "segsMatched": 2,
         "langSegs": {
           "pli": 8,
@@ -123,6 +124,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Sixes\nChapter One\n6.5. Māluṅkyaputta (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 31,
@@ -157,6 +159,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 7\n1. The Perfected Ones\n1. With Dhanañjānī",
         "segsMatched": 2,
         "langSegs": {
           "pli": 37,
@@ -185,6 +188,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Fives\n5.8. Soṇā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 24,
@@ -213,6 +217,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 48\n5. Old Age\n41. Old Age",
         "segsMatched": 1,
         "langSegs": {
           "pli": 25,
@@ -241,6 +246,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 2\n3. Various Sectarians\n30. The Disciples of Various Sectarians",
         "segsMatched": 1,
         "langSegs": {
           "pli": 61,
@@ -269,6 +275,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n4. Messengers of the Gods\n36. Messengers of the Gods",
         "segsMatched": 1,
         "langSegs": {
           "pli": 108,
@@ -297,6 +304,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 130\nMessengers of the Gods",
         "segsMatched": 1,
         "langSegs": {
           "pli": 203,

@@ -167,6 +167,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 117\nThe Great Forty",
         "segsMatched": 16,
         "langSegs": {
           "pli": 152,
@@ -237,6 +238,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 45\n1. Ignorance\n8. Analysis",
         "segsMatched": 8,
         "langSegs": {
           "pli": 44,
@@ -307,6 +309,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 141\nThe Analysis of the Truths",
         "segsMatched": 8,
         "langSegs": {
           "pli": 122,
@@ -377,6 +380,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 8,
         "langSegs": {
           "pli": 439,
@@ -411,6 +415,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n14. Kings\n131. Wielding Power (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 16,
@@ -445,6 +450,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n14. Kings\n132. Wielding Power (2nd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 16,

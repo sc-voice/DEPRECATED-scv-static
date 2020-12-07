@@ -221,6 +221,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n5. About Dhammika\n43. The Giant",
         "segsMatched": 22,
         "langSegs": {
           "pli": 98,
@@ -327,6 +328,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Sixteens\nChapter One\n15.2. Udāyī",
         "segsMatched": 14,
         "langSegs": {
           "pli": 76,
@@ -361,6 +363,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Great Book\nChapter One\n21.1. Vaṅgīsa",
         "segsMatched": 2,
         "langSegs": {
           "pli": 309,
@@ -389,6 +392,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Fours\nChapter One\n4.6. Senaka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 21,
@@ -417,6 +421,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 21\n1. Monks\n3. A Mound of Salt",
         "segsMatched": 1,
         "langSegs": {
           "pli": 42,
@@ -445,6 +450,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 8\n1. With Vaṅgīsa\n8. Over a Thousand",
         "segsMatched": 1,
         "langSegs": {
           "pli": 50,
@@ -473,6 +479,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n8. Itchy\n76. The Perfected Ones",
         "segsMatched": 1,
         "langSegs": {
           "pli": 54,
@@ -501,6 +508,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twenties\nChapter One\n16.6. Sela",
         "segsMatched": 1,
         "langSegs": {
           "pli": 105,
@@ -529,6 +537,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 24\nPrepared Chariots",
         "segsMatched": 1,
         "langSegs": {
           "pli": 139,
@@ -557,6 +566,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 5\nUnblemished",
         "segsMatched": 1,
         "langSegs": {
           "pli": 203,
@@ -585,6 +595,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 92\nWith Sela",
         "segsMatched": 1,
         "langSegs": {
           "pli": 205,
@@ -613,6 +624,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 56\nWith Upāli",
         "segsMatched": 1,
         "langSegs": {
           "pli": 382,

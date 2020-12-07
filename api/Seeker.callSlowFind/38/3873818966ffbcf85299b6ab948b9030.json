@@ -140,6 +140,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 35\n19. The Simile of the Vipers\n246. The Simile of the Harp",
         "segsMatched": 10,
         "langSegs": {
           "pli": 61,
@@ -186,6 +187,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n6. The Great Chapter\n55. With Soṇa",
         "segsMatched": 4,
         "langSegs": {
           "pli": 97,
@@ -232,6 +234,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 21\nSakka’s Questions",
         "segsMatched": 4,
         "langSegs": {
           "pli": 515,
@@ -272,6 +275,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 17\nChapter One\n3. A Turtle",
         "segsMatched": 3,
         "langSegs": {
           "pli": 28,
@@ -306,6 +310,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 4\n3. Māra\n23. With Godhika",
         "segsMatched": 2,
         "langSegs": {
           "pli": 70,
@@ -334,6 +339,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Sevens\nChapter One\n7.2. Lakuṇṭaka Bhaddiya",
         "segsMatched": 1,
         "langSegs": {
           "pli": 33,
@@ -362,6 +368,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n3. Unsurpassable\n30. Unsurpassable",
         "segsMatched": 1,
         "langSegs": {
           "pli": 67,
@@ -390,6 +397,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 17\nKing Mahāsudassana",
         "segsMatched": 1,
         "langSegs": {
           "pli": 444,
@@ -418,6 +426,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1665,

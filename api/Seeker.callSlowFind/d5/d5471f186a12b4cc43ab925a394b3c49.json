@@ -74,6 +74,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n2. The Lion’s Roar\n20. About Velāma",
         "segsMatched": 2,
         "langSegs": {
           "pli": 56,
@@ -102,6 +103,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 20\n1. Similes\n4. Rice Pots",
         "segsMatched": 1,
         "langSegs": {
           "pli": 9,
@@ -130,6 +132,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 124\nWith Bakkula",
         "segsMatched": 1,
         "langSegs": {
           "pli": 71,

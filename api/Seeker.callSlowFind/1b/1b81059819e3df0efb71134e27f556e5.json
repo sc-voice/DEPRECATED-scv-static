@@ -1172,6 +1172,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 14\nThe Great Discourse on the Harvest of Deeds\n1. On Past Lives",
         "segsMatched": 27,
         "langSegs": {
           "pli": 851,
@@ -1350,6 +1351,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 26,
         "langSegs": {
           "pli": 1665,
@@ -1462,6 +1464,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 139\nThe Analysis of Non-Conflict",
         "segsMatched": 15,
         "langSegs": {
           "pli": 201,
@@ -1568,6 +1571,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n7. The Great Chapter\n61. Sectarian Tenets",
         "segsMatched": 14,
         "langSegs": {
           "pli": 117,
@@ -1674,6 +1678,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 26\nThe Noble Search",
         "segsMatched": 14,
         "langSegs": {
           "pli": 365,
@@ -1768,6 +1773,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 12,
         "langSegs": {
           "pli": 892,
@@ -1856,6 +1862,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n14. Persons\n139. Dhamma Speakers",
         "segsMatched": 11,
         "langSegs": {
           "pli": 19,
@@ -1944,6 +1951,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 85\nWith Prince Bodhi",
         "segsMatched": 11,
         "langSegs": {
           "pli": 553,
@@ -2026,6 +2034,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n3. With Five Factors\n26. Opportunities for Freedom",
         "segsMatched": 10,
         "langSegs": {
           "pli": 49,
@@ -2102,6 +2111,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n1. Awakening\n4. With Nandaka",
         "segsMatched": 9,
         "langSegs": {
           "pli": 81,
@@ -2172,6 +2182,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 91\nWith Brahmāyu",
         "segsMatched": 8,
         "langSegs": {
           "pli": 308,
@@ -2242,6 +2253,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Great Book\nChapter One\n21.1. Vaṅgīsa",
         "segsMatched": 8,
         "langSegs": {
           "pli": 309,
@@ -2312,6 +2324,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 8,
         "langSegs": {
           "pli": 1167,
@@ -2376,6 +2389,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n12. A Dhamma speaker\n115. A Dhamma speaker",
         "segsMatched": 7,
         "langSegs": {
           "pli": 17,
@@ -2440,6 +2454,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n12. A Dhamma speaker\n116. A Dhamma speaker (2nd)",
         "segsMatched": 7,
         "langSegs": {
           "pli": 18,
@@ -2504,6 +2519,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n16. The True Teaching\n159. With Udāyī",
         "segsMatched": 7,
         "langSegs": {
           "pli": 20,
@@ -2562,6 +2578,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 12\n2. Fuel\n16. A Dhamma Speaker",
         "segsMatched": 6,
         "langSegs": {
           "pli": 24,
@@ -2620,6 +2637,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 35\n15. The Old and the New\n155. A Dhamma Speaker",
         "segsMatched": 6,
         "langSegs": {
           "pli": 26,
@@ -2678,6 +2696,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 42\n1. Chiefs\n7. The Simile of the Field",
         "segsMatched": 6,
         "langSegs": {
           "pli": 47,
@@ -2736,6 +2755,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 8\n1. With Vaṅgīsa\n8. Over a Thousand",
         "segsMatched": 6,
         "langSegs": {
           "pli": 50,
@@ -2794,6 +2814,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 6\n1. The Appeal\n1. The Appeal of Brahmā",
         "segsMatched": 6,
         "langSegs": {
           "pli": 53,
@@ -2852,6 +2873,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 56\n2. Rolling Forth the Wheel of Dhamma\n11. Rolling Forth the Wheel of Dhamma",
         "segsMatched": 6,
         "langSegs": {
           "pli": 60,
@@ -2910,6 +2932,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n3. Persons\n30. Upside-down",
         "segsMatched": 6,
         "langSegs": {
           "pli": 79,
@@ -2968,6 +2991,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n8. Itchy\n81. At Pārileyya",
         "segsMatched": 6,
         "langSegs": {
           "pli": 140,
@@ -3026,6 +3050,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 125\nThe Level of the Tamed",
         "segsMatched": 6,
         "langSegs": {
           "pli": 145,
@@ -3078,6 +3103,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Fours\nChapter One\n4.10. Dhammika",
         "segsMatched": 5,
         "langSegs": {
           "pli": 21,
@@ -3130,6 +3156,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 55\n6. A Wise Person\n53. With Dhammadinna",
         "segsMatched": 5,
         "langSegs": {
           "pli": 29,
@@ -3182,6 +3209,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 35\n8. Sick\n74. Sick (1st)",
         "segsMatched": 5,
         "langSegs": {
           "pli": 51,
@@ -3234,6 +3262,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 6\nChapter Two\n14. About Aruṇavatī",
         "segsMatched": 5,
         "langSegs": {
           "pli": 62,
@@ -3286,6 +3315,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n6. The Great Chapter\n56. With Phagguṇa",
         "segsMatched": 5,
         "langSegs": {
           "pli": 69,
@@ -3338,6 +3368,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twenties\nChapter One\n16.8. Aṅgulimāla",
         "segsMatched": 5,
         "langSegs": {
           "pli": 109,
@@ -3390,6 +3421,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 44\nThe Shorter Classification",
         "segsMatched": 5,
         "langSegs": {
           "pli": 138,
@@ -3436,6 +3468,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n13. Fears\n128. Incredible Things About the Realized One (2nd)",
         "segsMatched": 4,
         "langSegs": {
           "pli": 19,
@@ -3482,6 +3515,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n1. Benefits\n9. Inspiring All Around: the Peaceful Liberations",
         "segsMatched": 4,
         "langSegs": {
           "pli": 19,
@@ -3528,6 +3562,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n8. Pairs\n72. Inspiring All Around (2nd)",
         "segsMatched": 4,
         "langSegs": {
           "pli": 22,
@@ -3574,6 +3609,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n1. Benefits\n8. Inspiring All Around: the Absorptions",
         "segsMatched": 4,
         "langSegs": {
           "pli": 23,
@@ -3620,6 +3656,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n8. Pairs\n71. Inspiring All Around (1st)",
         "segsMatched": 4,
         "langSegs": {
           "pli": 27,
@@ -3666,6 +3703,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n1. Benefits\n10. Inspiring All Around: the Three Knowledges",
         "segsMatched": 4,
         "langSegs": {
           "pli": 29,
@@ -3712,6 +3750,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n7. Earthquakes\n69. Assemblies",
         "segsMatched": 4,
         "langSegs": {
           "pli": 32,
@@ -3758,6 +3797,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 16\n1. Kassapa\n6. Advice",
         "segsMatched": 4,
         "langSegs": {
           "pli": 36,
@@ -3804,6 +3844,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 21\n1. Monks\n3. A Mound of Salt",
         "segsMatched": 4,
         "langSegs": {
           "pli": 42,
@@ -3850,6 +3891,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 35\n8. Sick\n75. Sick (2nd)",
         "segsMatched": 4,
         "langSegs": {
           "pli": 52,
@@ -3896,6 +3938,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 35\n13. Householders\n133. Verahaccāni",
         "segsMatched": 4,
         "langSegs": {
           "pli": 53,
@@ -3942,6 +3985,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n3. Householders\n21. With Ugga of Vesālī",
         "segsMatched": 4,
         "langSegs": {
           "pli": 71,
@@ -3988,6 +4032,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n3. Householders\n29. Lost Opportunities",
         "segsMatched": 4,
         "langSegs": {
           "pli": 74,
@@ -4034,6 +4079,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n3. Householders\n22. With Ugga of the Village of Hatthi",
         "segsMatched": 4,
         "langSegs": {
           "pli": 77,
@@ -4080,6 +4126,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 55\n1. At Bamboo Gate\n7. The People of Bamboo Gate",
         "segsMatched": 4,
         "langSegs": {
           "pli": 78,
@@ -4126,6 +4173,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n1. Nakula’s Father\n1. Nakula’s Father",
         "segsMatched": 4,
         "langSegs": {
           "pli": 94,
@@ -4172,6 +4220,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n20. The Great Chapter\n191. Followed by Ear",
         "segsMatched": 4,
         "langSegs": {
           "pli": 96,
@@ -4218,6 +4267,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n9. Senior Mendicants\n90. With Channa",
         "segsMatched": 4,
         "langSegs": {
           "pli": 100,

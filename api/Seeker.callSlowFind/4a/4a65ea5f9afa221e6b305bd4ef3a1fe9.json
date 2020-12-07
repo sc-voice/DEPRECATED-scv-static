@@ -197,6 +197,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 2\n16. Abbreviated Texts Beginning with Anger\n180–229",
         "segsMatched": 10,
         "langSegs": {
           "pli": 54,
@@ -267,6 +268,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n9. Mindfulness\n81. Mindfulness and Situational Awareness",
         "segsMatched": 8,
         "langSegs": {
           "pli": 26,
@@ -337,6 +339,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 39\nThe Longer Discourse at Assapura",
         "segsMatched": 8,
         "langSegs": {
           "pli": 191,
@@ -389,6 +392,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n7. The Great Chapter\n65. Conscience and Prudence",
         "segsMatched": 5,
         "langSegs": {
           "pli": 27,
@@ -435,6 +439,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 4,
         "langSegs": {
           "pli": 1167,
@@ -475,6 +480,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n1. Love\n2. Wisdom",
         "segsMatched": 3,
         "langSegs": {
           "pli": 64,
@@ -515,6 +521,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n5. About Dhammika\n45. Debt",
         "segsMatched": 3,
         "langSegs": {
           "pli": 100,
@@ -555,6 +562,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 2\n1. Punishments\n1–10",
         "segsMatched": 3,
         "langSegs": {
           "pli": 126,
@@ -595,6 +603,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 3,
         "langSegs": {
           "pli": 892,
@@ -629,6 +638,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n11. Perceptions for Ascetics\n105. Knowledge",
         "segsMatched": 2,
         "langSegs": {
           "pli": 8,
@@ -663,6 +673,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n1. Wealth\n2. Pleasing (2nd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -697,6 +708,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n1. Love\n3. Disliked (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -731,6 +743,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n4. Deities\n33. Non-decline (2nd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 17,
@@ -765,6 +778,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n1. Wealth\n1. Pleasing (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 18,
@@ -799,6 +813,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n4. Deities\n33. Respect for Conscience",
         "segsMatched": 2,
         "langSegs": {
           "pli": 19,
@@ -833,6 +848,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n1. Wealth\n3. Powers in Brief",
         "segsMatched": 2,
         "langSegs": {
           "pli": 20,
@@ -867,6 +883,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n1. Wealth\n5. Wealth in Brief",
         "segsMatched": 2,
         "langSegs": {
           "pli": 20,
@@ -901,6 +918,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n1. Wealth\n7. With Ugga",
         "segsMatched": 2,
         "langSegs": {
           "pli": 27,
@@ -935,6 +953,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 45\n1. Ignorance\n1. Ignorance",
         "segsMatched": 2,
         "langSegs": {
           "pli": 28,
@@ -969,6 +988,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 46\n3. With Udāyī\n30. With Udāyī",
         "segsMatched": 2,
         "langSegs": {
           "pli": 35,
@@ -1003,6 +1023,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n1. Wealth\n4. Powers in Detail",
         "segsMatched": 2,
         "langSegs": {
           "pli": 42,
@@ -1037,6 +1058,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n1. Wealth\n6. Wealth in Detail",
         "segsMatched": 2,
         "langSegs": {
           "pli": 42,
@@ -1071,6 +1093,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n8. Guaranteed\n73. A Good Person",
         "segsMatched": 2,
         "langSegs": {
           "pli": 43,
@@ -1105,6 +1128,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 2\n9. Things\n87–97",
         "segsMatched": 2,
         "langSegs": {
           "pli": 59,
@@ -1139,6 +1163,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n8. If You Want\n76. Three Things",
         "segsMatched": 2,
         "langSegs": {
           "pli": 101,
@@ -1173,6 +1198,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 66\nThe Simile of the Quail",
         "segsMatched": 2,
         "langSegs": {
           "pli": 202,
@@ -1201,6 +1227,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 2\n17. Abbreviated Texts Beginning with the Unskillful\n230–279",
         "segsMatched": 1,
         "langSegs": {
           "pli": 8,
@@ -1229,6 +1256,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 16\n1. Kassapa\n11. Robes",
         "segsMatched": 1,
         "langSegs": {
           "pli": 79,

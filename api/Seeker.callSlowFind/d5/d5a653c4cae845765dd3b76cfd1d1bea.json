@@ -92,6 +92,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n14. Könige\n133. Ein grundsatztreuer König",
         "segsMatched": 3,
         "langSegs": {
           "pli": 26,
@@ -130,6 +131,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n2. Der Wagenbauer\n14. Der Rad-drehende Herrscher",
         "segsMatched": 2,
         "langSegs": {
           "pli": 19,
@@ -168,6 +170,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 14\nDie große Lehrrede über die Ernte aus den Taten\n1. Von früheren Leben",
         "segsMatched": 2,
         "langSegs": {
           "pli": 851,
@@ -199,6 +202,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 17\nDer König Mahāsudassana",
         "segsMatched": 1,
         "langSegs": {
           "pli": 444,

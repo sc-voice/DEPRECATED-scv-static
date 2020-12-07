@@ -98,6 +98,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n2. The Lion’s Roar\n12. With Something Left Over",
         "segsMatched": 6,
         "langSegs": {
           "pli": 60,
@@ -138,6 +139,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n9. Ascetics\n86. Training (1st)",
         "segsMatched": 3,
         "langSegs": {
           "pli": 35,
@@ -172,6 +174,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n9. Ascetics\n87. Training (2nd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 36,

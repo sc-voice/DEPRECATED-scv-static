@@ -74,6 +74,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n9. Unbeirrbar\n85. Vom Dunkel zum Dunkel",
         "segsMatched": 1,
         "langSegs": {
           "pli": 35,
@@ -105,6 +106,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verbundene Lehrreden 3\n3. Kosala\n21. Menschen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 101,
@@ -136,6 +138,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1167,

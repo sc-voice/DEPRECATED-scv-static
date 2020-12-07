@@ -104,6 +104,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n5. A Great Sacrifice\n51. Bound and Unbound",
         "segsMatched": 6,
         "langSegs": {
           "pli": 51,
@@ -144,6 +145,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 41\n1. With Citta\n5. With Kāmabhū (1st)",
         "segsMatched": 3,
         "langSegs": {
           "pli": 39,
@@ -184,6 +186,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 1\nThe Prime Net\n1. Talk on Wanderers",
         "segsMatched": 3,
         "langSegs": {
           "pli": 662,
@@ -212,6 +215,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Ones\nChapter Four\n1.38. Gavampati",
         "segsMatched": 1,
         "langSegs": {
           "pli": 9,
@@ -240,6 +244,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twos\nChapter Five\n2.48. Vajjita",
         "segsMatched": 1,
         "langSegs": {
           "pli": 13,

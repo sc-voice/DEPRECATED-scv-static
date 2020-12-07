@@ -149,6 +149,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n16. Abgekürzte Texte, die mit Zorn beginnen\n180–229",
         "segsMatched": 10,
         "langSegs": {
           "pli": 54,
@@ -208,6 +209,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 5,
         "langSegs": {
           "pli": 1167,
@@ -253,6 +255,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n1. Strafen\n1–10",
         "segsMatched": 3,
         "langSegs": {
           "pli": 126,
@@ -291,6 +294,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n8. Gesichert\n73. Ein guter Mensch",
         "segsMatched": 2,
         "langSegs": {
           "pli": 43,
@@ -329,6 +333,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n9. Dinge\n87–97",
         "segsMatched": 2,
         "langSegs": {
           "pli": 59,
@@ -360,6 +365,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n17. Abgekürzte Texte, die mit untauglich beginnen\n230–279",
         "segsMatched": 1,
         "langSegs": {
           "pli": 8,

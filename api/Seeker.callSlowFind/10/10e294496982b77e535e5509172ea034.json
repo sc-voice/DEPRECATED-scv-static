@@ -107,6 +107,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n11. Awakening\n110. Fallen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 15,
@@ -141,6 +142,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 48\n6. The Boar’s Cave\n52. In the Land of the Mallas",
         "segsMatched": 2,
         "langSegs": {
           "pli": 16,
@@ -175,6 +177,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 3\n11. Awakening\n109. Unprotected",
         "segsMatched": 2,
         "langSegs": {
           "pli": 27,
@@ -203,6 +206,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 46\n1. Mountains\n7. A Bungalow",
         "segsMatched": 1,
         "langSegs": {
           "pli": 10,
@@ -231,6 +235,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 20\n1. Similes\n1. A Roof Peak",
         "segsMatched": 1,
         "langSegs": {
           "pli": 12,
@@ -259,6 +264,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twos\nChapter Four\n2.32. Sivaka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 15,
@@ -287,6 +293,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 45\n11. Abbreviated Texts on Diligence\n141–145. A Roof Peak",
         "segsMatched": 1,
         "langSegs": {
           "pli": 19,
@@ -315,6 +322,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n2. A Protector\n15. Diligence",
         "segsMatched": 1,
         "langSegs": {
           "pli": 24,
@@ -343,6 +351,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n5. About Dhammika\n53. Diligence",
         "segsMatched": 1,
         "langSegs": {
           "pli": 25,
@@ -371,6 +380,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 22\n10. Flowers\n102. The Perception of Impermanence",
         "segsMatched": 1,
         "langSegs": {
           "pli": 45,
@@ -399,6 +409,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 12\nThe Longer Discourse on the Lion’s Roar",
         "segsMatched": 1,
         "langSegs": {
           "pli": 356,
@@ -427,6 +438,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 36\nThe Longer Discourse With Saccaka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 360,
@@ -455,6 +467,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 100\nWith Saṅgārava",
         "segsMatched": 1,
         "langSegs": {
           "pli": 306,
@@ -483,6 +496,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 85\nWith Prince Bodhi",
         "segsMatched": 1,
         "langSegs": {
           "pli": 553,

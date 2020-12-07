@@ -119,6 +119,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 15\nThe Great Discourse on Causation\n1. Dependent Origination",
         "segsMatched": 7,
         "langSegs": {
           "pli": 277,
@@ -159,6 +160,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 139\nThe Analysis of Non-Conflict",
         "segsMatched": 3,
         "langSegs": {
           "pli": 201,
@@ -193,6 +195,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n5. About Dhammika\n44. With Migasālā",
         "segsMatched": 2,
         "langSegs": {
           "pli": 77,
@@ -227,6 +230,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n8. If You Want\n75. With Migasālā",
         "segsMatched": 2,
         "langSegs": {
           "pli": 117,
@@ -255,6 +259,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 9\n3. Abodes of Sentient Beings\n23. Rooted in Craving",
         "segsMatched": 1,
         "langSegs": {
           "pli": 8,
@@ -283,6 +288,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n5. With King Muṇḍa\n48. Things That Cannot Be Had",
         "segsMatched": 1,
         "langSegs": {
           "pli": 55,
@@ -311,6 +317,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n5. With King Muṇḍa\n50. With Nārada",
         "segsMatched": 1,
         "langSegs": {
           "pli": 110,
@@ -339,6 +346,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
           "pli": 892,

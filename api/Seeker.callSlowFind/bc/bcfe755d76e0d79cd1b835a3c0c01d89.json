@@ -108,6 +108,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n12. Kein Vergehen\n150–169",
         "segsMatched": 3,
         "langSegs": {
           "pli": 29,
@@ -153,6 +154,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n26. Drittes\n316–332",
         "segsMatched": 3,
         "langSegs": {
           "pli": 61,
@@ -198,6 +200,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n10. Nachlässigkeit (2)\n98–139",
         "segsMatched": 3,
         "langSegs": {
           "pli": 76,
@@ -236,6 +239,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n2. Der Wagenbauer\n11. Namhaft",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -274,6 +278,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n9. Ordensälteste\n88. Ordensälteste",
         "segsMatched": 2,
         "langSegs": {
           "pli": 22,
@@ -312,6 +317,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n4. Gottheiten\n36. Wurzeln des Zwists",
         "segsMatched": 2,
         "langSegs": {
           "pli": 23,
@@ -350,6 +356,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n4. Friedvoller Geist\n32–41",
         "segsMatched": 2,
         "langSegs": {
           "pli": 169,
@@ -381,6 +388,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1167,

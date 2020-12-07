@@ -95,6 +95,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n9. Senior Mendicants\n89. A Trainee (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -129,6 +130,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n15. At Tikaṇḍakī\n149. Temporarily Free (1st)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -163,6 +165,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n4. Deities\n31. A Trainee",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -197,6 +200,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n8. Pairs\n79. Decline",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -231,6 +235,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n28. Non-decline for a Mendicant Trainee",
         "segsMatched": 2,
         "langSegs": {
           "pli": 17,
@@ -265,6 +270,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n15. At Tikaṇḍakī\n150. Temporarily Free (2nd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 19,
@@ -299,6 +305,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n2. Warm-hearted\n14. A Good Death",
         "segsMatched": 2,
         "langSegs": {
           "pli": 28,
@@ -333,6 +340,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n2. Warm-hearted\n15. Regret",
         "segsMatched": 2,
         "langSegs": {
           "pli": 33,
@@ -361,6 +369,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n24. Non-Decline for Mendicants (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 15,
@@ -389,6 +398,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1665,

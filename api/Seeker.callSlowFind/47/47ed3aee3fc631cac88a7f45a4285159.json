@@ -89,6 +89,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n20. The Great Chapter\n198. Self-mortification",
         "segsMatched": 3,
         "langSegs": {
           "pli": 111,
@@ -129,6 +130,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 2\n1. Punishments\n1–10",
         "segsMatched": 3,
         "langSegs": {
           "pli": 126,
@@ -169,6 +171,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 94\nWith Ghoṭamukha",
         "segsMatched": 3,
         "langSegs": {
           "pli": 203,
@@ -209,6 +212,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 60\nGuaranteed",
         "segsMatched": 3,
         "langSegs": {
           "pli": 294,
@@ -243,6 +247,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 51\nWith Kandaraka",
         "segsMatched": 2,
         "langSegs": {
           "pli": 190,
@@ -271,6 +276,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1167,

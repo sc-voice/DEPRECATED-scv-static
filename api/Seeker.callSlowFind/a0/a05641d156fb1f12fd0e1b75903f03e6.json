@@ -86,6 +86,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 140\nThe Analysis of the Elements",
         "segsMatched": 4,
         "langSegs": {
           "pli": 239,
@@ -132,6 +133,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 4,
         "langSegs": {
           "pli": 439,
@@ -172,6 +174,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 3,
         "langSegs": {
           "pli": 226,

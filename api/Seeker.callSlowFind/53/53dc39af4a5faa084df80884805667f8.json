@@ -152,6 +152,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 8\n1. Love\n10. Trash",
         "segsMatched": 4,
         "langSegs": {
           "pli": 86,
@@ -180,6 +181,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n10. With Upāli\n98. A Senior Mendicant",
         "segsMatched": 1,
         "langSegs": {
           "pli": 17,
@@ -208,6 +210,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 47\n1. In Ambapālī’s Wood\n2. Mindful",
         "segsMatched": 1,
         "langSegs": {
           "pli": 22,
@@ -236,6 +239,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n11. Clouds\n103. Pots",
         "segsMatched": 1,
         "langSegs": {
           "pli": 42,
@@ -264,6 +268,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n11. Clouds\n104. Lakes",
         "segsMatched": 1,
         "langSegs": {
           "pli": 42,
@@ -292,6 +297,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n11. Clouds\n105. Mangoes",
         "segsMatched": 1,
         "langSegs": {
           "pli": 42,
@@ -320,6 +326,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 36\n1. With Verses\n8. The Infirmary (2nd)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 44,
@@ -348,6 +355,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 36\n1. With Verses\n7. The Infirmary (1st)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 60,
@@ -376,6 +384,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 107\nWith Moggallāna the Accountant",
         "segsMatched": 1,
         "langSegs": {
           "pli": 104,
@@ -404,6 +413,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 4\n20. The Great Chapter\n198. Self-mortification",
         "segsMatched": 1,
         "langSegs": {
           "pli": 111,
@@ -432,6 +442,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n10. With Upāli\n99. With Upāli",
         "segsMatched": 1,
         "langSegs": {
           "pli": 148,
@@ -460,6 +471,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 112\nThe Sixfold Purification",
         "segsMatched": 1,
         "langSegs": {
           "pli": 147,
@@ -488,6 +500,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 1,
         "langSegs": {
           "pli": 174,
@@ -516,6 +529,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 27\nThe Shorter Elephant’s Footprint Simile",
         "segsMatched": 1,
         "langSegs": {
           "pli": 201,
@@ -544,6 +558,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 39\nThe Longer Discourse at Assapura",
         "segsMatched": 1,
         "langSegs": {
           "pli": 191,
@@ -572,6 +587,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 51\nWith Kandaraka",
         "segsMatched": 1,
         "langSegs": {
           "pli": 190,
@@ -600,6 +616,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 94\nWith Ghoṭamukha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 203,
@@ -628,6 +645,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 266,
@@ -656,6 +674,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 226,
@@ -684,6 +703,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 56\nWith Upāli",
         "segsMatched": 1,
         "langSegs": {
           "pli": 382,
@@ -712,6 +732,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 101\nAt Devadaha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 362,
@@ -740,6 +761,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
           "pli": 617,
@@ -768,6 +790,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
           "pli": 439,
@@ -796,6 +819,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 38\nThe Longer Discourse on the Ending of Craving",
         "segsMatched": 1,
         "langSegs": {
           "pli": 445,
@@ -824,6 +848,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1665,

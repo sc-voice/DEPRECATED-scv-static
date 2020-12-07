@@ -119,6 +119,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 5,
         "langSegs": {
           "pli": 1167,
@@ -165,6 +166,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n2. Warm-hearted\n11. Warm-hearted (1st)",
         "segsMatched": 4,
         "langSegs": {
           "pli": 13,
@@ -211,6 +213,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 48\nThe Mendicants of Kosambi",
         "segsMatched": 4,
         "langSegs": {
           "pli": 110,
@@ -251,6 +254,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 5\n11. Living Comfortably\n105. Living Comfortably",
         "segsMatched": 3,
         "langSegs": {
           "pli": 10,
@@ -291,6 +295,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 104\nAt Sāmagāma",
         "segsMatched": 3,
         "langSegs": {
           "pli": 166,
@@ -331,6 +336,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 3,
         "langSegs": {
           "pli": 892,
@@ -371,6 +377,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
         "segsMatched": 3,
         "langSegs": {
           "pli": 1665,
@@ -405,6 +412,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n2. Warm-hearted\n12. Warm-hearted (2nd)",
         "segsMatched": 2,
         "langSegs": {
           "pli": 15,
@@ -439,6 +447,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 11\n2. Recollection\n17. The Cowherd",
         "segsMatched": 2,
         "langSegs": {
           "pli": 106,
@@ -473,6 +482,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 33\nThe Longer Discourse on the Cowherd",
         "segsMatched": 2,
         "langSegs": {
           "pli": 118,
@@ -501,6 +511,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 31\nThe Shorter Discourse at Gosiṅga",
         "segsMatched": 1,
         "langSegs": {
           "pli": 147,
@@ -529,6 +540,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 128\nCorruptions",
         "segsMatched": 1,
         "langSegs": {
           "pli": 281,

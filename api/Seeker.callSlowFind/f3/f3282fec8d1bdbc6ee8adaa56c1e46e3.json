@@ -86,6 +86,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 6\n6. The Great Chapter\n64. The Lion’s Roar",
         "segsMatched": 3,
         "langSegs": {
           "pli": 44,
@@ -114,6 +115,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Linked Discourses 52\n2. A Thousand\n15. Possible",
         "segsMatched": 1,
         "langSegs": {
           "pli": 5,
@@ -142,6 +144,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n3. The Great Chapter\n22. Hypotheses",
         "segsMatched": 1,
         "langSegs": {
           "pli": 33,
@@ -170,6 +173,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Numbered Discourses 10\n3. The Great Chapter\n21. The Lion’s Roar",
         "segsMatched": 1,
         "langSegs": {
           "pli": 36,
@@ -198,6 +202,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
+        "title": "Middle Discourses 12\nThe Longer Discourse on the Lion’s Roar",
         "segsMatched": 1,
         "langSegs": {
           "pli": 356,
