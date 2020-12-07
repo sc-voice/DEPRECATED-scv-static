@@ -3,8 +3,9 @@
     class="pl-2"
   >
     <div class="text-h6">{{mld.sutta_uid}}</div>
-    <div>
-      {{JSON.stringify(mld.segMap, null,2)}}
+    <div v-for="seg in mld.segments" :key="seg.scid">
+      <div v-html="seg.pli" class="scv-text-root"/>
+      <div v-html="seg[mld.lang]" class="scv-text-trans"/>
     </div>
   </div>
 </template>

@@ -65,6 +65,9 @@ export default {
             lang: this.$vuetify.lang.current,
           })
         : {};
+      value.mlDocs.forEach(mld=>{
+        mld.segments = Object.keys(mld.segMap).map(scid=>mld.segMap[scid]);
+      });
       this.$store.commit('scv/searchResults', value);
       this.$store.commit('scv/search', pattern);
       this.$emit("search-text", value);

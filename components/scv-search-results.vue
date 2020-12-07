@@ -13,23 +13,19 @@
       class='text-h6 pt-1 pb-1'>
       <span aria-hidden=true>
         {{foundSuttas}}
+        ({{playlistDuration.display}})
       </span>
     </summary>
     <v-card>
       <v-card-text>
-        <div v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i">
-          {{mld.sutta_uid}}
-          {{mld.score}}
-
-        <details v-show="searchResults" open>
-        <!--
-          <summary v-else
-            role="main" ref="refResults"
-            aria-level="1" 
-            :aria-label="$t('noResultsText')"
-            class='title'>
-            {{$t('dataIterator.noResultsText')}}
+        <details v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i">
+          <summary>
+            {{mld.sutta_uid}}
+            <div v-html="mld.title"></div>
+            {{mld.score}}
           </summary>
+
+        <!--
           <div class="scv-playlist ml-3 pt-2 pl-3" 
             v-if="gscv.voices.length" >
             <v-btn icon small fab v-if="playable"
@@ -52,6 +48,8 @@
               <v-icon>arrow_downward</v-icon>
             </v-btn>
           </div>
+          -->
+          <!--
           <details role="heading" aria-level="2"
               v-for="(result,i) in (searchResults && searchResults.results||[])"
               :key="`${result.uid}_${i}`"
@@ -116,9 +114,9 @@
                   {{score(result)}}
                 </div>
             </div>
-            -->
-          </details><!-- search result i -->
-        </div>
+          </details>
+          -->
+        </details><!-- search result i-->
       </v-card-text>
     </v-card>
   </details><!-- mlDocs -->
@@ -247,26 +245,4 @@ export default {
 }
 </script>
 <style>
-.scv-inspire {
-    margin-left: 1px;
-    border-radius: 4px;
-    text-align: center;
-    margin-bottom: 1em;
-    text-transform: none;
-    font-size: 12px;
-    border: 1px solid #383838;
-    height: 24px;
-    //background: #212121 !important;
-}
-.scv-inspire:focus {
-    border: 1pt solid #888;
-    border-color: #82B1FFa;
-    outline: 1pt solid #82B1FF;
-}
-.scv-inspire-row {
-    margin: -0.8em 0 0.5em 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 </style>

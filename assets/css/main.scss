@@ -1,0 +1,15 @@
+$accent-color: #882200; 
+
+.scv-text-root {
+  padding-top: 0.7em;
+  font-family: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
+}
+.scv-text-trans{
+  padding-top: 0.15em;
+  font-family: "Skolar Sans PE", "Noto Sans", sans-serif;
+}
+.scv-matched { // matched pattern
+    color: $accent-color;
+    font-style: italic;
+    font-weight: 800;
+}
