@@ -1,16 +1,18 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <div class="text-h5"> Vue Components </div>
-      <v-select :items="langItems" filled 
-        v-model="$vuetify.lang.current" 
-        label="Language" 
-      />
+  <div>
+    <div class="text-h5"> Vue Components </div>
+    <v-select :items="langItems" filled 
+      v-model="$vuetify.lang.current" 
+      label="Language" 
+    />
 
-      <v-card>
-        <v-card-text>
-          <details>
-            <summary class="text-h6">scv-search-field</summary>
+    <v-expansion-panels multiple accordion flat v-model="panels">
+      <v-expansion-panel open active-class="ex-expansion-panel">
+        <v-expansion-panel-header>
+          scv-search-field
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <details><summary>API</summary>
             ScvSearchField is an auto-completion text field that accepts
             Suttacentral sutta references as well as arbitrary search strings.
             Search strings are automatically completed with 
@@ -20,64 +22,65 @@
             </a>. 
             It emits the <code>search-text</code> event with the search text as its value
           </details>
-
-          <v-card light class="mt-5">
+          <v-sheet light class="mt-5">
             <scv-search-field
               :lang="lang"
               v-on:search-text="search"
             />
-          </v-card>
-        </v-card-text>
-      </v-card>
+          </v-sheet>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
 
-      <v-card>
-        <v-card-text>
-          <details>
-            <summary class="text-h6">scv-search-results</summary>
-            ScvSearchResults displays multiple search results.
+      <v-expansion-panel>
+        <v-expansion-panel-header>
+          scv-results
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <details><summary>API</summary>
+            ScvResults displays multiple search results.
             It listens for the <code>search-text</code> event.
           </details>
-
-          <v-card light class="mt-5">
-            <scv-search-results
+          <v-sheet light class="mt-5" style="min-width:22em; ">
+            <scv-results
               :lang="lang"
             />
-            <v-spacer/>
-          </v-card>
-        </v-card-text>
-      </v-card>
+          </v-sheet>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
 
-      <v-card>
-        <v-card-text>
-          <details>
-            <summary class="text-h6">scv-sutta</summary>
+      <v-expansion-panel>
+        <v-expansion-panel-header>
+          scv-sutta
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <details><summary>API</summary>
             ScvSutta displays a single sutta
           </details>
-
           <v-card light class="mt-5">
             <scv-sutta />
           </v-card>
-        </v-card-text>
-      </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
 
-    </v-col>
-  </v-row>
+    </v-expansion-panels>
+  </div>
 </template>
 
 <script>
 import Vue from 'vue';
 import ScvSearchField from '~/components/scv-search-field.vue';
-import ScvSearchResults from '~/components/scv-search-results.vue';
+import ScvResults from '~/components/scv-results.vue';
 import ScvSutta from '~/components/scv-sutta.vue';
 
 export default {
   components: {
     ScvSearchField,
-    ScvSearchResults,
+    ScvResults,
     ScvSutta,
   },
   data: function(){
     return {
+      panels: [0,1,2],
       lang: 'de',
     };
   },
@@ -109,5 +112,11 @@ export default {
 <style>
 .v-application code {
   background-color: #000;
+}
+
+button.v-expansion-panel-header,    /* Vuetify hack */
+.v-expansion-panel-content > div {  /* Vuetify hack */
+  padding-left: 0;
+  padding-right: 0;
 }
 </style>

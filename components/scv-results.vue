@@ -1,16 +1,17 @@
 <template>
-  <div v-if="mlDocs.length === 0"
-    class="text-h6 pl-2"
-  >
+  <div v-if="mlDocs.length === 0" class="text-h6 pl-2" >
     {{foundSuttas}}
   </div>
-  <details v-else-if="mlDocs.length" open> <!-- mlDocs -->
+  <details v-else-if="mlDocs.length" 
+    class="scv-results-details"
+    open> <!-- mlDocs -->
     <summary v-if="resultCount"
+      class='text-subtitle-2 pt-1 pb-1'
       role="main"
       ref="refResults"
       aria-level="1"
       :aria-label="ariaFoundSuttas(resultCount, playlistDuration.aria)"
-      class='text-h6 pt-1 pb-1'>
+    >
       <span aria-hidden=true>
         {{foundSuttas}}
         ({{playlistDuration.display}})
@@ -18,11 +19,21 @@
     </summary>
     <v-card>
       <v-card-text>
-        <details v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i">
-          <summary>
-            {{mld.sutta_uid}}
-            <div v-html="mld.title"></div>
-            {{mld.score}}
+        <details 
+          role="heading" aria-level="2"
+          v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i" 
+        >
+          <summary >
+            <div class="scv-result-summary" >
+              <div v-html="resultTitle(mld)" 
+                class="scv-result-title"
+              />
+              <!--div class="caption" >{{mld.score}}</div-->
+              <div class="caption text-right" 
+                :aria-label="mldDuration(mld).aria">
+                {{mldDuration(mld).display}}
+              </div>
+            </div><!-- scv-result-summary -->
           </summary>
 
         <!--
@@ -132,6 +143,10 @@ export default {
   components: {
   },
   props: {
+    width: {
+      type: String,
+      default: '35em',
+    },
   },
   data: function(){
     return {
@@ -157,6 +172,23 @@ export default {
     this.suttaDuration = await new SuttaDuration({axios}).initialize();
   },
   methods:{
+    suttaId(mld) {
+      let { sutta_uid } = mld;
+      if (/th.g/.test(sutta_uid)) {
+        return sutta_uid.replace(/^t/, 'T');
+      } else {
+        return sutta_uid.toUpperCase();
+      }
+    },
+    resultTitle(mld) {
+      let suid = this.suttaId(mld);
+      let parts = mld.title.split('\n');
+      switch (parts.length) {
+        case 0: return suid;
+        case 1: return `${suid}: ${parts[0]}`;
+        default: return `${suid}: ${parts[1]}`;
+      }
+    },
     ariaFoundSuttas(resultCount, duration) {
         //:aria-label="`Found ${resultCount} sootas ${playlistDuration.aria}`"
         var tmplt = this.$t && this.$t('ariaFoundSuttas') || '';
@@ -200,6 +232,11 @@ export default {
           display,
           aria,
       }
+    },
+    mldDuration(mld) {
+      let { suttaDuration:sd } = this;
+      let { sutta_uid, } = mld;
+      return this.durationDisplay(sd.duration(mld.sutta_uid));
     },
   },
   computed: {
@@ -245,4 +282,19 @@ export default {
 }
 </script>
 <style>
+.scv-results-details {
+}
+.scv-results > summary {
+}
+.scv-result-summary {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  min-width: 22.5em; /* iPhone 6/7/8 */
+  max-width: 80%;
+}
+.scv-result-title {
+  padding-left: 3em;
+  text-indent: -3em;
+}
 </style>
