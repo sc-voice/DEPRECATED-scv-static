@@ -32,6 +32,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    {src: '~/plugins/vue-material-icons.js', mode:'client'},
     {src: '~/plugins/client.js', mode:'client'},
   ],
 
@@ -51,7 +52,10 @@ export default {
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    customVariables: [
+        '~/assets/variables.scss'
+    ],
+    treeShake: true,
     theme: {
       dark: true,
       themes: {

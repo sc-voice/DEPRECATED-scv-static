@@ -1,4 +1,6 @@
 $accent-color: #882200; 
+$focus-color: #82B1FF;
+$focus-width: 5px;
 
 .scv-text-root {
   padding-top: 0.7em;
@@ -12,4 +14,26 @@ $accent-color: #882200;
     color: $accent-color;
     font-style: italic;
     font-weight: 800;
+}
+.scv-icon-btn {
+    margin: 0;
+    border-radius:5px;
+    border: none;
+    font-size: 1.25rem !important; /* override .v-btn.v-size--default */
+}
+.scv-icon-btn svg {
+  bottom: 0em !important;
+}
+.scv-icon-btn:focus, 
+.scv-icon-btn:hover {
+    border: 2px solid $focus-color;
+}
+
+summary:hover,
+summary:focus {
+  border-radius: $focus-width;
+  outline: $focus-color;
+  box-shadow: 
+    inset $focus-width $focus-width $focus-width 0-$focus-width $focus-color,
+    inset 0-$focus-width 0-$focus-width $focus-width 0-$focus-width $focus-color;
 }

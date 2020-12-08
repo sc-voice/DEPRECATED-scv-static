@@ -65,17 +65,6 @@
               v-for="(result,i) in (searchResults && searchResults.results||[])"
               :key="`${result.uid}_${i}`"
               class="scv-search-result" :style="cssVars">
-              <summary class="scv-search-result-summary">
-                <div style="display: inline-block; width: 96%; ">
-                  <div style="display:flex; justify-content: space-between; ">
-                    <div v-html="resultTitle(result)"></div>
-                    <div class="caption" 
-                      :aria-label="duration(result.stats.seconds).aria">
-                      {{duration(result.stats.seconds).display}}
-                    </div>
-                  </div>
-                </div>
-              </summary>
               <div v-if="gscv.showId" class="scv-search-result-scid scv-scid">
                 SC&nbsp;{{result.quote.scid}}
               </div>

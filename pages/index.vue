@@ -7,12 +7,19 @@
     />
 
     <v-expansion-panels multiple accordion flat v-model="panels">
-      <v-expansion-panel open active-class="ex-expansion-panel">
+
+      <v-expansion-panel >
         <v-expansion-panel-header>
           scv-search-field
         </v-expansion-panel-header>
         <v-expansion-panel-content>
-          <details><summary>API</summary>
+          <v-sheet light class="mt-5">
+            <scv-search-field
+              :lang="lang"
+              v-on:search-text="search"
+            />
+          </v-sheet>
+          <details><summary>...</summary>
             ScvSearchField is an auto-completion text field that accepts
             Suttacentral sutta references as well as arbitrary search strings.
             Search strings are automatically completed with 
@@ -22,12 +29,6 @@
             </a>. 
             It emits the <code>search-text</code> event with the search text as its value
           </details>
-          <v-sheet light class="mt-5">
-            <scv-search-field
-              :lang="lang"
-              v-on:search-text="search"
-            />
-          </v-sheet>
         </v-expansion-panel-content>
       </v-expansion-panel>
 
@@ -36,15 +37,13 @@
           scv-results
         </v-expansion-panel-header>
         <v-expansion-panel-content>
-          <details><summary>API</summary>
+          <v-sheet light class="mt-5" style="min-width:22em; ">
+            <scv-results :lang="lang" />
+          </v-sheet>
+          <details><summary>...</summary>
             ScvResults displays multiple search results.
             It listens for the <code>search-text</code> event.
           </details>
-          <v-sheet light class="mt-5" style="min-width:22em; ">
-            <scv-results
-              :lang="lang"
-            />
-          </v-sheet>
         </v-expansion-panel-content>
       </v-expansion-panel>
 
@@ -53,12 +52,26 @@
           scv-sutta
         </v-expansion-panel-header>
         <v-expansion-panel-content>
-          <details><summary>API</summary>
-            ScvSutta displays a single sutta
-          </details>
           <v-card light class="mt-5">
             <scv-sutta />
           </v-card>
+          <details><summary>...</summary>
+            ScvSutta displays a single sutta
+          </details>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel >
+        <v-expansion-panel-header>
+          scv-settings
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-sheet light class="mt-5">
+            <scv-settings />
+          </v-sheet>
+          <details><summary>...</summary>
+            ScvSettings is menu for Voice settings
+          </details>
         </v-expansion-panel-content>
       </v-expansion-panel>
 
@@ -71,12 +84,14 @@ import Vue from 'vue';
 import ScvSearchField from '~/components/scv-search-field.vue';
 import ScvResults from '~/components/scv-results.vue';
 import ScvSutta from '~/components/scv-sutta.vue';
+import ScvSettings from '~/components/scv-settings.vue';
 
 export default {
   components: {
     ScvSearchField,
     ScvResults,
     ScvSutta,
+    ScvSettings,
   },
   data: function(){
     return {
@@ -114,9 +129,12 @@ export default {
   background-color: #000;
 }
 
-button.v-expansion-panel-header,    /* Vuetify hack */
-.v-expansion-panel-content > div {  /* Vuetify hack */
-  padding-left: 0;
-  padding-right: 0;
+/*
+button.v-expansion-panel-header,    
+.v-expansion-panel-content > div { 
+  xpadding-left: 0;
+  xpadding-right: 0;
 }
+*/
+
 </style>
