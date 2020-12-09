@@ -35,6 +35,10 @@
               </div>
             </div><!-- scv-result-summary -->
           </summary>
+          <div v-for="seg in mld.segments" :key="seg.scid">
+            <div v-html="seg.pli" class="scv-text-root"/>
+            <div v-html="seg[mld.lang]" class="scv-text-trans"/>
+          </div>
 
         <!--
           <div class="scv-playlist ml-3 pt-2 pl-3" 
@@ -225,7 +229,9 @@ export default {
     mldDuration(mld) {
       let { suttaDuration:sd } = this;
       let { sutta_uid, } = mld;
-      return this.durationDisplay(sd.duration(mld.sutta_uid));
+      return sd
+        ? this.durationDisplay(sd.duration(mld.sutta_uid))
+        : 0;
     },
   },
   computed: {
@@ -256,9 +262,11 @@ export default {
     },
     playlistDuration() {
       let { mlDocs, suttaDuration:sd } = this;
-      var seconds = mlDocs.reduce((a,mld) => {
-          return a + sd.duration(mld.sutta_uid);
-      }, 0);
+      var seconds = sd
+        ? mlDocs.reduce((a,mld) => {
+              return a + sd.duration(mld.sutta_uid);
+          }, 0)
+        : 0;
       return this.durationDisplay(seconds);
     },
     cssVars() {
@@ -275,15 +283,23 @@ export default {
 }
 .scv-results > summary {
 }
+
 .scv-result-summary {
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  min-width: 22.5em; /* iPhone 6/7/8 */
+  min-width: 500px;
   max-width: 80%;
 }
+@media (width < 600px) {
+  .scv-result-summary {
+    min-width: 85%;
+  }
+}
+
 .scv-result-title {
   padding-left: 3em;
   text-indent: -3em;
+  padding-right: 0.5em;
 }
 </style>

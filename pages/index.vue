@@ -19,7 +19,7 @@
               v-on:search-text="search"
             />
           </v-sheet>
-          <details><summary>...</summary>
+          <details><summary class="ex-more">...</summary>
             ScvSearchField is an auto-completion text field that accepts
             Suttacentral sutta references as well as arbitrary search strings.
             Search strings are automatically completed with 
@@ -40,7 +40,7 @@
           <v-sheet light class="mt-5" style="min-width:22em; ">
             <scv-results :lang="lang" />
           </v-sheet>
-          <details><summary>...</summary>
+          <details><summary class="ex-more">...</summary>
             ScvResults displays multiple search results.
             It listens for the <code>search-text</code> event.
           </details>
@@ -55,7 +55,7 @@
           <v-card light class="mt-5">
             <scv-sutta />
           </v-card>
-          <details><summary>...</summary>
+          <details><summary class="ex-more">...</summary>
             ScvSutta displays a single sutta
           </details>
         </v-expansion-panel-content>
@@ -69,7 +69,7 @@
           <v-sheet light class="mt-5">
             <scv-settings />
           </v-sheet>
-          <details><summary>...</summary>
+          <details><summary class="ex-more">...</summary>
             ScvSettings is menu for Voice settings
           </details>
         </v-expansion-panel-content>
@@ -95,7 +95,7 @@ export default {
   },
   data: function(){
     return {
-      panels: [0,1,2],
+      panels: [0,1],
       lang: 'de',
     };
   },
@@ -129,12 +129,21 @@ export default {
   background-color: #000;
 }
 
-/*
 button.v-expansion-panel-header,    
 .v-expansion-panel-content > div { 
-  xpadding-left: 0;
-  xpadding-right: 0;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
 }
-*/
+.v-expansion-panel > .v-expansion-panel-header {
+  background: linear-gradient(to bottom, #555, rgb(30,30,30));
+  min-height: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.ex-more {
+  width: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 </style>
