@@ -1,5 +1,5 @@
-# scv-examples
+# scv-static
 SuttaCentral Voice static website search adapter for bilara-data
 
-[sc-voice.github.io/scv-examples](https://sc-voice.github.io/scv-examples/)
+[sc-voice.github.io/scv-static](https://sc-voice.github.io/scv-static/)
 

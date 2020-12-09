@@ -218,7 +218,7 @@
                 let url = [
                     'https://raw.githubusercontent.com',
                     'sc-voice',
-                    'scv-examples',
+                    'scv-static',
                     'main',
                     'api',
                     'Seeker.callSlowFind',

@@ -108,7 +108,7 @@ export default {
       console.log(`search:`, value);
     },
     githubUrl(path) {
-      return `https://github.com/sc-voice/scv-examples/blob/main/${path}`;
+      return `https://github.com/sc-voice/scv-static/blob/main/${path}`;
     },
   },
   computed: {

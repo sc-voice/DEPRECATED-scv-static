@@ -151,7 +151,7 @@ export default {
   async mounted() {
     let { $vuetify, } = this;
     let lang = ($vuetify.lang.current||'noLanguage').split('-')[0];
-    let url = `${GITHUB}/sc-voice/scv-examples/main/api/examples.json`;
+    let url = `${GITHUB}/sc-voice/scv-static/main/api/examples.json`;
     let exLang = `no-examples ${lang}`;
     try {
       let res = await this.$axios.get(url);
