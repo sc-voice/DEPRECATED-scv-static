@@ -278,12 +278,7 @@ export default {
   },
 }
 </script>
-<style>
-.scv-results-details {
-}
-.scv-results > summary {
-}
-
+<style lang="scss">
 .scv-result-summary {
   display: inline-flex;
   flex-flow: row wrap;
@@ -291,7 +286,7 @@ export default {
   min-width: 500px;
   max-width: 80%;
 }
-@media (width < 600px) {
+@media (width < $scv-phone) {
   .scv-result-summary {
     min-width: 85%;
   }

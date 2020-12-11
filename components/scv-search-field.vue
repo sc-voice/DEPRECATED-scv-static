@@ -56,20 +56,66 @@ export default {
     this.seeker = new ExampleSeeker({axios});
   },
   methods:{
+    async loadSutta(mld) { 
+      let {
+        sutta_uid,
+        bilaraPaths,
+      } = mld;
+      let host = 'https://raw.githubusercontent.com';
+      let bpSegs = bilaraPaths.filter(bp=>bp.startsWith('root'))[0] || bilaraPaths[0];
+      let segMap;
+      var url;
+      try {
+        this.$store.commit('scv/sutta', {sutta_uid, });
+        url = `${host}/suttacentral/bilara-data/published/${bpSegs}`;
+        let res = await this.$axios.get(url);
+        let json = res.data;
+        segMap = {}
+        Object.keys(json).forEach(scid=>segMap[scid] = {scid, pli:json[scid]});
+        var lang = 'pli';
+        for (let i=0; i < bilaraPaths.length; i++) { 
+          let bp = bilaraPaths[i];
+          if (bp === bpSegs) {
+            continue;
+          }
+          var url = `${host}/suttacentral/bilara-data/published/${bp}`;
+          lang = bp.split('/')[1];
+          let res = await this.$axios.get(url);
+          let json = res.data;
+          Object.keys(json).forEach(scid=>{
+            segMap[scid] = segMap[scid] || { scid };
+            segMap[scid][lang] = json[scid];
+          });
+        }
+        let sutta = {
+          sutta_uid,
+          lang,
+          titles: mld.title.split('\n'),
+          segments: Object.keys(segMap).map(scid=>segMap[scid]),
+        };
+        this.$store.commit('scv/sutta', sutta);
+        return sutta;
+      } catch(e) {
+        console.warn(`loadSutta(${mld.sutta_uid}) ${url}`, e.message);
+        throw e;
+      }
+    },
     async onSearchInput(pattern) { try {
       console.log(`onSearchInput emit:${value}`);
 
-      let value = pattern
-        ? await this.seeker.find({
-            pattern, 
-            lang: this.$vuetify.lang.current,
-          })
-        : {};
+      let noValue = {mlDocs:[]};
+      let value = pattern && (await this.seeker.find({
+        pattern, 
+        lang: this.$vuetify.lang.current,
+      })) || noValue;
       value.mlDocs.forEach(mld=>{
         mld.segments = Object.keys(mld.segMap).map(scid=>mld.segMap[scid]);
       });
       this.$store.commit('scv/searchResults', value);
       this.$store.commit('scv/search', pattern);
+      if (value.mlDocs.length === 1) {
+        await this.loadSutta(value.mlDocs[0]);
+      }
       this.$emit("search-text", value);
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);
