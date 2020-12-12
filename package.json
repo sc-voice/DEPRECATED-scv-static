@@ -1,6 +1,6 @@
 {
   "name": "scv-static",
-  "version": "0.1.14",
+  "version": "0.1.16",
   "description": "SuttaCentral Voice bilara-data example library",
   "main": "index.js",
   "directories": {
@@ -21,8 +21,6 @@
     "memo-again": "^0.3.12",
     "mocha": "^7.1.1",
     "push-dir": "^0.4.1",
-    "sass": "^1.30.0",
-    "sass-loader": "^8.0.2",
     "scv-bilara": "^1.4.53",
     "should": "^11.2.0",
     "vue-material-design-icons": "^4.11.0"

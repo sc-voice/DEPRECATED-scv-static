@@ -206,7 +206,6 @@
 
 <script>
 import 'vue-material-design-icons/styles.css';
-import '~/assets/css/main.scss';
 import CogIcon from 'vue-material-design-icons/Cog.vue';
 
 export default {

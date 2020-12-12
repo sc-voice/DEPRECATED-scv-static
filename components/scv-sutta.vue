@@ -56,7 +56,7 @@ export default {
   },
 }
 </script>
-<style lang="scss">
+<style>
 .scv-division {
   font-size: var(--scv-division-title-font-size);
   text-align: center;
@@ -64,12 +64,12 @@ export default {
 .scv-division-root {
   xfont-variant-caps: all-small-caps; /* ugly without SC font */
   font-feature-settings: normal; /* vs. smcp */
-  font-family: $scv-sans-font;
+  font-family: var(--scv-sans-font);
 }
 .scv-division-trans {
   xfont-variant-caps: all-small-caps; /* ugly without SC font */
   font-feature-settings: normal; /* vs. smcp */
-  font-family: $scv-serif-font;
+  font-family: var(--scv-serif-font);
 }
 .scv-sutta-title {
   font-size: var(--scv-sutta-title-font-size);
@@ -82,12 +82,12 @@ export default {
 .scv-sutta-title-root {
   xfont-variant-caps: small-caps; /* ugly without SC font */
   font-feature-settings: normal; /* vs. smcp */
-  font-family: $scv-sans-font;
+  font-family: var(--scv-sans-font);
 }
 .scv-sutta-title-trans {
   xfont-variant-caps: small-caps; /* ugly without SC font */
   font-feature-settings: normal; /* vs. smcp */
-  font-family: $scv-serif-font;
+  font-family: var(--scv-serif-font);
 }
 header {
   margin-bottom: var(--scv-header-margin-bottom);

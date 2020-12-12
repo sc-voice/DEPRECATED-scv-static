@@ -1,0 +1,76 @@
+/* CSS variables */
+:root {
+  --scv-text-width: 720px;
+  --scv-text-line-height: 1.5;
+  --scv-sutta-title-font-size: 36.16px;
+  --scv-division-title-font-size: 18.08px;
+  --scv-header-margin-bottom: 64px;
+  --scv-segment-margin-bottom: 0.5em;
+  --scv-text-font-size: 18.08px;
+  --scv-sans-font: "Skolar Sans PE", "Noto Sans", sans-serif;
+  --scv-serif-font: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
+  --scv-accent-color: #882200; 
+  --scv-accent-font-weight: 600;
+  --scv-focus-color: #82B1FF;
+}
+@media(width < 600px) {
+  :root {
+    --scv-text-line-height: 1.4;
+    --scv-sutta-title-font-size: 24px;
+    --scv-division-title-font-size: 16px;
+    --scv-header-margin-bottom: 32px;
+    --scv-segment-margin-bottom: 0.3em;
+    --scv-text-font-size: 16px;
+  }
+}
+
+.scv-text {
+  line-height: var(--scv-text-line-height);
+  max-width: var(--scv-text-width);
+}
+.scv-root {
+  font-family: var(--scv-sans-font);
+}
+.scv-trans {
+  font-family: var(--scv-serif-font);
+}
+.scv-text-root {
+  line-height: var(--scv-text-line-height);
+  max-width: var(--scv-text-width);
+  font-family: var(--scv-sans-font);
+  padding-bottom: 0.3em;
+}
+.scv-text-trans {
+  line-height: var(--scv-text-line-height);
+  max-width: var(--scv-text-width);
+  font-family: var(--scv-serif-font);
+  padding-bottom: 0.7em;
+}
+.scv-matched { 
+    color: var(--scv-accent-color);
+    font-weight: var(--scv-accent-font-weight);
+}
+.scv-icon-btn {
+    margin: 0;
+    border-radius:5px;
+    border: none;
+    font-size: 1.25rem !important; /* override .v-btn.v-size--default */
+}
+.scv-icon-btn svg {
+  bottom: 0em !important;
+}
+.scv-icon-btn:focus, 
+.scv-icon-btn:hover {
+    border: 2px solid var(--scv-focus-color);
+}
+
+summary:hover,
+summary:focus {
+  border-radius: var(--scv-focus-width);
+  outline: var(--scv-focus-color);
+  box-shadow: 
+    inset var(--scv-focus-width) var(--scv-focus-width) 
+        var(--scv-focus-width) 0-var(--scv-focus-width) var(--scv-focus-color),
+    inset 0-var(--scv-focus-width) 0-var(--scv-focus-width) 
+        var(--scv-focus-width) 0-var(--scv-focus-width) var(--scv-focus-color);
+}
