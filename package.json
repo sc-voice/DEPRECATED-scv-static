@@ -1,6 +1,6 @@
 {
   "name": "scv-static",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "SuttaCentral Voice bilara-data example library",
   "main": "index.js",
   "directories": {

@@ -6,13 +6,15 @@
     class ExampleSeeker {
         constructor(opts={}) {
             (opts.logger || logger).logInstance(this, opts);
-            this.examples = examples;
+            this.examples = opts.examples || examples;
             this.lang = opts.lang || 'en';
             this.mj = new MerkleJson;
             this.maxResults = opts.maxResults==null ? 1000 : opts.maxResults;
             this.axios = opts.axios;
-            this.matchHighlight = opts.matchHighlight ||
+            let matchHighlight = this.matchHighlight = opts.matchHighlight ||
                 '<span class="scv-matched">$&</span>';
+            this.highlightMatch = opts.highlightMatch || (match=>
+                matchHighlight.replace('$&', match)||match);
         }
 
         static sanitizePattern(pattern) {
@@ -37,6 +39,7 @@
             return pattern;
         }
 
+
         static normalizePattern(pattern) {
             // normalize white space to space
             pattern = pattern.trim().replace(/[\s]+/g,' ').toLowerCase(); 
@@ -44,20 +47,45 @@
             return pattern;
         }
 
-        isExample(pattern) {
-            var examples = this.examples;
-            var reExamples = this.reExamples;
-            if (!reExamples) {
-                let patExamples = Object.keys(examples)
-                    .reduce((ak,k)=>{
-                        let ae = examples[k].reduce((a,e)=>[...a,e],ak);
-                        return ak.concat(ae);
-                    }, [])
-                    .join("|");
-                this.reExamples = 
-                reExamples = new RegExp(`(\\b)?\(${patExamples}\)(\\b)?`, "iu");
+        get reExample() {
+            var reExample = this._reExample;
+            if (!reExample) {
+                let examples = this.examples;
+                reExample = Object.keys(examples).reduce((a,lang)=>{
+                    let pat = examples[lang].join('|\\b');
+                    a[lang] = new RegExp(`\\b${pat}`, "gimu");
+                    return a;
+                },{});
+                Object.defineProperty(this, "_reExample", reExample);
             }
-            return reExamples.test(pattern);
+            return reExample;
+        }
+
+        get reIsExample() {
+            var reIsExample = this._reIsExample;
+            if (!reIsExample) {
+                let examples = this.examples;
+                reIsExample = Object.keys(examples).reduce((a,lang)=>{
+                    let pat = examples[lang].join('|');
+                    a[lang] = new RegExp(`(\\b)?\(${pat}\)(\\b)?`, "iu");
+                    return a;
+                },{});
+                Object.defineProperty(this, "_reIsExample", reIsExample);
+            }
+            return reIsExample;
+        }
+
+        isExample(pattern, lang=this.lang) {
+            let reEx = this.reIsExample[lang];
+            return reEx && reEx.test(pattern);
+        }
+
+        exampleOfMatch(match, lang='en') {
+            let exLang = this.examples[lang] || [];
+            return exLang.find(ex=>{
+                let re = new RegExp(ex, "mui");
+                return re.test(match);
+            });
         }
 
         exampleGuid(example, lang='en') {
@@ -240,6 +268,23 @@
             this.warn(`find(${pattern})`, e.message);
             throw e;
         }}
+
+        highlightExamples({segments, lang=this.lang}) {
+            let highlightMatch = this.highlightMatch;
+            let reLang = this.reExample[lang];
+            if (!reLang) {
+                return;
+            }
+            return segments.map(seg=>{
+                let segLang = seg[lang];
+                let newSeg = Object.assign({}, seg);
+                return segLang
+                    ? Object.assign(newSeg, {
+                        [lang]: segLang.replace(reLang, highlightMatch),
+                      })
+                    : newSeg;
+            });
+        }
 
     }
 

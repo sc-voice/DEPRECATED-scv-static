@@ -87,11 +87,13 @@ export default {
             segMap[scid][lang] = json[scid];
           });
         }
+        let segments = Object.keys(segMap).map(scid=>segMap[scid]);
+        segments = this.seeker.highlightExamples({segments, lang});
         let sutta = {
           sutta_uid,
           lang,
           titles: mld.title.split('\n'),
-          segments: Object.keys(segMap).map(scid=>segMap[scid]),
+          segments,
         };
         this.$store.commit('scv/sutta', sutta);
         return sutta;

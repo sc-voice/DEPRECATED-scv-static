@@ -5,16 +5,16 @@
     <header>
       <div class="text-h6">{{sutta.sutta_uid}}</div>
       <div class="scv-division">
-        <div class="scv-division-root">{{titles[0].pli}}</div>
-        <div class="scv-division-trans">{{titles[0][lang]}}</div>
+        <div class="scv-division-root">{{title(0).pli}}</div>
+        <div class="scv-division-trans">{{title(0)[lang]}}</div>
       </div>
       <div class="scv-division">
-        <div class="scv-division-root">{{titles[1].pli}}</div>
-        <div class="scv-division-trans">{{titles[1][lang]}}</div>
+        <div class="scv-division-root">{{title(1).pli}}</div>
+        <div class="scv-division-trans">{{title(1)[lang]}}</div>
       </div>
       <div class="scv-sutta-title">
-        <div class="scv-sutta-title-root">{{titles[2].pli}}</div>
-        <div class="scv-sutta-title-trans">{{titles[2][lang]}}</div>
+        <div class="scv-sutta-title-root">{{title(2).pli}}</div>
+        <div class="scv-sutta-title-trans">{{title(2)[lang]}}</div>
       </div>
     </header>
     <div class="scv-text-container">
@@ -27,6 +27,7 @@
 </template>
 
 <script>
+
 export default {
   components: {
   },
@@ -39,6 +40,9 @@ export default {
   async mounted() {
   },
   methods:{
+    title(n) {
+        return this.titles[n] || {};
+    },
   },
   computed: {
     titles() {
