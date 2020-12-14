@@ -11,6 +11,8 @@
     }
   ],
   "value": [
-    "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json:1"
+    "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json:1",
+    "translation/en/sujato/name/sutta/divy-name_translation-en-sujato.json:1",
+    "translation/en/sujato/name/sutta/avs-name_translation-en-sujato.json:1"
   ]
 }

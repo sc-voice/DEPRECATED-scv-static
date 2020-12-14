@@ -126,24 +126,24 @@
         "sutta_uid": "an6.42",
         "lang": "de",
         "segMap": {
-          "an6.42:3.8": {
-            "scid": "an6.42:3.8",
+          "an6.42:3.7": {
+            "scid": "an6.42:3.7",
             "pli": "Tathā hi, bhante, bhagavato sīlapaññāṇan”ti. ",
             "de": "Wegen <span class=\"scv-matched\">der Ethik und der Weisheit</span> des Buddha.“ ",
             "en": "Because of the Buddha’s ethics and wisdom.” ",
             "matched": true
           }
         },
-        "score": 1.016,
+        "score": 1.017,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 6\n4. Gottheiten\n42. Mit Nāgita",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 61,
-          "de": 54,
-          "en": 59
+          "pli": 60,
+          "de": 53,
+          "en": 58
         }
       }
     ]

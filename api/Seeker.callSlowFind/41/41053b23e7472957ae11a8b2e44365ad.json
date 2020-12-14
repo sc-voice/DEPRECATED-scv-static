@@ -32,18 +32,22 @@
     "pattern": "allein die wahrheit",
     "method": "phrase",
     "resultPattern": "\\ballein die wahrheit",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an2.42-51/de/sabbamitta",
-      "dn33/de/sabbamitta"
+      "dn33/de/sabbamitta",
+      "dn21/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -83,6 +87,38 @@
           "pli": 146,
           "de": 144,
           "en": 144
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:2.6.7": {
+            "scid": "dn21:2.6.7",
+            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
+            "de": "‚Das ist <span class=\"scv-matched\">allein die Wahrheit</span>, andere Vorstellungen sind dumm.‘ ",
+            "en": "‘This is the only truth, other ideas are silly.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
         }
       },
       {

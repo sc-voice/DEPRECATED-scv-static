@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.167_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -117,7 +120,7 @@
         "title": "Nummerierte Lehrreden 3\n7. Das große Kapitel\n70. Besinnungstag",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 234,
+          "pli": 238,
           "de": 232,
           "en": 232
         }

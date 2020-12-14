@@ -32,18 +32,22 @@
     "pattern": "was entsteht, muss auch aufhören",
     "method": "phrase",
     "resultPattern": "\\bwas entsteht, muss auch aufhören",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn14/de/sabbamitta",
-      "sn56.11/de/sabbamitta"
+      "sn56.11/de/sabbamitta",
+      "dn21/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -122,6 +126,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:2.10.10": {
+            "scid": "dn21:2.10.10",
+            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti. ",
+            "de": "„Alles, <span class=\"scv-matched\">was entsteht, muss auch aufhören</span>.“ ",
+            "en": "“Everything that has a beginning has an end.” ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
         }
       }
     ]

@@ -32,14 +32,18 @@
     "pattern": "werden .* erhalten",
     "method": "phrase",
     "resultPattern": "\\bwerden .* erhalten",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn33/de/sabbamitta"
+      "dn33/de/sabbamitta",
+      "dn23/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -135,6 +139,45 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "de",
+        "segMap": {
+          "dn23:31.5": {
+            "scid": "dn23:31.5",
+            "pli": "Api nu tāni bījāni vuddhiṁ virūḷhiṁ vepullaṁ āpajjeyyuṁ, kassako vā vipulaṁ phalaṁ adhigaccheyyā”ti? ",
+            "de": "Würden diese Samen wachsen, größer <span class=\"scv-matched\">werden und zur Reife kommen, und würde der Bauer überreichliche Frucht erhalten</span>?“ ",
+            "en": "Would those seeds grow, increase, and mature, and would the farmer get abundant fruit?” ",
+            "matched": true
+          },
+          "dn23:31.12": {
+            "scid": "dn23:31.12",
+            "pli": "Api nu tāni bījāni vuddhiṁ virūḷhiṁ vepullaṁ āpajjeyyuṁ, kassako vā vipulaṁ phalaṁ adhigaccheyyā”ti? ",
+            "de": "Würden diese Samen wachsen, größer <span class=\"scv-matched\">werden und zur Reife kommen, und würde der Bauer überreichliche Frucht erhalten</span>?“ ",
+            "en": "Would those seeds grow, increase, and mature, and would the farmer get abundant fruit?” ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 23\nMit Pāyāsi",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 715,
+          "de": 636,
+          "en": 713
         }
       }
     ]

@@ -124,16 +124,16 @@
             "matched": true
           }
         },
-        "score": 2.034,
+        "score": 2.033,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 6\n3. Unübertrefflich\n26. Mit Mahākaccāna",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 58,
+          "pli": 61,
           "de": 41,
-          "en": 57
+          "en": 56
         }
       },
       {
@@ -209,9 +209,9 @@
         "title": "Mittlere Lehrreden 10\nAchtsamkeitsmeditation",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 226,
-          "de": 193,
-          "en": 224
+          "pli": 235,
+          "de": 200,
+          "en": 233
         }
       },
       {

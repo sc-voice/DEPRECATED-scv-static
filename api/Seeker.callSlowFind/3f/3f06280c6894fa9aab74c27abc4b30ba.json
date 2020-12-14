@@ -32,7 +32,7 @@
     "pattern": "dhamma|dharma",
     "method": "phrase",
     "resultPattern": "\\bdhamma|dharma",
-    "segsMatched": 199,
+    "segsMatched": 204,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/an/an4/an4.128_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.128_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.128_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.131_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.131_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.131_translation-en-sujato.json",
@@ -82,6 +85,9 @@
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
@@ -273,10 +279,12 @@
       "an3.30/de/sabbamitta",
       "an4.191/de/sabbamitta",
       "an4.128/de/sabbamitta",
+      "dn21/de/sabbamitta",
       "an5.131/de/sabbamitta",
       "an4.48/de/sabbamitta",
       "an4.33/de/sabbamitta",
       "mn33/de/sabbamitta",
+      "dn19/de/sabbamitta",
       "dn18/de/sabbamitta",
       "an8.63/de/sabbamitta",
       "an5.38/de/sabbamitta",
@@ -472,7 +480,7 @@
           "dn14:3.12.1": {
             "scid": "dn14:3.12.1",
             "pli": "Te diṭṭhadhammā pattadhammā viditadhammā pariyogāḷhadhammā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavocuṁ: ",
-            "de": "Sie sahen, erfassten, verstanden und ergründeten den <span class=\"scv-matched\">Dhamma</span>. Sie gingen über den Zweifel hinaus, machten sich von Unschlüssigkeit los und gewannen Selbstvertrauen, wurden in der Anleitung des Lehrers von anderen unabhängig. Sie sagten zum Buddha Vipassī: ",
+            "de": "Sie sahen, erfassten, verstanden und ergründeten den <span class=\"scv-matched\">Dhamma</span>. Sie gingen über den Zweifel hinaus, machten sich von Unschlüssigkeit frei und gewannen Selbstvertrauen, wurden in der Anleitung des Lehrers von anderen unabhängig. Sie sagten zum Buddha Vipassī: ",
             "en": "They saw, attained, understood, and fathomed the <span class=\"scv-matched\">Dhamma</span>. They went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. They said to the Buddha Vipassī, ",
             "matched": true
           },
@@ -493,7 +501,7 @@
           "dn14:3.16.1": {
             "scid": "dn14:3.16.1",
             "pli": "Te diṭṭhadhammā pattadhammā viditadhammā pariyogāḷhadhammā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavocuṁ: ",
-            "de": "Sie sahen, erfassten, verstanden und ergründeten den <span class=\"scv-matched\">Dhamma</span>. Sie gingen über den Zweifel hinaus, machten sich von Unschlüssigkeit los und gewannen Selbstvertrauen, wurden in der Anleitung des Lehrers von anderen unabhängig. Sie sagten zum Buddha Vipassī: ",
+            "de": "Sie sahen, erfassten, verstanden und ergründeten den <span class=\"scv-matched\">Dhamma</span>. Sie gingen über den Zweifel hinaus, machten sich von Unschlüssigkeit frei und gewannen Selbstvertrauen, wurden in der Anleitung des Lehrers von anderen unabhängig. Sie sagten zum Buddha Vipassī: ",
             "en": "They saw, attained, understood, and fathomed the <span class=\"scv-matched\">Dhamma</span>. They went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. They said to the Buddha Vipassī, ",
             "matched": true
           },
@@ -1548,6 +1556,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:2.7.16": {
+            "scid": "dn21:2.7.16",
+            "pli": "Tesāhaṁ yathāsutaṁ yathāpariyattaṁ <span class=\"scv-matched\">dhamma</span>ṁ desemi. ",
+            "de": "Und ich lehrte sie den <span class=\"scv-matched\">Dhamma</span> wie ich ihn gehört und mir eingeprägt hatte. ",
+            "en": "So I taught them the <span class=\"scv-matched\">Dhamma</span> as I had learned and memorized it. ",
+            "matched": true
+          },
+          "dn21:2.9.17": {
+            "scid": "dn21:2.9.17",
+            "pli": "Tesaṁ yathāsutaṁ <span class=\"scv-matched\">dhamma</span>ṁ, ",
+            "de": "Ich lehrte sie den <span class=\"scv-matched\">Dhamma</span>, ",
+            "en": "I taught them the <span class=\"scv-matched\">Dhamma</span> ",
+            "matched": true
+          },
+          "dn21:2.10.9": {
+            "scid": "dn21:2.10.9",
+            "pli": "Imasmiñca pana veyyākaraṇasmiṁ bhaññamāne sakkassa devānamindassa virajaṁ vītamalaṁ <span class=\"scv-matched\">dhamma</span>cakkhuṁ udapādi: ",
+            "de": "Und während diese Lehrrede gesprochen wurde, ging Sakka dem Götterkönig das unbefleckte, makellose Auge des <span class=\"scv-matched\">Dhamma</span> auf: ",
+            "en": "And while this discourse was being spoken, the stainless, immaculate vision of the <span class=\"scv-matched\">Dhamma</span> arose in Sakka, lord of gods: ",
+            "matched": true
+          }
+        },
+        "score": 3.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.209_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an5/an5.209_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an5/an5.209_translation-en-sujato.json"
@@ -1834,7 +1888,7 @@
           "an4.257:2.1": {
             "scid": "an4.257:2.1",
             "pli": "“Sādhu me, bhante, bhagavā saṅkhittena <span class=\"scv-matched\">dhamma</span>ṁ desetu, yamahaṁ bhagavato <span class=\"scv-matched\">dhamma</span>ṁ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto vihareyyan”ti. ",
-            "de": "„Herr, dass der Buddha mich den <span class=\"scv-matched\">Dhamma</span> in kurzer Form lehre. Wenn ich ihn gehört habe, werde ich allein leben, zurückgezogen, beflissen, eifrig und entschlossen.“ ",
+            "de": "„Herr, dass der Buddha mir in kurzer Form eine <span class=\"scv-matched\">Dhamma</span>unterweisung gebe. Wenn ich sie gehört habe, werde ich allein leben, zurückgezogen, beflissen, eifrig und entschlossen.“ ",
             "en": "“Sir, may the Buddha please teach me <span class=\"scv-matched\">Dhamma</span> in brief. When I’ve heard it, I’ll live alone, withdrawn, diligent, keen, and resolute.” ",
             "matched": true
           },
@@ -2068,7 +2122,7 @@
           "an8.63:1.2": {
             "scid": "an8.63:1.2",
             "pli": "“sādhu me, bhante, bhagavā saṅkhittena <span class=\"scv-matched\">dhamma</span>ṁ desetu, yamahaṁ bhagavato <span class=\"scv-matched\">dhamma</span>ṁ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto vihareyyan”ti. ",
-            "de": "„Herr, dass der Buddha mich den <span class=\"scv-matched\">Dhamma</span> in kurzer Form lehre. Wenn ich ihn gehört habe, werde ich allein leben, zurückgezogen, beflissen, eifrig und entschlossen.“ ",
+            "de": "„Herr, dass der Buddha mir in kurzer Form eine <span class=\"scv-matched\">Dhamma</span>unterweisung gebe. Wenn ich sie gehört habe, werde ich allein leben, zurückgezogen, beflissen, eifrig und entschlossen.“ ",
             "en": "“Sir, may the Buddha please teach me <span class=\"scv-matched\">Dhamma</span> in brief. When I’ve heard it, I’ll live alone, withdrawn, diligent, keen, and resolute.” ",
             "matched": true
           },
@@ -2324,6 +2378,45 @@
           "pli": 299,
           "de": 255,
           "en": 298
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn19",
+        "lang": "de",
+        "segMap": {
+          "dn19:13.2": {
+            "scid": "dn19:13.2",
+            "pli": "‘aho vata, mārisā, cattāro sammāsambuddhā loke uppajjeyyuṁ <span class=\"scv-matched\">dhamma</span>ñca deseyyuṁ yathariva bhagavā. ",
+            "de": "‚Wenn doch nur vier vollkommen erwachte Buddhas in der Welt erscheinen und den <span class=\"scv-matched\">Dhamma</span> lehren würden, so wie der Gesegnete! ",
+            "en": "‘If only four fully awakened Buddhas might arise in the world and teach the <span class=\"scv-matched\">Dhamma</span>, just like the Blessed One! ",
+            "matched": true
+          },
+          "dn19:13.8": {
+            "scid": "dn19:13.8",
+            "pli": "‘tiṭṭhantu, mārisā, tayo sammāsambuddhā, aho vata, mārisā, dve sammāsambuddhā loke uppajjeyyuṁ <span class=\"scv-matched\">dhamma</span>ñca deseyyuṁ yathariva bhagavā. ",
+            "de": "oder zwei vollkommen erwachte Buddhas in der Welt erschienen und den <span class=\"scv-matched\">Dhamma</span> lehren würden, so wie der Gesegnete! ",
+            "en": "or two fully awakened Buddhas might arise in the world and teach the <span class=\"scv-matched\">Dhamma</span>, just like the Blessed One! ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 19\nDer Große Verwalter",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 559,
+          "de": 479,
+          "en": 558
         }
       },
       {
@@ -2740,70 +2833,6 @@
           "pli": 24,
           "de": 23,
           "en": 23
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.15_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn12.15",
-        "lang": "de",
-        "segMap": {
-          "sn12.15:3.3": {
-            "scid": "sn12.15:3.3",
-            "pli": "Ete te, kaccāna, ubho ante anupagamma majjhena tathāgato <span class=\"scv-matched\">dhamma</span>ṁ deseti: ",
-            "de": "Der Klargewordene vermeidet diese beiden Extreme und lehrt den <span class=\"scv-matched\">Dhamma</span> auf die mittlere Art: ",
-            "en": "Avoiding these two extremes, the Realized One teaches by the middle way: ",
-            "matched": true
-          }
-        },
-        "score": 1.042,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 12\n2. Nahrung\n15. Kaccānagotta",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 24,
-          "de": 23,
-          "en": 23
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.99_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.99_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.99_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.99",
-        "lang": "de",
-        "segMap": {
-          "an5.99:2.2": {
-            "scid": "an5.99:2.2",
-            "pli": "Yaṁ kho, bhikkhave, tathāgato parisāya <span class=\"scv-matched\">dhamma</span>ṁ deseti, idamassa hoti sīhanādasmiṁ. ",
-            "de": "Wenn der Klargewordene vor einer Versammlung den <span class=\"scv-matched\">Dhamma</span> lehrt, ist das sein Löwengebrüll. ",
-            "en": "When the Realized One teaches <span class=\"scv-matched\">Dhamma</span> to an assembly, this is his lion’s roar. ",
-            "matched": true
-          }
-        },
-        "score": 1.04,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 5\n10. Mit Kakudha\n99. Der Löwe",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 25,
-          "de": 24,
-          "en": 24
         }
       }
     ]

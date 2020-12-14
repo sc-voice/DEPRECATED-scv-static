@@ -34,6 +34,12 @@
     "resultPattern": "\\bdie|\\bnonne|\\bkennt|\\bmich",
     "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.40_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.40_translation-en-sujato.json",

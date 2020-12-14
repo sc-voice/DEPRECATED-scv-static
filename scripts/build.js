@@ -11,11 +11,14 @@ const {
 const APP_DIR = path.join(__dirname, '..');
 const API_DIR = path.join(APP_DIR, 'api');
 const EXAMPLES_PATH = path.join(API_DIR, 'examples.json');
+const SUID_MAP_PATH = path.join(API_DIR, 'suid-map-bilara-data.json');
 
 logger.logLevel = 'warn';
 
 (async function(){
-    let bilaraData = await new BilaraData().initialize();
+    let bilaraData = await new BilaraData().initialize(true);
+    await fs.promises.writeFile(SUID_MAP_PATH, 
+        JSON.stringify(bilaraData.bilaraPathMap.suidMap, null, 2));
     await fs.promises.writeFile(EXAMPLES_PATH, 
         JSON.stringify(bilaraData.examples,null,2));
     let storeName = 'api';

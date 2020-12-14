@@ -32,8 +32,17 @@
     "pattern": "es war einmal",
     "method": "phrase",
     "resultPattern": "\\bes war einmal",
-    "segsMatched": 7,
+    "segsMatched": 16,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -57,6 +66,9 @@
       "translation/en/sujato/sutta/an/an3/an3.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn23/de/sabbamitta",
+      "dn21/de/sabbamitta",
+      "dn19/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an5.180/de/sabbamitta",
       "an4.45/de/sabbamitta",
@@ -66,6 +78,80 @@
       "an3.15/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "de",
+        "segMap": {
+          "dn23:13.3": {
+            "scid": "dn23:13.3",
+            "pli": "Bhūtapubbaṁ, rājañña, aññatarassa brāhmaṇassa dve pajāpatiyo ahesuṁ. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> ein Brahmane, der hatte zwei Frauen. ",
+            "en": "Once upon a time, a certain brahmin had two wives. ",
+            "matched": true
+          },
+          "dn23:19.3": {
+            "scid": "dn23:19.3",
+            "pli": "Bhūtapubbaṁ, rājañña, aññataro saṅkhadhamo saṅkhaṁ ādāya paccantimaṁ janapadaṁ agamāsi. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> ein Hornist, der nahm sein Horn und reiste in ein Randgebiet. ",
+            "en": "Once upon a time, a certain horn blower took his horn and traveled to a borderland, ",
+            "matched": true
+          },
+          "dn23:21.3": {
+            "scid": "dn23:21.3",
+            "pli": "Bhūtapubbaṁ, rājañña, aññataro aggiko jaṭilo araññāyatane paṇṇakuṭiyā sammati. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> ein Filzhaarasket, ein Feueranbeter, der ließ sich in einer Laubhütte an einem Ort in der Wildnis nieder. ",
+            "en": "Once upon a time, a certain fire-worshiping matted-hair ascetic settled in a leaf hut in a wilderness region. ",
+            "matched": true
+          },
+          "dn23:23.3": {
+            "scid": "dn23:23.3",
+            "pli": "Bhūtapubbaṁ, rājañña, mahāsakaṭasattho sakaṭasahassaṁ puratthimā janapadā pacchimaṁ janapadaṁ agamāsi. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> eine große Karawane von tausend Wagen, die reiste von einem Land im Osten nach Westen. ",
+            "en": "Once upon a time, a large caravan of a thousand wagons traveled from a country in the east to the west. ",
+            "matched": true
+          },
+          "dn23:25.3": {
+            "scid": "dn23:25.3",
+            "pli": "Bhūtapubbaṁ, rājañña, aññataro sūkaraposako puriso sakamhā gāmā aññaṁ gāmaṁ agamāsi. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> ein Schweinehirt, der ging von einem Dorf zu einem anderen. ",
+            "en": "Once upon a time, a certain swineherd went from his own village to another village. ",
+            "matched": true
+          },
+          "dn23:27.3": {
+            "scid": "dn23:27.3",
+            "pli": "Bhūtapubbaṁ, rājañña, dve akkhadhuttā akkhehi dibbiṁsu. ",
+            "de": "Es waren einmal zwei Würfelspieler, die spielten mit Würfeln. ",
+            "en": "Once upon a time, two gamblers were playing with dice. ",
+            "matched": true
+          },
+          "dn23:29.3": {
+            "scid": "dn23:29.3",
+            "pli": "Bhūtapubbaṁ, rājañña, aññataro janapado vuṭṭhāsi. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> ein Land, dessen Bewohner wanderten aus. ",
+            "en": "Once upon a time, the inhabitants of a certain country emigrated. ",
+            "matched": true
+          }
+        },
+        "score": 7.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 23\nMit Pāyāsi",
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 715,
+          "de": 636,
+          "en": 713
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.38_root-pli-ms.json",
@@ -288,6 +374,70 @@
           "pli": 444,
           "de": 359,
           "en": 443
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn19",
+        "lang": "de",
+        "segMap": {
+          "dn19:29.1": {
+            "scid": "dn19:29.1",
+            "pli": "Bhūtapubbaṁ, bho, rājā disampati nāma ahosi. ",
+            "de": "<span class=\"scv-matched\">Es war einmal</span> ein König mit Namen Disampati. ",
+            "en": "Once upon a time, there was a king named Disampati. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 19\nDer Große Verwalter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 559,
+          "de": 479,
+          "en": 558
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:2.7.25": {
+            "scid": "dn21:2.7.25",
+            "pli": "“Bhūtapubbaṁ, bhante, devāsurasaṅgāmo samupabyūḷho ahosi. ",
+            "de": "„<span class=\"scv-matched\">Es war einmal</span>, Herr, da wurde zwischen den Göttern und den Dämonen eine Schlacht ausgefochten. ",
+            "en": "“Once upon a time, sir, a battle was fought between the gods and the demons. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
         }
       }
     ]

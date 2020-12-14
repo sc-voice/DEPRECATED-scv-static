@@ -97,20 +97,20 @@
         "segMap": {
           "sn3.11:5.1": {
             "scid": "sn3.11:5.1",
-            "pli": "Saṁvāsena kho, mahārāja, sīlaṁ veditabbaṁ. ",
-            "en": "You can get to know <span class=\"scv-matched\">a person’s ethics</span> by living with them. ",
+            "pli": "Saṁvāsena kho, mahārāja, sīlaṁ veditabbaṁ. Tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññena. ",
+            "en": "You can get to know <span class=\"scv-matched\">a person’s ethics</span> by living with them. But only after a long time, not casually; only when paying attention, not when inattentive; and only by the wise, not the witless. ",
             "matched": true
           }
         },
-        "score": 1.017,
+        "score": 1.028,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 3\n2. Childless\n11. Seven Matted-Hair Ascetics",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 60,
-          "en": 60
+          "pli": 36,
+          "en": 36
         }
       }
     ]

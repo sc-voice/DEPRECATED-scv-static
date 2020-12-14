@@ -1,0 +1,14 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bkann ertragen",
+      "maxResults": 1000,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": []
+}

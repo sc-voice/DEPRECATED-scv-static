@@ -108,8 +108,8 @@
             "en": "This is called: ‘A noble disciple who observes the sabbath of ethical conduct, living together with ethics. And because they think of their ethical conduct their mind becomes clear, joy arises, and mental corruptions are given up.’ ",
             "matched": true
           },
-          "an3.70:18.6": {
-            "scid": "an3.70:18.6",
+          "an3.70:18.10": {
+            "scid": "an3.70:18.10",
             "pli": "Ayaṁ vuccati, visākhe, ‘ariyasāvako devatuposathaṁ upavasati, devatāhi saddhiṁ saṁvasati, devatā ārabbha cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti’. ",
             "de": "Das nennt man eine edle Schülerin, die den Besinnungstag der Gottheiten einhält, die mit den Gottheiten lebt, die an die Gottheiten denkt, deren Geist dadurch klar wird, bei der Freude aufkommt und die Verunreinigungen des Geistes sich auflösen. ",
             "en": "This is called: ‘A noble disciple who observes the sabbath of the deities, living together with the deities. And because they think of the deities their mind becomes clear, joy arises, and mental corruptions are given up.’ ",
@@ -221,14 +221,14 @@
             "matched": true
           }
         },
-        "score": 22.094,
+        "score": 22.092,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 3\n7. Das große Kapitel\n70. Besinnungstag",
         "segsMatched": 22,
         "langSegs": {
-          "pli": 234,
+          "pli": 238,
           "de": 232,
           "en": 232
         }

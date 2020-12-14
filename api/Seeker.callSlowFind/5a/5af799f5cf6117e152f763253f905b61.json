@@ -32,7 +32,7 @@
     "pattern": "krank",
     "method": "phrase",
     "resultPattern": "\\bkrank",
-    "segsMatched": 208,
+    "segsMatched": 216,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.121_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.121_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.121_translation-en-sujato.json",
@@ -118,6 +121,9 @@
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json",
@@ -284,6 +290,7 @@
       "an4.157/de/sabbamitta",
       "an5.123/de/sabbamitta",
       "sn47.9/de/sabbamitta",
+      "dn23/de/sabbamitta",
       "an5.121/de/sabbamitta",
       "an10.60/de/sabbamitta",
       "an5.57/de/sabbamitta",
@@ -304,6 +311,7 @@
       "sn3.21/de/sabbamitta",
       "mn33/de/sabbamitta",
       "mn2/de/sabbamitta",
+      "dn21/de/sabbamitta",
       "an6.42/de/sabbamitta",
       "an5.54/de/sabbamitta",
       "an5.222/de/sabbamitta",
@@ -626,7 +634,7 @@
           "dn33:3.3.23": {
             "scid": "dn33:3.3.23",
             "pli": "Puna caparaṁ, āvuso, bhikkhu santuṭṭho hoti itarītarehi cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārehi. ",
-            "de": "Weiterhin ist ein Mönch mit jeder Art von Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden. ",
+            "de": "Weiterhin ist ein Mönch mit jeder Art von Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden. ",
             "en": "Furthermore, a mendicant is content with any kind of robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           }
@@ -781,7 +789,7 @@
           "an4.157:2.3": {
             "scid": "an4.157:2.3",
             "pli": "Idha, bhikkhave, bhikkhu mahiccho hoti vighātavā asantuṭṭho itarītaracīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena. ",
-            "de": "Da hat eine Nonne viele Wünsche, ist enttäuscht und ist nicht mit jeder Robe, jedem Almosen, jedem Quartier und jeder Art von Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden. ",
+            "de": "Da hat eine Nonne viele Wünsche, ist enttäuscht und ist nicht mit jeder Robe, jedem Almosen, jeder Unterkunft und jeder Art von Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden. ",
             "en": "To start with, a mendicant has many wishes, is frustrated, and is not content with any kind of robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
@@ -795,7 +803,7 @@
           "an4.157:3.2": {
             "scid": "an4.157:3.2",
             "pli": "‘na mahicchā bhavissāma vighātavanto asantuṭṭhā itarītaracīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena, na pāpikaṁ icchaṁ paṇidahissāma anavaññappaṭilābhāya lābhasakkārasilokappaṭilābhāya, na uṭṭhahissāma na ghaṭessāma na vāyamissāma anavaññappaṭilābhāya lābhasakkārasilokappaṭilābhāya, khamā bhavissāma sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ, uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ adhivāsakajātikā bhavissāmā’ti. ",
-            "de": "‚Wir wollen nicht viele Wünsche haben oder enttäuscht sein. Wir wollen mit jeder Robe, jedem Almosen, jedem Quartier und jeder Art von Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden sein. Wir wollen nicht unsere verdorbenen Wünsche darauf richten, bewundert zu werden, nicht auf materiellen Besitz, auf Ehre oder Beliebtheit. Wir wollen uns nicht anstrengen, bemühen und einsetzen, um diese Dinge zu bekommen. Wir wollen Kälte, Hitze, Hunger und Durst ertragen. Wir wollen die Berührung von Fliegen, Stechmücken, Wind, Sonne und Kriechtieren ertragen. Wir wollen rauen und unlieben Tadel ertragen. Wir wollen körperliche Schmerzen ertragen – scharfe, heftige, brennende, peinliche, unangenehme, lebensbedrohende.‘ ",
+            "de": "‚Wir wollen nicht viele Wünsche haben oder enttäuscht sein. Wir wollen mit jeder Robe, jedem Almosen, jeder Unterkunft und jeder Art von Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden sein. Wir wollen nicht unsere verdorbenen Wünsche darauf richten, bewundert zu werden, nicht auf materiellen Besitz, auf Ehre oder Beliebtheit. Wir wollen uns nicht anstrengen, bemühen und einsetzen, um diese Dinge zu bekommen. Wir wollen Kälte, Hitze, Hunger und Durst ertragen. Wir wollen die Berührung von Fliegen, Stechmücken, Wind, Sonne und Kriechtieren ertragen. Wir wollen rauen und unlieben Tadel ertragen. Wir wollen körperliche Schmerzen ertragen – scharfe, heftige, brennende, peinliche, unangenehme, lebensbedrohende.‘ ",
             "en": "‘We will not have many wishes or be frustrated. We will be content with any kind of robes, alms-food, lodgings, and medicines and supplies for the sick. We won’t focus our corrupt wishes on being looked up to, and on getting material possessions, honor, and popularity. We won’t try hard, strive, and make an effort to get these things. We will endure cold, heat, hunger, and thirst. We will endure the touch of flies, mosquitoes, wind, sun, and reptiles. We will endure rude and unwelcome criticism. We will put up with physical pain—sharp, severe, acute, unpleasant, disagreeable, and life-threatening.’ ",
             "matched": true
           }
@@ -922,7 +930,7 @@
           "an5.123:1.3": {
             "scid": "an5.123:1.3",
             "pli": "Asappāyakārī hoti, sappāye mattaṁ na jānāti, bhesajjaṁ nappaṭisevitā hoti, atthakāmassa gilānupaṭṭhākassa na yathābhūtaṁ ābādhaṁ āvikattā hoti abhikkamantaṁ vā abhikkamatīti paṭikkamantaṁ vā paṭikkamatīti ṭhitaṁ vā ṭhitoti, uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ anadhivāsakajātiko hoti. ",
-            "de": "Sie tut, was unzuträglich ist, und kennt kein Maß bei dem, was zuträglich ist. Sie nimmt ihre Arznei nicht ein. Obwohl ihre Pflegekraft auf ihr Wohl bedacht ist, berichtet sie nicht der Wahrheit gemäß über ihre <span class=\"scv-matched\">Krank</span>heit: ob sie schlechter oder besser wird oder gleich bleibt. Und sie ist nicht in der Lage, körperliche Schmerzen zu ertragen – scharfe, heftige, brennende, peinliche, unangenehme, lebensbedrohende. ",
+            "de": "Sie tut, was unzuträglich ist, und kennt kein Maß bei dem, was zuträglich ist. Sie nimmt ihre Arznei nicht ein. Obwohl ihre Pflegekraft auf ihr Wohl bedacht ist, berichtet sie nicht der Wahrheit gemäß über ihre <span class=\"scv-matched\">Krank</span>heit: ob sie schlechter oder besser wird oder gleich bleibt. Und sie kann körperliche Schmerzen nicht ertragen – scharfe, heftige, brennende, peinliche, unangenehme, lebensbedrohende. ",
             "en": "They do what is unsuitable. They don’t know moderation in what is suitable. They don’t take their medicine. Though their carer wants what’s best for them, they don’t accurately report their symptoms by saying when they’re getting worse, getting better, or staying the same. And they cannot endure physical pain—sharp, severe, acute, unpleasant, disagreeable, and life-threatening. ",
             "matched": true
           },
@@ -943,7 +951,7 @@
           "an5.123:2.3": {
             "scid": "an5.123:2.3",
             "pli": "Sappāyakārī hoti, sappāye mattaṁ jānāti, bhesajjaṁ paṭisevitā hoti, atthakāmassa gilānupaṭṭhākassa yathābhūtaṁ ābādhaṁ āvikattā hoti abhikkamantaṁ vā abhikkamatīti paṭikkamantaṁ vā paṭikkamatīti ṭhitaṁ vā ṭhitoti, uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ adhivāsakajātiko hoti. ",
-            "de": "Sie tut, was zuträglich ist, und kennt dabei das Maß. Sie nimmt ihre Arznei ein. Weil ihre Pflegekraft auf ihr Wohl bedacht ist, berichtet sie der Wahrheit gemäß über ihre <span class=\"scv-matched\">Krank</span>heit: ob sie schlechter oder besser wird oder gleich bleibt. Und sie ist in der Lage, körperliche Schmerzen zu ertragen – scharfe, heftige, brennende, peinliche, unangenehme, lebensbedrohende. ",
+            "de": "Sie tut, was zuträglich ist, und kennt dabei das Maß. Sie nimmt ihre Arznei ein. Weil ihre Pflegekraft auf ihr Wohl bedacht ist, berichtet sie der Wahrheit gemäß über ihre <span class=\"scv-matched\">Krank</span>heit: ob sie schlechter oder besser wird oder gleich bleibt. Und sie kann körperliche Schmerzen ertragen – scharfe, heftige, brennende, peinliche, unangenehme, lebensbedrohende. ",
             "en": "They do what is suitable. They know moderation in what is suitable. They take their medicine. Because their carer wants what’s best for them, they accurately report their symptoms by saying when they’re getting worse, getting better, or staying the same. And they can endure physical pain—sharp, severe, acute, unpleasant, disagreeable, and life-threatening. ",
             "matched": true
           },
@@ -1170,6 +1178,73 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "de",
+        "segMap": {
+          "dn23:6.9": {
+            "scid": "dn23:6.9",
+            "pli": "Te aparena samayena ābādhikā honti dukkhitā bāḷhagilānā. ",
+            "de": "Nach einiger Zeit sind sie mitgenommen, leidend, schwer <span class=\"scv-matched\">krank</span>. ",
+            "en": "Some time later they become sick, suffering, gravely ill. ",
+            "matched": true
+          },
+          "dn23:6.11": {
+            "scid": "dn23:6.11",
+            "pli": "‘na dānime imamhā ābādhā vuṭṭhahissantī’ti tyāhaṁ upasaṅkamitvā evaṁ vadāmi: ",
+            "de": "dass sie sich von ihrer <span class=\"scv-matched\">Krank</span>heit nicht erholen werden, gehe ich zu ihnen und sage: ",
+            "en": "they will not recover from their illness, I go to them and say, ",
+            "matched": true
+          },
+          "dn23:8.9": {
+            "scid": "dn23:8.9",
+            "pli": "Te aparena samayena ābādhikā honti dukkhitā bāḷhagilānā. ",
+            "de": "Nach einiger Zeit sind sie mitgenommen, leidend, schwer <span class=\"scv-matched\">krank</span>. ",
+            "en": "Some time later they become sick, suffering, gravely ill. ",
+            "matched": true
+          },
+          "dn23:8.11": {
+            "scid": "dn23:8.11",
+            "pli": "‘na dānime imamhā ābādhā vuṭṭhahissantī’ti tyāhaṁ upasaṅkamitvā evaṁ vadāmi: ",
+            "de": "dass sie sich von ihrer <span class=\"scv-matched\">Krank</span>heit nicht erholen werden, gehe ich zu ihnen und sage: ",
+            "en": "they will not recover from their illness, I go to them and say, ",
+            "matched": true
+          },
+          "dn23:10.7": {
+            "scid": "dn23:10.7",
+            "pli": "te aparena samayena ābādhikā honti dukkhitā bāḷhagilānā. ",
+            "de": "Nach einiger Zeit sind sie mitgenommen, leidend, schwer <span class=\"scv-matched\">krank</span>. ",
+            "en": "Some time later they become sick, suffering, gravely ill. ",
+            "matched": true
+          },
+          "dn23:10.9": {
+            "scid": "dn23:10.9",
+            "pli": "‘na dānime imamhā ābādhā vuṭṭhahissantī’ti tyāhaṁ upasaṅkamitvā evaṁ vadāmi: ",
+            "de": "dass sie sich von ihrer <span class=\"scv-matched\">Krank</span>heit nicht erholen werden, gehe ich zu ihnen und sage: ",
+            "en": "they will not recover from their illness, I go to them and say, ",
+            "matched": true
+          }
+        },
+        "score": 6.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 23\nMit Pāyāsi",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 715,
+          "de": 636,
+          "en": 713
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.62_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an3/an3.62_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an3/an3.62_translation-en-sujato.json"
@@ -1303,35 +1378,35 @@
           "an5.100:6.8": {
             "scid": "an5.100:6.8",
             "pli": "‘sammannati kho pana cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena; ",
-            "de": "Doch er nimmt Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
+            "de": "Doch er nimmt Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
             "en": "But they consent to robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an5.100:7.6": {
             "scid": "an5.100:7.6",
             "pli": "‘sammannati kho pana cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena; ",
-            "de": "Doch sie nimmt Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
+            "de": "Doch sie nimmt Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
             "en": "But they consent to robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an5.100:8.6": {
             "scid": "an5.100:8.6",
             "pli": "‘sammannati kho pana cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena; ",
-            "de": "Doch er nimmt Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
+            "de": "Doch er nimmt Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
             "en": "But they consent to robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an5.100:9.6": {
             "scid": "an5.100:9.6",
             "pli": "‘sammannati kho pana cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena; ",
-            "de": "Doch sie nimmt Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
+            "de": "Doch sie nimmt Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
             "en": "But they consent to robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an5.100:10.6": {
             "scid": "an5.100:10.6",
             "pli": "‘sammannati kho pana cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena; ",
-            "de": "Doch er nimmt Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
+            "de": "Doch er nimmt Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung an. ",
             "en": "But they consent to robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           }
@@ -1363,28 +1438,28 @@
           "an5.88:2.4": {
             "scid": "an5.88:2.4",
             "pli": "lābhī hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ; ",
-            "de": "Er erhält Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Er erhält Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "They receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an5.88:2.7": {
             "scid": "an5.88:2.7",
             "pli": "Thero bhikkhu rattaññū cirapabbajito itipissa diṭṭhānugatiṁ āpajjanti, ñāto thero bhikkhu yasassī sagahaṭṭhapabbajitānaṁ bahujanaparivāro itipissa diṭṭhānugatiṁ āpajjanti, lābhī thero bhikkhu cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ itipissa diṭṭhānugatiṁ āpajjanti, bahussuto thero bhikkhu sutadharo sutasannicayo itipissa diṭṭhānugatiṁ āpajjanti. ",
-            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von enthaltsam Lebenden; oder dass er Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
+            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von enthaltsam Lebenden; oder dass er Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
             "en": "People follow their example, thinking that the senior mendicant is senior and has long gone forth. Or that they’re well-known, famous, with a large following that includes both laypeople and renunciates. Or that they receive robes, alms-food, lodgings, and medicines and supplies for the sick. Or that they’re very learned, remembering and keeping what they’ve learned. ",
             "matched": true
           },
           "an5.88:4.4": {
             "scid": "an5.88:4.4",
             "pli": "lābhī hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ; ",
-            "de": "Er erhält Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Er erhält Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "They receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an5.88:4.7": {
             "scid": "an5.88:4.7",
             "pli": "Thero bhikkhu rattaññū cirapabbajito itipissa diṭṭhānugatiṁ āpajjanti, ñāto thero bhikkhu yasassī sagahaṭṭhapabbajitānaṁ bahujanaparivāro itipissa diṭṭhānugatiṁ āpajjanti, lābhī thero bhikkhu cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ itipissa diṭṭhānugatiṁ āpajjanti, bahussuto thero bhikkhu sutadharo sutasannicayo itipissa diṭṭhānugatiṁ āpajjanti. ",
-            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von enthaltsam Lebenden; oder dass er Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
+            "de": "Die Menschen folgen seinem Beispiel in dem Gedanken, dass der Ordensälteste altehrwürdig und schon lange fortgezogen ist; oder dass er namhaft und berühmt ist und eine große Gefolgschaft hat, sowohl von Laien als auch von enthaltsam Lebenden; oder dass er Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält; oder dass er sehr gelehrt ist, dass er erinnert und behält, was er gehört hat. ",
             "en": "People follow their example, thinking that the senior mendicant is senior and has long gone forth. Or that they’re well-known, famous, with a large following that includes both laypeople and renunciates. Or that they receive robes, alms-food, lodgings, and medicines and supplies for the sick. Or that they’re very learned, remembering and keeping what they’ve learned. ",
             "matched": true
           }
@@ -1483,7 +1558,7 @@
           "an5.78:2.4": {
             "scid": "an5.78:2.4",
             "pli": "Byādhitena kho pana byādhinā abhibhūtena na sukaraṁ buddhānaṁ sāsanaṁ manasi kātuṁ, na sukarāni araññavanapatthāni pantāni senāsanāni paṭisevituṁ. ",
-            "de": "Wenn man <span class=\"scv-matched\">krank</span> ist, von <span class=\"scv-matched\">Krank</span>heit überwältigt, ist es nicht leicht, sich den Anweisungen der Buddhas zuzuwenden, und es ist nicht leicht, abgelegene Quartiere in der Wildnis und im Wald aufzusuchen. ",
+            "de": "Wenn man <span class=\"scv-matched\">krank</span> ist, von <span class=\"scv-matched\">Krank</span>heit überwältigt, ist es nicht leicht, sich den Anweisungen der Buddhas zuzuwenden, und es ist nicht leicht, eine abgelegene Unterkunft in der Wildnis und im Wald aufzusuchen. ",
             "en": "When you’re sick, overcome by sickness, it’s not easy to focus on the instructions of the Buddhas, and it’s not easy to frequent remote lodgings in the wilderness and the forest. ",
             "matched": true
           },
@@ -1582,14 +1657,14 @@
           "an5.127:1.3": {
             "scid": "an5.127:1.3",
             "pli": "Idha, bhikkhave, bhikkhu asantuṭṭho hoti itarītarena cīvarena, asantuṭṭho hoti itarītarena piṇḍapātena, asantuṭṭho hoti itarītarena senāsanena, asantuṭṭho hoti itarītarena gilānappaccayabhesajjaparikkhārena, kāmasaṅkappabahulo ca viharati. ",
-            "de": "Da ist ein Mönch nicht mit jeder Art von Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und er hat viele sinnliche Gedanken. ",
+            "de": "Da ist ein Mönch nicht mit jeder Art von Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und er hat viele sinnliche Gedanken. ",
             "en": "It’s when a mendicant is not content with any kind of robe, alms-food, lodging, and medicines and supplies for the sick. And they have a lot of sensual thoughts. ",
             "matched": true
           },
           "an5.127:2.3": {
             "scid": "an5.127:2.3",
             "pli": "Idha, bhikkhave, bhikkhu santuṭṭho hoti itarītarena cīvarena, santuṭṭho hoti itarītarena piṇḍapātena, santuṭṭho hoti itarītarena senāsanena, santuṭṭho hoti itarītarena gilānappaccayabhesajjaparikkhārena, nekkhammasaṅkappabahulo ca viharati. ",
-            "de": "Da ist ein Mönch mit jeder Art von Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und er hat viele Gedanken der Entsagung. ",
+            "de": "Da ist ein Mönch mit jeder Art von Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und er hat viele Gedanken der Entsagung. ",
             "en": "It’s when a mendicant is content with any kind of robe, alms-food, lodging, and medicines and supplies for the sick. And they think a lot about renunciation. ",
             "matched": true
           }
@@ -1628,14 +1703,14 @@
           "an5.128:1.3": {
             "scid": "an5.128:1.3",
             "pli": "Idha, bhikkhave, bhikkhu asantuṭṭho hoti itarītarena cīvarena, asantuṭṭho hoti itarītarena piṇḍapātena, asantuṭṭho hoti itarītarena senāsanena, asantuṭṭho hoti itarītarena gilānappaccayabhesajjaparikkhārena, anabhirato ca brahmacariyaṁ carati. ",
-            "de": "Da ist eine Nonne nicht mit jeder Art von Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und sie ist mit dem geistlichen Leben unzufrieden. ",
+            "de": "Da ist eine Nonne nicht mit jeder Art von Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und sie ist mit dem geistlichen Leben unzufrieden. ",
             "en": "It’s when a mendicant is not content with any kind of robe, alms-food, lodging, and medicines and supplies for the sick. And they lead the spiritual life dissatisfied. ",
             "matched": true
           },
           "an5.128:2.3": {
             "scid": "an5.128:2.3",
             "pli": "Idha, bhikkhave, bhikkhu santuṭṭho hoti itarītarena cīvarena, santuṭṭho hoti itarītarena piṇḍapātena, santuṭṭho hoti itarītarena senāsanena, santuṭṭho hoti itarītarena gilānappaccayabhesajjaparikkhārena, abhirato ca brahmacariyaṁ carati. ",
-            "de": "Da ist eine Nonne mit jeder Art von Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und sie ist mit dem geistlichen Leben zufrieden. ",
+            "de": "Da ist eine Nonne mit jeder Art von Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden, und sie ist mit dem geistlichen Leben zufrieden. ",
             "en": "It’s when a mendicant is content with any kind of robe, alms-food, lodging, and medicines and supplies for the sick. And they lead the spiritual life satisfied. ",
             "matched": true
           }
@@ -1667,21 +1742,21 @@
           "an3.140:4.6": {
             "scid": "an3.140:4.6",
             "pli": "Na kho pana lābhī hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Und sie erhält keine Roben, kein Almosen, kein Quartier und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Und sie erhält keine Roben, kein Almosen, keine Unterkunft und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "And they don’t receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an3.140:5.6": {
             "scid": "an3.140:5.6",
             "pli": "Na pana lābhī hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Aber sie erhält keine Roben, kein Almosen, kein Quartier und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Aber sie erhält keine Roben, kein Almosen, keine Unterkunft und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "But they don’t receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an3.140:6.6": {
             "scid": "an3.140:6.6",
             "pli": "Lābhī kho pana hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Und sie erhält Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Und sie erhält Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "They receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           }
@@ -1713,21 +1788,21 @@
           "an3.141:4.6": {
             "scid": "an3.141:4.6",
             "pli": "Na kho pana lābhī hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Und er erhält keine Roben, kein Almosen, kein Quartier und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Und er erhält keine Roben, kein Almosen, keine Unterkunft und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "And they don’t receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an3.141:5.6": {
             "scid": "an3.141:5.6",
             "pli": "Na kho pana lābhī hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Aber er erhält keine Roben, kein Almosen, kein Quartier und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Aber er erhält keine Roben, kein Almosen, keine Unterkunft und keine Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "But they don’t receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an3.141:6.6": {
             "scid": "an3.141:6.6",
             "pli": "Lābhī kho pana hoti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Und er erhält Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Und er erhält Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "They receive robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           }
@@ -2138,14 +2213,14 @@
           "an5.104:2.2": {
             "scid": "an5.104:2.2",
             "pli": "Idha, bhikkhave, bhikkhu yācitova bahulaṁ cīvaraṁ paribhuñjati, appaṁ ayācito; yācitova bahulaṁ piṇḍapātaṁ paribhuñjati, appaṁ ayācito; yācitova bahulaṁ senāsanaṁ paribhuñjati, appaṁ ayācito; yācitova bahulaṁ gilānapaccayabhesajjaparikkhāraṁ paribhuñjati, appaṁ ayācito. ",
-            "de": "Es ist, wenn eine Nonne gewöhnlich Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur gebraucht, wenn sie dazu eingeladen wurde, selten ohne Einladung. ",
+            "de": "Es ist, wenn eine Nonne gewöhnlich Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur gebraucht, wenn sie dazu eingeladen wurde, selten ohne Einladung. ",
             "en": "It’s when a mendicant usually uses only what they’ve been invited to accept—robes, alms-food, lodgings, and medicines and supplies for the sick—rarely using them without invitation. ",
             "matched": true
           },
           "an5.104:3.2": {
             "scid": "an5.104:3.2",
             "pli": "Ahañhi, bhikkhave, yācitova bahulaṁ cīvaraṁ paribhuñjāmi, appaṁ ayācito; yācitova bahulaṁ piṇḍapātaṁ paribhuñjāmi, appaṁ ayācito; yācitova bahulaṁ senāsanaṁ paribhuñjāmi, appaṁ ayācito; yācitova bahulaṁ gilānapaccayabhesajjaparikkhāraṁ paribhuñjāmi, appaṁ ayācito. ",
-            "de": "Denn gewöhnlich gebrauche ich Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur, wenn ich dazu eingeladen wurde … ",
+            "de": "Denn gewöhnlich gebrauche ich Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur, wenn ich dazu eingeladen wurde … ",
             "en": "For I usually use only what I’ve been invited to accept. ",
             "matched": true
           }
@@ -2177,7 +2252,7 @@
           "an4.60:2.3": {
             "scid": "an4.60:2.3",
             "pli": "Idha, gahapati, ariyasāvako bhikkhusaṅghaṁ paccupaṭṭhito hoti cīvarena, bhikkhusaṅghaṁ paccupaṭṭhito hoti piṇḍapātena, bhikkhusaṅghaṁ paccupaṭṭhito hoti senāsanena, bhikkhusaṅghaṁ paccupaṭṭhito hoti gilānappaccayabhesajjaparikkhārena. ",
-            "de": "Da versorgt ein edler Schüler den Saṅgha der Mönche und Nonnen mit Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
+            "de": "Da versorgt ein edler Schüler den Saṅgha der Mönche und Nonnen mit Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung. ",
             "en": "It’s when a noble disciple serves the mendicant Saṅgha with robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
@@ -2294,14 +2369,14 @@
           "an4.87:5.2": {
             "scid": "an4.87:5.2",
             "pli": "Idha, bhikkhave, bhikkhu yācitova bahulaṁ cīvaraṁ paribhuñjati, appaṁ ayācito; yācitova bahulaṁ piṇḍapātaṁ paribhuñjati, appaṁ ayācito; yācitova bahulaṁ senāsanaṁ paribhuñjati, appaṁ ayācito; yācitova bahulaṁ gilānappaccayabhesajjaparikkhāraṁ paribhuñjati, appaṁ ayācito. ",
-            "de": "Es ist, wenn eine Nonne gewöhnlich Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur gebraucht, wenn sie dazu eingeladen wurde, selten ohne Einladung. ",
+            "de": "Es ist, wenn eine Nonne gewöhnlich Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur gebraucht, wenn sie dazu eingeladen wurde, selten ohne Einladung. ",
             "en": "It’s when a mendicant usually uses only what they’ve been invited to accept—robes, alms-food, lodgings, and medicines and supplies for the sick—rarely using them without invitation. ",
             "matched": true
           },
           "an4.87:6.2": {
             "scid": "an4.87:6.2",
             "pli": "Ahañhi, bhikkhave, yācitova bahulaṁ cīvaraṁ paribhuñjāmi, appaṁ ayācito; yācitova bahulaṁ piṇḍapātaṁ paribhuñjāmi, appaṁ ayācito; yācitova bahulaṁ senāsanaṁ paribhuñjāmi, appaṁ ayācito; yācitova bahulaṁ gilānappaccayabhesajjaparikkhāraṁ paribhuñjāmi, appaṁ ayācito. ",
-            "de": "Denn gewöhnlich gebrauche ich Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur, wenn ich dazu eingeladen wurde … ",
+            "de": "Denn gewöhnlich gebrauche ich Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung nur, wenn ich dazu eingeladen wurde … ",
             "en": "For I usually use only what I’ve been invited to accept … ",
             "matched": true
           }
@@ -2333,14 +2408,14 @@
           "an5.176:2.1": {
             "scid": "an5.176:2.1",
             "pli": "“Tumhe kho, gahapati, bhikkhusaṅghaṁ paccupaṭṭhitā cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena. ",
-            "de": "„Hausbesitzer, ihr habt den Saṅgha der Mönche und Nonnen mit Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung versorgt. ",
+            "de": "„Hausbesitzer, ihr habt den Saṅgha der Mönche und Nonnen mit Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung versorgt. ",
             "en": "“Householders, you have supplied the mendicant Saṅgha with robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an5.176:3.4": {
             "scid": "an5.176:3.4",
             "pli": "‘tumhe kho, gahapati, bhikkhusaṅghaṁ paccupaṭṭhitā cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena. ",
-            "de": "‚Hausbesitzer, ihr habt den Saṅgha der Mönche und Nonnen mit Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung versorgt. ",
+            "de": "‚Hausbesitzer, ihr habt den Saṅgha der Mönche und Nonnen mit Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung versorgt. ",
             "en": "‘Householders, you have supplied the mendicant Saṅgha with robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           }
@@ -2411,14 +2486,14 @@
           "an3.99:2.7": {
             "scid": "an3.99:2.7",
             "pli": "Yesaṁ kho pana so paṭiggaṇhāti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhāraṁ, tesaṁ taṁ na mahapphalaṁ hoti na mahānisaṁsaṁ. ",
-            "de": "Alles, was er an Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält, ist für den Spender nicht fruchtbar oder segensreich. ",
+            "de": "Alles, was er an Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält, ist für den Spender nicht fruchtbar oder segensreich. ",
             "en": "Any robes, alms-food, lodgings, and medicines and supplies for the sick that they receive are not very fruitful or beneficial for the donor. ",
             "matched": true
           },
           "an3.99:5.6": {
             "scid": "an3.99:5.6",
             "pli": "Yesaṁ kho pana so paṭiggaṇhāti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhāraṁ, tesaṁ taṁ mahapphalaṁ hoti mahānisaṁsaṁ. ",
-            "de": "Alles, was er an Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält, ist für den Spender äußerst fruchtbar und segensreich. ",
+            "de": "Alles, was er an Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält, ist für den Spender äußerst fruchtbar und segensreich. ",
             "en": "Any robes, alms-food, lodgings, and medicines and supplies for the sick that they receive are very fruitful and beneficial for the donor. ",
             "matched": true
           }
@@ -2450,14 +2525,14 @@
           "an6.42:9.1": {
             "scid": "an6.42:9.1",
             "pli": "Idha panāhaṁ, nāgita, bhikkhuṁ passāmi gāmantavihāriṁ lābhiṁ cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Da sehe ich einen Mönch, der in der Nachbarschaft eines Dorfes lebt und Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält. ",
+            "de": "Da sehe ich einen Mönch, der in der Nachbarschaft eines Dorfes lebt und Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält. ",
             "en": "Take a mendicant who I see living in the neighborhood of a village receiving robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           },
           "an6.42:10.1": {
             "scid": "an6.42:10.1",
             "pli": "Idha panāhaṁ, nāgita, bhikkhuṁ passāmi āraññikaṁ lābhiṁ cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
-            "de": "Da sehe ich einen Mönch, der in der Wildnis lebt und Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält. ",
+            "de": "Da sehe ich einen Mönch, der in der Wildnis lebt und Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung erhält. ",
             "en": "Take a mendicant who I see in the wilderness receiving robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           }
@@ -2469,9 +2544,9 @@
         "title": "Nummerierte Lehrreden 6\n4. Gottheiten\n42. Mit Nāgita",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 61,
-          "de": 54,
-          "en": 59
+          "pli": 60,
+          "de": 53,
+          "en": 58
         }
       },
       {
@@ -2567,14 +2642,14 @@
           "mn33:13.2": {
             "scid": "mn33:13.2",
             "pli": "Idha, bhikkhave, bhikkhuṁ saddhā gahapatikā abhihaṭṭhuṁ pavārenti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārehi, tatra bhikkhu mattaṁ na jānāti paṭiggahaṇāya. ",
-            "de": "Da wird eine Nonne von einer Hausbesitzerin eingeladen, Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung anzunehmen, und sie kennt kein Maß beim Nehmen. ",
+            "de": "Da wird eine Nonne von einer Hausbesitzerin eingeladen, Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung anzunehmen, und sie kennt kein Maß beim Nehmen. ",
             "en": "It’s when a mendicant is invited by a householder to accept robes, alms-food, lodgings, and medicines and supplies for the sick, and that mendicant doesn’t know moderation in accepting. ",
             "matched": true
           },
           "mn33:26.2": {
             "scid": "mn33:26.2",
             "pli": "Idha, bhikkhave, bhikkhuṁ saddhā gahapatikā abhihaṭṭhuṁ pavārenti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārehi. ",
-            "de": "Da wird eine Nonne von einer Hausbesitzerin eingeladen, Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung anzunehmen, ",
+            "de": "Da wird eine Nonne von einer Hausbesitzerin eingeladen, Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung anzunehmen, ",
             "en": "It’s when a mendicant is invited by a householder to accept robes, alms-food, lodgings, and medicines and supplies for the sick, ",
             "matched": true
           }
@@ -2628,6 +2703,45 @@
           "pli": 125,
           "de": 124,
           "en": 124
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:1.5.9": {
+            "scid": "dn21:1.5.9",
+            "pli": "Āturasseva bhesajjaṁ, ",
+            "de": "Wie Arznei, wenn man <span class=\"scv-matched\">krank</span> darniederliegt, ",
+            "en": "Like a cure when you’re struck by fever dire, ",
+            "matched": true
+          },
+          "dn21:2.7.1": {
+            "scid": "dn21:2.7.1",
+            "pli": "“Ejā, bhante, rogo, ejā gaṇḍo, ejā sallaṁ, ejā imaṁ purisaṁ parikaḍḍhati tassa tasseva bhavassa abhinibbattiyā. ",
+            "de": "„Leidenschaft, Herr, ist eine <span class=\"scv-matched\">Krank</span>heit, ein Eiterherd, ein Pfeil. Leidenschaft zieht einen Menschen zur Wiedergeburt von einem Leben zum anderen. ",
+            "en": "“Passion, sir, is a disease, an abscess, a dart. Passion drags a person to be reborn in life after life. ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
         }
       },
       {
@@ -2773,7 +2887,7 @@
           "an5.109:1.5": {
             "scid": "an5.109:1.5",
             "pli": "santuṭṭho hoti itarītaracīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārena; ",
-            "de": "Sie ist mit jeder Art von Roben, Almosen, Quartier sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden. ",
+            "de": "Sie ist mit jeder Art von Roben, Almosen, Unterkunft sowie Arznei und <span class=\"scv-matched\">Krank</span>enversorgung zufrieden. ",
             "en": "They’re content with any kind of robes, alms-food, lodgings, and medicines and supplies for the sick. ",
             "matched": true
           }
@@ -2783,70 +2897,6 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 5\n11. Unbeschwert leben\n109. Alle vier Himmelsrichtungen",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 12,
-          "de": 11,
-          "en": 11
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.125_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.125_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.125_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.125",
-        "lang": "de",
-        "segMap": {
-          "an5.125:0.2": {
-            "scid": "an5.125:0.2",
-            "pli": "13. Gilānavagga ",
-            "de": "13. <span class=\"scv-matched\">Krank</span>e ",
-            "en": "13. Sick ",
-            "matched": true
-          }
-        },
-        "score": 1.083,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 5\n13. Kranke\n125. Langes Leben (1)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 12,
-          "de": 11,
-          "en": 11
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.126_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.126_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.126_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.126",
-        "lang": "de",
-        "segMap": {
-          "an5.126:0.2": {
-            "scid": "an5.126:0.2",
-            "pli": "13. Gilānavagga ",
-            "de": "13. <span class=\"scv-matched\">Krank</span>e ",
-            "en": "13. Sick ",
-            "matched": true
-          }
-        },
-        "score": 1.083,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 5\n13. Kranke\n126. Langes Leben (2)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 12,

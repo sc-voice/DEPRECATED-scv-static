@@ -51,7 +51,13 @@
       "translation/en/sujato/sutta/an/an4/an4.76_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
     ],
     "suttaRefs": [],
     "mlDocs": []

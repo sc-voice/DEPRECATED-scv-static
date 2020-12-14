@@ -32,11 +32,14 @@
     "pattern": "glück der vielen",
     "method": "phrase",
     "resultPattern": "\\bglück der vielen",
-    "segsMatched": 30,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.35_translation-en-sujato.json",
@@ -70,12 +73,16 @@
       "root/pli/ms/sutta/an/an1/an1.170-187_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
+      "dn19/de/sabbamitta",
       "an4.35/de/sabbamitta",
       "an1.150-169/de/sabbamitta",
       "an1.140-149/de/sabbamitta",
@@ -87,9 +94,63 @@
       "an2.32-41/de/sabbamitta",
       "an1.316-332/de/sabbamitta",
       "an1.170-187/de/sabbamitta",
+      "dn23/de/sabbamitta",
       "dn18/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn19",
+        "lang": "de",
+        "segMap": {
+          "dn19:5.2": {
+            "scid": "dn19:5.2",
+            "pli": "Yāvañca so bhagavā bahujanahitāya paṭipanno bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Wie sehr hat der Buddha zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span> gehandelt, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen? ",
+            "en": "about how much the Buddha has acted for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans? ",
+            "matched": true
+          },
+          "dn19:13.3": {
+            "scid": "dn19:13.3",
+            "pli": "Tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan’ti. ",
+            "de": "Zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen!‘ ",
+            "en": "That would be for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans!’ ",
+            "matched": true
+          },
+          "dn19:13.9": {
+            "scid": "dn19:13.9",
+            "pli": "Tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan’ti. ",
+            "de": "Zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen!‘ ",
+            "en": "That would be for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans!’ ",
+            "matched": true
+          },
+          "dn19:14.4": {
+            "scid": "dn19:14.4",
+            "pli": "Tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan’ti. ",
+            "de": "Zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen!‘ ",
+            "en": "That would be for the welfare and happiness of the people, out of compassion for the world, for the benefit, welfare, and happiness of gods and humans!’ ",
+            "matched": true
+          }
+        },
+        "score": 4.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 19\nDer Große Verwalter",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 559,
+          "de": 479,
+          "en": 558
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -608,7 +669,7 @@
           "dn18:20.2": {
             "scid": "dn18:20.2",
             "pli": "“taṁ kiṁ maññanti, bhonto devā tāvatiṁsā, yāvañca so bhagavā bahujanahitāya paṭipanno bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
-            "de": "„Was denken die guten Götter der Dreiunddreißig: Wie sehr hat der Buddha zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span> gehandelt, zum Vorteil, Nutzen und Glück von Göttern und Menschen? ",
+            "de": "„Was denken die guten Götter der Dreiunddreißig: Wie sehr hat der Buddha zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span> gehandelt, aus Anteilnahme für die Welt, zum Vorteil, Nutzen und Glück von Göttern und Menschen? ",
             "en": "“What do the good gods of the Thirty-Three think about how much the Buddha has acted for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans? ",
             "matched": true
           }
@@ -623,6 +684,38 @@
           "pli": 299,
           "de": 255,
           "en": 298
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "de",
+        "segMap": {
+          "dn23:13.34": {
+            "scid": "dn23:13.34",
+            "pli": "Yathā yathā kho, rājañña, samaṇabrāhmaṇā sīlavanto kalyāṇadhammā ciraṁ dīghamaddhānaṁ tiṭṭhanti tathā tathā bahuṁ puññaṁ pasavanti, bahujanahitāya ca paṭipajjanti bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Solange sie dableiben, schaffen gute Asketen und Brahmanen viel Verdienst und handeln zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "So long as they remain, good ascetics and brahmins make much merit, and act for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 23\nMit Pāyāsi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 715,
+          "de": 636,
+          "en": 713
         }
       }
     ]
