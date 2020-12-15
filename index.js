@@ -1,5 +1,5 @@
 module.exports = {
-    ExampleSeeker: require("./src/example-seeker"),
+    BilaraWeb: require("./src/bilara-web"),
     Examples: require("./api/examples.json"),
     SuttaDuration: require('./src/sutta-duration'),
 

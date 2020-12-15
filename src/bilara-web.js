@@ -2,15 +2,19 @@
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
     const examples = require('../api/examples.json');
+    const suidMap = require('../api/suid-map-bilara-data.json');
 
-    class ExampleSeeker {
+    class BilaraWeb {
         constructor(opts={}) {
             (opts.logger || logger).logInstance(this, opts);
             this.examples = opts.examples || examples;
+            this.suidMap = opts.suidMap || suidMap;
             this.lang = opts.lang || 'en';
             this.mj = new MerkleJson;
             this.maxResults = opts.maxResults==null ? 1000 : opts.maxResults;
             this.axios = opts.axios;
+            this.host = opts.host || 'https://raw.githubusercontent.com';
+            this.includeUnpublished = opts.includeUnpublished === true;
             let matchHighlight = this.matchHighlight = opts.matchHighlight ||
                 '<span class="scv-matched">$&</span>';
             this.highlightMatch = opts.highlightMatch || (match=>
@@ -94,6 +98,7 @@
                 `                return that.slowFind.call(that, args);`,
                 `            }`,
             ].join('\n');
+            let { includeUnpublished } = this;
             let key = {
               volume: "Seeker.callSlowFind",
               fbody,
@@ -111,7 +116,7 @@
                   minLang: lang === 'en' ? 2 : 3,
                   matchHighlight: this.matchHighlight,
                   types: [ "root", "translation" ],
-                  includeUnpublished: false,
+                  includeUnpublished,
                   sortLines: undefined, // These are not serialized
                   tipitakaCategories: undefined, // These are not serialized
               }],
@@ -193,8 +198,8 @@
             lang = lang || language || thisLang;
             minLang = minLang || 
                 (lang === 'en' || searchLang === 'en' ? 2 : 3);
-            pattern = ExampleSeeker.sanitizePattern(pattern);
-            pattern = ExampleSeeker.normalizePattern(pattern);
+            pattern = BilaraWeb.sanitizePattern(pattern);
+            pattern = BilaraWeb.normalizePattern(pattern);
             (showMatchesOnly == null) && (showMatchesOnly = true);
             languages = languages || [];
             (lang && !languages.includes(lang)) && languages.push(lang);
@@ -241,7 +246,7 @@
                 return that.slowFind.call(that, args);
             };
             var result;
-            if (this.isExample(pattern)) {
+            if (this.isExample(pattern, lang)) {
                 let guid = this.exampleGuid(pattern, lang);
                 let url = [
                     'https://raw.githubusercontent.com',
@@ -273,7 +278,7 @@
             let highlightMatch = this.highlightMatch;
             let reLang = this.reExample[lang];
             if (!reLang) {
-                return;
+                return segments;
             }
             return segments.map(seg=>{
                 let segLang = seg[lang];
@@ -286,8 +291,69 @@
             });
         }
 
+        async loadSuttaSegments({sutta_uid, lang='pli'}) {
+            let {
+                suidMap,
+                axios,
+                host,
+            } = this;
+            let includeUnpublished = lang === 'de' || this.includeUnpublished;
+            let segments;
+            let bilaraPaths = suidMap[sutta_uid] || {};
+            let bpKey = Object.keys(bilaraPaths).find(key=>key.includes(`/${lang}/`));
+            let bpSegs = bilaraPaths[bpKey];
+            if (bpSegs) { 
+                let branch = includeUnpublished ? 'unpublished' : 'published';
+                let url = `${host}/suttacentral/bilara-data/${branch}/${bpSegs}`;
+                try {
+                    let res = await axios.get(url);
+                    segments = res.data;
+                } catch(e) {
+                    this.info(`loadSuttaSegments(${sutta_uid}) ${url} => ${e.message}`);
+                }
+            } else {
+                this.info(`loadSuttaSegments(${sutta_uid}) not found lang:${lang}`);
+            }
+            return segments;
+        }
+
+        async loadSutta({sutta_uid, lang=this.lang}) { try {
+            var url = '';
+            let {
+                suidMap,
+                axios,
+                host,
+            } = this;
+            if (!(typeof lang === 'string')) {
+                throw new Error(`expected string lang:${lang}`);
+            }
+            let pli = await this.loadSuttaSegments({sutta_uid, lang:'pli'}) || {};
+            let segMap = Object.keys(pli).reduce((a,scid)=>{
+                a[scid] = {scid, pli:pli[scid]};
+                return a;
+            },{});
+            let langSegs = await this.loadSuttaSegments({sutta_uid, lang}) || {};
+            Object.keys(langSegs).forEach(scid=>{
+                segMap[scid] = segMap[scid] || { scid };
+                segMap[scid][lang] = langSegs[scid];
+            });
+            let segments = Object.keys(segMap).map(scid=>segMap[scid]);
+            segments = this.highlightExamples({segments, lang});
+            let titleSegs = segments.filter(s=>s.scid.includes(':0'));
+            let titles = titleSegs.map(s=>s[lang]||s.pli||'');
+            return {
+              sutta_uid,
+              lang,
+              titles,
+              segments,
+            };
+        } catch(e) {
+            console.warn(`loadSutta(${sutta_uid}) ${url}`, e.message);
+            throw e;
+        }}
+
     }
 
-    module.exports = exports.ExampleSeeker = ExampleSeeker;
+    module.exports = exports.BilaraWeb = BilaraWeb;
 
 })(typeof exports === "object" ? exports : (exports = {}));

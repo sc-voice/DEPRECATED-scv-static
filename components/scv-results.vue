@@ -186,7 +186,7 @@ export default {
         //:aria-label="`Found ${resultCount} sootas ${playlistDuration.aria}`"
         var tmplt = this.$t && this.$t('ariaFoundSuttas') || '';
         var text = tmplt
-            .replace("A_SEARCH", this.search)
+            .replace("A_SEARCH", this.$store.state.scv.search)
             .replace("A_RESULTCOUNT", this.resultCount)
             .replace("A_DURATION", this.duration);
         return text;
@@ -236,10 +236,10 @@ export default {
   },
   computed: {
     foundSuttas() {
-      let { resultCount, search, } = this;
+      let { resultCount, } = this;
       return this.$t && this.$t('foundSuttas')
         .replace(/A_RESULTCOUNT/,resultCount)
-        .replace(/A_SEARCH/, search);
+        .replace("A_SEARCH", this.$store.state.scv.search);
     },
     mlDocs() {
       return this.results.mlDocs || [];

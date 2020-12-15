@@ -27,7 +27,6 @@
               target="_blank">
               examples.json
             </a>. 
-            It emits the <code>search-text</code> event with the search text as its value
           </details>
         </v-expansion-panel-content>
       </v-expansion-panel>
@@ -42,7 +41,6 @@
           </v-sheet>
           <details><summary class="ex-more">...</summary>
             ScvResults displays multiple search results.
-            It listens for the <code>search-text</code> event.
           </details>
         </v-expansion-panel-content>
       </v-expansion-panel>

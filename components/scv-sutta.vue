@@ -104,6 +104,8 @@ header {
 }
 .scv-segment {
   margin-bottom: var(--scv-segment-margin-bottom);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 </style>

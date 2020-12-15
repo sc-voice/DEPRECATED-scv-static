@@ -25,7 +25,7 @@
 import Vue from 'vue';
 import examples from '../api/examples.json';
 const GITHUB = 'https://raw.githubusercontent.com';
-const ExampleSeeker = require('~/src/example-seeker');
+const BilaraWeb = require('~/src/bilara-web');
 
 export default {
   components: {
@@ -35,7 +35,6 @@ export default {
   data: function(){
     return {
       examples: null,
-      search: '',
       seeker: null,
     };
   },
@@ -53,58 +52,10 @@ export default {
       console.warn(`${e.message} => using default examples:${Object.keys(res.data)}`);
     }
     let axios = this.$axios;
-    this.seeker = new ExampleSeeker({axios});
+    this.seeker = new BilaraWeb({axios});
   },
   methods:{
-    async loadSutta(mld) { 
-      let {
-        sutta_uid,
-        bilaraPaths,
-      } = mld;
-      let host = 'https://raw.githubusercontent.com';
-      let bpSegs = bilaraPaths.filter(bp=>bp.startsWith('root'))[0] || bilaraPaths[0];
-      let segMap;
-      var url;
-      try {
-        this.$store.commit('scv/sutta', {sutta_uid, });
-        url = `${host}/suttacentral/bilara-data/published/${bpSegs}`;
-        let res = await this.$axios.get(url);
-        let json = res.data;
-        segMap = {}
-        Object.keys(json).forEach(scid=>segMap[scid] = {scid, pli:json[scid]});
-        var lang = 'pli';
-        for (let i=0; i < bilaraPaths.length; i++) { 
-          let bp = bilaraPaths[i];
-          if (bp === bpSegs) {
-            continue;
-          }
-          var url = `${host}/suttacentral/bilara-data/published/${bp}`;
-          lang = bp.split('/')[1];
-          let res = await this.$axios.get(url);
-          let json = res.data;
-          Object.keys(json).forEach(scid=>{
-            segMap[scid] = segMap[scid] || { scid };
-            segMap[scid][lang] = json[scid];
-          });
-        }
-        let segments = Object.keys(segMap).map(scid=>segMap[scid]);
-        segments = this.seeker.highlightExamples({segments, lang});
-        let sutta = {
-          sutta_uid,
-          lang,
-          titles: mld.title.split('\n'),
-          segments,
-        };
-        this.$store.commit('scv/sutta', sutta);
-        return sutta;
-      } catch(e) {
-        console.warn(`loadSutta(${mld.sutta_uid}) ${url}`, e.message);
-        throw e;
-      }
-    },
     async onSearchInput(pattern) { try {
-      console.log(`onSearchInput emit:${value}`);
-
       let noValue = {mlDocs:[]};
       let value = pattern && (await this.seeker.find({
         pattern, 
@@ -114,11 +65,11 @@ export default {
         mld.segments = Object.keys(mld.segMap).map(scid=>mld.segMap[scid]);
       });
       this.$store.commit('scv/searchResults', value);
-      this.$store.commit('scv/search', pattern);
       if (value.mlDocs.length === 1) {
-        await this.loadSutta(value.mlDocs[0]);
+        let { sutta_uid } = value.mlDocs[0];
+        let lang = this.$vuetify.lang.current;
+        this.$store.dispatch('scv/loadSutta', {sutta_uid, lang} );
       }
-      this.$emit("search-text", value);
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);
     }},
@@ -144,6 +95,10 @@ export default {
     },
   },
   computed: {
+    search: {
+        get: function() { return this.$store.state.scv.search },
+        set: function(value) { this.$store.commit('scv/search', value); },
+    },
     cssVars() {
       return {
         //"--seg-text-width": this.segTextWidth,
