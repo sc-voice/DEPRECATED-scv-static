@@ -2,9 +2,10 @@
   <div v-if="mlDocs.length === 0" class="text-h6 pl-2" >
     {{foundSuttas}}
   </div>
-  <details v-else-if="mlDocs.length" 
+  <vue-details v-else-if="mlDocs.length" 
     class="scv-results-details"
-    open> <!-- mlDocs -->
+    v-model="showResults"
+    > <!-- mlDocs -->
     <summary v-if="resultCount"
       class='text-subtitle-2 pt-1 pb-1'
       role="main"
@@ -19,13 +20,14 @@
     </summary>
     <v-card>
       <v-card-text>
-        <details 
+        <vue-details v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i" 
+          v-model="mld.showDetails"
           role="heading" aria-level="2"
-          v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i" 
         >
           <summary >
             <div class="scv-result-summary" >
               <div v-html="resultTitle(mld)" 
+                @click="clickResult(mld)"
                 class="scv-result-title"
               />
               <!--div class="caption" >{{mld.score}}</div-->
@@ -36,8 +38,10 @@
             </div><!-- scv-result-summary -->
           </summary>
           <div v-for="seg in mld.segments" :key="seg.scid">
-            <div v-html="seg.pli" class="scv-text-root"/>
-            <div v-html="seg[mld.lang]" class="scv-text-trans"/>
+            <div v-if="results.searchLang === 'pli'"
+                v-html="seg.pli" class="scv-text-root"/>
+            <div v-if="results.searchLang === mld.lang"
+                v-html="seg[mld.lang]" class="scv-text-trans"/>
           </div>
 
         <!--
@@ -120,20 +124,22 @@
             </div>
           </details>
           -->
-        </details><!-- search result i-->
+        </vue-details><!-- search result i-->
       </v-card-text>
     </v-card>
-  </details><!-- mlDocs -->
+  </vue-details><!-- mlDocs -->
 </template>
 
 <script>
 import Vue from 'vue';
 import examples from '../api/examples.json';
+import VueDetails from 'vue-details';
 const GITHUB = 'https://raw.githubusercontent.com';
 const SuttaDuration = require('~/src/sutta-duration');
 
 export default {
   components: {
+    VueDetails,
   },
   props: {
     width: {
@@ -146,6 +152,7 @@ export default {
       examples: null,
       search: '',
       suttaDuration: null,
+      showResults: true,
     };
   },
   async mounted() {
@@ -165,6 +172,9 @@ export default {
     this.suttaDuration = await new SuttaDuration({axios}).initialize();
   },
   methods:{
+    resultOpen(mld) {
+      return mld.sutta_uid === this.$store.state.scv.sutta.sutta_uid;
+    },
     suttaId(mld) {
       let { sutta_uid } = mld;
       if (/th.g/.test(sutta_uid)) {
@@ -232,6 +242,12 @@ export default {
       return sd
         ? this.durationDisplay(sd.duration(mld.sutta_uid))
         : 0;
+    },
+    clickResult(mld) {
+      let { sutta_uid, lang } = mld;
+      if (!mld.showDetails) {
+          this.$store.dispatch('scv/loadSutta', {sutta_uid, lang});
+      }
     },
   },
   computed: {

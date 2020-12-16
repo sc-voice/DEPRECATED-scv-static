@@ -15,6 +15,7 @@
             this.axios = opts.axios;
             this.host = opts.host || 'https://raw.githubusercontent.com';
             this.includeUnpublished = opts.includeUnpublished === true;
+            this.suttaCache = {};
             let matchHighlight = this.matchHighlight = opts.matchHighlight ||
                 '<span class="scv-matched">$&</span>';
             this.highlightMatch = opts.highlightMatch || (match=>
@@ -323,7 +324,13 @@
                 suidMap,
                 axios,
                 host,
+                suttaCache,
             } = this;
+            let key = [sutta_uid, lang].join('/');
+            let sutta = suttaCache[key];
+            if (sutta) {
+                return sutta;
+            }
             if (!(typeof lang === 'string')) {
                 throw new Error(`expected string lang:${lang}`);
             }
@@ -341,7 +348,7 @@
             segments = this.highlightExamples({segments, lang});
             let titleSegs = segments.filter(s=>s.scid.includes(':0'));
             let titles = titleSegs.map(s=>s[lang]||s.pli||'');
-            return {
+            return suttaCache[key] = {
               sutta_uid,
               lang,
               titles,

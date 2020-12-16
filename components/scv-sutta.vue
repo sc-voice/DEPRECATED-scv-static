@@ -1,10 +1,8 @@
 <template>
-  <div v-if="!!sutta"
-    class="pl-2"
-  >
+  <div v-if="!!sutta" class="pl-2" >
     <header>
-      <div class="text-h6">{{sutta.sutta_uid}}</div>
-      <div class="scv-division">
+      <scv-sutta-history />
+      <div class="scv-division mt-5">
         <div class="scv-division-root">{{title(0).pli}}</div>
         <div class="scv-division-trans">{{title(0)[lang]}}</div>
       </div>
@@ -27,9 +25,11 @@
 </template>
 
 <script>
+import ScvSuttaHistory from './scv-sutta-history'
 
 export default {
   components: {
+    ScvSuttaHistory,
   },
   props: {
   },
