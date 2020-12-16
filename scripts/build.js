@@ -43,7 +43,7 @@ logger.logLevel = 'warn';
     let examples = bilaraData.examples;
     for (let lang in examples) {
         for (let eg of examples[lang]) {
-            var res = await skr.find({
+            var res = eg && await skr.find({
                 pattern: eg,
                 lang,
                 matchHighlight,

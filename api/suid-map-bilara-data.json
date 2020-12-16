@@ -6997,6 +6997,17 @@
     "reference/pli/ms": "reference/pli/ms/sutta/dn/dn23_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/dn/dn23_variant-pli-ms.json"
   },
+  "dn24": {
+    "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+    "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/dn/dn24_comment-de-sabbamitta.json",
+    "translation/en/sujato": "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/dn/dn24_comment-en-sujato.json",
+    "translation/my/my-team": "translation/my/my-team/sutta/dn/dn24_translation-my-my-team.json",
+    "root/pli/ms": "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/dn/dn24_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/dn/dn24_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/dn/dn24_variant-pli-ms.json"
+  },
   "dn33": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
     "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/dn/dn33_comment-de-sabbamitta.json",
@@ -14833,15 +14844,6 @@
     "html/pli/ms": "html/pli/ms/sutta/dn/dn22_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/dn/dn22_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/dn/dn22_variant-pli-ms.json"
-  },
-  "dn24": {
-    "translation/en/sujato": "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
-    "comment/en/sujato": "comment/en/sujato/sutta/dn/dn24_comment-en-sujato.json",
-    "translation/my/my-team": "translation/my/my-team/sutta/dn/dn24_translation-my-my-team.json",
-    "root/pli/ms": "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/dn/dn24_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/dn/dn24_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/dn/dn24_variant-pli-ms.json"
   },
   "dn25": {
     "translation/en/sujato": "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",

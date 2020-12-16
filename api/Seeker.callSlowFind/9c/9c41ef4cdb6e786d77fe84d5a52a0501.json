@@ -1,0 +1,341 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "pañcasikha",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "pañcasikha",
+    "method": "phrase",
+    "resultPattern": "\\bpañcasikha",
+    "segsMatched": 26,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn21/de/sabbamitta",
+      "dn19/de/sabbamitta",
+      "dn20/de/sabbamitta",
+      "dn18/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:1.2.1": {
+            "scid": "dn21:1.2.1",
+            "pli": "Atha kho sakko devānamindo <span class=\"scv-matched\">pañcasikha</span>ṁ gandhabbadevaputtaṁ āmantesi: ",
+            "de": "Da wandte sich Sakka an den Elf <span class=\"scv-matched\">Pañcasikha</span>: ",
+            "en": "Then Sakka addressed the fairy <span class=\"scv-matched\">Pañcasikha</span>, ",
+            "matched": true
+          },
+          "dn21:1.2.2": {
+            "scid": "dn21:1.2.2",
+            "pli": "“ayaṁ, tāta <span class=\"scv-matched\">pañcasikha</span>, bhagavā magadhesu viharati pācīnato rājagahassa ambasaṇḍā nāma brāhmaṇagāmo, tassuttarato vediyake pabbate indasālaguhāyaṁ. ",
+            "de": "„Lieber <span class=\"scv-matched\">Pañcasikha</span>, der Buddha hält sich im Land der Magadher auf, in der Indasāla-Höhle am Berg Vediyaka. ",
+            "en": "“Dear <span class=\"scv-matched\">Pañcasikha</span>, the Buddha is staying in the land of the Magadhans at the Indasāla cave. ",
+            "matched": true
+          },
+          "dn21:1.2.4": {
+            "scid": "dn21:1.2.4",
+            "pli": "“Evaṁ, bhaddantavā”ti kho pañcasikho gandhabbadevaputto sakkassa devānamindassa paṭissutvā beluvapaṇḍuvīṇaṁ ādāya sakkassa devānamindassa anucariyaṁ upāgami. ",
+            "de": "„Ja, Herr“, antwortete der Elf <span class=\"scv-matched\">Pañcasikha</span>. Er nahm seine Harfe aus hellem Belbaumholz und ging als Sakkas Begleiter mit. ",
+            "en": "“Yes, lord,” replied the fairy <span class=\"scv-matched\">Pañcasikha</span>. Taking his arched harp made from the pale timber of wood-apple, he went as Sakka’s attendant. ",
+            "matched": true
+          },
+          "dn21:1.2.5": {
+            "scid": "dn21:1.2.5",
+            "pli": "Atha kho sakko devānamindo devehi tāvatiṁsehi parivuto pañcasikhena gandhabbadevaputtena purakkhato—",
+            "de": "Dann ging Sakka an der Spitze einer Gefolgschaft aus den Göttern der Dreiunddreißig und dem Elf <span class=\"scv-matched\">Pañcasikha</span>. ",
+            "en": "Then Sakka went at the head of a retinue consisting of the gods of the Thirty-Three and the fairy <span class=\"scv-matched\">Pañcasikha</span>. ",
+            "matched": true
+          },
+          "dn21:1.4.1": {
+            "scid": "dn21:1.4.1",
+            "pli": "Atha kho sakko devānamindo <span class=\"scv-matched\">pañcasikha</span>ṁ gandhabbadevaputtaṁ āmantesi: ",
+            "de": "Da wandte sich Sakka an den Elf <span class=\"scv-matched\">Pañcasikha</span>: ",
+            "en": "Then Sakka addressed the fairy <span class=\"scv-matched\">Pañcasikha</span>, ",
+            "matched": true
+          },
+          "dn21:1.4.2": {
+            "scid": "dn21:1.4.2",
+            "pli": "“durupasaṅkamā kho, tāta <span class=\"scv-matched\">pañcasikha</span>, tathāgatā mādisena, jhāyī jhānaratā, tadantaraṁ paṭisallīnā. ",
+            "de": "„Mein lieber <span class=\"scv-matched\">Pañcasikha</span>, für jemanden wie mich ist es schwierig, in die Nähe von Klargewordenen zu gelangen, während sie sich in Klausur befinden und Vertiefung üben und Vertiefung genießen. ",
+            "en": "“My dear <span class=\"scv-matched\">Pañcasikha</span>, it’s hard for one like me to get near the Realized Ones while they are on retreat practicing absorption, enjoying absorption. ",
+            "matched": true
+          },
+          "dn21:1.4.4": {
+            "scid": "dn21:1.4.4",
+            "pli": "“Evaṁ, bhaddantavā”ti kho pañcasikho gandhabbadevaputto sakkassa devānamindassa paṭissutvā beluvapaṇḍuvīṇaṁ ādāya yena indasālaguhā tenupasaṅkami; upasaṅkamitvā: ",
+            "de": "„Ja, Herr“, antwortete der Elf <span class=\"scv-matched\">Pañcasikha</span>. Er nahm seine Harfe aus hellem Belbaumholz und ging zur Indasāla-Höhle. Als er nahe herangekommen war, stellte er sich zur Seite hin und dachte: ",
+            "en": "“Yes, lord,” replied the fairy <span class=\"scv-matched\">Pañcasikha</span>. Taking his arched harp made from the pale timber of wood-apple, he went to the Indasāla cave. When he had drawn near, he stood to one side, thinking, ",
+            "matched": true
+          },
+          "dn21:1.4.7.0": {
+            "scid": "dn21:1.4.7.0",
+            "pli": "1. <span class=\"scv-matched\">Pañcasikha</span>gītagāthā ",
+            "de": "1. <span class=\"scv-matched\">Pañcasikha</span>s Lied ",
+            "en": "1. <span class=\"scv-matched\">Pañcasikha</span>’s Song ",
+            "matched": true
+          },
+          "dn21:1.4.8": {
+            "scid": "dn21:1.4.8",
+            "pli": "Ekamantaṁ ṭhito kho pañcasikho gandhabbadevaputto beluvapaṇḍuvīṇaṁ assāvesi, imā ca gāthā abhāsi buddhūpasañhitā dhammūpasañhitā saṅghūpasañhitā arahantūpasañhitā kāmūpasañhitā: ",
+            "de": "<span class=\"scv-matched\">Pañcasikha</span> stand an der Seite, schlug seine Harfe und sang diese Strophen über den Buddha, die Lehre, den Saṅgha, die Vollendeten und die sinnliche Liebe: ",
+            "en": "Standing to one side, <span class=\"scv-matched\">Pañcasikha</span> played his arched harp, and sang these verses on the Buddha, the teaching, the Saṅgha, the perfected ones, and sensual love. ",
+            "matched": true
+          },
+          "dn21:1.6.1": {
+            "scid": "dn21:1.6.1",
+            "pli": "Evaṁ vutte, bhagavā <span class=\"scv-matched\">pañcasikha</span>ṁ gandhabbadevaputtaṁ etadavoca: ",
+            "de": "Als <span class=\"scv-matched\">Pañcasikha</span> geendet hatte, sagte der Buddha zu ihm: ",
+            "en": "When <span class=\"scv-matched\">Pañcasikha</span> had spoken, the Buddha said to him, ",
+            "matched": true
+          },
+          "dn21:1.6.2": {
+            "scid": "dn21:1.6.2",
+            "pli": "“saṁsandati kho te, <span class=\"scv-matched\">pañcasikha</span>, tantissaro gītassarena, gītassaro ca tantissarena; ",
+            "de": "„<span class=\"scv-matched\">Pañcasikha</span>, der Klang der Saiten und der Klang deiner Stimme sind gut aufeinander abgestimmt, ",
+            "en": "“<span class=\"scv-matched\">Pañcasikha</span>, the sound of the strings and the sound of your voice blend well together, ",
+            "matched": true
+          },
+          "dn21:1.8.2": {
+            "scid": "dn21:1.8.2",
+            "pli": "“paṭisammodati pañcasikho gandhabbadevaputto bhagavatā, bhagavā ca pañcasikhenā”ti. ",
+            "de": "„<span class=\"scv-matched\">Pañcasikha</span> tauscht mit dem Buddha Höflichkeiten aus.“ ",
+            "en": "“<span class=\"scv-matched\">Pañcasikha</span> is exchanging pleasantries with the Buddha.” ",
+            "matched": true
+          },
+          "dn21:1.8.3": {
+            "scid": "dn21:1.8.3",
+            "pli": "Atha kho sakko devānamindo <span class=\"scv-matched\">pañcasikha</span>ṁ gandhabbadevaputtaṁ āmantesi: ",
+            "de": "Und er wandte sich an <span class=\"scv-matched\">Pañcasikha</span>: ",
+            "en": "So he addressed <span class=\"scv-matched\">Pañcasikha</span>, ",
+            "matched": true
+          },
+          "dn21:1.8.4": {
+            "scid": "dn21:1.8.4",
+            "pli": "“abhivādehi me tvaṁ, tāta <span class=\"scv-matched\">pañcasikha</span>, bhagavantaṁ: ",
+            "de": "„Mein lieber <span class=\"scv-matched\">Pañcasikha</span>, bitte verbeuge dich für mich vor dem Buddha und sage: ",
+            "en": "“My dear <span class=\"scv-matched\">Pañcasikha</span>, please bow to the Buddha for me, saying: ",
+            "matched": true
+          },
+          "dn21:1.8.6": {
+            "scid": "dn21:1.8.6",
+            "pli": "“Evaṁ, bhaddantavā”ti kho pañcasikho gandhabbadevaputto sakkassa devānamindassa paṭissutvā bhagavantaṁ abhivādeti: ",
+            "de": "„Ja, Herr“, antwortete <span class=\"scv-matched\">Pañcasikha</span>. Er verbeugte sich vor dem Buddha und sagte: ",
+            "en": "“Yes, lord,” replied <span class=\"scv-matched\">Pañcasikha</span>. He bowed to the Buddha and said, ",
+            "matched": true
+          },
+          "dn21:1.8.8": {
+            "scid": "dn21:1.8.8",
+            "pli": "“Evaṁ sukhī hotu, <span class=\"scv-matched\">pañcasikha</span>, sakko devānamindo sāmacco saparijano; ",
+            "de": "„Dass Sakka mit seinen Dienern und seinem Gefolge glücklich sei, <span class=\"scv-matched\">Pañcasikha</span>“, sagte der Buddha, ",
+            "en": "“So may Sakka with his ministers and retinue be happy, <span class=\"scv-matched\">Pañcasikha</span>,” said the Buddha, ",
+            "matched": true
+          },
+          "dn21:1.8.13": {
+            "scid": "dn21:1.8.13",
+            "pli": "Pañcasikhopi gandhabbadevaputto indasālaguhaṁ pavisitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. ",
+            "de": "und auch <span class=\"scv-matched\">Pañcasikha</span> taten ebenso. ",
+            "en": "as did <span class=\"scv-matched\">Pañcasikha</span>. ",
+            "matched": true
+          },
+          "dn21:2.10.1": {
+            "scid": "dn21:2.10.1",
+            "pli": "Atha kho sakko devānamindo <span class=\"scv-matched\">pañcasikha</span>ṁ gandhabbaputtaṁ āmantesi: ",
+            "de": "Dann wandte sich Sakka an den Elf <span class=\"scv-matched\">Pañcasikha</span>: ",
+            "en": "Then Sakka addressed the fairy <span class=\"scv-matched\">Pañcasikha</span>, ",
+            "matched": true
+          },
+          "dn21:2.10.2": {
+            "scid": "dn21:2.10.2",
+            "pli": "“bahūpakāro kho mesi tvaṁ, tāta <span class=\"scv-matched\">pañcasikha</span>, yaṁ tvaṁ bhagavantaṁ paṭhamaṁ pasādesi. ",
+            "de": "„Lieber <span class=\"scv-matched\">Pañcasikha</span>, du hast mir sehr geholfen, indem du zuerst den Buddha bezaubert hast, ",
+            "en": "“Dear <span class=\"scv-matched\">Pañcasikha</span>, you were very helpful to me, since you first charmed the Buddha, ",
+            "matched": true
+          }
+        },
+        "score": 19.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 19,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn19",
+        "lang": "de",
+        "segMap": {
+          "dn19:1.3": {
+            "scid": "dn19:1.3",
+            "pli": "Atha kho pañcasikho gandhabbaputto abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ gijjhakūṭaṁ pabbataṁ obhāsetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho pañcasikho gandhabbaputto bhagavantaṁ etadavoca: ",
+            "de": "Da kam spät in der Nacht der Elf <span class=\"scv-matched\">Pañcasikha</span>, der die Geierkuppe weithin erhellte, zum Buddha, verbeugte sich, stellte sich zur Seite hin und sagte zu ihm: ",
+            "en": "Then, late at night, the fairy <span class=\"scv-matched\">Pañcasikha</span>, lighting up the entire Vulture’s Peak, went up to the Buddha, bowed, stood to one side, and said to him, ",
+            "matched": true
+          },
+          "dn19:1.5": {
+            "scid": "dn19:1.5",
+            "pli": "“Ārocehi me tvaṁ, pañcasikhā”ti bhagavā avoca. ",
+            "de": "„Berichte es mir, <span class=\"scv-matched\">Pañcasikha</span>“, sagte der Buddha. ",
+            "en": "“Tell me, <span class=\"scv-matched\">Pañcasikha</span>,” said the Buddha. ",
+            "matched": true
+          },
+          "dn19:28.3": {
+            "scid": "dn19:28.3",
+            "pli": "Atha, bhante, brahmā sanaṅkumāro oḷārikaṁ attabhāvaṁ abhinimminitvā kumāravaṇṇī hutvā pañcasikho devānaṁ tāvatiṁsānaṁ pāturahosi. ",
+            "de": "Dann nahm der Brahmā Sanaṅkumāra eine feste körperliche Gestalt an; er nahm die Gestalt des jungen <span class=\"scv-matched\">Pañcasikha</span> an und erschien den Göttern der Dreiunddreißig. ",
+            "en": "Then Brahmā Sanaṅkumāra manifested in a solid corporeal form, taking on the appearance of the youth <span class=\"scv-matched\">Pañcasikha</span>, and appeared to the gods of the Thirty-Three. ",
+            "matched": true
+          },
+          "dn19:61.1": {
+            "scid": "dn19:61.1",
+            "pli": "“Sarāmahaṁ, <span class=\"scv-matched\">pañcasikha</span>. ",
+            "de": "„Ich erinnere mich, <span class=\"scv-matched\">Pañcasikha</span>. ",
+            "en": "“I remember, <span class=\"scv-matched\">Pañcasikha</span>. ",
+            "matched": true
+          },
+          "dn19:62.7": {
+            "scid": "dn19:62.7",
+            "pli": "Attamano pañcasikho gandhabbaputto bhagavato bhāsitaṁ abhinanditvā anumoditvā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyīti. ",
+            "de": "Entzückt begrüßte der Elf <span class=\"scv-matched\">Pañcasikha</span> die Worte des Buddha und stimmte ihm zu. Er verbeugte er sich, umrundete den Buddha respektvoll, die rechte Seite ihm zugewandt, und verschwand von dort, wo er stand. ",
+            "en": "Delighted, the fairy <span class=\"scv-matched\">Pañcasikha</span> approved and agreed with what the Buddha said. He bowed and respectfully circled the Buddha, keeping him on his right, before vanishing right there. ",
+            "matched": true
+          }
+        },
+        "score": 5.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 19\nDer Große Verwalter",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 559,
+          "de": 479,
+          "en": 558
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn18",
+        "lang": "de",
+        "segMap": {
+          "dn18:18.3": {
+            "scid": "dn18:18.3",
+            "pli": "Atha, bhante, brahmā sanaṅkumāro oḷārikaṁ attabhāvaṁ abhinimminitvā kumāravaṇṇī hutvā pañcasikho devānaṁ tāvatiṁsānaṁ pāturahosi. ",
+            "de": "Dann nahm der Brahmā Sanaṅkumāra eine feste körperliche Gestalt an; er nahm die Gestalt des jungen <span class=\"scv-matched\">Pañcasikha</span> an und erschien den Göttern der Dreiunddreißig. ",
+            "en": "Then Brahmā Sanaṅkumāra manifested in a solid corporeal form, taking on the appearance of the youth <span class=\"scv-matched\">Pañcasikha</span>, and appeared to the gods of the Thirty-Three. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 18\nMit Janavasabha\n1. Bekanntgabe, wo Menschen aus Nādika und anderen Orten wiedergeboren wurden",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 255,
+          "en": 298
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn20",
+        "lang": "de",
+        "segMap": {
+          "dn20:10.11": {
+            "scid": "dn20:10.11",
+            "pli": "Āgā pañcasikho ceva, ",
+            "de": "sowie <span class=\"scv-matched\">Pañcasikha</span>, ",
+            "en": "as well as <span class=\"scv-matched\">Pañcasikha</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 20\nDie große Zusammenkunft",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 337,
+          "de": 334,
+          "en": 336
+        }
+      }
+    ]
+  }
+}

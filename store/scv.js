@@ -78,7 +78,6 @@ export const actions = {
             bilaraWeb = new BilaraWeb({axios});
         }
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
-        console.log(`dbg store.loadSutta sutta:`, sutta, payload);
         context.commit('sutta', sutta);
     }
 }

@@ -54,7 +54,10 @@
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.57/de/sabbamitta"

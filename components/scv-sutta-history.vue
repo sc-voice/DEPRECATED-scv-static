@@ -36,7 +36,6 @@ export default {
         let { history, $store } = this;
         let h = history.find(h=>h.sutta_uid===sutta_uid);
         let updateHistory = false;
-        console.log(`dbg clickSutta`,{sutta_uid, updateHistory});
         $store.dispatch('scv/loadSutta', {sutta_uid, updateHistory});
     },
   },

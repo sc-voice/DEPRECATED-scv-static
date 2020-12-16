@@ -1,0 +1,80 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "don.t fear good deeds",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "don.t fear good deeds",
+    "method": "phrase",
+    "resultPattern": "\\bdon.t fear good deeds",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.62/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.62",
+        "lang": "en",
+        "segMap": {
+          "an7.62:0.3": {
+            "scid": "an7.62:0.3",
+            "pli": "62. Mettasutta ",
+            "en": "62. <span class=\"scv-matched\">Don’t Fear Good Deeds</span> ",
+            "matched": true
+          },
+          "an7.62:1.1": {
+            "scid": "an7.62:1.1",
+            "pli": "“Mā, bhikkhave, puññānaṁ bhāyittha. ",
+            "en": "“Mendicants, <span class=\"scv-matched\">don’t fear good deeds</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n6. The Undeclared Points\n62. Don’t Fear Good Deeds",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 60,
+          "en": 59
+        }
+      }
+    ]
+  }
+}

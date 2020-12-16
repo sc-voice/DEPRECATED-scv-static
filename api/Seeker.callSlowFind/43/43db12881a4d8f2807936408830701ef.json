@@ -1,0 +1,159 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "vertrauen und liebe",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "vertrauen und liebe",
+    "method": "keywords",
+    "resultPattern": "\\bvertrauen|\\bund|\\bliebe",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.167_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.235_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.235_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.235_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.25_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.30/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.30",
+        "lang": "de",
+        "segMap": {
+          "an6.30:2.5": {
+            "scid": "an6.30:2.5",
+            "pli": "Yo ca kho, bhikkhave, tathāgataṁ vā tathāgatasāvakaṁ vā dassanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, dassanānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgataṁ vā tathāgatasāvakaṁ vā dassanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+            "de": "Das unübertreffliche Sehen ist, wenn jemand, der im <span class=\"scv-matched\">Vertrauen</span> <span class=\"scv-matched\">und</span> in der <span class=\"scv-matched\">Liebe</span> verankert ist, sicher <span class=\"scv-matched\">und</span> zuversichtlich, irgendwo hingeht, um einen Klargewordenen oder die Schülerin eines Klargewordenen zu sehen: um die Wesen zu läutern, Kummer <span class=\"scv-matched\">und</span> Weinen zu überwinden, Schmerz <span class=\"scv-matched\">und</span> Traurigkeit ein Ende zu machen, den Kreislauf des Leidens zu beenden <span class=\"scv-matched\">und</span> das Erlöschen zu verwirklichen. ",
+            "en": "The unsurpassable seeing is when someone with settled faith and love, sure and devoted, goes to see a Realized One or their disciple. This is in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to end the cycle of suffering, and to realize extinguishment. ",
+            "matched": true
+          },
+          "an6.30:3.5": {
+            "scid": "an6.30:3.5",
+            "pli": "Yo ca kho, bhikkhave, tathāgatassa vā tathāgatasāvakassa vā dhammassavanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, savanānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgatassa vā tathāgatasāvakassa vā dhammassavanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+            "de": "Das unübertreffliche Hören ist, wenn jemand, der im <span class=\"scv-matched\">Vertrauen</span> <span class=\"scv-matched\">und</span> in der <span class=\"scv-matched\">Liebe</span> verankert ist, sicher <span class=\"scv-matched\">und</span> zuversichtlich, irgendwo hingeht, um einen Klargewordenen oder die Schülerin eines Klargewordenen zu hören … ",
+            "en": "The unsurpassable hearing is when someone with settled faith and love, sure and devoted, goes to hear the teaching of a Realized One or one of his disciples. … ",
+            "matched": true
+          },
+          "an6.30:4.5": {
+            "scid": "an6.30:4.5",
+            "pli": "Yo ca kho, bhikkhave, tathāgate vā tathāgatasāvake vā saddhaṁ paṭilabhati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, lābhānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgate vā tathāgatasāvake vā saddhaṁ paṭilabhati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+            "de": "Der unübertreffliche Gewinn ist, wenn jemand, der im <span class=\"scv-matched\">Vertrauen</span> <span class=\"scv-matched\">und</span> in der <span class=\"scv-matched\">Liebe</span> verankert ist, sicher <span class=\"scv-matched\">und</span> zuversichtlich, <span class=\"scv-matched\">Vertrauen</span> zu einem Klargewordenen oder der Schülerin eines Klargewordenen gewinnt … ",
+            "en": "The unsurpassable acquisition is when someone with settled faith and love, sure and devoted, acquires faith in a Realized One or their disciple. … ",
+            "matched": true
+          },
+          "an6.30:5.5": {
+            "scid": "an6.30:5.5",
+            "pli": "Yo ca kho, bhikkhave, tathāgatappavedite dhammavinaye adhisīlampi sikkhati, adhicittampi sikkhati, adhipaññampi sikkhati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, sikkhānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgatappavedite dhammavinaye adhisīlampi sikkhati, adhicittampi sikkhati, adhipaññampi sikkhati, niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+            "de": "Die unübertreffliche Übung ist, wenn jemand, der im <span class=\"scv-matched\">Vertrauen</span> <span class=\"scv-matched\">und</span> in der <span class=\"scv-matched\">Liebe</span> verankert ist, sicher <span class=\"scv-matched\">und</span> zuversichtlich, sich in der hohen Ethik, dem hohen Geist <span class=\"scv-matched\">und</span> der hohen Weisheit übt, die von einem Klargewordenen verkündet wurden … ",
+            "en": "The unsurpassable training is when someone with settled faith and love, sure and devoted, trains in the higher ethics, the higher mind, and the higher wisdom in the teaching and training proclaimed by a Realized One. … ",
+            "matched": true
+          },
+          "an6.30:6.5": {
+            "scid": "an6.30:6.5",
+            "pli": "Yo ca kho, bhikkhave, tathāgataṁ vā tathāgatasāvakaṁ vā paricarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, pāricariyānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgataṁ vā tathāgatasāvakaṁ vā paricarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+            "de": "Der unübertreffliche Dienst ist, wenn jemand, der im <span class=\"scv-matched\">Vertrauen</span> <span class=\"scv-matched\">und</span> in der <span class=\"scv-matched\">Liebe</span> verankert ist, sicher <span class=\"scv-matched\">und</span> zuversichtlich, einem Klargewordenen oder der Schülerin eines Klargewordenen dient … ",
+            "en": "The unsurpassable service is when someone with settled faith and love, sure and devoted, serves a Realized One or their disciple. … ",
+            "matched": true
+          },
+          "an6.30:7.5": {
+            "scid": "an6.30:7.5",
+            "pli": "Yo ca kho, bhikkhave, tathāgataṁ vā tathāgatasāvakaṁ vā anussarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, anussatīnaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgataṁ vā tathāgatasāvakaṁ vā anussarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+            "de": "Die unübertreffliche Besinnung ist, wenn jemand, der im <span class=\"scv-matched\">Vertrauen</span> <span class=\"scv-matched\">und</span> in der <span class=\"scv-matched\">Liebe</span> verankert ist, sicher <span class=\"scv-matched\">und</span> zuversichtlich, sich auf einen Klargewordenen oder auf die Schülerin eines Klargewordenen besinnt: um die Wesen zu läutern, Kummer <span class=\"scv-matched\">und</span> Weinen zu überwinden, Schmerz <span class=\"scv-matched\">und</span> Traurigkeit ein Ende zu machen, den Kreislauf des Leidens zu beenden <span class=\"scv-matched\">und</span> das Erlöschen zu verwirklichen. ",
+            "en": "The unsurpassable recollection is when someone with settled faith and love, sure and devoted, recollects a Realized One or their disciple. … ",
+            "matched": true
+          }
+        },
+        "score": 6.09,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n3. Unübertrefflich\n30. Unübertrefflich",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 67,
+          "de": 60,
+          "en": 65
+        }
+      }
+    ]
+  }
+}
