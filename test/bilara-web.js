@@ -13,7 +13,7 @@
     it("default ctor", ()=>{
         let skr = new BilaraWeb();
         should(skr.logLevel).equal(false);
-        should.deepEqual(Object.keys(skr.examples), ['de','en']);
+        should.deepEqual(Object.keys(skr.examples), ['de','en','ja']);
     });
     it("custom ctor", ()=>{
         let examples = {
