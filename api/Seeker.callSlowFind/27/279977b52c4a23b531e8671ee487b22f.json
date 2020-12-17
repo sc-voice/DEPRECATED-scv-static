@@ -29,7 +29,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "suicide",
-    "method": "keywords",
+    "method": "phrase",
     "resultPattern": "\\bsuicide",
     "segsMatched": 0,
     "bilaraPaths": [],
