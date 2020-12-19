@@ -12,7 +12,10 @@
             this.lang = opts.lang || 'en';
             this.mj = new MerkleJson;
             this.maxResults = opts.maxResults==null ? 1000 : opts.maxResults;
-            this.axios = opts.axios;
+            if (opts.fetch == null) {
+                throw new Error('BilaraWeb() fetch callback is required');
+            }
+            this.fetch = opts.fetch;
             this.host = opts.host || 'https://raw.githubusercontent.com';
             this.includeUnpublished = opts.includeUnpublished === true;
             this.suttaCache = {};
@@ -234,7 +237,7 @@
 
         async find(...args) { try {
             var {
-                axios,
+                fetch,
                 findMemo,
                 memoizer,
             } = this;
@@ -260,8 +263,8 @@
                     `${guid}.json`,
                 ].join('/');
                 try {
-                    let res = await axios.get(url);
-                    result = res.data.value;
+                    let res = await fetch(url, {headers:{Accept: 'text/plain'}});
+                    result = (await res.json()).value;
                 } catch(e) {
                     let err = new Error(`${url} => ${e.message}`);
                     throw err;
@@ -295,7 +298,7 @@
         async loadSuttaSegments({sutta_uid, lang='pli'}) {
             let {
                 suidMap,
-                axios,
+                fetch,
                 host,
             } = this;
             let includeUnpublished = lang === 'de' || this.includeUnpublished;
@@ -307,8 +310,8 @@
                 let branch = includeUnpublished ? 'unpublished' : 'published';
                 let url = `${host}/suttacentral/bilara-data/${branch}/${bpSegs}`;
                 try {
-                    let res = await axios.get(url);
-                    segments = res.data;
+                    let res = await fetch(url, {headers:{Accept:'text/plain'}});
+                    segments = await res.json();
                 } catch(e) {
                     this.info(`loadSuttaSegments(${sutta_uid}) ${url} => ${e.message}`);
                 }
@@ -322,7 +325,6 @@
             var url = '';
             let {
                 suidMap,
-                axios,
                 host,
                 suttaCache,
             } = this;

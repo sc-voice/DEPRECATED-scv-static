@@ -39,8 +39,7 @@ export default {
   async mounted() {
     let { $vuetify, $store, } = this;
     $store.dispatch('scv/loadExamples');
-    let axios = this.$axios;
-    this.seeker = new BilaraWeb({axios});
+    this.seeker = new BilaraWeb({fetch});
   },
   methods:{
     async onSearchInput(pattern) { try {

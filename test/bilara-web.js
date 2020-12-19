@@ -9,23 +9,30 @@
     const { logger, LogInstance } = require('log-instance');
     const axios = require('axios');
     logger.logLevel = 'warn';
+    const fetch = async function(url,opts){ 
+        return {
+            async json() {
+                let res = await axios.get(url, opts);
+                return res.data;
+            }
+        }
+    }
 
-    it("default ctor", ()=>{
-        let skr = new BilaraWeb();
-        should(skr.logLevel).equal(false);
-        should.deepEqual(Object.keys(skr.examples), ['de','en','ja']);
+    it("TESTTESTdefault ctor", ()=>{
+        should.throws(()=>new BilaraWeb());
     });
-    it("custom ctor", ()=>{
+    it("TESTTESTcustom ctor", ()=>{
         let examples = {
             de:[],
             en:[],
         };
-        let skr = new BilaraWeb({examples, axios});
+        let skr = new BilaraWeb({examples, fetch});
         should(skr.examples).equal(examples);
-        should(skr.axios).equal(axios);
+        should(skr.fetch).equal(fetch);
     });
-    it("isExample", async()=>{
+    it("TESTTESTisExample", async()=>{
         var skr = new BilaraWeb({
+            fetch,
             lang: 'en', // English default
         });
         should(skr.isExample('root of suffering')).equal(true);
@@ -37,22 +44,22 @@
         should(skr.isExample('Wurzel des Leidens', 'de')).equal(true);
         should(skr.isExample('wurzel des leidens', 'de')).equal(true);
     });
-    it("exampleGuid(...) => en guid", async()=>{
-        let skr = new BilaraWeb();
+    it("TESTTESTexampleGuid(...) => en guid", async()=>{
+        let skr = new BilaraWeb({fetch});
         let example = 'root of suffering';
         let lang = 'en';
         let guid = 'f0f933e47f162a7a7824c1378804efbf';
         should(skr.exampleGuid(example, lang)).equal(guid);
     });
-    it("exampleGuid(...) => de guid", async()=>{
-        let skr = new BilaraWeb();
+    it("TESTTESTexampleGuid(...) => de guid", async()=>{
+        let skr = new BilaraWeb({fetch});
         let example = 'sei.* abhängig entstanden';
         let lang = 'de';
         let guid = 'e68b92c404fbf58e108917ab8d493c03';
         should(skr.exampleGuid(example, lang)).equal(guid);
     });
     it("find(...) finds example", async()=>{
-        var skr = new BilaraWeb({axios});
+        var skr = new BilaraWeb({fetch});
 
         var pattern = "root of suffering"; 
         var res = await skr.find({
@@ -76,7 +83,7 @@
                 'perception',
             ],
         };
-        var skr = new BilaraWeb({axios, examples});
+        var skr = new BilaraWeb({fetch, examples});
         should(skr.isExample('perception')).equal(true);
         let segments = [
             {scid: 'sn12.23:1.5', pli: 'iti vedanā …pe…', en: 'Such is feeling …',},
@@ -103,11 +110,11 @@
                 'perception',
             ],
         };
-        var skr = new BilaraWeb({axios, examples});
+        var skr = new BilaraWeb({fetch, examples});
         should(skr.exampleOfMatch("Is a good Feeling")).equal(examples.en[0]);
     });
     it("loadSuttaSegments(...) returns sutta", async ()=>{
-        var skr = new BilaraWeb({axios});
+        var skr = new BilaraWeb({fetch});
         //skr.logLevel = 'info';
         let pli = await skr.loadSuttaSegments({sutta_uid:'an9.2'});
         should(pli['an9.2:0.1']).match(/Aṅguttara Nikāya 9/);
@@ -119,7 +126,7 @@
         should(nosuid).equal(undefined);
     });
     it("loadSutta(...) returns sutta", async ()=>{
-        let skr = new BilaraWeb({axios});
+        let skr = new BilaraWeb({fetch});
         let sutta_uid = 'an3.128';
         let lang = 'de';
         let sutta = await skr.loadSutta({sutta_uid, lang});
@@ -141,7 +148,8 @@
         ]);
     });
     it("TESTTESTloadSutta(...) returns sutta fallback", async ()=>{
-        let skr = new BilaraWeb({axios});
+        let skr = new BilaraWeb({fetch});
+        //skr.logLevel = 'info';
 
         // Empty sutta fallback
         let sutta_uid = 'nosutta';

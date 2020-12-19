@@ -84,26 +84,24 @@ export const mutations = {
 
 export const actions = {
     async loadSutta (context, payload) {
-        let { $axios: axios } = this;
         let { sutta_uid, lang='en', updateHistory } = payload;
         context.commit('sutta_uid', {sutta_uid, lang, updateHistory});
 
         if (!bilaraWeb) {
-            bilaraWeb = new BilaraWeb({axios});
+            bilaraWeb = new BilaraWeb({fetch});
         }
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
         context.commit('sutta', sutta);
     },
     async loadExamples({state, commit}) {
         if (state.examplesLoaded) { return; }
-        let { $axios: axios } = this;
         const GITHUB = 'https://raw.githubusercontent.com';
         let url = `${GITHUB}/sc-voice/scv-static/main/api/examples.json?s=store`;
         let eg = examples;
         try {
             let headers = { Accept: 'text/plain', };
-            let res = await this.$axios.get(url, { headers, });
-            eg = (typeof res.data === 'string') ? JSON.parse(res.data) : res.data;
+            let res = await fetch(url, headers);
+            eg = await res.json();
             commit('examples', eg);
         } catch(e) {
             console.warn(`$store.state.scv.loadExamples()`,

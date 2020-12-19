@@ -4,9 +4,16 @@
     const {
         SuttaDuration,
     } = require('../index');
+    const fetch = async function(url,opts){ 
+        return {
+            async json() {
+                let res = await axios.get(url, opts);
+                return res.data;
+            }
+        }
+    }
 
-
-    const suttaDuration = new SuttaDuration({axios});
+    const suttaDuration = new SuttaDuration({fetch});
     const TOLERANCE = 33;
 
     function testTolerance(actual, expected, e = TOLERANCE) {

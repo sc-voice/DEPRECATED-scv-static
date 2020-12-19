@@ -154,8 +154,7 @@ export default {
     };
   },
   async mounted() {
-    let axios = this.$axios;
-    this.suttaDuration = await new SuttaDuration({axios}).initialize();
+    this.suttaDuration = await new SuttaDuration({fetch}).initialize();
   },
   methods:{
     resultOpen(mld) {

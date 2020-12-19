@@ -12,17 +12,19 @@
             (opts.logger || logger).logInstance(this, opts);
             this.language = opts.language || 'en';
             this.voice = opts.voice || 'amy';
-            this.axios = opts.axios;
+            if (typeof opts.fetch !== 'function') {
+                throw new Error('SuttaDuration() fetch callback is required');
+            }
+            this.fetch = opts.fetch;
         }
 
         async initialize() { try {
             if (this.initialized) { return this; }
 
-            let {
-                axios,
-            } = this;
-            let res = await axios.get(SUID_DURATION_URL);
-            this.suidMap = res.data;
+            let url = SUID_DURATION_URL;
+            let fetch = this.fetch;
+            let res = await fetch(url, {headers:{Accept:'text/plain'}});
+            this.suidMap = await res.json();
             this.initialized = true;
             return this;
         } catch(e) {
