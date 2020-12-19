@@ -5,7 +5,11 @@
     > {{previous.sutta_uid}} </v-btn>
     <v-btn v-else disabled icon > <chevron-left /> </v-btn>
 
+    <v-spacer/>
+
     <v-btn text > {{current.sutta_uid}}</v-btn>
+
+    <v-spacer/>
 
     <v-btn v-if="next" small text
         @click="clickSutta(next.sutta_uid)"

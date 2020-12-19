@@ -3,16 +3,16 @@
     <header>
       <scv-sutta-history />
       <div class="scv-division mt-5">
-        <div class="scv-division-root">{{title(0).pli}}</div>
-        <div class="scv-division-trans">{{title(0)[lang]}}</div>
+        <div class="scv-division-root" v-html="title(0).pli" />
+        <div class="scv-division-trans" v-html="title(0)[lang]" />
       </div>
       <div class="scv-division">
-        <div class="scv-division-root">{{title(1).pli}}</div>
-        <div class="scv-division-trans">{{title(1)[lang]}}</div>
+        <div class="scv-division-root" v-html="title(1).pli" />
+        <div class="scv-division-trans" v-html="title(1)[lang]" />
       </div>
       <div class="scv-sutta-title">
-        <div class="scv-sutta-title-root">{{title(2).pli}}</div>
-        <div class="scv-sutta-title-trans">{{title(2)[lang]}}</div>
+        <div class="scv-sutta-title-root" v-html="title(2).pli" />
+        <div class="scv-sutta-title-trans" v-html="title(2)[lang]" />
       </div>
     </header>
     <div class="scv-text-container">
@@ -90,7 +90,7 @@ export default {
 }
 .scv-sutta-title-trans {
   xfont-variant-caps: small-caps; /* ugly without SC font */
-  font-feature-settings: normal; /* vs. smcp */
+  xfont-feature-settings: normal; /* vs. smcp */
   font-family: var(--scv-serif-font);
 }
 header {

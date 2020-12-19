@@ -2,7 +2,7 @@
 :root {
   --scv-text-width: 720px;
   --scv-text-line-height: 1.5;
-  --scv-sutta-title-font-size: 36.16px;
+  --scv-sutta-title-font-size: 28px;
   --scv-division-title-font-size: 18.08px;
   --scv-header-margin-bottom: 64px;
   --scv-segment-margin-bottom: 0.5em;
@@ -16,7 +16,7 @@
 @media(width < 600px) {
   :root {
     --scv-text-line-height: 1.4;
-    --scv-sutta-title-font-size: 24px;
+    --scv-sutta-title-font-size: 20px;
     --scv-division-title-font-size: 16px;
     --scv-header-margin-bottom: 32px;
     --scv-segment-margin-bottom: 0.3em;
