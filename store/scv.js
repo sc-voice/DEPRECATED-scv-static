@@ -58,8 +58,10 @@ export const mutations = {
         console.log(`$store.state.scv.sutta_uid:`, value); 
     },
     search(state, value) {
-        state.search = value;
-        console.log(`$store.state.scv.search:`, value);
+        if (value !== state.search) {
+            console.log(`$store.state.scv.search:`, value);
+            state.search = value;
+        }
     },
     searchResults(state, value) {
         state.searchResults = value;
