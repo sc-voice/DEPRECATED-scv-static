@@ -1,4 +1,5 @@
 import BilaraWeb from '../src/bilara-web';
+const examples = require('../api/examples.json');
 
 var bilaraWeb;
 
@@ -10,6 +11,7 @@ export const DEFAULT = {
         segments: [
             {scid: '...', pli: '...', en: '...'}
         ],
+        examples,
     }}
 }
 
@@ -31,6 +33,8 @@ export const state = () => ({
     },
     sutta: DEFAULT.sutta,
     suttaHistory: [],
+    examples: Object.assign({}, DEFAULT.examples),
+    examplesLoaded: false,
 })
 
 export const mutations = {
@@ -66,6 +70,14 @@ export const mutations = {
         Object.assign(state.settings, value);
         console.log(`$store.state.scv.settings:`, value);
     },
+    examples(state, value) {
+        Object.assign(state.examples, value);
+        console.log(`$store.state.scv.examples:`, value);
+    },
+    examplesLoaded(state, value){
+        state.examplesLoaded = value;
+        console.log(`$store.state.scv.examplesLoaded:`, value);
+    },
 }
 
 export const actions = {
@@ -79,5 +91,24 @@ export const actions = {
         }
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
         context.commit('sutta', sutta);
-    }
+    },
+    async loadExamples({state, commit}) {
+        if (state.examplesLoaded) { return; }
+        let { $axios: axios } = this;
+        const GITHUB = 'https://raw.githubusercontent.com';
+        let url = `${GITHUB}/sc-voice/scv-static/main/api/examples.json?s=store`;
+        let eg = examples;
+        try {
+            let headers = { Accept: 'text/plain', };
+            let res = await this.$axios.get(url, { headers, });
+            eg = (typeof res.data === 'string') ? JSON.parse(res.data) : res.data;
+            commit('examples', eg);
+        } catch(e) {
+            console.warn(`$store.state.scv.loadExamples()`,
+                `using default examples:${Object.keys(eg)}`, 
+                `${url} =>`, e.message);
+        } finally {
+            commit('examplesLoaded', true);
+        }
+    },
 }

@@ -98,8 +98,6 @@ export default {
     };
   },
   mounted() {
-    let { $vuetify } = this;
-    console.log(`dbg index mounted`, Object.keys($vuetify), $vuetify.lang);
   },
   methods:{
     search(value) {

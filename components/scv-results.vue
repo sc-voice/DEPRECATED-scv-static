@@ -132,7 +132,6 @@
 
 <script>
 import Vue from 'vue';
-import examples from '../api/examples.json';
 import VueDetails from 'vue-details';
 const GITHUB = 'https://raw.githubusercontent.com';
 const SuttaDuration = require('~/src/sutta-duration');
@@ -149,25 +148,12 @@ export default {
   },
   data: function(){
     return {
-      examples: null,
       search: '',
       suttaDuration: null,
       showResults: true,
     };
   },
   async mounted() {
-    let { $vuetify, } = this;
-    let lang = ($vuetify.lang.current||'noLanguage').split('-')[0];
-    let url = `${GITHUB}/sc-voice/scv-static/main/api/examples.json`;
-    let exLang = `no-examples ${lang}`;
-    try {
-      let res = await this.$axios.get(url);
-      Vue.set(this, 'examples', res.data);
-      console.log(`examples loaded: ${Object.keys(res.data)}`);
-    } catch(e) {
-      Vue.set(this, 'examples', examples);
-      console.warn(`${e.message} => using default examples:${Object.keys(res.data)}`);
-    }
     let axios = this.$axios;
     this.suttaDuration = await new SuttaDuration({axios}).initialize();
   },

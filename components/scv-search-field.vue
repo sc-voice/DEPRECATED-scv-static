@@ -1,5 +1,5 @@
 <template>
-  <div v-if="examples" class="pl-1">
+  <div v-if="displayable" class="pl-1">
     <v-autocomplete 
       ref="refSearchAuto"
       v-model="search"
@@ -23,7 +23,6 @@
 
 <script>
 import Vue from 'vue';
-import examples from '../api/examples.json';
 const GITHUB = 'https://raw.githubusercontent.com';
 const BilaraWeb = require('~/src/bilara-web');
 
@@ -34,23 +33,12 @@ export default {
   },
   data: function(){
     return {
-      examples: null,
       seeker: null,
     };
   },
   async mounted() {
-    let { $vuetify, } = this;
-    let lang = ($vuetify.lang.current||'noLanguage').split('-')[0];
-    let url = `${GITHUB}/sc-voice/scv-static/main/api/examples.json`;
-    let exLang = `no-examples ${lang}`;
-    try {
-      let res = await this.$axios.get(url);
-      Vue.set(this, 'examples', res.data);
-      console.log(`examples loaded: ${Object.keys(res.data)}`);
-    } catch(e) {
-      Vue.set(this, 'examples', examples);
-      console.warn(`${e.message} => using default examples:${Object.keys(res.data)}`);
-    }
+    let { $vuetify, $store, } = this;
+    $store.dispatch('scv/loadExamples');
     let axios = this.$axios;
     this.seeker = new BilaraWeb({axios});
   },
@@ -95,6 +83,12 @@ export default {
     },
   },
   computed: {
+    displayable() {
+        return !!this.$store.state.scv.examplesLoaded;
+    },
+    examples() {
+        return this.$store.state.scv.examples;
+    },
     search: {
         get: function() { return this.$store.state.scv.search },
         set: function(value) { this.$store.commit('scv/search', value); },
