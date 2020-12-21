@@ -1,5 +1,6 @@
 import BilaraWeb from '../src/bilara-web';
 const examples = require('../api/examples.json');
+import ScvSettings from '../src/scv-settings';
 
 var bilaraWeb;
 
@@ -18,19 +19,7 @@ export const DEFAULT = {
 export const state = () => ({
     search: '',
     searchResults: {},
-    settings: {
-        audio: 'ogg',
-        fullLine: true,
-        ips: 6,
-        lang: 'en',
-        locale: 'en',
-        maxResults: 5,
-        showId: false,
-        showLang: 2,
-        useCookies: true,
-        vnameRoot: 'Aditi',
-        vnameTrans: 'Amy',
-    },
+    settings: Object.assign({}, new ScvSettings()),
     sutta: DEFAULT.sutta,
     suttaHistory: [],
     examples: Object.assign({}, DEFAULT.examples),
@@ -110,5 +99,13 @@ export const actions = {
         } finally {
             commit('examplesLoaded', true);
         }
+    },
+    async loadSettings({state, commit}) {
+        let { $cookie, } = this;
+        let saved = $cookie.get('scv-settings');
+        let settings = Object.assign({}, new ScvSettings(saved||{}));
+        commit('settings', settings);
+
+        console.log(`dbg $cookie`, Object.keys($cookie));
     },
 }

@@ -18,10 +18,10 @@
         }
     }
 
-    it("TESTTESTdefault ctor", ()=>{
+    it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());
     });
-    it("TESTTESTcustom ctor", ()=>{
+    it("custom ctor", ()=>{
         let examples = {
             de:[],
             en:[],
@@ -30,7 +30,7 @@
         should(skr.examples).equal(examples);
         should(skr.fetch).equal(fetch);
     });
-    it("TESTTESTisExample", async()=>{
+    it("isExample", async()=>{
         var skr = new BilaraWeb({
             fetch,
             lang: 'en', // English default
@@ -44,14 +44,14 @@
         should(skr.isExample('Wurzel des Leidens', 'de')).equal(true);
         should(skr.isExample('wurzel des leidens', 'de')).equal(true);
     });
-    it("TESTTESTexampleGuid(...) => en guid", async()=>{
+    it("exampleGuid(...) => en guid", async()=>{
         let skr = new BilaraWeb({fetch});
         let example = 'root of suffering';
         let lang = 'en';
         let guid = 'f0f933e47f162a7a7824c1378804efbf';
         should(skr.exampleGuid(example, lang)).equal(guid);
     });
-    it("TESTTESTexampleGuid(...) => de guid", async()=>{
+    it("exampleGuid(...) => de guid", async()=>{
         let skr = new BilaraWeb({fetch});
         let example = 'sei.* abhängig entstanden';
         let lang = 'de';
@@ -147,7 +147,7 @@
             '128. Verdrießlich '
         ]);
     });
-    it("TESTTESTloadSutta(...) returns sutta fallback", async ()=>{
+    it("loadSutta(...) returns sutta fallback", async ()=>{
         let skr = new BilaraWeb({fetch});
         //skr.logLevel = 'info';
 

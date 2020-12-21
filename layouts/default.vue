@@ -79,10 +79,9 @@ export default {
       drawer: false,
       fixed: false,
       items: [
-        {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
+        { icon: 'mdi-home', title: 'Home #1', to: '/' },
+        { icon: 'mdi-home', title: 'Layout #1', to: '/layout1' },
+        { icon: 'mdi-apps', title: 'Components', to: '/components'
         },
         {
           icon: 'mdi-chart-bubble',

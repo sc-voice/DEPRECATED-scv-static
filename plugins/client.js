@@ -1,13 +1,7 @@
 import Vue from "vue"
+import VueCookie from "vue-cookie"
 
-export default ({ app }, inject) => {
-    let {
-        language = 'noNavigator-noNavigator',
-    } = navigator;
-    inject('g', {
-        language,
-    });
-
+export default (context, inject) => {
     let $t = function(key) {
         let { 
             $vuetify,
@@ -24,4 +18,5 @@ export default ({ app }, inject) => {
         : `$vuetify.lang.t(${key})`;
     }
     inject('t', $t);
+    inject('cookie', VueCookie);
 }

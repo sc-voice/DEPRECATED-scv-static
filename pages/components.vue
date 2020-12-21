@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-h5"> Home #1 </div>
+    <div class="text-h5"> Vue Components </div>
     <v-select :items="langItems" filled 
       v-model="$vuetify.lang.current" 
       label="Language" 

@@ -12,6 +12,8 @@
   --scv-accent-color: #882200; 
   --scv-accent-font-weight: 600;
   --scv-focus-color: #82B1FF;
+  --scv-background-color: #FFFFFF;
+  --scv-settings-width: 310px;
 }
 @media(width < 600px) {
   :root {

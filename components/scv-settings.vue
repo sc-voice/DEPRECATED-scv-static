@@ -22,14 +22,17 @@
           @click="clickDetails('lang', $event)"
           :open="showDetail('lang')"
         >
-          <summary class="scv-settings-title">
-            {{$vuetify.lang.t('$vuetify.scv.uiLanguage')}}
+          <summary >
+            <div class="scv-settings-title">
+                <div>{{$t('uiLanguage')}}</div>
+                <div>{{langLabel(settings.locale)}}</div>
+            </div>
           </summary>
           <div class="scv-settings">
-            <v-radio-group v-model="gscv.locale"
+            <v-radio-group v-model="settings.locale"
               @change="localeChanged()"
               column>
-            <v-radio v-for="lang in gscv.languages" 
+            <v-radio v-for="lang in settings.languages" 
               :key="`lang${lang.name}`"
               :disabled="lang.disabled"
               :label="lang.label" :value="lang.name" 
@@ -38,6 +41,7 @@
           </div>
         </details>
       </li>
+<div v-if="false">
       <li class="" role="none" >
         <details role="menuitem" 
           @click="clickDetails('trans', $event)"
@@ -200,13 +204,16 @@
           {{$vuetify.lang.t('$vuetify.close')}}
         </v-btn>
       </li>
+</div><!-- v-if false -->
     </ul> <!-- scv-more-menu -->
   </div> <!-- scv-more -->
 </template>
 
 <script>
+import Vue from "vue";
 import 'vue-material-design-icons/styles.css';
 import CogIcon from 'vue-material-design-icons/Cog.vue';
+const ScvSettings = require('../src/scv-settings');
 
 export default {
   components: {
@@ -217,16 +224,45 @@ export default {
   data: function(){
     return {
       moreVisible: false,
+      openDetail: null,
+      languages: ScvSettings.WEB_LANGUAGES,
+      moreFocus: null,
     };
   },
   async mounted() {
+    this.$store.dispatch('scv/loadSettings');
   },
   methods:{
+    clickDetails(id, evt) {
+      Vue.set(this, "openDetail", id === this.openDetail ? undefined : id);
+      evt.preventDefault();
+    },
+    showDetail(id) {
+      return this.openDetail === id;
+    },
+    langLabel(lang) {
+        return ScvSettings.langLabel(lang);
+    },
     clickSettings() {
-        console.log('dbg clickSettings');
+      console.log('dbg clickSettings');
+      Vue.set(this, "moreVisible", !this.moreVisible);
+    },
+    focusMore(focus) {
+      this.moreFocus = focus;
+      setTimeout(()=>{
+          if (!this.moreFocus) {
+              this.moreVisible = false;
+          }
+      }, 500);
+    },
+    clickBackdrop(){
+      this.focusMore(false);
     },
   },
   computed: {
+    settings() {
+      return this.$store.state.scv.settings;
+    },
     cssProps() {
         return {
             'margin': '0',
@@ -236,10 +272,40 @@ export default {
 }
 </script>
 <style>
+.scv-settings-title {
+    width: var(--scv-settings-width);
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 0.1em;
+    font-size: 120%;
+    font-weight: 500;
+}
+.scv-settings-title:focus {
+    border-color: #82B1FF;
+    outline: 1pt solid #82B1FF;
+}
+
 .scv-settings-icon {
 }
 .scv-settings-icon:focus > svg {
   background-color: $focus-color;
   margin-bottom: 5px;
+}
+.scv-more-menu {
+    position: absolute;
+    list-style: none;
+    top: 3em;
+    right: 0;
+    min-width: 23em;
+    text-align: left;
+    border-top: 1pt solid #888;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    border: 1pt solid #555;
+    border-right: 1pt solid #555;
+    border-bottom: 1pt solid #555;
+    border-radius: 2pt;
+    background-color: var(--scv-background-color);
 }
 </style>
