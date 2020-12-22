@@ -15929,6 +15929,31 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp1_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp1_reference.json"
   },
+  "kp2": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp2_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp2_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp2_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp2_reference.json"
+  },
+  "kp3": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp3_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/kp/kp3_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp3_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp3_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp3_reference.json"
+  },
+  "kp4": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp4_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp4_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp4_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp4_reference.json"
+  },
+  "kp5": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp5_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp5_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp5_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp5_reference.json"
+  },
   "snp3.1": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga3/snp3.1_translation-en-sujato.json",
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga3/snp3.1_root-pli-ms.json",
@@ -18315,6 +18340,13 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga4/ud4.9_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga4/ud4.9_reference.json"
   },
+  "ud5.10": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga5/ud5.10_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.10_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.10_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.10_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.10_variant-pli-ms.json"
+  },
   "ud5.1": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga5/ud5.1_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga5/ud5.1_comment-en-sujato.json",
@@ -18344,6 +18376,254 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.4_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.4_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.4_variant-pli-ms.json"
+  },
+  "ud5.5": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga5/ud5.5_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.5_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.5_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.5_variant-pli-ms.json"
+  },
+  "ud5.6": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga5/ud5.6_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.6_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.6_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.6_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.6_variant-pli-ms.json"
+  },
+  "ud5.7": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga5/ud5.7_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.7_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.7_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.7_reference.json"
+  },
+  "ud5.8": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga5/ud5.8_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.8_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.8_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.8_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.8_variant-pli-ms.json"
+  },
+  "ud5.9": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga5/ud5.9_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.9_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.9_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.9_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.9_variant-pli-ms.json"
+  },
+  "ud6.10": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.10_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.10_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.10_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.10_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.10_variant-pli-ms.json"
+  },
+  "ud6.1": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.1_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga6/ud6.1_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.1_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.1_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.1_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.1_variant-pli-ms.json"
+  },
+  "ud6.2": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.2_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga6/ud6.2_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.2_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.2_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.2_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.2_variant-pli-ms.json"
+  },
+  "ud6.3": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.3_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.3_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.3_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.3_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.3_variant-pli-ms.json"
+  },
+  "ud6.4": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.4_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.4_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.4_variant-pli-ms.json"
+  },
+  "ud6.5": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.5_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.5_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.5_variant-pli-ms.json"
+  },
+  "ud6.6": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.6_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.6_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.6_variant-pli-ms.json"
+  },
+  "ud6.7": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.7_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga6/ud6.7_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.7_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.7_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.7_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.7_variant-pli-ms.json"
+  },
+  "ud6.8": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.8_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.8_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.8_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.8_reference.json"
+  },
+  "ud6.9": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga6/ud6.9_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.9_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.9_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.9_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.9_variant-pli-ms.json"
+  },
+  "ud7.10": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.10_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.10_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.10_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.10_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.10_variant-pli-ms.json"
+  },
+  "ud7.1": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.1_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.1_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.1_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.1_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.1_variant-pli-ms.json"
+  },
+  "ud7.2": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.2_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.2_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.2_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.2_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.2_variant-pli-ms.json"
+  },
+  "ud7.3": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.3_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.3_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.3_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.3_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.3_variant-pli-ms.json"
+  },
+  "ud7.4": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.4_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.4_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.4_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.4_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.4_variant-pli-ms.json"
+  },
+  "ud7.5": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.5_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga7/ud7.5_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.5_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.5_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.5_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.5_variant-pli-ms.json"
+  },
+  "ud7.6": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.6_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.6_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.6_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.6_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.6_variant-pli-ms.json"
+  },
+  "ud7.7": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.7_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.7_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.7_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.7_reference.json"
+  },
+  "ud7.8": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.8_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.8_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.8_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.8_reference.json"
+  },
+  "ud7.9": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga7/ud7.9_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.9_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.9_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.9_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.9_variant-pli-ms.json"
+  },
+  "ud8.10": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.10_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.10_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.10_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.10_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.10_variant-pli-ms.json"
+  },
+  "ud8.1": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.1_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.1_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.1_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.1_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.1_variant-pli-ms.json"
+  },
+  "ud8.2": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.2_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.2_reference.json"
+  },
+  "ud8.3": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.3_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.3_reference.json"
+  },
+  "ud8.4": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.4_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga8/ud8.4_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.4_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.4_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.4_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.4_variant-pli-ms.json"
+  },
+  "ud8.5": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.5_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga8/ud8.5_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.5_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.5_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.5_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.5_variant-pli-ms.json"
+  },
+  "ud8.6": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga8/ud8.6_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.6_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.6_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.6_variant-pli-ms.json"
+  },
+  "ud8.7": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.7_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.7_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.7_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.7_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.7_variant-pli-ms.json"
+  },
+  "ud8.8": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.8_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/ud/vagga8/ud8.8_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.8_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.8_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.8_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.8_variant-pli-ms.json"
+  },
+  "ud8.9": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/ud/vagga8/ud8.9_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.9_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.9_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.9_variant-pli-ms.json"
   },
   "mn100": {
     "translation/en/sujato": "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
@@ -35234,26 +35514,6 @@
     "reference/pli/ms": "reference/pli/ms/sutta/kn/ja/ja9_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/ja/ja9_variant-pli-ms.json"
   },
-  "kp2": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp2_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp2_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp2_reference.json"
-  },
-  "kp3": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp3_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp3_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp3_reference.json"
-  },
-  "kp4": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp4_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp4_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp4_reference.json"
-  },
-  "kp5": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp5_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp5_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp5_reference.json"
-  },
   "kp6": {
     "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp6_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp6_html.json",
@@ -41463,216 +41723,6 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/thi-ap/thi-ap9_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/thi-ap/thi-ap9_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/thi-ap/thi-ap9_variant-pli-ms.json"
-  },
-  "ud5.10": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.10_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.10_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.10_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.10_variant-pli-ms.json"
-  },
-  "ud5.5": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.5_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.5_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.5_variant-pli-ms.json"
-  },
-  "ud5.6": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.6_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.6_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.6_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.6_variant-pli-ms.json"
-  },
-  "ud5.7": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.7_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.7_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.7_reference.json"
-  },
-  "ud5.8": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.8_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.8_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.8_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.8_variant-pli-ms.json"
-  },
-  "ud5.9": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga5/ud5.9_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga5/ud5.9_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga5/ud5.9_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga5/ud5.9_variant-pli-ms.json"
-  },
-  "ud6.10": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.10_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.10_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.10_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.10_variant-pli-ms.json"
-  },
-  "ud6.1": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.1_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.1_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.1_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.1_variant-pli-ms.json"
-  },
-  "ud6.2": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.2_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.2_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.2_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.2_variant-pli-ms.json"
-  },
-  "ud6.3": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.3_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.3_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.3_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.3_variant-pli-ms.json"
-  },
-  "ud6.4": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.4_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.4_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.4_variant-pli-ms.json"
-  },
-  "ud6.5": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.5_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.5_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.5_variant-pli-ms.json"
-  },
-  "ud6.6": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.6_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.6_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.6_variant-pli-ms.json"
-  },
-  "ud6.7": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.7_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.7_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.7_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.7_variant-pli-ms.json"
-  },
-  "ud6.8": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.8_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.8_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.8_reference.json"
-  },
-  "ud6.9": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga6/ud6.9_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga6/ud6.9_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga6/ud6.9_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga6/ud6.9_variant-pli-ms.json"
-  },
-  "ud7.10": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.10_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.10_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.10_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.10_variant-pli-ms.json"
-  },
-  "ud7.1": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.1_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.1_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.1_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.1_variant-pli-ms.json"
-  },
-  "ud7.2": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.2_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.2_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.2_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.2_variant-pli-ms.json"
-  },
-  "ud7.3": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.3_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.3_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.3_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.3_variant-pli-ms.json"
-  },
-  "ud7.4": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.4_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.4_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.4_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.4_variant-pli-ms.json"
-  },
-  "ud7.5": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.5_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.5_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.5_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.5_variant-pli-ms.json"
-  },
-  "ud7.6": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.6_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.6_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.6_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.6_variant-pli-ms.json"
-  },
-  "ud7.7": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.7_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.7_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.7_reference.json"
-  },
-  "ud7.8": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.8_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.8_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.8_reference.json"
-  },
-  "ud7.9": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga7/ud7.9_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga7/ud7.9_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga7/ud7.9_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga7/ud7.9_variant-pli-ms.json"
-  },
-  "ud8.10": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.10_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.10_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.10_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.10_variant-pli-ms.json"
-  },
-  "ud8.1": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.1_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.1_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.1_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.1_variant-pli-ms.json"
-  },
-  "ud8.2": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.2_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.2_reference.json"
-  },
-  "ud8.3": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.3_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.3_reference.json"
-  },
-  "ud8.4": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.4_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.4_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.4_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.4_variant-pli-ms.json"
-  },
-  "ud8.5": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.5_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.5_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.5_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.5_variant-pli-ms.json"
-  },
-  "ud8.6": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.6_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.6_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.6_variant-pli-ms.json"
-  },
-  "ud8.7": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.7_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.7_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.7_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.7_variant-pli-ms.json"
-  },
-  "ud8.8": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.8_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.8_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.8_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.8_variant-pli-ms.json"
-  },
-  "ud8.9": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/ud/vagga8/ud8.9_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/ud/vagga8/ud8.9_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/ud/vagga8/ud8.9_variant-pli-ms.json"
   },
   "vv10": {
     "root/pli/ms": "root/pli/ms/sutta/kn/vv/vv10_root-pli-ms.json",

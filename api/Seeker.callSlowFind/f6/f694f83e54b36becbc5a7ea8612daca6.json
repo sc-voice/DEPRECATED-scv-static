@@ -1,0 +1,259 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "einen gierigen geist",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "einen gierigen geist",
+    "method": "phrase",
+    "resultPattern": "\\beinen gierigen geist",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn10/de/sabbamitta",
+      "dn10/de/sabbamitta",
+      "an6.2/de/sabbamitta",
+      "an5.28/de/sabbamitta",
+      "an5.23/de/sabbamitta",
+      "an3.101/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.2",
+        "lang": "de",
+        "segMap": {
+          "an6.2:3.1": {
+            "scid": "an6.2:3.1",
+            "pli": "Parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajānāti. Sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajānāti, vītarāgaṁ vā cittaṁ … sadosaṁ vā cittaṁ … vītadosaṁ vā cittaṁ … samohaṁ vā cittaṁ … vītamohaṁ vā cittaṁ … saṅkhittaṁ vā cittaṁ … vikkhittaṁ vā cittaṁ … mahaggataṁ vā cittaṁ … amahaggataṁ vā cittaṁ … sauttaraṁ vā cittaṁ … anuttaraṁ vā cittaṁ … samāhitaṁ vā cittaṁ … asamāhitaṁ vā cittaṁ … vimuttaṁ vā cittaṁ … avimuttaṁ vā cittaṁ avimuttaṁ cittanti pajānāti. #3",
+            "de": "Sie erkennt den Geist anderer Wesen und Menschen, indem sie ihn mit ihrem Geist umfasst: Sie erkennt <span class=\"scv-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ und einen von Gier freien Geist als ‚von Gier freien Geist‘. Sie erkennt einen hasserfüllten Geist … einen von Hass freien Geist … einen Geist, der sich täuscht … einen von Täuschung freien Geist … einen eingeengten Geist … einen zerstreuten Geist … einen ausgedehnten Geist … einen nicht ausgedehnten Geist … einen Geist, der nicht am höchsten Punkt ist … einen Geist, der am höchsten Punkt ist … einen im Samādhi versunkenen Geist … einen nicht im Samādhi versunkenen Geist … Sie erkennt einen befreiten Geist als ‚befreiten Geist‘ und einen nicht befreiten Geist als ‚nicht befreiten Geist‘. ",
+            "en": "They understand the minds of other beings and individuals, having comprehended them with their own mind. They understand mind with greed as ‘mind with greed’, and mind without greed as ‘mind without greed’. They understand mind with hate … mind without hate … mind with delusion … mind without delusion … constricted mind … scattered mind … expansive mind … unexpansive mind … mind that is not supreme … mind that is supreme … mind immersed in samādhi … mind not immersed in samādhi … freed mind … They understand unfreed mind as ‘unfreed mind’. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n1. Einer Gabe würdig\n2. Einer Gabe würdig (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.23",
+        "lang": "de",
+        "segMap": {
+          "an5.23:5.2": {
+            "scid": "an5.23:5.2",
+            "pli": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajāneyyaṁ, vītarāgaṁ vā cittaṁ vītarāgaṁ cittanti pajāneyyaṁ, sadosaṁ vā cittaṁ sadosaṁ cittanti pajāneyyaṁ, vītadosaṁ vā cittaṁ vītadosaṁ cittanti pajāneyyaṁ, samohaṁ vā cittaṁ samohaṁ cittanti pajāneyyaṁ, vītamohaṁ vā cittaṁ vītamohaṁ cittanti pajāneyyaṁ, saṅkhittaṁ vā cittaṁ saṅkhittaṁ cittanti pajāneyyaṁ, vikkhittaṁ vā cittaṁ vikkhittaṁ cittanti pajāneyyaṁ, mahaggataṁ vā cittaṁ mahaggataṁ cittanti pajāneyyaṁ, amahaggataṁ vā cittaṁ amahaggataṁ cittanti pajāneyyaṁ, sauttaraṁ vā cittaṁ sauttaraṁ cittanti pajāneyyaṁ, anuttaraṁ vā cittaṁ anuttaraṁ cittanti pajāneyyaṁ, samāhitaṁ vā cittaṁ samāhitaṁ cittanti pajāneyyaṁ, asamāhitaṁ vā cittaṁ asamāhitaṁ cittanti pajāneyyaṁ, vimuttaṁ vā cittaṁ vimuttaṁ cittanti pajāneyyaṁ, avimuttaṁ vā cittaṁ avimuttaṁ cittanti pajāneyyan’ti, ",
+            "de": "Dass ich <span class=\"scv-matched\">einen gierigen Geist</span> als „gierigen Geist“ erkennen könnte, einen von Gier freien Geist als „von Gier freien Geist“, einen hasserfüllten Geist als „hasserfüllten Geist“, einen von Hass freien Geist als „von Hass freien Geist“, einen Geist, der sich täuscht, als „Geist, der sich täuscht“, einen von Täuschung freien Geist als „von Täuschung freien Geist“, einen eingeengten Geist als „eingeengten Geist“, einen zerstreuten Geist als „zerstreuten Geist“, einen ausgedehnten Geist als „ausgedehnten Geist“, einen nicht ausgedehnten Geist als „nicht ausgedehnten Geist“, einen Geist, der nicht am höchsten Punkt ist, als „Geist, der nicht am höchsten Punkt ist“, einen Geist, der am höchsten Punkt ist, als „Geist, der am höchsten Punkt ist“, einen im Samādhi versunkenen Geist als „im Samādhi versunkenen Geist“, einen nicht im Samādhi versunkenen Geist als „nicht im Samādhi versunkenen Geist“, einen befreiten Geist als „befreiten Geist“ und einen nicht befreiten Geist als „nicht befreiten Geist“‘ – ",
+            "en": "May I understand mind with greed as “mind with greed”, and mind without greed as “mind without greed”; mind with hate as “mind with hate”, and mind without hate as “mind without hate”; mind with delusion as “mind with delusion”, and mind without delusion as “mind without delusion”; constricted mind as “constricted mind”, and scattered mind as “scattered mind”; expansive mind as “expansive mind”, and unexpansive mind as “unexpansive mind”; mind that is not supreme as “mind that is not supreme”, and mind that is supreme as “mind that is supreme”; mind immersed in samādhi as “mind immersed in samādhi”, and mind not immersed in samādhi as “mind not immersed in samādhi”; freed mind as “freed mind”, and unfreed mind as “unfreed mind”.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n3. Mit fünf Faktoren\n23. Verunreinigungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.101",
+        "lang": "de",
+        "segMap": {
+          "an3.101:5.1": {
+            "scid": "an3.101:5.1",
+            "pli": "So sace ākaṅkhati: ‘parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajāneyyaṁ—sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajāneyyaṁ, vītarāgaṁ vā cittaṁ vītarāgaṁ cittanti pajāneyyaṁ; sadosaṁ vā cittaṁ sadosaṁ cittanti pajāneyyaṁ, vītadosaṁ vā cittaṁ vītadosaṁ cittanti pajāneyyaṁ; samohaṁ vā cittaṁ samohaṁ cittanti pajāneyyaṁ, vītamohaṁ vā cittaṁ vītamohaṁ cittanti pajāneyyaṁ; saṅkhittaṁ vā cittaṁ saṅkhittaṁ cittanti pajāneyyaṁ, vikkhittaṁ vā cittaṁ vikkhittaṁ cittanti pajāneyyaṁ; mahaggataṁ vā cittaṁ mahaggataṁ cittanti pajāneyyaṁ, amahaggataṁ vā cittaṁ amahaggataṁ cittanti pajāneyyaṁ; sauttaraṁ vā cittaṁ sauttaraṁ cittanti pajāneyyaṁ, anuttaraṁ vā cittaṁ anuttaraṁ cittanti pajāneyyaṁ; samāhitaṁ vā cittaṁ samāhitaṁ cittanti pajāneyyaṁ, asamāhitaṁ vā cittaṁ asamāhitaṁ cittanti pajāneyyaṁ; vimuttaṁ vā cittaṁ vimuttaṁ cittanti pajāneyyaṁ, avimuttaṁ vā cittaṁ avimuttaṁ cittanti pajāneyyan’ti, ",
+            "de": "Wenn sie wünscht: ‚Dass ich doch den Geist anderer Wesen und Menschen erkennen könnte, indem ich ihn mit meinem Geist umfasse: Dass ich <span class=\"scv-matched\">einen gierigen Geist</span> als „gierigen Geist“ erkennen könnte, einen von Gier freien Geist als „von Gier freien Geist“, einen hasserfüllten Geist als „hasserfüllten Geist“, einen von Hass freien Geist als „von Hass freien Geist“, einen Geist, der sich täuscht, als „Geist, der sich täuscht“, einen von Täuschung freien Geist als „von Täuschung freien Geist“, einen eingeengten Geist als „eingeengten Geist“, einen zerstreuten Geist als „zerstreuten Geist“, einen ausgedehnten Geist als „ausgedehnten Geist“, einen nicht ausgedehnten Geist als „nicht ausgedehnten Geist“, einen Geist, der nicht am höchsten Punkt ist, als „Geist, der nicht am höchsten Punkt ist“, einen Geist, der am höchsten Punkt ist, als „Geist, der am höchsten Punkt ist“, einen im Samādhi versunkenen Geist als „im Samādhi versunkenen Geist“, einen nicht im Samādhi versunkenen Geist als „nicht im Samādhi versunkenen Geist“, einen befreiten Geist als „befreiten Geist“ und einen nicht befreiten Geist als „nicht befreiten Geist“‘ – ",
+            "en": "If they wish: ‘May I understand the minds of other beings and individuals, having comprehended them with my mind. May I understand mind with greed as “mind with greed”, and mind without greed as “mind without greed”; mind with hate as “mind with hate”, and mind without hate as “mind without hate”; mind with delusion as “mind with delusion”, and mind without delusion as “mind without delusion”; constricted mind as “constricted mind”, and scattered mind as “scattered mind”; expansive mind as “expansive mind”, and unexpansive mind as “unexpansive mind”; mind that is not supreme as “mind that is not supreme”, and mind that is supreme as “mind that is supreme”; mind immersed in samādhi as “mind immersed in samādhi”, and mind not immersed in samādhi as “mind not immersed in samādhi”; freed mind as “freed mind”, and unfreed mind as “unfreed mind”.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n10. Ein Salzklümpchen\n101. Ein Goldwäscher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "de": 35,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.28",
+        "lang": "de",
+        "segMap": {
+          "an5.28:13.1": {
+            "scid": "an5.28:13.1",
+            "pli": "So sace ākaṅkhati: ‘parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajāneyyaṁ—sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajāneyyaṁ, vītarāgaṁ vā cittaṁ vītarāgaṁ cittanti pajāneyyaṁ, sadosaṁ vā cittaṁ … vītadosaṁ vā cittaṁ … samohaṁ vā cittaṁ … vītamohaṁ vā cittaṁ … saṅkhittaṁ vā cittaṁ … vikkhittaṁ vā cittaṁ … mahaggataṁ vā cittaṁ … amahaggataṁ vā cittaṁ … sauttaraṁ vā cittaṁ … anuttaraṁ vā cittaṁ … samāhitaṁ vā cittaṁ … asamāhitaṁ vā cittaṁ … vimuttaṁ vā cittaṁ … avimuttaṁ vā cittaṁ avimuttaṁ cittanti pajāneyyan’ti, ",
+            "de": "Wenn er wünscht: ‚Dass ich doch den Geist anderer Wesen und Menschen erkennen könnte, indem ich ihn mit meinem Geist umfasse: Dass ich <span class=\"scv-matched\">einen gierigen Geist</span> als „gierigen Geist“ erkennen könnte, einen von Gier freien Geist als „von Gier freien Geist“, einen hasserfüllten Geist als „hasserfüllten Geist“, einen von Hass freien Geist als „von Hass freien Geist“, einen Geist, der sich täuscht, als „Geist, der sich täuscht“, einen von Täuschung freien Geist als „von Täuschung freien Geist“, einen eingeengten Geist als „eingeengten Geist“, einen zerstreuten Geist als „zerstreuten Geist“, einen ausgedehnten Geist als „ausgedehnten Geist“, einen nicht ausgedehnten Geist als „nicht ausgedehnten Geist“, einen Geist, der nicht am höchsten Punkt ist, als „Geist, der nicht am höchsten Punkt ist“, einen Geist, der am höchsten Punkt ist, als „Geist, der am höchsten Punkt ist“, einen im Samādhi versunkenen Geist als „im Samādhi versunkenen Geist“, einen nicht im Samādhi versunkenen Geist als „nicht im Samādhi versunkenen Geist“, einen befreiten Geist als „befreiten Geist“ und einen nicht befreiten Geist als „nicht befreiten Geist“‘ – ",
+            "en": "If you wish: ‘May I understand the minds of other beings and individuals, having comprehended them with my mind. May I understand mind with greed as “mind with greed”, and mind without greed as “mind without greed”; mind with hate as “mind with hate”, and mind without hate as “mind without hate”; mind with delusion as “mind with delusion”, and mind without delusion as “mind without delusion”; constricted mind as “constricted mind”, and scattered mind as “scattered mind”; expansive mind as “expansive mind”, and unexpansive mind as “unexpansive mind”; mind that is not supreme as “mind that is not supreme”, and mind that is supreme as “mind that is supreme”; mind immersed in samādhi as “mind immersed in samādhi”, and mind not immersed in samādhi as “mind not immersed in samādhi”; freed mind as “freed mind”, and unfreed mind as “unfreed mind”.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n3. Mit fünf Faktoren\n28. Mit fünf Faktoren",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 69,
+          "de": 68,
+          "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn10",
+        "lang": "de",
+        "segMap": {
+          "dn10:2.28.2": {
+            "scid": "dn10:2.28.2",
+            "pli": "So parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajānāti, sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti, vītarāgaṁ vā cittaṁ ‘vītarāgaṁ cittan’ti pajānāti, sadosaṁ vā cittaṁ ‘sadosaṁ cittan’ti pajānāti, vītadosaṁ vā cittaṁ ‘vītadosaṁ cittan’ti pajānāti, samohaṁ vā cittaṁ ‘samohaṁ cittan’ti pajānāti, vītamohaṁ vā cittaṁ ‘vītamohaṁ cittan’ti pajānāti, saṅkhittaṁ vā cittaṁ ‘saṅkhittaṁ cittan’ti pajānāti, vikkhittaṁ vā cittaṁ ‘vikkhittaṁ cittan’ti pajānāti, mahaggataṁ vā cittaṁ ‘mahaggataṁ cittan’ti pajānāti, amahaggataṁ vā cittaṁ ‘amahaggataṁ cittan’ti pajānāti, sauttaraṁ vā cittaṁ ‘sauttaraṁ cittan’ti pajānāti, anuttaraṁ vā cittaṁ ‘anuttaraṁ cittan’ti pajānāti, samāhitaṁ vā cittaṁ ‘samāhitaṁ cittan’ti pajānāti, asamāhitaṁ vā cittaṁ ‘asamāhitaṁ cittan’ti pajānāti, vimuttaṁ vā cittaṁ ‘vimuttaṁ cittan’ti pajānāti, avimuttaṁ vā cittaṁ ‘avimuttaṁ cittan’ti pajānāti. ",
+            "de": "Sie erkennt <span class=\"scv-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ und einen von Gier freien Geist als ‚von Gier freien Geist‘. Sie erkennt einen hasserfüllten Geist … einen von Hass freien Geist … einen Geist, der sich täuscht … einen von Täuschung freien Geist … einen eingeengten Geist … einen zerstreuten Geist … einen ausgedehnten Geist … einen nicht ausgedehnten Geist … einen Geist, der nicht am höchsten Punkt ist … einen Geist, der am höchsten Punkt ist … einen im Samādhi versunkenen Geist … einen nicht im Samādhi versunkenen Geist … Sie erkennt einen befreiten Geist als ‚befreiten Geist‘ und einen nicht befreiten Geist als ‚nicht befreiten Geist‘. ",
+            "en": "They understand mind with greed as ‘mind with greed’, and mind without greed as ‘mind without greed’. They understand mind with hate … mind without hate … mind with delusion … mind without delusion … constricted mind … scattered mind … expansive mind … unexpansive mind … mind that is not supreme … mind that is supreme … immersed mind … unimmersed mind … freed mind … They understand unfreed mind as ‘unfreed mind’. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 10\nMit Subha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 266,
+          "de": 210,
+          "en": 265
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn10",
+        "lang": "de",
+        "segMap": {
+          "mn10:34.2": {
+            "scid": "mn10:34.2",
+            "pli": "Idha, bhikkhave, bhikkhu sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti. #1",
+            "de": "Da erkennt ein Mönch <span class=\"scv-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ ",
+            "en": "It’s when a mendicant knows mind with greed as ‘mind with greed,’",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 10\nAchtsamkeitsmeditation",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 235,
+          "de": 200,
+          "en": 233
+        }
+      }
+    ]
+  }
+}

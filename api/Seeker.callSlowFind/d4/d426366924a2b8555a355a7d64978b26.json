@@ -32,18 +32,22 @@
     "pattern": "schädlichen irrglauben",
     "method": "phrase",
     "resultPattern": "\\bschädlichen irrglauben",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn23/de/sabbamitta",
-      "dn12/de/sabbamitta"
+      "dn12/de/sabbamitta",
+      "dn24/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -199,6 +203,38 @@
           "pli": 189,
           "de": 144,
           "en": 188
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "de",
+        "segMap": {
+          "dn24:1.7.16": {
+            "scid": "dn24:1.7.16",
+            "pli": "Api ca tuyhevetaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ, taṁ pajaha. ",
+            "de": "Vielmehr solltest du diesen <span class=\"scv-matched\">schädlichen Irrglauben</span> aufgeben, der in dir aufgekommen ist. ",
+            "en": "Rather, you should give up this harmful misconception that has arisen in you. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 24\nÜber Pāṭikaputta\n1. Die Geschichte von Sunakkhatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 581,
+          "de": 141,
+          "en": 580
         }
       }
     ]
