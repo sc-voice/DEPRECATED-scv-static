@@ -7,7 +7,7 @@
     v-model="showResults"
     > <!-- mlDocs -->
     <summary v-if="resultCount"
-      class='text-subtitle-2 pt-1 pb-1'
+      class='scv-summary text-subtitle-2 pt-1 pb-1'
       role="main"
       ref="refResults"
       aria-level="1"
@@ -24,7 +24,7 @@
           v-model="mld.showDetails"
           role="heading" aria-level="2"
         >
-          <summary >
+          <summary class="scv-summary">
             <div class="scv-result-summary" >
               <div v-html="resultTitle(mld)" 
                 @click="clickResult(mld)"

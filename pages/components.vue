@@ -1,13 +1,7 @@
 <template>
   <div>
     <div class="text-h5"> Vue Components </div>
-    <v-select :items="langItems" filled 
-      v-model="$vuetify.lang.current" 
-      label="Language" 
-    />
-
     <v-expansion-panels multiple accordion flat v-model="panels">
-
       <v-expansion-panel >
         <v-expansion-panel-header>
           scv-search-field

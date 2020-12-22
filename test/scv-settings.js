@@ -161,39 +161,6 @@
         $cookie.delete('test-cookie');
         should($cookie.get('test-cookie')).equal(undefined);
     });
-    it("TESTTESTcreate(...) builds settings", ()=>{
-        let audio = 'test-audio';
-        let language = 'testLang1-testLang2';
-        let navigator = { language };
-        let settings = { audio };
-        let cookieName = 'test-settings';
-
-        // Navigator
-        let createNav = ScvSettings.create({navigator});
-        should.deepEqual(createNav, new ScvSettings({
-            locale:'testLang1',
-        }));
-
-        // No cookie
-        $cookie.delete(cookieName);
-        let createCookie = ScvSettings.create({$cookie, cookieName});
-        should.deepEqual(createCookie, new ScvSettings());
-
-        // Cookie
-        $cookie.set(cookieName, {
-            language: 'cookieLang',
-            locale: 'cookieLocale',
-            audio: 'mp3',
-            showLang: ScvSettings.SHOWLANG_PALI,
-        });
-        createCookie = ScvSettings.create({$cookie, cookieName});
-        should.deepEqual(createCookie, new ScvSettings({
-            cookieName,
-            locale: 'cookieLocale',
-            audio: ScvSettings.AUDIO.MP3,
-            showLang: ScvSettings.SHOWLANG_PALI,
-        }));
-    });
 
     /*
     it("ScvSingleton() creates the SCV Vue singleton", function() {

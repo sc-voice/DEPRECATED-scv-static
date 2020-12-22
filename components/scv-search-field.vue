@@ -43,10 +43,11 @@ export default {
   },
   methods:{
     async onSearchInput(pattern) { try {
+      let { locale:lang } = this;
       let noValue = {mlDocs:[]};
       let value = pattern && (await this.seeker.find({
         pattern, 
-        lang: this.$vuetify.lang.current,
+        lang,
       })) || noValue;
       value.mlDocs.forEach(mld=>{
         mld.segments = Object.keys(mld.segMap).map(scid=>mld.segMap[scid]);
@@ -54,7 +55,6 @@ export default {
       this.$store.commit('scv/searchResults', value);
       if (value.mlDocs.length === 1) {
         let { sutta_uid } = value.mlDocs[0];
-        let lang = this.$vuetify.lang.current;
         this.$store.dispatch('scv/loadSutta', {sutta_uid, lang} );
       }
     } catch(e) {
@@ -69,9 +69,10 @@ export default {
       let { 
         $vuetify,
         examples, 
+        locale,
       } = this;
       let that = this;
-      let langEx = examples[$vuetify.lang.current] || examples.en;
+      let langEx = examples[locale] || examples.en;
       let iExample = Math.trunc(Math.random() * langEx.length);
       let eg = langEx[iExample];
       Vue.set(this, "search", eg);
@@ -82,6 +83,10 @@ export default {
     },
   },
   computed: {
+    locale() {
+        return this.$store.state.scv.settings.locale;
+        //return this.$vuetify.lang.current;
+    },
     displayable() {
         return !!this.$store.state.scv.examplesLoaded;
     },
@@ -99,9 +104,9 @@ export default {
       }
     },
     searchItems() {
-      let { $vuetify, } = this;
+      let { $vuetify, locale, } = this;
       var search = (this.search||'').toLowerCase();
-      var langEx = this.examples[$vuetify.lang.current] || this.examples.en;
+      var langEx = this.examples[locale] || this.examples.en;
       var examples = search
         ? langEx.filter(ex=>ex.toLowerCase().indexOf(search)>=0)
         : langEx;

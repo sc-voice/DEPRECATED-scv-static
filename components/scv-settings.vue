@@ -22,22 +22,40 @@
           @click="clickDetails('lang', $event)"
           :open="showDetail('lang')"
         >
-          <summary >
+          <summary class="scv-summary">
             <div class="scv-settings-title">
                 <div>{{$t('uiLanguage')}}</div>
                 <div>{{langLabel(settings.locale)}}</div>
             </div>
           </summary>
           <div class="scv-settings">
-            <v-radio-group v-model="settings.locale"
-              @change="localeChanged()"
-              column>
-            <v-radio v-for="lang in settings.languages" 
-              :key="`lang${lang.name}`"
-              :disabled="lang.disabled"
-              :label="lang.label" :value="lang.name" 
-              > </v-radio>
-            </v-radio-group>
+            <select name="Locale" id="locale-select" 
+              class="scv-select"
+              v-model="locale"
+              @click="stopPropagation($event)">
+              <option v-for="item in languages" :key="item.code" 
+                :selected="item.code===locale"
+                :value="item.code">{{item.label}}</option>
+            </select>
+          </div>
+        </details>
+      </li>
+      <li class="" role="none" >
+        <details role="menuitem" 
+          @click="clickDetails('useCookies', $event)"
+          :open="showDetail('useCookies')"
+        >
+          <summary class="scv-summary">
+            <div class="scv-settings-title">
+                <div>{{$t('general')}}</div>
+            </div>
+          </summary>
+          <div class="scv-settings">
+            <v-checkbox v-model="useCookies" role="checkbox"
+              @click="stopPropagation($event)"
+              :aria-checked="useCookies"
+              :label="$t('storeSettingsInCookies')"
+              />
           </div>
         </details>
       </li>
@@ -258,8 +276,24 @@ export default {
     clickBackdrop(){
       this.focusMore(false);
     },
+    stopPropagation(event) {
+      event.stopPropagation();
+    },
+    localeChanged(event, code) {
+      console.log('localeChanged', event, code);
+    },
   },
   computed: {
+    locale: {
+      get: function() { return this.$store.state.scv.settings.locale; },
+      set: function(value) { this.$store.commit("scv/settings", {locale:value}); },
+    },
+    useCookies: {
+      get: function() { return !!this.$store.state.scv.settings.useCookies; },
+      set: function(value) { 
+        this.$store.commit("scv/settings", {useCookies:value}); 
+      },
+    },
     settings() {
       return this.$store.state.scv.settings;
     },

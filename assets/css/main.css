@@ -26,6 +26,22 @@
   }
 }
 
+.scv-settings {
+    max-width: var(--scv-settings-width);
+}
+.scv-summary {
+  margin: 2pt;
+}
+.scv-summary:focus {
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color) ;
+}
+.scv-select {
+  padding: 0.5em;
+}
+.scv-select:focus {
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color);
+}
+
 .scv-text {
   line-height: var(--scv-text-line-height);
   max-width: var(--scv-text-width);

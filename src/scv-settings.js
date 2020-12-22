@@ -4,7 +4,7 @@
         constructor(opts={}) {
             let {
                 audio = ScvSettings.AUDIO.OGG,
-                cookieName = null, // don't use cookies
+                useCookies = false,
                 fullLine = false,
                 ips = 6,
                 lang = 'en',
@@ -30,7 +30,7 @@
             this.search = search;
             this.showId = showId;
             this.showLang = showLang;
-            this.cookieName = cookieName;
+            this.useCookies = useCookies;
             this.vnameRoot = vnameRoot;
             this.vnameTrans = vnameTrans;
 
@@ -38,84 +38,57 @@
         
         static get WEB_LANGUAGES() { 
             return [{
-                name: 'cs',
+                code: 'cs',
                 label: 'Čeština / CS',
             }, {
-                name: 'da',
+                code: 'da',
                 label: 'Dansk / DA',
             }, {
-                name: 'de',
+                code: 'de',
                 label: 'Deutsch / DE',
             }, {
-                name: 'en',
+                code: 'en',
                 label: 'English / EN',
             }, {
-                name: 'fr',
+                code: 'fr',
                 label: 'Français / FR',
             }, {
-                name: 'hi',
+                code: 'hi',
                 label: 'हिंदी / HI',
             }, {
-                name: 'is',
+                code: 'is',
                 label: 'Íslenska / IS',
             }, {
-                name: 'ja',
+                code: 'ja',
                 label: '日本語 / JA',
             }, {
-                name: 'nb',
+                code: 'nb',
                 label: 'Norsk / NB',
             }, {
-                name: 'nl',
+                code: 'nl',
                 label: 'Nederlands / NL',
             }, {
-                name: 'pl',
+                code: 'pl',
                 label: 'Polski / PL',
             }, {
-                name: 'pt',
+                code: 'pt',
                 label: 'Português / PT',
             }, {
-                name: 'ro',
+                code: 'ro',
                 label: 'Română / RO',
             }, {
-                name: 'si',
+                code: 'si',
                 label: 'සිංහල / SI',
             }, {
-                name: 'vi',
+                code: 'vi',
                 label: 'Tiếng Việt / VI',
             }];
         }
 
         static langLabel(lang) {
-            let info = ScvSettings.WEB_LANGUAGES.find(l=>l.name === lang) || {
+            let info = ScvSettings.WEB_LANGUAGES.find(l=>l.code === lang) || {
                 label:`unknown language:${lang}` };
             return info.label;
-        }
-
-
-        static create(opts={}) {
-            var {
-                navigator,
-                $cookie,
-                cookieName='scv-settings',
-            } = opts;
-            let navLang = navigator && navigator.language;
-            var locale = navLang && navLang.split('-')[0] || 'en';
-            var settings = {
-                locale,
-            };
-
-            if ($cookie) {
-                var json = $cookie.get(cookieName);
-                if (json) { try {
-                    Object.assign(settings, JSON.parse(json), {
-                        cookieName,
-                    });
-                } catch (e) {
-                    this.warn(`Could not load cookie scv-settings:${json}`);
-                }}
-            }
-
-            return new ScvSettings(settings);
         }
 
         static get SHOWLANG() { 
