@@ -33,7 +33,9 @@
       app
     >
       <Logo/>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <menu-icon  class="scv-app-icon"
+        @click="menuClicked"
+        />
       <v-toolbar-title v-text="title" />
       <v-spacer />
     </v-app-bar>
@@ -52,11 +54,13 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import Logo from '~/components/logo.vue';
 const { version } = require('~/package.json');
 import AppsIcon from 'vue-material-design-icons/Apps.vue';
 import CellphoneIcon from 'vue-material-design-icons/Cellphone.vue';
 import HomeIcon from 'vue-material-design-icons/Home.vue';
+import MenuIcon from 'vue-material-design-icons/Menu.vue';
 import MonitorIcon from 'vue-material-design-icons/Monitor.vue';
 
 export default {
@@ -64,6 +68,7 @@ export default {
     Logo,
     HomeIcon,
     AppsIcon,
+    MenuIcon,
     MonitorIcon,
     CellphoneIcon,
   },
@@ -75,7 +80,7 @@ export default {
       items: [
         { icon: 'home-icon', title: 'Home', to: '/' },
         { icon: 'monitor-icon', title: 'Desktop', to: '/desktop' },
-        { icon: 'cellphone-icon', title: 'Cellphone', to: '/desktop' }, // TODO
+        { icon: 'cellphone-icon', title: 'Cellphone', to: '/cellphone' }, 
         { icon: 'apps-icon', title: 'Components', to: '/components'
         },
       ],
@@ -85,6 +90,12 @@ export default {
       title: 'scv-static'
     }
   },
+  methods: {
+    menuClicked() {
+      console.log(`dbg menu`);
+      Vue.set(this, "drawer", true);
+    },
+  },
   computed: {
     version() {
       return version;
@@ -92,3 +103,5 @@ export default {
   },
 }
 </script>
+<style>
+</style>

@@ -7,15 +7,17 @@ import ChevronLeftIcon from 'vue-material-design-icons/ChevronLeft.vue'
 import ChevronRightIcon from 'vue-material-design-icons/ChevronRight.vue'
 import CogIcon from 'vue-material-design-icons/Cog.vue'
 import HomeIcon from 'vue-material-design-icons/Home.vue'
+import MenuIcon from 'vue-material-design-icons/Menu.vue'
 import MonitorIcon from 'vue-material-design-icons/Monitor.vue'
 
 export default function materialIcons () {
     Vue.component('apps-icon', AppsIcon);
-    Vue.component('Cellphone-icon', CellphoneIcon);
+    Vue.component('cellphone-icon', CellphoneIcon);
     Vue.component('chevron-left-icon', ChevronLeftIcon);
     Vue.component('chevron-right-icon', ChevronRightIcon);
     Vue.component('cog-icon', CogIcon);
     Vue.component('home-icon', HomeIcon);
-    Vue.component('Monitor-icon', MonitorIcon);
+    Vue.component('menu-icon', MenuIcon);
+    Vue.component('monitor-icon', MonitorIcon);
 
 }

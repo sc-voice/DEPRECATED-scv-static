@@ -26,6 +26,12 @@
   }
 }
 
+.scv-app-icon {
+}
+.scv-app-icon:hover {
+    cursor: pointer;
+}
+
 .scv-settings {
     max-width: var(--scv-settings-width);
 }
@@ -35,6 +41,7 @@
 .scv-summary:focus {
   box-shadow: 0 0 3pt 2pt var(--scv-focus-color) ;
 }
+
 .scv-select {
   padding: 0.5em;
 }
