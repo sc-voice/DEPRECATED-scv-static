@@ -49,11 +49,15 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxtjs/axios',
+    //'@nuxtjs/axios',
   ],
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
+    defaultAssets: {
+        font: false,
+        icons: false,
+    },
     customVariables: [
         '~/assets/css/main.css',
     ],

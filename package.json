@@ -8,13 +8,13 @@
     "test": "test"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "vue-cookie": "^1.1.4",
     "vue-details": "^1.0.9"
   },
   "devDependencies": {
+    "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/vuetify": "^1.11.2",
     "axios": "^0.21.0",
     "eslint-plugin-html": "^4.0.5",

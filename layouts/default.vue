@@ -16,7 +16,10 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <home-icon v-if="item.icon==='home-icon'" />
+            <apps-icon v-if="item.icon==='apps-icon'" />
+            <monitor-icon v-if="item.icon==='monitor-icon'" />
+            <cellphone-icon v-if="item.icon==='cellphone-icon'" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -39,23 +42,6 @@
         <nuxt />
       </v-container>
     </v-main>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
     <v-footer
       :absolute="!fixed"
       app
@@ -68,10 +54,18 @@
 <script>
 import Logo from '~/components/logo.vue';
 const { version } = require('~/package.json');
+import AppsIcon from 'vue-material-design-icons/Apps.vue';
+import CellphoneIcon from 'vue-material-design-icons/Cellphone.vue';
+import HomeIcon from 'vue-material-design-icons/Home.vue';
+import MonitorIcon from 'vue-material-design-icons/Monitor.vue';
 
 export default {
   components: {
     Logo,
+    HomeIcon,
+    AppsIcon,
+    MonitorIcon,
+    CellphoneIcon,
   },
   data () {
     return {
@@ -79,15 +73,11 @@ export default {
       drawer: false,
       fixed: false,
       items: [
-        { icon: 'mdi-home', title: 'Home', to: '/' },
-        { icon: 'mdi-numeric-1-box-outline', title: 'Layout #1', to: '/layout1' },
-        { icon: 'mdi-apps', title: 'Components', to: '/components'
+        { icon: 'home-icon', title: 'Home', to: '/' },
+        { icon: 'monitor-icon', title: 'Desktop', to: '/desktop' },
+        { icon: 'cellphone-icon', title: 'Cellphone', to: '/desktop' }, // TODO
+        { icon: 'apps-icon', title: 'Components', to: '/components'
         },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
       ],
       miniVariant: false,
       right: true,
