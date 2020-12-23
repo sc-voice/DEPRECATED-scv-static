@@ -100,12 +100,4 @@ export const actions = {
             commit('examplesLoaded', true);
         }
     },
-    async loadSettings({state, commit}) {
-        let { $cookie, } = this;
-        let saved = $cookie.get('scv-settings');
-        let settings = Object.assign({}, new ScvSettings(saved||{}));
-        commit('settings', settings);
-
-        console.log(`dbg $cookie`, Object.keys($cookie));
-    },
 }

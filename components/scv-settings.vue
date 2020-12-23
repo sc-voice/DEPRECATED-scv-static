@@ -247,8 +247,7 @@ export default {
       moreFocus: null,
     };
   },
-  async mounted() {
-    this.$store.dispatch('scv/loadSettings');
+  mounted() {
   },
   methods:{
     clickDetails(id, evt) {

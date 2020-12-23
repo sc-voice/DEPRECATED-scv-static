@@ -35,7 +35,7 @@ export default {
   plugins: [
     {src: '~/plugins/vue-details.js', mode:'client'},
     {src: '~/plugins/vue-material-icons.js', mode:'client'},
-    {src: '~/plugins/client.js', mode:'client'},
+    {src: '~/plugins/scv-client.js', mode:'client'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
