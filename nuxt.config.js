@@ -20,8 +20,13 @@ export default {
   target: 'static',
 
   render: {
+    dist: {
+        cacheControl: true,
+        maxAge: 86400001,
+    },
     static: {
-        maxAge: '17d 45m'
+        cacheControl: true,
+        maxAge: 86400000,
     }
   },
 
