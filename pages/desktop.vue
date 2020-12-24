@@ -1,5 +1,5 @@
 <template>
-  <v-sheet light class="scv-layout1">
+  <v-sheet light class="scv-layout1" >
     <div class="scv-search-pane">
       <div class="text-h5"> Layout #1 </div>
       <scv-search-field

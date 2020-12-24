@@ -1,5 +1,5 @@
 <template>
-  <div class="scv-more" >
+  <div class="scv-more" v-if="isMounted">
     <v-btn icon
         id="more-menu-btn"
         @click="clickSettings()"
@@ -25,11 +25,13 @@
           <summary class="scv-summary">
             <div class="scv-settings-title">
                 <div>{{$t('uiLanguage')}}</div>
-                <div>{{langLabel(settings.locale)}}</div>
+                <div v-if="openDetail!=='lang'" class="body-2">
+                {{langLabel(settings.locale)}}</div>
             </div>
           </summary>
           <div class="scv-settings">
             <select name="Locale" id="locale-select" 
+              ref="lang-focus"
               class="scv-select"
               v-model="locale"
               @click="stopPropagation($event)">
@@ -241,6 +243,7 @@ export default {
   },
   data: function(){
     return {
+      isMounted: false,
       moreVisible: false,
       openDetail: null,
       languages: ScvSettings.WEB_LANGUAGES,
@@ -248,10 +251,19 @@ export default {
     };
   },
   mounted() {
+    Vue.set(this, "isMounted", true);
+    console.log(`scv-settings mounted`, this);
   },
   methods:{
-    clickDetails(id, evt) {
-      Vue.set(this, "openDetail", id === this.openDetail ? undefined : id);
+    clickDetails(id, evt, focus) {
+      let opening = id !== this.openDetail;
+      Vue.set(this, "openDetail", opening ? id : undefined);
+      let idFocus = opening && this.$refs[`${id}-focus`];
+      if (idFocus) {
+        this.$nextTick(()=>{ 
+          idFocus.$el ? idFocus.$el.focus() :  idFocus.focus(); 
+        });
+      }
       evt.preventDefault();
     },
     showDetail(id) {
@@ -261,7 +273,6 @@ export default {
         return ScvSettings.langLabel(lang);
     },
     clickSettings() {
-      console.log('dbg clickSettings');
       Vue.set(this, "moreVisible", !this.moreVisible);
     },
     focusMore(focus) {
@@ -283,6 +294,9 @@ export default {
     },
   },
   computed: {
+    ready() {
+      return this.hasOwnProperty('$t');
+    },
     locale: {
       get: function() { return this.$store.state.scv.settings.locale; },
       set: function(value) { this.$store.commit("scv/settings", {locale:value}); },
@@ -310,6 +324,7 @@ export default {
     display: inline-flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: baseline;
     margin-top: 0.1em;
     font-size: 120%;
     font-weight: 500;

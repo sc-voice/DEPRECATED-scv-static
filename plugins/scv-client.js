@@ -26,7 +26,9 @@ export default (context, inject) => {
         ? $vuetify.lang.t(key)
         : `$vuetify.lang.t(${key})`;
     }
+    console.log(`scv-client: injecting $t`);
     inject('t', $t);
+    console.log(`scv-client: injecting $cookie`);
     inject('cookie', VueCookie);
 
     let cookieJson = VueCookie.get(COOKIE_NAME);

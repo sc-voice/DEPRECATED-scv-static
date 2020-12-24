@@ -1,16 +1,29 @@
 <template>
-  <v-sheet light class="scv-layout1">
-    <div class="scv-search-pane">
-      <div class="text-h5"> Layout #1 </div>
-      <scv-search-field
-        :lang="lang"
-        v-on:search-text="search"
-      />
-      <scv-results :lang="lang" />
-      <scv-settings />
-    </div>
+  <div>
+    <div class="text-h5"> Cell Phone</div>
+    <scv-search-field
+      :lang="lang"
+      v-on:search-text="search"
+    />
+    <scv-results :lang="lang" />
     <scv-sutta />
-  </v-sheet>
+    <v-expansion-panels multiple accordion flat v-model="panels">
+      <v-expansion-panel >
+        <v-expansion-panel-header>
+          scv-settings
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-sheet light class="mt-5">
+            <scv-settings />
+          </v-sheet>
+          <details><summary class="ex-more">...</summary>
+            ScvSettings is menu for Voice settings
+          </details>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+    </v-expansion-panels>
+  </div>
 </template>
 
 <script>
@@ -58,19 +71,21 @@ export default {
   background-color: #000;
 }
 
-.scv-search-pane {
-  max-width: 28rem;
+button.v-expansion-panel-header,    
+.v-expansion-panel-content > div { 
+  padding-left: 0.2em;
+  padding-right: 0.2em;
 }
-
+.v-expansion-panel > .v-expansion-panel-header {
+  background: linear-gradient(to bottom, #555, rgb(30,30,30));
+  min-height: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 .ex-more {
   width: 2em;
   margin-left: auto;
   margin-right: auto;
-}
-
-.scv-layout1 {
-  display: flex;
-  flex-flow: row wrap;
 }
 
 </style>
