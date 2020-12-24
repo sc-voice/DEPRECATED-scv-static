@@ -6,6 +6,12 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
+  render: {
+    static: 
+        maxAge: '17d 45m'
+    }
+  },
+
   router: {
     //base: '/scv-static/'
     base: '/'
