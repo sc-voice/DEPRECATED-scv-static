@@ -53,11 +53,9 @@
             </div>
           </summary>
           <div class="scv-settings">
-            <v-checkbox v-model="useCookies" role="checkbox"
-              @click="stopPropagation($event)"
-              :aria-checked="useCookies"
-              :label="$t('storeSettingsInCookies')"
-              />
+            <scv-checkbox v-model="useCookies"
+              ref="useCookies-focus"
+              :label="$t('storeSettingsInCookies')"/>
           </div>
         </details>
       </li>
@@ -232,12 +230,14 @@
 <script>
 import Vue from "vue";
 import 'vue-material-design-icons/styles.css';
+import ScvCheckbox from '../components/scv-checkbox';
 import CogIcon from 'vue-material-design-icons/Cog.vue';
 const ScvSettings = require('../src/scv-settings');
 
 export default {
   components: {
     CogIcon,
+    ScvCheckbox,
   },
   props: {
   },
@@ -255,14 +255,23 @@ export default {
     console.log(`scv-settings mounted`, this);
   },
   methods:{
-    clickDetails(id, evt, focus) {
+    clickDetails(id, evt) {
       let opening = id !== this.openDetail;
       Vue.set(this, "openDetail", opening ? id : undefined);
-      let idFocus = opening && this.$refs[`${id}-focus`];
+      let refFocus = `${id}-focus`;
+      let idFocus = opening && this.$refs[refFocus];
       if (idFocus) {
         this.$nextTick(()=>{ 
-          idFocus.$el ? idFocus.$el.focus() :  idFocus.focus(); 
+          if (idFocus.$refs && idFocus.$refs.input) {
+            idFocus.$refs.input.focus();
+          } else if (idFocus.$el) {
+            idFocus.$el.focus();
+          } else {
+            idFocus.focus(); 
+          }
         });
+      } else {
+        console.log(`clickDetails no focus:`, refFocus);
       }
       evt.preventDefault();
     },

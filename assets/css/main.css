@@ -14,6 +14,7 @@
   --scv-focus-color: #82B1FF;
   --scv-background-color: #FFFFFF;
   --scv-settings-width: 310px;
+  --scv-label-color: rgba(0,0,0,0.6);
 }
 @media(width < 600px) {
   :root {
@@ -24,6 +25,18 @@
     --scv-segment-margin-bottom: 0.3em;
     --scv-text-font-size: 16px;
   }
+}
+
+.scv-checkbox {
+  padding: 0.2em;
+  padding-left: 0.5em;
+}
+.scv-checkbox label {
+  padding-left: 0.4em;
+  color: var(--scv-label-color);
+}
+.scv-checkbox:focus-within {
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color) ;
 }
 
 .scv-app-icon {
