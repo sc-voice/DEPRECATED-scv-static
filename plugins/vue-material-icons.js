@@ -6,6 +6,8 @@ import CellphoneIcon from 'vue-material-design-icons/Cellphone.vue'
 import ChevronLeftIcon from 'vue-material-design-icons/ChevronLeft.vue'
 import ChevronRightIcon from 'vue-material-design-icons/ChevronRight.vue'
 import CogIcon from 'vue-material-design-icons/Cog.vue'
+import FormatAlignJustify from 'vue-material-design-icons/FormatAlignJustify.vue'
+import FormatColumns from 'vue-material-design-icons/FormatColumns.vue'
 import HomeIcon from 'vue-material-design-icons/Home.vue'
 import MenuIcon from 'vue-material-design-icons/Menu.vue'
 import MonitorIcon from 'vue-material-design-icons/Monitor.vue'
@@ -16,6 +18,8 @@ export default function materialIcons () {
     Vue.component('chevron-left-icon', ChevronLeftIcon);
     Vue.component('chevron-right-icon', ChevronRightIcon);
     Vue.component('cog-icon', CogIcon);
+    Vue.component('format-align-justify-icon', FormatAlignJustify);
+    Vue.component('format-columns-icon', FormatColumns);
     Vue.component('home-icon', HomeIcon);
     Vue.component('menu-icon', MenuIcon);
     Vue.component('monitor-icon', MonitorIcon);

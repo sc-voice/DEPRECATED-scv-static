@@ -27,6 +27,10 @@
   }
 }
 
+label {
+    color: var(--scv-label-color);
+}
+
 .scv-checkbox {
   padding: 0.2em;
   padding-left: 0.5em;
@@ -57,10 +61,17 @@
 
 .scv-select {
   padding: 0.5em;
+  text-align: right;
 }
 .scv-select:focus {
   box-shadow: 0 0 3pt 2pt var(--scv-focus-color);
 }
+.scv-select-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 
 .scv-text {
   line-height: var(--scv-text-line-height);

@@ -13,7 +13,8 @@
                 scid = null,
                 search = null,
                 showId = false,
-                showLang = ScvSettings.SHOWLANG.BOTH,
+                showPali = true,
+                showTrans = true,
                 vnameRoot = 'Aditi',
                 vnameTrans = 'Amy',
 
@@ -29,13 +30,63 @@
             this.scid = scid;
             this.search = search;
             this.showId = showId;
-            this.showLang = showLang;
+            this.showPali = showPali;
+            this.showTrans = showTrans;
             this.useCookies = useCookies;
             this.vnameRoot = vnameRoot;
             this.vnameTrans = vnameTrans;
 
         }
         
+        static get TRANS_LANGUAGES() { 
+            return [{
+                code: 'cs',
+                label: 'Čeština / CS',
+            //}, {
+                //code: 'da',
+                //label: 'Dansk / DA',
+            }, {
+                code: 'de',
+                label: 'Deutsch / DE',
+            }, {
+                code: 'en',
+                label: 'English / EN',
+            //}, {
+                //code: 'fr',
+                //label: 'Français / FR',
+            //}, {
+                //code: 'hi',
+                //label: 'हिंदी / HI',
+            //}, {
+                //code: 'is',
+                //label: 'Íslenska / IS',
+            //}, {
+                //code: 'ja',
+                //label: '日本語 / JA',
+            //}, {
+                //code: 'nb',
+                //label: 'Norsk / NB',
+            //}, {
+                //code: 'nl',
+                //label: 'Nederlands / NL',
+            //}, {
+                //code: 'pl',
+                //label: 'Polski / PL',
+            }, {
+                code: 'pt',
+                label: 'Português / PT',
+            //}, {
+                //code: 'ro',
+                //label: 'Română / RO',
+            //}, {
+                //code: 'si',
+                //label: 'සිංහල / SI',
+            //}, {
+                //code: 'vi',
+                //label: 'Tiếng Việt / VI',
+            }];
+        }
+
         static get WEB_LANGUAGES() { 
             return [{
                 code: 'cs',
@@ -89,10 +140,6 @@
             let info = ScvSettings.WEB_LANGUAGES.find(l=>l.code === lang) || {
                 label:`unknown language:${lang}` };
             return info.label;
-        }
-
-        static get SHOWLANG() { 
-            return { BOTH: 0, PALI: 1, TRANS: 2, } 
         }
 
         static get AUDIO() { 

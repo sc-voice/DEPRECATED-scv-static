@@ -59,6 +59,8 @@ export const mutations = {
     },
     settings(state, value) {
         Object.assign(state.settings, value);
+        value.showTrans === false && (state.settings.showPali = true);
+        value.showPali === false && (state.settings.showTrans = true);
         console.log(`$store.state.scv.settings:`, value);
     },
     examples(state, value) {

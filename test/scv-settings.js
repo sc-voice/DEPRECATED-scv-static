@@ -118,7 +118,7 @@
     ];
 
     */
-    it("TESTTESTdefault ctor", async()=>{
+    it("default ctor", async()=>{
         var scv = new ScvSettings();
         should(scv).properties({
             showId: false,
@@ -126,7 +126,8 @@
             vnameRoot: 'Aditi',
             audio: ScvSettings.AUDIO.OGG,
             scid: null,
-            showLang: ScvSettings.SHOWLANG.BOTH,
+            showTrans: true,
+            showPali: true,
             fullLine: false,
             search: null,
             maxResults: 5,
