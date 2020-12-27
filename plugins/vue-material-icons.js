@@ -11,6 +11,7 @@ import FormatColumns from 'vue-material-design-icons/FormatColumns.vue'
 import HomeIcon from 'vue-material-design-icons/Home.vue'
 import MenuIcon from 'vue-material-design-icons/Menu.vue'
 import MonitorIcon from 'vue-material-design-icons/Monitor.vue'
+import RobotOutlineIcon from 'vue-material-design-icons/RobotOutline.vue'
 
 export default function materialIcons () {
     Vue.component('apps-icon', AppsIcon);
@@ -23,5 +24,6 @@ export default function materialIcons () {
     Vue.component('home-icon', HomeIcon);
     Vue.component('menu-icon', MenuIcon);
     Vue.component('monitor-icon', MonitorIcon);
+    Vue.component('robot-outline-icon', RobotOutlineIcon);
 
 }

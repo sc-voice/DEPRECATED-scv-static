@@ -24,6 +24,7 @@ export const state = () => ({
     suttaHistory: [],
     examples: Object.assign({}, DEFAULT.examples),
     examplesLoaded: false,
+    voices: [],
 })
 
 export const mutations = {
@@ -63,6 +64,10 @@ export const mutations = {
         value.showPali === false && (state.settings.showTrans = true);
         console.log(`$store.state.scv.settings:`, value);
     },
+    voices(state, value) {
+        Object.assign(state.voices, value);
+        console.log(`$store.state.scv.voices:`, value);
+    },
     examples(state, value) {
         Object.assign(state.examples, value);
         console.log(`$store.state.scv.examples:`, value);
@@ -77,10 +82,7 @@ export const actions = {
     async loadSutta (context, payload) {
         let { sutta_uid, lang='en', updateHistory } = payload;
         context.commit('sutta_uid', {sutta_uid, lang, updateHistory});
-
-        if (!bilaraWeb) {
-            bilaraWeb = new BilaraWeb({fetch});
-        }
+        bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
         context.commit('sutta', sutta);
     },
@@ -101,5 +103,10 @@ export const actions = {
         } finally {
             commit('examplesLoaded', true);
         }
+    },
+    async loadVoices({state, commit}) {
+        bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
+        let voices = await bilaraWeb.voices();
+        commit('voices', voices);
     },
 }

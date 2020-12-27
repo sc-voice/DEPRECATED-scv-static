@@ -181,4 +181,11 @@
             pli: '“‘nissayasampanno nissayasampanno’ti, bhante, vuccati. ',
         });
     });
+    it("TESTTESTvoices() returns voices", async()=>{
+        let skr = new BilaraWeb({fetch});
+        let voices = await skr.voices();
+        let enNames = voices.filter(v=>v.langTrans === 'en').map(v=>v.name);
+        should.deepEqual(enNames, [
+            'Amy', 'Raveena', 'Matthew', 'Brian', 'sujato_en']);
+    });
 })

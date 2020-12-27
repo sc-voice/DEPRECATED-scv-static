@@ -361,6 +361,25 @@
             throw e;
         }}
 
+        async voices() {
+            let { fetch } = this;
+            let url = [
+                'https://raw.githubusercontent.com',
+                'sc-voice',
+                'sc-voice',
+                'master',
+                'words',
+                'voices.json',
+            ].join('/');
+            try {
+                let res = await fetch(url, {headers:{Accept: 'text/plain'}});
+                return await res.json();
+            } catch(e) {
+                let err = new Error(`${url} => ${e.message}`);
+                throw err;
+            }
+        }
+
     }
 
     module.exports = exports.BilaraWeb = BilaraWeb;

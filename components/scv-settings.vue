@@ -28,7 +28,7 @@
                 <div v-if="openDetail!=='lang'" class="body-2">
                   {{locale.toUpperCase()}} {{lang.toUpperCase()}}
                 </div>
-            </div>
+            </div><!--scv-settings-title-->
           </summary>
           <div class="scv-settings">
             <div class="scv-select-container">
@@ -67,7 +67,7 @@
                 <div>{{$t('general')}}</div>
                 <div v-if="useCookies && openDetail!=='useCookies'" 
                   class="body-2">cookies</div>
-            </div>
+            </div><!--scv-settings-title-->
           </summary>
           <div class="scv-settings">
             <scv-checkbox v-model="useCookies"
@@ -90,46 +90,62 @@
                     v-if="fullLine && showPali && showTrans" />
                   <format-columns-icon 
                     v-if="!fullLine && showPali && showTrans" />
-                  <span v-if="showTrans" class="body-2">Trans</span>
+                  <span v-if="showTrans" class="body-2">
+                    {{lang.toUpperCase()}}</span>
                 </div>
-            </div>
+            </div><!--scv-settings-title-->
           </summary>
           <div class="scv-settings">
             <scv-checkbox v-model="showPali" 
               ref="trans-focus"
               :aria-checked="showPali"
               :label="$t('showPaliText')"
+              @click="stopPropagation($event)"
               />
             <scv-checkbox v-model="showTrans" 
               :aria-checked="showTrans"
               :label="$t('showTransText')"
+              @click="stopPropagation($event)"
               />
             <scv-checkbox v-model="fullLine" 
               :aria-checked="fullLine"
               :label="$t('showLineByLine')"
+              @click="stopPropagation($event)"
               />
           </div>
         </details>
       </li>
-<div v-if="false">
       <li class="" role="none" >
         <details role="menuitem"
           @click="clickDetails('reader', $event)"
           :open="showDetail('reader')"
           >
-          <summary class="scv-settings-title">
-              {{$vuetify.lang.t('$vuetify.scv.reader')}}
+          <summary class="scv-summary">
+            <div class="scv-settings-title">
+              <div>{{$t('reader')}}</div>
+              <div>
+                <span class="body-2" v-if="showPali && openDetail!=='reader'">
+                  {{vnameRoot}}</span>
+                <span class="body-2" v-if="showTrans && openDetail!=='reader'">
+                  {{vnameTrans}}</span>
+              </div>
+            </div><!--scv-settings-title-->
           </summary>
           <div class="scv-settings">
-            <v-radio-group v-model="gscv.vnameTrans"
-                @change="gscv.changed('vnameTrans')"
-                column>
-               <v-radio v-for="v in gscv.langVoices()"
-                 :label="v.label" :value="v.name" 
-                 :key="`voice${v.name}`">
-                 </v-radio>
-            </v-radio-group>
+            <div class="scv-select-container">
+              <select name="Lang" id="reader-select" 
+                class="scv-select"
+                ref="reader-focus"
+                v-model="vnameTrans"
+                @click="stopPropagation($event)">
+                <option v-for="item in langVoices" :key="item.code" 
+                  :selected="item.name===vnameTrans"
+                  :value="item.name">{{item.name}}</option>
+              </select>
+              <label for="reader-select">{{$t('reader')}}</label>
+            </div>
 
+<div v-if="false">
             <div class="subheading scv-settings-subtitle">
               {{$vuetify.lang.t('$vuetify.scv.rootLanguage')}}
             </div>
@@ -141,8 +157,10 @@
                </v-radio>
             </v-radio-group>
           </div>
+</div>
         </details>
       </li>
+<div v-if="false">
       <li class="" role="none" >
         <details role="menuitem" 
           @click="clickDetails('sound', $event)"
@@ -248,12 +266,15 @@ import ScvCheckbox from '../components/scv-checkbox';
 import CogIcon from 'vue-material-design-icons/Cog.vue';
 import FormatAlignJustifyIcon from 'vue-material-design-icons/FormatAlignJustify.vue';
 import FormatColumnsIcon from 'vue-material-design-icons/FormatColumns.vue';
+import RobotOutlineIcon from 'vue-material-design-icons/RobotOutline.vue';
 const ScvSettings = require('../src/scv-settings');
+const BilaraWeb = require('../src/bilara-web');
 
 export default {
   components: {
     CogIcon,
     FormatColumnsIcon,
+    RobotOutlineIcon,
     ScvCheckbox,
   },
   props: {
@@ -268,6 +289,7 @@ export default {
     };
   },
   mounted() {
+    this.$store.dispatch('scv/loadVoices');
     Vue.set(this, "isMounted", true);
     console.log(`scv-settings mounted`, this);
   },
@@ -349,11 +371,38 @@ export default {
         this.$store.commit("scv/settings", {useCookies:value}); 
       },
     },
+    vnameRoot: {
+      get: function() { return this.$store.state.scv.settings.vnameRoot; },
+      set: function(value) { 
+        this.$store.commit("scv/settings", {vnameRoot:value}); 
+      },
+    },
+    vnameTrans: {
+      get: function() { return this.$store.state.scv.settings.vnameTrans; },
+      set: function(value) { 
+        this.$store.commit("scv/settings", {vnameTrans:value}); 
+      },
+    },
     settings() {
       return this.$store.state.scv.settings;
     },
+    voices() {
+      return this.$store.state.scv.voices;
+    },
     transLanguages() {
       return ScvSettings.TRANS_LANGUAGES;
+    },
+    langVoices() {
+      let { lang, voices, vnameTrans } = this;
+      let langVoices = voices.filter(v=>v.langTrans===lang);
+      if (!langVoices.some(v=>v.name === vnameTrans)) {
+      console.log(`dbg langVoices`, langVoices, vnameTrans);
+        this.$nextTick(()=> {
+          this.vnameTrans = langVoices[0].name;
+          console.log(`dbg langVoices2`, langVoices, this.vnameTrans);
+        });
+      }
+      return langVoices;
     },
     cssProps() {
         return {
