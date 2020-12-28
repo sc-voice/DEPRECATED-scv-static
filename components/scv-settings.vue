@@ -32,7 +32,7 @@
           </summary>
           <div class="scv-settings">
             <div class="scv-select-container">
-              <select name="Locale" id="locale-select" 
+              <select id="locale-select" 
                 ref="lang-focus"
                 class="scv-select"
                 v-model="locale"
@@ -44,7 +44,7 @@
               <label for="locale-select">{{$t('uiLanguage')}}</label>
             </div>
             <div class="scv-select-container">
-              <select name="Lang" id="lang-select" 
+              <select id="lang-select" 
                 class="scv-select"
                 v-model="lang"
                 @click="stopPropagation($event)">
@@ -133,16 +133,27 @@
           </summary>
           <div class="scv-settings">
             <div class="scv-select-container">
-              <select name="Lang" id="reader-select" 
+              <select id="reader-select-trans" 
                 class="scv-select"
                 ref="reader-focus"
                 v-model="vnameTrans"
                 @click="stopPropagation($event)">
-                <option v-for="item in langVoices" :key="item.code" 
+                <option v-for="item in langVoices(lang, 'vnameTrans')" :key="item.code" 
                   :selected="item.name===vnameTrans"
                   :value="item.name">{{item.label}}</option>
               </select>
-              <label for="reader-select">{{$t('reader')}}</label>
+              <label for="reader-select-trans">{{lang.toUpperCase()}}</label>
+            </div>
+            <div class="scv-select-container">
+              <select id="reader-select-root" 
+                class="scv-select"
+                v-model="vnameRoot"
+                @click="stopPropagation($event)">
+                <option v-for="item in langVoices('pli', 'vnameRoot')" :key="item.code" 
+                  :selected="item.name===vnameRoot"
+                  :value="item.name">{{item.label}}</option>
+              </select>
+              <label for="reader-select-root">Pali</label>
             </div>
 
 <div v-if="false">
@@ -340,6 +351,19 @@ export default {
     localeChanged(event, code) {
       console.log('localeChanged', event, code);
     },
+    langVoices(lang, vnameKey) {
+      let { voices, } = this;
+      let vname = this[vnameKey];
+      let langVoices = voices.filter(v=>v.langTrans===lang);
+      if (!langVoices.some(v=>v.name === vname)) {
+      console.log(`dbg langVoices`, {langVoices, vnameKey, vname});
+        this.$nextTick(()=> {
+          this[vnameKey] = langVoices[0].name;
+          console.log(`dbg langVoices2`, langVoices, this[vnameKey]);
+        });
+      }
+      return langVoices;
+    },
   },
   computed: {
     ready() {
@@ -391,18 +415,6 @@ export default {
     },
     transLanguages() {
       return ScvSettings.TRANS_LANGUAGES;
-    },
-    langVoices() {
-      let { lang, voices, vnameTrans } = this;
-      let langVoices = voices.filter(v=>v.langTrans===lang);
-      if (!langVoices.some(v=>v.name === vnameTrans)) {
-      console.log(`dbg langVoices`, langVoices, vnameTrans);
-        this.$nextTick(()=> {
-          this.vnameTrans = langVoices[0].name;
-          console.log(`dbg langVoices2`, langVoices, this.vnameTrans);
-        });
-      }
-      return langVoices;
     },
     cssProps() {
         return {
