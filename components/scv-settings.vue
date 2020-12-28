@@ -17,7 +17,7 @@
       v-if="moreVisible"
       @focusin="focusMore(true)"
       :aria-hidden="!moreVisible">
-      <li class="" role="none" >
+      <li class="" role="none" ><!-- Language -->
         <details role="menuitem" 
           @click="clickDetails('lang', $event)"
           :open="showDetail('lang')"
@@ -56,27 +56,8 @@
             </div>
           </div>
         </details>
-      </li>
-      <li class="" role="none" >
-        <details role="menuitem" 
-          @click="clickDetails('useCookies', $event)"
-          :open="showDetail('useCookies')"
-        >
-          <summary class="scv-summary">
-            <div class="scv-settings-title">
-                <div>{{$t('general')}}</div>
-                <div v-if="useCookies && openDetail!=='useCookies'" 
-                  class="body-2">cookies</div>
-            </div><!--scv-settings-title-->
-          </summary>
-          <div class="scv-settings">
-            <scv-checkbox v-model="useCookies"
-              ref="useCookies-focus"
-              :label="$t('storeSettingsInCookies')"/>
-          </div>
-        </details>
-      </li>
-      <li class="" role="none" >
+      </li><!-- Language -->
+      <li class="" role="none" ><!-- Translation -->
         <details role="menuitem" 
           @click="clickDetails('trans', $event)"
           :open="showDetail('trans')"
@@ -86,9 +67,9 @@
                 <div>{{$t('translation')}}</div>
                 <div >
                   <span v-if="showPali" class="body-2">Pali</span>
-                  <format-align-justify-icon 
+                  <format-align-justify-icon class="scv-setting-icon"
                     v-if="fullLine && showPali && showTrans" />
-                  <format-columns-icon 
+                  <format-columns-icon class="scv-setting-icon"
                     v-if="!fullLine && showPali && showTrans" />
                   <span v-if="showTrans" class="body-2">
                     {{lang.toUpperCase()}}</span>
@@ -114,8 +95,8 @@
               />
           </div>
         </details>
-      </li>
-      <li class="" role="none" >
+      </li><!-- Translation -->
+      <li class="" role="none" ><!-- reader -->
         <details role="menuitem"
           @click="clickDetails('reader', $event)"
           :open="showDetail('reader')"
@@ -155,22 +136,28 @@
               </select>
               <label for="reader-select-root">Pali</label>
             </div>
-
-<div v-if="false">
-            <div class="subheading scv-settings-subtitle">
-              {{$vuetify.lang.t('$vuetify.scv.rootLanguage')}}
-            </div>
-            <v-radio-group v-model="gscv.vnameRoot"
-                @change="gscv.changed('vnameRoot')"
-                column>
-               <v-radio v-for="v in gscv.langVoices('pli')"
-                 :label="v.label" :value="v.name" :key="`voice${v.name}`">
-               </v-radio>
-            </v-radio-group>
           </div>
-</div>
         </details>
-      </li>
+      </li><!-- reader -->
+      <li class="" role="none" ><!-- General -->
+        <details role="menuitem" 
+          @click="clickDetails('useCookies', $event)"
+          :open="showDetail('useCookies')"
+        >
+          <summary class="scv-summary">
+            <div class="scv-settings-title">
+                <div>{{$t('general')}}</div>
+                <div v-if="useCookies && openDetail!=='useCookies'" 
+                  class="body-2">cookies</div>
+            </div><!--scv-settings-title-->
+          </summary>
+          <div class="scv-settings">
+            <scv-checkbox v-model="useCookies"
+              ref="useCookies-focus"
+              :label="$t('storeSettingsInCookies')"/>
+          </div>
+        </details>
+      </li><!-- General -->
 <div v-if="false">
       <li class="" role="none" >
         <details role="menuitem" 
@@ -212,7 +199,7 @@
           </div>
         </details>
       </li>
-      <li class="" role="none" >
+      <li class="" role="none" ><!-- General -->
         <details role="menuitem" 
           @click="clickDetails('audio', $event)"
           :open="showDetail('audio')"
@@ -229,8 +216,8 @@
               <v-radio label="MP3" :value="gscv.AUDIO_MP3" > </v-radio>
             </v-radio-group>
           </div>
-        </details> <!-- General -->
-      </li>
+        </details>
+      </li><!-- General -->
       <li class="" role="none" >
         <details role="menuitem" 
           @click="clickDetails('general', $event)"

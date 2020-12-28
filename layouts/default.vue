@@ -33,11 +33,13 @@
       app
     >
       <Logo/>
+      <v-toolbar-title >
+        scv-static{{$route.path}}
+      </v-toolbar-title>
+      <v-spacer />
       <menu-icon  class="scv-app-icon"
         @click="menuClicked"
         />
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
     </v-app-bar>
     <v-main>
       <v-container>

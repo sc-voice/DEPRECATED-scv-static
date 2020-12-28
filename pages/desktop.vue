@@ -1,7 +1,6 @@
 <template>
   <v-sheet light class="scv-layout1" >
     <div class="scv-search-pane">
-      <div class="text-h5">Desktop Layout</div>
       <scv-search-field
         :lang="lang"
         v-on:search-text="search"
