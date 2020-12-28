@@ -140,7 +140,7 @@
                 @click="stopPropagation($event)">
                 <option v-for="item in langVoices" :key="item.code" 
                   :selected="item.name===vnameTrans"
-                  :value="item.name">{{item.name}}</option>
+                  :value="item.name">{{item.label}}</option>
               </select>
               <label for="reader-select">{{$t('reader')}}</label>
             </div>
@@ -412,42 +412,3 @@ export default {
   },
 }
 </script>
-<style>
-.scv-settings-title {
-    width: var(--scv-settings-width);
-    display: inline-flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-top: 0.1em;
-    font-size: 120%;
-    font-weight: 500;
-}
-.scv-settings-title:focus {
-    border-color: #82B1FF;
-    outline: 1pt solid #82B1FF;
-}
-
-.scv-settings-icon {
-}
-.scv-settings-icon:focus > svg {
-  background-color: $focus-color;
-  margin-bottom: 5px;
-}
-.scv-more-menu {
-    position: absolute;
-    list-style: none;
-    top: 3em;
-    right: 0;
-    min-width: 23em;
-    text-align: left;
-    border-top: 1pt solid #888;
-    padding-top: 0.5em;
-    padding-bottom: 1em;
-    border: 1pt solid #555;
-    border-right: 1pt solid #555;
-    border-bottom: 1pt solid #555;
-    border-radius: 2pt;
-    background-color: var(--scv-background-color);
-}
-</style>

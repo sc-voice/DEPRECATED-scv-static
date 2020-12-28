@@ -52,7 +52,7 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@/assets/variables.scss',
-    '@/assets/css/main.css',
+    '@/assets/scv.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -83,7 +83,7 @@ export default {
         icons: false,
     },
     customVariables: [
-        '~/assets/css/main.css',
+        '~/assets/scv.css',
     ],
     //treeShake: true,
     theme: {
