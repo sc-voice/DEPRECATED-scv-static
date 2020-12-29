@@ -17,8 +17,9 @@
     </header>
     <div class="scv-text-container">
       <div v-for="seg in segments" :key="seg.scid" class="scv-segment">
-        <div v-html="seg.pli" class="scv-text-root"/>
-        <div v-html="seg[sutta.lang]" class="scv-text-trans"/>
+        <div v-if="settings.showId" class="scv-scid">{{seg.scid}}</div>
+        <div v-if="settings.showPali" v-html="seg.pli" class="scv-text-root"/>
+        <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="scv-text-trans"/>
       </div>
     </div><!-- scv-text-container -->
   </div>
@@ -50,6 +51,9 @@ export default {
     },
     segments() {
       return this.sutta.segments.filter(seg=>!/:0/.test(seg.scid));
+    },
+    settings() {
+      return this.$store.state.scv.settings;
     },
     sutta() {
       return this.$store.state.scv.sutta;

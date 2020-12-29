@@ -135,6 +135,47 @@
                 label: 'Tiếng Việt / VI',
             }];
         }
+    
+        static get IPS_CHOICES() { 
+            return [{
+                url: '',
+                i18n: 'bellNone',
+                value: 0,
+            },{
+                url: '/audio/rainforest-ambience-glory-sunz-public-domain.ogg',
+                i18n: 'bellRainforest',
+                volume: 0.1,
+                value: 1,
+                hide: true,
+            },{
+                url: '/audio/indian-bell-flemur-sampling-plus-1.0.ogg',
+                i18n: 'bellIndian',
+                volume: 0.1,
+                value: 2,
+            },{
+                url: '/audio/tibetan-singing-bowl-horst-cc0.ogg',
+                i18n: "bellTibetan",
+                volume: 0.3,
+                value: 3,
+            },{
+                url: '/audio/jetrye-bell-meditation-cleaned-CC0.ogg',
+                i18n: "bellMeditation",
+                volume: 0.1,
+                value: 4,
+                hide: true,
+            },{
+                url: '/audio/STE-004-Coemgenu.ogg',
+                i18n: "bellMidrange",
+                volume: 0.5,
+                value: 5,
+            },{
+                url: '/audio/simple-bell.ogg',
+                i18n: "bellSimple",
+                volume: 0.5,
+                value: 6,
+            }];
+        }
+
 
         static langLabel(lang) {
             let info = ScvSettings.WEB_LANGUAGES.find(l=>l.code === lang) || {

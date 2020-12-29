@@ -15,16 +15,13 @@ export default (context, inject) => {
     } = context;
 
     let $t = function(key) {
-        if (/$vuetify/.test(key)) {
-            // fully qualified
-        } else if (/\./.test(key)) {
-            key = `$vuetify.${key}`;
+        if (/\./.test(key)) {
+            key = key.startsWith('$vuetify') ? key : `$vuetify.${key}`;
         } else {
             key = `$vuetify.scv.${key}`;
         }
-      return $vuetify
-        ? $vuetify.lang.t(key)
-        : `$vuetify.lang.t(${key})`;
+        console.log(`dbg key`, key);
+      return $vuetify && $vuetify.lang.t(key) || `$vuetify.lang.t(${key})`;
     }
     console.log(`scv-client: injecting $t`);
     inject('t', $t);

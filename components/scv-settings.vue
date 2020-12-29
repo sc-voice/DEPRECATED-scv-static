@@ -64,8 +64,9 @@
         >
           <summary class="scv-summary">
             <div class="scv-settings-title">
-                <div>{{$t('translation')}}</div>
+                <div>{{$t('textFormat')}}</div>
                 <div >
+                  <span v-if="showId" class="body-2">#</span>
                   <span v-if="showPali" class="body-2">Pali</span>
                   <format-align-justify-icon class="scv-setting-icon"
                     v-if="fullLine && showPali && showTrans" />
@@ -91,6 +92,11 @@
             <scv-checkbox v-model="fullLine" 
               :aria-checked="fullLine"
               :label="$t('showLineByLine')"
+              @click="stopPropagation($event)"
+              />
+            <scv-checkbox v-model="showId" 
+              :aria-checked="showId"
+              :label="$t('showTextSegmentIds')"
               @click="stopPropagation($event)"
               />
           </div>
@@ -139,6 +145,49 @@
           </div>
         </details>
       </li><!-- reader -->
+      <li class="" role="none" ><!-- Sound -->
+        <details role="menuitem" 
+          @click="clickDetails('sound', $event)"
+          :open="showDetail('sound')"
+          >
+          <summary class="scv-summary">
+            <div class="scv-settings-title">
+              <div>{{$t('bellSound')}}</div>
+              <div class="body-2">{{ips}}</div>
+            </div>
+          </summary>
+          <div class="scv-settings">
+            <div class="scv-select-container"
+              @click="stopPropagation($event)"
+              >
+              <select id="ips-select" 
+                ref="sound-focus"
+                class="scv-select caption"
+                v-model="ips"
+                >
+                <option v-for="item in ipsChoices" :key="item.value" 
+                  v-if="item.value !== 1"
+                  :selected="item.value===ips"
+                  :value="item.value">{{$t(item.i18n)}}</option>
+              </select>
+              <label for="ips-select" v-if="ips">
+                <v-btn icon 
+                  class="scv-icon-btn"
+                  @click="playBell"
+                  >
+                  <volume-high-icon />
+                </v-btn>
+              </label>
+              <audio v-for="bell in ipsChoices"
+                :ref="`refIps${bell.value}`" 
+                preload=auto v-if="bell.value" >
+                <source type="audio/ogg" :src="bell.url" />
+                <p>{{$t('noHTML5')}}</p>
+              </audio>
+            </div><!--scv-select-container-->
+          </div><!--scv-settings-->
+        </details>
+      </li><!-- Sound -->
       <li class="" role="none" ><!-- General -->
         <details role="menuitem" 
           @click="clickDetails('useCookies', $event)"
@@ -147,8 +196,10 @@
           <summary class="scv-summary">
             <div class="scv-settings-title">
                 <div>{{$t('general')}}</div>
-                <div v-if="useCookies && openDetail!=='useCookies'" 
-                  class="body-2">cookies</div>
+                <div class="body-2">
+                  v{{version}}
+                  <span v-if="useCookies && openDetail!=='useCookies'">, cookies</span>
+                </div>
             </div><!--scv-settings-title-->
           </summary>
           <div class="scv-settings">
@@ -158,101 +209,76 @@
           </div>
         </details>
       </li><!-- General -->
-<div v-if="false">
-      <li class="" role="none" >
-        <details role="menuitem" 
-          @click="clickDetails('sound', $event)"
-          :open="showDetail('sound')"
-          >
-          <summary class="scv-settings-title">
-            {{$vuetify.lang.t('$vuetify.scv.bellSound')}}
-          </summary>
-          <div class="scv-settings" v-if="gscv">
-            <v-radio-group v-model="gscv.ips" 
-                @change="gscv.changed('ips')"
-                column>
-               <v-radio v-for="(ips) in ipsChoices.filter(ips=>!ips.hide)"
-                 :label="ips.label" :value="ips.value" 
-                 :key="`ips${ips.value}`">
-                 </v-radio>
-            </v-radio-group>
-          </div>
-        </details>
-      </li>
       <li class="" role="none" >
         <details role="menuitem" 
           @click="clickDetails('search', $event)"
           :open="showDetail('search')"
           >
-          <summary class="scv-settings-title">
-            {{$vuetify.lang.t('$vuetify.scv.searchResults')}}
+          <summary class="scv-summary">
+            <div class="scv-settings-title">
+              <div>{{$t('searchResults')}}</div>
+              <div class="body-2" v-if="openDetail!=='search'">{{maxResults}}</div>
+            </div>
           </summary>
-          <div class="scv-settings" v-if="gscv">
-            <v-radio-group v-model="gscv.maxResults"
-                @change="gscv.changed('maxResults')"
-                column>
-               <v-radio v-for="(mr) in maxResultsChoices"
-                 :label="mr.label" :value="mr.value" 
-                 :key="`maxResults${mr.value}`">
-                 </v-radio>
-            </v-radio-group>
+          <div class="scv-settings" >
+            <div class="scv-select-container"
+              @click="stopPropagation($event)"
+              >
+              <select id="maxResults-select" 
+                ref="search-focus"
+                class="scv-select"
+                v-model="maxResults"
+                >
+                <option v-for="n in [5,10,25,50]" :key="n" 
+                  :selected="maxResults === n"
+                  :value="n">{{n}} {{$t('searchResults')}}</option>
+              </select>
+            </div><!--scv-select-container-->
           </div>
         </details>
       </li>
-      <li class="" role="none" ><!-- General -->
+      <li class="" role="none" ><!-- Audio -->
         <details role="menuitem" 
           @click="clickDetails('audio', $event)"
           :open="showDetail('audio')"
           >
-          <summary class="scv-settings-title">
-            {{$vuetify.lang.t('$vuetify.scv.audio')}}
+          <summary class="scv-summary">  
+            <div class="scv-settings-title"> 
+              <div>{{$t('audio')}} </div>
+              <div class="body-2" v-if="openDetail!=='audio'">{{audio}}</div>
+            </div>
           </summary>
-          <div class="scv-settings" v-if="gscv">
-            <v-radio-group v-model="gscv.audio"
-              v-on:change="gscv.changed('audio')"
-              row>
-              <v-radio label="Opus" :value="gscv.AUDIO_OPUS" > </v-radio>
-              <v-radio label="Ogg" :value="gscv.AUDIO_OGG" > </v-radio>
-              <v-radio label="MP3" :value="gscv.AUDIO_MP3" > </v-radio>
-            </v-radio-group>
+          <div class="scv-settings">
+            <div class="scv-select-container"
+              @click="stopPropagation($event)"
+              >
+              <select id="audio-select" 
+                ref="audio-focus"
+                class="scv-select "
+                v-model="audio"
+                >
+                <option :selected="audio==='opus'" value="opus">
+                  Opus {{$t('audio')}}</option>
+                <option :selected="audio==='ogg'" value="ogg">
+                  Ogg {{$t('audio')}}</option>
+                <option :selected="audio==='mp3'" value="mp3">
+                  MP3 {{$t('audio')}}</option>
+              </select>
+            </div><!--scv-select-container-->
           </div>
         </details>
-      </li><!-- General -->
-      <li class="" role="none" >
-        <details role="menuitem" 
-          @click="clickDetails('general', $event)"
-          :open="showDetail('general')"
-          >
-          <summary class="scv-settings-title">
-            {{$vuetify.lang.t('$vuetify.scv.general')}}
-          </summary>
-          <div class="scv-settings" v-if="gscv">
-            <v-checkbox v-model="gscv.showId" role="checkbox"
-              :aria-checked="gscv.showId"
-              v-on:change="gscv.changed('showId')"
-              :label="$vuetify.lang.t('$vuetify.scv.showTextSegmentIds')"
-              />
-            <v-checkbox v-model="gscv.useCookies" role="checkbox"
-              v-on:change="gscv.changed('useCookies')"
-              :aria-checked="gscv.useCookies"
-              :label="$vuetify.lang.t('$vuetify.scv.storeSettingsInCookies')"
-              />
-            <span class="scv-version">v{{version}}</span>
-          </div>
-        </details> <!-- General -->
-      </li>
+      </li><!-- Audio -->
       <li class="text-center settings-close" role="none">
         <v-btn id="btnSettings" 
           small
           class="scv-text-button"
-          dark :style="cssProps"
-          :aria-label="$vuetify.lang.t('$vuetify.scv.ariaClose')"
+          color="primary"
+          :aria-label="$t('ariaClose')"
           @click="focusMore(false,$event)"
           >
-          {{$vuetify.lang.t('$vuetify.close')}}
+          {{$t('$vuetify.close')}}
         </v-btn>
       </li>
-</div><!-- v-if false -->
     </ul> <!-- scv-more-menu -->
   </div> <!-- scv-more -->
 </template>
@@ -265,14 +291,17 @@ import CogIcon from 'vue-material-design-icons/Cog.vue';
 import FormatAlignJustifyIcon from 'vue-material-design-icons/FormatAlignJustify.vue';
 import FormatColumnsIcon from 'vue-material-design-icons/FormatColumns.vue';
 import RobotOutlineIcon from 'vue-material-design-icons/RobotOutline.vue';
+import VolumeHighIcon from 'vue-material-design-icons/VolumeHigh.vue';
 const ScvSettings = require('../src/scv-settings');
 const BilaraWeb = require('../src/bilara-web');
+const {version } = require('../package.json');
 
 export default {
   components: {
     CogIcon,
     FormatColumnsIcon,
     RobotOutlineIcon,
+    VolumeHighIcon,
     ScvCheckbox,
   },
   props: {
@@ -284,6 +313,7 @@ export default {
       openDetail: null,
       languages: ScvSettings.WEB_LANGUAGES,
       moreFocus: null,
+      version,
     };
   },
   mounted() {
@@ -351,6 +381,14 @@ export default {
       }
       return langVoices;
     },
+    playBell() {
+      let ips = ScvSettings.IPS_CHOICES[this.ips];
+      if (ips) {
+        let refAudio = this.$refs[`refIps${ips.value}`];
+        let audio = refAudio instanceof Array ? refAudio[0] : refAudio;
+        audio && audio.play();
+      }
+    },
   },
   computed: {
     ready() {
@@ -368,13 +406,26 @@ export default {
       get: function() { return this.$store.state.scv.settings.showPali; },
       set: function(value) { this.$store.commit("scv/settings", {showPali:value}); },
     },
+    showId: {
+      get: function() { return this.$store.state.scv.settings.showId; },
+      set: function(value) { this.$store.commit("scv/settings", {showId:value}); },
+    },
     lang: {
       get: function() { return this.$store.state.scv.settings.lang; },
       set: function(value) { this.$store.commit("scv/settings", {lang:value}); },
     },
+    maxResults: {
+      get: function() { return this.$store.state.scv.settings.maxResults; },
+      set: function(value) { 
+        this.$store.commit("scv/settings", {maxResults:Number(value)}); },
+    },
     locale: {
       get: function() { return this.$store.state.scv.settings.locale; },
       set: function(value) { this.$store.commit("scv/settings", {locale:value}); },
+    },
+    audio: {
+      get: function() { return this.$store.state.scv.settings.audio; },
+      set: function(value) { this.$store.commit("scv/settings", {audio:value}); },
     },
     useCookies: {
       get: function() { return !!this.$store.state.scv.settings.useCookies; },
@@ -407,6 +458,16 @@ export default {
         return {
             'margin': '0',
         };
+    },
+    ipsChoices() {
+      return ScvSettings.IPS_CHOICES;
+    },
+    ipsUrl() {
+      return this.ips && ScvSettings.IPS_CHOICES[this.ips].url;
+    },
+    ips: {
+      get: function() { return this.$store.state.scv.settings.ips; },
+      set: function(value) { this.$store.commit("scv/settings", {ips:value}); },
     },
   },
 }

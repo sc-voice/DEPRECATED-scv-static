@@ -129,7 +129,7 @@ label {
 }
 .scv-icon-btn:focus, 
 .scv-icon-btn:hover {
-    border: 2px solid var(--scv-focus-color);
+    outline: 2px solid var(--scv-focus-color);
 }
 
 summary:hover,
@@ -182,4 +182,12 @@ summary:focus {
     border-bottom: 1pt solid #555;
     border-radius: 2pt;
     background-color: var(--scv-background-color);
+}
+
+.scv-scid {
+    display: inline-block;
+    font-size: xx-small;
+    color: #888;
+    margin-top: 0.6em;
+    margin-left: 0.2em;
 }
