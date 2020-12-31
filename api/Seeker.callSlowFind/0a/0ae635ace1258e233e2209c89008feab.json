@@ -357,14 +357,14 @@
           "an3.11:2.1": {
             "scid": "an3.11:2.1",
             "pli": "Tīhi, bhikkhave, dhammehi samannāgato ñāto bhikkhu bahujanahitāya paṭipanno hoti bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānaṁ. ",
-            "de": "Eine namhafte Nonne, die drei Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen. ",
+            "de": "Eine renommierte Nonne, die drei Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen. ",
             "en": "A well-known mendicant who has three qualities is acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
             "matched": true
           },
           "an3.11:2.4": {
             "scid": "an3.11:2.4",
             "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato ñāto bhikkhu bahujanahitāya paṭipanno hoti bahujanasukhāya, bahuno janassa atthāya hitāya sukhāya devamanussānan”ti. ",
-            "de": "Eine namhafte Nonne, die diese drei Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen.“ ",
+            "de": "Eine renommierte Nonne, die diese drei Eigenschaften besitzt, handelt zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Segen von Göttern und Menschen.“ ",
             "en": "A well-known mendicant who has these three qualities is acting for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
             "matched": true
           }
@@ -373,7 +373,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 3\n2. Der Wagenbauer\n11. Namhaft",
+        "title": "Nummerierte Lehrreden 3\n2. Der Wagenbauer\n11. Renommiert",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,

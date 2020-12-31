@@ -32,17 +32,21 @@
     "pattern": "wesen ohne wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bwesen ohne wahrnehmung",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
+      "dn24/de/sabbamitta",
       "dn15/de/sabbamitta"
     ],
     "mlDocs": [
@@ -76,6 +80,38 @@
           "pli": 277,
           "de": 254,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "de",
+        "segMap": {
+          "dn24:2.20.9": {
+            "scid": "dn24:2.20.9",
+            "pli": "‘Santāvuso, asaññasattā nāma devā. ",
+            "de": "‚Werte Freunde, es gibt Götter mit Namen „<span class=\"scv-matched\">Wesen ohne Wahrnehmung</span>“. ",
+            "en": "‘Reverends, there are gods named “non-percipient beings”. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 24\nÜber Pāṭikaputta\n1. Die Geschichte von Sunakkhatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 581,
+          "de": 500,
+          "en": 580
         }
       },
       {

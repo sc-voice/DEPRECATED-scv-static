@@ -191,3 +191,7 @@ summary:focus {
     margin-top: 0.6em;
     margin-left: 0.2em;
 }
+.scv-sutta {
+  margin-top: 1em;
+  border-top: 1pt solid #888;
+}

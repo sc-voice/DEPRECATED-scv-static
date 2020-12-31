@@ -32,7 +32,7 @@
     "pattern": "haare.* zu berge",
     "method": "phrase",
     "resultPattern": "\\bhaare.* zu berge",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -74,6 +77,7 @@
       "sn5.1/de/sabbamitta",
       "sn5.10/de/sabbamitta",
       "sn10.8/de/sabbamitta",
+      "dn24/de/sabbamitta",
       "dn21/de/sabbamitta",
       "dn19/de/sabbamitta"
     ],
@@ -445,6 +449,38 @@
           "pli": 515,
           "de": 477,
           "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "de",
+        "segMap": {
+          "dn24:1.20.4": {
+            "scid": "dn24:1.20.4",
+            "pli": "Sutvānassa bhayaṁ chambhitattaṁ lomahaṁso udapādi. ",
+            "de": "Als er das hörte, packten ihn Furcht und Entsetzen, und die <span class=\"scv-matched\">Haare standen ihm zu Berge</span>. ",
+            "en": "When he heard that, he became frightened, scared, his hair standing on end. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 24\nÜber Pāṭikaputta\n1. Die Geschichte von Sunakkhatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 581,
+          "de": 500,
+          "en": 580
         }
       }
     ]

@@ -32,11 +32,14 @@
     "pattern": "ärger, hass und unmut",
     "method": "phrase",
     "resultPattern": "\\bärger, hass und unmut",
-    "segsMatched": 16,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.157_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.157_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.157_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "an3.64/de/sabbamitta",
+      "dn24/de/sabbamitta",
       "an5.157/de/sabbamitta",
       "an4.197/de/sabbamitta",
       "an3.27/de/sabbamitta",
@@ -322,6 +326,45 @@
           "pli": 62,
           "de": 61,
           "en": 61
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "de",
+        "segMap": {
+          "dn24:1.12.3": {
+            "scid": "dn24:1.12.3",
+            "pli": "Asampāyanto kopañca dosañca appaccayañca pātvākāsi. ",
+            "de": "zeigte er <span class=\"scv-matched\">Ärger, Hass und Unmut</span>. ",
+            "en": "he displayed irritation, hate, and bitterness. ",
+            "matched": true
+          },
+          "dn24:1.13.7": {
+            "scid": "dn24:1.13.7",
+            "pli": "Asampāyanto kopañca dosañca appaccayañca pātvākāsi. ",
+            "de": "zeigte er <span class=\"scv-matched\">Ärger, Hass und Unmut</span>? ",
+            "en": "he displayed irritation, hate, and bitterness. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 24\nÜber Pāṭikaputta\n1. Die Geschichte von Sunakkhatta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 581,
+          "de": 500,
+          "en": 580
         }
       }
     ]

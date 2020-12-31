@@ -94,7 +94,6 @@ export default {
   },
   methods: {
     menuClicked() {
-      console.log(`dbg menu`);
       Vue.set(this, "drawer", true);
     },
   },

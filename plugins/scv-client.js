@@ -20,7 +20,6 @@ export default (context, inject) => {
         } else {
             key = `$vuetify.scv.${key}`;
         }
-        console.log(`dbg key`, key);
       return $vuetify && $vuetify.lang.t(key) || `$vuetify.lang.t(${key})`;
     }
     console.log(`scv-client: injecting $t`);

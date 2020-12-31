@@ -270,7 +270,7 @@
                     throw err;
                 }
             } else {
-                console.log(`dbg find() non-example:`, pattern);
+                console.log(`find() non-example:`, pattern);
             }
             return result;
         } catch(e) {

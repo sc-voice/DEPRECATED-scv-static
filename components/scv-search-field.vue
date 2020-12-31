@@ -6,6 +6,7 @@
       :items="searchItems"
       :search-input.sync="search"
       :filter="searchFilter"
+      clear-icon="x"
       clearable
       @input="onSearchInput($event)"
     ></v-autocomplete>
@@ -33,19 +34,28 @@ export default {
   },
   data: function(){
     return {
-      seeker: null,
+      bilaraWeb: null,
     };
   },
   async mounted() {
     let { $vuetify, $store, } = this;
     $store.dispatch('scv/loadExamples');
-    this.seeker = new BilaraWeb({fetch});
+    this.bilaraWeb = new BilaraWeb({fetch});
   },
   methods:{
-    async onSearchInput(pattern) { try {
-      let { locale:lang } = this;
+    async onSearchInput(pattern='') { try {
+      let { bilaraWeb, lang } = this;
       let noValue = {mlDocs:[]};
-      let value = pattern && (await this.seeker.find({
+      pattern = pattern.toLowerCase().trim();
+      let slashParts = pattern.split('/');
+      if (bilaraWeb.suidMap[slashParts[0]]) {
+        let sutta_uid = slashParts[0];
+        slashParts[1] && (lang = slashParts[1]);
+        this.$store.dispatch('scv/loadSutta', {sutta_uid, lang} );
+        return;
+      }
+
+      let value = pattern && (await bilaraWeb.find({
         pattern, 
         lang,
       })) || noValue;
@@ -83,9 +93,11 @@ export default {
     },
   },
   computed: {
+    lang() {
+        return this.$store.state.scv.settings.lang;
+    },
     locale() {
         return this.$store.state.scv.settings.locale;
-        //return this.$vuetify.lang.current;
     },
     displayable() {
         return !!this.$store.state.scv.examplesLoaded;

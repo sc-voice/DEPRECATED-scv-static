@@ -31,7 +31,7 @@
     "pattern": "sustained by",
     "method": "phrase",
     "resultPattern": "\\bsustained by",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.2_translation-en-sujato.json",
@@ -53,6 +53,8 @@
       "translation/en/sujato/sutta/sn/sn12/sn12.52_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag2.2_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag2.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/kp/kp4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/kp/kp4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
@@ -71,6 +73,7 @@
       "sn12.53/en/sujato",
       "sn12.52/en/sujato",
       "thag2.2/en/sujato",
+      "kp4/en/sujato",
       "dn34/en/sujato",
       "an10.28/en/sujato",
       "an10.27/en/sujato"
@@ -296,6 +299,35 @@
         "langSegs": {
           "pli": 21,
           "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/kp/kp4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/kp/kp4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "kp4",
+        "lang": "en",
+        "segMap": {
+          "kp4:1.2": {
+            "scid": "kp4:1.2",
+            "pli": "Sabbe sattā āhāraṭṭhitikā.",
+            "en": "All sentient beings are <span class=\"scv-matched\">sustained by</span> food.",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Passages\nThe Boy’s Questions",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
         }
       },
       {

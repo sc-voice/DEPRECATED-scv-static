@@ -315,14 +315,14 @@
           "an3.24:1.1": {
             "scid": "an3.24:1.1",
             "pli": "“Tayome, bhikkhave, puggalā puggalassa bahukārā. ",
-            "de": "„Mönche und Nonnen, diese <span class=\"scv-matched\">drei Menschen</span> sind eine große Hilfe für andere. ",
+            "de": "„Mönche und Nonnen, diese <span class=\"scv-matched\">drei Menschen</span> sind anderen eine große Hilfe. ",
             "en": "“Mendicants, these three people are very helpful to another. ",
             "matched": true
           },
           "an3.24:3.3": {
             "scid": "an3.24:3.3",
             "pli": "Ime kho, bhikkhave, tayo puggalā puggalassa bahukārā. ",
-            "de": "Das sind die <span class=\"scv-matched\">drei Menschen</span>, die eine große Hilfe für andere sind. ",
+            "de": "Das sind die <span class=\"scv-matched\">drei Menschen</span>, die anderen eine große Hilfe sind. ",
             "en": "These are the three people who are very helpful to another person. ",
             "matched": true
           },

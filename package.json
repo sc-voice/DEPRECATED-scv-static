@@ -14,6 +14,7 @@
     "vue-details": "^1.0.9"
   },
   "devDependencies": {
+    "@mdi/js": "^5.8.55",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/vuetify": "^1.11.2",
     "axios": "^0.21.0",
@@ -23,7 +24,7 @@
     "mocha": "^7.1.1",
     "push-dir": "^0.4.1",
     "sass-loader": "^8",
-    "scv-bilara": "^1.4.53",
+    "scv-bilara": "^1.4.58",
     "should": "^11.2.0",
     "vue-material-design-icons": "^4.11.0"
   },

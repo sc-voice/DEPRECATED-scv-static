@@ -1,19 +1,19 @@
 <template>
-  <div class="scv-history">
+  <div class="scv-history" v-if="sutta && sutta.sutta_uid">
     <v-btn v-if="previous" small text
-        @click="clickSutta(previous.sutta_uid)"
-    > {{previous.sutta_uid}} </v-btn>
+        @click="clickSutta(previous)"
+    > {{previous.sutta_uid}}/{{previous.lang}}` </v-btn>
     <v-btn v-else disabled icon > <chevron-left /> </v-btn>
 
     <v-spacer/>
 
-    <v-btn text > {{current.sutta_uid}}</v-btn>
+    <v-btn text > {{current.sutta_uid}}/{{current.lang}}</v-btn>
 
     <v-spacer/>
 
     <v-btn v-if="next" small text
-        @click="clickSutta(next.sutta_uid)"
-    > {{next.sutta_uid}} </v-btn>
+        @click="clickSutta(next)"
+    > {{next.sutta_uid}}/{{next.lang}} </v-btn>
     <v-btn v-else disabled icon > <chevron-right/> </v-btn>
   </div>
 </template>
@@ -36,31 +36,34 @@ export default {
   async mounted() {
   },
   methods:{
-    clickSutta(sutta_uid) {
+    clickSutta({sutta_uid, lang}) {
         let { history, $store } = this;
-        let h = history.find(h=>h.sutta_uid===sutta_uid);
+        let h = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
         let updateHistory = false;
-        $store.dispatch('scv/loadSutta', {sutta_uid, updateHistory});
+        $store.dispatch('scv/loadSutta', {sutta_uid, lang, updateHistory});
     },
   },
   computed: {
     previous() {
-        let { history, sutta_uid } = this;
-        let iCur = history.findIndex(h=>h.sutta_uid===sutta_uid);
+        let { history, sutta } = this;
+        let { sutta_uid, lang } = sutta;
+        let iCur = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
         return history[iCur-1];
     },
     current() {
-        let { history, sutta_uid } = this;
-        let iCur = history.findIndex(h=>h.sutta_uid===sutta_uid);
-        return history[iCur] || {};
+        let { history, sutta } = this;
+        let { sutta_uid, lang } = sutta;
+        let iCur = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+        return history[iCur] || sutta;
     },
     next() {
-        let { history, sutta_uid } = this;
-        let iCur = history.findIndex(h=>h.sutta_uid===sutta_uid);
+        let { history, sutta } = this;
+        let { sutta_uid, lang } = sutta;
+        let iCur = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
         return history[iCur+1];
     },
-    sutta_uid() {
-        return this.$store.state.scv.sutta.sutta_uid;
+    sutta() {
+        return this.$store.state.scv.sutta;
     },
     history() {
       return this.$store.state.scv.suttaHistory;

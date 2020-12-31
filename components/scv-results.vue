@@ -1,133 +1,135 @@
 <template>
-  <div v-if="mlDocs.length === 0" class="text-h6 pl-2" >
-    {{foundSuttas}}
-  </div>
-  <vue-details v-else-if="mlDocs.length" 
-    class="scv-results-details"
-    v-model="showResults"
-    > <!-- mlDocs -->
-    <summary v-if="resultCount"
-      class='scv-summary text-subtitle-2 pt-1 pb-1'
-      role="main"
-      ref="refResults"
-      aria-level="1"
-      :aria-label="ariaFoundSuttas(resultCount, playlistDuration.aria)"
-    >
-      <span aria-hidden=true>
-        {{foundSuttas}}
-        ({{playlistDuration.display}})
-      </span>
-    </summary>
-    <v-card>
-      <v-card-text>
-        <vue-details v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i" 
-          v-model="mld.showDetails"
-          role="heading" aria-level="2"
-        >
-          <summary class="scv-summary">
-            <div class="scv-result-summary" >
-              <div v-html="resultTitle(mld)" 
-                @click="clickResult(mld)"
-                class="scv-result-title"
-              />
-              <!--div class="caption" >{{mld.score}}</div-->
-              <div class="caption text-right" 
-                :aria-label="mldDuration(mld).aria">
-                {{mldDuration(mld).display}}
-              </div>
-            </div><!-- scv-result-summary -->
-          </summary>
-          <div v-for="seg in mld.segments" :key="seg.scid">
-            <div v-if="results.searchLang === 'pli'"
-                v-html="seg.pli" class="scv-text-root"/>
-            <div v-if="results.searchLang === mld.lang"
-                v-html="seg[mld.lang]" class="scv-text-trans"/>
-          </div>
-
-        <!--
-          <div class="scv-playlist ml-3 pt-2 pl-3" 
-            v-if="gscv.voices.length" >
-            <v-btn icon small fab v-if="playable"
-              @click="playSearchText()"
-              :title="$t('speakSearchText')"
-              :disabled="!playSearch.signature"
-              class="scv-icon-btn" :style="cssVars" >
-              <v-icon>chat_bubble_outline</v-icon>
-            </v-btn>
-            <v-btn icon v-if="playable"
-              @click="playAll()"
-              :title="$t('playAll')"
-              class="scv-icon-btn" :style="cssVars" small>
-              <v-icon>play_circle_outline</v-icon>
-            </v-btn>
-            <v-btn icon v-if="playable"
-              @click="downloadBuild()"
-              :aria-label="`${ariaDownload} ${resultId()}`"
-              class="scv-icon-btn" :style="cssVars" small>
-              <v-icon>arrow_downward</v-icon>
-            </v-btn>
-          </div>
-          -->
-          <!--
-          <details role="heading" aria-level="2"
-              v-for="(result,i) in (searchResults && searchResults.results||[])"
-              :key="`${result.uid}_${i}`"
-              class="scv-search-result" :style="cssVars">
-              <div v-if="gscv.showId" class="scv-search-result-scid scv-scid">
-                SC&nbsp;{{result.quote.scid}}
-              </div>
-              <div v-if="result.quote && showPali && result.quote.pli"
-                class="scv-search-result-pli">
-                <div>
-                  <div v-html="result.quote.pli"></div>
+  <div v-if="mlDocs">
+    <div v-if="mlDocs.length === 0" class="text-h6 pl-2" >
+      {{foundSuttas}}
+    </div>
+    <vue-details v-else-if="mlDocs.length" 
+      class="scv-results-details"
+      v-model="showResults"
+      > <!-- mlDocs -->
+      <summary v-if="resultCount"
+        class='scv-summary text-subtitle-2 pt-1 pb-1'
+        role="main"
+        ref="refResults"
+        aria-level="1"
+        :aria-label="ariaFoundSuttas(resultCount, playlistDuration.aria)"
+      >
+        <span aria-hidden=true>
+          {{foundSuttas}}
+          ({{playlistDuration.display}})
+        </span>
+      </summary>
+      <v-card>
+        <v-card-text>
+          <vue-details v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i" 
+            v-model="mld.showDetails"
+            role="heading" aria-level="2"
+          >
+            <summary class="scv-summary">
+              <div class="scv-result-summary" >
+                <div v-html="resultTitle(mld)" 
+                  @click="clickResult(mld)"
+                  class="scv-result-title"
+                />
+                <!--div class="caption" >{{mld.score}}</div-->
+                <div class="caption text-right" 
+                  :aria-label="mldDuration(mld).aria">
+                  {{mldDuration(mld).display}}
                 </div>
-              </div>
-              <div v-if="result.quote && showTrans && result.quote[language]"
-                class="scv-search-result-lang">
-                <div>
-                  <span v-html="result.quote[gscv.lang]"></span>
-                  <div v-if="gscv.showId" class='scv-scid'>
-                    &mdash;
-                    {{result.author}} 
+              </div><!-- scv-result-summary -->
+            </summary>
+            <div v-for="seg in mld.segments" :key="seg.scid">
+              <div v-if="results.searchLang === 'pli'"
+                  v-html="seg.pli" class="scv-text-root"/>
+              <div v-if="results.searchLang === mld.lang"
+                  v-html="seg[mld.lang]" class="scv-text-trans"/>
+            </div>
+
+          <!--
+            <div class="scv-playlist ml-3 pt-2 pl-3" 
+              v-if="gscv.voices.length" >
+              <v-btn icon small fab v-if="playable"
+                @click="playSearchText()"
+                :title="$t('speakSearchText')"
+                :disabled="!playSearch.signature"
+                class="scv-icon-btn" :style="cssVars" >
+                <v-icon>chat_bubble_outline</v-icon>
+              </v-btn>
+              <v-btn icon v-if="playable"
+                @click="playAll()"
+                :title="$t('playAll')"
+                class="scv-icon-btn" :style="cssVars" small>
+                <v-icon>play_circle_outline</v-icon>
+              </v-btn>
+              <v-btn icon v-if="playable"
+                @click="downloadBuild()"
+                :aria-label="`${ariaDownload} ${resultId()}`"
+                class="scv-icon-btn" :style="cssVars" small>
+                <v-icon>arrow_downward</v-icon>
+              </v-btn>
+            </div>
+            -->
+            <!--
+            <details role="heading" aria-level="2"
+                v-for="(result,i) in (searchResults && searchResults.results||[])"
+                :key="`${result.uid}_${i}`"
+                class="scv-search-result" :style="cssVars">
+                <div v-if="gscv.showId" class="scv-search-result-scid scv-scid">
+                  SC&nbsp;{{result.quote.scid}}
+                </div>
+                <div v-if="result.quote && showPali && result.quote.pli"
+                  class="scv-search-result-pli">
+                  <div>
+                    <div v-html="result.quote.pli"></div>
                   </div>
                 </div>
+                <div v-if="result.quote && showTrans && result.quote[language]"
+                  class="scv-search-result-lang">
+                  <div>
+                    <span v-html="result.quote[gscv.lang]"></span>
+                    <div v-if="gscv.showId" class='scv-scid'>
+                      &mdash;
+                      {{result.author}} 
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-3 pt-2" 
+                  style="display:flex; justify-content: space-between">
+                  <div>
+                    <v-btn icon v-if="result.quote && playable"
+                      @click="playQuotes(i, result)"
+                      :class="btnPlayQuotesClass(i)" :style="cssVars" small>
+                      <v-icon>chat_bubble_outline</v-icon>
+                    </v-btn>
+                    <v-btn icon v-if="result.quote && playable"
+                      @click="playOne(result)"
+                      class="scv-icon-btn" :style="cssVars" small>
+                      <v-icon>play_circle_outline</v-icon>
+                    </v-btn>
+                    <v-btn icon v-if="result.quote"
+                      :href="resultLink(result)"
+                      class="scv-icon-btn" :style="cssVars" small>
+                    <v-icon>open_in_new</v-icon>
+                    </v-btn>
+                    <v-btn icon v-if="playable"
+                      @click="downloadBuild(resultRef(result))"
+                      :aria-label="`${ariaDownload} ${resultId()}`"
+                      class="scv-icon-btn" :style="cssVars" small>
+                      <v-icon>arrow_downward</v-icon>
+                    </v-btn>
+                  </div>
+                  <div class="scv-score">
+                    {{$t('relevance')}}
+                    {{score(result)}}
+                  </div>
               </div>
-              <div class="ml-3 pt-2" 
-                style="display:flex; justify-content: space-between">
-                <div>
-                  <v-btn icon v-if="result.quote && playable"
-                    @click="playQuotes(i, result)"
-                    :class="btnPlayQuotesClass(i)" :style="cssVars" small>
-                    <v-icon>chat_bubble_outline</v-icon>
-                  </v-btn>
-                  <v-btn icon v-if="result.quote && playable"
-                    @click="playOne(result)"
-                    class="scv-icon-btn" :style="cssVars" small>
-                    <v-icon>play_circle_outline</v-icon>
-                  </v-btn>
-                  <v-btn icon v-if="result.quote"
-                    :href="resultLink(result)"
-                    class="scv-icon-btn" :style="cssVars" small>
-                  <v-icon>open_in_new</v-icon>
-                  </v-btn>
-                  <v-btn icon v-if="playable"
-                    @click="downloadBuild(resultRef(result))"
-                    :aria-label="`${ariaDownload} ${resultId()}`"
-                    class="scv-icon-btn" :style="cssVars" small>
-                    <v-icon>arrow_downward</v-icon>
-                  </v-btn>
-                </div>
-                <div class="scv-score">
-                  {{$t('relevance')}}
-                  {{score(result)}}
-                </div>
-            </div>
-          </details>
-          -->
-        </vue-details><!-- search result i-->
-      </v-card-text>
-    </v-card>
-  </vue-details><!-- mlDocs -->
+            </details>
+            -->
+          </vue-details><!-- search result i-->
+        </v-card-text>
+      </v-card>
+    </vue-details><!-- mlDocs -->
+  </div>
 </template>
 
 <script>
@@ -243,7 +245,7 @@ export default {
         .replace("A_SEARCH", this.$store.state.scv.search);
     },
     mlDocs() {
-      return this.results.mlDocs || [];
+      return this.results.mlDocs;
     },
     searchResults() { // DEPRECATED
       let { results } = this;

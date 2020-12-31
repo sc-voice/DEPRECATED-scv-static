@@ -44,7 +44,6 @@ export default {
   },
   mounted() {
     let { value,  xref} = this;
-    console.log(`dbg scv-checkbox mounted`, this, {value, xref});
   },
   methods:{
     checkboxChanged(event) {

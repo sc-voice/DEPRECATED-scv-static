@@ -69,14 +69,14 @@
           "an3.11:1.1": {
             "scid": "an3.11:1.1",
             "pli": "“Tīhi, bhikkhave, dhammehi samannāgato ñāto bhikkhu bahujanaahitāya paṭipanno hoti bahujanadukkhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
-            "de": "„Mönche und Nonnen, ein namhafter Mönch, der drei Eigenschaften besitzt, handelt zum Schaden und Unglück der Vielen, zum Nachteil, Schaden und <span class=\"scv-matched\">Leiden vieler Menschen</span>, von Göttern und Menschen. ",
+            "de": "„Mönche und Nonnen, ein renommierter Mönch, der drei Eigenschaften besitzt, handelt zum Schaden und Unglück der Vielen, zum Nachteil, Schaden und <span class=\"scv-matched\">Leiden vieler Menschen</span>, von Göttern und Menschen. ",
             "en": "“Mendicants, a well-known mendicant who has three qualities is acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
             "matched": true
           },
           "an3.11:1.4": {
             "scid": "an3.11:1.4",
             "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato ñāto bhikkhu bahujanaahitāya paṭipanno hoti bahujanadukkhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
-            "de": "Ein namhafter Mönch, der diese drei Eigenschaften besitzt, handelt zum Schaden und Unglück der Vielen, zum Nachteil, Schaden und <span class=\"scv-matched\">Leiden vieler Menschen</span>, von Göttern und Menschen. ",
+            "de": "Ein renommierter Mönch, der diese drei Eigenschaften besitzt, handelt zum Schaden und Unglück der Vielen, zum Nachteil, Schaden und <span class=\"scv-matched\">Leiden vieler Menschen</span>, von Göttern und Menschen. ",
             "en": "A well-known mendicant who has these three qualities is acting for the hurt and unhappiness of the people, for the harm, hurt, and suffering of gods and humans. ",
             "matched": true
           }
@@ -85,7 +85,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 3\n2. Der Wagenbauer\n11. Namhaft",
+        "title": "Nummerierte Lehrreden 3\n2. Der Wagenbauer\n11. Renommiert",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,

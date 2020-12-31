@@ -64,7 +64,7 @@
         >
           <summary class="scv-summary">
             <div class="scv-settings-title">
-                <div>{{$t('textFormat')}}</div>
+                <div>{{$t('textLayout')}}</div>
                 <div >
                   <span v-if="showId" class="body-2">#</span>
                   <span v-if="showPali" class="body-2">Pali</span>
@@ -373,10 +373,8 @@ export default {
       let vname = this[vnameKey];
       let langVoices = voices.filter(v=>v.langTrans===lang);
       if (!langVoices.some(v=>v.name === vname)) {
-      console.log(`dbg langVoices`, {langVoices, vnameKey, vname});
         this.$nextTick(()=> {
           this[vnameKey] = langVoices[0].name;
-          console.log(`dbg langVoices2`, langVoices, this[vnameKey]);
         });
       }
       return langVoices;

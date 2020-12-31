@@ -32,7 +32,7 @@
     "pattern": "schädlichen irrglauben",
     "method": "phrase",
     "resultPattern": "\\bschädlichen irrglauben",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -223,17 +223,24 @@
             "de": "Vielmehr solltest du diesen <span class=\"scv-matched\">schädlichen Irrglauben</span> aufgeben, der in dir aufgekommen ist. ",
             "en": "Rather, you should give up this harmful misconception that has arisen in you. ",
             "matched": true
+          },
+          "dn24:1.13.14": {
+            "scid": "dn24:1.13.14",
+            "pli": "api ca tuyhevetaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ, taṁ pajaha. ",
+            "de": "Vielmehr solltest du diesen <span class=\"scv-matched\">schädlichen Irrglauben</span> aufgeben, der in dir aufgekommen ist. ",
+            "en": "Rather, you should give up this harmful misconception that has arisen in you. ",
+            "matched": true
           }
         },
-        "score": 1.002,
+        "score": 2.003,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 24\nÜber Pāṭikaputta\n1. Die Geschichte von Sunakkhatta",
-        "segsMatched": 1,
+        "segsMatched": 2,
         "langSegs": {
           "pli": 581,
-          "de": 141,
+          "de": 500,
           "en": 580
         }
       }

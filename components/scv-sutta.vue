@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!!sutta" class="pl-2" >
+  <div v-if="sutta && sutta.sutta_uid" class="scv-sutta" >
     <header>
       <scv-sutta-history />
       <div class="scv-division mt-5">

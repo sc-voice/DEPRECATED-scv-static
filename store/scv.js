@@ -8,7 +8,7 @@ export const DEFAULT = {
     get sutta() { return {
         titles: ['...'],
         lang: 'en',
-        sutta_uid: '...',
+        sutta_uid: null,
         segments: [
             {scid: '...', pli: '...', en: '...'}
         ],
@@ -32,11 +32,12 @@ export const mutations = {
         Object.assign(state.sutta, DEFAULT.sutta, value);
         console.log(`$store.state.scv.sutta:`, value);
     },
-    sutta_uid(state, value) {
+    suttaRef(state, value) {
         let { sutta_uid, lang, updateHistory=true } = value;
-        Object.assign(state.sutta, DEFAULT.sutta, {sutta_uid});
+        Object.assign(state.sutta, DEFAULT.sutta, {sutta_uid, lang});
         if (updateHistory) {
-            let sh = state.suttaHistory.find(h=>h.sutta_uid === sutta_uid);
+            let sh = state.suttaHistory
+                .find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
             let date = new Date();
             if (sh) {
                 sh.date = date;
@@ -81,7 +82,7 @@ export const mutations = {
 export const actions = {
     async loadSutta (context, payload) {
         let { sutta_uid, lang='en', updateHistory } = payload;
-        context.commit('sutta_uid', {sutta_uid, lang, updateHistory});
+        context.commit('suttaRef', {sutta_uid, lang, updateHistory});
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
         context.commit('sutta', sutta);
