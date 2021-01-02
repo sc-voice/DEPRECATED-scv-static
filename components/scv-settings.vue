@@ -181,7 +181,7 @@
               <audio v-for="bell in ipsChoices"
                 :ref="`refIps${bell.value}`" 
                 preload=auto v-if="bell.value" >
-                <source type="audio/ogg" :src="bell.url" />
+                <source type="audio/ogg" :src="bell.url.substring(1)" />
                 <p>{{$t('noHTML5')}}</p>
               </audio>
             </div><!--scv-select-container-->
