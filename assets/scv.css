@@ -1,6 +1,6 @@
 /* CSS variables */
 :root {
-  --scv-text-width: 720px;
+  --scv-text-width: 45rem;
   --scv-text-line-height: 1.5;
   --scv-sutta-title-font-size: 28px;
   --scv-division-title-font-size: 18.08px;
@@ -54,20 +54,6 @@ label {
 }
 .scv-app-icon:hover {
     cursor: pointer;
-}
-
-.scv-settings {
-    max-width: var(--scv-settings-width);
-    padding-left: 1.2rem;
-    padding-bottom: 0.5rem;
-}
-.scv-settings-title .scv-setting-icon {
-  width: 1rem;
-  height: 1rem;
-}
-.scv-settings-title .scv-setting-icon svg {
-  width: 1rem;
-  height: 1rem;
 }
 
 .scv-summary {
@@ -143,6 +129,15 @@ summary:focus {
         var(--scv-focus-width) 0-var(--scv-focus-width) var(--scv-focus-color);
 }
 
+.scv-settings {
+    background-color: var(--scv-background-color);
+    z-index: 100;
+}
+.scv-settings-detail {
+    max-width: var(--scv-settings-width);
+    padding-left: 1.2rem;
+    padding-bottom: 0.5rem;
+}
 .scv-settings-title {
     width: var(--scv-setting-width);
     display: inline-flex;
@@ -157,6 +152,14 @@ summary:focus {
 .scv-settings-title:focus {
     border-color: #82B1FF;
     outline: 1pt solid #82B1FF;
+}
+.scv-settings-title .scv-setting-icon {
+  width: 1rem;
+  height: 1rem;
+}
+.scv-settings-title .scv-setting-icon svg {
+  width: 1rem;
+  height: 1rem;
 }
 
 .scv-settings-icon {
@@ -192,6 +195,50 @@ summary:focus {
     margin-left: 0.2em;
 }
 .scv-sutta {
-  margin-top: 1em;
-  border-top: 1pt solid #888;
+  margin-top: 2em;
+}
+
+.scv-results {
+  width: 35rem;
+}
+.scv-result-summary {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  min-width: 500px;
+  max-width: 550px;
+}
+.scv-result-details summary {
+  max-width: 520px;
+}
+.scv-result-details summary:focus {
+  max-width: 520px;
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color) ;
+}
+.scv-result-text {
+  padding-left: 1.15em;
+  width: 32rem;
+}
+@media (width < 600px) {
+  .scv-results {
+    width: 340px;
+  }
+  .scv-result-details summary {
+    max-width: 305px;
+  }
+  .scv-result-summary {
+    min-width: 240px;
+  }
+  .scv-result-text {
+    max-width: 290px;
+  }
+}
+.scv-result-title {
+  padding-left: 3em;
+  text-indent: -3em;
+  padding-right: 0.5em;
+}
+.scv-result-more {
+  cursor: pointer;
+  padding-left: 2em;
 }

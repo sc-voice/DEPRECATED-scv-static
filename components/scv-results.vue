@@ -1,5 +1,5 @@
 <template>
-  <div v-if="mlDocs">
+  <v-card v-if="mlDocs && nDisplayed" class="scv-results">
     <div v-if="mlDocs.length === 0" class="text-h6 pl-2" >
       {{foundSuttas}}
     </div>
@@ -19,13 +19,14 @@
           ({{playlistDuration.display}})
         </span>
       </summary>
-      <v-card>
+      <v-card flat>
         <v-card-text>
           <vue-details v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i" 
+            class="scv-result-details"
             v-model="mld.showDetails"
             role="heading" aria-level="2"
           >
-            <summary class="scv-summary">
+            <summary >
               <div class="scv-result-summary" >
                 <div v-html="resultTitle(mld)" 
                   @click="clickResult(mld)"
@@ -38,12 +39,19 @@
                 </div>
               </div><!-- scv-result-summary -->
             </summary>
-            <div v-for="seg in mld.segments" :key="seg.scid">
-              <div v-if="results.searchLang === 'pli'"
+            <div class="scv-result-text">
+              <div v-for="seg in mld.segments.slice(0,displayMatches(mld))" 
+                :key="seg.scid" >
+                <div v-if="results.searchLang === 'pli'"
                   v-html="seg.pli" class="scv-text-root"/>
-              <div v-if="results.searchLang === mld.lang"
+                <div v-if="results.searchLang === mld.lang"
                   v-html="seg[mld.lang]" class="scv-text-trans"/>
-            </div>
+              </div>
+            </div><!--scv-result-text-->
+            <dots-horizontal-icon v-if="mld.segments.length > displayMatches(mld)"
+                class="scv-result-more"
+                @click="displayMatchesIncrement(mld)"
+            />
 
           <!--
             <div class="scv-playlist ml-3 pt-2 pl-3" 
@@ -129,17 +137,19 @@
         </v-card-text>
       </v-card>
     </vue-details><!-- mlDocs -->
-  </div>
+  </v-card>
 </template>
 
 <script>
 import Vue from 'vue';
 import VueDetails from 'vue-details';
+import DotsHorizontalIcon from 'vue-material-design-icons/DotsHorizontal.vue';
 const GITHUB = 'https://raw.githubusercontent.com';
 const SuttaDuration = require('~/src/sutta-duration');
 
 export default {
   components: {
+    DotsHorizontalIcon,
     VueDetails,
   },
   props: {
@@ -152,13 +162,26 @@ export default {
     return {
       search: '',
       suttaDuration: null,
-      showResults: true,
+      _showResults: false,
+      nDisplayed: {},
     };
   },
   async mounted() {
     this.suttaDuration = await new SuttaDuration({fetch}).initialize();
   },
   methods:{
+    displayMatches(mld) {
+      let { nDisplayed } = this;
+      return nDisplayed[mld.sutta_uid] || 1;
+    },
+    displayMatchesIncrement(mld) {
+      let key = mld.sutta_uid;
+      Vue.set(this.nDisplayed, key, 
+        this.nDisplayed[key] ? this.nDisplayed[key]+1 : 2);
+    },
+    clickResults() {
+      Vue.set(this, "nDisplayed", {});
+    },
     resultOpen(mld) {
       return mld.sutta_uid === this.$store.state.scv.sutta.sutta_uid;
     },
@@ -238,6 +261,15 @@ export default {
     },
   },
   computed: {
+    showResults: {
+      get: function() {
+        return this._showResults;
+      },
+      set: function(value) {
+        this._showResults = value;
+        this.nDisplayed = {};
+      },
+    },
     foundSuttas() {
       let { resultCount, } = this;
       return this.$t && this.$t('foundSuttas')
@@ -282,22 +314,4 @@ export default {
 }
 </script>
 <style>
-.scv-result-summary {
-  display: inline-flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  min-width: 500px;
-  max-width: 80%;
-}
-@media (width < 600px) {
-  .scv-result-summary {
-    min-width: 85%;
-  }
-}
-
-.scv-result-title {
-  padding-left: 3em;
-  text-indent: -3em;
-  padding-right: 0.5em;
-}
 </style>

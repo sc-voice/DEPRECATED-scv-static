@@ -1,5 +1,5 @@
 <template>
-  <div class="scv-more" v-if="isMounted">
+  <v-sheet class="scv-settings" v-if="isMounted">
     <v-btn icon
         id="more-menu-btn"
         @click="clickSettings()"
@@ -30,7 +30,7 @@
                 </div>
             </div><!--scv-settings-title-->
           </summary>
-          <div class="scv-settings">
+          <div class="scv-settings-detail">
             <div class="scv-select-container">
               <select id="locale-select" 
                 ref="lang-focus"
@@ -77,7 +77,7 @@
                 </div>
             </div><!--scv-settings-title-->
           </summary>
-          <div class="scv-settings">
+          <div class="scv-settings-detail">
             <scv-checkbox v-model="showPali" 
               ref="trans-focus"
               :aria-checked="showPali"
@@ -118,7 +118,7 @@
               </div>
             </div><!--scv-settings-title-->
           </summary>
-          <div class="scv-settings">
+          <div class="scv-settings-detail">
             <div class="scv-select-container">
               <select id="reader-select-trans" 
                 class="scv-select"
@@ -156,7 +156,7 @@
               <div class="body-2">{{ips}}</div>
             </div>
           </summary>
-          <div class="scv-settings">
+          <div class="scv-settings-detail">
             <div class="scv-select-container"
               @click="stopPropagation($event)"
               >
@@ -202,7 +202,7 @@
                 </div>
             </div><!--scv-settings-title-->
           </summary>
-          <div class="scv-settings">
+          <div class="scv-settings-detail">
             <scv-checkbox v-model="useCookies"
               ref="useCookies-focus"
               :label="$t('storeSettingsInCookies')"/>
@@ -220,7 +220,7 @@
               <div class="body-2" v-if="openDetail!=='search'">{{maxResults}}</div>
             </div>
           </summary>
-          <div class="scv-settings" >
+          <div class="scv-settings-detail" >
             <div class="scv-select-container"
               @click="stopPropagation($event)"
               >
@@ -248,7 +248,7 @@
               <div class="body-2" v-if="openDetail!=='audio'">{{audio}}</div>
             </div>
           </summary>
-          <div class="scv-settings">
+          <div class="scv-settings-detail">
             <div class="scv-select-container"
               @click="stopPropagation($event)"
               >
@@ -280,7 +280,7 @@
         </v-btn>
       </li>
     </ul> <!-- scv-more-menu -->
-  </div> <!-- scv-more -->
+  </v-sheet> <!-- scv-more -->
 </template>
 
 <script>

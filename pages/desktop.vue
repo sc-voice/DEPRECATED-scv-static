@@ -1,10 +1,10 @@
 <template>
-  <v-sheet light class="scv-layout1" >
+  <v-sheet light class="desktop" >
     <div class="desktop-nav">
       <div class="text-h6">Sample Desktop Layout</div>
       <scv-settings dark />
     </div>
-    <div class="scv-search-pane">
+    <div class="desktop-search">
       <scv-search-field
         :lang="lang"
         v-on:search-text="search"
@@ -60,8 +60,8 @@ export default {
   background-color: #000;
 }
 
-.scv-search-pane {
-  max-width: 28rem;
+.desktop-search {
+  xmax-width: 28rem;
 }
 
 .desktop-nav {
@@ -74,13 +74,7 @@ export default {
   background-color: #eee;
 }
 
-.ex-more {
-  width: 2em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.scv-layout1 {
+.desktop {
   display: flex;
   flex-flow: column;
   align-items: center;
