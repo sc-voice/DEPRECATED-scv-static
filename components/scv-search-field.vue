@@ -117,9 +117,9 @@ export default {
       }
     },
     searchItems() {
-      let { $vuetify, locale, } = this;
+      let { $vuetify, lang, locale, } = this;
       var search = (this.search||'').toLowerCase();
-      var langEx = this.examples[locale] || this.examples.en;
+      var langEx = this.examples[lang] || this.examples[locale] || this.examples.en;
       var examples = search
         ? langEx.filter(ex=>ex.toLowerCase().indexOf(search)>=0)
         : langEx;
