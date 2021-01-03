@@ -79,10 +79,11 @@ export default {
       let { 
         $vuetify,
         examples, 
+        lang,
         locale,
       } = this;
       let that = this;
-      let langEx = examples[locale] || examples.en;
+      let langEx = examples[lang] || examples[locale] || examples.en;
       let iExample = Math.trunc(Math.random() * langEx.length);
       let eg = langEx[iExample];
       Vue.set(this, "search", eg);
