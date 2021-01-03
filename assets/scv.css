@@ -7,8 +7,9 @@
   --scv-header-margin-bottom: 64px;
   --scv-segment-margin-bottom: 0.5em;
   --scv-text-font-size: 18.08px;
-  --scv-sans-font: "Skolar Sans PE", "Noto Sans", sans-serif;
-  --scv-serif-font: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
+  --scv-sc-sans-font: "Skolar Sans PE", "Noto Sans", sans-serif;
+  --scv-sc-serif-font: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
+  --scv-sans-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --scv-accent-color: #882200; 
   --scv-accent-font-weight: 600;
   --scv-focus-color: #82B1FF;
@@ -77,6 +78,9 @@ label {
   align-items: baseline;
   padding-right: 0.5rem;
 }
+.scv-select-container select {
+  max-width: 290px;
+}
 
 .scv-text {
   line-height: var(--scv-text-line-height);
@@ -84,20 +88,22 @@ label {
 }
 .scv-root {
   font-family: var(--scv-sans-font);
+  font-style: italic;
 }
 .scv-trans {
-  font-family: var(--scv-serif-font);
+  font-family: var(--scv-sans-font);
 }
 .scv-text-root {
   line-height: var(--scv-text-line-height);
   max-width: var(--scv-text-width);
   font-family: var(--scv-sans-font);
   padding-bottom: 0.3em;
+  font-style: italic;
 }
 .scv-text-trans {
   line-height: var(--scv-text-line-height);
   max-width: var(--scv-text-width);
-  font-family: var(--scv-serif-font);
+  font-family: var(--scv-sans-font);
   padding-bottom: 0.7em;
 }
 .scv-matched { 
@@ -241,4 +247,52 @@ summary:focus {
 .scv-result-more {
   cursor: pointer;
   padding-left: 2em;
+}
+.scv-division {
+  font-size: var(--scv-division-title-font-size);
+  text-align: center;
+}
+.scv-division-root {
+  xfont-variant-caps: all-small-caps; /* ugly without SC font */
+  font-feature-settings: normal; /* vs. smcp */
+  font-family: var(--scv-sans-font);
+  font-style: italic;
+}
+.scv-division-trans {
+  xfont-variant-caps: all-small-caps; /* ugly without SC font */
+  font-feature-settings: normal; /* vs. smcp */
+  font-family: var(--scv-sans-font);
+}
+.scv-sutta-title {
+  font-size: var(--scv-sutta-title-font-size);
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.3333;
+  margin-top: 0.5rem;
+  letter-spacing: 0.02em;
+}
+.scv-sutta-title-root {
+  xfont-variant-caps: small-caps; /* ugly without SC font */
+  font-feature-settings: normal; /* vs. smcp */
+  font-family: var(--scv-sans-font);
+  font-style: italic;
+}
+.scv-sutta-title-trans {
+  xfont-variant-caps: small-caps; /* ugly without SC font */
+  xfont-feature-settings: normal; /* vs. smcp */
+  font-family: var(--scv-serif-font);
+}
+.scv-text-container {
+  font-size: var(--scv-text-font-size);
+  line-height: var(--scv-text-line-height);
+  margin-left: auto;
+  margin-right: auto;
+}
+.scv-segment {
+  margin-bottom: var(--scv-segment-margin-bottom);
+  margin-left: auto;
+  margin-right: auto;
+}
+.scv-header {
+  margin-bottom: var(--scv-header-margin-bottom);
 }

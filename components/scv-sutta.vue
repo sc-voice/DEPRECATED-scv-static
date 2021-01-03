@@ -1,6 +1,6 @@
 <template>
   <div v-if="sutta && sutta.sutta_uid" class="scv-sutta" >
-    <header>
+    <header class="scv-header">
       <scv-sutta-history />
       <div class="scv-division mt-5">
         <div class="scv-division-root" v-html="title(0).pli" />
@@ -65,51 +65,4 @@ export default {
 }
 </script>
 <style>
-.scv-division {
-  font-size: var(--scv-division-title-font-size);
-  text-align: center;
-}
-.scv-division-root {
-  xfont-variant-caps: all-small-caps; /* ugly without SC font */
-  font-feature-settings: normal; /* vs. smcp */
-  font-family: var(--scv-sans-font);
-}
-.scv-division-trans {
-  xfont-variant-caps: all-small-caps; /* ugly without SC font */
-  font-feature-settings: normal; /* vs. smcp */
-  font-family: var(--scv-serif-font);
-}
-.scv-sutta-title {
-  font-size: var(--scv-sutta-title-font-size);
-  text-align: center;
-  font-weight: 300;
-  line-height: 1.3333;
-  margin-top: 0.5rem;
-  letter-spacing: 0.02em;
-}
-.scv-sutta-title-root {
-  xfont-variant-caps: small-caps; /* ugly without SC font */
-  font-feature-settings: normal; /* vs. smcp */
-  font-family: var(--scv-sans-font);
-}
-.scv-sutta-title-trans {
-  xfont-variant-caps: small-caps; /* ugly without SC font */
-  xfont-feature-settings: normal; /* vs. smcp */
-  font-family: var(--scv-serif-font);
-}
-header {
-  margin-bottom: var(--scv-header-margin-bottom);
-}
-.scv-text-container {
-  font-size: var(--scv-text-font-size);
-  line-height: var(--scv-text-line-height);
-  margin-left: auto;
-  margin-right: auto;
-}
-.scv-segment {
-  margin-bottom: var(--scv-segment-margin-bottom);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 </style>
