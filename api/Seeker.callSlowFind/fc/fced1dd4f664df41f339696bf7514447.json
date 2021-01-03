@@ -31,8 +31,10 @@
     "pattern": "eye of wisdom",
     "method": "phrase",
     "resultPattern": "\\beye of wisdom",
-    "segsMatched": 7,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga7/iti61_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga7/iti61_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.63_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.63_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn41/sn41.7_root-pli-ms.json",
@@ -49,6 +51,7 @@
       "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti61/en/sujato",
       "sn56.63/en/sujato",
       "sn41.7/en/sujato",
       "sn41.5/en/sujato",
@@ -58,6 +61,47 @@
       "an1.333-377/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga7/iti61_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga7/iti61_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti61",
+        "lang": "en",
+        "segMap": {
+          "iti61:2.3": {
+            "scid": "iti61:2.3",
+            "pli": "Maṁsacakkhu, dibbacakkhu, paññācakkhu—",
+            "en": "the eye of the flesh, the eye of clairvoyance, and the <span class=\"scv-matched\">eye of wisdom</span>. ",
+            "matched": true
+          },
+          "iti61:3.2": {
+            "scid": "iti61:3.2",
+            "pli": "paññācakkhu anuttaraṁ;",
+            "en": "the supreme <span class=\"scv-matched\">eye of wisdom</span>:",
+            "matched": true
+          },
+          "iti61:4.4": {
+            "scid": "iti61:4.4",
+            "pli": "paññācakkhu anuttaraṁ;",
+            "en": "the supreme <span class=\"scv-matched\">eye of wisdom</span>—",
+            "matched": true
+          }
+        },
+        "score": 3.13,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Two\n61. The Eye",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.63_root-pli-ms.json",

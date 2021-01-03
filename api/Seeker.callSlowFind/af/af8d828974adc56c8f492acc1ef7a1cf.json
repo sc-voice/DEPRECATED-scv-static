@@ -31,7 +31,7 @@
     "pattern": "mired in suffering",
     "method": "phrase",
     "resultPattern": "\\bmired in suffering",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn67_translation-en-sujato.json",
@@ -47,6 +47,8 @@
       "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
     ],
@@ -58,6 +60,7 @@
       "sn22.80/en/sujato",
       "sn10.7/en/sujato",
       "mn68/en/sujato",
+      "iti91/en/sujato",
       "an4.122/en/sujato"
     ],
     "mlDocs": [
@@ -217,6 +220,35 @@
         "langSegs": {
           "pli": 181,
           "en": 180
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti91",
+        "lang": "en",
+        "segMap": {
+          "iti91:2.5": {
+            "scid": "iti91:2.5",
+            "pli": "Api ca kho ‘otiṇṇamhā jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi dukkhotiṇṇā dukkhaparetā, ",
+            "en": "Rather, because they think: ‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, <span class=\"scv-matched\">mired in suffering</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Five\n91. Lifestyle",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "en": 30
         }
       },
       {

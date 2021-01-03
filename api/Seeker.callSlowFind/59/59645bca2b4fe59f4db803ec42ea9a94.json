@@ -31,18 +31,21 @@
     "pattern": "two kinds of people",
     "method": "phrase",
     "resultPattern": "\\btwo kinds of people",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.6_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.54_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.54_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti48_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti48_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an9.6/en/sujato",
       "an10.54/en/sujato",
+      "iti48/en/sujato",
       "an2.32-41/en/sujato"
     ],
     "mlDocs": [
@@ -126,6 +129,41 @@
         "langSegs": {
           "pli": 98,
           "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti48_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti48_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti48",
+        "lang": "en",
+        "segMap": {
+          "iti48:2.1": {
+            "scid": "iti48:2.1",
+            "pli": "“Dveme, bhikkhave, āpāyikā nerayikā idamappahāya.",
+            "en": "“Mendicants, <span class=\"scv-matched\">two kinds of people</span> are bound for a place of loss, bound for hell, if they don’t give up this fault. ",
+            "matched": true
+          },
+          "iti48:2.4": {
+            "scid": "iti48:2.4",
+            "pli": "Ime kho, bhikkhave, dve āpāyikā nerayikā idamappahāyā”ti.",
+            "en": "These are the <span class=\"scv-matched\">two kinds of people</span> bound for a place of loss, bound for hell, if they don’t give up this fault.” ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n48. Bound for Loss",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "en": 24
         }
       },
       {

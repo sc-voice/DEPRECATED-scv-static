@@ -31,7 +31,7 @@
     "pattern": "element of",
     "method": "phrase",
     "resultPattern": "\\belement of",
-    "segsMatched": 28,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn14/sn14.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.11_translation-en-sujato.json",
@@ -43,6 +43,8 @@
       "translation/en/sujato/sutta/sn/sn22/sn22.47_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn14/sn14.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga6/iti51_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga6/iti51_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.41_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.41_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.111_root-pli-ms.json",
@@ -54,6 +56,7 @@
       "an6.38/en/sujato",
       "sn22.47/en/sujato",
       "sn14.13/en/sujato",
+      "iti51/en/sujato",
       "an6.41/en/sujato",
       "an6.111/en/sujato"
     ],
@@ -298,6 +301,41 @@
         "langSegs": {
           "pli": 12,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga6/iti51_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga6/iti51_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti51",
+        "lang": "en",
+        "segMap": {
+          "iti51:2.3": {
+            "scid": "iti51:2.3",
+            "pli": "Rūpadhātu, arūpadhātu, nirodhadhātu—",
+            "en": "The elements of form, formlessness, and cessation. ",
+            "matched": true
+          },
+          "iti51:3.1": {
+            "scid": "iti51:3.1",
+            "pli": "“Rūpadhātuṁ pariññāya,",
+            "en": "“Comprehending the <span class=\"scv-matched\">element of</span> form, ",
+            "matched": true
+          }
+        },
+        "score": 2.087,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter One\n51. Elements",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
         }
       },
       {

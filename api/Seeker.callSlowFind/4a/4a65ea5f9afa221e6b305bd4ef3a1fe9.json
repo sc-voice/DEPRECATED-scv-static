@@ -31,7 +31,7 @@
     "pattern": "conscience and prudence",
     "method": "phrase",
     "resultPattern": "\\bconscience and prudence",
-    "segsMatched": 83,
+    "segsMatched": 86,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.180-229_translation-en-sujato.json",
@@ -51,6 +51,8 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.1_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti40_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti40_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -71,6 +73,8 @@
       "translation/en/sujato/sutta/an/an10/an10.105_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
@@ -100,6 +104,7 @@
       "sn46.30/en/sujato",
       "sn45.1/en/sujato",
       "mn66/en/sujato",
+      "iti40/en/sujato",
       "dn34/en/sujato",
       "dn33/en/sujato",
       "an8.3/en/sujato",
@@ -110,6 +115,7 @@
       "an10.76/en/sujato",
       "an10.105/en/sujato",
       "sn16.11/en/sujato",
+      "iti42/en/sujato",
       "an7.7/en/sujato",
       "an7.6/en/sujato",
       "an7.5/en/sujato",
@@ -892,6 +898,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti40_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti40_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti40",
+        "lang": "en",
+        "segMap": {
+          "iti40:2.1": {
+            "scid": "iti40:2.1",
+            "pli": "“Avijjā, bhikkhave, pubbaṅgamā akusalānaṁ dhammānaṁ samāpattiyā anvadeva ahirikaṁ anottappaṁ;",
+            "en": "“Mendicants, ignorance precedes the attainment of unskillful qualities, with lack of <span class=\"scv-matched\">conscience and prudence</span> following along. ",
+            "matched": true
+          },
+          "iti40:2.2": {
+            "scid": "iti40:2.2",
+            "pli": "vijjā ca kho, bhikkhave, pubbaṅgamā kusalānaṁ dhammānaṁ samāpattiyā anvadeva hirottappan”ti.",
+            "en": "Knowledge precedes the attainment of skillful qualities, with <span class=\"scv-matched\">conscience and prudence</span> following along.”",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n40. Knowledge",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an7/an7.7_translation-en-sujato.json"
         ],
@@ -1232,6 +1273,35 @@
         "langSegs": {
           "pli": 8,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti42",
+        "lang": "en",
+        "segMap": {
+          "iti42:2.3": {
+            "scid": "iti42:2.3",
+            "pli": "Hirī ca, ottappañca.",
+            "en": "<span class=\"scv-matched\">Conscience and prudence</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n42. Bright Things",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
         }
       },
       {

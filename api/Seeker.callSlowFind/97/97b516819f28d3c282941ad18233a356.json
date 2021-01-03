@@ -31,7 +31,7 @@
     "pattern": "end of the world",
     "method": "phrase",
     "resultPattern": "\\bend of the world",
-    "segsMatched": 42,
+    "segsMatched": 43,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json",
@@ -43,6 +43,8 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.228_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.46_root-pli-ms.json",
@@ -54,6 +56,7 @@
       "an4.45/en/sujato",
       "sn35.116/en/sujato",
       "sn35.228/en/sujato",
+      "iti109/en/sujato",
       "an4.5/en/sujato",
       "an4.46/en/sujato"
     ],
@@ -440,6 +443,35 @@
         "langSegs": {
           "pli": 25,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti109",
+        "lang": "en",
+        "segMap": {
+          "iti109:12.6": {
+            "scid": "iti109:12.6",
+            "pli": "Lokantagū pāragatoti vuccatī”ti.",
+            "en": "and gone to the <span class=\"scv-matched\">end of the world</span>, is called ‘one who has gone beyond’.” ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Fours\nThe Chapter on the Holy Offering of the Teaching\n109. A River",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "en": 29
         }
       },
       {

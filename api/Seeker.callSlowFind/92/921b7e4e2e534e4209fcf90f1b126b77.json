@@ -31,7 +31,7 @@
     "pattern": "laughing wisdom",
     "method": "phrase",
     "resultPattern": "\\blaughing wisdom",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.25_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn55/sn55.25_translation-en-sujato.json",
@@ -47,6 +47,8 @@
       "translation/en/sujato/sutta/sn/sn2/sn2.29_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn111_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn111_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti41_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti41_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
     ],
@@ -58,6 +60,7 @@
       "sn8.7/en/sujato",
       "sn2.29/en/sujato",
       "mn111/en/sujato",
+      "iti41/en/sujato",
       "dn30/en/sujato"
     ],
     "mlDocs": [
@@ -247,6 +250,35 @@
         "langSegs": {
           "pli": 52,
           "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti41_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti41_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti41",
+        "lang": "en",
+        "segMap": {
+          "iti41:5.3": {
+            "scid": "iti41:5.3",
+            "pli": "Pihayanti hāsapaññānaṁ,",
+            "en": "of <span class=\"scv-matched\">laughing wisdom</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n41. Bereft of Wisdom",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "en": 26
         }
       },
       {

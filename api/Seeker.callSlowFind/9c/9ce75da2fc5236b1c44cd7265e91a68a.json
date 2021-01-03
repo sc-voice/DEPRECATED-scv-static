@@ -31,18 +31,56 @@
     "pattern": "observing the impermanence of all",
     "method": "phrase",
     "resultPattern": "\\bobserving the impermanence of all",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn55/sn55.3_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga9/iti85_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti85_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn55.3/en/sujato",
-      "mn50/en/sujato"
+      "mn50/en/sujato",
+      "iti85/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga9/iti85_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga9/iti85_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti85",
+        "lang": "en",
+        "segMap": {
+          "iti85:2.3": {
+            "scid": "iti85:2.3",
+            "pli": "sabbasaṅkhāresu aniccānupassino viharatha.",
+            "en": "Meditate <span class=\"scv-matched\">observing the impermanence of all</span> conditions.",
+            "matched": true
+          },
+          "iti85:2.6": {
+            "scid": "iti85:2.6",
+            "pli": "Sabbasaṅkhāresu aniccānupassīnaṁ viharataṁ yā avijjā sā pahīyati, yā vijjā sā uppajjatī”ti.",
+            "en": "When you meditate <span class=\"scv-matched\">observing the impermanence of all</span> conditions, ignorance is given up and knowledge arises.”",
+            "matched": true
+          }
+        },
+        "score": 2.087,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Four\n85. Observing Ugliness",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn55/sn55.3_root-pli-ms.json",

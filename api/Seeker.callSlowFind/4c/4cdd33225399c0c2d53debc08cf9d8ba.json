@@ -31,7 +31,7 @@
     "pattern": "darkness.* destroyed",
     "method": "phrase",
     "resultPattern": "\\bdarkness.* destroyed",
-    "segsMatched": 24,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
@@ -43,6 +43,8 @@
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti99_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti99_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.11_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.11_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",
@@ -56,11 +58,53 @@
       "mn36/en/sujato",
       "mn19/en/sujato",
       "mn100/en/sujato",
+      "iti99/en/sujato",
       "an8.11/en/sujato",
       "an3.59/en/sujato",
       "an3.58/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti99_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti99_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti99",
+        "lang": "en",
+        "segMap": {
+          "iti99:3.3": {
+            "scid": "iti99:3.3",
+            "pli": "Ayamassa paṭhamā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato.",
+            "en": "This was the first knowledge they achieved. Ignorance was destroyed and knowledge arose; <span class=\"scv-matched\">darkness was destroyed</span> and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          },
+          "iti99:4.2": {
+            "scid": "iti99:4.2",
+            "pli": "Ayamassa dutiyā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato.",
+            "en": "This was the second knowledge they achieved. Ignorance was destroyed and knowledge arose; <span class=\"scv-matched\">darkness was destroyed</span> and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          },
+          "iti99:5.2": {
+            "scid": "iti99:5.2",
+            "pli": "Ayamassa tatiyā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato.",
+            "en": "This was the third knowledge which they achieved. Ignorance was destroyed and knowledge arose; <span class=\"scv-matched\">darkness was destroyed</span> and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          }
+        },
+        "score": 3.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Five\n99. The Three Knowledges",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 33,
+          "en": 25
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",

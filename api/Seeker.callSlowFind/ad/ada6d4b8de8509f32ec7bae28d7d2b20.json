@@ -31,7 +31,7 @@
     "pattern": "origin of the world",
     "method": "phrase",
     "resultPattern": "\\borigin of the world",
-    "segsMatched": 41,
+    "segsMatched": 43,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
@@ -39,6 +39,8 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.107_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.44_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.23_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.23_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
@@ -56,6 +58,7 @@
       "dn24/en/sujato",
       "sn35.107/en/sujato",
       "sn12.44/en/sujato",
+      "iti112/en/sujato",
       "an4.23/en/sujato",
       "sn22.90/en/sujato",
       "sn12.50/en/sujato",
@@ -428,6 +431,41 @@
         "langSegs": {
           "pli": 49,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti112",
+        "lang": "en",
+        "segMap": {
+          "iti112:2.3": {
+            "scid": "iti112:2.3",
+            "pli": "Lokasamudayo, bhikkhave, tathāgatena abhisambuddho, ",
+            "en": "The <span class=\"scv-matched\">origin of the world</span> has been understood by the Realized One; ",
+            "matched": true
+          },
+          "iti112:2.4": {
+            "scid": "iti112:2.4",
+            "pli": "lokasamudayo tathāgatassa pahīno.",
+            "en": "and he has given up the <span class=\"scv-matched\">origin of the world</span>.",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Fours\nThe Chapter on the Holy Offering of the Teaching\n112. The World",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 70,
+          "en": 53
         }
       },
       {

@@ -31,12 +31,14 @@
     "pattern": "to kill",
     "method": "phrase",
     "resultPattern": "\\bto kill",
-    "segsMatched": 21,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.111_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
@@ -47,6 +49,10 @@
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
@@ -65,11 +71,14 @@
     "suttaRefs": [
       "mn93/en/sujato",
       "mn54/en/sujato",
+      "dhp129-145/en/sujato",
       "an4.111/en/sujato",
       "mn98/en/sujato",
       "mn146/en/sujato",
       "mn119/en/sujato",
       "mn10/en/sujato",
+      "iti27/en/sujato",
+      "dhp383-423/en/sujato",
       "dn4/en/sujato",
       "dn25/en/sujato",
       "dn22/en/sujato",
@@ -233,6 +242,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp129-145",
+        "lang": "en",
+        "segMap": {
+          "dhp129:4": {
+            "scid": "dhp129:4",
+            "pli": "na haneyya na ghātaye.",
+            "en": "neither kill nor incite others <span class=\"scv-matched\">to kill</span>.",
+            "matched": true
+          },
+          "dhp130:4": {
+            "scid": "dhp130:4",
+            "pli": "na haneyya na ghātaye.",
+            "en": "neither kill nor incite others <span class=\"scv-matched\">to kill</span>.",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\n10. The Rod\nChabbaggiyabhikkhuvatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 85,
+          "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json"
         ],
@@ -297,6 +341,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti27",
+        "lang": "en",
+        "segMap": {
+          "iti27:10.1": {
+            "scid": "iti27:10.1",
+            "pli": "Yo na hanti na ghāteti,",
+            "en": "Don’t kill or cause others <span class=\"scv-matched\">to kill</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Ones\nChapter Three\n27. The Meditation on Love",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json"
         ],
@@ -351,6 +424,35 @@
         "langSegs": {
           "pli": 174,
           "en": 173
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp383-423",
+        "lang": "en",
+        "segMap": {
+          "dhp405:3": {
+            "scid": "dhp405:3",
+            "pli": "Yo na hanti na ghāteti,",
+            "en": "not killing or causing others <span class=\"scv-matched\">to kill</span>: ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\n26. Brahmins\nPasādabahulabrāhmaṇavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 270,
+          "en": 181
         }
       },
       {

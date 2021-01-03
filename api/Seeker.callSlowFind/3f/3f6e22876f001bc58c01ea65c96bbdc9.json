@@ -31,18 +31,50 @@
     "pattern": "promiscuous",
     "method": "phrase",
     "resultPattern": "\\bpromiscuous",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti42/en/sujato",
       "dn26/en/sujato",
       "an2.1-10/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti42",
+        "lang": "en",
+        "segMap": {
+          "iti42:2.5": {
+            "scid": "iti42:2.5",
+            "pli": "Sambhedaṁ loko agamissa yathā ajeḷakā kukkuṭasūkarā soṇasiṅgālā.",
+            "en": "The world would become <span class=\"scv-matched\">promiscuous</span>, like goats and sheep, chickens and pigs, and dogs and jackals. ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n42. Bright Things",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",

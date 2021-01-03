@@ -31,8 +31,10 @@
     "pattern": "heart’s release by love",
     "method": "phrase",
     "resultPattern": "\\bheart’s release by love",
-    "segsMatched": 39,
+    "segsMatched": 44,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.54_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.54_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn20/sn20.3_root-pli-ms.json",
@@ -75,6 +77,7 @@
       "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti27/en/sujato",
       "sn46.54/en/sujato",
       "sn20.3/en/sujato",
       "dn34/en/sujato",
@@ -97,6 +100,59 @@
       "an11.16/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti27",
+        "lang": "en",
+        "segMap": {
+          "iti27:2.1": {
+            "scid": "iti27:2.1",
+            "pli": "“Yāni kānici, bhikkhave, opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṁ nāgghanti soḷasiṁ.",
+            "en": "“Mendicants, of all the grounds for making worldly merit, none are worth a sixteenth part of the <span class=\"scv-matched\">heart’s release by love</span>.",
+            "matched": true
+          },
+          "iti27:2.2": {
+            "scid": "iti27:2.2",
+            "pli": "Mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati ca.",
+            "en": "Surpassing them, the <span class=\"scv-matched\">heart’s release by love</span> shines and glows and radiates.",
+            "matched": true
+          },
+          "iti27:3.2": {
+            "scid": "iti27:3.2",
+            "pli": "evamevaṁ kho, bhikkhave, yāni kānici opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṁ nāgghanti soḷasiṁ, mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati ca.",
+            "en": "In the same way, of all the grounds for making worldly merit, none are worth a sixteenth part of the <span class=\"scv-matched\">heart’s release by love</span>. Surpassing them, the <span class=\"scv-matched\">heart’s release by love</span> shines and glows and radiates.",
+            "matched": true
+          },
+          "iti27:4.2": {
+            "scid": "iti27:4.2",
+            "pli": "evamevaṁ kho, bhikkhave, yāni kānici opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṁ nāgghanti soḷasiṁ, mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati ca.",
+            "en": "In the same way, of all the grounds for making worldly merit, none are worth a sixteenth part of the <span class=\"scv-matched\">heart’s release by love</span>. Surpassing them, the <span class=\"scv-matched\">heart’s release by love</span> shines and glows and radiates.",
+            "matched": true
+          },
+          "iti27:5.2": {
+            "scid": "iti27:5.2",
+            "pli": "evamevaṁ kho, bhikkhave, yāni kānici opadhikāni puññakiriyavatthūni sabbāni tāni mettāya cetovimuttiyā kalaṁ nāgghanti soḷasiṁ, mettāyeva tāni cetovimutti adhiggahetvā bhāsate ca tapate ca virocati cā”ti.",
+            "en": "In the same way, of all the grounds for making worldly merit, none are worth a sixteenth part of the <span class=\"scv-matched\">heart’s release by love</span>. Surpassing them, the <span class=\"scv-matched\">heart’s release by love</span> shines and glows and radiates.”",
+            "matched": true
+          }
+        },
+        "score": 5.106,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Ones\nChapter Three\n27. The Meditation on Love",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 47,
+          "en": 35
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn46/sn46.54_root-pli-ms.json",

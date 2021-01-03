@@ -31,10 +31,12 @@
     "pattern": "something left over",
     "method": "phrase",
     "resultPattern": "\\bsomething left over",
-    "segsMatched": 23,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.12_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.76_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
@@ -57,11 +59,18 @@
       "translation/en/sujato/sutta/sn/sn46/sn46.57_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti47_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti47_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti46_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti46_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti45_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti45_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.59_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.59_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an9.12/en/sujato",
+      "iti44/en/sujato",
       "sn46.76/en/sujato",
       "mn10/en/sujato",
       "dn22/en/sujato",
@@ -73,6 +82,9 @@
       "sn47.36/en/sujato",
       "sn46.57/en/sujato",
       "mn70/en/sujato",
+      "iti47/en/sujato",
+      "iti46/en/sujato",
+      "iti45/en/sujato",
       "an10.59/en/sujato"
     ],
     "mlDocs": [
@@ -133,6 +145,47 @@
         "langSegs": {
           "pli": 60,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti44",
+        "lang": "en",
+        "segMap": {
+          "iti44:2.3": {
+            "scid": "iti44:2.3",
+            "pli": "Saupādisesā ca nibbānadhātu, anupādisesā ca nibbānadhātu.",
+            "en": "The facet of quenching with <span class=\"scv-matched\">something left over</span>, and the facet of quenching with nothing left over.",
+            "matched": true
+          },
+          "iti44:3.1": {
+            "scid": "iti44:3.1",
+            "pli": "Katamā ca, bhikkhave, saupādisesā nibbānadhātu?",
+            "en": "And what is the facet of quenching with <span class=\"scv-matched\">something left over</span>? ",
+            "matched": true
+          },
+          "iti44:3.5": {
+            "scid": "iti44:3.5",
+            "pli": "ayaṁ vuccati, bhikkhave, saupādisesā nibbānadhātu.",
+            "en": "is called the facet of quenching with <span class=\"scv-matched\">something left over</span>. ",
+            "matched": true
+          }
+        },
+        "score": 3.094,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n44. Facets of Quenching",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 32,
+          "en": 30
         }
       },
       {
@@ -453,6 +506,93 @@
         "langSegs": {
           "pli": 13,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti45_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti45_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti45",
+        "lang": "en",
+        "segMap": {
+          "iti45:2.3": {
+            "scid": "iti45:2.3",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti.",
+            "en": "enlightenment in the present life, or if there’s <span class=\"scv-matched\">something left over</span>, non-return.” ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n45. Retreat",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti46_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti46_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti46",
+        "lang": "en",
+        "segMap": {
+          "iti46:2.3": {
+            "scid": "iti46:2.3",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti.",
+            "en": "enlightenment in the present life, or if there’s <span class=\"scv-matched\">something left over</span>, non-return.” ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n46. The Benefits of Training",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti47_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti47_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti47",
+        "lang": "en",
+        "segMap": {
+          "iti47:2.3": {
+            "scid": "iti47:2.3",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti.",
+            "en": "enlightenment in the present life, or if there’s <span class=\"scv-matched\">something left over</span>, non-return.” ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n47. Wake Up",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
         }
       },
       {

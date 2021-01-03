@@ -31,15 +31,18 @@
     "pattern": "fruit of giving",
     "method": "phrase",
     "resultPattern": "\\bfruit of giving",
-    "segsMatched": 11,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.34_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti26_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.57_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.57_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.34/en/sujato",
+      "iti26/en/sujato",
       "an7.57/en/sujato"
     ],
     "mlDocs": [
@@ -112,6 +115,47 @@
         "langSegs": {
           "pli": 43,
           "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti26_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti26",
+        "lang": "en",
+        "segMap": {
+          "iti26:2.1": {
+            "scid": "iti26:2.1",
+            "pli": "“Evañce, bhikkhave, sattā jāneyyuṁ dānasaṁvibhāgassa vipākaṁ yathāhaṁ jānāmi, na adatvā bhuñjeyyuṁ, na ca nesaṁ maccheramalaṁ cittaṁ pariyādāya tiṭṭheyya.",
+            "en": "“Mendicants, if sentient beings only knew, as I do, the <span class=\"scv-matched\">fruit of giving</span> and sharing, they would not eat without first giving, and the stain of stinginess would not occupy their minds.",
+            "matched": true
+          },
+          "iti26:2.3": {
+            "scid": "iti26:2.3",
+            "pli": "Yasmā ca kho, bhikkhave, sattā na evaṁ jānanti dānasaṁvibhāgassa vipākaṁ yathāhaṁ jānāmi, tasmā adatvā bhuñjanti, maccheramalañca nesaṁ cittaṁ pariyādāya tiṭṭhatī”ti.",
+            "en": "It is because sentient beings do not know, as I do, the <span class=\"scv-matched\">fruit of giving</span> and sharing, that they eat without first giving, and the stain of stinginess occupies their minds.”",
+            "matched": true
+          },
+          "iti26:6.4": {
+            "scid": "iti26:6.4",
+            "pli": "anubhonti amaccharā”ti.",
+            "en": "<span class=\"scv-matched\">fruit of giving</span> and sharing.”",
+            "matched": true
+          }
+        },
+        "score": 3.107,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Ones\nChapter Three\n26. Giving",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
         }
       },
       {

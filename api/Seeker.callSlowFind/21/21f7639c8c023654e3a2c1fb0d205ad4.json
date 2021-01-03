@@ -31,12 +31,16 @@
     "pattern": "giving gifts",
     "method": "phrase",
     "resultPattern": "\\bgiving gifts",
-    "segsMatched": 11,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.31_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.31_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga9/iti83_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti83_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
@@ -49,6 +53,8 @@
     "suttaRefs": [
       "an5.31/en/sujato",
       "sn2.23/en/sujato",
+      "iti83/en/sujato",
+      "iti90/en/sujato",
       "dn30/en/sujato",
       "an5.32/en/sujato",
       "an4.34/en/sujato",
@@ -174,6 +180,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti90",
+        "lang": "en",
+        "segMap": {
+          "iti90:7.1": {
+            "scid": "iti90:7.1",
+            "pli": "Aggasmiṁ dānaṁ dadataṁ,",
+            "en": "<span class=\"scv-matched\">giving gifts</span> to the best, ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Five\n90. The Best Kinds of Confidence",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json"
         ],
@@ -199,6 +234,35 @@
         "langSegs": {
           "pli": 46,
           "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga9/iti83_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga9/iti83_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti83",
+        "lang": "en",
+        "segMap": {
+          "iti83:17.2": {
+            "scid": "iti83:17.2",
+            "pli": "katvā dānena taṁ bahuṁ;",
+            "en": "by <span class=\"scv-matched\">giving gifts</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Four\n83. Five Warning Signs",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "en": 51
         }
       },
       {

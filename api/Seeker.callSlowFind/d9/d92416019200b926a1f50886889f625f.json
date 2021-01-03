@@ -31,7 +31,7 @@
     "pattern": "give the best",
     "method": "keywords",
     "resultPattern": "\\bgive|\\bthe|\\bbest",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn142_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn142_translation-en-sujato.json",
@@ -115,6 +115,14 @@
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp273-289_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp273-289_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp76-89_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp76-89_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag5.11_root-pli-ms.json",
@@ -176,7 +184,8 @@
       "an5.32/en/sujato",
       "an8.46/en/sujato",
       "an8.47/en/sujato",
-      "an8.48/en/sujato"
+      "an8.48/en/sujato",
+      "iti90/en/sujato"
     ],
     "mlDocs": [
       {
@@ -295,6 +304,35 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 8\n5. Sabbath\n48. With Nakula’s Mother on the Loveable Gods",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti90",
+        "lang": "en",
+        "segMap": {
+          "iti90:8.1": {
+            "scid": "iti90:8.1",
+            "pli": "Aggassa dātā medhāvī,",
+            "en": "An intelligent person <span class=\"scv-matched\">give</span>s to <span class=\"scv-matched\">the</span> <span class=\"scv-matched\">best</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Five\n90. The Best Kinds of Confidence",
         "segsMatched": 1,
         "langSegs": {
           "pli": 37,

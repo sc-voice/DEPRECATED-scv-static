@@ -16013,6 +16013,22 @@
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga1/snp1.3_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga1/snp1.3_variant-pli-ms.json"
   },
+  "snp1.4": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/snp/vagga1/snp1.4_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga1/snp1.4_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga1/snp1.4_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga1/snp1.4_variant-pli-ms.json"
+  },
+  "snp1.5": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga1/snp1.5_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/snp/vagga1/snp1.5_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga1/snp1.5_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga1/snp1.5_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga1/snp1.5_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga1/snp1.5_variant-pli-ms.json"
+  },
   "snp3.1": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga3/snp3.1_translation-en-sujato.json",
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga3/snp3.1_root-pli-ms.json",
@@ -37868,18 +37884,6 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga1/snp1.12_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga1/snp1.12_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga1/snp1.12_variant-pli-ms.json"
-  },
-  "snp1.4": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga1/snp1.4_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga1/snp1.4_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga1/snp1.4_variant-pli-ms.json"
-  },
-  "snp1.5": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga1/snp1.5_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga1/snp1.5_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga1/snp1.5_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga1/snp1.5_variant-pli-ms.json"
   },
   "snp1.6": {
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga1/snp1.6_root-pli-ms.json",

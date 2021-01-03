@@ -31,7 +31,7 @@
     "pattern": "joy and happiness",
     "method": "phrase",
     "resultPattern": "\\bjoy and happiness",
-    "segsMatched": 35,
+    "segsMatched": 37,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -49,6 +49,8 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.239_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga4/iti37_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga4/iti37_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.194_root-pli-ms.json",
@@ -63,6 +65,7 @@
       "an6.78/en/sujato",
       "sn35.239/en/sujato",
       "mn87/en/sujato",
+      "iti37/en/sujato",
       "dn9/en/sujato",
       "an5.194/en/sujato"
     ],
@@ -377,6 +380,41 @@
         "langSegs": {
           "pli": 198,
           "en": 197
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga4/iti37_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga4/iti37_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti37",
+        "lang": "en",
+        "segMap": {
+          "iti37:2.1": {
+            "scid": "iti37:2.1",
+            "pli": "“Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhasomanassabahulo viharati, yoni cassa āraddhā hoti āsavānaṁ khayāya.",
+            "en": "“Mendicants, when a mendicant has two qualities they’re full of <span class=\"scv-matched\">joy and happiness</span> in the present life, and they have laid the groundwork for ending the defilements. ",
+            "matched": true
+          },
+          "iti37:2.4": {
+            "scid": "iti37:2.4",
+            "pli": "Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhasomanassabahulo viharati, yoni cassa āraddhā hoti āsavānaṁ khayāyā”ti.",
+            "en": "When a mendicant has these two qualities they’re full of <span class=\"scv-matched\">joy and happiness</span> in the present life, and they have laid the groundwork for ending the defilements.” ",
+            "matched": true
+          }
+        },
+        "score": 2.074,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter One\n37. Happiness",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 27,
+          "en": 20
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "very helpful to",
     "method": "phrase",
     "resultPattern": "\\bvery helpful to",
-    "segsMatched": 23,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.24_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.24_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.234_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.234_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.249_root-pli-ms.json",
@@ -49,6 +51,8 @@
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti106_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti106_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
@@ -65,10 +69,12 @@
       "mn142/en/sujato",
       "sn22.83/en/sujato",
       "mn22/en/sujato",
+      "iti107/en/sujato",
       "an5.234/en/sujato",
       "an4.249/en/sujato",
       "mn85/en/sujato",
       "mn26/en/sujato",
+      "iti106/en/sujato",
       "dn21/en/sujato",
       "an8.51/en/sujato",
       "an4.63/en/sujato",
@@ -242,6 +248,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti107",
+        "lang": "en",
+        "segMap": {
+          "iti107:2.1": {
+            "scid": "iti107:2.1",
+            "pli": "“Bahukārā, bhikkhave, brāhmaṇagahapatikā tumhākaṁ ye vo paccupaṭṭhitā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārehi.",
+            "en": "“Mendicants, brahmins and houselholders are <span class=\"scv-matched\">very helpful to</span> you, as they provide you with robes, alms-food, lodgings, and medicines and supplies for the sick.",
+            "matched": true
+          },
+          "iti107:2.2": {
+            "scid": "iti107:2.2",
+            "pli": "Tumhepi, bhikkhave, bahukārā brāhmaṇagahapatikānaṁ yaṁ nesaṁ dhammaṁ desetha ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha.",
+            "en": "And you are <span class=\"scv-matched\">very helpful to</span> brahmins and householders, as you teach them the Dhamma that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And you reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          }
+        },
+        "score": 2.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Fours\nThe Chapter on the Holy Offering of the Teaching\n107. Very Helpful",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.83_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json"
         ],
@@ -366,6 +407,35 @@
         "langSegs": {
           "pli": 28,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti106_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti106_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti106",
+        "lang": "en",
+        "segMap": {
+          "iti106:3.6": {
+            "scid": "iti106:3.6",
+            "pli": "Bahukārā, bhikkhave, mātāpitaro puttānaṁ āpādakā posakā imassa lokassa dassetāro”ti.",
+            "en": "Parents are <span class=\"scv-matched\">very helpful to</span> their children, they raise them, nurture them, and show them the world.” ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Fours\nThe Chapter on the Holy Offering of the Teaching\n106. With Brahmā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "en": 32
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "unconditioned",
     "method": "phrase",
     "resultPattern": "\\bunconditioned",
-    "segsMatched": 50,
+    "segsMatched": 55,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/sn/sn43/sn43.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn43/sn43.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti43_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti43_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.47_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn43/sn43.44_root-pli-ms.json",
@@ -71,6 +73,10 @@
       "translation/en/sujato/sutta/kn/thag/thag9.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
@@ -83,6 +89,7 @@
       "sn43.1/en/sujato",
       "sn43.2/en/sujato",
       "sn43.11/en/sujato",
+      "iti43/en/sujato",
       "an3.47/en/sujato",
       "sn43.44/en/sujato",
       "sn43.9/en/sujato",
@@ -98,6 +105,8 @@
       "mn115/en/sujato",
       "thag9.1/en/sujato",
       "thag16.1/en/sujato",
+      "iti44/en/sujato",
+      "iti90/en/sujato",
       "dn34/en/sujato",
       "an5.32/en/sujato",
       "an4.34/en/sujato"
@@ -412,6 +421,47 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti43_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti43_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti43",
+        "lang": "en",
+        "segMap": {
+          "iti43:2.1": {
+            "scid": "iti43:2.1",
+            "pli": "“Atthi, bhikkhave, ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ.",
+            "en": "“There is, mendicants, an unborn, unproduced, unmade, and <span class=\"scv-matched\">unconditioned</span>.",
+            "matched": true
+          },
+          "iti43:2.2": {
+            "scid": "iti43:2.2",
+            "pli": "No cetaṁ, bhikkhave, abhavissa ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, nayidha jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyetha.",
+            "en": "If there were no unborn, unproduced, unmade, and <span class=\"scv-matched\">unconditioned</span>, then you would find no escape here from the born, produced, made, and conditioned.",
+            "matched": true
+          },
+          "iti43:2.3": {
+            "scid": "iti43:2.3",
+            "pli": "Yasmā ca kho, bhikkhave, atthi ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, tasmā jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyatī”ti.",
+            "en": "But since there is an unborn, unproduced, unmade, and <span class=\"scv-matched\">unconditioned</span>, an escape is found from the born, produced, made, and conditioned.”",
+            "matched": true
+          }
+        },
+        "score": 3.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n43. Unborn",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn43/sn43.44_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn43/sn43.44_translation-en-sujato.json"
         ],
@@ -708,6 +758,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti44",
+        "lang": "en",
+        "segMap": {
+          "iti44:6.1": {
+            "scid": "iti44:6.1",
+            "pli": "Ye etadaññāya padaṁ asaṅkhataṁ,",
+            "en": "Those who have fully understood the <span class=\"scv-matched\">unconditioned</span> state—",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Twos\nChapter Two\n44. Facets of Quenching",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.34_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an4/an4.34_translation-en-sujato.json"
         ],
@@ -733,6 +812,35 @@
         "langSegs": {
           "pli": 35,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti90",
+        "lang": "en",
+        "segMap": {
+          "iti90:3.1": {
+            "scid": "iti90:3.1",
+            "pli": "Yāvatā, bhikkhave, dhammā saṅkhatā vā asaṅkhatā vā, virāgo tesaṁ aggamakkhāyati, yadidaṁ madanimmadano pipāsavinayo ālayasamugghāto vaṭṭupacchedo taṇhakkhayo virāgo nirodho nibbānaṁ.",
+            "en": "Fading away is said to be the best of all things whether conditioned or <span class=\"scv-matched\">unconditioned</span>. That is, the quelling of vanity, the removing of thirst, the abolishing of clinging, the breaking of the round, the ending of craving, fading away, cessation, extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Five\n90. The Best Kinds of Confidence",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "en": 36
         }
       },
       {

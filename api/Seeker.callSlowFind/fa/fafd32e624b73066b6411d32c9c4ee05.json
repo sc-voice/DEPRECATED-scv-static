@@ -31,15 +31,21 @@
     "pattern": "overcome by anger",
     "method": "phrase",
     "resultPattern": "\\bovercome by anger",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga2/iti12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga2/iti12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga1/iti4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga1/iti4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn15/en/sujato",
+      "iti12/en/sujato",
+      "iti4/en/sujato",
       "an7.64/en/sujato"
     ],
     "mlDocs": [
@@ -112,6 +118,64 @@
         "langSegs": {
           "pli": 128,
           "en": 126
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga2/iti12_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga2/iti12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti12",
+        "lang": "en",
+        "segMap": {
+          "iti12:3.1": {
+            "scid": "iti12:3.1",
+            "pli": "“Yena kodhena kuddhāse,",
+            "en": "“When <span class=\"scv-matched\">overcome by anger</span>",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Ones\nChapter Two\n12. Complete Understanding of Anger",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga1/iti4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga1/iti4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti4",
+        "lang": "en",
+        "segMap": {
+          "iti4:3.1": {
+            "scid": "iti4:3.1",
+            "pli": "“Yena kodhena kuddhāse,",
+            "en": "“When <span class=\"scv-matched\">overcome by anger</span>",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Ones\nChapter One\n4. Anger",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "door to the deathless",
     "method": "phrase",
     "resultPattern": "\\bdoor to the deathless",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/mn/mn52_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga9/iti84_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti84_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.16_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json"
     ],
@@ -49,6 +51,7 @@
       "mn85/en/sujato",
       "mn52/en/sujato",
       "mn26/en/sujato",
+      "iti84/en/sujato",
       "an11.16/en/sujato"
     ],
     "mlDocs": [
@@ -225,6 +228,35 @@
         "langSegs": {
           "pli": 553,
           "en": 552
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga9/iti84_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga9/iti84_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti84",
+        "lang": "en",
+        "segMap": {
+          "iti84:6.3": {
+            "scid": "iti84:6.3",
+            "pli": "Apāpuranti amatassa dvāraṁ,",
+            "en": "They fling open the <span class=\"scv-matched\">door to the deathless</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Four\n84. For the Welfare of the People",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "en": 32
         }
       }
     ]

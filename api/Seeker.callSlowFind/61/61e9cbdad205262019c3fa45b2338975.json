@@ -31,7 +31,7 @@
     "pattern": "relish work",
     "method": "phrase",
     "resultPattern": "\\brelish work",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.79_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.79_translation-en-sujato.json",
@@ -45,6 +45,8 @@
       "translation/en/sujato/sutta/an/an5/an5.150_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.149_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.149_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga8/iti79_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga8/iti79_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.24_root-pli-ms.json",
@@ -61,6 +63,7 @@
       "an5.89/en/sujato",
       "an5.150/en/sujato",
       "an5.149/en/sujato",
+      "iti79/en/sujato",
       "dn16/en/sujato",
       "an7.24/en/sujato",
       "an6.15/en/sujato",
@@ -345,6 +348,41 @@
         "langSegs": {
           "pli": 33,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga8/iti79_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga8/iti79_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti79",
+        "lang": "en",
+        "segMap": {
+          "iti79:2.3": {
+            "scid": "iti79:2.3",
+            "pli": "Idha, bhikkhave, sekho bhikkhu kammārāmo hoti, kammarato, kammārāmatamanuyutto;",
+            "en": "It’s when a mendicant relishes work, ",
+            "matched": true
+          },
+          "iti79:3.3": {
+            "scid": "iti79:3.3",
+            "pli": "Idha, bhikkhave, sekho bhikkhu na kammārāmo hoti, na kammarato, na kammārāmatamanuyutto;",
+            "en": "It’s when a mendicant doesn’t <span class=\"scv-matched\">relish work</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.057,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Three\n79. Decline",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 35,
+          "en": 28
         }
       },
       {

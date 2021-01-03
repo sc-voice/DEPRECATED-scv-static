@@ -31,7 +31,7 @@
     "pattern": "devadatta",
     "method": "phrase",
     "resultPattern": "\\bdevadatta",
-    "segsMatched": 49,
+    "segsMatched": 53,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.7_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.7_translation-en-sujato.json",
@@ -45,6 +45,8 @@
       "translation/en/sujato/sutta/an/an4/an4.68_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn17/sn17.35_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn17/sn17.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga9/iti89_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti89_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn58_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn58_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.26_root-pli-ms.json",
@@ -73,6 +75,7 @@
       "an6.62/en/sujato",
       "an4.68/en/sujato",
       "sn17.35/en/sujato",
+      "iti89/en/sujato",
       "mn58/en/sujato",
       "an9.26/en/sujato",
       "an5.100/en/sujato",
@@ -401,6 +404,53 @@
         "langSegs": {
           "pli": 23,
           "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga9/iti89_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga9/iti89_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti89",
+        "lang": "en",
+        "segMap": {
+          "iti89:0.4": {
+            "scid": "iti89:0.4",
+            "pli": "<span class=\"scv-matched\">Devadatta</span>sutta",
+            "en": "89. About <span class=\"scv-matched\">Devadatta</span> ",
+            "matched": true
+          },
+          "iti89:2.1": {
+            "scid": "iti89:2.1",
+            "pli": "“Tīhi, bhikkhave, asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho.",
+            "en": "“Mendicants, overcome and overwhelmed by three things that oppose the true teaching, <span class=\"scv-matched\">Devadatta</span> is going to a place of loss, to hell, there to remain for an eon, irredeemable. ",
+            "matched": true
+          },
+          "iti89:2.6": {
+            "scid": "iti89:2.6",
+            "pli": "Imehi kho, bhikkhave, tīhi asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho”ti.",
+            "en": "Overcome and overwhelmed by these three things that oppose the true teaching, <span class=\"scv-matched\">Devadatta</span> is going to a place of loss, to hell, there to remain for an eon, irredeemable.”",
+            "matched": true
+          },
+          "iti89:4.4": {
+            "scid": "iti89:4.4",
+            "pli": "devadattoti vissuto.",
+            "en": "the renowned <span class=\"scv-matched\">Devadatta</span>.",
+            "matched": true
+          }
+        },
+        "score": 4.082,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Four\n89. About Devadatta",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 49,
+          "en": 42
         }
       },
       {

@@ -31,8 +31,10 @@
     "pattern": "a hateful person",
     "method": "phrase",
     "resultPattern": "\\ba hateful person",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga9/iti88_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti88_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.69_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.69_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.12_root-pli-ms.json",
@@ -49,6 +51,7 @@
       "translation/en/sujato/sutta/an/an3/an3.53_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti88/en/sujato",
       "an3.69/en/sujato",
       "sn42.12/en/sujato",
       "an7.47/en/sujato",
@@ -58,6 +61,41 @@
       "an3.53/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga9/iti88_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga9/iti88_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti88",
+        "lang": "en",
+        "segMap": {
+          "iti88:7.1": {
+            "scid": "iti88:7.1",
+            "pli": "Duṭṭho atthaṁ na jānāti,",
+            "en": "<span class=\"scv-matched\">A hateful person</span> doesn’t know the good. ",
+            "matched": true
+          },
+          "iti88:7.2": {
+            "scid": "iti88:7.2",
+            "pli": "duṭṭho dhammaṁ na passati;",
+            "en": "<span class=\"scv-matched\">A hateful person</span> doesn’t see the truth. ",
+            "matched": true
+          }
+        },
+        "score": 2.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Four\n88. Inner Stains",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 51,
+          "en": 50
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.69_root-pli-ms.json",

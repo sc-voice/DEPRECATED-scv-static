@@ -31,7 +31,7 @@
     "pattern": "a just and principled king",
     "method": "phrase",
     "resultPattern": "\\ba just and principled king",
-    "segsMatched": 28,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json",
@@ -49,6 +49,8 @@
       "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
@@ -73,6 +75,7 @@
       "an3.14/en/sujato",
       "mn92/en/sujato",
       "mn91/en/sujato",
+      "iti22/en/sujato",
       "dn3/en/sujato",
       "dn18/en/sujato",
       "dn17/en/sujato",
@@ -390,6 +393,35 @@
         "langSegs": {
           "pli": 1665,
           "en": 1664
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti22",
+        "lang": "en",
+        "segMap": {
+          "iti22:3.3": {
+            "scid": "iti22:3.3",
+            "pli": "anekasatakkhattuṁ rājā ahosiṁ cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato.",
+            "en": "Many hundreds of times I was a king, a wheel-turning monarch, <span class=\"scv-matched\">a just and principled king</span>. My dominion extended to all four sides, I achieved stability in the country, and I possessed the seven treasures. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Ones\nChapter Three\n22. The Benefits of Love",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "en": 31
         }
       },
       {

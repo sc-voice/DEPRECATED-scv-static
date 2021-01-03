@@ -31,7 +31,7 @@
     "pattern": "cruel",
     "method": "phrase",
     "resultPattern": "\\bcruel",
-    "segsMatched": 108,
+    "segsMatched": 114,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
@@ -45,6 +45,8 @@
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn14/sn14.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti110_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti110_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.11_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.11_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn78_root-pli-ms.json",
@@ -111,6 +113,10 @@
       "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn114_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn114_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga9/iti87_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti87_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
@@ -171,6 +177,7 @@
       "mn8/en/sujato",
       "mn19/en/sujato",
       "sn14.12/en/sujato",
+      "iti110/en/sujato",
       "an4.11/en/sujato",
       "mn78/en/sujato",
       "mn33/en/sujato",
@@ -204,6 +211,8 @@
       "mn117/en/sujato",
       "mn115/en/sujato",
       "mn114/en/sujato",
+      "iti87/en/sujato",
+      "dhp383-423/en/sujato",
       "dn34/en/sujato",
       "dn32/en/sujato",
       "dn17/en/sujato",
@@ -607,6 +616,53 @@
         "langSegs": {
           "pli": 42,
           "en": 39
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti110_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti110_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti110",
+        "lang": "en",
+        "segMap": {
+          "iti110:2.1": {
+            "scid": "iti110:2.1",
+            "pli": "“Carato cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṁsāvitakko vā.",
+            "en": "“Mendicants, suppose a mendicant has a sensual, malicious, or <span class=\"scv-matched\">cruel</span> thought while walking. ",
+            "matched": true
+          },
+          "iti110:3.1": {
+            "scid": "iti110:3.1",
+            "pli": "Ṭhitassa cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṁsāvitakko vā.",
+            "en": "Suppose a mendicant has a sensual, malicious, or <span class=\"scv-matched\">cruel</span> thought while standing … ",
+            "matched": true
+          },
+          "iti110:6.1": {
+            "scid": "iti110:6.1",
+            "pli": "Carato cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṁsāvitakko vā.",
+            "en": "Suppose a mendicant has a sensual, malicious, or <span class=\"scv-matched\">cruel</span> thought while walking. ",
+            "matched": true
+          },
+          "iti110:7.1": {
+            "scid": "iti110:7.1",
+            "pli": "Ṭhitassa cepi, bhikkhave, bhikkhuno uppajjati kāmavitakko vā byāpādavitakko vā vihiṁsāvitakko vā.",
+            "en": "Suppose a mendicant has a sensual, malicious, or <span class=\"scv-matched\">cruel</span> thought while standing … ",
+            "matched": true
+          }
+        },
+        "score": 4.085,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Fours\nThe Chapter on the Holy Offering of the Teaching\n110. Walking",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 47,
+          "en": 36
         }
       },
       {
@@ -1333,6 +1389,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga9/iti87_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga9/iti87_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti87",
+        "lang": "en",
+        "segMap": {
+          "iti87:2.5": {
+            "scid": "iti87:2.5",
+            "pli": "Vihiṁsāvitakko, bhikkhave, andhakaraṇo acakkhukaraṇo aññāṇakaraṇo paññānirodhiko vighātapakkhiko anibbānasaṁvattaniko.",
+            "en": "and <span class=\"scv-matched\">cruel</span>ty.",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Four\n87. Destroyers of Sight",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.213_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an10/an10.213_translation-en-sujato.json"
         ],
@@ -1880,64 +1965,6 @@
         "langSegs": {
           "pli": 80,
           "en": 79
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an10.176",
-        "lang": "en",
-        "segMap": {
-          "an10.176:12.1": {
-            "scid": "an10.176:12.1",
-            "pli": "Pharusavāco hoti. Yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. #6",
-            "en": "They speak harshly. They use the kinds of words that are <span class=\"scv-matched\">cruel</span>, nasty, hurtful, offensive, bordering on anger, not leading to immersion. ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 10\n17. With Jāṇussoṇi\n176. With Cunda",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 88,
-          "en": 87
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an4.198",
-        "lang": "en",
-        "segMap": {
-          "an4.198:5.2": {
-            "scid": "an4.198:5.2",
-            "pli": "Idha, bhikkhave, ekacco puggalo orabbhiko hoti sūkariko sākuṇiko māgaviko luddo macchaghātako coro coraghātako goghātako bandhanāgāriko, ye vā panaññepi keci kurūrakammantā. ",
-            "en": "It’s when a person is a slaughterer of sheep, pigs, poultry, or deer, a hunter or fisher, a bandit, an executioner, a butcher of cattle, a jailer, or has some other <span class=\"scv-matched\">cruel</span> livelihood. ",
-            "matched": true
-          }
-        },
-        "score": 1.009,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 4\n20. The Great Chapter\n198. Self-mortification",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 111,
-          "en": 110
         }
       }
     ]

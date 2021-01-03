@@ -31,15 +31,47 @@
     "pattern": "creating harmony",
     "method": "phrase",
     "resultPattern": "\\bcreating harmony",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga2/iti19_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga2/iti19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.40_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.40_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti19/en/sujato",
       "an10.40/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga2/iti19_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga2/iti19_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti19",
+        "lang": "en",
+        "segMap": {
+          "iti19:3.5": {
+            "scid": "iti19:3.5",
+            "pli": "Saṅghaṁ samaggaṁ katvāna,",
+            "en": "After <span class=\"scv-matched\">creating harmony</span> in the Saṅgha, ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Ones\nChapter Two\n19. Harmony in the Saṅgha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.40_root-pli-ms.json",

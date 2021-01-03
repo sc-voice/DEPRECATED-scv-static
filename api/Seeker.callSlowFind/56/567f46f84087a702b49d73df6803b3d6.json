@@ -31,7 +31,7 @@
     "pattern": "both ends",
     "method": "phrase",
     "resultPattern": "\\bboth ends",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
@@ -45,6 +45,8 @@
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
@@ -75,6 +77,7 @@
       "mn12/en/sujato",
       "mn119/en/sujato",
       "mn10/en/sujato",
+      "iti91/en/sujato",
       "dn2/en/sujato",
       "dn22/en/sujato",
       "dn1/en/sujato",
@@ -150,6 +153,35 @@
         "langSegs": {
           "pli": 18,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti91",
+        "lang": "en",
+        "segMap": {
+          "iti91:2.9": {
+            "scid": "iti91:2.9",
+            "pli": "Seyyathāpi, bhikkhave, chavālātaṁ ubhatopadittaṁ majjhe gūthagataṁ neva gāme kaṭṭhatthaṁ pharati na araññe;",
+            "en": "Suppose there was a firebrand for lighting a funeral pyre, burning at <span class=\"scv-matched\">both ends</span>, and smeared with dung in the middle. It couldn’t be used as timber either in the village or the wilderness. ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Five\n91. Lifestyle",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "en": 30
         }
       },
       {

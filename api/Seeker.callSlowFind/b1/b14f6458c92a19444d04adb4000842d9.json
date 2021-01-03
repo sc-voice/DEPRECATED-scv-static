@@ -31,10 +31,12 @@
     "pattern": "against the stream",
     "method": "phrase",
     "resultPattern": "\\bagainst the stream",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
@@ -46,6 +48,7 @@
     ],
     "suttaRefs": [
       "an4.5/en/sujato",
+      "iti109/en/sujato",
       "sn6.1/en/sujato",
       "mn85/en/sujato",
       "mn26/en/sujato",
@@ -97,6 +100,41 @@
         "langSegs": {
           "pli": 36,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti109",
+        "lang": "en",
+        "segMap": {
+          "iti109:2.4": {
+            "scid": "iti109:2.4",
+            "pli": "Atha kho so, bhikkhave, puriso tassa purisassa saddaṁ sutvā hatthehi ca pādehi ca paṭisotaṁ vāyameyya.",
+            "en": "Then, when they heard what was said, they’d paddle <span class=\"scv-matched\">against the stream</span> using their hands and feet.",
+            "matched": true
+          },
+          "iti109:9.1": {
+            "scid": "iti109:9.1",
+            "pli": "‘Paṭisoto’ti kho, bhikkhave, nekkhammassetaṁ adhivacanaṁ.",
+            "en": "‘<span class=\"scv-matched\">Against the stream</span>’ is a term for renunciation. ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Fours\nThe Chapter on the Holy Offering of the Teaching\n109. A River",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "en": 29
         }
       },
       {

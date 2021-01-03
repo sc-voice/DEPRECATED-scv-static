@@ -31,16 +31,19 @@
     "pattern": "more peaceful",
     "method": "phrase",
     "resultPattern": "\\bmore peaceful",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga8/iti73_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga8/iti73_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn68/en/sujato",
-      "mn14/en/sujato"
+      "mn14/en/sujato",
+      "iti73/en/sujato"
     ],
     "mlDocs": [
       {
@@ -135,6 +138,41 @@
         "langSegs": {
           "pli": 177,
           "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga8/iti73_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga8/iti73_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti73",
+        "lang": "en",
+        "segMap": {
+          "iti73:0.4": {
+            "scid": "iti73:0.4",
+            "pli": "Santatarasutta",
+            "en": "73. <span class=\"scv-matched\">More Peaceful</span>",
+            "matched": true
+          },
+          "iti73:2.1": {
+            "scid": "iti73:2.1",
+            "pli": "“Rūpehi, bhikkhave, arūpā santatarā, arūpehi nirodho santataro”ti.",
+            "en": "“Mendicants, formless states are <span class=\"scv-matched\">more peaceful</span> than states of form; cessation is <span class=\"scv-matched\">more peaceful</span> than formless states.”",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said\nThe Book of the Threes\nChapter Three\n73. More Peaceful",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
         }
       }
     ]
