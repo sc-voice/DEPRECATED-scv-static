@@ -276,11 +276,15 @@ summary:focus {
   font-feature-settings: normal; /* vs. smcp */
   font-family: var(--scv-sans-font);
   font-style: italic;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .scv-sutta-title-trans {
   xfont-variant-caps: small-caps; /* ugly without SC font */
   xfont-feature-settings: normal; /* vs. smcp */
   font-family: var(--scv-serif-font);
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .scv-text-container {
   font-size: var(--scv-text-font-size);
@@ -292,6 +296,8 @@ summary:focus {
   margin-bottom: var(--scv-segment-margin-bottom);
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .scv-header {
   margin-bottom: var(--scv-header-margin-bottom);

@@ -21,10 +21,11 @@
         should(actual).below(expected+e);
     }
 
-    it("duration(...) measures seconds", async()=>{
+    it("TESTTESTduration(...) measures seconds", async()=>{
         let sd = await suttaDuration.initialize();
 
         // verify with actual durations
+        testTolerance(sd.duration('iti9'), 24);
         testTolerance(sd.duration('thag1.2'), 24);
         testTolerance(sd.duration('thig1.1'), 31);
         testTolerance(sd.duration('sn2.2'), 32);
