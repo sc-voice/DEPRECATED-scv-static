@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.1.48",
+  "version": "0.1.49",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "directories": {
@@ -39,7 +39,8 @@
     "dev": "nuxt",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "scripts/deploy",
+    "deploy:branch": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "repository": {
     "tag": "git"
