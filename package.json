@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.1.45",
+  "version": "0.1.46",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "directories": {
@@ -24,7 +24,7 @@
     "mocha": "^7.1.1",
     "push-dir": "^0.4.1",
     "sass-loader": "^8",
-    "scv-bilara": "^1.4.58",
+    "scv-bilara": "^1.4.66",
     "should": "^11.2.0",
     "vue-material-design-icons": "^4.11.0"
   },
