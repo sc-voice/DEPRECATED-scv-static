@@ -1,0 +1,9 @@
+name: deploy-actions
+on: [push]
+jobs:
+  deploy-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: scripts/deploy
