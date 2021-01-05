@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const Axios = require('axios');
 const { logger } = require('log-instance');
 const { Memoizer } = require('memo-again');
 const {
@@ -12,6 +13,9 @@ const APP_DIR = path.join(__dirname, '..');
 const API_DIR = path.join(APP_DIR, 'api');
 const EXAMPLES_PATH = path.join(API_DIR, 'examples.json');
 const SUID_MAP_PATH = path.join(API_DIR, 'suid-map-bilara-data.json');
+const BILARA_PATH = path.join(APP_DIR, 'local', 'bilara-data');
+const EXAMPLES_BASEURL = 
+    'https://raw.githubusercontent.com/sc-voice/scv-static/main/src/examples';
 
 logger.logLevel = 'warn';
 
@@ -19,8 +23,30 @@ logger.logLevel = 'warn';
     let bilaraData = await new BilaraData().initialize(true);
     await fs.promises.writeFile(SUID_MAP_PATH, 
         JSON.stringify(bilaraData.bilaraPathMap.suidMap, null, 2));
-    await fs.promises.writeFile(EXAMPLES_PATH, 
-        JSON.stringify(bilaraData.examples,null,2));
+
+    let languages = await fs.promises.readdir(path.join(BILARA_PATH, 'translation'));
+    languages = languages.map(lang => {
+        if (lang === 'jpn') {
+            return 'ja';
+        } else {
+            return lang;
+        }
+    });
+    let examplesJson = {};
+    for (let i=0; i<languages.length; i++) {
+        let lang = languages[i];
+        var url = `${EXAMPLES_BASEURL}/examples-${lang}.txt`;
+        try {
+            let res = await Axios.get(url);
+            let examples = res.data.split('\n').filter(ex=>!!ex);
+            examplesJson[lang] = examples;
+            console.log(`examples ${lang}: ${examples.length}`);
+        } catch(e) {
+            console.log(`examples ${lang} (not found)`);
+        }
+    }
+    await fs.promises.writeFile(EXAMPLES_PATH, JSON.stringify(examplesJson,null,2));
+
     let storeName = 'api';
     let storePath = path.join(APP_DIR, storeName);
     let writeFile = true;
