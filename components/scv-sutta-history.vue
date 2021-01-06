@@ -1,9 +1,10 @@
 <template>
   <div class="scv-history" v-if="sutta && sutta.sutta_uid">
     <v-btn v-if="previous" small text
+       class="scv-history-button"
         @click="clickSutta(previous)"
     > {{previous.sutta_uid}}/{{previous.lang}}` </v-btn>
-    <v-btn v-else disabled icon > <chevron-left /> </v-btn>
+    <v-icon v-else class="scv-history-button">{{mdiChevronLeft}}</v-icon>
 
     <v-spacer/>
 
@@ -12,28 +13,37 @@
     <v-spacer/>
 
     <v-btn v-if="next" small text
-        @click="clickSutta(next)"
+      class="scv-history-button"
+      @click="clickSutta(next)"
     > {{next.sutta_uid}}/{{next.lang}} </v-btn>
-    <v-btn v-else disabled icon > <chevron-right/> </v-btn>
+    <v-icon v-else class="scv-history-button">{{mdiChevronRight}}</v-icon>
   </div>
 </template>
 
 <script>
-import ChevronRight from 'vue-material-design-icons/ChevronRight.vue'
-import ChevronLeft from 'vue-material-design-icons/ChevronLeft.vue'
+import {
+  mdiChevronLeft,
+  mdiChevronRight,
+} from '@mdi/js';
 
 export default {
   components: {
-    ChevronRight,
-    ChevronLeft,
   },
   props: {
   },
   data: function(){
     return {
+      mdiChevronLeft,
+      mdiChevronRight,
     };
   },
   async mounted() {
+    let { $el } = this;
+    this.$nuxt.$on('scv-load-sutta', payload=>{
+      $el && $el.scrollIntoView({
+        block: "center",
+      });
+    });
   },
   methods:{
     clickSutta({sutta_uid, lang}) {
@@ -78,8 +88,13 @@ export default {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 .scv-history > button {
     width: 8em !important;
+}
+.scv-history-button {
+  min-width: 5rem;
 }
 </style>

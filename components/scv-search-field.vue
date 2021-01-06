@@ -41,9 +41,7 @@ export default {
     $store.dispatch('scv/loadExamples');
     this.bilaraWeb = new BilaraWeb({fetch});
     this.$nuxt.$on('scv-load-example', payload => {
-        console.log(`scv-load-example`, payload, this);
         let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
-        console.log(`dbg refSearchAuto`, refSearchAuto);
         refSearchAuto && refSearchAuto.scrollIntoView({
             block: "center",
         });
