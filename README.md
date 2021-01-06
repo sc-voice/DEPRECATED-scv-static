@@ -17,7 +17,8 @@ git push
 ```
 
 Once the new content is built and committed, Github will automatically deploy
-the new content to [[https:sc-voice.github.io/scv-static]].
+the new content to 
+[https:sc-voice.github.io/scv-static](https:sc-voice.github.io/scv-static)
 
 ## Deploy
 Currently, deployment is set up as a Github Action 
