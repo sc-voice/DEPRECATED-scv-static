@@ -31,7 +31,7 @@
     "pattern": "cruel",
     "method": "phrase",
     "resultPattern": "\\bcruel",
-    "segsMatched": 114,
+    "segsMatched": 116,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
@@ -55,6 +55,8 @@
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn124_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn124_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.74_root-pli-ms.json",
@@ -182,6 +184,7 @@
       "mn78/en/sujato",
       "mn33/en/sujato",
       "mn124/en/sujato",
+      "ud4.1/en/sujato",
       "an9.3/en/sujato",
       "an6.74/en/sujato",
       "an6.113/en/sujato",
@@ -1048,6 +1051,41 @@
         "langSegs": {
           "pli": 74,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "en",
+        "segMap": {
+          "ud4.1:8.3": {
+            "scid": "ud4.1:8.3",
+            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko.",
+            "en": "sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts. ",
+            "matched": true
+          },
+          "ud4.1:9.5": {
+            "scid": "ud4.1:9.5",
+            "pli": "kāmavitakkena, byāpādavitakkena, vihiṁsāvitakkena”.",
+            "en": "sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts.” ",
+            "matched": true
+          }
+        },
+        "score": 2.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n4.1. With Meghiya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 91,
+          "en": 68
         }
       },
       {
@@ -1932,35 +1970,6 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 55\nWith Jīvaka",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 80,
-          "en": 79
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn22.80",
-        "lang": "en",
-        "segMap": {
-          "sn22.80:8.2": {
-            "scid": "sn22.80:8.2",
-            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. ",
-            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts. ",
-            "matched": true
-          }
-        },
-        "score": 1.012,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Linked Discourses 22\n8. Itchy\n80. Beggars",
         "segsMatched": 1,
         "langSegs": {
           "pli": 80,

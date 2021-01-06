@@ -31,7 +31,7 @@
     "pattern": "perception of ugliness",
     "method": "phrase",
     "resultPattern": "\\bperception of ugliness",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.49_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.49_translation-en-sujato.json",
@@ -39,6 +39,8 @@
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.67_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
@@ -60,6 +62,7 @@
       "an7.49/en/sujato",
       "an10.60/en/sujato",
       "sn46.67/en/sujato",
+      "ud4.1/en/sujato",
       "dhp334-359/en/sujato",
       "dn34/en/sujato",
       "dn33/en/sujato",
@@ -372,6 +375,35 @@
         "langSegs": {
           "pli": 74,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "en",
+        "segMap": {
+          "ud4.1:21.2": {
+            "scid": "ud4.1:21.2",
+            "pli": "asubhā bhāvetabbā rāgassa pahānāya, mettā bhāvetabbā byāpādassa pahānāya, ānāpānassati bhāvetabbā vitakkupacchedāya, aniccasaññā bhāvetabbā asmimānasamugghātāya.",
+            "en": "They should develop the <span class=\"scv-matched\">perception of ugliness</span> to give up greed, love to give up hate, mindfulness of breathing to cut off thinking, and perception of impermanence to uproot the conceit ‘I am’. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n4.1. With Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 91,
+          "en": 68
         }
       },
       {

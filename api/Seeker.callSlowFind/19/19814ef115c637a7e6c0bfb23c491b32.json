@@ -31,19 +31,22 @@
     "pattern": "the known",
     "method": "phrase",
     "resultPattern": "\\bthe known",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn112_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn112_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn112_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn1/en/sujato",
       "sn35.95/en/sujato",
-      "mn112/en/sujato"
+      "mn112/en/sujato",
+      "ud1.10/en/sujato"
     ],
     "mlDocs": [
       {
@@ -186,6 +189,35 @@
         "langSegs": {
           "pli": 181,
           "en": 180
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.10",
+        "lang": "en",
+        "segMap": {
+          "ud1.10:8.2": {
+            "scid": "ud1.10:8.2",
+            "pli": "‘diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ bhavissati, mute mutamattaṁ bhavissati, viññāte viññātamattaṁ bhavissatī’ti.",
+            "en": "‘In the seen will be merely the seen; in the heard will be merely the heard; in the thought will be merely the thought; in <span class=\"scv-matched\">the known</span> will be merely <span class=\"scv-matched\">the known</span>.’",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n1.10. With Bāhiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 79,
+          "en": 70
         }
       },
       {

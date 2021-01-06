@@ -31,10 +31,12 @@
     "pattern": "for faith",
     "method": "phrase",
     "resultPattern": "\\bfor faith",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga2/ud2.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga2/ud2.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.61_root-pli-ms.json",
@@ -42,6 +44,7 @@
     ],
     "suttaRefs": [
       "sn12.23/en/sujato",
+      "ud2.8/en/sujato",
       "an10.62/en/sujato",
       "an10.61/en/sujato"
     ],
@@ -161,6 +164,35 @@
         "langSegs": {
           "pli": 93,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga2/ud2.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga2/ud2.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud2.8",
+        "lang": "en",
+        "segMap": {
+          "ud2.8:11.5": {
+            "scid": "ud2.8:11.5",
+            "pli": "Saddhāya pana tvaṁyeva pāṭibhogo”ti.",
+            "en": "But as <span class=\"scv-matched\">for faith</span>, you alone are the guarantor.”",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n2.8. Suppavāsā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "en": 68
         }
       }
     ]

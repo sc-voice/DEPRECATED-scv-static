@@ -31,7 +31,7 @@
     "pattern": "this is the only truth",
     "method": "phrase",
     "resultPattern": "\\bthis is the only truth",
-    "segsMatched": 63,
+    "segsMatched": 66,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
@@ -61,6 +61,12 @@
       "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
@@ -81,6 +87,9 @@
       "sn45.174/en/sujato",
       "mn139/en/sujato",
       "mn102/en/sujato",
+      "ud6.6/en/sujato",
+      "ud6.5/en/sujato",
+      "ud6.4/en/sujato",
       "dn33/en/sujato",
       "dn21/en/sujato"
     ],
@@ -713,6 +722,93 @@
         "langSegs": {
           "pli": 9,
           "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.5",
+        "lang": "en",
+        "segMap": {
+          "ud6.5:2.2": {
+            "scid": "ud6.5:2.2",
+            "pli": "“sassato attā ca loko ca, idameva saccaṁ moghamaññan”ti.",
+            "en": "“The self and the cosmos are eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.” ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nFollowers of Other Paths (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 60,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.6",
+        "lang": "en",
+        "segMap": {
+          "ud6.6:2.2": {
+            "scid": "ud6.6:2.2",
+            "pli": "“sassato attā ca loko ca, idameva saccaṁ moghamaññan”ti.",
+            "en": "“The self and the cosmos are eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.” ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nFollowers of Other Paths (3rd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.4",
+        "lang": "en",
+        "segMap": {
+          "ud6.4:2.2": {
+            "scid": "ud6.4:2.2",
+            "pli": "“sassato loko, idameva saccaṁ moghamaññan”ti.",
+            "en": "“The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.” ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nFollowers of Other Paths (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 106,
+          "en": 88
         }
       },
       {

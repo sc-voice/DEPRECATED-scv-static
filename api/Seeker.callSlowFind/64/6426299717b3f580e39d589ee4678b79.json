@@ -31,7 +31,7 @@
     "pattern": "finest lady",
     "method": "phrase",
     "resultPattern": "\\bfinest lady",
-    "segsMatched": 21,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn47/sn47.20_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.20_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/mn/mn80_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn17/sn17.22_root-pli-ms.json",
@@ -53,6 +55,7 @@
       "dn13/en/sujato",
       "mn80/en/sujato",
       "mn79/en/sujato",
+      "ud3.2/en/sujato",
       "dn9/en/sujato",
       "sn17.22/en/sujato",
       "sn17.13-20/en/sujato"
@@ -156,6 +159,47 @@
         "langSegs": {
           "pli": 280,
           "en": 278
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.2",
+        "lang": "en",
+        "segMap": {
+          "ud3.2:6.2": {
+            "scid": "ud3.2:6.2",
+            "pli": "“Sākiyānī maṁ, bhante, janapadakalyāṇī gharā nikkhamantassa upaḍḍhullikhitehi kesehi apaloketvā maṁ etadavoca:",
+            "en": "“As I left my house, sir, the <span class=\"scv-matched\">finest lady</span> of the Sakyan land, her hair half-combed, glanced at me and said,",
+            "matched": true
+          },
+          "ud3.2:9.1": {
+            "scid": "ud3.2:9.1",
+            "pli": "“Taṁ kiṁ maññasi, nanda, katamā nu kho abhirūpatarā vā dassanīyatarā vā pāsādikatarā vā, sākiyānī vā janapadakalyāṇī, imāni vā pañca accharāsatāni kakuṭapādānī”ti?",
+            "en": "“What do you think, Nanda? Who is more attractive, good-looking, and lovely—the <span class=\"scv-matched\">finest lady</span> of the Sakyan land, or these five hundred dove-footed nymphs?” ",
+            "matched": true
+          },
+          "ud3.2:9.2": {
+            "scid": "ud3.2:9.2",
+            "pli": "“Seyyathāpi, bhante, paluṭṭhamakkaṭī kaṇṇanāsacchinnā;",
+            "en": "“Compared to these five hundred dove-footed nymphs, the <span class=\"scv-matched\">finest lady</span> of the Sakyan land is like a deformed monkey with its ears and nose cut off.",
+            "matched": true
+          }
+        },
+        "score": 3.041,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n3.2. With Nanda",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 74,
+          "en": 59
         }
       },
       {

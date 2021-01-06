@@ -31,12 +31,14 @@
     "pattern": "a raft",
     "method": "phrase",
     "resultPattern": "\\ba raft",
-    "segsMatched": 12,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
@@ -45,6 +47,7 @@
     "suttaRefs": [
       "mn22/en/sujato",
       "mn38/en/sujato",
+      "ud8.6/en/sujato",
       "dn16/en/sujato",
       "sn35.238/en/sujato"
     ],
@@ -141,6 +144,41 @@
         "langSegs": {
           "pli": 58,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.6",
+        "lang": "en",
+        "segMap": {
+          "ud8.6:27.4": {
+            "scid": "ud8.6:27.4",
+            "pli": "Appekacce manussā nāvaṁ pariyesanti, appekacce uḷumpaṁ pariyesanti, appekacce kullaṁ bandhanti apārā pāraṁ gantukāmā.",
+            "en": "Wanting to cross from the near to the far shore, some people were seeking a boat, some a dinghy, while some were tying up <span class=\"scv-matched\">a raft</span>. ",
+            "matched": true
+          },
+          "ud8.6:30.3": {
+            "scid": "ud8.6:30.3",
+            "pli": "Kullañhi jano pabandhati,",
+            "en": "While some people are still tying <span class=\"scv-matched\">a raft</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nThe Layfolk of Pāṭali Village",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 118,
+          "en": 98
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "unconditioned",
     "method": "phrase",
     "resultPattern": "\\bunconditioned",
-    "segsMatched": 55,
+    "segsMatched": 58,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/sn/sn43/sn43.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn43/sn43.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga5/iti43_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti43_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
@@ -89,6 +91,7 @@
       "sn43.1/en/sujato",
       "sn43.2/en/sujato",
       "sn43.11/en/sujato",
+      "ud8.3/en/sujato",
       "iti43/en/sujato",
       "an3.47/en/sujato",
       "sn43.44/en/sujato",
@@ -335,6 +338,47 @@
         "langSegs": {
           "pli": 12,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.3",
+        "lang": "en",
+        "segMap": {
+          "ud8.3:3.1": {
+            "scid": "ud8.3:3.1",
+            "pli": "“Atthi, bhikkhave, ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ.",
+            "en": "“There is, mendicants, an unborn, unproduced, unmade, and <span class=\"scv-matched\">unconditioned</span>.",
+            "matched": true
+          },
+          "ud8.3:3.2": {
+            "scid": "ud8.3:3.2",
+            "pli": "No cetaṁ, bhikkhave, abhavissa ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, nayidha jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyetha.",
+            "en": "If there were no unborn, unproduced, unmade, and <span class=\"scv-matched\">unconditioned</span>, then you would find no escape here from the born, produced, made, and conditioned.",
+            "matched": true
+          },
+          "ud8.3:3.3": {
+            "scid": "ud8.3:3.3",
+            "pli": "Yasmā ca kho, bhikkhave, atthi ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, tasmā jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyatī”ti.",
+            "en": "But since there is an unborn, unproduced, unmade, and <span class=\"scv-matched\">unconditioned</span>, an escape is found from the born, produced, made, and conditioned.”",
+            "matched": true
+          }
+        },
+        "score": 3.273,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nAbout Extinguishment (3rd)",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 11,
+          "en": 10
         }
       },
       {

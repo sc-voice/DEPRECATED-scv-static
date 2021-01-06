@@ -31,7 +31,7 @@
     "pattern": "the cosmos is eternal",
     "method": "phrase",
     "resultPattern": "\\bthe cosmos is eternal",
-    "segsMatched": 45,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn63_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn63_translation-en-sujato.json",
@@ -61,6 +61,8 @@
       "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.38_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.38_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
@@ -83,6 +85,7 @@
       "sn33.1/en/sujato",
       "mn72/en/sujato",
       "mn25/en/sujato",
+      "ud6.4/en/sujato",
       "an4.38/en/sujato",
       "an10.95/en/sujato",
       "an10.20/en/sujato"
@@ -480,6 +483,41 @@
         "langSegs": {
           "pli": 82,
           "en": 81
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.4",
+        "lang": "en",
+        "segMap": {
+          "ud6.4:2.2": {
+            "scid": "ud6.4:2.2",
+            "pli": "“sassato loko, idameva saccaṁ moghamaññan”ti.",
+            "en": "“<span class=\"scv-matched\">The cosmos is eternal</span>. This is the only truth, other ideas are silly.” ",
+            "matched": true
+          },
+          "ud6.4:3.2": {
+            "scid": "ud6.4:3.2",
+            "pli": "“asassato loko, idameva saccaṁ moghamaññan”ti.",
+            "en": "“The cosmos is not eternal.”",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nFollowers of Other Paths (1st)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 106,
+          "en": 88
         }
       },
       {

@@ -31,12 +31,14 @@
     "pattern": "moderation in eating",
     "method": "phrase",
     "resultPattern": "\\bmoderation in eating",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga4/iti29_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga4/iti29_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
@@ -53,6 +55,7 @@
     "suttaRefs": [
       "sn3.13/en/sujato",
       "mn53/en/sujato",
+      "ud4.6/en/sujato",
       "iti29/en/sujato",
       "dhp179-196/en/sujato",
       "dn33/en/sujato",
@@ -129,6 +132,35 @@
         "langSegs": {
           "pli": 27,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.6",
+        "lang": "en",
+        "segMap": {
+          "ud4.6:4.3": {
+            "scid": "ud4.6:4.3",
+            "pli": "Mattaññutā ca bhattasmiṁ,",
+            "en": "<span class=\"scv-matched\">moderation in eating</span>; ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n4.6. With Piṇḍola",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "en": 13
         }
       },
       {

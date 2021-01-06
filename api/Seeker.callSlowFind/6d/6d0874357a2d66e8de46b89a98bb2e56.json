@@ -31,7 +31,7 @@
     "pattern": "heed attention wholeheartedly",
     "method": "keywords",
     "resultPattern": "\\bheed|\\battention|\\bwholeheartedly",
-    "segsMatched": 21,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.114_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.114_translation-en-sujato.json",
@@ -49,6 +49,14 @@
       "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.4_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn48_root-pli-ms.json",
@@ -71,6 +79,10 @@
       "sn8.6/en/sujato",
       "sn8.8/en/sujato",
       "dn18/en/sujato",
+      "ud8.1/en/sujato",
+      "ud8.2/en/sujato",
+      "ud8.3/en/sujato",
+      "ud8.4/en/sujato",
       "mn134/en/sujato",
       "mn48/en/sujato",
       "mn65/en/sujato",
@@ -322,6 +334,122 @@
         "langSegs": {
           "pli": 59,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.3",
+        "lang": "en",
+        "segMap": {
+          "ud8.3:1.4": {
+            "scid": "ud8.3:1.4",
+            "pli": "Tedha bhikkhū aṭṭhiṁ katvā, manasi katvā, sabbaṁ cetaso samannāharitvā, ohitasotā dhammaṁ suṇanti.",
+            "en": "And those mendicants were paying <span class=\"scv-matched\">heed</span>, paying <span class=\"scv-matched\">attention</span>, engaging <span class=\"scv-matched\">wholeheartedly</span>, and lending an ear. ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nAbout Extinguishment (3rd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.1",
+        "lang": "en",
+        "segMap": {
+          "ud8.1:1.4": {
+            "scid": "ud8.1:1.4",
+            "pli": "Tedha bhikkhū aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasotā dhammaṁ suṇanti.",
+            "en": "And those mendicants were paying <span class=\"scv-matched\">heed</span>, paying <span class=\"scv-matched\">attention</span>, engaging <span class=\"scv-matched\">wholeheartedly</span>, and lending an ear. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nAbout Extinguishment (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.2",
+        "lang": "en",
+        "segMap": {
+          "ud8.2:1.4": {
+            "scid": "ud8.2:1.4",
+            "pli": "Tedha bhikkhū aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasotā dhammaṁ suṇanti.",
+            "en": "And those mendicants were paying <span class=\"scv-matched\">heed</span>, paying <span class=\"scv-matched\">attention</span>, engaging <span class=\"scv-matched\">wholeheartedly</span>, and lending an ear. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nAbout Extinguishment (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.4",
+        "lang": "en",
+        "segMap": {
+          "ud8.4:1.4": {
+            "scid": "ud8.4:1.4",
+            "pli": "Tedha bhikkhū aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasotā dhammaṁ suṇanti.",
+            "en": "And those mendicants were paying <span class=\"scv-matched\">heed</span>, paying <span class=\"scv-matched\">attention</span>, engaging <span class=\"scv-matched\">wholeheartedly</span>, and lending an ear. ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nAbout Extinguishment (4rd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "en": 13
         }
       },
       {

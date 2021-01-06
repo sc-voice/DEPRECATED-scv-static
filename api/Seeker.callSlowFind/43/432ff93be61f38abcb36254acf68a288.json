@@ -31,7 +31,7 @@
     "pattern": "assess",
     "method": "phrase",
     "resultPattern": "\\bassess",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -48,7 +48,11 @@
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.50_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.48_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.48_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.41_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn15/en/sujato",
@@ -58,7 +62,9 @@
       "dn34/en/sujato",
       "an9.23/en/sujato",
       "an5.50/en/sujato",
-      "an5.48/en/sujato"
+      "an5.48/en/sujato",
+      "an4.41/en/sujato",
+      "an3.32/en/sujato"
     ],
     "mlDocs": [
       {
@@ -264,6 +270,64 @@
         "langSegs": {
           "pli": 8,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.32",
+        "lang": "en",
+        "segMap": {
+          "an3.32:6.1": {
+            "scid": "an3.32:6.1",
+            "pli": "‘Saṅkhāya lokasmiṁ paroparāni, ",
+            "en": "‘Having <span class=\"scv-matched\">assess</span>ed the world high and low, ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3\n4. Messengers of the Gods\n32. With Ānanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.41_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.41",
+        "lang": "en",
+        "segMap": {
+          "an4.41:6.1": {
+            "scid": "an4.41:6.1",
+            "pli": "‘Saṅkhāya lokasmiṁ paroparāni, ",
+            "en": "‘Having <span class=\"scv-matched\">assess</span>ed the world high and low, ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n5. With Rohitassa\n41. Ways of Developing Immersion Further",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "en": 35
         }
       },
       {
