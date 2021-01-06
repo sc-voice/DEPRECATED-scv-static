@@ -239,14 +239,16 @@ summary:focus {
     max-width: 290px;
   }
 }
+.scv-result-icons {
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin-top: -0.4em;
+  margin-bottom: 0.4em;
+}
 .scv-result-title {
   padding-left: 3em;
   text-indent: -3em;
   padding-right: 0.5em;
-}
-.scv-result-more {
-  cursor: pointer;
-  padding-left: 2em;
 }
 .scv-division {
   font-size: var(--scv-division-title-font-size);

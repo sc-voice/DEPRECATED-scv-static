@@ -29,7 +29,6 @@
             <summary >
               <div class="scv-result-summary" >
                 <div v-html="resultTitle(mld)" 
-                  @click="clickResult(mld)"
                   class="scv-result-title"
                 />
                 <!--div class="caption" >{{mld.score}}</div-->
@@ -47,11 +46,20 @@
                 <div v-if="results.searchLang === mld.lang"
                   v-html="seg[mld.lang]" class="scv-text-trans"/>
               </div>
+              <div class="scv-result-icons">
+                <v-btn icon small fab 
+                  @click="clickResult(mld)"
+                  class="scv-icon-btn" >
+                  <v-icon>{{mdiLaunch}}</v-icon>
+                </v-btn>
+                <v-btn icon small fab  
+                  v-if="mld.segments.length > displayMatches(mld)"
+                  @click="displayMatchesIncrement(mld)"
+                  class="scv-icon-btn" >
+                  <v-icon>{{mdiDotsHorizontal}}</v-icon>
+                </v-btn>
+              </div>
             </div><!--scv-result-text-->
-            <dots-horizontal-icon v-if="mld.segments.length > displayMatches(mld)"
-                class="scv-result-more"
-                @click="displayMatchesIncrement(mld)"
-            />
 
           <!--
             <div class="scv-playlist ml-3 pt-2 pl-3" 
@@ -144,6 +152,10 @@
 import Vue from 'vue';
 import VueDetails from 'vue-details';
 import DotsHorizontalIcon from 'vue-material-design-icons/DotsHorizontal.vue';
+import { 
+  mdiLaunch, 
+  mdiDotsHorizontal,
+} from '@mdi/js'
 const GITHUB = 'https://raw.githubusercontent.com';
 const SuttaDuration = require('~/src/sutta-duration');
 
@@ -151,6 +163,8 @@ export default {
   components: {
     DotsHorizontalIcon,
     VueDetails,
+    mdiLaunch,
+    mdiDotsHorizontal,
   },
   props: {
     width: {
@@ -164,6 +178,8 @@ export default {
       suttaDuration: null,
       _showResults: false,
       nDisplayed: {},
+      mdiLaunch,
+      mdiDotsHorizontal,
     };
   },
   async mounted() {
@@ -255,9 +271,7 @@ export default {
     },
     clickResult(mld) {
       let { sutta_uid, lang } = mld;
-      if (!mld.showDetails) {
-          this.$store.dispatch('scv/loadSutta', {sutta_uid, lang});
-      }
+      this.$store.dispatch('scv/loadSutta', {sutta_uid, lang});
     },
   },
   computed: {

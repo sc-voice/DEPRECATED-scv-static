@@ -104,15 +104,31 @@
         });
         
     });
-    it("exampleOfMatch(...) returns example", ()=>{
+    it("exampleOfMatch(...) returns en example", ()=>{
         let examples = {
             en: [
                 'is.*\\bfeeling',
                 'perception',
             ],
+            de: [
+                'königliches Gut',
+            ],
         };
         var skr = new BilaraWeb({fetch, examples});
         should(skr.exampleOfMatch("Is a good Feeling")).equal(examples.en[0]);
+    });
+    it("TESTTESTexampleOfMatch(...) returns de example", ()=>{
+        let examples = {
+            en: [
+                'is.*\\bfeeling',
+                'perception',
+            ],
+            de: [
+                'königliches Gut',
+            ],
+        };
+        var skr = new BilaraWeb({fetch, examples});
+        should(skr.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
     });
     it("loadSuttaSegments(...) returns sutta", async ()=>{
         var skr = new BilaraWeb({fetch});

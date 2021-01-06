@@ -15,7 +15,7 @@
         <div class="scv-sutta-title-trans" v-html="title(2)[lang]" />
       </div>
     </header>
-    <div class="scv-text-container">
+    <div class="scv-text-container" @click="textClicked($event)">
       <div v-for="seg in segments" :key="seg.scid" class="scv-segment">
         <div v-if="settings.showId" class="scv-scid">{{seg.scid}}</div>
         <div v-if="settings.showPali" v-html="seg.pli" class="scv-text-root"/>
@@ -27,6 +27,7 @@
 
 <script>
 import ScvSuttaHistory from './scv-sutta-history'
+const BilaraWeb = require('~/src/bilara-web');
 
 export default {
   components: {
@@ -36,13 +37,26 @@ export default {
   },
   data: function(){
     return {
+      bilaraWeb: null,
     };
   },
   async mounted() {
+    this.bilaraWeb = new BilaraWeb({fetch});
   },
   methods:{
     title(n) {
         return this.titles[n] || {};
+    },
+    textClicked(event) {
+      let { sutta, lang, $store } = this;
+      if (event.target.className === 'scv-matched') {
+        let text = event.target.innerText;
+        let pattern = this.bilaraWeb.exampleOfMatch(text, lang);
+        console.log(`textClicked`, event, text, 'example:', pattern, lang);
+        if (pattern) {
+          $store.dispatch('scv/loadExample', {pattern, lang});
+        }
+      }
     },
   },
   computed: {
@@ -65,4 +79,7 @@ export default {
 }
 </script>
 <style>
+.scv-text-container .scv-matched {
+  cursor: pointer;
+}
 </style>

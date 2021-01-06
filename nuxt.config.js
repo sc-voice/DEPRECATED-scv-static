@@ -80,7 +80,7 @@ export default {
   vuetify: {
     defaultAssets: {
         font: false,
-        icons: false,
+        icons: 'mdiSvg',
     },
     customVariables: [
         '~/assets/scv.css',

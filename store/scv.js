@@ -87,6 +87,19 @@ export const actions = {
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
         context.commit('sutta', sutta);
     },
+    async loadExample ({commit, state}, payload) {
+        let { pattern, lang=state.settings.lang } = payload;
+        bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
+        if (pattern) {
+            let value = await bilaraWeb.find({ pattern, lang, });
+            value.mlDocs.forEach(mld=>{
+                mld.segments = Object.keys(mld.segMap).map(scid=>mld.segMap[scid]);
+            });
+            commit('searchResults', value);
+            commit('search', pattern);
+            $nuxt.$emit('scv-load-example', payload);
+        }
+    },
     async loadExamples({state, commit}) {
         if (state.examplesLoaded) { return; }
         const GITHUB = 'https://raw.githubusercontent.com';

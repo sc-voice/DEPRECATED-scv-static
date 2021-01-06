@@ -6,7 +6,6 @@
       :items="searchItems"
       :search-input.sync="search"
       :filter="searchFilter"
-      clear-icon="x"
       clearable
       @input="onSearchInput($event)"
     ></v-autocomplete>
@@ -38,9 +37,17 @@ export default {
     };
   },
   async mounted() {
-    let { $vuetify, $store, } = this;
+    let { $vuetify, $store, $refs } = this;
     $store.dispatch('scv/loadExamples');
     this.bilaraWeb = new BilaraWeb({fetch});
+    this.$nuxt.$on('scv-load-example', payload => {
+        console.log(`scv-load-example`, payload, this);
+        let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
+        console.log(`dbg refSearchAuto`, refSearchAuto);
+        refSearchAuto && refSearchAuto.scrollIntoView({
+            block: "center",
+        });
+    });
   },
   methods:{
     async onSearchInput(pattern='') { try {
@@ -55,6 +62,9 @@ export default {
         return;
       }
 
+      console.log(`dbg dispatch scv/loadExample`, {pattern, lang});
+      this.$store.dispatch('scv/loadExample', {pattern, lang});
+      /*
       let value = pattern && (await bilaraWeb.find({
         pattern, 
         lang,
@@ -67,6 +77,7 @@ export default {
         let { sutta_uid } = value.mlDocs[0];
         this.$store.dispatch('scv/loadSutta', {sutta_uid, lang} );
       }
+      */
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);
     }},
