@@ -10,19 +10,5 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": [
-    "translation/de/sabbamitta/sutta/an/an2/an2.151-162_translation-de-sabbamitta.json:8",
-    "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json:6",
-    "translation/de/sabbamitta/sutta/an/an4/an4.38_translation-de-sabbamitta.json:6",
-    "translation/de/sabbamitta/sutta/an/an4/an4.255_translation-de-sabbamitta.json:5",
-    "translation/de/sabbamitta/sutta/an/an4/an4.24_translation-de-sabbamitta.json:5",
-    "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json:4",
-    "translation/de/sabbamitta/sutta/an/an3/an3.104_translation-de-sabbamitta.json:3",
-    "translation/de/sabbamitta/sutta/an/an5/an5.191_translation-de-sabbamitta.json:2",
-    "translation/de/sabbamitta/sutta/an/an4/an4.258_translation-de-sabbamitta.json:2",
-    "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json:1",
-    "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json:1",
-    "translation/de/sabbamitta/sutta/an/an4/an4.23_translation-de-sabbamitta.json:1",
-    "translation/de/sabbamitta/sutta/an/an3/an3.67_translation-de-sabbamitta.json:1"
-  ]
+  "value": []
 }

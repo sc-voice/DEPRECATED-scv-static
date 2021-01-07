@@ -1,0 +1,14 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\b(d|ḍ)ev(a|ā)(d|ḍ)(a|ā)(t|ṭ)(t|ṭ)(a|ā)",
+      "maxResults": 0,
+      "lang": "en",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": []
+}

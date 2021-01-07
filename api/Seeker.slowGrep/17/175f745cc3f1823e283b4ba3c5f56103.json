@@ -10,10 +10,5 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": [
-    "translation/en/patton/sutta/lzh-minor/lzh-iti/lzh-iti83_translation-en-patton.json:8",
-    "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json:4",
-    "translation/en/sujato/sutta/an/an4/an4.255_translation-en-sujato.json:2",
-    "translation/en/sujato/name/sutta/mn-name_translation-en-sujato.json:1"
-  ]
+  "value": []
 }

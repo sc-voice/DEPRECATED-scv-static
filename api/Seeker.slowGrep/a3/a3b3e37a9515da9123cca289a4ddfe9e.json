@@ -10,13 +10,5 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": [
-    "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json:6",
-    "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json:3",
-    "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json:3",
-    "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json:2",
-    "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json:1",
-    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json:3"
-  ]
+  "value": []
 }

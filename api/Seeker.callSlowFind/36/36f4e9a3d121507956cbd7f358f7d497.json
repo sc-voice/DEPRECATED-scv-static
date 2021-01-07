@@ -29,78 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "knows mind with greed",
-    "method": "phrase",
-    "resultPattern": "\\bknows mind with greed",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "mn10/en/sujato",
-      "dn22/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn10",
-        "lang": "en",
-        "segMap": {
-          "mn10:34.2": {
-            "scid": "mn10:34.2",
-            "pli": "Idha, bhikkhave, bhikkhu sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti. #1",
-            "en": "It’s when a mendicant <span class=\"scv-matched\">knows mind with greed</span> as ‘mind with greed,’",
-            "matched": true
-          }
-        },
-        "score": 1.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 10\nMindfulness Meditation",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 235,
-          "en": 233
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn22",
-        "lang": "en",
-        "segMap": {
-          "dn22:12.2": {
-            "scid": "dn22:12.2",
-            "pli": "Idha, bhikkhave, bhikkhu sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti. Vītarāgaṁ vā cittaṁ ‘vītarāgaṁ cittan’ti pajānāti. Sadosaṁ vā cittaṁ ‘sadosaṁ cittan’ti pajānāti. Vītadosaṁ vā cittaṁ ‘vītadosaṁ cittan’ti pajānāti. Samohaṁ vā cittaṁ ‘samohaṁ cittan’ti pajānāti. Vītamohaṁ vā cittaṁ ‘vītamohaṁ cittan’ti pajānāti. Saṅkhittaṁ vā cittaṁ ‘saṅkhittaṁ cittan’ti pajānāti. Vikkhittaṁ vā cittaṁ ‘vikkhittaṁ cittan’ti pajānāti. Mahaggataṁ vā cittaṁ ‘mahaggataṁ cittan’ti pajānāti. Amahaggataṁ vā cittaṁ ‘amahaggataṁ cittan’ti pajānāti. Sauttaraṁ vā cittaṁ ‘sauttaraṁ cittan’ti pajānāti. Anuttaraṁ vā cittaṁ ‘anuttaraṁ cittan’ti pajānāti. Samāhitaṁ vā cittaṁ ‘samāhitaṁ cittan’ti pajānāti. Asamāhitaṁ vā cittaṁ ‘asamāhitaṁ cittan’ti pajānāti. Vimuttaṁ vā cittaṁ ‘vimuttaṁ cittan’ti pajānāti. Avimuttaṁ vā cittaṁ ‘avimuttaṁ cittan’ti pajānāti. #16",
-            "en": "It’s when a mendicant <span class=\"scv-matched\">knows mind with greed</span> as ‘mind with greed,’ and mind without greed as ‘mind without greed.’ They know mind with hate as ‘mind with hate,’ and mind without hate as ‘mind without hate.’ They know mind with delusion as ‘mind with delusion,’ and mind without delusion as ‘mind without delusion.’ They know constricted mind as ‘constricted mind,’ and scattered mind as ‘scattered mind.’ They know expansive mind as ‘expansive mind,’ and unexpansive mind as ‘unexpansive mind.’ They know mind that is not supreme as ‘mind that is not supreme,’ and mind that is supreme as ‘mind that is supreme.’ They know mind immersed in meditation as ‘mind immersed in meditation,’ and mind not immersed in meditation as ‘mind not immersed in meditation.’ They know freed mind as ‘freed mind,’ and unfreed mind as ‘unfreed mind.’ ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 439,
-          "en": 438
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bknows|\\bmind|\\bwith|\\bgreed",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }
