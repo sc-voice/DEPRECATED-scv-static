@@ -5,6 +5,7 @@ if [ "$RC" == "0" ]; then
   echo -e "DEPLOY\t: git is clean (OK)"
 else
   echo -e "DEPLOY\t: git is NOT clean (CANCELED)"
+  git status
   exit -1
 fi
 git checkout deploy
