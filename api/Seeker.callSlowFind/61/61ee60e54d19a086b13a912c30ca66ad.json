@@ -25,7 +25,7 @@
   ],
   "value": {
     "lang": "jpn",
-    "searchLang": "en",
+    "searchLang": "jpn",
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,

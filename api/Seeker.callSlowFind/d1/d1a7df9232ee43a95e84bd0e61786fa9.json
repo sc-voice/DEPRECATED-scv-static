@@ -30,93 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gewinn und verlust",
-    "method": "phrase",
-    "resultPattern": "\\bgewinn und verlust",
-    "segsMatched": 3,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an4/an4.192_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.192_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an4.192/de/sabbamitta",
-      "dn33/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an4/an4.192_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an4/an4.192_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an4.192",
-        "lang": "de",
-        "segMap": {
-          "an4.192:6.5": {
-            "scid": "an4.192:6.5",
-            "pli": "lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañcā’ti. ",
-            "de": "<span class=\"scv-matched\">Gewinn und Verlust</span>, Ruhm und Schande, Lob und Tadel, Glück und Schmerz.‘ ",
-            "en": "gain and loss, fame and disgrace, praise and blame, pleasure and pain.’ ",
-            "matched": true
-          },
-          "an4.192:7.3": {
-            "scid": "an4.192:7.3",
-            "pli": "lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañcā’ti. ",
-            "de": "<span class=\"scv-matched\">Gewinn und Verlust</span>, Ruhm und Schande, Lob und Tadel, Glück und Schmerz.‘ ",
-            "en": "gain and loss, fame and disgrace, praise and blame, pleasure and pain.’ ",
-            "matched": true
-          }
-        },
-        "score": 2.026,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n20. Das große Kapitel\n192. Feststellungen",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 76,
-          "de": 75,
-          "en": 75
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn33",
-        "lang": "de",
-        "segMap": {
-          "dn33:3.1.141": {
-            "scid": "dn33:3.1.141",
-            "pli": "lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañca. #9",
-            "de": "<span class=\"scv-matched\">Gewinn und Verlust</span>, Ruhm und Schande, Lob und Tadel, Glück und Schmerz. ",
-            "en": "gain and loss, fame and disgrace, praise and blame, pleasure and pain. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1167,
-          "de": 1166,
-          "en": 1166
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bgewinn|\\bund|\\bverlust",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

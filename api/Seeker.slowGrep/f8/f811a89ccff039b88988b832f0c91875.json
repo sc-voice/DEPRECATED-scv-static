@@ -10,20 +10,5 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": [
-    "translation/en/sujato/sutta/an/an8/an8.74_translation-en-sujato.json:2",
-    "translation/en/sujato/sutta/an/an6/an6.20_translation-en-sujato.json:2",
-    "translation/en/sujato/sutta/an/an10/an10.216_translation-en-sujato.json:2",
-    "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/an/an5/an5.77_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/an/an4/an4.67_translation-en-sujato.json:1",
-    "translation/en/sujato/name/sutta/mil-name_translation-en-sujato.json:1",
-    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd5_translation-en-brahmali.json:2",
-    "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss6_translation-en-brahmali.json:2",
-    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json:1",
-    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json:1",
-    "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss7_translation-en-brahmali.json:1",
-    "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json:1"
-  ]
+  "value": []
 }

@@ -29,52 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "stuck in the middle",
-    "method": "phrase",
-    "resultPattern": "\\bstuck in the middle",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an6.61/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an6.61",
-        "lang": "en",
-        "segMap": {
-          "an6.61:2.2": {
-            "scid": "an6.61:2.2",
-            "pli": "majjhe mantā na lippati; ",
-            "en": "and is not <span class=\"scv-matched\">stuck in the middle</span>. ",
-            "matched": true
-          },
-          "an6.61:11.2": {
-            "scid": "an6.61:11.2",
-            "pli": "majjhe mantā na lippati; ",
-            "en": "and is not <span class=\"scv-matched\">stuck in the middle</span>. ",
-            "matched": true
-          }
-        },
-        "score": 2.036,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 6\n6. The Great Chapter\n61. In the Middle",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 56,
-          "en": 55
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bstuck|\\bin|\\bthe|\\bmiddle",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

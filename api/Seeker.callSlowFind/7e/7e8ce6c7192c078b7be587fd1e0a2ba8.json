@@ -29,58 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the fuel for craving",
-    "method": "phrase",
-    "resultPattern": "\\bthe fuel for craving",
-    "segsMatched": 3,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an10.62/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an10.62",
-        "lang": "en",
-        "segMap": {
-          "an10.62:2.2": {
-            "scid": "an10.62:2.2",
-            "pli": "Ko cāhāro bhavataṇhāya? ",
-            "en": "And what is <span class=\"scv-matched\">the fuel for craving</span> for continued existence? ",
-            "matched": true
-          },
-          "an10.62:3.2": {
-            "scid": "an10.62:3.2",
-            "pli": "evametissā bhavataṇhāya āhāro hoti, evañca pāripūri. ",
-            "en": "That’s <span class=\"scv-matched\">the fuel for craving</span> for continued existence, and that’s how it’s fulfilled. ",
-            "matched": true
-          },
-          "an10.62:5.2": {
-            "scid": "an10.62:5.2",
-            "pli": "evametissā bhavataṇhāya āhāro hoti, evañca pāripūri. ",
-            "en": "That’s <span class=\"scv-matched\">the fuel for craving</span> for continued existence, and that’s how it’s fulfilled. ",
-            "matched": true
-          }
-        },
-        "score": 3.042,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 10\n7. Pairs\n62. Craving",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 72,
-          "en": 71
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bthe|\\bfuel|\\bfor|\\bcraving",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }
