@@ -31,7 +31,7 @@
         should(skr.examples).equal(examples);
         should(skr.fetch).equal(fetch);
     });
-    it("isExample", async()=>{
+    it("TESTTESTisExample", async()=>{
         var skr = new BilaraWeb({
             fetch,
             lang: 'en', // English default
@@ -59,7 +59,7 @@
         let guid = 'e68b92c404fbf58e108917ab8d493c03';
         should(skr.exampleGuid(example, lang)).equal(guid);
     });
-    it("find(...) finds example", async()=>{
+    it("TESTTESTfind(...) finds example", async()=>{
         var skr = new BilaraWeb({fetch});
 
         var pattern = "root of suffering"; 

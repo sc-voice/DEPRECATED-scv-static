@@ -14,38 +14,34 @@ const API_DIR = path.join(APP_DIR, 'api');
 const EXAMPLES_PATH = path.join(API_DIR, 'examples.json');
 const SUID_MAP_PATH = path.join(API_DIR, 'suid-map-bilara-data.json');
 const BILARA_PATH = path.join(APP_DIR, 'local', 'bilara-data');
+const EXAMPLES_DIR = path.join(APP_DIR, 'src', 'examples');
 const EXAMPLES_BASEURL = 
     'https://raw.githubusercontent.com/sc-voice/scv-static/main/src/examples';
 
-logger.logLevel = 'warn';
+logger.logLevel = 'info';
 
 (async function(){
     let bilaraData = await new BilaraData().initialize(true);
     await fs.promises.writeFile(SUID_MAP_PATH, 
         JSON.stringify(bilaraData.bilaraPathMap.suidMap, null, 2));
 
-    let languages = await fs.promises.readdir(path.join(BILARA_PATH, 'translation'));
-    languages = languages.map(lang => {
-        if (lang === 'jpn') {
-            return 'ja';
-        } else {
-            return lang;
-        }
-    });
-    let examplesJson = {};
-    for (let i=0; i<languages.length; i++) {
-        let lang = languages[i];
-        var url = `${EXAMPLES_BASEURL}/examples-${lang}.txt`;
-        try {
-            let res = await Axios.get(url);
-            let examples = res.data.split('\n').filter(ex=>!!ex);
-            examplesJson[lang] = examples;
-            console.log(`examples ${lang}: ${examples.length}`);
-        } catch(e) {
-            console.log(`examples ${lang} (not found)`);
+    let exampleFiles = await fs.promises.readdir(EXAMPLES_DIR);
+    let examples = {};
+    let languages = [];
+    for (exampleFile of exampleFiles) {
+        let examplePath = path.join(EXAMPLES_DIR, exampleFile);
+        let langExamples = (await fs.promises.readFile(examplePath))
+            .toString()
+            .split('\n')
+            .filter(ex=>!!ex);
+        if (langExamples.length) {
+            let lang = exampleFile.split('-')[1].split('.')[0];
+            languages.push(lang);
+            examples[lang] = langExamples;
+            logger.log(`${exampleFile}: ${langExamples.length}`);
         }
     }
-    await fs.promises.writeFile(EXAMPLES_PATH, JSON.stringify(examplesJson,null,2));
+    await fs.promises.writeFile(EXAMPLES_PATH, JSON.stringify(examples,null,2));
 
     let storeName = 'api';
     let storePath = path.join(APP_DIR, storeName);
@@ -65,15 +61,19 @@ logger.logLevel = 'warn';
         bilaraData,
         memoizer,
     }).initialize();
+    logger.logLevel = 'warn';
     skr.logLevel = 'info';
-    let examples = bilaraData.examples;
     for (let lang in examples) {
         for (let eg of examples[lang]) {
-            var res = eg && await skr.find({
-                pattern: eg,
-                lang,
-                matchHighlight,
-            });
+            try {
+                var res = eg && await skr.find({
+                    pattern: eg,
+                    lang,
+                    matchHighlight,
+                });
+            } catch(e){
+                logger.warn(e.message);
+            }
         }
     }
 })();
