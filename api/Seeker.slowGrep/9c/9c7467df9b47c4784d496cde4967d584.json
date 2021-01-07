@@ -10,5 +10,9 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/en/sujato/sutta/sn/sn8/sn8.9_translation-en-sujato.json:2",
+    "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/ud/vagga7/ud7.6_translation-en-sujato.json:1"
+  ]
 }

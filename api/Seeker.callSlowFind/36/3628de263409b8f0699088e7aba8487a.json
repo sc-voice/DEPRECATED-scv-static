@@ -29,11 +29,46 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "taking refuge in oneself",
-    "method": "keywords",
-    "resultPattern": "\\btaking|\\brefuge|\\bin|\\boneself",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\btaking refuge in oneself",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn26/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn26",
+        "lang": "en",
+        "segMap": {
+          "dn26:0.3": {
+            "scid": "dn26:0.3",
+            "pli": "1. Attadīpasaraṇatā ",
+            "en": "1. <span class=\"scv-matched\">Taking Refuge in Oneself</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 26\nThe Wheel-Turning Monarch\n1. Taking Refuge in Oneself",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 355,
+          "en": 354
+        }
+      }
+    ]
   }
 }

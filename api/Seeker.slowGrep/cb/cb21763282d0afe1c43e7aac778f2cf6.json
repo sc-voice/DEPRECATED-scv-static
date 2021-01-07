@@ -10,5 +10,8 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an3/an3.86_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an3/an3.87_translation-de-sabbamitta.json:1"
+  ]
 }

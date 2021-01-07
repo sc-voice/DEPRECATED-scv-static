@@ -30,11 +30,57 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "zum einswerden des geistes",
-    "method": "keywords",
-    "resultPattern": "\\bzum|\\beinswerden|\\bdes|\\bgeistes",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bzum einswerden des geistes",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an1/an1.333-377_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.333-377_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an1.333-377/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.333-377_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.333-377_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.333-377",
+        "lang": "de",
+        "segMap": {
+          "an1.345:1.1": {
+            "scid": "an1.345:1.1",
+            "pli": "… Evamevaṁ kho, bhikkhave, appakā te sattā ye vavassaggārammaṇaṁ karitvā labhanti samādhiṁ labhanti cittassekaggataṁ; ",
+            "de": "… ebenso gelangen wenige Lebewesen zur Versenkung, <span class=\"scv-matched\">zum Einswerden des Geistes</span>, indem sie sich auf Loslassen stützen; ",
+            "en": "… so too the sentient beings who, relying on letting go, gain immersion, gain unification of mind are few, ",
+            "matched": true
+          },
+          "an1.345:1.2": {
+            "scid": "an1.345:1.2",
+            "pli": "atha kho eteva sattā bahutarā ye vavassaggārammaṇaṁ karitvā na labhanti samādhiṁ na labhanti cittassekaggataṁ. ",
+            "de": "viele hingegen gelangen nicht zur Versenkung, nicht <span class=\"scv-matched\">zum Einswerden des Geistes</span>, indem sie sich auf Loslassen stützen. ",
+            "en": "while those who don’t gain immersion, don’t gain unification of mind relying on letting go are many. ",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n27. Viertes\n333–377",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 85,
+          "de": 84,
+          "en": 84
+        }
+      }
+    ]
   }
 }

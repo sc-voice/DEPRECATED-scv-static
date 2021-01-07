@@ -10,5 +10,8 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/en/sujato/sutta/sn/sn35/sn35.108_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/sn/sn35/sn35.105_translation-en-sujato.json:1"
+  ]
 }

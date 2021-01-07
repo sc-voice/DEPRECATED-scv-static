@@ -10,5 +10,9 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-pvr/pli-tv-pvr7_translation-en-brahmali.json:2",
+    "translation/en/brahmali/vinaya/pli-tv-pvr/pli-tv-pvr11_translation-en-brahmali.json:2"
+  ]
 }

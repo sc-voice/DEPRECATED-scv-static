@@ -30,11 +30,50 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sehvermögen nicht zügelt",
-    "method": "keywords",
-    "resultPattern": "\\bsehvermögen|\\bnicht|\\bzügelt",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bsehvermögen nicht zügelt",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn2/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn2",
+        "lang": "de",
+        "segMap": {
+          "mn2:12.3": {
+            "scid": "mn2:12.3",
+            "pli": "Yañhissa, bhikkhave, cakkhundriyasaṁvaraṁ asaṁvutassa viharato uppajjeyyuṁ āsavā vighātapariḷāhā, cakkhundriyasaṁvaraṁ saṁvutassa viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+            "de": "Denn die bedrängenden, fiebrigen Befleckungen, die entstehen können, wenn man das <span class=\"scv-matched\">Sehvermögen nicht zügelt</span>, entstehen nicht, wenn man es zügelt. ",
+            "en": "For the distressing and feverish defilements that might arise in someone who lives without restraint of the eye faculty do not arise when there is such restraint. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 2\nAlle Befleckungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 125,
+          "de": 124,
+          "en": 124
+        }
+      }
+    ]
   }
 }

@@ -30,11 +30,50 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mir hinterherzulaufen",
-    "method": "keywords",
-    "resultPattern": "\\bmir|\\bhinterherzulaufen",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bmir hinterherzulaufen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.63/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.63",
+        "lang": "de",
+        "segMap": {
+          "an8.63:1.4": {
+            "scid": "an8.63:1.4",
+            "pli": "Dhamme ca bhāsite mamaññeva anubandhitabbaṁ maññantī”ti. ",
+            "de": "Doch wenn dann die Lehre dargelegt wurde, haben sie nur im Sinn, <span class=\"scv-matched\">mir hinterherzulaufen</span>.“ ",
+            "en": "But when the teaching has been explained they think only of following me around.” ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n7. Erdbeben\n63. Eine kurze Unterweisung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
+        }
+      }
+    ]
   }
 }

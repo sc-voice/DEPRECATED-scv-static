@@ -10,5 +10,8 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/en/sujato/sutta/sn/sn35/sn35.28_translation-en-sujato.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json:1"
+  ]
 }

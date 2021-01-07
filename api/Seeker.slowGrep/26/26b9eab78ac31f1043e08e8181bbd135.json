@@ -10,5 +10,8 @@
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/de/sabbamitta/sutta/sn/sn5/sn5.2_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/kn/thig/thig3.8_translation-de-sabbamitta.json:1"
+  ]
 }

@@ -2,4 +2,13 @@
 
 DIR=`dirname $0`
 $DIR/build.js
-git add api
+git status | grep 'nothing to commit' ; RC=$?
+if [ "$RC" == "0" ]; then
+  echo -e "BUILD\t:nothing to commit"
+else
+  echo -e "BUILD\t:committing build changes"
+  git add api
+  git commit -am "build examples"
+  git push
+fi 
+
