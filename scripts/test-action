@@ -1,13 +1,29 @@
-#!/bin/bash
+#!/usr/bin/env node
 
-DIR=`dirname $0`
+const fs = require('fs');
+const path = require('path');
+const Axios = require('axios');
+const { logger } = require('log-instance');
+const { Memoizer } = require('memo-again');
+const {
+    BilaraData,
+    Seeker,
+} = require('scv-bilara');
+const APP_DIR = path.join(__dirname, '..');
+const API_DIR = path.join(APP_DIR, 'api');
 
-type rg >& /dev/null
-RC=$?; if [ "$RC" == "0" ]; then
-  echo -e "INIT\t: ripgrep installed"
-else
-  curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.2/ripgrep_11.0.2_amd64.deb
-  sudo dpkg -i ripgrep_11.0.2_amd64.deb
-fi
+logger.logLevel = 'info';
 
-rg --version
+(async function(){
+    let bilaraData = await new BilaraData().initialize(true);
+    console.log(bilaraData.bilaraPathMap.suidMap['sn12.23']);
+
+    let skr = await new Seeker({
+        bilaraData,
+    }).initialize();
+    var res = await skr.find({
+      pattern: 'root of suffering',
+    });
+    let { bilaraPaths, method, resultPattern } = res;
+    console.log({bilaraPaths, method, resultPattern });
+})();
