@@ -1,8 +1,8 @@
 #!/bin/bash
 
-OUT=`rg --version 2>&1 | head -1`; RC=$?
+type rg 2>&1 > /dev/null; RC=$?
 if [ "$RC" == "0" ]; then
-  echo -e "INSTALL\t: $OUT (OK)"
+  echo -e "INSTALL\t: " `rg --version 2>&1 | head -1` "(OK)"
 else
   echo -e "INSTALL\t: installing ripgrep"
   curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.2/ripgrep_11.0.2_amd64.deb
