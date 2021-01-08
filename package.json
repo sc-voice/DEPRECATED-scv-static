@@ -24,7 +24,7 @@
     "mocha": "^7.1.1",
     "push-dir": "^0.4.1",
     "sass-loader": "^8",
-    "scv-bilara": "^1.4.70",
+    "scv-bilara": "^1.4.71",
     "should": "^11.2.0",
     "vue-material-design-icons": "^4.11.0"
   },
