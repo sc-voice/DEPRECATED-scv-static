@@ -55,12 +55,12 @@
       "translation/en/sujato/sutta/an/an5/an5.183_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.182_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.182_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.70_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.70_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.61-70_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.61-70_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.378-393_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an1/an1.378-393_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an1/an1.378-393_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.70_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.190/en/sujato",
@@ -74,9 +74,9 @@
       "an5.184/en/sujato",
       "an5.183/en/sujato",
       "an5.182/en/sujato",
-      "an10.70/en/sujato",
       "an1.61-70/en/sujato",
-      "an1.378-393/en/sujato"
+      "an1.378-393/en/sujato",
+      "an10.70/en/sujato"
     ],
     "mlDocs": [
       {
