@@ -1,9 +1,7 @@
-name: schedule-actions
-on: 
-  schedule:
-    - cron: 0 0 * * *
+name: push-actions
+on: [push]
 jobs:
-  build-job:
+  deploy-job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -13,4 +11,4 @@ jobs:
       - run: npm install
       - run: git config user.name github-actions
       - run: git config user.email github-actions@github.com
-      - run: npm run build
+      - run: npm run deploy

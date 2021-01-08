@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.1.63",
+  "version": "0.1.64",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "directories": {
@@ -33,6 +33,7 @@
     "build:examples": "scripts/build.js",
     "build:nuxt": "nuxt build",
     "test": "npm run test:verbose",
+    "test:action": "scripts/test-action",
     "test:test": "mocha -w --watch-ignore node_modules,.git,local -R min --inline-diffs -g TEST './@(src|test)/**/*.js'",
     "test:verbose": "mocha --inline-diffs",
     "test:watch": "mocha -w --inline-diffs",
