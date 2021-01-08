@@ -55,10 +55,10 @@
       "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.68_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.68_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an1/an1.11-20_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an1/an1.11-20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.15_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an11/an11.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.11-20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.11-20_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.51_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.51_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
@@ -71,10 +71,10 @@
       "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.16_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "iti27/en/sujato",
@@ -88,16 +88,16 @@
       "mn99/en/sujato",
       "an8.1/en/sujato",
       "an3.68/en/sujato",
-      "an1.11-20/en/sujato",
       "an11.15/en/sujato",
+      "an1.11-20/en/sujato",
       "sn46.51/en/sujato",
       "sn42.8/en/sujato",
       "sn20.4/en/sujato",
       "mn52/en/sujato",
       "dn13/en/sujato",
       "an8.63/en/sujato",
-      "an1.394-574/en/sujato",
-      "an11.16/en/sujato"
+      "an11.16/en/sujato",
+      "an1.394-574/en/sujato"
     ],
     "mlDocs": [
       {
