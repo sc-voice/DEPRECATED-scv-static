@@ -1,0 +1,30 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bglück der vielen",
+      "maxResults": 1000,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json:4",
+    "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json:4",
+    "translation/de/sabbamitta/sutta/an/an4/an4.35_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/an/an1/an1.150-169_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/an/an1/an1.140-149_translation-de-sabbamitta.json:3",
+    "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an5/an5.88_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an4/an4.160_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an3/an3.11_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an2/an2.52-63_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an1/an1.316-332_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json:1"
+  ]
+}

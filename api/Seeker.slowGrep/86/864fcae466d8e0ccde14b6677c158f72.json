@@ -1,0 +1,17 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bherausragende leidenschaft",
+      "maxResults": 1000,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an6/an6.20_translation-de-sabbamitta.json:6",
+    "translation/de/sabbamitta/sutta/an/an4/an4.93_translation-de-sabbamitta.json:3"
+  ]
+}

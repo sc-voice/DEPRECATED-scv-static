@@ -1,0 +1,17 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bmay i feel joy",
+      "maxResults": 1000,
+      "lang": "en",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/en/sujato/sutta/an/an11/an11.2_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/an/an10/an10.2_translation-en-sujato.json:1"
+  ]
+}
