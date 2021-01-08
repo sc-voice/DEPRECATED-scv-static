@@ -1,0 +1,18 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bfour kinds of people",
+      "maxResults": 1000,
+      "lang": "en",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-pvr/pli-tv-pvr7_translation-en-brahmali.json:2",
+    "translation/en/brahmali/vinaya/pli-tv-pvr/pli-tv-pvr11_translation-en-brahmali.json:2"
+  ]
+}

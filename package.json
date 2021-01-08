@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.1.68",
+  "version": "0.1.69",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "directories": {
