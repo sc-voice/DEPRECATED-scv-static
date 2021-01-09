@@ -1,0 +1,24 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bon love",
+      "maxResults": 1000,
+      "lang": "en",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json:2",
+    "translation/en/sujato/name/sutta/mil-name_translation-en-sujato.json:2",
+    "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/snp/vagga1/snp1.8_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json:1",
+    "translation/en/sujato/name/sutta/snp-name_translation-en-sujato.json:1",
+    "translation/en/sujato/name/sutta/kp-name_translation-en-sujato.json:1"
+  ]
+}
