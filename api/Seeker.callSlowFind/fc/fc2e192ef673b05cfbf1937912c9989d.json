@@ -32,17 +32,21 @@
     "pattern": "wenn sinnliches verlangen",
     "method": "phrase",
     "resultPattern": "\\bwenn sinnliches verlangen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/kp/kp9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.121_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.121_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.121_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn10/de/sabbamitta",
+      "kp9/de/sabbamitta",
       "an3.121/de/sabbamitta"
     ],
     "mlDocs": [
@@ -76,6 +80,38 @@
           "pli": 25,
           "de": 24,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/kp/kp9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "kp9",
+        "lang": "de",
+        "segMap": {
+          "kp9:10.3": {
+            "scid": "kp9:10.3",
+            "pli": "Kāmesu vinaya gedhaṁ,",
+            "de": "<span class=\"scv-matched\">wenn sinnliches Verlangen</span> beseitigt ist, ",
+            "en": "with sensual desire dispelled,",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Ausschnitte\nDie Lehrrede von der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "de": 42,
+          "en": 42
         }
       },
       {

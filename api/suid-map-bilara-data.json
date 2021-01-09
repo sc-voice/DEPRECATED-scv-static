@@ -7103,6 +7103,7 @@
   },
   "kp9": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/kn/kp/kp9_translation-de-sabbamitta.json",
+    "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/kn/kp/kp9_comment-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/kn/kp/kp9_comment-en-sujato.json",
     "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",

@@ -32,11 +32,14 @@
     "pattern": "nicht zur last",
     "method": "phrase",
     "resultPattern": "\\bnicht zur last",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.53_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/kp/kp9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.98_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.98_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.98_translation-en-sujato.json",
@@ -49,6 +52,7 @@
     ],
     "suttaRefs": [
       "an8.53/de/sabbamitta",
+      "kp9/de/sabbamitta",
       "an5.98/de/sabbamitta",
       "an5.97/de/sabbamitta",
       "an5.96/de/sabbamitta"
@@ -187,6 +191,38 @@
           "pli": 13,
           "de": 12,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/kp/kp9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "kp9",
+        "lang": "de",
+        "segMap": {
+          "kp9:2.1": {
+            "scid": "kp9:2.1",
+            "pli": "Santussako ca subharo ca,",
+            "de": "Zufrieden sollen sie sein und <span class=\"scv-matched\">nicht zur Last</span> fallen, ",
+            "en": "content and unburdensome,",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Ausschnitte\nDie Lehrrede von der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "de": 42,
+          "en": 42
         }
       }
     ]
