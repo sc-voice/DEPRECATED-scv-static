@@ -424,41 +424,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an6/an6.2_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an6.2",
-        "lang": "en",
-        "segMap": {
-          "an6.2:1.1": {
-            "scid": "an6.2:1.1",
-            "pli": "“Chahi, bhikkhave, dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassa. ",
-            "en": "“Mendicants, a mendicant with six factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world. ",
-            "matched": true
-          },
-          "an6.2:7.1": {
-            "scid": "an6.2:7.1",
-            "pli": "Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassā”ti. ",
-            "en": "A mendicant with these six factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world.” ",
-            "matched": true
-          }
-        },
-        "score": 2.154,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 6\n1. Worthy of Offerings\n2. Worthy of Offerings (2nd)",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 13,
-          "en": 12
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.57_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an8/an8.57_translation-en-sujato.json"
         ],
@@ -525,41 +490,6 @@
         "langSegs": {
           "pli": 15,
           "en": 14
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an10.97",
-        "lang": "en",
-        "segMap": {
-          "an10.97:1.1": {
-            "scid": "an10.97:1.1",
-            "pli": "“Dasahi, bhikkhave, dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṁ puññakkhettaṁ lokassa. ",
-            "en": "“Mendicants, a mendicant with ten factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world. ",
-            "matched": true
-          },
-          "an10.97:12.1": {
-            "scid": "an10.97:12.1",
-            "pli": "Imehi kho, bhikkhave, dasahi dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṁ puññakkhettaṁ lokassā”ti. ",
-            "en": "A mendicant with these ten factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world.” ",
-            "matched": true
-          }
-        },
-        "score": 2.118,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 10\n10. With Upāli\n97. Worthy of Offerings to the Gods",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 17,
-          "en": 16
         }
       },
       {
@@ -735,6 +665,76 @@
         "langSegs": {
           "pli": 25,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.2",
+        "lang": "en",
+        "segMap": {
+          "an6.2:1.1": {
+            "scid": "an6.2:1.1",
+            "pli": "“Chahi, bhikkhave, dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassa. ",
+            "en": "“Mendicants, a mendicant with six factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world. ",
+            "matched": true
+          },
+          "an6.2:7.1": {
+            "scid": "an6.2:7.1",
+            "pli": "Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassā”ti. ",
+            "en": "A mendicant with these six factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world.” ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 6\n1. Worthy of Offerings\n2. Worthy of Offerings (2nd)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.97",
+        "lang": "en",
+        "segMap": {
+          "an10.97:1.1": {
+            "scid": "an10.97:1.1",
+            "pli": "“Dasahi, bhikkhave, dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṁ puññakkhettaṁ lokassa. ",
+            "en": "“Mendicants, a mendicant with ten factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world. ",
+            "matched": true
+          },
+          "an10.97:12.1": {
+            "scid": "an10.97:12.1",
+            "pli": "Imehi kho, bhikkhave, dasahi dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṁ puññakkhettaṁ lokassā”ti. ",
+            "en": "A mendicant with these ten factors is worthy of offerings to the gods, worthy of hospitality, worthy of a religious donation, <span class=\"scv-matched\">worthy of veneration</span> with joined palms, and is the supreme field of merit for the world.” ",
+            "matched": true
+          }
+        },
+        "score": 2.061,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n10. With Upāli\n97. Worthy of Offerings to the Gods",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 33,
+          "en": 32
         }
       },
       {

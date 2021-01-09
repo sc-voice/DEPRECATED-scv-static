@@ -252,38 +252,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an3/an3.101_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.101",
-        "lang": "de",
-        "segMap": {
-          "an3.101:2.6": {
-            "scid": "an3.101:2.6",
-            "pli": "Hoti so, bhikkhave, samayo yaṁ taṁ cittaṁ ajjhattaṁyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
-            "de": "Doch <span class=\"scv-matched\">es kommt eine Zeit</span>, da dieser Geist innerlich gestillt wird; er setzt sich, wird eins und versinkt im Samādhi. ",
-            "en": "But there comes a time when that mind is stilled internally; it settles, unifies, and becomes immersed in samādhi. ",
-            "matched": true
-          }
-        },
-        "score": 1.028,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 3\n10. Ein Salzklümpchen\n101. Ein Goldwäscher",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 36,
-          "de": 35,
-          "en": 35
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.170_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.170_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.170_translation-en-sujato.json"
@@ -312,6 +280,38 @@
           "pli": 36,
           "de": 34,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.101",
+        "lang": "de",
+        "segMap": {
+          "an3.101:2.6": {
+            "scid": "an3.101:2.6",
+            "pli": "Hoti so, bhikkhave, samayo yaṁ taṁ cittaṁ ajjhattaṁyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+            "de": "Doch <span class=\"scv-matched\">es kommt eine Zeit</span>, da dieser Geist innerlich gestillt wird; er setzt sich, wird eins und versinkt im Samādhi. ",
+            "en": "But there comes a time when that mind is stilled internally; it settles, unifies, and becomes immersed in samādhi. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n10. Ein Salzklümpchen\n101. Ein Goldwäscher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 51,
+          "en": 51
         }
       },
       {

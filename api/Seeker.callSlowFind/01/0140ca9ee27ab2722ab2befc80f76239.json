@@ -32,7 +32,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 33,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.130_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.130_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.247_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.247_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.247_translation-en-sujato.json"
@@ -75,6 +78,7 @@
       "an5.132/de/sabbamitta",
       "an5.131/de/sabbamitta",
       "dn14/de/sabbamitta",
+      "kp8/de/sabbamitta",
       "an4.247/de/sabbamitta"
     ],
     "mlDocs": [
@@ -557,6 +561,38 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "kp8",
+        "lang": "de",
+        "segMap": {
+          "kp8:12.2": {
+            "scid": "kp8:12.2",
+            "pli": "cakkavattisukhaṁ piyaṁ;",
+            "de": "das Glück eines <span class=\"scv-matched\">Rad-drehenden Herrscher</span>s, ",
+            "en": "the happiness of a Wheel-Turning Monarch,",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Abschnitte\nEin verborgener Schatz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 69,
+          "de": 68,
+          "en": 67
         }
       }
     ]

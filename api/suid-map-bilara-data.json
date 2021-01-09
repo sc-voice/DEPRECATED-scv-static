@@ -6116,6 +6116,7 @@
     "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/an/an5/an5.57_comment-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/an/an5/an5.57_comment-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an5/an5.57_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an5/an5.57_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an5/an5.57_reference.json",
@@ -7092,6 +7093,13 @@
     "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp7_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp7_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp7_reference.json"
+  },
+  "kp8": {
+    "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp8_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp8_reference.json"
   },
   "thag1.43": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/kn/thag/thag1.43_translation-de-sabbamitta.json",
@@ -15977,12 +15985,6 @@
     "reference/pli/ms": "reference/pli/ms/sutta/kn/iti/vagga9/iti89_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/iti/vagga9/iti89_variant-pli-ms.json"
   },
-  "kp8": {
-    "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
-    "root/pli/ms": "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/kp/kp8_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/kp/kp8_reference.json"
-  },
   "kp9": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/kn/kp/kp9_comment-en-sujato.json",
@@ -16133,6 +16135,13 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.7_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.7_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.7_variant-pli-ms.json"
+  },
+  "snp2.8": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga2/snp2.8_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.8_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.8_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.8_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.8_variant-pli-ms.json"
   },
   "snp3.1": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga3/snp3.1_translation-en-sujato.json",
@@ -38001,12 +38010,6 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.14_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.14_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.14_variant-pli-ms.json"
-  },
-  "snp2.8": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.8_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.8_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.8_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.8_variant-pli-ms.json"
   },
   "snp2.9": {
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.9_root-pli-ms.json",
