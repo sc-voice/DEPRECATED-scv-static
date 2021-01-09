@@ -1601,35 +1601,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.101",
-        "lang": "en",
-        "segMap": {
-          "an3.101:2.2": {
-            "scid": "an3.101:2.2",
-            "pli": "Tasmiṁ pahīne tasmiṁ byantīkate santi adhicittamanuyuttassa bhikkhuno majjhimasahagatā upakkilesā kāmavitakko byāpādavitakko vihiṁsāvitakko, tamenaṁ sacetaso bhikkhu dabbajātiko pajahati vinodeti byantīkaroti anabhāvaṁ gameti. ",
-            "en": "When they’ve been given up and eliminated, there are middling corruptions: sensual, malicious, or <span class=\"scv-matched\">cruel</span> thoughts. A sincere, capable mendicant gives these up, gets rid of, eliminates, and obliterates them. ",
-            "matched": true
-          }
-        },
-        "score": 1.028,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 36,
-          "en": 35
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.123_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.123_translation-en-sujato.json"
         ],
@@ -1713,6 +1684,35 @@
         "langSegs": {
           "pli": 42,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.101",
+        "lang": "en",
+        "segMap": {
+          "an3.101:2.2": {
+            "scid": "an3.101:2.2",
+            "pli": "Tasmiṁ pahīne tasmiṁ byantīkate santi adhicittamanuyuttassa bhikkhuno majjhimasahagatā upakkilesā kāmavitakko byāpādavitakko vihiṁsāvitakko, tamenaṁ sacetaso bhikkhu dabbajātiko pajahati vinodeti byantīkaroti anabhāvaṁ gameti. ",
+            "en": "When they’ve been given up and eliminated, there are middling corruptions: sensual, malicious, or <span class=\"scv-matched\">cruel</span> thoughts. A sincere, capable mendicant gives these up, gets rid of, eliminates, and obliterates them. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "en": 51
         }
       },
       {

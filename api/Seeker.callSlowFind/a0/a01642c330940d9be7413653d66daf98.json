@@ -120,14 +120,14 @@
             "matched": true
           }
         },
-        "score": 3.017,
+        "score": 3.016,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 174,
+          "pli": 190,
           "en": 173
         }
       },
@@ -209,8 +209,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 439,
-          "en": 438
+          "pli": 454,
+          "en": 453
         }
       }
     ]

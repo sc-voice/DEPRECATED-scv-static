@@ -146,16 +146,16 @@
             "matched": true
           }
         },
-        "score": 1.014,
+        "score": 1.012,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 5\n3. Mit fünf Faktoren\n28. Mit fünf Faktoren",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 69,
-          "de": 68,
-          "en": 68
+          "pli": 85,
+          "de": 84,
+          "en": 84
         }
       },
       {
@@ -185,9 +185,9 @@
         "title": "Lange Lehrreden 10\nMit Subha",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 266,
-          "de": 210,
-          "en": 265
+          "pli": 284,
+          "de": 226,
+          "en": 281
         }
       },
       {

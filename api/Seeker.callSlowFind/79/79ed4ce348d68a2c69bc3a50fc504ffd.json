@@ -53,131 +53,6 @@
     "mlDocs": [
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn2",
-        "lang": "en",
-        "segMap": {
-          "dn2:46.1": {
-            "scid": "dn2:46.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ bījagāmabhūtagāmasamārambhaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in injuring plants and seeds. ",
-            "matched": true
-          },
-          "dn2:47.1": {
-            "scid": "dn2:47.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ sannidhikāraparibhogaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in storing up goods for their own use. ",
-            "matched": true
-          },
-          "dn2:48.1": {
-            "scid": "dn2:48.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ visūkadassanaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in seeing shows. ",
-            "matched": true
-          },
-          "dn2:49.1": {
-            "scid": "dn2:49.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ jūtappamādaṭṭhānānuyogaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in gambling that causes negligence. ",
-            "matched": true
-          },
-          "dn2:50.1": {
-            "scid": "dn2:50.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ uccāsayanamahāsayanaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still make use of high and luxurious bedding. ",
-            "matched": true
-          },
-          "dn2:51.1": {
-            "scid": "dn2:51.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ maṇḍanavibhūsanaṭṭhānānuyogaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in beautifying and adorning themselves with garlands, fragrance, and makeup. ",
-            "matched": true
-          },
-          "dn2:52.1": {
-            "scid": "dn2:52.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ tiracchānakathaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in unworthy talk. ",
-            "matched": true
-          },
-          "dn2:53.1": {
-            "scid": "dn2:53.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ viggāhikakathaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in arguments. ",
-            "matched": true
-          },
-          "dn2:54.1": {
-            "scid": "dn2:54.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ dūteyyapahiṇagamanānuyogaṁ anuyuttā viharanti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in running errands and messages. ",
-            "matched": true
-          },
-          "dn2:55.1": {
-            "scid": "dn2:55.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te kuhakā ca honti lapakā ca nemittikā ca nippesikā ca lābhena lābhaṁ nijigīsitāro ca. Iti evarūpā kuhanalapanā paṭivirato hoti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in deceit, flattery, hinting, and belittling, and using material possessions to chase after other material possessions. They refrain from such deceit and flattery. ",
-            "matched": true
-          },
-          "dn2:56.1": {
-            "scid": "dn2:56.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
-            "matched": true
-          },
-          "dn2:57.1": {
-            "scid": "dn2:57.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
-            "matched": true
-          },
-          "dn2:58.1": {
-            "scid": "dn2:58.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
-            "matched": true
-          },
-          "dn2:59.1": {
-            "scid": "dn2:59.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
-            "matched": true
-          },
-          "dn2:60.1": {
-            "scid": "dn2:60.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
-            "matched": true
-          },
-          "dn2:61.1": {
-            "scid": "dn2:61.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
-            "matched": true
-          },
-          "dn2:62.1": {
-            "scid": "dn2:62.1",
-            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
-            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
-            "matched": true
-          }
-        },
-        "score": 17.028,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
-        "segsMatched": 17,
-        "langSegs": {
-          "pli": 617,
-          "en": 616
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
         ],
@@ -303,6 +178,131 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "en",
+        "segMap": {
+          "dn2:46.1": {
+            "scid": "dn2:46.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ bījagāmabhūtagāmasamārambhaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in injuring plants and seeds. ",
+            "matched": true
+          },
+          "dn2:47.1": {
+            "scid": "dn2:47.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ sannidhikāraparibhogaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in storing up goods for their own use. ",
+            "matched": true
+          },
+          "dn2:48.1": {
+            "scid": "dn2:48.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ visūkadassanaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in seeing shows. ",
+            "matched": true
+          },
+          "dn2:49.1": {
+            "scid": "dn2:49.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ jūtappamādaṭṭhānānuyogaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in gambling that causes negligence. ",
+            "matched": true
+          },
+          "dn2:50.1": {
+            "scid": "dn2:50.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ uccāsayanamahāsayanaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still make use of high and luxurious bedding. ",
+            "matched": true
+          },
+          "dn2:51.1": {
+            "scid": "dn2:51.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ maṇḍanavibhūsanaṭṭhānānuyogaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in beautifying and adorning themselves with garlands, fragrance, and makeup. ",
+            "matched": true
+          },
+          "dn2:52.1": {
+            "scid": "dn2:52.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ tiracchānakathaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in unworthy talk. ",
+            "matched": true
+          },
+          "dn2:53.1": {
+            "scid": "dn2:53.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ viggāhikakathaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in arguments. ",
+            "matched": true
+          },
+          "dn2:54.1": {
+            "scid": "dn2:54.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ dūteyyapahiṇagamanānuyogaṁ anuyuttā viharanti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in running errands and messages. ",
+            "matched": true
+          },
+          "dn2:55.1": {
+            "scid": "dn2:55.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te kuhakā ca honti lapakā ca nemittikā ca nippesikā ca lābhena lābhaṁ nijigīsitāro ca. Iti evarūpā kuhanalapanā paṭivirato hoti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still engage in deceit, flattery, hinting, and belittling, and using material possessions to chase after other material possessions. They refrain from such deceit and flattery. ",
+            "matched": true
+          },
+          "dn2:56.1": {
+            "scid": "dn2:56.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
+            "matched": true
+          },
+          "dn2:57.1": {
+            "scid": "dn2:57.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
+            "matched": true
+          },
+          "dn2:58.1": {
+            "scid": "dn2:58.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
+            "matched": true
+          },
+          "dn2:59.1": {
+            "scid": "dn2:59.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
+            "matched": true
+          },
+          "dn2:60.1": {
+            "scid": "dn2:60.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
+            "matched": true
+          },
+          "dn2:61.1": {
+            "scid": "dn2:61.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
+            "matched": true
+          },
+          "dn2:62.1": {
+            "scid": "dn2:62.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti. ",
+            "en": "There are some ascetics and brahmins who, while enjoying <span class=\"scv-matched\">food given in faith</span>, still earn a living by unworthy branches of knowledge, by wrong livelihood. ",
+            "matched": true
+          }
+        },
+        "score": 17.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
+        "segsMatched": 17,
+        "langSegs": {
+          "pli": 649,
+          "en": 632
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
         ],
@@ -355,8 +355,8 @@
         "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 266,
-          "en": 265
+          "pli": 284,
+          "en": 281
         }
       }
     ]

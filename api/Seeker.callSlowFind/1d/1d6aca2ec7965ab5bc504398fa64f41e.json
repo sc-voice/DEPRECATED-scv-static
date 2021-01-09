@@ -252,15 +252,15 @@
             "matched": true
           }
         },
-        "score": 2.005,
+        "score": 2.004,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 439,
-          "en": 438
+          "pli": 454,
+          "en": 453
         }
       }
     ]

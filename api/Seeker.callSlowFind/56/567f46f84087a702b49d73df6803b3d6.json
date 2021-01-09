@@ -434,14 +434,14 @@
             "matched": true
           }
         },
-        "score": 1.006,
+        "score": 1.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 174,
+          "pli": 190,
           "en": 173
         }
       },
@@ -499,8 +499,8 @@
         "title": "Middle Discourses 12\nThe Longer Discourse on the Lion’s Roar",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 356,
-          "en": 355
+          "pli": 372,
+          "en": 371
         }
       },
       {
@@ -557,8 +557,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 617,
-          "en": 616
+          "pli": 649,
+          "en": 632
         }
       },
       {
@@ -615,8 +615,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 439,
-          "en": 438
+          "pli": 454,
+          "en": 453
         }
       }
     ]
