@@ -25,6 +25,24 @@
                 matchHighlight.replace('$&', match)||match);
         }
 
+        static compareScid(a,b) {
+            if (a === b) {
+                return 0;
+            }
+
+            let aParts = a.split(':')[1].split('.').map(n=>Number(n));
+            let bParts = b.split(':')[1].split('.').map(n=>Number(n));
+            for (let i=0; i<aParts.length; i++) {
+                let ai = aParts[i] || 0;
+                let bi = bParts[i] || 0;
+                let cmp = ai - bi;
+                if (cmp) {
+                    return cmp;
+                }
+            }
+            return bParts.length > aParts.length ? -1 : 0;
+        }
+
         static sanitizePattern(pattern) {
             if (!pattern) {
                 throw new Error("search pattern is required");
@@ -46,7 +64,6 @@
 
             return pattern;
         }
-
 
         static normalizePattern(pattern) {
             // normalize white space to space
@@ -346,7 +363,9 @@
                 segMap[scid] = segMap[scid] || { scid };
                 segMap[scid][lang] = langSegs[scid];
             });
-            let segments = Object.keys(segMap).map(scid=>segMap[scid]);
+            let segments = Object.keys(segMap)
+                .sort(BilaraWeb.compareScid)
+                .map(scid=>segMap[scid]);
             segments = this.highlightExamples({segments, lang});
             let titleSegs = segments.filter(s=>s.scid.includes(':0'));
             let titles = titleSegs.map(s=>s[lang]||s.pli||'');

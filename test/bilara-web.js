@@ -31,7 +31,7 @@
         should(skr.examples).equal(examples);
         should(skr.fetch).equal(fetch);
     });
-    it("TESTTESTisExample", async()=>{
+    it("isExample", async()=>{
         var skr = new BilaraWeb({
             fetch,
             lang: 'en', // English default
@@ -59,7 +59,7 @@
         let guid = 'e68b92c404fbf58e108917ab8d493c03';
         should(skr.exampleGuid(example, lang)).equal(guid);
     });
-    it("TESTTESTfind(...) finds example", async()=>{
+    it("find(...) finds example", async()=>{
         var skr = new BilaraWeb({fetch});
 
         var pattern = "root of suffering"; 
@@ -117,7 +117,7 @@
         var skr = new BilaraWeb({fetch, examples});
         should(skr.exampleOfMatch("Is a good Feeling")).equal(examples.en[0]);
     });
-    it("TESTTESTexampleOfMatch(...) returns de example", ()=>{
+    it("exampleOfMatch(...) returns de example", ()=>{
         let examples = {
             en: [
                 'is.*\\bfeeling',
@@ -197,11 +197,31 @@
             pli: '“‘nissayasampanno nissayasampanno’ti, bhante, vuccati. ',
         });
     });
-    it("TESTTESTvoices() returns voices", async()=>{
+    it("voices() returns voices", async()=>{
         let skr = new BilaraWeb({fetch});
         let voices = await skr.voices();
         let enNames = voices.filter(v=>v.langTrans === 'en').map(v=>v.name);
         should.deepEqual(enNames, [
             'Amy', 'Raveena', 'Matthew', 'Brian', 'sujato_en']);
+    });
+    it("TESTTESTloadSutta(...) returns MN10", async ()=>{
+        let skr = new BilaraWeb({fetch});
+        let sutta_uid = 'mn10';
+        let sutta = await skr.loadSutta({sutta_uid});
+        should(sutta.sutta_uid).equal(sutta_uid);
+
+        // segments should be sequential
+        let i34_2 = sutta.segments.findIndex(seg=>seg.scid==='mn10:34.2');
+        let i34_3 = sutta.segments.findIndex(seg=>seg.scid==='mn10:34.3');
+        should(i34_3).equal(i34_2+1); //
+    });
+    it("TESTTESTcompareScid(a,b) is scid comparator", ()=>{
+        let test = (a,b,n) => {
+            should(BilaraWeb.compareScid(a,b)).equal(n);
+            should(BilaraWeb.compareScid(b,a)).equal(-n);
+        }
+        test('mn10:34.2', 'mn10:34.2', 0);
+        test('mn10:34.2', 'mn10:34.3', -1);
+        test('mn10:34.2', 'mn10:34.11', -9);
     });
 })
