@@ -32,7 +32,7 @@
     "pattern": "unbedingt",
     "method": "phrase",
     "resultPattern": "\\bunbedingt",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.47_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an2/an2.11-20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.11-20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "an3.47/de/sabbamitta",
       "an2.11-20/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "an5.32/de/sabbamitta",
       "an4.34/de/sabbamitta"
     ],
@@ -201,6 +205,38 @@
           "pli": 46,
           "de": 45,
           "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.3.29": {
+            "scid": "dn34:1.3.29",
+            "pli": "saṅkhatā ca dhātu asaṅkhatā ca dhātu. ",
+            "de": "das bedingte Element und das <span class=\"scv-matched\">unbedingt</span>e Element. ",
+            "en": "the conditioned element and the unconditioned element. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 183,
+          "en": 891
         }
       }
     ]
