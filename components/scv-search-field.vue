@@ -14,7 +14,7 @@
         role="button"
         color="primary"
         :aria-label="$t('inspireMe')"
-        class="scv-inspire " :style="cssVars" small>
+        class="scv-text-btn " :style="cssVars" small>
         {{$t('inspireMe')}}
       </v-btn>
     </div>
@@ -140,26 +140,4 @@ export default {
 }
 </script>
 <style>
-.scv-inspire {
-    margin-left: 1px;
-    border-radius: 4px;
-    text-align: center;
-    margin-bottom: 1em;
-    text-transform: none;
-    font-size: 12px;
-    border: 1px solid #383838;
-    height: 24px;
-    //background: #212121 !important;
-}
-.scv-inspire:focus {
-    border: 1pt solid #888;
-    border-color: #82B1FFa;
-    outline: 1pt solid #82B1FF;
-}
-.scv-inspire-row {
-    margin: -0.8em 0 0.5em 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 </style>

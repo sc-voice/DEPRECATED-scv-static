@@ -271,7 +271,7 @@
       <li class="text-center settings-close" role="none">
         <v-btn id="btnSettings" 
           small
-          class="scv-text-button"
+          class="scv-text-btn"
           color="primary"
           :aria-label="$t('ariaClose')"
           @click="focusMore(false,$event)"

@@ -6,17 +6,20 @@
   --scv-division-title-font-size: 18.08px;
   --scv-header-margin-bottom: 64px;
   --scv-segment-margin-bottom: 0.5em;
-  --scv-text-font-size: 14px;
+  --scv-text-font-size: 16px;
+  --scv-sc-sans-font: "Roboto", "Skolar Sans PE", "Noto Sans", sans-serif;
+  --scv-sc-serif-font: "Roboto", "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
+  --scv-sans-font: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --scv-sc-sans-font: "Skolar Sans PE", "Noto Sans", sans-serif;
   --scv-sc-serif-font: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
-  --scv-sans-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --scv-accent-color: #882200; 
   --scv-accent-font-weight: 600;
-  --scv-focus-color: #82B1FF;
+  --scv-focus-color: #882200; 
   --scv-background-color: #FFFFFF;
   --scv-settings-width: 350px;
   --scv-setting-width: 330px;
   --scv-label-color: rgba(0,0,0,0.6);
+  --scv-color: #222;
 }
 @media(width < 600px) {
   :root {
@@ -104,6 +107,7 @@ label {
   line-height: var(--scv-text-line-height);
   max-width: var(--scv-text-width);
   font-family: var(--scv-sans-font);
+  font-size: var(--scv-text-font-size);
   padding-bottom: 0.7em;
 }
 .scv-matched { 
@@ -118,7 +122,45 @@ label {
 }
 .scv-text-container .scv-matched:hover,
 .scv-text-container .scv-matched:focus {
-  color: #754A00;
+  color: var(--scv-focus-color);
+  text-decoration-color: var(--scv-focus-color);
+}
+
+.scv-text-btn {
+  margin-left: 1px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: none;
+  border: 1pt solid #222;
+  height: 24px;
+  color: var(--scv-color);
+  text-decoration-color: var(--scv-color);
+}
+.scv-text-btn .v-btn__content {
+  font-size: 0.75rem;
+  color: var(--scv-color);
+}
+.scv-text-btn .v-btn__content:hover,
+.scv-text-btn:focus-within .v-btn__content {
+  color: var(--scv-focus-color);
+}
+.scv-text-btn:hover,
+.scv-text-btn:focus {
+  color: var(--scv-focus-color);
+  border: 1pt solid #888;
+  border-color: var(--scv-focus-color);
+  outline: 1pt solid var(--scv-focus-color);
+  text-decoration: underline;
+  text-decoration-color: var(--scv-accent-color);
+  color: var(--scv-focus-color);
+}
+
+.scv-inspire-row {
+    margin: -0.8em 0 0.5em 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .scv-icon-btn {
@@ -167,8 +209,8 @@ summary:focus {
     padding-right: 0.2rem;
 }
 .scv-settings-title:focus {
-    border-color: #82B1FF;
-    outline: 1pt solid #82B1FF;
+    border-color: var(--scv-focus-color);
+    outline: 1pt solid var(--scv-focus-color);
 }
 .scv-settings-title .scv-setting-icon {
   width: 1rem;
