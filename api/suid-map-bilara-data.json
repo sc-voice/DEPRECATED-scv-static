@@ -6700,6 +6700,7 @@
     "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/an/an6/an6.30_comment-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an6/an6.30_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/an/an6/an6.30_comment-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an6/an6.30_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an6/an6.30_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an6/an6.30_reference.json",
@@ -7024,6 +7025,16 @@
     "html/pli/ms": "html/pli/ms/sutta/dn/dn33_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/dn/dn33_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/dn/dn33_variant-pli-ms.json"
+  },
+  "dn34": {
+    "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+    "translation/en/sujato": "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/dn/dn34_comment-en-sujato.json",
+    "translation/my/my-team": "translation/my/my-team/sutta/dn/dn34_translation-my-my-team.json",
+    "root/pli/ms": "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/dn/dn34_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/dn/dn34_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/dn/dn34_variant-pli-ms.json"
   },
   "dn6": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/dn/dn6_translation-de-sabbamitta.json",
@@ -14999,15 +15010,6 @@
     "reference/pli/ms": "reference/pli/ms/sutta/dn/dn32_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/dn/dn32_variant-pli-ms.json"
   },
-  "dn34": {
-    "translation/en/sujato": "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
-    "comment/en/sujato": "comment/en/sujato/sutta/dn/dn34_comment-en-sujato.json",
-    "translation/my/my-team": "translation/my/my-team/sutta/dn/dn34_translation-my-my-team.json",
-    "root/pli/ms": "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/dn/dn34_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/dn/dn34_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/dn/dn34_variant-pli-ms.json"
-  },
   "dn3": {
     "translation/en/sujato": "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/dn/dn3_comment-en-sujato.json",
@@ -16144,6 +16146,13 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.8_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.8_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.8_variant-pli-ms.json"
+  },
+  "snp2.9": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga2/snp2.9_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.9_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.9_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.9_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.9_variant-pli-ms.json"
   },
   "snp3.1": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga3/snp3.1_translation-en-sujato.json",
@@ -38012,12 +38021,6 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.14_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.14_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.14_variant-pli-ms.json"
-  },
-  "snp2.9": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.9_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.9_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.9_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.9_variant-pli-ms.json"
   },
   "snp3.10": {
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga3/snp3.10_root-pli-ms.json",
