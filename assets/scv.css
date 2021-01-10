@@ -1,12 +1,12 @@
 /* CSS variables */
 :root {
-  --scv-text-width: 45rem;
+  --scv-text-width: 45em;
   --scv-text-line-height: 1.5;
   --scv-sutta-title-font-size: 28px;
   --scv-division-title-font-size: 18.08px;
   --scv-header-margin-bottom: 64px;
   --scv-segment-margin-bottom: 0.5em;
-  --scv-text-font-size: 18.08px;
+  --scv-text-font-size: 14px;
   --scv-sc-sans-font: "Skolar Sans PE", "Noto Sans", sans-serif;
   --scv-sc-serif-font: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
   --scv-sans-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -107,9 +107,20 @@ label {
   padding-bottom: 0.7em;
 }
 .scv-matched { 
-    color: var(--scv-accent-color);
-    font-weight: var(--scv-accent-font-weight);
+  color: #232323;
 }
+.scv-result-text .scv-matched {
+  font-weight: var(--scv-accent-font-weight);
+}
+.scv-text-container .scv-matched {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.scv-text-container .scv-matched:hover,
+.scv-text-container .scv-matched:focus {
+  color: #754A00;
+}
+
 .scv-icon-btn {
     margin: 0;
     border-radius:5px;

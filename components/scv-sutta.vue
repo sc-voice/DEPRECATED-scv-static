@@ -79,7 +79,4 @@ export default {
 }
 </script>
 <style>
-.scv-text-container .scv-matched {
-  cursor: pointer;
-}
 </style>
