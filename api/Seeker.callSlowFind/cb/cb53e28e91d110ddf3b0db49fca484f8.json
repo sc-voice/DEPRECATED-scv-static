@@ -32,7 +32,7 @@
     "pattern": "gut befreit",
     "method": "phrase",
     "resultPattern": "\\bgut befreit",
-    "segsMatched": 12,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/kn/thag/thag1.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.43_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.43_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.200_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.200_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.200_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "dn33/de/sabbamitta",
       "thag1.43/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "an5.200/de/sabbamitta",
       "thig1.11/de/sabbamitta"
     ],
@@ -204,6 +208,45 @@
           "pli": 41,
           "de": 33,
           "en": 39
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.6.44": {
+            "scid": "dn34:1.6.44",
+            "pli": "Tassa taṁ cittaṁ sugataṁ subhāvitaṁ suvuṭṭhitaṁ suvimuttaṁ visaṁyuttaṁ kāmehi. ",
+            "de": "Sein Geist ist in gutem Zustand, gut entwickelt, gut entfaltet, <span class=\"scv-matched\">gut befreit</span> und von Sinnenfreuden losgelöst. ",
+            "en": "Their mind is in a good state, well developed, well risen, well freed, and well detached from sensual pleasures. ",
+            "matched": true
+          },
+          "dn34:1.6.64": {
+            "scid": "dn34:1.6.64",
+            "pli": "Tassa taṁ cittaṁ sugataṁ subhāvitaṁ suvuṭṭhitaṁ suvimuttaṁ visaṁyuttaṁ sakkāyena. ",
+            "de": "Sein Geist ist in gutem Zustand, gut entwickelt, gut entfaltet, <span class=\"scv-matched\">gut befreit</span> und von Persönlichkeit losgelöst. ",
+            "en": "Their mind is in a good state, well developed, well risen, well freed, and well detached from identity. ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 894,
+          "de": 408,
+          "en": 891
         }
       },
       {

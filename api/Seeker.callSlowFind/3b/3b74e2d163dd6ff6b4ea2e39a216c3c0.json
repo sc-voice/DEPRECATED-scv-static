@@ -32,11 +32,14 @@
     "pattern": "wahrnehmung des hässlichen",
     "method": "phrase",
     "resultPattern": "\\bwahrnehmung des hässlichen",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -52,6 +55,7 @@
     ],
     "suttaRefs": [
       "an10.60/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an5.61/de/sabbamitta",
       "an5.303/de/sabbamitta",
@@ -230,6 +234,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.8.45": {
+            "scid": "dn34:1.8.45",
+            "pli": "aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. ",
+            "de": "die Wahrnehmung der Unbeständigkeit, die Wahrnehmung des Nicht-selbst, die <span class=\"scv-matched\">Wahrnehmung des Hässlichen</span>, die Wahrnehmung der nachteiligen Folgen, die Wahrnehmung des Aufgebens, die Wahrnehmung des Schwindens und die Wahrnehmung des Aufhörens. ",
+            "en": "the perception of impermanence, the perception of not-self, the perception of ugliness, the perception of drawbacks, the perception of giving up, the perception of fading away, and the perception of cessation. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 408,
+          "en": 891
         }
       }
     ]

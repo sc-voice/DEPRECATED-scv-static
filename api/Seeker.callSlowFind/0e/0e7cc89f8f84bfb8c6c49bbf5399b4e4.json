@@ -32,7 +32,7 @@
     "pattern": "umfang der weisheit",
     "method": "phrase",
     "resultPattern": "\\bumfang der weisheit",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
@@ -40,6 +40,12 @@
       "root/pli/ms/sutta/an/an5/an5.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.21_translation-en-sujato.json"
@@ -47,6 +53,8 @@
     "suttaRefs": [
       "dn10/de/sabbamitta",
       "an5.22/de/sabbamitta",
+      "dn34/de/sabbamitta",
+      "dn33/de/sabbamitta",
       "an4.21/de/sabbamitta"
     ],
     "mlDocs": [
@@ -186,6 +194,70 @@
           "pli": 49,
           "de": 48,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.11.146": {
+            "scid": "dn33:1.11.146",
+            "pli": "sīlakkhandho, samādhikkhandho, paññākkhandho, vimuttikkhandho. #25",
+            "de": "der Umfang der Ethik, der Umfang der Versenkung, der <span class=\"scv-matched\">Umfang der Weisheit</span> und der Umfang der Freiheit. ",
+            "en": "ethics, immersion, wisdom, and freedom. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.6.103": {
+            "scid": "dn34:1.6.103",
+            "pli": "sīlakkhandho, samādhikkhandho, paññākkhandho, vimuttikkhandho, vimuttiñāṇadassanakkhandho. ",
+            "de": "der Umfang der Ethik, der Umfang der Versenkung, der <span class=\"scv-matched\">Umfang der Weisheit</span>, der Umfang der Freiheit und der Umfang des Wissens und Sehens der Freiheit. ",
+            "en": "ethics, immersion, wisdom, freedom, and knowledge and vision of freedom. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 408,
+          "en": 891
         }
       }
     ]

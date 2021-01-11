@@ -32,11 +32,14 @@
     "pattern": "merkmalslos",
     "method": "phrase",
     "resultPattern": "\\bmerkmalslos",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.13_translation-en-sujato.json",
@@ -49,6 +52,7 @@
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "an6.13/de/sabbamitta",
       "sn47.9/de/sabbamitta",
       "an3.183-352/de/sabbamitta"
@@ -137,6 +141,45 @@
           "pli": 49,
           "de": 40,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.7.58": {
+            "scid": "dn34:1.7.58",
+            "pli": "‘animittā hi kho me cetovimutti bhāvitā …pe… ",
+            "de": "‚Ich habe die <span class=\"scv-matched\">merkmalslos</span>e Erlösung des Herzens entwickelt … ",
+            "en": "‘I’ve developed the signless heart’s release. … ",
+            "matched": true
+          },
+          "dn34:1.7.61": {
+            "scid": "dn34:1.7.61",
+            "pli": "nissaraṇaṁ hetaṁ, āvuso, sabbanimittānaṁ yadidaṁ animittā cetovimuttī’ti. #7.5 ",
+            "de": "Denn durch die <span class=\"scv-matched\">merkmalslos</span>e Erlösung des Herzens entrinnt man allen Merkmalen.‘ ",
+            "en": "For it is the signless release of the heart that is the escape from all signs.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 894,
+          "de": 408,
+          "en": 891
         }
       },
       {

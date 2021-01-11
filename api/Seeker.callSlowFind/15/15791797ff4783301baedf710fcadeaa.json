@@ -32,7 +32,7 @@
     "pattern": "gegenstände zur besinnung",
     "method": "phrase",
     "resultPattern": "\\bgegenstände zur besinnung",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an6/an6.26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
@@ -55,6 +58,7 @@
       "an6.9/de/sabbamitta",
       "an6.25/de/sabbamitta",
       "an6.26/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta"
     ],
     "mlDocs": [
@@ -279,6 +283,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.7.14": {
+            "scid": "dn34:1.7.14",
+            "pli": "Cha anussatiṭṭhānāni—",
+            "de": "Sechs <span class=\"scv-matched\">Gegenstände zur Besinnung</span>: ",
+            "en": "Six recollections: ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 408,
+          "en": 891
         }
       }
     ]

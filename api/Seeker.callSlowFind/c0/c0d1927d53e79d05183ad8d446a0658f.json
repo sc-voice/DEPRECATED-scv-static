@@ -32,7 +32,7 @@
     "pattern": "sechs elemente",
     "method": "phrase",
     "resultPattern": "\\bsechs elemente",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.13_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.13_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.61/de/sabbamitta",
       "dn33/de/sabbamitta",
-      "an6.13/de/sabbamitta"
+      "an6.13/de/sabbamitta",
+      "dn34/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -186,6 +190,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.7.34": {
+            "scid": "dn34:1.7.34",
+            "pli": "Cha nissaraṇiyā dhātuyo—",
+            "de": "<span class=\"scv-matched\">Sechs Elemente</span> des Entrinnens: ",
+            "en": "Six elements of escape. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 408,
+          "en": 891
         }
       }
     ]
