@@ -3,9 +3,9 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\bberyl",
+      "pattern": "\\b真の愛情による心の解放",
       "maxResults": 0,
-      "lang": "jpn",
+      "lang": "en",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }

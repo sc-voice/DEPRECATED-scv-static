@@ -32,7 +32,7 @@
     "pattern": "gewissen und zurückhaltung",
     "method": "phrase",
     "resultPattern": "\\bgewissen und zurückhaltung",
-    "segsMatched": 23,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.180-229_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "an2.180-229/de/sabbamitta",
       "an4.73/de/sabbamitta",
       "an2.1-10/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an2.87-97/de/sabbamitta",
       "an2.230-279/de/sabbamitta"
@@ -261,6 +265,52 @@
           "pli": 126,
           "de": 124,
           "en": 124
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.8.4": {
+            "scid": "dn34:1.8.4",
+            "pli": "saddhādhanaṁ, sīladhanaṁ, hiridhanaṁ, ottappadhanaṁ, sutadhanaṁ, cāgadhanaṁ, paññādhanaṁ. ",
+            "de": "Reichtum an Vertrauen, sittlichem Verhalten, Gewissen, Zurückhaltung, Gelehrsamkeit, Großzügigkeit und Weisheit. ",
+            "en": "the wealth of faith, ethical conduct, conscience, prudence, learning, generosity, and wisdom. ",
+            "matched": true
+          },
+          "dn34:1.8.33": {
+            "scid": "dn34:1.8.33",
+            "pli": "idhāvuso, bhikkhu assaddho hoti, ahiriko hoti, anottappī hoti, appassuto hoti, kusīto hoti, muṭṭhassati hoti, duppañño hoti. ",
+            "de": "Ein Mönch oder eine Nonne ist ohne Vertrauen, gewissenlos, ohne Zurückhaltung, ungebildet, faul, unachtsam und geistlos. ",
+            "en": "a mendicant is faithless, shameless, imprudent, uneducated, lazy, unmindful, and witless. ",
+            "matched": true
+          },
+          "dn34:2.1.5": {
+            "scid": "dn34:2.1.5",
+            "pli": "Idhāvuso, bhikkhu satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. ",
+            "de": "Da lebt eine Nonne, indem sie sich auf den Lehrer oder eine geistliche Gefährtin in der Lehrerrolle stützt. Und sie entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"scv-matched\">Gewissen und Zurückhaltung</span> mit Wärme und Respekt. ",
+            "en": "It’s when a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role. And they set up a keen sense of conscience and prudence for them, with warmth and respect. ",
+            "matched": true
+          }
+        },
+        "score": 3.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 894,
+          "de": 548,
+          "en": 891
         }
       },
       {

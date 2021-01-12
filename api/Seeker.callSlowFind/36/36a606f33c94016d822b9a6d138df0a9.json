@@ -32,11 +32,14 @@
     "pattern": "unterscheiden",
     "method": "phrase",
     "resultPattern": "\\bunterscheiden",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.139_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.139_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.139_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "an4.139/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an1.333-377/de/sabbamitta",
       "sn47.9/de/sabbamitta",
@@ -199,6 +203,45 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.1.143": {
+            "scid": "dn34:2.1.143",
+            "pli": "ayañca puggalo majjhimesu janapadesu paccājāto hoti, so ca hoti duppañño jaḷo eḷamūgo, nappaṭibalo subhāsitadubbhāsitānamatthamaññātuṁ. ",
+            "de": "Und man wurde in einem zentralen Land wiedergeboren. Aber man ist geistlos, stumpf und dumm, nicht in der Lage, zu <span class=\"scv-matched\">unterscheiden</span>, was gut gesagt und was dürftig gesagt ist. ",
+            "en": "And a person is reborn in a central country. But they’re witless, dull, stupid, and unable to distinguish what is well said from what is poorly said. ",
+            "matched": true
+          },
+          "dn34:2.1.146": {
+            "scid": "dn34:2.1.146",
+            "pli": "ayañca puggalo majjhimesu janapadesu paccājāto hoti, so ca hoti paññavā ajaḷo aneḷamūgo, paṭibalo subhāsitadubbhāsitānamatthamaññātuṁ. ",
+            "de": "Aber er lehrt nicht den Dhamma, der zum Frieden, zum Erlöschen, zum Erwachen führt, wie er vom Heiligen verkündet wurde. Und man wurde in einem zentralen Land wiedergeboren. Und man ist weise, aufgeweckt und verständig, in der Lage, zu <span class=\"scv-matched\">unterscheiden</span>, was gut gesagt und was dürftig gesagt ist. ",
+            "en": "But he doesn’t teach the Dhamma leading to peace, extinguishment, awakening, as announced by the Holy One. And a person is reborn in a central country. And they’re wise, bright, clever, and able to distinguish what is well said from what is poorly said. ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 894,
+          "de": 548,
+          "en": 891
         }
       },
       {

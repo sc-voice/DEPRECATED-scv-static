@@ -32,7 +32,7 @@
     "pattern": "solcherart ist form",
     "method": "phrase",
     "resultPattern": "\\bsolcherart ist form",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.90_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -65,6 +68,7 @@
       "sn12.22/de/sabbamitta",
       "sn12.21/de/sabbamitta",
       "mn10/de/sabbamitta",
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an4.41/de/sabbamitta"
@@ -331,6 +335,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.1.23": {
+            "scid": "dn34:2.1.23",
+            "pli": "‘iti rūpaṁ iti rūpassa samudayo iti rūpassa atthaṅgamo; ",
+            "de": "‚<span class=\"scv-matched\">Solcherart ist Form</span>, so entsteht sie, so endet sie. ",
+            "en": "‘Such is form, such is the origin of form, such is the ending of form. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 548,
+          "en": 891
         }
       }
     ]

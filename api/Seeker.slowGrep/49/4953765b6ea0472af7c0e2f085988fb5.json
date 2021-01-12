@@ -3,9 +3,9 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\b固い信頼を確保",
+      "pattern": "\\b老齢の定め",
       "maxResults": 1000,
-      "lang": "jpn",
+      "lang": "en",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }

@@ -3,9 +3,9 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\bbeautiful",
-      "maxResults": 0,
-      "lang": "jpn",
+      "pattern": "\\b老いる定め",
+      "maxResults": 1000,
+      "lang": "en",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }
