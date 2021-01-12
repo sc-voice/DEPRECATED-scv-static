@@ -1,0 +1,18 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\b真の愛情による心の解放",
+      "maxResults": 1000,
+      "lang": "jpn",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/jpn/kaz/sutta/an/an1/an1.11-20_translation-jpn-kaz.json:2",
+    "translation/jpn/kaz/sutta/an/an1/an1.394-574_translation-jpn-kaz.json:1",
+    "translation/jpn/kaz/sutta/an/an11/an11.15_translation-jpn-kaz.json:1"
+  ]
+}
