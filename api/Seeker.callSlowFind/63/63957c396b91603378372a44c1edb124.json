@@ -32,8 +32,11 @@
     "pattern": "gute freunde, gute genossen, gute gefährten",
     "method": "phrase",
     "resultPattern": "\\bgute freunde, gute genossen, gute gefährten",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -42,6 +45,7 @@
       "translation/en/sujato/sutta/an/an3/an3.27_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an3.27/de/sabbamitta"
     ],
@@ -108,6 +112,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.3.10": {
+            "scid": "dn34:2.3.10",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Dann hat da ein Mönch <span class=\"scv-matched\">gute Freunde, gute Genossen, gute Gefährten</span>. ",
+            "en": "Furthermore, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
         }
       }
     ]

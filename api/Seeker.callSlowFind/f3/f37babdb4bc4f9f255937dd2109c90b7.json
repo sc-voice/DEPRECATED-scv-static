@@ -32,8 +32,11 @@
     "pattern": "auf beiden seiten",
     "method": "phrase",
     "resultPattern": "\\bauf beiden seiten",
-    "segsMatched": 14,
+    "segsMatched": 18,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "translation/en/sujato/sutta/an/an3/an3.35_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an5.51/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
@@ -74,6 +78,59 @@
       "an3.35/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.1.174": {
+            "scid": "dn34:2.1.174",
+            "pli": "Seyyathāpi nāma umāpupphaṁ nīlaṁ nīlavaṇṇaṁ nīlanidassanaṁ nīlanibhāsaṁ, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ nīlaṁ nīlavaṇṇaṁ nīlanidassanaṁ nīlanibhāsaṁ; ",
+            "de": "Wie eine Flachsblüte, blau, von blauer Farbe, in blauer Schattierung, blauem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, blau, von blauer Farbe, in blauer Schattierung, blauem Ton. ",
+            "en": "They’re like a flax flower that’s blue, with blue color, blue hue, and blue tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, blue, with blue color, blue hue, and blue tint. ",
+            "matched": true
+          },
+          "dn34:2.1.178": {
+            "scid": "dn34:2.1.178",
+            "pli": "Seyyathāpi nāma kaṇikārapupphaṁ pītaṁ pītavaṇṇaṁ pītanidassanaṁ pītanibhāsaṁ, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ pītaṁ pītavaṇṇaṁ pītanidassanaṁ pītanibhāsaṁ; ",
+            "de": "Wie eine Kaṇikārablüte, gelb, von gelber Farbe, in gelber Schattierung, gelbem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, gelb, von gelber Farbe, in gelber Schattierung, gelbem Ton. ",
+            "en": "They’re like a champak flower that’s yellow, with yellow color, yellow hue, and yellow tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, yellow, with yellow color, yellow hue, and yellow tint. ",
+            "matched": true
+          },
+          "dn34:2.1.182": {
+            "scid": "dn34:2.1.182",
+            "pli": "Seyyathāpi nāma bandhujīvakapupphaṁ lohitakaṁ lohitakavaṇṇaṁ lohitakanidassanaṁ lohitakanibhāsaṁ, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ lohitakaṁ lohitakavaṇṇaṁ lohitakanidassanaṁ lohitakanibhāsaṁ; ",
+            "de": "Wie eine scharlachrote Malvenblüte, rot, von roter Farbe, in roter Schattierung, rotem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, rot, von roter Farbe, in roter Schattierung, rotem Ton. ",
+            "en": "They’re like a scarlet mallow flower that’s red, with red color, red hue, and red tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, red, with red color, red hue, and red tint. ",
+            "matched": true
+          },
+          "dn34:2.1.186": {
+            "scid": "dn34:2.1.186",
+            "pli": "Seyyathāpi nāma osadhitārakā odātā odātavaṇṇā odātanidassanā odātanibhāsā, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ odātaṁ odātavaṇṇaṁ odātanidassanaṁ odātanibhāsaṁ; ",
+            "de": "Wie der Morgenstern, weiß, von weißer Farbe, in weißer Schattierung, weißem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, weiß, von weißer Farbe, in weißer Schattierung, weißem Ton. ",
+            "en": "They’re like the morning star that’s white, with white color, white hue, and white tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, white, with white color, white hue, and white tint. ",
+            "matched": true
+          }
+        },
+        "score": 4.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -89,28 +146,28 @@
           "dn33:3.1.153": {
             "scid": "dn33:3.1.153",
             "pli": "Seyyathāpi nāma umāpupphaṁ nīlaṁ nīlavaṇṇaṁ nīlanidassanaṁ nīlanibhāsaṁ, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ nīlaṁ nīlavaṇṇaṁ nīlanidassanaṁ nīlanibhāsaṁ; ",
-            "de": "Wie eine Flachsblüte, blau, von blauer Farbe, in blauer Schattierung, blauem Ton. Oder wie Stoff aus Bāraṇasī, geschmeidig <span class=\"scv-matched\">auf beiden Seiten</span>, blau, von blauer Farbe, in blauer Schattierung, blauem Ton. ",
+            "de": "Wie eine Flachsblüte, blau, von blauer Farbe, in blauer Schattierung, blauem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, blau, von blauer Farbe, in blauer Schattierung, blauem Ton. ",
             "en": "They’re like a flax flower that’s blue, with blue color, blue hue, and blue tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, blue, with blue color, blue hue, and blue tint. ",
             "matched": true
           },
           "dn33:3.1.157": {
             "scid": "dn33:3.1.157",
             "pli": "Seyyathāpi nāma kaṇikārapupphaṁ pītaṁ pītavaṇṇaṁ pītanidassanaṁ pītanibhāsaṁ, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ pītaṁ pītavaṇṇaṁ pītanidassanaṁ pītanibhāsaṁ; ",
-            "de": "Wie eine Kaṇikārablüte, gelb, von gelber Farbe, in gelber Schattierung, gelbem Ton. Oder wie Stoff aus Bāraṇasī, geschmeidig <span class=\"scv-matched\">auf beiden Seiten</span>, gelb, von gelber Farbe, in gelber Schattierung, gelbem Ton. ",
+            "de": "Wie eine Kaṇikārablüte, gelb, von gelber Farbe, in gelber Schattierung, gelbem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, gelb, von gelber Farbe, in gelber Schattierung, gelbem Ton. ",
             "en": "They’re like a champak flower that’s yellow, with yellow color, yellow hue, and yellow tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, yellow, with yellow color, yellow hue, and yellow tint. ",
             "matched": true
           },
           "dn33:3.1.161": {
             "scid": "dn33:3.1.161",
             "pli": "Seyyathāpi nāma bandhujīvakapupphaṁ lohitakaṁ lohitakavaṇṇaṁ lohitakanidassanaṁ lohitakanibhāsaṁ, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ lohitakaṁ lohitakavaṇṇaṁ lohitakanidassanaṁ lohitakanibhāsaṁ; ",
-            "de": "Wie eine scharlachrote Malvenblüte, rot, von roter Farbe, in roter Schattierung, rotem Ton. Oder wie Stoff aus Bāraṇasī, geschmeidig <span class=\"scv-matched\">auf beiden Seiten</span>, rot, von roter Farbe, in roter Schattierung, rotem Ton. ",
+            "de": "Wie eine scharlachrote Malvenblüte, rot, von roter Farbe, in roter Schattierung, rotem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, rot, von roter Farbe, in roter Schattierung, rotem Ton. ",
             "en": "They’re like a scarlet mallow flower that’s red, with red color, red hue, and red tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, red, with red color, red hue, and red tint. ",
             "matched": true
           },
           "dn33:3.1.165": {
             "scid": "dn33:3.1.165",
             "pli": "Seyyathāpi nāma osadhitārakā odātā odātavaṇṇā odātanidassanā odātanibhāsā, seyyathā vā pana taṁ vatthaṁ bārāṇaseyyakaṁ ubhatobhāgavimaṭṭhaṁ odātaṁ odātavaṇṇaṁ odātanidassanaṁ odātanibhāsaṁ; ",
-            "de": "Wie der Morgenstern, weiß, von weißer Farbe, in weißer Schattierung, weißem Ton. Oder wie Stoff aus Bāraṇasī, geschmeidig <span class=\"scv-matched\">auf beiden Seiten</span>, weiß, von weißer Farbe, in weißer Schattierung, weißem Ton. ",
+            "de": "Wie der Morgenstern, weiß, von weißer Farbe, in weißer Schattierung, weißem Ton. Oder wie Stoff aus Bāraṇasī, <span class=\"scv-matched\">auf beiden Seiten</span> geglättet, weiß, von weißer Farbe, in weißer Schattierung, weißem Ton. ",
             "en": "They’re like the morning star that’s white, with white color, white hue, and white tint. Or a cloth from Bāraṇasī that’s smoothed on both sides, white, with white color, white hue, and white tint. ",
             "matched": true
           }

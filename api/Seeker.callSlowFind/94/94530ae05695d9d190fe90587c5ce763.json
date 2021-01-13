@@ -296,7 +296,7 @@
           "dn34:2.1.5": {
             "scid": "dn34:2.1.5",
             "pli": "Idhāvuso, bhikkhu satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. ",
-            "de": "Da lebt eine Nonne, indem sie sich auf den Lehrer oder eine geistliche Gefährtin in der Lehrerrolle stützt. Und sie entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"scv-matched\">Gewissen und Zurückhaltung</span> mit Wärme und Respekt. ",
+            "de": "Da lebt eine Nonne, indem sie sich auf den Lehrer oder eine geistliche Gefährtin in der Lehrerrolle stützt. Und sie entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"scv-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Respekt. ",
             "en": "It’s when a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role. And they set up a keen sense of conscience and prudence for them, with warmth and respect. ",
             "matched": true
           }
@@ -309,7 +309,7 @@
         "segsMatched": 3,
         "langSegs": {
           "pli": 894,
-          "de": 548,
+          "de": 754,
           "en": 891
         }
       },

@@ -32,8 +32,11 @@
     "pattern": "von groll los",
     "method": "phrase",
     "resultPattern": "\\bvon groll los",
-    "segsMatched": 22,
+    "segsMatched": 25,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -45,6 +48,7 @@
       "translation/en/sujato/sutta/an/an5/an5.161_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an5.162/de/sabbamitta",
       "an5.161/de/sabbamitta"
@@ -277,6 +281,52 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.2.47": {
+            "scid": "dn34:2.2.47",
+            "pli": "Nava āghātapaṭivinayā: ",
+            "de": "Neun Methoden, sich <span class=\"scv-matched\">von Groll los</span>zumachen: ",
+            "en": "Nine methods to get rid of resentment. ",
+            "matched": true
+          },
+          "dn34:2.2.48": {
+            "scid": "dn34:2.2.48",
+            "pli": "‘anatthaṁ me acari, taṁ kutettha labbhā’ti āghātaṁ paṭivineti; ",
+            "de": "‚Dieser Mensch hat mir Unrecht getan, doch was kann ich da machen?‘ macht man sich <span class=\"scv-matched\">von Groll los</span>. ",
+            "en": "Thinking: ‘They did wrong to me, but what can I possibly do?’ you get rid of resentment. ",
+            "matched": true
+          },
+          "dn34:2.2.56": {
+            "scid": "dn34:2.2.56",
+            "pli": "atthaṁ carissati, taṁ kutettha labbhā’ti āghātaṁ paṭivineti. ",
+            "de": "Beim Gedanken: ‚Dieser Mensch wird jemandem helfen, den ich nicht mag, doch was kann ich da machen?‘ macht man sich <span class=\"scv-matched\">von Groll los</span>. ",
+            "en": "Thinking: ‘They will help someone I dislike, but what can I possibly do?’ you get rid of resentment. ",
+            "matched": true
+          }
+        },
+        "score": 3.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
         }
       }
     ]

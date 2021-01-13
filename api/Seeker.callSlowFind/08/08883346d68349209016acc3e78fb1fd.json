@@ -32,8 +32,11 @@
     "pattern": "einzig der schönheit zugewandt",
     "method": "phrase",
     "resultPattern": "\\beinzig der schönheit zugewandt",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -45,6 +48,7 @@
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an1.394-574/de/sabbamitta"
@@ -144,6 +148,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.1.196": {
+            "scid": "dn34:2.1.196",
+            "pli": "Subhanteva adhimutto hoti. ",
+            "de": "Man ist <span class=\"scv-matched\">einzig der Schönheit zugewandt</span>. ",
+            "en": "They’re focused only on beauty. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
         }
       }
     ]

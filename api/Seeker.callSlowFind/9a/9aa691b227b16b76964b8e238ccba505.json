@@ -32,13 +32,17 @@
     "pattern": "zehn allumfassende dimensionen der meditation",
     "method": "phrase",
     "resultPattern": "\\bzehn allumfassende dimensionen der meditation",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn34/de/sabbamitta",
       "dn33/de/sabbamitta"
     ],
     "mlDocs": [
@@ -72,6 +76,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.3.36": {
+            "scid": "dn34:2.3.36",
+            "pli": "Dasa kasiṇāyatanāni—",
+            "de": "<span class=\"scv-matched\">Zehn allumfassende Dimensionen der Meditation</span>: ",
+            "en": "Ten universal dimensions of meditation. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
         }
       }
     ]

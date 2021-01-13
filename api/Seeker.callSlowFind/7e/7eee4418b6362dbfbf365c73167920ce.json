@@ -32,7 +32,7 @@
     "pattern": "wirklichkeitsgemäß.* erkennen und sehen",
     "method": "phrase",
     "resultPattern": "\\bwirklichkeitsgemäß.* erkennen und sehen",
-    "segsMatched": 28,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.55_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/an/an5/an5.193_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn46.55/de/sabbamitta",
       "an5.193/de/sabbamitta",
-      "sn12.23/de/sabbamitta"
+      "sn12.23/de/sabbamitta",
+      "dn34/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -319,6 +323,38 @@
           "pli": 93,
           "de": 92,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.2.3": {
+            "scid": "dn34:2.2.3",
+            "pli": "Nava yonisomanasikāramūlakā dhammā, yonisomanasikaroto pāmojjaṁ jāyati, pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati, samāhite citte yathābhūtaṁ jānāti passati, yathābhūtaṁ jānaṁ passaṁ nibbindati, nibbindaṁ virajjati, virāgā vimuccati. ",
+            "de": "Neun Dinge, die in genauer Aufmerksamkeit wurzeln: Wenn man genau hinschaut, lodert Freude auf. Wenn man voller Freude ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet man Wonne. Und wenn man voller Wonne ist, versenkt sich der Geist. Wenn der Geist versunken ist, kann man <span class=\"scv-matched\">wirklichkeitsgemäß erkennen und sehen</span>. Wenn man wirklichkeitsgemäß erkennt und sieht, wird man ernüchtert. Wenn man ernüchtert ist, wendet man sich ab. Wenn man sich abgewandt hat, ist man befreit. ",
+            "en": "Nine things rooted in proper attention. When you attend properly, joy springs up. When you’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, you feel bliss. And when you’re blissful, the mind becomes immersed. When your mind is immersed, you truly know and see. When you truly know and see, you grow disillusioned. Being disillusioned, desire fades away. When desire fades away you’re freed. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
         }
       }
     ]

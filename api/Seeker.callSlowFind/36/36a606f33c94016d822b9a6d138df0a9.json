@@ -220,14 +220,14 @@
           "dn34:2.1.143": {
             "scid": "dn34:2.1.143",
             "pli": "ayañca puggalo majjhimesu janapadesu paccājāto hoti, so ca hoti duppañño jaḷo eḷamūgo, nappaṭibalo subhāsitadubbhāsitānamatthamaññātuṁ. ",
-            "de": "Und man wurde in einem zentralen Land wiedergeboren. Aber man ist geistlos, stumpf und dumm, nicht in der Lage, zu <span class=\"scv-matched\">unterscheiden</span>, was gut gesagt und was dürftig gesagt ist. ",
+            "de": "und man wurde in einem zentralen Land wiedergeboren. Aber man ist geistlos, stumpf und dumm, nicht in der Lage, zu <span class=\"scv-matched\">unterscheiden</span>, was gut gesagt und was dürftig gesagt ist. ",
             "en": "And a person is reborn in a central country. But they’re witless, dull, stupid, and unable to distinguish what is well said from what is poorly said. ",
             "matched": true
           },
           "dn34:2.1.146": {
             "scid": "dn34:2.1.146",
             "pli": "ayañca puggalo majjhimesu janapadesu paccājāto hoti, so ca hoti paññavā ajaḷo aneḷamūgo, paṭibalo subhāsitadubbhāsitānamatthamaññātuṁ. ",
-            "de": "Aber er lehrt nicht den Dhamma, der zum Frieden, zum Erlöschen, zum Erwachen führt, wie er vom Heiligen verkündet wurde. Und man wurde in einem zentralen Land wiedergeboren. Und man ist weise, aufgeweckt und verständig, in der Lage, zu <span class=\"scv-matched\">unterscheiden</span>, was gut gesagt und was dürftig gesagt ist. ",
+            "de": "aber er lehrt nicht den Dhamma, der zum Frieden, zum Erlöschen, zum Erwachen führt, wie er vom Heiligen verkündet wurde. Und man wurde in einem zentralen Land wiedergeboren. Und man ist weise, aufgeweckt und verständig, in der Lage, zu <span class=\"scv-matched\">unterscheiden</span>, was gut gesagt und was dürftig gesagt ist. ",
             "en": "But he doesn’t teach the Dhamma leading to peace, extinguishment, awakening, as announced by the Holy One. And a person is reborn in a central country. And they’re wise, bright, clever, and able to distinguish what is well said from what is poorly said. ",
             "matched": true
           }
@@ -240,7 +240,7 @@
         "segsMatched": 2,
         "langSegs": {
           "pli": 894,
-          "de": 548,
+          "de": 754,
           "en": 891
         }
       },
