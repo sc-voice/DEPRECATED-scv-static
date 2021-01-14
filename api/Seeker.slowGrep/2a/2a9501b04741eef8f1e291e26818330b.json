@@ -3,7 +3,7 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\bdie meditation unterstützen",
+      "pattern": "\\bmeditation unterstützen",
       "maxResults": 1000,
       "lang": "de",
       "root": "local/bilara-data",

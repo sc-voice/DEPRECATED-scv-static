@@ -30,7 +30,7 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "真の愛情による心の解放",
-    "method": "phrase",
+    "method": "keywords",
     "resultPattern": "\\b真の愛情による心の解放",
     "segsMatched": 0,
     "bilaraPaths": [],

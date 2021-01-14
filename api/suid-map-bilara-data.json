@@ -2096,6 +2096,7 @@
     "translation/cs/ashinsarana": "translation/cs/ashinsarana/sutta/an/an4/an4.58_translation-cs-ashinsarana.json",
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an4/an4.58_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an4/an4.58_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an4/an4.58_reference.json",
@@ -3651,6 +3652,7 @@
   "an3.30": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/an/an3/an3.30_translation-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an3/an3.30_translation-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an3/an3.30_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an3/an3.30_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an3/an3.30_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an3/an3.30_reference.json",
@@ -16094,6 +16096,13 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga1/snp1.9_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga1/snp1.9_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga1/snp1.9_variant-pli-ms.json"
+  },
+  "snp2.10": {
+    "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga2/snp2.10_translation-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.10_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.10_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.10_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.10_variant-pli-ms.json"
   },
   "snp2.1": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga2/snp2.1_translation-en-sujato.json",
@@ -37997,12 +38006,6 @@
     "html/pli/ms": "html/pli/ms/sutta/kn/pv/pv9_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/pv/pv9_reference.json",
     "variant/pli/ms": "variant/pli/ms/sutta/kn/pv/pv9_variant-pli-ms.json"
-  },
-  "snp2.10": {
-    "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.10_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.10_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.10_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/kn/snp/vagga2/snp2.10_variant-pli-ms.json"
   },
   "snp2.11": {
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.11_root-pli-ms.json",

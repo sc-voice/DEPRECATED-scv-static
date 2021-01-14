@@ -32,7 +32,7 @@
     "pattern": "unterscheiden",
     "method": "phrase",
     "resultPattern": "\\bunterscheiden",
-    "segsMatched": 15,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.139_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.139_translation-de-sabbamitta.json",
@@ -54,13 +54,7 @@
       "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.50_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.48_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.48_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.48_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.139/de/sabbamitta",
@@ -69,9 +63,7 @@
       "an1.333-377/de/sabbamitta",
       "sn47.9/de/sabbamitta",
       "thag15.2/de/sabbamitta",
-      "an6.43/de/sabbamitta",
-      "an5.50/de/sabbamitta",
-      "an5.48/de/sabbamitta"
+      "an6.43/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -278,38 +270,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.48_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.48_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.48_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.48",
-        "lang": "de",
-        "segMap": {
-          "an5.48:8.2": {
-            "scid": "an5.48:8.2",
-            "pli": "Na vedhatī atthavinicchayaññū; ",
-            "de": "da er <span class=\"scv-matched\">unterscheiden</span> kann, was segensreich ist, ",
-            "en": "as they’re able to assess what’s beneficial, ",
-            "matched": true
-          }
-        },
-        "score": 1.018,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 5\n5. Mit König Muṇḍa\n48. Was man nicht bekommen kann",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 55,
-          "de": 54,
-          "en": 54
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/thag/thag15.2_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json"
@@ -370,38 +330,6 @@
           "pli": 98,
           "de": 97,
           "en": 97
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.50_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.50",
-        "lang": "de",
-        "segMap": {
-          "an5.50:15.2": {
-            "scid": "an5.50:15.2",
-            "pli": "Na vedhatī atthavinicchayaññū; ",
-            "de": "da er <span class=\"scv-matched\">unterscheiden</span> kann, was segensreich ist, ",
-            "en": "as they’re able to assess what’s beneficial, ",
-            "matched": true
-          }
-        },
-        "score": 1.009,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 5\n5. Mit König Muṇḍa\n50. Mit Nārada",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 110,
-          "de": 102,
-          "en": 108
         }
       }
     ]

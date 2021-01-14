@@ -3,12 +3,14 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\b真の愛情による心の解放",
+      "pattern": "\\bdinge sind eine hilfe",
       "maxResults": 1000,
-      "lang": "jpn",
+      "lang": "de",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json:18"
+  ]
 }
