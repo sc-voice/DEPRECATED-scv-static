@@ -112,9 +112,9 @@ label {
 }
 .scv-matched { 
   color: #232323;
+  font-weight: var(--scv-accent-font-weight);
 }
 .scv-result-text .scv-matched {
-  font-weight: var(--scv-accent-font-weight);
 }
 .scv-text-container .scv-matched {
   cursor: pointer;
