@@ -7796,6 +7796,24 @@
     "html/pli/ms": "html/pli/ms/sutta/sn/sn56/sn56.1_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/sn/sn56/sn56.1_reference.json"
   },
+  "sn56.47": {
+    "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/sn/sn56/sn56.47_translation-de-sabbamitta.json",
+    "translation/en/sujato": "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/sn/sn56/sn56.47_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/sn/sn56/sn56.47_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/sn/sn56/sn56.47_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/sn/sn56/sn56.47_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/sn/sn56/sn56.47_variant-pli-ms.json"
+  },
+  "sn56.48": {
+    "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/sn/sn56/sn56.48_translation-de-sabbamitta.json",
+    "translation/en/sujato": "translation/en/sujato/sutta/sn/sn56/sn56.48_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/sn/sn56/sn56.48_comment-en-sujato.json",
+    "root/pli/ms": "root/pli/ms/sutta/sn/sn56/sn56.48_root-pli-ms.json",
+    "html/pli/ms": "html/pli/ms/sutta/sn/sn56/sn56.48_html.json",
+    "reference/pli/ms": "reference/pli/ms/sutta/sn/sn56/sn56.48_reference.json",
+    "variant/pli/ms": "variant/pli/ms/sutta/sn/sn56/sn56.48_variant-pli-ms.json"
+  },
   "sn6.1": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
     "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/sn/sn6/sn6.1_comment-de-sabbamitta.json",
@@ -31183,22 +31201,6 @@
     "root/pli/ms": "root/pli/ms/sutta/sn/sn56/sn56.46_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/sn/sn56/sn56.46_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/sn/sn56/sn56.46_reference.json"
-  },
-  "sn56.47": {
-    "translation/en/sujato": "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json",
-    "comment/en/sujato": "comment/en/sujato/sutta/sn/sn56/sn56.47_comment-en-sujato.json",
-    "root/pli/ms": "root/pli/ms/sutta/sn/sn56/sn56.47_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/sn/sn56/sn56.47_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/sn/sn56/sn56.47_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/sn/sn56/sn56.47_variant-pli-ms.json"
-  },
-  "sn56.48": {
-    "translation/en/sujato": "translation/en/sujato/sutta/sn/sn56/sn56.48_translation-en-sujato.json",
-    "comment/en/sujato": "comment/en/sujato/sutta/sn/sn56/sn56.48_comment-en-sujato.json",
-    "root/pli/ms": "root/pli/ms/sutta/sn/sn56/sn56.48_root-pli-ms.json",
-    "html/pli/ms": "html/pli/ms/sutta/sn/sn56/sn56.48_html.json",
-    "reference/pli/ms": "reference/pli/ms/sutta/sn/sn56/sn56.48_reference.json",
-    "variant/pli/ms": "variant/pli/ms/sutta/sn/sn56/sn56.48_variant-pli-ms.json"
   },
   "sn56.49": {
     "translation/en/sujato": "translation/en/sujato/sutta/sn/sn56/sn56.49_translation-en-sujato.json",

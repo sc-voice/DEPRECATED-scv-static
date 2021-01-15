@@ -1,0 +1,19 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bhochgefühl",
+      "maxResults": 0,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json:4",
+    "translation/de/sabbamitta/sutta/an/an2/an2.64-76_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json:1",
+    "translation/de/sabbamitta/sutta/an/an3/an3.103_translation-de-sabbamitta.json:1"
+  ]
+}
