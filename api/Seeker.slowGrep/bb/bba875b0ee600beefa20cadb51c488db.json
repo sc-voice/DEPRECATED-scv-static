@@ -3,7 +3,7 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\bzehn allumfassende dimensionen der meditation",
+      "pattern": "\\bzehn allumfassende dimensionen",
       "maxResults": 1000,
       "lang": "de",
       "root": "local/bilara-data",

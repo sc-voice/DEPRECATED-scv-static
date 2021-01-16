@@ -3,19 +3,18 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "zehn allumfassende dimensionen der meditation",
+      "pattern": "six recollections",
       "showMatchesOnly": true,
       "languages": [
         "pli",
-        "en",
-        "de"
+        "en"
       ],
       "maxResults": 1000,
-      "searchLang": "de",
+      "searchLang": "en",
       "maxDoc": 50,
-      "minLang": 3,
+      "minLang": 2,
       "matchHighlight": "<span class=\"scv-matched\">$&</span>",
-      "lang": "de",
+      "lang": "en",
       "types": [
         "root",
         "translation"
@@ -24,45 +23,41 @@
     }
   ],
   "value": {
-    "lang": "de",
-    "searchLang": "de",
-    "minLang": 3,
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "zehn allumfassende dimensionen der meditation",
+    "pattern": "six recollections",
     "method": "phrase",
-    "resultPattern": "\\bzehn allumfassende dimensionen der meditation",
+    "resultPattern": "\\bsix recollections",
     "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn34/de/sabbamitta",
-      "dn33/de/sabbamitta"
+      "dn34/en/sujato",
+      "dn33/en/sujato"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
         ],
-        "author_uid": "sabbamitta",
+        "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "dn33",
-        "lang": "de",
+        "lang": "en",
         "segMap": {
-          "dn33:3.3.35": {
-            "scid": "dn33:3.3.35",
-            "pli": "Dasa kasiṇāyatanāni. ",
-            "de": "<span class=\"scv-matched\">Zehn allumfassende Dimensionen der Meditation</span>: ",
-            "en": "Ten universal dimensions of meditation. ",
+          "dn33:2.2.114": {
+            "scid": "dn33:2.2.114",
+            "pli": "Cha anussatiṭṭhānāni—",
+            "en": "<span class=\"scv-matched\">Six recollections</span>: ",
             "matched": true
           }
         },
@@ -70,31 +65,28 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
+        "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
           "pli": 1167,
-          "de": 1166,
           "en": 1166
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
         ],
-        "author_uid": "sabbamitta",
+        "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "dn34",
-        "lang": "de",
+        "lang": "en",
         "segMap": {
-          "dn34:2.3.36": {
-            "scid": "dn34:2.3.36",
-            "pli": "Dasa kasiṇāyatanāni—",
-            "de": "<span class=\"scv-matched\">Zehn allumfassende Dimensionen der Meditation</span>: ",
-            "en": "Ten universal dimensions of meditation. ",
+          "dn34:1.7.14": {
+            "scid": "dn34:1.7.14",
+            "pli": "Cha anussatiṭṭhānāni—",
+            "en": "<span class=\"scv-matched\">Six recollections</span>: ",
             "matched": true
           }
         },
@@ -102,11 +94,10 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
           "pli": 894,
-          "de": 754,
           "en": 891
         }
       }
