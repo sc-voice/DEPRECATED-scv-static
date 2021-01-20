@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "nachdem eine sehr lange zeitspanne",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "nachdem eine sehr lange zeitspanne",
+    "method": "phrase",
+    "resultPattern": "\\bnachdem eine sehr lange zeitspanne",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn24/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "de",
+        "segMap": {
+          "dn24:2.14.11": {
+            "scid": "dn24:2.14.11",
+            "pli": "‘Hoti kho so, āvuso, samayo yaṁ kadāci karahaci dīghassa addhuno accayena ayaṁ loko saṁvaṭṭati. ",
+            "de": "‚Es kommt eine Zeit, werte Freunde, <span class=\"scv-matched\">nachdem eine sehr lange Zeitspanne</span> vergangen ist, da dieses Weltall sich zusammenzieht. ",
+            "en": "‘There comes a time when, reverends, after a very long period has passed, this cosmos contracts. ",
+            "matched": true
+          },
+          "dn24:2.15.1": {
+            "scid": "dn24:2.15.1",
+            "pli": "Hoti kho so, āvuso, samayo yaṁ kadāci karahaci dīghassa addhuno accayena ayaṁ loko vivaṭṭati. ",
+            "de": "Es kommt eine Zeit, <span class=\"scv-matched\">nachdem eine sehr lange Zeitspanne</span> vergangen ist, da dieses Weltall sich ausdehnt. ",
+            "en": "There comes a time when, after a very long period has passed, this cosmos expands. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 24\nÜber Pāṭikaputta\n1. Die Geschichte von Sunakkhatta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 581,
+          "de": 500,
+          "en": 580
+        }
+      }
+    ]
+  }
+}
