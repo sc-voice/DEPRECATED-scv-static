@@ -2155,6 +2155,7 @@
     "translation/cs/ashinsarana": "translation/cs/ashinsarana/sutta/an/an4/an4.63_translation-cs-ashinsarana.json",
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/an/an4/an4.63_translation-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an4/an4.63_translation-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an4/an4.63_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an4/an4.63_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an4/an4.63_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an4/an4.63_reference.json",
@@ -3670,6 +3671,7 @@
   "an3.32": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an3/an3.32_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an3/an3.32_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an3/an3.32_reference.json",
