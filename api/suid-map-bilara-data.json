@@ -8272,6 +8272,7 @@
   },
   "pli-tv-bi-vb-pc53": {
     "translation/en/brahmali": "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc53_translation-en-brahmali.json",
+    "comment/en/brahmali": "comment/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc53_comment-en-brahmali.json",
     "root/pli/ms": "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc53_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc53_html.json",
     "reference/pli/ms": "reference/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc53_reference.json",
@@ -16147,6 +16148,7 @@
   },
   "snp2.13": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga2/snp2.13_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/snp/vagga2/snp2.13_comment-en-sujato.json",
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.13_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.13_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.13_reference.json",
