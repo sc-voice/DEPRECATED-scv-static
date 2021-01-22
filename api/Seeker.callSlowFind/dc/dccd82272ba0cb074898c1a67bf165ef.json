@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "nothing is worth insisting on",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "nothing is worth insisting on",
+    "method": "phrase",
+    "resultPattern": "\\bnothing is worth insisting on",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn37/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn37",
+        "lang": "en",
+        "segMap": {
+          "mn37:3.2": {
+            "scid": "mn37:3.2",
+            "pli": "‘sabbe dhammā nālaṁ abhinivesāyā’ti. ",
+            "en": "‘<span class=\"scv-matched\">Nothing is worth insisting on</span>.’ ",
+            "matched": true
+          },
+          "mn37:3.4": {
+            "scid": "mn37:3.4",
+            "pli": "‘sabbe dhammā nālaṁ abhinivesāyā’ti. ",
+            "en": "<span class=\"scv-matched\">nothing is worth insisting on</span>, ",
+            "matched": true
+          },
+          "mn37:13.3": {
+            "scid": "mn37:13.3",
+            "pli": "“sabbe dhammā nālaṁ abhinivesāyā”ti. ",
+            "en": "“<span class=\"scv-matched\">Nothing is worth insisting on</span>” ",
+            "matched": true
+          },
+          "mn37:13.5": {
+            "scid": "mn37:13.5",
+            "pli": "“sabbe dhammā nālaṁ abhinivesāyā”ti. ",
+            "en": "<span class=\"scv-matched\">nothing is worth insisting on</span>, ",
+            "matched": true
+          }
+        },
+        "score": 4.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 37\nThe Shorter Discourse on the Ending of Craving",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 110,
+          "en": 109
+        }
+      }
+    ]
+  }
+}
