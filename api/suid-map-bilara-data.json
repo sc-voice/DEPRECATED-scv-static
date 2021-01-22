@@ -16156,6 +16156,7 @@
   },
   "snp2.14": {
     "translation/en/sujato": "translation/en/sujato/sutta/kn/snp/vagga2/snp2.14_translation-en-sujato.json",
+    "comment/en/sujato": "comment/en/sujato/sutta/kn/snp/vagga2/snp2.14_comment-en-sujato.json",
     "root/pli/ms": "root/pli/ms/sutta/kn/snp/vagga2/snp2.14_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/kn/snp/vagga2/snp2.14_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/kn/snp/vagga2/snp2.14_reference.json",
