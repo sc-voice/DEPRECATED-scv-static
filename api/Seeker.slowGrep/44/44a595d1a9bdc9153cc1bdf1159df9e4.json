@@ -4,11 +4,13 @@
   "args": [
     {
       "pattern": "\\b全ての活動が静まり",
-      "maxResults": 0,
-      "lang": "en",
+      "maxResults": 1000,
+      "lang": "jpn",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/jpn/kaz/sutta/an/an3/an3.32_translation-jpn-kaz.json:1"
+  ]
 }
