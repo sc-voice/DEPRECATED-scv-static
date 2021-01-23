@@ -32,7 +32,7 @@
     "pattern": "bußübung aus ekel",
     "method": "phrase",
     "resultPattern": "\\bbußübung aus ekel",
-    "segsMatched": 12,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -106,17 +106,122 @@
             "de": "„Herr, wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde offensichtlich vollständig, nicht unvollständig.“ ",
             "en": "“Clearly, sir, if that is so the mortification in disgust of sin is complete, not incomplete.” ",
             "matched": true
+          },
+          "dn25:15.15": {
+            "scid": "dn25:15.15",
+            "pli": "yadi evaṁ sante tapojigucchā parisuddhā vā hoti aparisuddhā vā”ti? ",
+            "de": "Wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde geläutert oder nicht?“ ",
+            "en": "If this is so, is the mortification in disgust of sin purified or not?” ",
+            "matched": true
+          },
+          "dn25:15.16": {
+            "scid": "dn25:15.16",
+            "pli": "“Addhā kho, bhante, evaṁ sante tapojigucchā parisuddhā hoti no aparisuddhā, aggappattā ca sārappattā cā”ti. ",
+            "de": "„Herr, wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde offensichtlich geläutert. Sie hat den Gipfel und den Kern erreicht.“ ",
+            "en": "“Clearly, sir, it is purified. It has reached the peak and the pith.” ",
+            "matched": true
+          },
+          "dn25:15.17": {
+            "scid": "dn25:15.17",
+            "pli": "“Na kho, nigrodha, ettāvatā tapojigucchā aggappattā ca hoti sārappattā ca; ",
+            "de": "„Nein, Nigrodha, an diesem Punkt hat die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde noch nicht den Gipfel und den Kern erreicht. ",
+            "en": "“No, Nigrodha, at this point the mortification in disgust of sin has not yet reached the peak and the pith. ",
+            "matched": true
+          },
+          "dn25:16.1": {
+            "scid": "dn25:16.1",
+            "pli": "“Kittāvatā pana, bhante, tapojigucchā aggappattā ca hoti sārappattā ca? ",
+            "de": "„Aber an welchem Punkt, Herr, erreicht die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde den Gipfel und den Kern? ",
+            "en": "“But at what point, sir, does the mortification in disgust of sin reach the peak and the pith? ",
+            "matched": true
+          },
+          "dn25:17.7": {
+            "scid": "dn25:17.7",
+            "pli": "Yadi evaṁ sante tapojigucchā parisuddhā vā hoti aparisuddhā vā”ti? ",
+            "de": "Wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde geläutert oder nicht?“ ",
+            "en": "If this is so, is the mortification in disgust of sin purified or not?” ",
+            "matched": true
+          },
+          "dn25:17.8": {
+            "scid": "dn25:17.8",
+            "pli": "“Addhā kho, bhante, evaṁ sante tapojigucchā parisuddhā hoti no aparisuddhā, aggappattā ca sārappattā cā”ti. ",
+            "de": "„Herr, wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde offensichtlich geläutert. Sie hat den Gipfel und den Kern erreicht.“ ",
+            "en": "“Clearly, sir, it is purified. It has reached the peak and the pith.” ",
+            "matched": true
+          },
+          "dn25:17.9": {
+            "scid": "dn25:17.9",
+            "pli": "“Na kho, nigrodha, ettāvatā tapojigucchā aggappattā ca hoti sārappattā ca; ",
+            "de": "„Nein, Nigrodha, an diesem Punkt hat die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde noch nicht den Gipfel und den Kern erreicht. ",
+            "en": "“No, Nigrodha, at this point the mortification in disgust of sin has not yet reached the peak and the pith. ",
+            "matched": true
+          },
+          "dn25:18.1": {
+            "scid": "dn25:18.1",
+            "pli": "“Kittāvatā pana, bhante, tapojigucchā aggappattā ca hoti sārappattā ca? ",
+            "de": "„Aber an welchem Punkt, Herr, erreicht die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde den Gipfel und den Kern? ",
+            "en": "“But at what point, sir, does the mortification in disgust of sin reach the peak and the pith? ",
+            "matched": true
+          },
+          "dn25:18.15": {
+            "scid": "dn25:18.15",
+            "pli": "yadi evaṁ sante tapojigucchā parisuddhā vā hoti aparisuddhā vā”ti? ",
+            "de": "Wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde geläutert oder nicht?“ ",
+            "en": "If this is so, is the mortification in disgust of sin purified or not?” ",
+            "matched": true
+          },
+          "dn25:18.16": {
+            "scid": "dn25:18.16",
+            "pli": "“Addhā kho, bhante, evaṁ sante tapojigucchā parisuddhā hoti, no aparisuddhā, aggappattā ca sārappattā cā”ti. ",
+            "de": "„Herr, wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde offensichtlich geläutert. Sie hat den Gipfel und den Kern erreicht.“ ",
+            "en": "“Clearly, sir, it is purified. It has reached the peak and the pith.” ",
+            "matched": true
+          },
+          "dn25:18.17": {
+            "scid": "dn25:18.17",
+            "pli": "“Na kho, nigrodha, ettāvatā tapojigucchā aggappattā ca hoti sārappattā ca; ",
+            "de": "„Nein, Nigrodha, an diesem Punkt hat die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde noch nicht den Gipfel und den Kern erreicht. ",
+            "en": "“No, Nigrodha, at this point the mortification in disgust of sin has not yet reached the peak and the pith. ",
+            "matched": true
+          },
+          "dn25:19.1": {
+            "scid": "dn25:19.1",
+            "pli": "“Kittāvatā pana, bhante, tapojigucchā aggappattā ca hoti sārappattā ca? ",
+            "de": "„Aber an welchem Punkt, Herr, erreicht die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde den Gipfel und den Kern? ",
+            "en": "“But at what point, sir, does the mortification in disgust of sin reach the peak and the pith? ",
+            "matched": true
+          },
+          "dn25:19.14": {
+            "scid": "dn25:19.14",
+            "pli": "yadi evaṁ sante tapojigucchā parisuddhā vā hoti aparisuddhā vā”ti? ",
+            "de": "Wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde geläutert oder nicht?“ ",
+            "en": "If this is so, is the mortification in disgust of sin purified or not?” ",
+            "matched": true
+          },
+          "dn25:19.15": {
+            "scid": "dn25:19.15",
+            "pli": "“Addhā kho, bhante, evaṁ sante tapojigucchā parisuddhā hoti no aparisuddhā, aggappattā ca sārappattā cā”ti. ",
+            "de": "„Herr, wenn das so ist, ist die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde offensichtlich geläutert. Sie hat den Gipfel und den Kern erreicht.“ ",
+            "en": "“Clearly, sir, it is purified. It has reached the peak and the pith.” ",
+            "matched": true
+          },
+          "dn25:19.16": {
+            "scid": "dn25:19.16",
+            "pli": "“Ettāvatā kho, nigrodha, tapojigucchā aggappattā ca hoti sārappattā ca. ",
+            "de": "„Nigrodha, an diesem Punkt hat die <span class=\"scv-matched\">Bußübung aus Ekel</span> vor Sünde den Gipfel und den Kern erreicht. ",
+            "en": "“Nigrodha, at this point the mortification in disgust of sin has reached the peak and the pith. ",
+            "matched": true
           }
         },
-        "score": 7.018,
+        "score": 22.057,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 25\nDas Löwengebrüll in Udumbarikās Kloster\n1. Vom Wanderer Nigrodha",
-        "segsMatched": 7,
+        "segsMatched": 22,
         "langSegs": {
           "pli": 383,
-          "de": 125,
+          "de": 280,
           "en": 382
         }
       },

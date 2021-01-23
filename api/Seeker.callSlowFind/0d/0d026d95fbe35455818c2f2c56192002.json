@@ -329,7 +329,7 @@
           "dn25:10.13": {
             "scid": "dn25:10.13",
             "pli": "Yaṁ panassa khamati, taṁ gadhito mucchito ajjhāpanno anādīnavadassāvī anissaraṇapañño paribhuñjati …pe… ",
-            "de": "Aber was ihm bekommt, das genießt er gebunden, betört, anhänglich, <span class=\"scv-matched\">blind</span> für die nachteiligen Folgen und ohne das Entrinnen zu verstehen. ",
+            "de": "Aber was ihm zusagt, das genießt er gebunden, betört, anhänglich, <span class=\"scv-matched\">blind</span> für die nachteiligen Folgen und ohne das Entrinnen zu verstehen. ",
             "en": "But what does agree with them they eat tied, infatuated, attached, <span class=\"scv-matched\">blind</span> to the drawbacks, and not understanding the escape. ",
             "matched": true
           }
@@ -342,7 +342,7 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 383,
-          "de": 125,
+          "de": 280,
           "en": 382
         }
       }
