@@ -4,8 +4,8 @@
   "args": [
     {
       "pattern": "\\b食べ物を贈り",
-      "maxResults": 0,
-      "lang": "en",
+      "maxResults": 1000,
+      "lang": "jpn",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }
