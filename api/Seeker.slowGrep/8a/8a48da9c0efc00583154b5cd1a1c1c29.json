@@ -3,12 +3,14 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\b食べ物を贈り",
+      "pattern": "\\bist damit zufrieden",
       "maxResults": 1000,
-      "lang": "en",
+      "lang": "de",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }
   ],
-  "value": []
+  "value": [
+    "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json:2"
+  ]
 }

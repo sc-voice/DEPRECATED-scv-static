@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "真の愛情による心の解放",
+      "pattern": "愛情による心の解放",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -25,13 +25,13 @@
   ],
   "value": {
     "lang": "jpn",
-    "searchLang": "en",
+    "searchLang": "jpn",
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "真の愛情による心の解放",
-    "method": "keywords",
-    "resultPattern": "\\b真の愛情による心の解放",
+    "pattern": "愛情による心の解放",
+    "method": "phrase",
+    "resultPattern": "\\b愛情による心の解放",
     "segsMatched": 0,
     "bilaraPaths": [],
     "suttaRefs": [],
