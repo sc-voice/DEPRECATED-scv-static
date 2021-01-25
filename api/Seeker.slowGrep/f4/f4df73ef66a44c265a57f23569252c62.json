@@ -3,7 +3,7 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\bbußübung aus ekel",
+      "pattern": "\\bweit weg von der tollen menge",
       "maxResults": 1000,
       "lang": "de",
       "root": "local/bilara-data",
@@ -11,7 +11,6 @@
     }
   ],
   "value": [
-    "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json:21",
-    "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json:5"
+    "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json:2"
   ]
 }
