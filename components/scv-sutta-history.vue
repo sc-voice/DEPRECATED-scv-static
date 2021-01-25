@@ -1,10 +1,10 @@
 <template>
-  <div class="scv-history" v-if="sutta && sutta.sutta_uid">
+  <div class="scv-nav-sutta" v-if="sutta && sutta.sutta_uid">
     <v-btn v-if="previous" small text
-       class="scv-history-button"
+       class="scv-text-btn scv-nav-btn"
         @click="clickSutta(previous)"
-    > {{previous.sutta_uid}}/{{previous.lang}}` </v-btn>
-    <v-icon v-else class="scv-history-button">{{mdiChevronLeft}}</v-icon>
+    > {{previous.sutta_uid}}/{{previous.lang}}</v-btn>
+    <v-icon v-else class="scv-av-btn-disabled">{{mdiChevronLeft}}</v-icon>
 
     <v-spacer/>
 
@@ -13,10 +13,10 @@
     <v-spacer/>
 
     <v-btn v-if="next" small text
-      class="scv-history-button"
+      class="scv-text-btn scv-nav-btn"
       @click="clickSutta(next)"
     > {{next.sutta_uid}}/{{next.lang}} </v-btn>
-    <v-icon v-else class="scv-history-button">{{mdiChevronRight}}</v-icon>
+    <v-icon v-else class="scv-nav-btn-disabled">{{mdiChevronRight}}</v-icon>
   </div>
 </template>
 
@@ -82,19 +82,4 @@ export default {
 }
 </script>
 <style>
-.scv-history {
-    display: flex;
-    flex-flow: row noWrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-.scv-history > button {
-    width: 8em !important;
-}
-.scv-history-button {
-  min-width: 5rem;
-}
 </style>

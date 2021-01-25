@@ -22,16 +22,21 @@
         <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="scv-text-trans"/>
       </div>
     </div><!-- scv-text-container -->
+    <footer class="scv-footer">
+        <scv-tipitaka />
+    </footer>
   </div>
 </template>
 
 <script>
 import ScvSuttaHistory from './scv-sutta-history'
+import ScvTipitaka from './scv-tipitaka'
 const BilaraWeb = require('~/src/bilara-web');
 
 export default {
   components: {
     ScvSuttaHistory,
+    ScvTipitaka,
   },
   props: {
   },

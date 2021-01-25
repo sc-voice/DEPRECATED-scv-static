@@ -12,8 +12,7 @@
   --scv-sans-font: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --scv-sc-sans-font: "Skolar Sans PE", "Noto Sans", sans-serif;
   --scv-sc-serif-font: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
-  --scv-accent-color: #882200; 
-  --scv-accent-font-weight: 600;
+  --scv-focus-font-weight: 600;
   --scv-focus-color: #882200; 
   --scv-background-color: #FFFFFF;
   --scv-settings-width: 350px;
@@ -112,7 +111,7 @@ label {
 }
 .scv-matched { 
   color: #232323;
-  font-weight: var(--scv-accent-font-weight);
+  font-weight: var(--scv-focus-font-weight);
 }
 .scv-result-text .scv-matched {
 }
@@ -146,13 +145,12 @@ label {
   color: var(--scv-focus-color);
 }
 .scv-text-btn:hover,
-.scv-text-btn:focus {
+.scv-text-btn:focus-within {
   color: var(--scv-focus-color);
-  border: 1pt solid #888;
-  border-color: var(--scv-focus-color);
+  border: 1pt solid var(--scv-focus-color);
   outline: 1pt solid var(--scv-focus-color);
   text-decoration: underline;
-  text-decoration-color: var(--scv-accent-color);
+  text-decoration-color: var(--scv-focus-color);
   color: var(--scv-focus-color);
 }
 
@@ -356,4 +354,27 @@ summary:focus {
 }
 .scv-header {
   margin-bottom: var(--scv-header-margin-bottom);
+}
+
+.scv-nav-sutta {
+    display: flex;
+    flex-flow: row noWrap;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+}
+.scv-nav-sutta > button {
+    width: 8em !important;
+}
+.scv-nav-btn {
+  min-width: 5rem;
+}
+.scv-nav-btn {
+  min-width: 5rem;
+  background-color: transparent;
+  border: none;
+}
+.scv-nav-btn-disabled svg {
+  min-width: 5rem;
+  color: rgba(127,127,127,0.25);
 }

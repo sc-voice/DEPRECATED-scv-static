@@ -67,6 +67,21 @@
         </v-expansion-panel-content>
       </v-expansion-panel>
 
+      <v-expansion-panel>
+        <v-expansion-panel-header>
+          scv-tipitaka
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-sheet light class="mt-5" style="min-width:22em; ">
+            <scv-tipitaka :lang="lang" />
+          </v-sheet>
+          <details><summary class="ex-more">...</summary>
+            ScvTipitaka displays Tipitaka structure
+          </details>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+
     </v-expansion-panels>
   </div>
 </template>
@@ -77,6 +92,7 @@ import ScvSearchField from '~/components/scv-search-field.vue';
 import ScvResults from '~/components/scv-results.vue';
 import ScvSutta from '~/components/scv-sutta.vue';
 import ScvSettings from '~/components/scv-settings.vue';
+import ScvTipitaka from '~/components/scv-tipitaka.vue';
 
 export default {
   components: {
@@ -84,6 +100,7 @@ export default {
     ScvResults,
     ScvSutta,
     ScvSettings,
+    ScvTipitaka,
   },
   data: function(){
     return {
