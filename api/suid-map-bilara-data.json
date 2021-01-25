@@ -473,6 +473,7 @@
     "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/an/an4/an4.14_comment-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an4/an4.14_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/an/an4/an4.14_comment-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an4/an4.14_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an4/an4.14_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an4/an4.14_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an4/an4.14_reference.json",
@@ -2137,6 +2138,7 @@
     "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/an/an4/an4.61_comment-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an4/an4.61_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/an/an4/an4.61_comment-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an4/an4.61_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an4/an4.61_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an4/an4.61_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an4/an4.61_reference.json",
@@ -3680,6 +3682,7 @@
   "an3.33": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/an/an3/an3.33_translation-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/an/an3/an3.33_translation-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an3/an3.33_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an3/an3.33_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an3/an3.33_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an3/an3.33_reference.json",
@@ -13814,6 +13817,7 @@
   "an8.1": {
     "translation/en/sujato": "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/an/an8/an8.1_comment-en-sujato.json",
+    "translation/jpn/kaz": "translation/jpn/kaz/sutta/an/an8/an8.1_translation-jpn-kaz.json",
     "root/pli/ms": "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/sutta/an/an8/an8.1_html.json",
     "reference/pli/ms": "reference/pli/ms/sutta/an/an8/an8.1_reference.json",

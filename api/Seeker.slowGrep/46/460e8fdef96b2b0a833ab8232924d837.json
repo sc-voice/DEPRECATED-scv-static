@@ -4,8 +4,8 @@
   "args": [
     {
       "pattern": "\\b真の愛情による心の解放",
-      "maxResults": 0,
-      "lang": "jpn",
+      "maxResults": 1000,
+      "lang": "en",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
     }
