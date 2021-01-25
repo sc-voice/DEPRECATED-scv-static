@@ -1,0 +1,122 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "solche macht und stärke",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"scv-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "solche macht und stärke",
+    "method": "phrase",
+    "resultPattern": "\\bsolche macht und stärke",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.80_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an3.80/de/sabbamitta",
+      "dn25/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.80_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.80_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.80",
+        "lang": "de",
+        "segMap": {
+          "an3.80:9.3": {
+            "scid": "an3.80:9.3",
+            "pli": "yassa me satthā evaṁmahiddhiko evaṁmahānubhāvo”ti. ",
+            "de": "dass ich einen Lehrer habe, der <span class=\"scv-matched\">solche Macht und Stärke</span> besitzt!“ ",
+            "en": "to have a teacher with such power and might!” ",
+            "matched": true
+          },
+          "an3.80:9.5": {
+            "scid": "an3.80:9.5",
+            "pli": "“kiṁ tuyhettha, āvuso ānanda, yadi te satthā evaṁmahiddhiko evaṁmahānubhāvo”ti? ",
+            "de": "„Was hast du davon, werter Ānanda, dass dein Lehrer <span class=\"scv-matched\">solche Macht und Stärke</span> besitzt?“ ",
+            "en": "“What is it to you, Reverend Ānanda, if your teacher has such power and might?” ",
+            "matched": true
+          }
+        },
+        "score": 2.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n8. Ānanda\n80. Kleiner",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 51,
+          "de": 50,
+          "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn25",
+        "lang": "de",
+        "segMap": {
+          "dn25:7.19": {
+            "scid": "dn25:7.19",
+            "pli": "“acchariyaṁ vata bho, abbhutaṁ vata bho, samaṇassa gotamassa mahiddhikatā mahānubhāvatā, yatra hi nāma sakavādaṁ ṭhapessati, paravādena pavāressatī”ti. ",
+            "de": "„Es ist unglaublich, es ist erstaunlich! Der Asket Gotama besitzt <span class=\"scv-matched\">solche Macht und Stärke</span>! Denn er stellt seine eigene Lehre zurück und bietet an, über die Lehre anderer zu diskutieren!“ ",
+            "en": "“It’s incredible, it’s amazing! The ascetic Gotama has such power and might! For he sets aside his own doctrine and invites discussion on the doctrine of others!” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 25\nDas Löwengebrüll in Udumbarikās Kloster\n1. Vom Wanderer Nigrodha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 383,
+          "de": 347,
+          "en": 382
+        }
+      }
+    ]
+  }
+}
