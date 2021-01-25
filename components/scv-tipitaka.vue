@@ -59,10 +59,10 @@ export default {
     });
   },
   methods:{
-    clickSutta({sutta_uid}) {
+    clickSutta({sutta_uid, lang}) {
       let { $store } = this;
       console.log(`clickSutta`, sutta_uid);
-      $store.dispatch('scv/loadSutta', {sutta_uid, });
+      $store.dispatch('scv/loadSutta', {sutta_uid, lang, });
     },
   },
   computed: {
