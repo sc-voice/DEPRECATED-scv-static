@@ -63,6 +63,8 @@ export const mutations = {
         Object.assign(state.settings, value);
         value.showTrans === false && (state.settings.showPali = true);
         value.showPali === false && (state.settings.showTrans = true);
+        value.saveSettings && (state.settings.saveSettingsExamples = false);
+        value.saveSettingsExamples && (state.settings.saveSettings = false);
         console.log(`$store.state.scv.settings:`, value);
     },
     voices(state, value) {

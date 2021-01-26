@@ -4,7 +4,8 @@
         constructor(opts={}) {
             let {
                 audio = ScvSettings.AUDIO.OGG,
-                useCookies = false,
+                saveSettings = false,
+                saveSettingsExamples = false,
                 fullLine = false,
                 ips = 6,
                 lang = 'en',
@@ -32,7 +33,8 @@
             this.showId = showId;
             this.showPali = showPali;
             this.showTrans = showTrans;
-            this.useCookies = useCookies;
+            this.saveSettings = saveSettings;
+            this.saveSettingsExamples = saveSettingsExamples;
             this.vnameRoot = vnameRoot;
             this.vnameTrans = vnameTrans;
 

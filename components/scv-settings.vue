@@ -190,21 +190,26 @@
       </li><!-- Sound -->
       <li class="" role="none" ><!-- General -->
         <details role="menuitem" 
-          @click="clickDetails('useCookies', $event)"
-          :open="showDetail('useCookies')"
+          @click="clickDetails('general', $event)"
+          :open="showDetail('general')"
         >
           <summary class="scv-summary">
             <div class="scv-settings-title">
                 <div>{{$t('general')}}</div>
                 <div class="body-2">
                   v{{version}}
-                  <span v-if="useCookies && openDetail!=='useCookies'">, cookies</span>
+                  <span v-if="saveCookies && openDetail!=='general'">, cookies</span>
                 </div>
             </div><!--scv-settings-title-->
           </summary>
           <div class="scv-settings-detail">
-            <scv-checkbox v-model="useCookies"
-              ref="useCookies-focus"
+            <scv-checkbox v-model="saveSettingsExamples"
+              ref="saveSettingsExamples-focus"
+              :label="$t('storeSettingsExamples')"/>
+          </div>
+          <div class="scv-settings-detail">
+            <scv-checkbox v-model="saveSettings"
+              ref="saveSettings-focus"
               :label="$t('storeSettingsInCookies')"/>
           </div>
         </details>
@@ -425,10 +430,21 @@ export default {
       get: function() { return this.$store.state.scv.settings.audio; },
       set: function(value) { this.$store.commit("scv/settings", {audio:value}); },
     },
-    useCookies: {
-      get: function() { return !!this.$store.state.scv.settings.useCookies; },
+    saveCookies: {
+      get: function() {
+        return this.saveSettings || this.saveSettingsExamples;
+      }
+    },
+    saveSettings: {
+      get: function() { return !!this.$store.state.scv.settings.saveSettings; },
       set: function(value) { 
-        this.$store.commit("scv/settings", {useCookies:value}); 
+        this.$store.commit("scv/settings", {saveSettings:value}); 
+      },
+    },
+    saveSettingsExamples: {
+      get: function() { return !!this.$store.state.scv.settings.saveSettingsExamples; },
+      set: function(value) { 
+        this.$store.commit("scv/settings", {saveSettingsExamples:value}); 
       },
     },
     vnameRoot: {

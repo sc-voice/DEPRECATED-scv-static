@@ -178,7 +178,7 @@
     });
     it("deleteCookies() deletes ScvSingleton cookies", function() {
         mockVueRoot.$cookie.otherCookie = 'hello';
-        mockVueRoot.$cookie.useCookies = true;
+        mockVueRoot.$cookie.saveSettingsExamples = true;
         mockVueRoot.$cookie.maxResults = 7;
 
         var scv = new ScvSingleton(g);
@@ -204,11 +204,11 @@
     it("changed(prop) propagates properties to cookies", function() {
         var scv = new ScvSingleton(g);
         mockVueRoot.$cookie.otherCookie = 'hello';
-        mockVueRoot.$cookie.useCookies = true;
+        mockVueRoot.$cookie.saveSettingsExamples = true;
         Object.keys(scv).forEach(key => {
             delete mockVueRoot.$cookie[key];
         });
-        delete mockVueRoot.$cookie.useCookies;
+        delete mockVueRoot.$cookie.saveSettingsExamples;
         should.deepEqual(mockVueRoot.$cookie, {
             otherCookie: 'hello',
         });
@@ -218,9 +218,9 @@
             otherCookie: 'hello',
         });
 
-        // When useCookies is set to true, save all the properties
-        scv.useCookies = true;
-        scv.changed('useCookies');
+        // When saveSettingsExamples is set to true, save all the properties
+        scv.saveSettingsExamples = true;
+        scv.changed('saveSettingsExamples');
         should.deepEqual(mockVueRoot.$cookie, {
             audio: 'opus',
             fullLine: "false",
@@ -229,7 +229,7 @@
             maxResults: "5",
             showId: "false",
             showLang: "0",
-            useCookies: "true",
+            saveSettingsExamples: "true",
             lang: 'en',
             locale: 'en',
             vnameTrans: 'Amy',
@@ -250,16 +250,16 @@
             maxResults: "6",
             showId: "false",
             showLang: "0",
-            useCookies: "true",
+            saveSettingsExamples: "true",
             locale: 'en',
             lang: 'en',
             vnameTrans: 'Amy',
             vnameRoot: 'Aditi',
         });
 
-        // When useCookies is set to false, delete the cookies
-        scv.useCookies = false;
-        scv.changed('useCookies');
+        // When saveSettingsExamples is set to false, delete the cookies
+        scv.saveSettingsExamples = false;
+        scv.changed('saveSettingsExamples');
         should.deepEqual(mockVueRoot.$cookie, {
             otherCookie: 'hello',
         });
@@ -538,12 +538,12 @@
             vnameTrans: 'test-vnameTrans',
             vnameRoot: 'test-vnameRoot',
         });
-        should(scv.useCookies).equal(false); // initial value
+        should(scv.saveSettingsExamples).equal(false); // initial value
 
         // vueRoot is created in main.js
         scv.mounted(mockVueRoot);
 
-        // useCookies not true
+        // saveSettingsExamples not true
         should(scv).properties({
             showId: false,
             scid: null,
@@ -556,8 +556,8 @@
             vnameRoot: 'Aditi',
         });
 
-        // useCookies not true
-        g.vueRoot.$cookie.useCookies = "true";
+        // saveSettingsExamples not true
+        g.vueRoot.$cookie.saveSettingsExamples = "true";
         scv.mounted(mockVueRoot);
         should(scv).properties({
             showId: true,

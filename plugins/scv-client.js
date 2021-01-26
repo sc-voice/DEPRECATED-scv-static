@@ -40,7 +40,7 @@ export default (context, inject) => {
         if (mutation.type === 'scv/settings') {
             let settings = state.scv.settings;
             $vuetify.lang.current = settings.locale;
-            if (settings.useCookies) {
+            if (settings.saveSettings || settings.saveSettingsExamples) {
                 console.log(`scv-client: setting cookie`, settings);
                 VueCookie.set(COOKIE_NAME, JSON.stringify(settings), COOKIE_SETTINGS);
             } else {
