@@ -97,14 +97,14 @@
           "an4.130:0.3": {
             "scid": "an4.130:0.3",
             "pli": "130. Cakkavattiacchariyasutta ",
-            "de": "130. Wunderbare Dinge über den <span class=\"scv-matched\">Rad-drehenden Herrscher</span> ",
+            "de": "130. Unglaubliche Dinge über den <span class=\"scv-matched\">Rad-drehenden Herrscher</span> ",
             "en": "130. Incredible Things About the Wheel-Turning Monarch ",
             "matched": true
           },
           "an4.130:1.1": {
             "scid": "an4.130:1.1",
             "pli": "“Cattārome, bhikkhave, acchariyā abbhutā dhammā raññe cakkavattimhi. ",
-            "de": "„Mönche und Nonnen, es gibt diese vier wunderbaren und erstaunlichen Dinge über einen <span class=\"scv-matched\">Rad-drehenden Herrscher</span>. ",
+            "de": "„Mönche und Nonnen, es gibt diese vier unglaublichen und erstaunlichen Dinge über einen <span class=\"scv-matched\">Rad-drehenden Herrscher</span>. ",
             "en": "“Mendicants, there are these four incredible and amazing things about a wheel-turning monarch. ",
             "matched": true
           },
@@ -125,7 +125,7 @@
           "an4.130:4.4": {
             "scid": "an4.130:4.4",
             "pli": "Ime kho, bhikkhave, cattāro acchariyā abbhutā dhammā raññe cakkavattimhi. ",
-            "de": "Das sind die vier wunderbaren und erstaunlichen Dinge über einen <span class=\"scv-matched\">Rad-drehenden Herrscher</span>. ",
+            "de": "Das sind die vier unglaublichen und erstaunlichen Dinge über einen <span class=\"scv-matched\">Rad-drehenden Herrscher</span>. ",
             "en": "These are the four incredible and amazing things about a wheel-turning monarch. ",
             "matched": true
           }
@@ -134,7 +134,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n13. Furcht\n130. Wunderbare Dinge über den Rad-drehenden Herrscher",
+        "title": "Nummerierte Lehrreden 4\n13. Furcht\n130. Unglaubliche Dinge über den Rad-drehenden Herrscher",
         "segsMatched": 5,
         "langSegs": {
           "pli": 34,
