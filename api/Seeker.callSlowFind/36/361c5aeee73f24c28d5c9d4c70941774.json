@@ -32,11 +32,14 @@
     "pattern": "eindeutig",
     "method": "phrase",
     "resultPattern": "\\beindeutig",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.42_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.42_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.42_translation-en-sujato.json",
@@ -46,19 +49,16 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.21/de/sabbamitta",
+      "dn28/de/sabbamitta",
       "an4.42/de/sabbamitta",
       "an3.67/de/sabbamitta",
       "dn33/de/sabbamitta",
-      "dn28/de/sabbamitta",
       "dn24/de/sabbamitta"
     ],
     "mlDocs": [
@@ -211,17 +211,24 @@
             "de": "„Das ist eine gewaltige und dramatische Aussage, Sāriputta. Du hast ein <span class=\"scv-matched\">eindeutig</span>es und bestimmtes Löwengebrüll gebrüllt: ",
             "en": "“That’s a grand and dramatic statement, Sāriputta. You’ve roared a definitive, categorical lion’s roar, saying: ",
             "matched": true
+          },
+          "dn28:1.18": {
+            "scid": "dn28:1.18",
+            "pli": "Atha kiṁ carahi te ayaṁ, sāriputta, uḷārā āsabhī vācā bhāsitā, ekaṁso gahito, sīhanādo nadito: ",
+            "de": "was genau tust du, dass du so eine gewaltige und dramatische Aussage machst, so ein ein <span class=\"scv-matched\">eindeutig</span>es und bestimmtes Löwengebrüll brüllst?“ ",
+            "en": "what exactly are you doing, making such a grand and dramatic statement, roaring such a definitive, categorical lion’s roar?” ",
+            "matched": true
           }
         },
-        "score": 1.004,
+        "score": 2.008,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 28\nZuversicht wecken\n1. Sāriputtas Löwengebrüll",
-        "segsMatched": 1,
+        "segsMatched": 2,
         "langSegs": {
           "pli": 250,
-          "de": 28,
+          "de": 52,
           "en": 249
         }
       },
