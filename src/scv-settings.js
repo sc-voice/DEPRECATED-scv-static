@@ -7,6 +7,8 @@
                 saveSettings = false,
                 saveSettingsExamples = false,
                 fullLine = false,
+                history = [],
+                maxHistory = 2000,
                 ips = 6,
                 lang = 'en',
                 locale = 'en',
@@ -24,20 +26,33 @@
 
             this.audio = audio;
             this.fullLine = fullLine;
+            this.history = history.slice();
             this.ips = 6;
             this.lang = lang;
             this.locale = locale;
             this.maxResults = maxResults;
+            this.maxHistory = maxHistory,
+            this.saveSettingsExamples = saveSettingsExamples;
+            this.saveSettings = saveSettings;
             this.scid = scid;
             this.search = search;
             this.showId = showId;
             this.showPali = showPali;
             this.showTrans = showTrans;
-            this.saveSettings = saveSettings;
-            this.saveSettingsExamples = saveSettingsExamples;
             this.vnameRoot = vnameRoot;
             this.vnameTrans = vnameTrans;
 
+        }
+
+        toJSON() {
+            let { maxHistory, history } = this;
+            let json = Object.assign({}, this);
+            let trimHistory = history.slice();
+            while (JSON.stringify(trimHistory).length > maxHistory) {
+                trimHistory.pop();
+            }
+            json.history = trimHistory;
+            return json;
         }
         
         static get TRANS_LANGUAGES() { 
@@ -62,9 +77,9 @@
             //}, {
                 //code: 'is',
                 //label: 'Íslenska / IS',
-            //}, {
-                //code: 'ja',
-                //label: '日本語 / JA',
+            }, {
+                code: 'ja',
+                label: '日本語 / JA',
             //}, {
                 //code: 'nb',
                 //label: 'Norsk / NB',

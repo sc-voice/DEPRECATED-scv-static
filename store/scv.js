@@ -4,7 +4,7 @@ import ScvSettings from '../src/scv-settings';
 
 var bilaraWeb;
 
-export const DEFAULT = {
+const DEFAULT = {
     get sutta() { return {
         titles: ['...'],
         lang: 'en',
@@ -21,11 +21,14 @@ export const state = () => ({
     searchResults: {},
     settings: Object.assign({}, new ScvSettings()),
     sutta: DEFAULT.sutta,
-    suttaHistory: [],
     examples: Object.assign({}, DEFAULT.examples),
     examplesLoaded: false,
     voices: [],
 })
+
+
+export const getters = {
+}
 
 export const mutations = {
     sutta(state, value) {
@@ -36,15 +39,16 @@ export const mutations = {
         let { sutta_uid, lang, updateHistory=true } = value;
         Object.assign(state.sutta, DEFAULT.sutta, {sutta_uid, lang});
         if (updateHistory) {
-            let sh = state.suttaHistory
+            let suttaHistory = state.settings.history;
+            let sh = suttaHistory
                 .find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
             let date = new Date();
             if (sh) {
                 sh.date = date;
             } else {
-                state.suttaHistory.push({ sutta_uid, date, lang, });
+                suttaHistory.push({ sutta_uid, date, lang, });
             }
-            state.suttaHistory.sort((a,b)=>a.date-b.date);
+            suttaHistory.sort((a,b)=>a.date-b.date);
         }
         console.log(`$store.state.scv.sutta_uid:`, value); 
     },

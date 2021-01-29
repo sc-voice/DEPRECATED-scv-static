@@ -1,5 +1,6 @@
 import Vue from "vue"
 import VueCookie from "vue-cookie"
+const { ScvSettings, } = require('../index');
 
 const COOKIE_NAME = 'scv-settings';
 const COOKIE_SETTINGS = {
@@ -30,6 +31,7 @@ export default (context, inject) => {
     let cookieJson = VueCookie.get(COOKIE_NAME);
     if (cookieJson) {
         let settings = JSON.parse(cookieJson);
+        console.log(`scv-client: loaded settings`, settings);
         setTimeout(()=>{
             store.commit('scv/settings', settings);
             $vuetify.lang.current = settings.locale;
@@ -37,12 +39,19 @@ export default (context, inject) => {
     }
 
     store.subscribe((mutation,state) => {
-        if (mutation.type === 'scv/settings') {
+        let { type } = mutation;
+        if (type==='scv/settings' || type==='scv/suttaRef') {
             let settings = state.scv.settings;
             $vuetify.lang.current = settings.locale;
-            if (settings.saveSettings || settings.saveSettingsExamples) {
-                console.log(`scv-client: setting cookie`, settings);
-                VueCookie.set(COOKIE_NAME, JSON.stringify(settings), COOKIE_SETTINGS);
+            if (settings.saveSettingsExamples) {
+                let scvCookie = new ScvSettings(settings); // may trim history
+                console.log(`scv-client: saving settings and examples`, scvCookie);
+                VueCookie.set(COOKIE_NAME, JSON.stringify(scvCookie), COOKIE_SETTINGS);
+            } else if (settings.saveSettings) {
+                let scvCookie = new ScvSettings(settings); // clear history
+                scvCookie.history = [];
+                console.log(`scv-client: saving settings`, scvCookie);
+                VueCookie.set(COOKIE_NAME, JSON.stringify(scvCookie), COOKIE_SETTINGS);
             } else {
                 console.log(`scv-client: clearing cookie`, settings);
                 VueCookie.delete(COOKIE_NAME);

@@ -1,7 +1,7 @@
 <template>
   <div v-if="sutta && sutta.sutta_uid" class="scv-sutta" >
     <header class="scv-header">
-      <scv-sutta-history />
+      <scv-history />
       <div class="scv-division mt-5">
         <div class="scv-division-root" v-html="title(0).pli" />
         <div class="scv-division-trans" v-html="title(0)[lang]" />
@@ -29,13 +29,13 @@
 </template>
 
 <script>
-import ScvSuttaHistory from './scv-sutta-history'
+import ScvHistory from './scv-history'
 import ScvTipitaka from './scv-tipitaka'
 const BilaraWeb = require('~/src/bilara-web');
 
 export default {
   components: {
-    ScvSuttaHistory,
+    ScvHistory,
     ScvTipitaka,
   },
   props: {

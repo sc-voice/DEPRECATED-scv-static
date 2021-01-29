@@ -76,7 +76,7 @@ export default {
         return this.$store.state.scv.sutta;
     },
     history() {
-      return this.$store.state.scv.suttaHistory;
+      return this.$store.state.scv.settings.history;
     },
   },
 }
