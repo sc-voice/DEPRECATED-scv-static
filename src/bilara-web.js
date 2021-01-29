@@ -3,6 +3,7 @@
     const { MerkleJson } = require('merkle-json');
     const examples = require('../api/examples.json');
     const suidMap = require('../api/suid-map-bilara-data.json');
+    const SuttaCentralId = require('./sutta-central-id');
 
     class BilaraWeb {
         constructor(opts={}) {
@@ -364,7 +365,8 @@
                 segMap[scid][lang] = langSegs[scid];
             });
             let segments = Object.keys(segMap)
-                .sort(BilaraWeb.compareScid)
+                //.sort(BilaraWeb.compareScid)
+                .sort(SuttaCentralId.compareLow)
                 .map(scid=>segMap[scid]);
             segments = this.highlightExamples({segments, lang});
             let titleSegs = segments.filter(s=>s.scid.includes(':0'));
