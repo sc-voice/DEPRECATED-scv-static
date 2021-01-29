@@ -205,7 +205,7 @@
           <div class="scv-settings-detail">
             <scv-checkbox v-model="saveSettingsExamples"
               ref="saveSettingsExamples-focus"
-              :label="$t('storeSettingsExamples')"/>
+              :label="$t('storeSettingsHistory')"/>
           </div>
           <div class="scv-settings-detail">
             <scv-checkbox v-model="saveSettings"
