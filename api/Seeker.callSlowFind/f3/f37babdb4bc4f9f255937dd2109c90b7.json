@@ -32,7 +32,7 @@
     "pattern": "auf beiden seiten",
     "method": "phrase",
     "resultPattern": "\\bauf beiden seiten",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.51_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "dn28/de/sabbamitta",
       "an5.51/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
       "dn17/de/sabbamitta",
@@ -260,6 +264,45 @@
           "pli": 88,
           "de": 87,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn28",
+        "lang": "de",
+        "segMap": {
+          "dn28:7.13": {
+            "scid": "dn28:7.13",
+            "pli": "Purisassa ca viññāṇasotaṁ pajānāti, ubhayato abbocchinnaṁ idha loke patiṭṭhitañca paraloke patiṭṭhitañca. ",
+            "de": "Er versteht den Bewusstseinsstrom eines Menschen, der <span class=\"scv-matched\">auf beiden Seiten</span> ununterbrochen ist, sowohl in dieser als auch in der nächsten Welt verankert. ",
+            "en": "They understand a person’s stream of consciousness, unbroken on both sides, established in both this world and the next. ",
+            "matched": true
+          },
+          "dn28:7.18": {
+            "scid": "dn28:7.18",
+            "pli": "Purisassa ca viññāṇasotaṁ pajānāti, ubhayato abbocchinnaṁ idha loke appatiṭṭhitañca paraloke appatiṭṭhitañca. ",
+            "de": "Er versteht den Bewusstseinsstrom eines Menschen, der <span class=\"scv-matched\">auf beiden Seiten</span> ununterbrochen ist, weder in dieser noch in der nächsten Welt verankert. ",
+            "en": "They understand a person’s stream of consciousness, unbroken on both sides, not established in either this world or the next. ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 28\nZuversicht wecken\n1. Sāriputtas Löwengebrüll",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 250,
+          "de": 104,
+          "en": 249
         }
       },
       {

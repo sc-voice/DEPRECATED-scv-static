@@ -32,11 +32,14 @@
     "pattern": "von den fußsohlen aufwärts",
     "method": "phrase",
     "resultPattern": "\\bvon den fußsohlen aufwärts",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "mn10/de/sabbamitta",
+      "dn28/de/sabbamitta",
       "an6.29/de/sabbamitta",
       "an10.60/de/sabbamitta"
     ],
@@ -151,6 +155,38 @@
           "pli": 80,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn28",
+        "lang": "de",
+        "segMap": {
+          "dn28:7.3": {
+            "scid": "dn28:7.3",
+            "pli": "Idha, bhante, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte imameva kāyaṁ uddhaṁ pādatalā adho kesamatthakā tacapariyantaṁ pūraṁ nānappakārassa asucino paccavekkhati: ",
+            "de": "Zunächst erfährt da ein Asket oder Brahmane durch eifriges, entschlossenes, hingegebenes und beflissenes Bemühen eine Versenkung des Herzens solcher Art, dass er seinen eigenen Körper betrachtet, <span class=\"scv-matched\">von den Fußsohlen aufwärts</span> und von den Haarspitzen abwärts, der von Haut umhüllt und mit zahlreichen widerlichen Dingen angefüllt ist: ",
+            "en": "Firstly, some ascetic or brahmin—by dint of keen, resolute, committed, and diligent effort, and right focus—experiences an immersion of the heart of such a kind that they examine their own body up from the soles of the feet and down from the tips of the hairs, wrapped in skin and full of many kinds of filth. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 28\nZuversicht wecken\n1. Sāriputtas Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 250,
+          "de": 104,
+          "en": 249
         }
       }
     ]

@@ -7037,6 +7037,7 @@
   },
   "dn28": {
     "translation/de/sabbamitta": "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+    "comment/de/sabbamitta": "comment/de/sabbamitta/sutta/dn/dn28_comment-de-sabbamitta.json",
     "translation/en/sujato": "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
     "comment/en/sujato": "comment/en/sujato/sutta/dn/dn28_comment-en-sujato.json",
     "translation/my/my-team": "translation/my/my-team/sutta/dn/dn28_translation-my-my-team.json",
