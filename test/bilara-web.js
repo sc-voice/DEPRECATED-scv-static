@@ -204,7 +204,7 @@
         should.deepEqual(enNames, [
             'Amy', 'Raveena', 'Matthew', 'Brian', 'sujato_en']);
     });
-    it("TESTTESTloadSutta(...) returns MN10", async ()=>{
+    it("loadSutta(...) returns MN10", async ()=>{
         let skr = new BilaraWeb({fetch});
         let sutta_uid = 'mn10';
         let sutta = await skr.loadSutta({sutta_uid});
@@ -215,13 +215,30 @@
         let i34_3 = sutta.segments.findIndex(seg=>seg.scid==='mn10:34.3');
         should(i34_3).equal(i34_2+1); //
     });
-    it("TESTTESTcompareScid(a,b) is scid comparator", ()=>{
-        let test = (a,b,n) => {
-            should(BilaraWeb.compareScid(a,b)).equal(n);
-            should(BilaraWeb.compareScid(b,a)).equal(-n);
-        }
-        test('mn10:34.2', 'mn10:34.2', 0);
-        test('mn10:34.2', 'mn10:34.3', -1);
-        test('mn10:34.2', 'mn10:34.11', -9);
+    it("TESTTESTloadSutta(...) returns an2.32-41", async ()=>{
+        let skr = new BilaraWeb({fetch});
+        let { sutta_uid, lang } = skr.parseSuttaRef('an2.41/de');
+        let sutta = await skr.loadSutta({sutta_uid, lang});
+        should(sutta.sutta_uid).equal(sutta_uid);
+        should(sutta).properties({
+            sutta_uid: 'an2.32-41',
+            lang: 'de',
+        });
+        should.deepEqual(sutta.titles, [
+            'Nummerierte Lehrreden 2',
+            '4. Friedvoller Geist',
+            '32–41',
+        ]);
+        should(sutta.segments.length).equal(178);
+    });
+    it("TESTTESTparseSuttaRef() returns an2.32-41", ()=>{
+        let skr = new BilaraWeb({fetch});
+        let pattern = 'an2.41/de';
+        let lang = 'de';
+        should.deepEqual(skr.parseSuttaRef(pattern), {
+            sutta_uid: 'an2.32-41',
+            lang,
+            author: undefined,
+        });
     });
 })

@@ -26,24 +26,6 @@
                 matchHighlight.replace('$&', match)||match);
         }
 
-        static compareScid(a,b) {
-            if (a === b) {
-                return 0;
-            }
-
-            let aParts = a.split(':')[1].split('.').map(n=>Number(n));
-            let bParts = b.split(':')[1].split('.').map(n=>Number(n));
-            for (let i=0; i<aParts.length; i++) {
-                let ai = aParts[i] || 0;
-                let bi = bParts[i] || 0;
-                let cmp = ai - bi;
-                if (cmp) {
-                    return cmp;
-                }
-            }
-            return bParts.length > aParts.length ? -1 : 0;
-        }
-
         static sanitizePattern(pattern) {
             if (!pattern) {
                 throw new Error("search pattern is required");
@@ -288,7 +270,7 @@
                     throw err;
                 }
             } else {
-                console.log(`find() non-example:`, pattern);
+                this.info(`find() non-example:`, pattern);
             }
             return result;
         } catch(e) {
@@ -365,11 +347,16 @@
                 segMap[scid][lang] = langSegs[scid];
             });
             let segments = Object.keys(segMap)
-                //.sort(BilaraWeb.compareScid)
                 .sort(SuttaCentralId.compareLow)
                 .map(scid=>segMap[scid]);
             segments = this.highlightExamples({segments, lang});
-            let titleSegs = segments.filter(s=>s.scid.includes(':0'));
+            let titleSegs = [];
+            for (let s of segments) {
+                if (!s.scid.includes(':0')) {
+                    break;
+                }
+                titleSegs.push(s);
+            }
             let titles = titleSegs.map(s=>s[lang]||s.pli||'');
             return suttaCache[key] = {
               sutta_uid,
@@ -378,7 +365,7 @@
               segments,
             };
         } catch(e) {
-            console.warn(`loadSutta(${sutta_uid}) ${url}`, e.message);
+            this.warn(`loadSutta(${sutta_uid}) ${url}`, e.message);
             throw e;
         }}
 
@@ -401,6 +388,26 @@
             }
         }
 
+        parseSuttaRef(pattern) {
+            let { suidMap } = this;
+            let [ 
+                sutta_uid, 
+                lang=this.lang, 
+                author,
+            ] = pattern.toLowerCase().trim().split('/');
+            let { compareLow, compareHigh } = SuttaCentralId;
+            let keys = Object.keys(suidMap).filter(k=>{
+                return compareLow(k, sutta_uid)<=0 && compareHigh(sutta_uid, k)<=0;
+            });
+            if (keys.length === 1) {
+                return {
+                    sutta_uid: keys[0], 
+                    lang,
+                    author,
+                };
+            }
+            return null;
+        }
     }
 
     module.exports = exports.BilaraWeb = BilaraWeb;

@@ -52,30 +52,14 @@ export default {
       let { bilaraWeb, lang } = this;
       let noValue = {mlDocs:[]};
       pattern = pattern.toLowerCase().trim();
-      let slashParts = pattern.split('/');
-      if (bilaraWeb.suidMap[slashParts[0]]) {
-        let sutta_uid = slashParts[0];
-        slashParts[1] && (lang = slashParts[1]);
-        this.$store.dispatch('scv/loadSutta', {sutta_uid, lang} );
+      let parsed = bilaraWeb.parseSuttaRef(pattern);
+      if (parsed) {
+        this.$store.dispatch('scv/loadSutta', parsed );
         return;
       }
 
       console.log(`dbg dispatch scv/loadExample`, {pattern, lang});
       this.$store.dispatch('scv/loadExample', {pattern, lang});
-      /*
-      let value = pattern && (await bilaraWeb.find({
-        pattern, 
-        lang,
-      })) || noValue;
-      value.mlDocs.forEach(mld=>{
-        mld.segments = Object.keys(mld.segMap).map(scid=>mld.segMap[scid]);
-      });
-      this.$store.commit('scv/searchResults', value);
-      if (value.mlDocs.length === 1) {
-        let { sutta_uid } = value.mlDocs[0];
-        this.$store.dispatch('scv/loadSutta', {sutta_uid, lang} );
-      }
-      */
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);
     }},
