@@ -394,7 +394,7 @@
                 sutta_uid, 
                 lang=this.lang, 
                 author,
-            ] = pattern.toLowerCase().trim().split('/');
+            ] = pattern.toLowerCase().replace(/ /ug,'').split('/');
             let { compareLow, compareHigh } = SuttaCentralId;
             let keys = Object.keys(suidMap).filter(k=>{
                 return compareLow(k, sutta_uid)<=0 && compareHigh(sutta_uid, k)<=0;

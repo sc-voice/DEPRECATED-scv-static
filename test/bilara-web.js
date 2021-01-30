@@ -233,7 +233,7 @@
     });
     it("TESTTESTparseSuttaRef() returns an2.32-41", ()=>{
         let skr = new BilaraWeb({fetch});
-        let pattern = 'an2.41/de';
+        let pattern = 'an 2.41/de';
         let lang = 'de';
         should.deepEqual(skr.parseSuttaRef(pattern), {
             sutta_uid: 'an2.32-41',
