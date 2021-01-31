@@ -32,7 +32,7 @@
     "pattern": "rascher einsicht",
     "method": "phrase",
     "resultPattern": "\\brascher einsicht",
-    "segsMatched": 27,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.163_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.163_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an4/an4.162_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.162_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.162_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.166_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.166_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.166_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "an4.163/de/sabbamitta",
       "an4.162/de/sabbamitta",
+      "dn28/de/sabbamitta",
       "an4.166/de/sabbamitta",
       "an4.168/de/sabbamitta",
       "an4.167/de/sabbamitta",
@@ -259,6 +263,59 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn28",
+        "lang": "de",
+        "segMap": {
+          "dn28:10.3": {
+            "scid": "dn28:10.3",
+            "pli": "dukkhā paṭipadā khippābhiññā, ",
+            "de": "die schmerzhafte Übung mit <span class=\"scv-matched\">rascher Einsicht</span>, ",
+            "en": "painful practice with swift insight, ",
+            "matched": true
+          },
+          "dn28:10.5": {
+            "scid": "dn28:10.5",
+            "pli": "sukhā paṭipadā khippābhiññāti. ",
+            "de": "und die angenehme Übung mit <span class=\"scv-matched\">rascher Einsicht</span>. ",
+            "en": "pleasant practice with swift insight. ",
+            "matched": true
+          },
+          "dn28:10.7": {
+            "scid": "dn28:10.7",
+            "pli": "Tatra, bhante, yāyaṁ paṭipadā dukkhā khippābhiññā, ayaṁ pana, bhante, paṭipadā dukkhattā hīnā akkhāyati. ",
+            "de": "Die schmerzhafte Übung mit <span class=\"scv-matched\">rascher Einsicht</span> gilt als geringer, weil sie schmerzhaft ist. ",
+            "en": "The painful practice with swift insight is said to be inferior because it’s painful. ",
+            "matched": true
+          },
+          "dn28:10.9": {
+            "scid": "dn28:10.9",
+            "pli": "Tatra, bhante, yāyaṁ paṭipadā sukhā khippābhiññā, ayaṁ pana, bhante, paṭipadā ubhayeneva paṇītā akkhāyati sukhattā ca khippattā ca. ",
+            "de": "Doch die angenehme Übung mit <span class=\"scv-matched\">rascher Einsicht</span> gilt als besser in zweierlei Hinsicht: weil sie angenehm ist und weil sie rasch ist. ",
+            "en": "But the pleasant practice with swift insight is said to be superior both ways: because it’s pleasant and because it’s swift. ",
+            "matched": true
+          }
+        },
+        "score": 4.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 28\nZuversicht wecken\n1. Sāriputtas Löwengebrüll",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 250,
+          "de": 130,
+          "en": 249
         }
       },
       {
