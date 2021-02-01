@@ -9950,6 +9950,7 @@
   },
   "pli-tv-bu-vb-sk3": {
     "translation/en/brahmali": "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk3_translation-en-brahmali.json",
+    "comment/en/brahmali": "comment/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk3_comment-en-brahmali.json",
     "root/pli/ms": "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk3_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk3_html.json",
     "reference/pli/ms": "reference/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk3_reference.json",
@@ -10023,6 +10024,7 @@
   },
   "pli-tv-bu-vb-sk4": {
     "translation/en/brahmali": "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk4_translation-en-brahmali.json",
+    "comment/en/brahmali": "comment/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk4_comment-en-brahmali.json",
     "root/pli/ms": "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk4_root-pli-ms.json",
     "html/pli/ms": "html/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk4_html.json",
     "reference/pli/ms": "reference/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-sk/pli-tv-bu-vb-sk4_reference.json"
