@@ -32,8 +32,11 @@
     "pattern": "verlasse.* darauf",
     "method": "phrase",
     "resultPattern": "\\bverlasse.* darauf",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -48,6 +51,7 @@
       "translation/en/sujato/sutta/an/an3/an3.57_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn28/de/sabbamitta",
       "dn23/de/sabbamitta",
       "an5.44/de/sabbamitta",
       "an4.193/de/sabbamitta",
@@ -148,6 +152,38 @@
           "pli": 93,
           "de": 92,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn28",
+        "lang": "de",
+        "segMap": {
+          "dn28:19.21": {
+            "scid": "dn28:19.21",
+            "pli": "Kaccāhaṁ, bhante, evaṁ puṭṭho evaṁ byākaramāno vuttavādī ceva bhagavato homi, na ca bhagavantaṁ abhūtena abbhācikkhāmi, dhammassa cānudhammaṁ byākaromi, na ca koci sahadhammiko vādānuvādo gārayhaṁ ṭhānaṁ āgacchatī”ti? ",
+            "de": "Ich <span class=\"scv-matched\">verlasse mich darauf</span>, dass ich mit dieser Antwort die Worte des Buddha wiedergegeben und ihn nicht mit einer Unwahrheit falsch dargestellt habe. Ich hoffe, meine Ausführung war im Einklang mit der Lehre und ich kann nicht zu Recht getadelt und kritisiert werden.“ ",
+            "en": "Answering this way, I trust that I repeated what the Buddha has said, and didn’t misrepresent him with an untruth. I trust my explanation was in line with the teaching, and that there are no legitimate grounds for rebuke or criticism.” ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 28\nZuversicht wecken\n1. Sāriputtas Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 250,
+          "de": 236,
+          "en": 249
         }
       },
       {
