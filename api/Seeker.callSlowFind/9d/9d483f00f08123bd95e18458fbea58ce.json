@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "食べ物を贈る",
+      "pattern": "老齢の定め",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -11,9 +11,9 @@
         "jpn"
       ],
       "maxResults": 1000,
-      "searchLang": "en",
+      "searchLang": "jpn",
       "maxDoc": 50,
-      "minLang": 2,
+      "minLang": 3,
       "matchHighlight": "<span class=\"scv-matched\">$&</span>",
       "lang": "jpn",
       "types": [
@@ -26,12 +26,12 @@
   "value": {
     "lang": "jpn",
     "searchLang": "jpn",
-    "minLang": 2,
+    "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "食べ物を贈る",
-    "method": "keywords",
-    "resultPattern": "\\b食べ物を贈る",
+    "pattern": "老齢の定め",
+    "method": "phrase",
+    "resultPattern": "\\b老齢の定め",
     "segsMatched": 0,
     "bilaraPaths": [],
     "suttaRefs": [],

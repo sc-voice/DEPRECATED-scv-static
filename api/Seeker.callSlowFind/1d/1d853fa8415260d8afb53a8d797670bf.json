@@ -32,11 +32,14 @@
     "pattern": "bewerte",
     "method": "phrase",
     "resultPattern": "\\bbewerte",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -49,6 +52,7 @@
     ],
     "suttaRefs": [
       "dn15/de/sabbamitta",
+      "an6.44/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an5.50/de/sabbamitta",
       "an5.48/de/sabbamitta"
@@ -126,6 +130,45 @@
           "pli": 277,
           "de": 254,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.44",
+        "lang": "de",
+        "segMap": {
+          "an6.44:9.6": {
+            "scid": "an6.44:9.6",
+            "pli": "Tasmātihānanda, mā puggalesu pamāṇikā ahuvattha; ",
+            "de": "Daher, Ānanda, <span class=\"scv-matched\">bewerte</span> die Menschen nicht. ",
+            "en": "So, Ānanda, don’t be judgmental about people. ",
+            "matched": true
+          },
+          "an6.44:16.6": {
+            "scid": "an6.44:16.6",
+            "pli": "Tasmātihānanda, mā puggalesu pamāṇikā ahuvattha; ",
+            "de": "Daher, Ānanda, <span class=\"scv-matched\">bewerte</span> die Menschen nicht. ",
+            "en": "So, Ānanda, don’t be judgmental about people. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n44. Mit Migasālā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 77,
+          "de": 66,
+          "en": 76
         }
       },
       {

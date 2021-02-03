@@ -3,19 +3,19 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "goldschmied",
+      "pattern": "全ての活動が静まり",
       "showMatchesOnly": true,
       "languages": [
         "pli",
         "en",
-        "de"
+        "jpn"
       ],
       "maxResults": 1000,
-      "searchLang": "en",
+      "searchLang": "jpn",
       "maxDoc": 50,
-      "minLang": 2,
+      "minLang": 3,
       "matchHighlight": "<span class=\"scv-matched\">$&</span>",
-      "lang": "de",
+      "lang": "jpn",
       "types": [
         "root",
         "translation"
@@ -24,14 +24,14 @@
     }
   ],
   "value": {
-    "lang": "de",
-    "searchLang": "en",
-    "minLang": 2,
+    "lang": "jpn",
+    "searchLang": "jpn",
+    "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "goldschmied",
-    "method": "keywords",
-    "resultPattern": "\\bgoldschmied",
+    "pattern": "全ての活動が静まり",
+    "method": "phrase",
+    "resultPattern": "\\b全ての活動が静まり",
     "segsMatched": 0,
     "bilaraPaths": [],
     "suttaRefs": [],

@@ -32,7 +32,7 @@
     "pattern": "besser.* erlesener",
     "method": "phrase",
     "resultPattern": "\\bbesser.* erlesener",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.16_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "an4.16/de/sabbamitta",
       "dn25/de/sabbamitta",
+      "an6.44/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an5.106/de/sabbamitta",
       "an4.24/de/sabbamitta"
@@ -109,6 +113,45 @@
           "pli": 29,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.44",
+        "lang": "de",
+        "segMap": {
+          "an6.44:9.2": {
+            "scid": "an6.44:9.2",
+            "pli": "Ayaṁ, ānanda, puggalo amunā purimena puggalena abhikkantataro ca paṇītataro ca. ",
+            "de": "<span class=\"scv-matched\">besser und erlesener</span> als die andere. ",
+            "en": "is better and finer than the other person. ",
+            "matched": true
+          },
+          "an6.44:16.2": {
+            "scid": "an6.44:16.2",
+            "pli": "Ayaṁ, ānanda, puggalo amunā purimena puggalena abhikkantataro ca paṇītataro ca. ",
+            "de": "<span class=\"scv-matched\">besser und erlesener</span> als die andere. ",
+            "en": "is better and finer than the other person. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n44. Mit Migasālā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 77,
+          "de": 66,
+          "en": 76
         }
       },
       {
