@@ -1,13 +1,13 @@
 (typeof describe === 'function') && describe("scv-settings", function() {
     const should = require("should");
     const {
-        ScvSettings,
+        Settings,
     } = require("../index");
 
     it("TESTTESTdefault ctor", async()=>{
-        var scv = new ScvSettings();
+        var scv = new Settings();
         should(scv).properties({
-            audio: ScvSettings.AUDIO.OGG,
+            audio: Settings.AUDIO.OGG,
             fullLine: false,
             history: [],
             ips: 6,
@@ -36,7 +36,7 @@
             'three',
             'four',
         ];
-        var scv = new ScvSettings({
+        var scv = new Settings({
             history,
             maxHistory,
             showId,
@@ -61,7 +61,7 @@
             'three',
             'four',
         ];
-        var scv = new ScvSettings({
+        var scv = new Settings({
             history,
             maxHistory,
         });
@@ -73,7 +73,7 @@
         should.deepEqual(json.history, history.slice(0,3));
     });
     it("TRANS_LANGUAGES => translation languages", ()=>{
-        should.deepEqual(ScvSettings.TRANS_LANGUAGES.map(tl=>tl.code).sort(), [
+        should.deepEqual(Settings.TRANS_LANGUAGES.map(tl=>tl.code).sort(), [
             'cs',
             'de',
             'en',

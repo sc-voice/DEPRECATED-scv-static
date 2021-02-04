@@ -297,7 +297,7 @@ import FormatAlignJustifyIcon from 'vue-material-design-icons/FormatAlignJustify
 import FormatColumnsIcon from 'vue-material-design-icons/FormatColumns.vue';
 import RobotOutlineIcon from 'vue-material-design-icons/RobotOutline.vue';
 import VolumeHighIcon from 'vue-material-design-icons/VolumeHigh.vue';
-const ScvSettings = require('../src/scv-settings');
+const Settings = require('../src/settings');
 const BilaraWeb = require('../src/bilara-web');
 const {version } = require('../package.json');
 
@@ -316,7 +316,7 @@ export default {
       isMounted: false,
       moreVisible: false,
       openDetail: null,
-      languages: ScvSettings.WEB_LANGUAGES,
+      languages: Settings.WEB_LANGUAGES,
       moreFocus: null,
       version,
     };
@@ -351,7 +351,7 @@ export default {
       return this.openDetail === id;
     },
     langLabel(lang) {
-        return ScvSettings.langLabel(lang);
+        return Settings.langLabel(lang);
     },
     clickSettings() {
       Vue.set(this, "moreVisible", !this.moreVisible);
@@ -385,7 +385,7 @@ export default {
       return langVoices;
     },
     playBell() {
-      let ips = ScvSettings.IPS_CHOICES[this.ips];
+      let ips = Settings.IPS_CHOICES[this.ips];
       if (ips) {
         let refAudio = this.$refs[`refIps${ips.value}`];
         let audio = refAudio instanceof Array ? refAudio[0] : refAudio;
@@ -466,7 +466,7 @@ export default {
       return this.$store.state.scv.voices;
     },
     transLanguages() {
-      return ScvSettings.TRANS_LANGUAGES;
+      return Settings.TRANS_LANGUAGES;
     },
     cssProps() {
         return {
@@ -474,10 +474,10 @@ export default {
         };
     },
     ipsChoices() {
-      return ScvSettings.IPS_CHOICES;
+      return Settings.IPS_CHOICES;
     },
     ipsUrl() {
-      return this.ips && ScvSettings.IPS_CHOICES[this.ips].url;
+      return this.ips && Settings.IPS_CHOICES[this.ips].url;
     },
     ips: {
       get: function() { return this.$store.state.scv.settings.ips; },

@@ -17,9 +17,9 @@
             ScvSearchField is an auto-completion text field that accepts
             Suttacentral sutta references as well as arbitrary search strings.
             Search strings are automatically completed with 
-            <a :href="githubUrl('api/examples.json')"
+            <a :href="githubUrl('src/examples.js')"
               target="_blank">
-              examples.json
+              examples.js
             </a>. 
           </details>
         </v-expansion-panel-content>

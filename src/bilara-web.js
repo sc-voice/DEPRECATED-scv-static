@@ -1,7 +1,7 @@
 (function(exports) {
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
-    const examples = require('../api/examples.json');
+    const { examples } = require('./examples.js');
     const suidMap = require('../api/suid-map-bilara-data.json');
     const SuttaCentralId = require('./sutta-central-id');
 

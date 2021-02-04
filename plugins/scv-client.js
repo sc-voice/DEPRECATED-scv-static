@@ -1,6 +1,6 @@
 import Vue from "vue"
 import VueCookie from "vue-cookie"
-const { ScvSettings, } = require('../index');
+const { Settings, } = require('../index');
 
 const COOKIE_NAME = 'scv-settings';
 const COOKIE_SETTINGS = {
@@ -44,11 +44,11 @@ export default (context, inject) => {
             let settings = state.scv.settings;
             $vuetify.lang.current = settings.locale;
             if (settings.saveSettingsExamples) {
-                let scvCookie = new ScvSettings(settings); // may trim history
+                let scvCookie = new Settings(settings); // may trim history
                 console.log(`scv-client: saving settings and examples`, scvCookie);
                 VueCookie.set(COOKIE_NAME, JSON.stringify(scvCookie), COOKIE_SETTINGS);
             } else if (settings.saveSettings) {
-                let scvCookie = new ScvSettings(settings); // clear history
+                let scvCookie = new Settings(settings); // clear history
                 scvCookie.history = [];
                 console.log(`scv-client: saving settings`, scvCookie);
                 VueCookie.set(COOKIE_NAME, JSON.stringify(scvCookie), COOKIE_SETTINGS);

@@ -1,6 +1,6 @@
 import BilaraWeb from '../src/bilara-web';
-const examples = require('../api/examples.json');
-import ScvSettings from '../src/scv-settings';
+const { examples } = require('../src/examples.js');
+import Settings from '../src/settings';
 
 var bilaraWeb;
 
@@ -12,17 +12,15 @@ const DEFAULT = {
         segments: [
             {scid: '...', pli: '...', en: '...'}
         ],
-        examples,
     }}
 }
 
 export const state = () => ({
     search: '',
     searchResults: {},
-    settings: Object.assign({}, new ScvSettings()),
+    settings: Object.assign({}, new Settings()),
     sutta: DEFAULT.sutta,
-    examples: Object.assign({}, DEFAULT.examples),
-    examplesLoaded: false,
+    examples,
     voices: [],
 })
 
@@ -79,10 +77,6 @@ export const mutations = {
         Object.assign(state.examples, value);
         console.log(`$store.state.scv.examples:`, value);
     },
-    examplesLoaded(state, value){
-        state.examplesLoaded = value;
-        console.log(`$store.state.scv.examplesLoaded:`, value);
-    },
 }
 
 export const actions = {
@@ -105,24 +99,6 @@ export const actions = {
             commit('searchResults', value);
             commit('search', pattern);
             $nuxt.$emit('scv-load-example', payload);
-        }
-    },
-    async loadExamples({state, commit}) {
-        if (state.examplesLoaded) { return; }
-        const GITHUB = 'https://raw.githubusercontent.com';
-        let url = `${GITHUB}/sc-voice/scv-static/main/api/examples.json?s=store`;
-        let eg = examples;
-        try {
-            let headers = { Accept: 'text/plain', };
-            let res = await fetch(url, headers);
-            eg = await res.json();
-            commit('examples', eg);
-        } catch(e) {
-            console.warn(`$store.state.scv.loadExamples()`,
-                `using default examples:${Object.keys(eg)}`, 
-                `${url} =>`, e.message);
-        } finally {
-            commit('examplesLoaded', true);
         }
     },
     async loadVoices({state, commit}) {

@@ -11,7 +11,8 @@ const {
 } = require('scv-bilara');
 const APP_DIR = path.join(__dirname, '..');
 const API_DIR = path.join(APP_DIR, 'api');
-const EXAMPLES_PATH = path.join(API_DIR, 'examples.json');
+const SRC_DIR = path.join(APP_DIR, 'src');
+const EXAMPLES_PATH = path.join(SRC_DIR, 'examples.js');
 const SUID_MAP_PATH = path.join(API_DIR, 'suid-map-bilara-data.json');
 const BILARA_PATH = path.join(APP_DIR, 'local', 'bilara-data');
 const EXAMPLES_DIR = path.join(APP_DIR, 'src', 'examples');

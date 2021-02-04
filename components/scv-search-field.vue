@@ -24,7 +24,7 @@
 <script>
 import Vue from 'vue';
 const GITHUB = 'https://raw.githubusercontent.com';
-const BilaraWeb = require('~/src/bilara-web');
+const BilaraWeb = require('../src/bilara-web');
 
 export default {
   components: {
@@ -34,11 +34,12 @@ export default {
   data: function(){
     return {
       bilaraWeb: null,
+      displayable: false,
     };
   },
   async mounted() {
     let { $vuetify, $store, $refs } = this;
-    $store.dispatch('scv/loadExamples');
+    this.$nextTick(()=>Vue.set(this, 'displayable', true));
     this.bilaraWeb = new BilaraWeb({fetch});
     this.$nuxt.$on('scv-load-example', payload => {
         let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
@@ -92,9 +93,6 @@ export default {
     },
     locale() {
         return this.$store.state.scv.settings.locale;
-    },
-    displayable() {
-        return !!this.$store.state.scv.examplesLoaded;
     },
     examples() {
         return this.$store.state.scv.examples;
