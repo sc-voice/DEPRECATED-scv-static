@@ -12,7 +12,8 @@ const {
 const APP_DIR = path.join(__dirname, '..');
 const API_DIR = path.join(APP_DIR, 'api');
 const SRC_DIR = path.join(APP_DIR, 'src');
-const EXAMPLES_PATH = path.join(SRC_DIR, 'examples.js');
+const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
+const API_EXAMPLES = path.join(API_DIR, 'examples.json');
 const SUID_MAP_PATH = path.join(API_DIR, 'suid-map-bilara-data.json');
 const BILARA_PATH = path.join(APP_DIR, 'local', 'bilara-data');
 const EXAMPLES_DIR = path.join(APP_DIR, 'src', 'examples');
@@ -42,7 +43,20 @@ logger.logLevel = 'info';
             logger.log(`${exampleFile}: ${langExamples.length}`);
         }
     }
-    await fs.promises.writeFile(EXAMPLES_PATH, JSON.stringify(examples,null,2));
+    let json = JSON.stringify(examples,null,2);
+    await fs.promises.writeFile(API_EXAMPLES, json);
+    await fs.promises.writeFile(SRC_EXAMPLES, 
+` 
+// DO NOT EDIT THIS GENERATED FILE
+(function(exports) { 
+    class Examples {
+        static get examples() { return ${json}; }
+    }
+    module.exports = exports.Examples = Examples;
+})(typeof exports === "object" ? exports : (exports={}));
+// DO NOT EDIT THIS GENERATED FILE
+`
+    );
 
     let storeName = 'api';
     let storePath = path.join(APP_DIR, storeName);
