@@ -12,7 +12,7 @@ fi
 
 rm -rf api/Seeker*
 
-$DIR/build.js
+$DIR/js/build.js
 git status | grep 'nothing to commit' ; RC=$?
 if [ "$RC" == "0" ]; then
   echo -e "BUILD\t:nothing to commit"

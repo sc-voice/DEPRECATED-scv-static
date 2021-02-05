@@ -9,7 +9,7 @@ const {
     BilaraData,
     Seeker,
 } = require('scv-bilara');
-const APP_DIR = path.join(__dirname, '..');
+const APP_DIR = path.join(__dirname, '..', '..');
 const API_DIR = path.join(APP_DIR, 'api');
 const SRC_DIR = path.join(APP_DIR, 'src');
 const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
@@ -22,7 +22,7 @@ const EXAMPLES_BASEURL =
 
 logger.logLevel = 'info';
 
-(async function(){
+(async function(){ try {
     let bilaraData = await new BilaraData().initialize(true);
     await fs.promises.writeFile(SUID_MAP_PATH, 
         JSON.stringify(bilaraData.bilaraPathMap.suidMap, null, 2));
@@ -48,11 +48,11 @@ logger.logLevel = 'info';
     await fs.promises.writeFile(SRC_EXAMPLES, 
 ` 
 // DO NOT EDIT THIS GENERATED FILE
-(function(exports) { 
-    class Examples {
-        static get examples() { return ${json}; }
-    }
-    module.exports = exports.Examples = Examples;
+(function(exports) { class Examples { static get examples() { return (
+//JSONSTART
+${json} 
+//JSONEND
+)}} module.exports = exports.Examples = Examples;
 })(typeof exports === "object" ? exports : (exports={}));
 // DO NOT EDIT THIS GENERATED FILE
 `
@@ -91,4 +91,6 @@ logger.logLevel = 'info';
             }
         }
     }
-})();
+} catch(e) {
+    logger.warn(e);
+}})();

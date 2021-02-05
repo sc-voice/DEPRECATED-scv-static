@@ -1,8 +1,8 @@
  
 // DO NOT EDIT THIS GENERATED FILE
-(function(exports) { 
-    class Examples {
-        static get examples() { return {
+(function(exports) { class Examples { static get examples() { return (
+//JSONSTART
+{
   "de": [
     "aber nicht zum eigenen",
     "Abfälle",
@@ -913,8 +913,8 @@
     "美しさを贈り",
     "食べ物を贈る"
   ]
-}; }
-    }
-    module.exports = exports.Examples = Examples;
+} 
+//JSONEND
+)}} module.exports = exports.Examples = Examples;
 })(typeof exports === "object" ? exports : (exports={}));
 // DO NOT EDIT THIS GENERATED FILE
