@@ -52,12 +52,12 @@
     "suid-map-bilara-data": {
         "files": [
             {
-                "relativePath": "api/suid-map-bilara-data.json",
+                "relativePath": "src/suid-map-bilara-data.js",
                 "test": false,
-                "name": "suid-map-bilara-data.json"
+                "name": "suid-map-bilara-data.js"
             }
         ],
-        "mainFile": "api/suid-map-bilara-data.json",
+        "mainFile": "src/suid-map-bilara-data.js",
         "origin": "AUTHORED",
         "exported": false
     },

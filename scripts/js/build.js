@@ -14,7 +14,7 @@ const API_DIR = path.join(APP_DIR, 'api');
 const SRC_DIR = path.join(APP_DIR, 'src');
 const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
 const API_EXAMPLES = path.join(API_DIR, 'examples.json');
-const SUID_MAP_PATH = path.join(API_DIR, 'suid-map-bilara-data.json');
+const SRC_SUID_MAP = path.join(SRC_DIR, 'suid-map-bilara-data.js');
 const BILARA_PATH = path.join(APP_DIR, 'local', 'bilara-data');
 const EXAMPLES_DIR = path.join(APP_DIR, 'src', 'examples');
 const EXAMPLES_BASEURL = 
@@ -22,10 +22,25 @@ const EXAMPLES_BASEURL =
 
 logger.logLevel = 'info';
 
+async function writeJsonModule(name, filePath, json) {
+    await fs.promises.writeFile(filePath, 
+` 
+// DO NOT EDIT THIS GENERATED FILE
+(function(exports) { class ${name} { static get ${name.toLowerCase()}() { return (
+//JSONSTART
+${json} 
+//JSONEND
+)}} module.exports = exports.${name} = ${name};
+})(typeof exports === "object" ? exports : (exports={}));
+// DO NOT EDIT THIS GENERATED FILE
+`
+    );
+}
+
 (async function(){ try {
     let bilaraData = await new BilaraData().initialize(true);
-    await fs.promises.writeFile(SUID_MAP_PATH, 
-        JSON.stringify(bilaraData.bilaraPathMap.suidMap, null, 2));
+    let suidJson = JSON.stringify(bilaraData.bilaraPathMap.suidMap, null, 2);
+    await writeJsonModule('SuidMap', SRC_SUID_MAP, suidJson);
 
     let exampleFiles = await fs.promises.readdir(EXAMPLES_DIR);
     let examples = {};
@@ -43,20 +58,9 @@ logger.logLevel = 'info';
             logger.log(`${exampleFile}: ${langExamples.length}`);
         }
     }
-    let json = JSON.stringify(examples,null,2);
-    await fs.promises.writeFile(API_EXAMPLES, json);
-    await fs.promises.writeFile(SRC_EXAMPLES, 
-` 
-// DO NOT EDIT THIS GENERATED FILE
-(function(exports) { class Examples { static get examples() { return (
-//JSONSTART
-${json} 
-//JSONEND
-)}} module.exports = exports.Examples = Examples;
-})(typeof exports === "object" ? exports : (exports={}));
-// DO NOT EDIT THIS GENERATED FILE
-`
-    );
+    let examplesJson = JSON.stringify(examples,null,2);
+    await fs.promises.writeFile(API_EXAMPLES, examplesJson);
+    await writeJsonModule('Examples', SRC_EXAMPLES, examplesJson);
 
     let storeName = 'api';
     let storePath = path.join(APP_DIR, storeName);
