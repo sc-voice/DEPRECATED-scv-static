@@ -32,7 +32,7 @@
     "pattern": "glück der vielen",
     "method": "phrase",
     "resultPattern": "\\bglück der vielen",
-    "segsMatched": 35,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/an/an1/an1.170-187_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.170-187_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.170-187_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -94,6 +97,7 @@
       "an2.32-41/de/sabbamitta",
       "an1.316-332/de/sabbamitta",
       "an1.170-187/de/sabbamitta",
+      "dn29/de/sabbamitta",
       "dn23/de/sabbamitta",
       "dn18/de/sabbamitta"
     ],
@@ -166,28 +170,28 @@
           "dn33:1.7.6": {
             "scid": "dn33:1.7.6",
             "pli": "Tattha sabbeheva saṅgāyitabbaṁ, na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
-            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "de": "Ihr solltet sie alle im Chor aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
             "en": "You should all recite this in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
             "matched": true
           },
           "dn33:1.7.11": {
             "scid": "dn33:1.7.11",
             "pli": "Tattha sabbeheva saṅgāyitabbaṁ, na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
-            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "de": "Ihr solltet sie alle im Chor aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
             "en": "You should all recite these in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
             "matched": true
           },
           "dn33:1.8.5": {
             "scid": "dn33:1.8.5",
             "pli": "Tattha sabbeheva saṅgāyitabbaṁ, na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
-            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "de": "Ihr solltet sie alle im Chor aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
             "en": "You should all recite these in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
             "matched": true
           },
           "dn33:3.3.89": {
             "scid": "dn33:3.3.89",
             "pli": "Tattha sabbeheva saṅgāyitabbaṁ na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan”ti. ",
-            "de": "Ihr solltet sie alle gemeinsam aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen.“ ",
+            "de": "Ihr solltet sie alle im Chor aufsagen, ohne Streit, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen.“ ",
             "en": "You should all recite these in concert, without disputing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans.” ",
             "matched": true
           }
@@ -196,7 +200,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 33\nGemeinsam aufsagen",
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
         "segsMatched": 4,
         "langSegs": {
           "pli": 1167,
@@ -684,6 +688,38 @@
           "pli": 299,
           "de": 255,
           "en": 298
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "de",
+        "segMap": {
+          "dn29:17.1": {
+            "scid": "dn29:17.1",
+            "pli": "Tasmātiha, cunda, ye vo mayā dhammā abhiññā desitā, tattha sabbeheva saṅgamma samāgamma atthena atthaṁ byañjanena byañjanaṁ saṅgāyitabbaṁ na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Daher, Cunda, solltet ihr alle zusammenkommen und die Dinge, die ich euch aus meiner unmittelbaren Einsicht heraus gelehrt habe, im Chor aufsagen, ohne Streit, Bedeutung mit Bedeutung und Wendung mit Wendung vergleichen, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und <span class=\"scv-matched\">Glück der Vielen</span>, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "So, Cunda, you should all come together and recite in concert, without disputing, those things I have taught you from my direct knowledge, comparing meaning with meaning and phrasing with phrasing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 465,
+          "de": 169,
+          "en": 464
         }
       },
       {

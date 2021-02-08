@@ -19,7 +19,7 @@
     "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json:104",
     "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json:85",
     "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json:67",
-    "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json:67",
+    "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json:66",
     "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json:63",
     "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json:56",
     "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json:50",
@@ -27,13 +27,13 @@
     "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json:50",
     "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json:46",
     "translation/de/sabbamitta/sutta/an/an5/an5.157_translation-de-sabbamitta.json:44",
+    "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json:41",
     "translation/de/sabbamitta/sutta/an/an5/an5.76_translation-de-sabbamitta.json:38",
     "translation/de/sabbamitta/sutta/an/an2/an2.11-20_translation-de-sabbamitta.json:38",
     "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json:37",
     "translation/de/sabbamitta/sutta/dn/dn6_translation-de-sabbamitta.json:36",
     "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json:33",
     "translation/de/sabbamitta/sutta/an/an3/an3.65_translation-de-sabbamitta.json:33",
-    "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json:32",
     "translation/de/sabbamitta/sutta/an/an4/an4.193_translation-de-sabbamitta.json:32",
     "translation/de/sabbamitta/sutta/an/an3/an3.69_translation-de-sabbamitta.json:31",
     "translation/de/sabbamitta/sutta/an/an4/an4.180_translation-de-sabbamitta.json:29",
@@ -700,7 +700,7 @@
     "translation/de/sabbamitta/sutta/an/an2/an2.230-279_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an1/an1.51-60_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an1/an1.219-234_translation-de-sabbamitta.json:1",
-    "translation/de/site/name/super-name_translation-de-site.json:7",
+    "translation/de/site/name/super-name_translation-de-site.json:8",
     "translation/de/xtest/xplayground/xplayground1_translation-de-xtest.json:1"
   ]
 }
