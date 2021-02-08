@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.1.96",
+  "version": "0.1.97",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "directories": {
@@ -24,7 +24,7 @@
     "mocha": "^7.1.1",
     "push-dir": "^0.4.1",
     "sass-loader": "^8",
-    "scv-bilara": "^1.4.80",
+    "scv-bilara": "^1.7.0",
     "should": "^11.2.0",
     "vue-material-design-icons": "^4.11.0"
   },
@@ -83,6 +83,7 @@
     }
   },
   "bit": {
+    "defaultScope": "sc-voice.scv-static",
     "env": {
       "compiler": "bit.envs/compilers/vue@0.1.13"
     },

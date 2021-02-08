@@ -82,7 +82,8 @@ export const mutations = {
 export const actions = {
     async loadSutta (context, payload) {
         $nuxt.$emit('scv-load-sutta', payload);
-        let { sutta_uid, lang='en', updateHistory } = payload;
+        let settings = context.state.settings;
+        let { sutta_uid, lang=settings.lang, updateHistory } = payload;
         context.commit('suttaRef', {sutta_uid, lang, updateHistory});
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});

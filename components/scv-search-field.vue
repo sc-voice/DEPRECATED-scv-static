@@ -53,7 +53,8 @@ export default {
       let { bilaraWeb, lang } = this;
       let noValue = {mlDocs:[]};
       pattern = pattern.toLowerCase().trim();
-      let parsed = bilaraWeb.parseSuttaRef(pattern);
+      let parsed = bilaraWeb.parseSuttaRef(pattern, lang);
+      console.log(`dbg search`, parsed);
       if (parsed) {
         this.$store.dispatch('scv/loadSutta', parsed );
         return;

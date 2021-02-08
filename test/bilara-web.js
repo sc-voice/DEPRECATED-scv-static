@@ -27,43 +27,43 @@
             de:[],
             en:[],
         };
-        let skr = new BilaraWeb({examples, fetch});
-        should(skr.examples).equal(examples);
-        should(skr.fetch).equal(fetch);
+        let bw = new BilaraWeb({examples, fetch});
+        should(bw.examples).equal(examples);
+        should(bw.fetch).equal(fetch);
     });
     it("isExample", async()=>{
-        var skr = new BilaraWeb({
+        var bw = new BilaraWeb({
             fetch,
             lang: 'en', // English default
         });
-        should(skr.isExample('root of suffering')).equal(true);
-        should(skr.isExample('ROOT OF SUFFERING')).equal(true);
-        should(skr.isExample('\\bROOT OF SUFFERING')).equal(true);
-        should(skr.isExample('\\bROOT OF SUFFERING\\b')).equal(true);
-        should(skr.isExample('root suffering')).equal(false);
-        should(skr.isExample('Wurzel des Leidens')).equal(false);
-        should(skr.isExample('Wurzel des Leidens', 'de')).equal(true);
-        should(skr.isExample('wurzel des leidens', 'de')).equal(true);
+        should(bw.isExample('root of suffering')).equal(true);
+        should(bw.isExample('ROOT OF SUFFERING')).equal(true);
+        should(bw.isExample('\\bROOT OF SUFFERING')).equal(true);
+        should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal(true);
+        should(bw.isExample('root suffering')).equal(false);
+        should(bw.isExample('Wurzel des Leidens')).equal(false);
+        should(bw.isExample('Wurzel des Leidens', 'de')).equal(true);
+        should(bw.isExample('wurzel des leidens', 'de')).equal(true);
     });
     it("exampleGuid(...) => en guid", async()=>{
-        let skr = new BilaraWeb({fetch});
+        let bw = new BilaraWeb({fetch});
         let example = 'root of suffering';
         let lang = 'en';
         let guid = 'f0f933e47f162a7a7824c1378804efbf';
-        should(skr.exampleGuid(example, lang)).equal(guid);
+        should(bw.exampleGuid(example, lang)).equal(guid);
     });
     it("exampleGuid(...) => de guid", async()=>{
-        let skr = new BilaraWeb({fetch});
+        let bw = new BilaraWeb({fetch});
         let example = 'sei.* abhängig entstanden';
         let lang = 'de';
         let guid = 'e68b92c404fbf58e108917ab8d493c03';
-        should(skr.exampleGuid(example, lang)).equal(guid);
+        should(bw.exampleGuid(example, lang)).equal(guid);
     });
     it("find(...) finds example", async()=>{
-        var skr = new BilaraWeb({fetch});
+        var bw = new BilaraWeb({fetch});
 
         var pattern = "root of suffering"; 
-        var res = await skr.find({
+        var res = await bw.find({
             pattern,
         });
         should.deepEqual(res.suttaRefs, [
@@ -84,8 +84,8 @@
                 'perception',
             ],
         };
-        var skr = new BilaraWeb({fetch, examples});
-        should(skr.isExample('perception')).equal(true);
+        var bw = new BilaraWeb({fetch, examples});
+        should(bw.isExample('perception')).equal(true);
         let segments = [
             {scid: 'sn12.23:1.5', pli: 'iti vedanā …pe…', en: 'Such is feeling …',},
             {scid: 'sn12.23:1.6', pli: 'iti saññā …', en: 'Such is perception …',},
@@ -93,10 +93,10 @@
         ];
         let lang = 'en';
         let text = "This is feeling, not unfeeling";
-        let re = skr.reExample[lang];
+        let re = bw.reExample[lang];
         should(text.replace(re,'ASDF')).equal('This ASDF, not unfeeling');
 
-        let segments2 = skr.highlightExamples({segments,lang});
+        let segments2 = bw.highlightExamples({segments,lang});
         should.deepEqual(segments2[0], {
             scid: 'sn12.23:1.5', 
             pli: 'iti vedanā …pe…', 
@@ -114,8 +114,8 @@
                 'königliches Gut',
             ],
         };
-        var skr = new BilaraWeb({fetch, examples});
-        should(skr.exampleOfMatch("Is a good Feeling")).equal(examples.en[0]);
+        var bw = new BilaraWeb({fetch, examples});
+        should(bw.exampleOfMatch("Is a good Feeling")).equal(examples.en[0]);
     });
     it("exampleOfMatch(...) returns de example", ()=>{
         let examples = {
@@ -127,26 +127,26 @@
                 'königliches Gut',
             ],
         };
-        var skr = new BilaraWeb({fetch, examples});
-        should(skr.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
+        var bw = new BilaraWeb({fetch, examples});
+        should(bw.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
     });
     it("loadSuttaSegments(...) returns sutta", async ()=>{
-        var skr = new BilaraWeb({fetch});
-        //skr.logLevel = 'info';
-        let pli = await skr.loadSuttaSegments({sutta_uid:'an9.2'});
+        var bw = new BilaraWeb({fetch});
+        //bw.logLevel = 'info';
+        let pli = await bw.loadSuttaSegments({sutta_uid:'an9.2'});
         should(pli['an9.2:0.1']).match(/Aṅguttara Nikāya 9/);
-        let en = await skr.loadSuttaSegments({sutta_uid:'an9.2', lang:'en'});
+        let en = await bw.loadSuttaSegments({sutta_uid:'an9.2', lang:'en'});
         should(en['an9.2:0.1']).match(/Numbered Discourses 9/);
-        let nolang = await skr.loadSuttaSegments({sutta_uid:'an9.2', lang:'nolang'});
+        let nolang = await bw.loadSuttaSegments({sutta_uid:'an9.2', lang:'nolang'});
         should(nolang).equal(undefined);
-        let nosuid = await skr.loadSuttaSegments({lang:'nosuid'});
+        let nosuid = await bw.loadSuttaSegments({lang:'nosuid'});
         should(nosuid).equal(undefined);
     });
     it("loadSutta(...) returns sutta", async ()=>{
-        let skr = new BilaraWeb({fetch});
+        let bw = new BilaraWeb({fetch});
         let sutta_uid = 'an3.128';
         let lang = 'de';
-        let sutta = await skr.loadSutta({sutta_uid, lang});
+        let sutta = await bw.loadSutta({sutta_uid, lang});
         should(sutta.sutta_uid).equal(sutta_uid);
         let segments = sutta.segments;
         should.deepEqual(segments[3],{
@@ -165,13 +165,13 @@
         ]);
     });
     it("loadSutta(...) returns sutta fallback", async ()=>{
-        let skr = new BilaraWeb({fetch});
-        //skr.logLevel = 'info';
+        let bw = new BilaraWeb({fetch});
+        //bw.logLevel = 'info';
 
         // Empty sutta fallback
         let sutta_uid = 'nosutta';
         let lang = 'en';
-        let sutta = await skr.loadSutta({sutta_uid, lang});
+        let sutta = await bw.loadSutta({sutta_uid, lang});
         should.deepEqual(sutta, {
             sutta_uid,
             lang,
@@ -182,7 +182,7 @@
         // Pali sutta fallback
         sutta_uid = 'an9.2';
         lang = 'nolang';
-        sutta = await skr.loadSutta({sutta_uid, lang});
+        sutta = await bw.loadSutta({sutta_uid, lang});
         should(sutta).properties({
             sutta_uid,
             lang,
@@ -198,16 +198,16 @@
         });
     });
     it("voices() returns voices", async()=>{
-        let skr = new BilaraWeb({fetch});
-        let voices = await skr.voices();
+        let bw = new BilaraWeb({fetch});
+        let voices = await bw.voices();
         let enNames = voices.filter(v=>v.langTrans === 'en').map(v=>v.name);
         should.deepEqual(enNames, [
             'Amy', 'Raveena', 'Matthew', 'Brian', 'sujato_en']);
     });
     it("loadSutta(...) returns MN10", async ()=>{
-        let skr = new BilaraWeb({fetch});
+        let bw = new BilaraWeb({fetch});
         let sutta_uid = 'mn10';
-        let sutta = await skr.loadSutta({sutta_uid});
+        let sutta = await bw.loadSutta({sutta_uid});
         should(sutta.sutta_uid).equal(sutta_uid);
 
         // segments should be sequential
@@ -216,9 +216,9 @@
         should(i34_3).equal(i34_2+1); //
     });
     it("TESTTESTloadSutta(...) returns an2.32-41", async ()=>{
-        let skr = new BilaraWeb({fetch});
-        let { sutta_uid, lang } = skr.parseSuttaRef('an2.41/de');
-        let sutta = await skr.loadSutta({sutta_uid, lang});
+        let bw = new BilaraWeb({fetch});
+        let { sutta_uid, lang } = bw.parseSuttaRef('an2.41/de');
+        let sutta = await bw.loadSutta({sutta_uid, lang});
         should(sutta.sutta_uid).equal(sutta_uid);
         should(sutta).properties({
             sutta_uid: 'an2.32-41',
@@ -232,13 +232,27 @@
         should(sutta.segments.length).equal(178);
     });
     it("TESTTESTparseSuttaRef() returns an2.32-41", ()=>{
-        let skr = new BilaraWeb({fetch});
+        let bw = new BilaraWeb({fetch});
         let pattern = 'an 2.41/de';
         let lang = 'de';
-        should.deepEqual(skr.parseSuttaRef(pattern), {
+        should.deepEqual(bw.parseSuttaRef(pattern), {
             sutta_uid: 'an2.32-41',
             lang,
             author: undefined,
+        });
+    });
+    it("TESTTESTsuidPaths(suid) => path map", ()=>{
+        let bw = new BilaraWeb({fetch});
+
+        should.deepEqual(bw.suidPaths('dn33'), {
+            'root/pli/ms': 
+                'root/pli/ms/sutta/dn/dn33_root-pli-ms.json',
+            'translation/de/sabbamitta': 
+                'translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json',
+            'translation/en/sujato': 
+                'translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json',
+            'translation/my/my-team': 
+                'translation/my/my-team/sutta/dn/dn33_translation-my-my-team.json',
         });
     });
 })

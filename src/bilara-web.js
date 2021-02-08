@@ -2,7 +2,7 @@
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
     const { examples } = require('./examples.js');
-    const { suidmap:suidMap } = require('./suid-map-bilara-data.js');
+    const { suidmap:suidMap } = require('../node_modules/scv-bilara/src/suidmap');
     const SuttaCentralId = require('./sutta-central-id');
 
     class BilaraWeb {
@@ -10,6 +10,7 @@
             (opts.logger || logger).logInstance(this, opts);
             this.examples = opts.examples || examples;
             this.suidMap = opts.suidMap || suidMap;
+            this.suids = Object.keys(suidMap).sort(SuttaCentralId.compareLow);
             this.lang = opts.lang || 'en';
             this.mj = new MerkleJson;
             this.maxResults = opts.maxResults==null ? 1000 : opts.maxResults;
@@ -295,15 +296,28 @@
             });
         }
 
+        suidPaths(suid='') {
+            var suidParts = suid.split('/');
+            var key = suidParts[0];
+            let map = this.suidMap[key];
+            return map && Object.keys(map).reduce((a,k) => {
+                let v = map[k];
+                let kParts = k.split('/');
+                let vParts = v.split('/');
+                let suidParts = suid.split('/');
+                a[k] = `${k}/${v}/${suidParts[0]}_${kParts.join('-')}.json`;
+                return a;
+            }, {});
+        }
+
         async loadSuttaSegments({sutta_uid, lang='pli'}) {
             let {
-                suidMap,
                 fetch,
                 host,
             } = this;
             let includeUnpublished = lang === 'de' || this.includeUnpublished;
             let segments;
-            let bilaraPaths = suidMap[sutta_uid] || {};
+            let bilaraPaths = this.suidPaths(sutta_uid) || {};
             let bpKey = Object.keys(bilaraPaths).find(key=>key.includes(`/${lang}/`));
             let bpSegs = bilaraPaths[bpKey];
             if (bpSegs) { 
@@ -324,7 +338,6 @@
         async loadSutta({sutta_uid, lang=this.lang}) { try {
             var url = '';
             let {
-                suidMap,
                 host,
                 suttaCache,
             } = this;
@@ -388,15 +401,15 @@
             }
         }
 
-        parseSuttaRef(pattern) {
-            let { suidMap } = this;
+        parseSuttaRef(pattern, defaultLang=this.lang) {
+            let { suids } = this;
             let [ 
                 sutta_uid, 
-                lang=this.lang, 
+                lang=defaultLang, 
                 author,
             ] = pattern.toLowerCase().replace(/ /ug,'').split('/');
             let { compareLow, compareHigh } = SuttaCentralId;
-            let keys = Object.keys(suidMap).filter(k=>{
+            let keys = suids.filter(k=>{
                 return compareLow(k, sutta_uid)<=0 && compareHigh(sutta_uid, k)<=0;
             });
             if (keys.length === 1) {

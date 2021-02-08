@@ -5,8 +5,7 @@
       @click="clickSutta(previous)"
       > 
       <div class="scv-nav-text">
-        <div>{{previous.sutta_uid}}/{{sutta.lang}}</div>
-        <!--div>{{previous.pli}}</div--> 
+        <div>{{previous}}</div>
       </div>
     </v-btn>
     <v-icon v-else class="scv-nav-btn-disabled">{{mdiChevronLeft}}</v-icon>
@@ -22,8 +21,7 @@
       @click="clickSutta(next)"
       > 
       <div class="scv-nav-text">
-        <div>{{next.sutta_uid}}/{{sutta.lang}}</div>
-        <!--div>{{next.pli}}</div--> 
+        <div>{{next}}</div>
       </div>
     </v-btn>
     <v-icon v-else class="scv-nav-btn-disabled">{{mdiChevronRight}}</v-icon>
@@ -46,12 +44,12 @@ export default {
     return {
       mdiChevronLeft,
       mdiChevronRight,
-      tipitaka: Tipitaka.create(),
+      tipitaka: new Tipitaka(),
     };
   },
   async mounted() {
-    let { $el={} } = this;
-    console.log(`dbg mounted`, this.tipitaka.nextId('mn1'));
+    let { $el={}, tipitaka } = this;
+    console.log(`dbg mounted`, this.tipitaka.nextSuid('mn1'));
     this.$nuxt.$on('scv-load-sutta', payload=>{
       typeof $el.scrollIntoView === 'function' && $el.scrollIntoView({
         block: "center",
@@ -59,9 +57,10 @@ export default {
     });
   },
   methods:{
-    clickSutta({sutta_uid, lang}) {
-      let { $store } = this;
-      console.log(`clickSutta`, sutta_uid);
+    clickSutta(sutta_uid) {
+      let { $store, settings, } = this;
+      let lang = this.settings.lang;
+      console.log(`clickSutta`, {sutta_uid, lang});
       $store.dispatch('scv/loadSutta', {sutta_uid, lang, });
     },
   },
@@ -69,19 +68,18 @@ export default {
     previous() {
         let { tipitaka, sutta } = this;
         let { sutta_uid, lang } = sutta;
-        let prevId = tipitaka.previousId(sutta_uid);
-        let entry = tipitaka.entryOfId(prevId);
-        return entry && Object.assign({ sutta_uid:prevId, lang }, entry);
+        return tipitaka.previousSuid(sutta_uid);
     },
     current() {
         return this.sutta;
     },
+    settings() {
+      return this.$store.state.scv.settings;
+    },
     next() {
         let { tipitaka, sutta } = this;
         let { sutta_uid, lang } = sutta;
-        let nextId = tipitaka.nextId(sutta_uid);
-        let entry = tipitaka.entryOfId(nextId);
-        return entry && Object.assign({ sutta_uid:nextId, lang }, entry);
+        return tipitaka.nextSuid(sutta_uid);
     },
     sutta() {
         return this.$store.state.scv.sutta;
