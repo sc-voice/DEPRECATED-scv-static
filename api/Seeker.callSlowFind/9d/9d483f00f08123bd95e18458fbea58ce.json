@@ -31,7 +31,7 @@
     "maxResults": 1000,
     "pattern": "老齢の定め",
     "method": "phrase",
-    "resultPattern": "\\b老齢の定め",
+    "resultPattern": "老齢の定め",
     "segsMatched": 0,
     "bilaraPaths": [],
     "suttaRefs": [],

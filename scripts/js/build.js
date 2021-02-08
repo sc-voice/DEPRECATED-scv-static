@@ -14,7 +14,6 @@ const API_DIR = path.join(APP_DIR, 'api');
 const SRC_DIR = path.join(APP_DIR, 'src');
 const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
 const API_EXAMPLES = path.join(API_DIR, 'examples.json');
-const SRC_SUID_MAP = path.join(SRC_DIR, 'suid-map-bilara-data.js');
 const BILARA_PATH = path.join(APP_DIR, 'local', 'bilara-data');
 const EXAMPLES_DIR = path.join(APP_DIR, 'src', 'examples');
 const EXAMPLES_BASEURL = 
@@ -39,8 +38,6 @@ ${json}
 
 (async function(){ try {
     let bilaraData = await new BilaraData().initialize(true);
-    let suidJson = JSON.stringify(bilaraData.bilaraPathMap.suidMap, null, 2);
-    await writeJsonModule('SuidMap', SRC_SUID_MAP, suidJson);
 
     let exampleFiles = await fs.promises.readdir(EXAMPLES_DIR);
     let examples = {};

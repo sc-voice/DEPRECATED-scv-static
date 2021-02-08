@@ -1,0 +1,21 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bto endure",
+      "maxResults": 1000,
+      "lang": "en",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/en/sujato/sutta/an/an7/an7.36_translation-en-sujato.json:2",
+    "translation/en/sujato/sutta/an/an3/an3.49_translation-en-sujato.json:2",
+    "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc71_translation-en-brahmali.json:3",
+    "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc65_translation-en-brahmali.json:3",
+    "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json:2"
+  ]
+}

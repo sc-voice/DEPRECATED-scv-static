@@ -32,7 +32,7 @@
     "pattern": "nieder, derb, gewöhnlich, unedel und zwecklos",
     "method": "phrase",
     "resultPattern": "\\bnieder, derb, gewöhnlich, unedel und zwecklos",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.30_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
@@ -47,6 +50,7 @@
     "suttaRefs": [
       "an6.30/de/sabbamitta",
       "sn56.11/de/sabbamitta",
+      "dn29/de/sabbamitta",
       "dn28/de/sabbamitta"
     ],
     "mlDocs": [
@@ -151,6 +155,38 @@
           "pli": 250,
           "de": 236,
           "en": 249
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "de",
+        "segMap": {
+          "dn29:16.14": {
+            "scid": "dn29:16.14",
+            "pli": "Yaṁ kho panetaṁ, cunda, udakena rāmaputtena bhāsitaṁ hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ khurameva sandhāya. ",
+            "de": "Doch dieser Spruch Uddakas ist <span class=\"scv-matched\">nieder, derb, gewöhnlich, unedel und zwecklos</span>, da er nur ein Rasiermesser betrifft. ",
+            "en": "But that saying of Uddaka’s is low, crude, ordinary, ignoble, and pointless, as it’s only concerning a razor. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 465,
+          "de": 200,
+          "en": 464
         }
       }
     ]

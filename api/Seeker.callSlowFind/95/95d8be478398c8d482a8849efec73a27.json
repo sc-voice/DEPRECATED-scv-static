@@ -31,7 +31,7 @@
     "maxResults": 1000,
     "pattern": "全ての活動が静まり",
     "method": "phrase",
-    "resultPattern": "\\b全ての活動が静まり",
+    "resultPattern": "全ての活動が静まり",
     "segsMatched": 0,
     "bilaraPaths": [],
     "suttaRefs": [],
