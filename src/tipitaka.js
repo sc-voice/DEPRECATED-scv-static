@@ -1,15 +1,13 @@
 (function(exports) { // DEPRECATED
+    const { suidmap:SUID_MAP } = require('./suidmap');
     const { logger } = require('log-instance');
-    const { 
-        SuttaCentralId,
-        SuidMap,
-    } = require('../index');
+    const SuttaCentralId = require('./sutta-central-id');
 
     class Tipitaka {
         constructor(opts={}) {
             (opts.logger || logger).logInstance(this, opts);
             let { 
-                suidMap = SuidMap.suidmap,
+                suidMap = SUID_MAP,
             } = opts;
             let suids = Object.keys(suidMap).sort(SuttaCentralId.compareLow);
             Object.assign(this, {
