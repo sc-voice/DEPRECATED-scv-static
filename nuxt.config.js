@@ -144,4 +144,15 @@ export default {
   build: {
     ignoreOrder: false
   }
+
+  "babel": {
+    "env": {
+      "development": {
+        "compact": false
+      },
+      "deploy": {
+        "compact": true
+      }
+    }
+  },
 }
