@@ -17,10 +17,11 @@ import vi from './src/i18n/vi.ts'
 
 let { name } = require('./package.json');
 const BABEL_ENV = process.env.BABEL_ENV;
-let routerBase = BABEL_ENV === 'deploy' 
+const routerBase = BABEL_ENV === 'deploy' 
     ? `/${name.replace(/@[-a-z]+\//iu,'')}/`
     : '/';
-console.log(`nuxt.config.js`, {routerBase, BABEL_ENV});
+const babelCompact = BABEL_ENV === 'deploy' ? true : false;
+console.log(`nuxt.config.js`, {routerBase, BABEL_ENV, babelCompact});
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -146,13 +147,6 @@ export default {
   },
 
   "babel": {
-    "env": {
-      "development": {
-        "compact": false
-      },
-      "deploy": {
-        "compact": true
-      }
-    }
+    "compact": babelCompact,
   },
 }
