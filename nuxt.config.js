@@ -15,6 +15,8 @@ import ro from './src/i18n/ro.ts'
 import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 
+console.log(`nuxt.config.js process.env`, process.env);
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
