@@ -16,12 +16,16 @@ import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 
 let { name } = require('./package.json');
-const BABEL_ENV = process.env.BABEL_ENV;
-const routerBase = BABEL_ENV === 'deploy' 
-    ? `/${name.replace(/@[-a-z]+\//iu,'')}/`
-    : '/';
-const babelCompact = BABEL_ENV === 'deploy' ? true : false;
-console.log(`nuxt.config.js`, {routerBase, BABEL_ENV, babelCompact});
+let appName;
+if (!appName) {
+    appName = name.split('/').filter(n=>n.length).pop();
+    const BABEL_ENV = process.env.BABEL_ENV;
+    const routerBase = BABEL_ENV === 'deploy' 
+        ? `/${appName}/`
+        : '/';
+    const babelCompact = BABEL_ENV === 'deploy' ? true : false;
+    console.log(`nuxt.config.js`, {routerBase, BABEL_ENV, babelCompact});
+}
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -49,8 +53,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - scv-static',
-    title: 'scv-static',
+    titleTemplate: `%s - ${appName}`,
+    title: `${appName}`,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -147,6 +151,8 @@ export default {
   },
 
   "babel": {
-    "compact": babelCompact,
+    "generatorOpts": {
+        "compact": babelCompact,
+    }
   },
 }
