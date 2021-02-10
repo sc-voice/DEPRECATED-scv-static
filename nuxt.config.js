@@ -15,15 +15,16 @@ import ro from './src/i18n/ro.ts'
 import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 
-let { name } = require('./package.json');
-let appName;
-if (!appName) {
-    appName = name.split('/').filter(n=>n.length).pop();
-    const BABEL_ENV = process.env.BABEL_ENV;
-    const routerBase = BABEL_ENV === 'deploy' 
+var { name } = require('./package.json');
+var appName = name.split('/').filter(n=>n.length).pop();
+var routerBase;
+var babelCompact;
+if (!routerBase) {
+    let BABEL_ENV = process.env.BABEL_ENV;
+    routerBase = BABEL_ENV === 'deploy' 
         ? `/${appName}/`
         : '/';
-    const babelCompact = BABEL_ENV === 'deploy' ? true : false;
+    babelCompact = BABEL_ENV === 'deploy' ? true : false;
     console.log(`nuxt.config.js`, {routerBase, BABEL_ENV, babelCompact});
 }
 
