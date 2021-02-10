@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "public": true,
@@ -79,7 +79,9 @@
     }
   },
   "babel": {
-    "compact": false
+    "development": {
+      "compact": false
+    }
   },
   "postcss": {
     "plugins": {
