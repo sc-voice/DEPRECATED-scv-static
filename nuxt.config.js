@@ -16,7 +16,10 @@ import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 
 export default {
-  // Target (https://go.nuxtjs.dev/config-target)
+  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  ssr: false,
+
+  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   telemetry: true,
@@ -33,11 +36,10 @@ export default {
   },
 
   router: {
-    //base: '/scv-static/'
     base: '/'
   },
 
-  // Global page headers (https://go.nuxtjs.dev/config-head)
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - scv-static',
     title: 'scv-static',
@@ -51,34 +53,33 @@ export default {
     ]
   },
 
-  // Global CSS (https://go.nuxtjs.dev/config-css)
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/variables.scss',
     '@/assets/scv.css',
   ],
 
-  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {src: '~/plugins/vue-details.js', mode:'client'},
     {src: '~/plugins/vue-material-icons.js', mode:'client'},
     {src: '~/plugins/scv-client.js', mode:'client'},
   ],
 
-  // Auto import components (https://go.nuxtjs.dev/config-components)
+  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
 
-  // Modules (https://go.nuxtjs.dev/config-modules)
+  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    //'@nuxtjs/axios',
   ],
 
-  // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
+  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     defaultAssets: {
         font: false,
@@ -132,7 +133,7 @@ export default {
     },
   },
 
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
+  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     ignoreOrder: false
   }
