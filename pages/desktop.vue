@@ -2,16 +2,15 @@
   <v-sheet light class="desktop" >
     <div class="desktop-nav">
       <div class="text-h6">Sample Desktop Layout</div>
-      <scv-settings dark />
+      <scv-settings dark :js="js"/>
     </div>
     <div class="desktop-search">
-      <scv-search-field
-        :lang="lang"
+      <scv-search-field :lang="lang" :js="js"
         v-on:search-text="search"
       />
-      <scv-results :lang="lang" />
+      <scv-results :lang="lang" :js="js"/>
     </div>
-    <scv-sutta />
+    <scv-sutta :js="js" />
   </v-sheet>
 </template>
 
@@ -21,6 +20,10 @@ import ScvSearchField from '~/components/scv-search-field.vue';
 import ScvResults from '~/components/scv-results.vue';
 import ScvSutta from '~/components/scv-sutta.vue';
 import ScvSettings from '~/components/scv-settings.vue';
+const JS = {
+  BilaraWeb: require('../src/bilara-web'),
+  Tipitaka: require('../src/tipitaka'),
+}
 
 export default {
   components: {
@@ -46,6 +49,9 @@ export default {
     },
   },
   computed: {
+    js() { 
+      return JS;
+    },
     langItems() {
       return [
         { text: 'English', value: 'en', },

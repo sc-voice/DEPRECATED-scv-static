@@ -1,5 +1,5 @@
 <template>
-  <div class="scv-nav-sutta" v-if="sutta && sutta.sutta_uid">
+  <div class="scv-nav-sutta" v-if="displayable" >
     <v-btn v-if="previous" small text
       class="scv-text-btn scv-nav-btn"
       @click="clickSutta(previous)"
@@ -29,27 +29,29 @@
 </template>
 
 <script>
+import Vue from "vue";
 import {
   mdiChevronLeft,
   mdiChevronRight,
 } from '@mdi/js';
-const Tipitaka = require('../node_modules/scv-bilara/src/tipitaka');
 
 export default {
   components: {
   },
   props: {
+    js: Object,
   },
   data: function(){
     return {
       mdiChevronLeft,
       mdiChevronRight,
-      tipitaka: new Tipitaka(),
+      tipitaka: null,
     };
   },
   async mounted() {
-    let { $el={}, tipitaka } = this;
-    console.log(`dbg mounted`, this.tipitaka.nextSuid('mn1'));
+    let { $el={}, js } = this;
+    let tipitaka = new js.Tipitaka();
+    Vue.set(this, 'tipitaka', tipitaka);
     this.$nuxt.$on('scv-load-sutta', payload=>{
       typeof $el.scrollIntoView === 'function' && $el.scrollIntoView({
         block: "center",
@@ -65,6 +67,10 @@ export default {
     },
   },
   computed: {
+    displayable() {
+      let { tipitaka, sutta } = this;
+      return tipitaka && sutta && sutta.sutta_uid;
+    },
     previous() {
         let { tipitaka, sutta } = this;
         let { sutta_uid, lang } = sutta;

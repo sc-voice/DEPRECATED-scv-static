@@ -24,12 +24,12 @@
 <script>
 import Vue from 'vue';
 const GITHUB = 'https://raw.githubusercontent.com';
-const BilaraWeb = require('../src/bilara-web');
 
 export default {
   components: {
   },
   props: {
+    js: Object,
   },
   data: function(){
     return {
@@ -38,9 +38,9 @@ export default {
     };
   },
   async mounted() {
-    let { $vuetify, $store, $refs } = this;
+    let { $vuetify, $store, $refs, js } = this;
     this.$nextTick(()=>Vue.set(this, 'displayable', true));
-    this.bilaraWeb = new BilaraWeb({fetch});
+    this.bilaraWeb = new js.BilaraWeb({fetch});
     this.$nuxt.$on('scv-load-example', payload => {
         let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
         refSearchAuto && refSearchAuto.scrollIntoView({
@@ -54,13 +54,11 @@ export default {
       let noValue = {mlDocs:[]};
       pattern = pattern.toLowerCase().trim();
       let parsed = bilaraWeb.parseSuttaRef(pattern, lang);
-      console.log(`dbg search`, parsed);
       if (parsed) {
         this.$store.dispatch('scv/loadSutta', parsed );
         return;
       }
 
-      console.log(`dbg dispatch scv/loadExample`, {pattern, lang});
       this.$store.dispatch('scv/loadExample', {pattern, lang});
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);

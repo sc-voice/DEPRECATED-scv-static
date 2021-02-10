@@ -1,7 +1,7 @@
 <template>
   <div v-if="sutta && sutta.sutta_uid" class="scv-sutta" >
     <header class="scv-header">
-      <scv-history />
+      <scv-history :js="js" />
       <div class="scv-division mt-5">
         <div class="scv-division-root" v-html="title(0).pli" />
         <div class="scv-division-trans" v-html="title(0)[lang]" />
@@ -23,7 +23,7 @@
       </div>
     </div><!-- scv-text-container -->
     <footer class="scv-footer">
-        <scv-tipitaka />
+        <scv-tipitaka :js="js" />
     </footer>
   </div>
 </template>
@@ -31,7 +31,6 @@
 <script>
 import ScvHistory from './scv-history'
 import ScvTipitaka from './scv-tipitaka'
-const BilaraWeb = require('~/src/bilara-web');
 
 export default {
   components: {
@@ -39,6 +38,7 @@ export default {
     ScvTipitaka,
   },
   props: {
+    js: Object,
   },
   data: function(){
     return {
@@ -46,7 +46,7 @@ export default {
     };
   },
   async mounted() {
-    this.bilaraWeb = new BilaraWeb({fetch});
+    this.bilaraWeb = new this.js.BilaraWeb({fetch});
   },
   methods:{
     title(n) {

@@ -2,7 +2,7 @@
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
     const { examples } = require('./examples.js');
-    const { suidmap:suidMap } = require('../node_modules/scv-bilara/src/suidmap');
+    const { suidmap:suidMap } = require('./suidmap');
     const SuttaCentralId = require('./sutta-central-id');
 
     class BilaraWeb {
