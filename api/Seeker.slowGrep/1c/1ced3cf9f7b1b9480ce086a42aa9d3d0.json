@@ -3,7 +3,7 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\bzu studieren",
+      "pattern": "\\bkriechtieren abzuhalten",
       "maxResults": 1000,
       "lang": "de",
       "root": "local/bilara-data",
@@ -11,7 +11,7 @@
     }
   ],
   "value": [
-    "translation/de/sabbamitta/sutta/an/an5/an5.73_translation-de-sabbamitta.json:2",
-    "translation/de/site/static-page/introduction_translation-de-site.json:1"
+    "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json:2"
   ]
 }

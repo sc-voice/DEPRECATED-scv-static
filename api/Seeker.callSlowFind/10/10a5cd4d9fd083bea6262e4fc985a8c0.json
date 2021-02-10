@@ -32,7 +32,7 @@
     "pattern": "gesund",
     "method": "phrase",
     "resultPattern": "\\bgesund",
-    "segsMatched": 36,
+    "segsMatched": 37,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/kn/kp/kp7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp7_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
@@ -101,6 +104,7 @@
       "an4.192/de/sabbamitta",
       "mn2/de/sabbamitta",
       "kp7/de/sabbamitta",
+      "dn29/de/sabbamitta",
       "dn19/de/sabbamitta",
       "dn12/de/sabbamitta",
       "an5.29/de/sabbamitta",
@@ -731,7 +735,7 @@
           "mn2:16.2": {
             "scid": "mn2:16.2",
             "pli": "‘yāvadeva uppannānaṁ veyyābādhikānaṁ vedanānaṁ paṭighātāya, abyābajjhaparamatāya’. ",
-            "de": "‚Nur um die Beschwerden der Krankheit abzuwehren und die <span class=\"scv-matched\">Gesund</span>heit zu verbessern.‘ ",
+            "de": "‚Nur um die Beschwerden der Krankheit abzuwehren und die <span class=\"scv-matched\">Gesund</span>heit zu fördern.‘ ",
             "en": "‘Only for the sake of warding off the pains of illness and to promote good health.’ ",
             "matched": true
           }
@@ -810,6 +814,38 @@
           "pli": 559,
           "de": 479,
           "en": 558
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "de",
+        "segMap": {
+          "dn29:22.12": {
+            "scid": "dn29:22.12",
+            "pli": "yāvadeva uppannānaṁ veyyābādhikānaṁ vedanānaṁ paṭighātāya abyāpajjaparamatāya. ",
+            "de": "die Beschwerden der Krankheit abzuwehren und die <span class=\"scv-matched\">Gesund</span>heit zu fördern. ",
+            "en": "only for the sake of warding off the pains of illness and to promote good health. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 465,
+          "de": 261,
+          "en": 464
         }
       }
     ]

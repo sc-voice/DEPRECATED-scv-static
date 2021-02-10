@@ -192,6 +192,7 @@
     "Kraft des Vertrauens",
     "Krankheit.* Eiterherd.* Pfeil",
     "Kräuter, Hirse",
+    "Kriechtieren abzuhalten",
     "lachende.* Weisheit",
     "lass.* es gut sein mit den sieben Jahren",
     "lass uns unsere Bündel zurücklassen",
@@ -867,6 +868,7 @@
     "vital condition for right",
     "vital conditions",
     "walking they know",
+    "warding off the touch of flies",
     "water overgrown with moss",
     "water stirred by the wind",
     "water that was cloudy, murky, and muddy",
@@ -910,8 +912,6 @@
   "jpn": [
     "老いる定め",
     "愛情による心の解放",
-    "老齢の定め",
-    "全ての活動が静まり",
     "美しさを贈り",
     "食べ物を贈る"
   ]
