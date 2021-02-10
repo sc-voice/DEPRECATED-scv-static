@@ -15,6 +15,7 @@ fi
 #git push &&\
 #git checkout main &&\
 
+export deploy=github
 npm run generate &&\
 npm run deploy:branch &&\
 git push &&\

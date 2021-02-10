@@ -15,8 +15,10 @@ import ro from './src/i18n/ro.ts'
 import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 
-console.log(`nuxt.config.js process.env`, process.env);
-console.log(`nuxt.config.js process.argv`, process.argv);
+let { name } = require('./package.json');
+let routerBase = process.env.deploy === 'github' 
+    ? `/${name.replace(/@[-a-z]+\//iu,'')}/`
+    : '/';
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -39,7 +41,7 @@ export default {
   },
 
   router: {
-    base: '/'
+    base: routerBase,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
