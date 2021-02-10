@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "public": true,
@@ -77,6 +77,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     }
+  },
+  "babel": {
+    "compact": false
   },
   "postcss": {
     "plugins": {
