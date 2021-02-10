@@ -148,12 +148,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    ignoreOrder: false
+    ignoreOrder: false,
+    babel: {
+      generatorOpts: {
+        compact": babelCompact,
+      }
+    },
   },
 
-  "babel": {
-    "generatorOpts": {
-        "compact": babelCompact,
-    }
-  },
 }
