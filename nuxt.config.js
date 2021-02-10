@@ -151,7 +151,7 @@ export default {
     ignoreOrder: false,
     babel: {
       generatorOpts: {
-        compact": babelCompact,
+        compact: babelCompact,
       }
     },
   },
