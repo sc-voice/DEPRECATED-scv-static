@@ -8,14 +8,8 @@ else
   git status
   exit -1
 fi
-#git checkout deploy
-#git merge main -m "deploy: merge main" &&\
-#npm run generate &&\
-#npm run deploy:branch &&\
-#git push &&\
-#git checkout main &&\
 
-export deploy=github
+export BABEL_ENV=deploy
 npm run generate &&\
 npm run deploy:branch &&\
 git push &&\

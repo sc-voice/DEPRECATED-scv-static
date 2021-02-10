@@ -16,9 +16,11 @@ import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 
 let { name } = require('./package.json');
-let routerBase = process.env.deploy === 'github' 
+const BABEL_ENV = process.env.BABEL_ENV;
+let routerBase = BABEL_ENV === 'deploy' 
     ? `/${name.replace(/@[-a-z]+\//iu,'')}/`
     : '/';
+console.log(`nuxt.config.js`, {routerBase, BABEL_ENV});
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
