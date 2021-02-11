@@ -5,7 +5,8 @@ module.exports = {
     Examples: require("./examples.js"),
     Settings: require('./settings'),
     SuidMap: require('./suidmap'),
-    SuttaDuration: require('./sutta-duration'),
     SuttaCentralId: require('./sutta-central-id'),
+    SuttaDuration: require('./sutta-duration'),
+    Tipitaka: require('./tipitaka'),
 
 "" : ""};
