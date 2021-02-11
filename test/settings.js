@@ -2,7 +2,7 @@
     const should = require("should");
     const {
         Settings,
-    } = require("../index");
+    } = require("../src/index");
 
     it("TESTTESTdefault ctor", async()=>{
         var scv = new Settings();

@@ -1,6 +1,6 @@
 import Vue from "vue"
 import VueCookie from "vue-cookie"
-const { Settings, } = require('../index');
+const { Settings, } = require('../src/index');
 
 const COOKIE_NAME = 'scv-settings';
 const COOKIE_SETTINGS = {

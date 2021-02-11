@@ -291,14 +291,16 @@
 <script>
 import Vue from "vue";
 import 'vue-material-design-icons/styles.css';
-import ScvCheckbox from '../components/scv-checkbox';
+import ScvCheckbox from './scv-checkbox.vue';
 import CogIcon from 'vue-material-design-icons/Cog.vue';
 import FormatAlignJustifyIcon from 'vue-material-design-icons/FormatAlignJustify.vue';
 import FormatColumnsIcon from 'vue-material-design-icons/FormatColumns.vue';
 import RobotOutlineIcon from 'vue-material-design-icons/RobotOutline.vue';
 import VolumeHighIcon from 'vue-material-design-icons/VolumeHigh.vue';
-const Settings = require('../src/settings');
-const BilaraWeb = require('../src/bilara-web');
+const {
+  Settings,
+  BilaraWeb,
+} = require('../src/index');
 const {version } = require('../package.json');
 
 export default {

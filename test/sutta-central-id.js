@@ -2,7 +2,7 @@
     const should = require("should");
     const {
         SuttaCentralId,
-    } = require("../index");
+    } = require("../src/index");
     const logLevel = false;
 
     const assertLess = (cmp,a,b) => {

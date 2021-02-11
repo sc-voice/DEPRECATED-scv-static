@@ -3,7 +3,7 @@
     const axios = require("axios");
     const {
         SuttaDuration,
-    } = require('../index');
+    } = require('../src/index');
     const fetch = async function(url,opts){ 
         return {
             async json() {

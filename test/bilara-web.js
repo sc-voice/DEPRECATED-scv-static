@@ -5,7 +5,7 @@
     const { MerkleJson } = require('merkle-json');
     const {
         BilaraWeb,
-    } = require("../index");
+    } = require("../src/index");
     const { logger, LogInstance } = require('log-instance');
     const axios = require('axios');
     logger.logLevel = 'warn';
