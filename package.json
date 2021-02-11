@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "public": true,
@@ -108,6 +108,6 @@
     "vue": "^2.6.12"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   }
 }
