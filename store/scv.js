@@ -1,6 +1,8 @@
-import BilaraWeb from '../src/bilara-web';
-const { examples } = require('../src/examples.js');
-import Settings from '../src/settings';
+const {
+    BilaraWeb,
+    Examples,
+    Settings,
+} = require('../src/index');
 
 var bilaraWeb;
 
@@ -20,7 +22,7 @@ export const state = () => ({
     searchResults: {},
     settings: Object.assign({}, new Settings()),
     sutta: DEFAULT.sutta,
-    examples,
+    examples: Examples.examples,
     voices: [],
 })
 

@@ -25,7 +25,7 @@ if (!routerBase) {
         ? `/${appName}/`
         : '/';
     babelCompact = BABEL_ENV === 'deploy' ? true : false;
-    console.log(`nuxt.config.js`, {routerBase, BABEL_ENV, babelCompact});
+    console.log(`nuxt.config.js`, JSON.stringify({routerBase, BABEL_ENV, babelCompact}));
 }
 
 export default {
