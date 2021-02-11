@@ -157,7 +157,9 @@ import {
   mdiDotsHorizontal,
 } from '@mdi/js'
 const GITHUB = 'https://raw.githubusercontent.com';
-const SuttaDuration = require('./sutta-duration');
+const {
+  SuttaDuration,
+} = require('../src/index');
 
 export default {
   components: {
