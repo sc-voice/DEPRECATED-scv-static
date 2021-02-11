@@ -22,10 +22,10 @@
     "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json:104",
     "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json:103",
     "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json:85",
+    "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json:76",
     "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json:73",
     "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json:72",
     "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json:66",
-    "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json:64",
     "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json:64",
     "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json:60",
     "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json:53",
@@ -791,6 +791,7 @@
     "translation/de/sabbamitta/sutta/an/an1/an1.378-393_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an1/an1.235-247_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an1/an1.188-197_translation-de-sabbamitta.json:1",
-    "translation/de/site/static-page/introduction_translation-de-site.json:27"
+    "translation/de/site/static-page/introduction_translation-de-site.json:27",
+    "translation/de/site/static-page/abbreviations_translation-de-site.json:3"
   ]
 }
