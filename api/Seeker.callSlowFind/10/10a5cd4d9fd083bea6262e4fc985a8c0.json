@@ -32,7 +32,7 @@
     "pattern": "gesund",
     "method": "phrase",
     "resultPattern": "\\bgesund",
-    "segsMatched": 37,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.29_translation-en-sujato.json",
@@ -107,6 +110,7 @@
       "dn29/de/sabbamitta",
       "dn19/de/sabbamitta",
       "dn12/de/sabbamitta",
+      "an6.58/de/sabbamitta",
       "an5.29/de/sabbamitta",
       "an4.70/de/sabbamitta",
       "an3.155/de/sabbamitta",
@@ -718,6 +722,38 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.58",
+        "lang": "de",
+        "segMap": {
+          "an6.58:4.9": {
+            "scid": "an6.58:4.9",
+            "pli": "‘yāvadeva uppannānaṁ veyyābādhikānaṁ vedanānaṁ paṭighātāya, abyābajjhaparamatāyā’ti. ",
+            "de": "‚Nur um die Beschwerden der Krankheit abzuwehren und die <span class=\"scv-matched\">Gesund</span>heit zu fördern.‘ ",
+            "en": "‘Only for the sake of warding off the pains of illness and to promote good health.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n58. Befleckungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "de": 58,
+          "en": 58
         }
       },
       {

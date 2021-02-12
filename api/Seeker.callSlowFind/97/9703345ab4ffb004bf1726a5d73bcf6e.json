@@ -32,11 +32,14 @@
     "pattern": "aufgegeben werden",
     "method": "phrase",
     "resultPattern": "\\baufgegeben werden",
-    "segsMatched": 42,
+    "segsMatched": 60,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -52,6 +55,7 @@
     ],
     "suttaRefs": [
       "mn2/de/sabbamitta",
+      "an6.58/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an4.254/de/sabbamitta",
       "an4.188/de/sabbamitta",
@@ -242,6 +246,157 @@
           "pli": 125,
           "de": 124,
           "en": 124
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.58",
+        "lang": "de",
+        "segMap": {
+          "an6.58:2.2": {
+            "scid": "an6.58:2.2",
+            "pli": "Idha, bhikkhave, bhikkhuno ye āsavā saṁvarā pahātabbā te saṁvarena pahīnā honti, ",
+            "de": "Da hat eine Nonne die Befleckungen, die durch Zügelung <span class=\"scv-matched\">aufgegeben werden</span> müssen, durch Zügelung aufgegeben. ",
+            "en": "It’s a mendicant who, by restraint, has given up the defilements that should be given up by restraint. ",
+            "matched": true
+          },
+          "an6.58:2.3": {
+            "scid": "an6.58:2.3",
+            "pli": "ye āsavā paṭisevanā pahātabbā te paṭisevanāya pahīnā honti, ",
+            "de": "Die Befleckungen, die durch die Art des Gebrauchs <span class=\"scv-matched\">aufgegeben werden</span> müssen, hat sie durch die Art des Gebrauchs aufgegeben. ",
+            "en": "By using, they’ve given up the defilements that should be given up by using. ",
+            "matched": true
+          },
+          "an6.58:2.4": {
+            "scid": "an6.58:2.4",
+            "pli": "ye āsavā adhivāsanā pahātabbā te adhivāsanāya pahīnā honti, ",
+            "de": "Die Befleckungen, die durch Ertragen <span class=\"scv-matched\">aufgegeben werden</span> müssen, hat sie durch Ertragen aufgegeben. ",
+            "en": "By enduring, they’ve given up the defilements that should be given up by enduring. ",
+            "matched": true
+          },
+          "an6.58:2.5": {
+            "scid": "an6.58:2.5",
+            "pli": "ye āsavā parivajjanā pahātabbā te parivajjanāya pahīnā honti, ",
+            "de": "Die Befleckungen, die durch Meiden <span class=\"scv-matched\">aufgegeben werden</span> müssen, hat sie durch Meiden aufgegeben. ",
+            "en": "By avoiding, they’ve given up the defilements that should be given up by avoiding. ",
+            "matched": true
+          },
+          "an6.58:2.6": {
+            "scid": "an6.58:2.6",
+            "pli": "ye āsavā vinodanā pahātabbā te vinodanāya pahīnā honti, ",
+            "de": "Die Befleckungen, die durch Beseitigen <span class=\"scv-matched\">aufgegeben werden</span> müssen, hat sie durch Beseitigen aufgegeben. ",
+            "en": "By getting rid, they’ve given up the defilements that should be given up by getting rid. ",
+            "matched": true
+          },
+          "an6.58:2.7": {
+            "scid": "an6.58:2.7",
+            "pli": "ye āsavā bhāvanā pahātabbā te bhāvanāya pahīnā honti. ",
+            "de": "Die Befleckungen, die durch Entwickeln <span class=\"scv-matched\">aufgegeben werden</span> müssen, hat sie durch Entwickeln aufgegeben. ",
+            "en": "By developing, they’ve given up the defilements that should be given up by developing. ",
+            "matched": true
+          },
+          "an6.58:3.1": {
+            "scid": "an6.58:3.1",
+            "pli": "Katame ca, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti? ",
+            "de": "Und was sind die Befleckungen, die durch Zügelung <span class=\"scv-matched\">aufgegeben werden</span> müssen? ",
+            "en": "And what are the defilements that should be given up by restraint? ",
+            "matched": true
+          },
+          "an6.58:3.10": {
+            "scid": "an6.58:3.10",
+            "pli": "Ime vuccanti, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti. #1",
+            "de": "Das nennt man die Befleckungen, die durch Zügelung <span class=\"scv-matched\">aufgegeben werden</span> müssen. ",
+            "en": "These are called the defilements that should be given up by restraint. ",
+            "matched": true
+          },
+          "an6.58:4.1": {
+            "scid": "an6.58:4.1",
+            "pli": "Katame ca, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti? ",
+            "de": "Und was sind die Befleckungen, die durch die Art des Gebrauchs <span class=\"scv-matched\">aufgegeben werden</span> müssen? ",
+            "en": "And what are the defilements that should be given up by using? ",
+            "matched": true
+          },
+          "an6.58:4.11": {
+            "scid": "an6.58:4.11",
+            "pli": "Ime vuccanti, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti. #2",
+            "de": "Das nennt man die Befleckungen, die durch die Art des Gebrauchs <span class=\"scv-matched\">aufgegeben werden</span> müssen. ",
+            "en": "These are called the defilements that should be given up by using. ",
+            "matched": true
+          },
+          "an6.58:5.1": {
+            "scid": "an6.58:5.1",
+            "pli": "Katame ca, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti? ",
+            "de": "Und was sind die Befleckungen, die durch Ertragen <span class=\"scv-matched\">aufgegeben werden</span> müssen? ",
+            "en": "And what are the defilements that should be given up by enduring? ",
+            "matched": true
+          },
+          "an6.58:5.4": {
+            "scid": "an6.58:5.4",
+            "pli": "Ime vuccanti, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti. #3",
+            "de": "Das nennt man die Befleckungen, die durch Ertragen <span class=\"scv-matched\">aufgegeben werden</span> müssen. ",
+            "en": "These are called the defilements that should be given up by enduring. ",
+            "matched": true
+          },
+          "an6.58:6.1": {
+            "scid": "an6.58:6.1",
+            "pli": "Katame ca, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti? ",
+            "de": "Und was sind die Befleckungen, die durch Meiden <span class=\"scv-matched\">aufgegeben werden</span> müssen? ",
+            "en": "And what are the defilements that should be given up by avoiding? ",
+            "matched": true
+          },
+          "an6.58:6.4": {
+            "scid": "an6.58:6.4",
+            "pli": "Ime vuccanti, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti. #4",
+            "de": "Das nennt man die Befleckungen, die durch Meiden <span class=\"scv-matched\">aufgegeben werden</span> müssen. ",
+            "en": "These are called the defilements that should be given up by avoiding. ",
+            "matched": true
+          },
+          "an6.58:7.1": {
+            "scid": "an6.58:7.1",
+            "pli": "Katame ca, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti? ",
+            "de": "Und was sind die Befleckungen, die durch Beseitigen <span class=\"scv-matched\">aufgegeben werden</span> müssen? ",
+            "en": "And what are the defilements that should be given up by getting rid? ",
+            "matched": true
+          },
+          "an6.58:7.7": {
+            "scid": "an6.58:7.7",
+            "pli": "Ime vuccanti, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti. #5",
+            "de": "Das nennt man die Befleckungen, die durch Beseitigen <span class=\"scv-matched\">aufgegeben werden</span> müssen. ",
+            "en": "These are called the defilements that should be given up by getting rid. ",
+            "matched": true
+          },
+          "an6.58:8.1": {
+            "scid": "an6.58:8.1",
+            "pli": "Katame ca, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti? ",
+            "de": "Und was sind die Befleckungen, die durch Entwickeln <span class=\"scv-matched\">aufgegeben werden</span> müssen? ",
+            "en": "And what are the defilements that should be given up by developing? ",
+            "matched": true
+          },
+          "an6.58:8.10": {
+            "scid": "an6.58:8.10",
+            "pli": "Ime vuccanti, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti. #6",
+            "de": "Das nennt man die Befleckungen, die durch Entwickeln <span class=\"scv-matched\">aufgegeben werden</span> müssen. ",
+            "en": "These are called the defilements that should be given up by developing. ",
+            "matched": true
+          }
+        },
+        "score": 18.305,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n58. Befleckungen",
+        "segsMatched": 18,
+        "langSegs": {
+          "pli": 59,
+          "de": 58,
+          "en": 58
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "ertragen",
     "method": "phrase",
     "resultPattern": "\\bertragen",
-    "segsMatched": 84,
+    "segsMatched": 87,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.139_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.139_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.85_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.85_translation-en-sujato.json",
@@ -84,6 +87,7 @@
       "an5.139/de/sabbamitta",
       "an5.75/de/sabbamitta",
       "mn2/de/sabbamitta",
+      "an6.58/de/sabbamitta",
       "an5.85/de/sabbamitta",
       "an7.36/de/sabbamitta",
       "an6.7/de/sabbamitta",
@@ -651,6 +655,52 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.58",
+        "lang": "de",
+        "segMap": {
+          "an6.58:2.4": {
+            "scid": "an6.58:2.4",
+            "pli": "ye āsavā adhivāsanā pahātabbā te adhivāsanāya pahīnā honti, ",
+            "de": "Die Befleckungen, die durch <span class=\"scv-matched\">Ertragen</span> aufgegeben werden müssen, hat sie durch <span class=\"scv-matched\">Ertragen</span> aufgegeben. ",
+            "en": "By enduring, they’ve given up the defilements that should be given up by enduring. ",
+            "matched": true
+          },
+          "an6.58:5.1": {
+            "scid": "an6.58:5.1",
+            "pli": "Katame ca, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti? ",
+            "de": "Und was sind die Befleckungen, die durch <span class=\"scv-matched\">Ertragen</span> aufgegeben werden müssen? ",
+            "en": "And what are the defilements that should be given up by enduring? ",
+            "matched": true
+          },
+          "an6.58:5.4": {
+            "scid": "an6.58:5.4",
+            "pli": "Ime vuccanti, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti. #3",
+            "de": "Das nennt man die Befleckungen, die durch <span class=\"scv-matched\">Ertragen</span> aufgegeben werden müssen. ",
+            "en": "These are called the defilements that should be given up by enduring. ",
+            "matched": true
+          }
+        },
+        "score": 3.051,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n58. Befleckungen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 59,
+          "de": 58,
+          "en": 58
         }
       },
       {

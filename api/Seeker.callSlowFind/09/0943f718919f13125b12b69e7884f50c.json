@@ -32,7 +32,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 37,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.140_translation-en-sujato.json",
@@ -113,6 +116,7 @@
       "mn2/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn17/de/sabbamitta",
+      "an6.58/de/sabbamitta",
       "an5.140/de/sabbamitta",
       "an4.262/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -709,6 +713,38 @@
           "pli": 59,
           "de": 50,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.58",
+        "lang": "de",
+        "segMap": {
+          "an6.58:7.4": {
+            "scid": "an6.58:7.4",
+            "pli": "uppannaṁ vihiṁsāvitakkaṁ …  ",
+            "de": "oder <span class=\"scv-matched\">grausam</span>en Gedanken, der aufgekommen ist, nicht. ",
+            "en": "or cruel thought that has arisen.  ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n58. Befleckungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "de": 58,
+          "en": 58
         }
       },
       {
