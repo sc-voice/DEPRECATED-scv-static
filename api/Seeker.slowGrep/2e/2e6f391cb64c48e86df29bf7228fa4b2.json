@@ -119,6 +119,7 @@
     "translation/de/sabbamitta/sutta/an/an4/an4.162_translation-de-sabbamitta.json:21",
     "translation/de/sabbamitta/sutta/sn/sn12/sn12.2_translation-de-sabbamitta.json:20",
     "translation/de/sabbamitta/sutta/sn/sn12/sn12.25_translation-de-sabbamitta.json:20",
+    "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json:20",
     "translation/de/sabbamitta/sutta/an/an6/an6.16_translation-de-sabbamitta.json:20",
     "translation/de/sabbamitta/sutta/an/an5/an5.78_translation-de-sabbamitta.json:20",
     "translation/de/sabbamitta/sutta/an/an4/an4.61_translation-de-sabbamitta.json:20",
@@ -843,7 +844,6 @@
     "translation/de/sabbamitta/sutta/kn/thig/thig1.12_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/kn/thig/thig1.10_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/kn/thag/thag1.43_translation-de-sabbamitta.json:1",
-    "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an5/an5.92_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an5/an5.91_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an5/an5.46_translation-de-sabbamitta.json:1",
@@ -891,13 +891,14 @@
     "translation/de/sabbamitta/sutta/an/an1/an1.378-393_translation-de-sabbamitta.json:1",
     "translation/de/site/static-page/methodology_translation-de-site.json:67",
     "translation/de/site/static-page/introduction_translation-de-site.json:40",
-    "translation/de/site/static-page/numbering_translation-de-site.json:12",
+    "translation/de/site/static-page/numbering_translation-de-site.json:28",
     "translation/de/site/static-page/licensing_translation-de-site.json:11",
     "translation/de/site/static-page/downloads_translation-de-site.json:8",
     "translation/de/site/static-page/donations_translation-de-site.json:6",
     "translation/de/site/static-page/abbreviations_translation-de-site.json:3",
     "translation/de/site/sc-page/more-menu_translation-de-site.json:2",
     "translation/de/xtest/xplayground/xplayground1_translation-de-xtest.json:1",
-    "translation/de/site/text-carousel_translation-de-site.json:1"
+    "translation/de/site/text-carousel_translation-de-site.json:1",
+    "translation/de/site/static-page/languages_translation-de-site.json:1"
   ]
 }
