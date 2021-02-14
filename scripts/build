@@ -10,6 +10,7 @@ else
   sudo dpkg -i ripgrep_11.0.2_amd64.deb
 fi
 
+npm install --save scv-bilara@latest
 rm -rf api/Seeker*
 $DIR/js/build.js
 
@@ -24,6 +25,11 @@ else
   echo -e "BUILD\t:committing build changes"
   git add api
   git commit -am "build examples"
+  npm version patch
+  VERSION=`$DIR/version`
+  git reset --soft HEAD~1
+  git commit --amend -m "v$VERSION build"
   git push
+  scripts/deploy
 fi
 
