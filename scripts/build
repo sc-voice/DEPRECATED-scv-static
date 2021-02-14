@@ -30,6 +30,9 @@ else
   git reset --soft HEAD~1
   git commit --amend -m "v$VERSION build"
   git push
+  if [ "$NODE_AUTH_TOKEN" != "" ]; then
+    npm publish
+  fi
   scripts/deploy
 fi
 
