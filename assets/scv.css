@@ -368,6 +368,7 @@ summary:focus {
 }
 .scv-nav-btn {
   min-width: 5rem;
+  text-transform: uppercase;
 }
 .scv-nav-btn {
   min-width: 5rem;
