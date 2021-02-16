@@ -2,13 +2,16 @@
   <v-sheet light class="desktop" >
     <div class="desktop-nav">
       <div class="text-h6">Sample Desktop Layout</div>
-      <scv-settings dark :js="js"/>
+      <scv-settings dark :js="js" 
+        :monolingual="monolingual"
+        :version="`version ${version}`"
+        />
     </div>
     <div class="desktop-search">
-      <scv-search-field :lang="lang" :js="js"
+      <scv-search-field :js="js"
         v-on:search-text="search"
       />
-      <scv-results :lang="lang" :js="js"/>
+      <scv-results :js="js"/>
     </div>
     <scv-sutta :js="js" />
   </v-sheet>
@@ -39,7 +42,7 @@ export default {
   data: function(){
     return {
       panels: [0,1],
-      lang: 'de',
+      monolingual: 'de',
     };
   },
   mounted() {
@@ -53,14 +56,11 @@ export default {
     },
   },
   computed: {
+    version() {
+      return require('../package.json').version;
+    },
     js() { 
       return JS;
-    },
-    langItems() {
-      return [
-        { text: 'English', value: 'en', },
-        { text: 'Deutsch', value: 'de', },
-      ];
     },
   },
 }

@@ -17,7 +17,7 @@
       v-if="moreVisible"
       @focusin="focusMore(true)"
       :aria-hidden="!moreVisible">
-      <li class="" role="none" ><!-- Language -->
+      <li class="" role="none" v-if="!monolingual"><!-- Language -->
         <details role="menuitem" 
           @click="clickDetails('lang', $event)"
           :open="showDetail('lang')"
@@ -312,6 +312,14 @@ export default {
     ScvCheckbox,
   },
   props: {
+    version: {
+      type: String,
+      default: version,
+    },
+    monolingual: {
+      type: String,
+      default: null,
+    },
   },
   data: function(){
     return {
@@ -320,13 +328,19 @@ export default {
       openDetail: null,
       languages: Settings.WEB_LANGUAGES,
       moreFocus: null,
-      version,
     };
   },
   mounted() {
+    let { monolingual } = this;
     this.$store.dispatch('scv/loadVoices');
     Vue.set(this, "isMounted", true);
-    console.log(`scv-settings mounted`, this);
+    if (monolingual) {
+      this.locale = monolingual;
+      this.lang = monolingual;
+      console.log(`scv-settings mounted monolingual:${monolingual}`);
+    } else {
+      console.log(`scv-settings mounted`, this);
+    }
   },
   methods:{
     clickDetails(id, evt) {
