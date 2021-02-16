@@ -5,8 +5,8 @@ module.exports = {
     Examples: require("./examples.js"),
     Settings: require('./settings'),
     SuidMap: require('scv-bilara/src/suidmap'),
-    SuttaCentralId: require('./sutta-central-id'),
+    SuttaCentralId: require('scv-bilara/src/sutta-central-id'),
     SuttaDuration: require('./sutta-duration'),
-    Tipitaka: require('./tipitaka'),
+    Tipitaka: require('scv-bilara/src/tipitaka'),
 
 "" : ""};

@@ -14,10 +14,6 @@ npm install --save scv-bilara@latest
 rm -rf api/Seeker*
 $DIR/js/build.js
 
-cp node_modules/scv-bilara/src/tipitaka.js src
-cp node_modules/scv-bilara/src/sutta-central-id.js src
-cp node_modules/scv-bilara/src/suidmap.js src
-
 git status | grep 'nothing to commit' ; RC=$?
 if [ "$RC" == "0" ]; then
   echo -e "BUILD\t:nothing to commit"
