@@ -26,7 +26,7 @@ let {
 
 const JS = {
   BilaraWeb: require('../src/bilara-web'),
-  Tipitaka: require('../src/tipitaka'),
+  Tipitaka: require('scv-bilara/src/tipitaka'),
 }
 
 export default {

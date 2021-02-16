@@ -3,7 +3,7 @@
     const { MerkleJson } = require('merkle-json');
     const { examples } = require('./examples.js');
     const { suidmap:suidMap } = require('scv-bilara/src/auto/suidmap');
-    const SuttaCentralId = require('scv-bilara/src//sutta-central-id');
+    const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
 
     class BilaraWeb {
         constructor(opts={}) {
