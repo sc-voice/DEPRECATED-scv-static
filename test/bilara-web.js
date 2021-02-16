@@ -229,7 +229,7 @@
             '4. Friedvoller Geist',
             '32–41',
         ]);
-        should(sutta.segments.length).equal(178);
+        should(sutta.segments.length).equal(169);
     });
     it("TESTTESTparseSuttaRef() returns an2.32-41", ()=>{
         let bw = new BilaraWeb({fetch});
