@@ -12,7 +12,6 @@
     <div class="scv-inspire-row">
       <v-btn @click="clickInspireMe()"
         role="button"
-        color="primary"
         :aria-label="$t('inspireMe')"
         class="scv-text-btn " :style="cssVars" small>
         {{$t('inspireMe')}}

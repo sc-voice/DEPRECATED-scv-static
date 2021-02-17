@@ -130,7 +130,6 @@ label {
   border-radius: 4px;
   text-align: center;
   margin-bottom: 1em;
-  text-transform: none;
   border: 1pt solid #222;
   height: 24px;
   color: var(--scv-color);
@@ -139,6 +138,7 @@ label {
 .scv-text-btn .v-btn__content {
   font-size: 0.75rem;
   color: var(--scv-color);
+  text-transform: none;
 }
 .scv-text-btn .v-btn__content:hover,
 .scv-text-btn:focus-within .v-btn__content {
