@@ -617,6 +617,7 @@
     "investigate principles",
     "is eye contact permanent",
     "is it really true",
+    "is not-self",
     "it is simply this noble eightfold path",
     "I went for refuge ",
     "I will give gifts",
