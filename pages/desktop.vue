@@ -42,7 +42,7 @@ export default {
   data: function(){
     return {
       panels: [0,1],
-      monolingual: 'de',
+      monolingual: null,
     };
   },
   mounted() {
