@@ -898,10 +898,16 @@
     "translation/de/site/static-page/acknowledgments_translation-de-site.json:7",
     "translation/de/site/static-page/donations_translation-de-site.json:6",
     "translation/de/site/static-page/about_translation-de-site.json:5",
+    "translation/de/site/sc-page/static-page-selector_translation-de-site.json:4",
+    "translation/de/site/sc-page/offline_translation-de-site.json:4",
     "translation/de/site/static-page/abbreviations_translation-de-site.json:3",
+    "translation/de/site/static-page/an-guide-sujato_translation-de-site.json:2",
+    "translation/de/site/sc-page/parallel-list_translation-de-site.json:2",
     "translation/de/site/sc-page/more-menu_translation-de-site.json:2",
+    "translation/de/site/sc-page/donate-now_translation-de-site.json:2",
     "translation/de/xtest/xplayground/xplayground1_translation-de-xtest.json:1",
     "translation/de/site/text-carousel_translation-de-site.json:1",
-    "translation/de/site/static-page/languages_translation-de-site.json:1"
+    "translation/de/site/static-page/languages_translation-de-site.json:1",
+    "translation/de/site/sc-page/text_translation-de-site.json:1"
   ]
 }

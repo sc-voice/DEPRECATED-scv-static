@@ -111,6 +111,11 @@
     "translation/de/sabbamitta/sutta/an/an3/an3.58_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an3/an3.33_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an1/an1.296-305_translation-de-sabbamitta.json:1",
-    "translation/de/site/sc-page/site-layout_translation-de-site.json:1"
+    "translation/de/site/sc-page/text_translation-de-site.json:1",
+    "translation/de/site/sc-page/static-page-selector_translation-de-site.json:1",
+    "translation/de/site/sc-page/site-layout_translation-de-site.json:1",
+    "translation/de/site/sc-page/page-selector_translation-de-site.json:1",
+    "translation/de/site/sc-page/page-search_translation-de-site.json:1",
+    "translation/de/site/sc-page/page-dictionary_translation-de-site.json:1"
   ]
 }

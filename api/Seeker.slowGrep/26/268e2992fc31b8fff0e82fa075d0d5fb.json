@@ -298,6 +298,9 @@
     "translation/de/site/static-page/licensing_translation-de-site.json:2",
     "translation/de/site/static-page/about_translation-de-site.json:2",
     "translation/de/site/static-page/abbreviations_translation-de-site.json:2",
-    "translation/de/site/static-page/downloads_translation-de-site.json:1"
+    "translation/de/site/sc-page/offline_translation-de-site.json:2",
+    "translation/de/site/static-page/downloads_translation-de-site.json:1",
+    "translation/de/site/static-page/an-guide-sujato_translation-de-site.json:1",
+    "translation/de/site/sc-page/donate-now_translation-de-site.json:1"
   ]
 }

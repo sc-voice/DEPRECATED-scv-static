@@ -486,6 +486,7 @@
     "translation/de/sabbamitta/sutta/an/an1/an1.316-332_translation-de-sabbamitta.json:1",
     "translation/de/sabbamitta/sutta/an/an10/an10.48_translation-de-sabbamitta.json:1",
     "translation/de/site/static-page/general-guide-sujato_translation-de-site.json:23",
+    "translation/de/site/sc-page/offline_translation-de-site.json:6",
     "translation/de/site/static-page/methodology_translation-de-site.json:5",
     "translation/de/site/static-page/licensing_translation-de-site.json:3",
     "translation/de/site/static-page/introduction_translation-de-site.json:2",
@@ -493,6 +494,7 @@
     "translation/de/site/static-page/downloads_translation-de-site.json:1",
     "translation/de/site/static-page/donations_translation-de-site.json:1",
     "translation/de/site/static-page/acknowledgments_translation-de-site.json:1",
-    "translation/de/site/static-page/about_translation-de-site.json:1"
+    "translation/de/site/static-page/about_translation-de-site.json:1",
+    "translation/de/site/sc-page/donate-now_translation-de-site.json:1"
   ]
 }
