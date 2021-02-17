@@ -32,7 +32,7 @@
     "pattern": "gerechter könig, der sich an grundsätze",
     "method": "phrase",
     "resultPattern": "\\bgerechter könig, der sich an grundsätze",
-    "segsMatched": 9,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
@@ -40,9 +40,6 @@
       "root/pli/ms/sutta/an/an3/an3.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.14_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
@@ -56,7 +53,6 @@
     "suttaRefs": [
       "an5.133/de/sabbamitta",
       "an3.14/de/sabbamitta",
-      "dn30/de/sabbamitta",
       "dn18/de/sabbamitta",
       "dn17/de/sabbamitta",
       "dn14/de/sabbamitta"
@@ -241,38 +237,6 @@
           "pli": 851,
           "de": 689,
           "en": 850
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn30",
-        "lang": "de",
-        "segMap": {
-          "dn30:1.1.8": {
-            "scid": "dn30:1.1.8",
-            "pli": "Sace agāraṁ ajjhāvasati, rājā hoti cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
-            "de": "Wenn er im Haus bleibt, wird er ein König, ein Rad-drehender Herrscher, ein <span class=\"scv-matched\">gerechter König, der sich an Grundsätze</span> hält. Sein Herrschaftsgebiet erstreckt sich nach allen vier Seiten bis zum Ende, er macht das Land sicher und er besitzt die sieben Juwelen. ",
-            "en": "If he stays at home he becomes a king, a wheel-turning monarch, a just and principled king. His dominion extends to all four sides, he achieves stability in the country, and he possesses the seven treasures. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 721,
-          "de": 181,
-          "en": 720
         }
       }
     ]
