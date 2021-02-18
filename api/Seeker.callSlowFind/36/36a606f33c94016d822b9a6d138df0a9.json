@@ -32,7 +32,7 @@
     "pattern": "unterscheiden",
     "method": "phrase",
     "resultPattern": "\\bunterscheiden",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.139_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.139_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag15.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json"
@@ -63,6 +66,7 @@
       "an1.333-377/de/sabbamitta",
       "sn47.9/de/sabbamitta",
       "thag15.2/de/sabbamitta",
+      "kp8/de/sabbamitta",
       "an6.43/de/sabbamitta"
     ],
     "mlDocs": [
@@ -266,6 +270,38 @@
           "pli": 47,
           "de": 45,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "kp8",
+        "lang": "de",
+        "segMap": {
+          "kp8:15.1": {
+            "scid": "kp8:15.1",
+            "pli": "Paṭisambhidā vimokkhā ca,",
+            "de": "Das <span class=\"scv-matched\">unterscheiden</span>de Wissen, die Befreiungen, ",
+            "en": "Analytical knowledge, the liberations,",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Ausschnitte\nEin verborgener Schatz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 69,
+          "de": 68,
+          "en": 67
         }
       },
       {
