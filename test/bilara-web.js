@@ -251,8 +251,8 @@
                 'translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json',
             'translation/en/sujato': 
                 'translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json',
-            'translation/my/my-team': 
-                'translation/my/my-team/sutta/dn/dn33_translation-my-my-team.json',
+            //'translation/my/my-team': 
+                //'translation/my/my-team/sutta/dn/dn33_translation-my-my-team.json',
         });
     });
 })

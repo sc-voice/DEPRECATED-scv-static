@@ -138,7 +138,7 @@ label {
 .scv-text-btn .v-btn__content {
   font-size: 0.75rem;
   color: var(--scv-color);
-  text-transform: none;
+  text-transform: uppercase;
 }
 .scv-text-btn .v-btn__content:hover,
 .scv-text-btn:focus-within .v-btn__content {
