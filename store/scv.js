@@ -89,6 +89,11 @@ export const actions = {
         context.commit('suttaRef', {sutta_uid, lang, updateHistory});
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
+        let { search } = $nuxt.$route.query;
+        let newSearch = `${sutta_uid}/${lang}`;
+        if (search !== newSearch) {
+            $nuxt.$router.replace({query: {search: `${sutta_uid}/${lang}`}});
+        }
         context.commit('sutta', sutta);
     },
     async loadExample ({commit, state}, payload) {

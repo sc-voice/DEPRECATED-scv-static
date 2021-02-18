@@ -40,6 +40,14 @@ export default {
     let { $vuetify, $store, $refs, js } = this;
     this.$nextTick(()=>Vue.set(this, 'displayable', true));
     this.bilaraWeb = new js.BilaraWeb({fetch});
+    let { search } = this.$route.query;
+    if (search) {
+      let that = this;
+      this.$nextTick(()=>{
+        that.onSearchInput(search);
+      });
+    }
+    console.log('scv-search-field.mounted() route', this.$route);
     this.$nuxt.$on('scv-load-example', payload => {
         let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
         refSearchAuto && refSearchAuto.scrollIntoView({
