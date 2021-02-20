@@ -11,9 +11,9 @@
         "de"
       ],
       "maxResults": 1000,
-      "searchLang": "en",
+      "searchLang": "de",
       "maxDoc": 50,
-      "minLang": 2,
+      "minLang": 3,
       "matchHighlight": "<span class=\"scv-matched\">$&</span>",
       "lang": "de",
       "types": [
@@ -26,7 +26,7 @@
   "value": {
     "lang": "de",
     "searchLang": "de",
-    "minLang": 2,
+    "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "blind",
