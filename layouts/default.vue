@@ -18,6 +18,7 @@
           <v-list-item-action>
             <home-icon v-if="item.icon==='home-icon'" />
             <monitor-icon v-if="item.icon==='monitor-icon'" />
+            <menu-icon v-if="item.icon==='menu-icon'" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -45,10 +46,9 @@
       </v-container>
     </v-main>
     <v-footer
-      :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }} v{{version}}</span>
+      <scv-cursor />
     </v-footer>
   </v-app>
 </template>
@@ -60,6 +60,11 @@ const { version } = require('~/package.json');
 import HomeIcon from 'vue-material-design-icons/Home.vue';
 import MenuIcon from 'vue-material-design-icons/Menu.vue';
 import MonitorIcon from 'vue-material-design-icons/Monitor.vue';
+import { ScvVue } from '../index';
+let {
+  ScvCursor
+} = ScvVue;
+
 
 export default {
   components: {
@@ -67,6 +72,7 @@ export default {
     HomeIcon,
     MenuIcon,
     MonitorIcon,
+    ScvCursor,
   },
   data () {
     return {
@@ -76,6 +82,7 @@ export default {
       items: [
         { icon: 'home-icon', title: 'Home', to: '/' },
         { icon: 'monitor-icon', title: 'Desktop', to: '/desktop' },
+        { icon: 'menu-icon', title: 'Components', to: '/components' },
       ],
       miniVariant: false,
       right: true,

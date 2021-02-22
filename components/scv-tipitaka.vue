@@ -1,5 +1,5 @@
 <template>
-  <div class="scv-nav-sutta" v-if="displayable" >
+  <div class="scv-nav-sutta" id="scv-tipitaka" v-if="displayable" >
     <v-btn v-if="previous" small text
       class="scv-text-btn scv-nav-btn"
       @click="clickSutta(previous)"

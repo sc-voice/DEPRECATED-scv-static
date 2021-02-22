@@ -16,7 +16,10 @@
       </div>
     </header>
     <div class="scv-text-container" @click="textClicked($event)">
-      <div v-for="seg in segments" :key="seg.scid" class="scv-segment">
+      <div v-for="seg in segments" :key="seg.scid" 
+        :id="seg.scid"
+        @click="clickSegment(seg)"
+        :class="segmentClass(seg)">
         <div v-if="settings.showId" class="scv-scid">{{seg.scid}}</div>
         <div v-if="settings.showPali" v-html="seg.pli" class="scv-text-root"/>
         <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="scv-text-trans"/>
@@ -49,6 +52,10 @@ export default {
     this.bilaraWeb = new this.js.BilaraWeb({fetch});
   },
   methods:{
+    clickSegment(seg) {
+      let { $store } = this;
+      $store.commit('scv/cursorScid', seg.scid);
+    },
     title(n) {
         return this.titles[n] || {};
     },
@@ -62,6 +69,12 @@ export default {
           $store.dispatch('scv/loadExample', {pattern, lang});
         }
       }
+    },
+    segmentClass(seg) {
+        let { cursor } = this.$store.state.scv.settings;
+        return cursor && seg.scid === cursor.scid
+            ? 'scv-segment scv-segment-cursor'
+            : 'scv-segment';
     },
   },
   computed: {

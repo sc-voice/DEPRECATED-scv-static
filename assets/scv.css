@@ -13,12 +13,15 @@
   --scv-sc-sans-font: "Skolar Sans PE", "Noto Sans", sans-serif;
   --scv-sc-serif-font: "Skolar PE", "Noto Serif", "Skolar Sans PE", "Noto Sans", serif;
   --scv-focus-font-weight: 600;
-  --scv-focus-color: #882200; 
+  --scv-focus-color-light: #882200; 
+  --scv-focus-color-dark: #ff9f80; 
+  --scv-focus-background-color-dark: #000000;
   --scv-background-color: #FFFFFF;
   --scv-settings-width: 350px;
   --scv-setting-width: 330px;
   --scv-label-color: rgba(0,0,0,0.6);
   --scv-color: #222;
+  --scv-cursor-border: 0.2em;
 }
 @media(width < 600px) {
   :root {
@@ -50,7 +53,7 @@ label {
   margin-right: 0.4em;
 }
 .scv-checkbox:focus-within {
-  box-shadow: 0 0 3pt 2pt var(--scv-focus-color) ;
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color-light) ;
 }
 
 .scv-app-icon {
@@ -64,7 +67,7 @@ label {
   padding-left: 0.4rem;
 }
 .scv-summary:focus {
-  box-shadow: 0 0 3pt 2pt var(--scv-focus-color) ;
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color-light) ;
 }
 
 .scv-select {
@@ -72,7 +75,7 @@ label {
   text-align: right;
 }
 .scv-select:focus {
-  box-shadow: 0 0 3pt 2pt var(--scv-focus-color);
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color-light);
 }
 .scv-select-container {
   display: flex;
@@ -121,8 +124,8 @@ label {
 }
 .scv-text-container .scv-matched:hover,
 .scv-text-container .scv-matched:focus {
-  color: var(--scv-focus-color);
-  text-decoration-color: var(--scv-focus-color);
+  color: var(--scv-focus-color-light);
+  text-decoration-color: var(--scv-focus-color-light);
 }
 
 .scv-text-btn {
@@ -132,65 +135,87 @@ label {
   margin-bottom: 1em;
   border: 1pt solid #222;
   height: 24px;
-  color: var(--scv-color);
   text-decoration-color: var(--scv-color);
 }
 .scv-text-btn .v-btn__content {
   font-size: 0.75rem;
-  color: var(--scv-color);
   text-transform: none;
   font-variant: small-caps;
   font-weight: 400;
 }
 .scv-text-btn .v-btn__content:hover,
 .scv-text-btn:focus-within .v-btn__content {
-  color: var(--scv-focus-color);
+  color: var(--scv-focus-color-light);
+  font-weight: var(--scv-focus-font-weight);
 }
 .scv-text-btn:hover,
 .scv-text-btn:focus-within {
-  color: var(--scv-focus-color);
-  border: 1pt solid var(--scv-focus-color);
-  outline: 1pt solid var(--scv-focus-color);
+  color: var(--scv-focus-color-light);
+  border: 1pt solid var(--scv-focus-color-light);
+  border-radius: 0;
+  outline: 1pt solid var(--scv-focus-color-light);
   text-decoration: underline;
-  text-decoration-color: var(--scv-focus-color);
-  color: var(--scv-focus-color);
+  text-decoration-color: var(--scv-focus-color-light);
+  color: var(--scv-focus-color-light);
+}
+.theme--dark.scv-text-btn:hover,
+.theme--dark.scv-text-btn:focus-within {
+  color: var(--scv-focus-color-dark);
+  background-color: var(--scv-focus-background-color-dark);
+  border: 1pt solid var(--scv-focus-color-dark);
+  outline: 1pt solid var(--scv-focus-color-dark);
+}
+.theme--dark.scv-text-btn .v-btn__content:hover,
+.scv-text-btn:focus-within .theme--dark.v-btn__content {
+  color: var(--scv-focus-color-dark) ;
+  background-color: var(--scv-focus-background-color-dark);
 }
 
 .scv-inspire-row {
-    margin: -0.8em 0 0.5em 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  margin: -0.8em 0 0.5em 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .scv-icon-btn {
-    margin: 0;
-    border-radius:5px;
-    border: none;
-    font-size: 1rem !important; /* override .v-btn.v-size--default */
+  margin: 0;
+  border-radius:5px;
+  border: none;
+  font-size: 1rem !important; /* override .v-btn.v-size--default */
 }
 .scv-icon-btn svg {
   bottom: 0em !important;
 }
 .scv-icon-btn:focus, 
 .scv-icon-btn:hover {
-    outline: 2px solid var(--scv-focus-color);
+  outline: 2px solid var(--scv-focus-color-light);
+}
+.theme--dark.scv-icon-btn:focus, 
+.theme--dark.scv-icon-btn:hover {
+  outline: 2px solid var(--scv-focus-color-dark);
+  background-color: var(--scv-focus-background-color-dark);
+}
+.theme--dark.scv-icon-btn:focus-within svg, 
+.theme--dark.scv-icon-btn:hover svg{
+  color: var(--scv-focus-color-dark);
+  background-color: var(--scv-focus-background-color-dark);
 }
 
 summary:hover,
 summary:focus {
   border-radius: var(--scv-focus-width);
-  outline: var(--scv-focus-color);
+  outline: var(--scv-focus-color-light);
   box-shadow: 
     inset var(--scv-focus-width) var(--scv-focus-width) 
-        var(--scv-focus-width) 0-var(--scv-focus-width) var(--scv-focus-color),
+        var(--scv-focus-width) 0-var(--scv-focus-width) var(--scv-focus-color-light),
     inset 0-var(--scv-focus-width) 0-var(--scv-focus-width) 
-        var(--scv-focus-width) 0-var(--scv-focus-width) var(--scv-focus-color);
+        var(--scv-focus-width) 0-var(--scv-focus-width) var(--scv-focus-color-light);
 }
 
 .scv-settings {
     background-color: var(--scv-background-color);
-    z-index: 100;
+    z-index: 1000;
 }
 .scv-settings-detail {
     max-width: var(--scv-settings-width);
@@ -209,8 +234,8 @@ summary:focus {
     padding-right: 0.2rem;
 }
 .scv-settings-title:focus {
-    border-color: var(--scv-focus-color);
-    outline: 1pt solid var(--scv-focus-color);
+    border-color: var(--scv-focus-color-light);
+    outline: 1pt solid var(--scv-focus-color-light);
 }
 .scv-settings-title .scv-setting-icon {
   width: 1rem;
@@ -224,7 +249,7 @@ summary:focus {
 .scv-settings-icon {
 }
 .scv-settings-icon:focus > svg {
-  background-color: $focus-color;
+  background-color: $focus-color-light;
   margin-bottom: 5px;
 }
 .scv-more-menu {
@@ -272,7 +297,7 @@ summary:focus {
 }
 .scv-result-details summary:focus {
   max-width: 520px;
-  box-shadow: 0 0 3pt 2pt var(--scv-focus-color) ;
+  box-shadow: 0 0 3pt 2pt var(--scv-focus-color-light) ;
 }
 .scv-result-text {
   padding-left: 1.15em;
@@ -351,13 +376,26 @@ summary:focus {
   margin-bottom: var(--scv-segment-margin-bottom);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
+  padding-left: 0.8em;
   padding-right: 1em;
+  border-left: var(--scv-cursor-border) solid transparent;
+}
+.scv-segment-cursor {
+  border-left: var(--scv-cursor-border) solid var(--scv-focus-color-light);
+  border-top-left-radius: var(--scv-cursor-border);
+  border-bottom-left-radius: var(--scv-cursor-border);
 }
 .scv-header {
   margin-bottom: var(--scv-header-margin-bottom);
 }
 
+.scv-nav-cursor {
+    display: flex;
+    flex-flow: row noWrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 .scv-nav-sutta {
     display: flex;
     flex-flow: row noWrap;
@@ -370,12 +408,9 @@ summary:focus {
 }
 .scv-nav-btn {
   min-width: 5rem;
-  text-transform: uppercase;
-}
-.scv-nav-btn {
-  min-width: 5rem;
   background-color: transparent;
   border: none;
+  margin-bottom: 0em;
 }
 .scv-nav-btn-disabled svg {
   min-width: 5rem;

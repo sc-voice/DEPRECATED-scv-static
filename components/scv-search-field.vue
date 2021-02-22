@@ -1,5 +1,5 @@
 <template>
-  <div v-if="displayable" class="pl-1">
+  <div id="scv-search-field" v-if="displayable" class="pl-1">
     <v-autocomplete 
       ref="refSearchAuto"
       v-model="search"

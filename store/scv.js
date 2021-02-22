@@ -26,11 +26,18 @@ export const state = () => ({
     voices: [],
 })
 
-
-export const getters = {
-}
-
 export const mutations = {
+    cursorScid(state, value) {
+        let { settings, sutta } = state;
+        let { history } = settings;
+        let { sutta_uid, lang } = sutta;
+        let cursor = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+        if (cursor) {
+            settings.cursor = cursor;
+            cursor.scid = value;
+            console.log(`$store.state.scv.cursorScid:`, cursor);
+        }
+    },
     sutta(state, value) {
         Object.assign(state.sutta, DEFAULT.sutta, value);
         console.log(`$store.state.scv.sutta:`, value);
@@ -39,16 +46,20 @@ export const mutations = {
         let { sutta_uid, lang, updateHistory=true } = value;
         Object.assign(state.sutta, DEFAULT.sutta, {sutta_uid, lang});
         if (updateHistory) {
-            let suttaHistory = state.settings.history;
-            let sh = suttaHistory
-                .find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+            let { cursor, settings } = state;
+            let { history } = settings;
+            let sh = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
             let date = new Date();
             if (sh) {
                 sh.date = date;
             } else {
-                suttaHistory.push({ sutta_uid, date, lang, });
+                let { scid } = state.sutta.segments[0];
+                let historyNew = { sutta_uid, date, lang, scid};
+                settings.cursor = historyNew;
+                console.log(`dbg suttaRef`, historyNew);
+                history.push(historyNew);
             }
-            suttaHistory.sort((a,b)=>a.date-b.date);
+            history.sort((a,b)=>a.date-b.date);
         }
         console.log(`$store.state.scv.sutta_uid:`, value); 
     },

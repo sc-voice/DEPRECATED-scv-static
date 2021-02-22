@@ -40,7 +40,7 @@ export default (context, inject) => {
 
     store.subscribe((mutation,state) => {
         let { type } = mutation;
-        if (type==='scv/settings' || type==='scv/suttaRef') {
+        if (type==='scv/settings' || type==='scv/suttaRef' || type==='scv/cursorScid') {
             let settings = state.scv.settings;
             $vuetify.lang.current = settings.locale;
             if (settings.saveSettingsExamples) {

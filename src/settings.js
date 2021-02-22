@@ -4,15 +4,16 @@
         constructor(opts={}) {
             let {
                 audio = ScvSettings.AUDIO.OGG,
-                saveSettings = false,
-                saveSettingsExamples = false,
+                cursor = null,
                 fullLine = false,
                 history = [],
-                maxHistory = 2000,
                 ips = 6,
                 lang = 'en',
                 locale = 'en',
+                maxHistory = 2000,
                 maxResults = 5,
+                saveSettingsExamples = false,
+                saveSettings = false,
                 scid = null,
                 search = null,
                 showId = false,
@@ -25,6 +26,7 @@
             (opts.logger || logger).logInstance(this, opts);
 
             this.audio = audio;
+            this.cursor = cursor;
             this.fullLine = fullLine;
             this.history = history.slice();
             this.ips = 6;

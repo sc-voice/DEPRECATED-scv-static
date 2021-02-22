@@ -10,6 +10,7 @@
           <v-sheet light class="mt-5">
             <scv-search-field
               :lang="lang"
+              :js="js"
               v-on:search-text="search"
             />
           </v-sheet>
@@ -31,7 +32,9 @@
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-sheet light class="mt-5" style="min-width:22em; ">
-            <scv-results :lang="lang" />
+            <scv-results :lang="lang" 
+              :js="js"
+            />
           </v-sheet>
           <details><summary class="ex-more">...</summary>
             ScvResults displays multiple search results.
@@ -45,24 +48,10 @@
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-card light class="mt-5">
-            <scv-sutta />
+            <scv-sutta :js="js" />
           </v-card>
           <details><summary class="ex-more">...</summary>
             ScvSutta displays a single sutta
-          </details>
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-
-      <v-expansion-panel >
-        <v-expansion-panel-header>
-          scv-settings
-        </v-expansion-panel-header>
-        <v-expansion-panel-content>
-          <v-sheet light class="mt-5">
-            <scv-settings />
-          </v-sheet>
-          <details><summary class="ex-more">...</summary>
-            ScvSettings is menu for Voice settings
           </details>
         </v-expansion-panel-content>
       </v-expansion-panel>
@@ -73,7 +62,7 @@
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <v-sheet light class="mt-5" style="min-width:22em; ">
-            <scv-tipitaka :lang="lang" />
+            <scv-tipitaka :lang="lang" :js="js" />
           </v-sheet>
           <details><summary class="ex-more">...</summary>
             ScvTipitaka displays Tipitaka structure
@@ -81,6 +70,33 @@
         </v-expansion-panel-content>
       </v-expansion-panel>
 
+      <v-expansion-panel>
+        <v-expansion-panel-header>
+          scv-cursor
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-sheet light class="mt-5" style="min-width:22em; ">
+            <scv-cursor :lang="lang" :js="js"/>
+          </v-sheet>
+          <details><summary class="ex-more">...</summary>
+            ScvCursor displays sutta cursor 
+          </details>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel >
+        <v-expansion-panel-header>
+          scv-settings
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-sheet light class="mt-5">
+            <scv-settings :js="js" />
+          </v-sheet>
+          <details><summary class="ex-more">...</summary>
+            ScvSettings is menu for Voice settings
+          </details>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
 
     </v-expansion-panels>
   </div>
@@ -93,6 +109,12 @@ import ScvResults from '~/components/scv-results.vue';
 import ScvSutta from '~/components/scv-sutta.vue';
 import ScvSettings from '~/components/scv-settings.vue';
 import ScvTipitaka from '~/components/scv-tipitaka.vue';
+import ScvCursor from '~/components/scv-cursor.vue';
+
+const JS = {
+  BilaraWeb: require('../src/bilara-web'),
+  Tipitaka: require('scv-bilara/src/tipitaka'),
+}
 
 export default {
   components: {
@@ -101,6 +123,7 @@ export default {
     ScvSutta,
     ScvSettings,
     ScvTipitaka,
+    ScvCursor,
   },
   data: function(){
     return {
@@ -119,6 +142,9 @@ export default {
     },
   },
   computed: {
+    js() { 
+      return JS;
+    },
     langItems() {
       return [
         { text: 'English', value: 'en', },
@@ -129,6 +155,7 @@ export default {
 }
 </script>
 <style>
+
 .v-application code {
   background-color: #000;
 }
