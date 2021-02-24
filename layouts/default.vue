@@ -1,7 +1,7 @@
 <template>
   <v-app >
     <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll flat >
-      <scv-app-bar title="Scv-Static" imgUrl="candle.png">
+      <scv-app-bar title="Scv-Static" imgUrl="amanda-flavell-buddha.png">
         <v-btn icon to="/desktop" class="scv-icon-btn" >
           <monitor-icon class="scv-settings-icon"/>
         </v-btn>
