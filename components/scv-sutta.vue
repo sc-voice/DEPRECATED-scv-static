@@ -1,18 +1,20 @@
 <template>
   <div v-if="sutta && sutta.sutta_uid" class="scv-sutta" >
-    <header class="scv-header">
+    <header class="scv-header-class">
       <scv-history :js="js" />
-      <div class="scv-division mt-5">
-        <div class="scv-division-root" v-html="title(0).pli" />
-        <div class="scv-division-trans" v-html="title(0)[lang]" />
-      </div>
-      <div class="scv-division">
-        <div class="scv-division-root" v-html="title(1).pli" />
-        <div class="scv-division-trans" v-html="title(1)[lang]" />
-      </div>
-      <div class="scv-sutta-title">
-        <div class="scv-sutta-title-root" v-html="title(2).pli" />
-        <div class="scv-sutta-title-trans" v-html="title(2)[lang]" />
+      <div :class="scvTitleClass">
+        <div class="scv-division mt-5">
+          <div class="scv-division-root" v-html="title(0).pli" />
+          <div class="scv-division-trans" v-html="title(0)[lang]" />
+        </div>
+        <div class="scv-division">
+          <div class="scv-division-root" v-html="title(1).pli" />
+          <div class="scv-division-trans" v-html="title(1)[lang]" />
+        </div>
+        <div class="scv-sutta-title">
+          <div class="scv-sutta-title-root" v-html="title(2).pli" />
+          <div class="scv-sutta-title-trans" v-html="title(2)[lang]" />
+        </div>
       </div>
     </header>
     <div class="scv-text-container" @click="textClicked($event)">
@@ -73,11 +75,18 @@ export default {
     segmentClass(seg) {
         let { cursor } = this.$store.state.scv.settings;
         return cursor && seg.scid === cursor.scid
-            ? 'scv-segment scv-segment-cursor'
+            ? 'scv-segment scv-sutta-cursor'
             : 'scv-segment';
     },
   },
   computed: {
+    scvTitleClass() {
+        let { cursor } = this.$store.state.scv.settings;
+        console.log(`dbg210223`, cursor.scid);
+        return cursor && /:0/.test(cursor.scid)
+            ? "scv-sutta-cursor"
+            : "";
+    },
     titles() {
       return this.sutta.segments.filter(seg=>/:0/.test(seg.scid));
     },

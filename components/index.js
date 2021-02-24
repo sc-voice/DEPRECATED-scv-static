@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 
 export { default as Logo } from './logo.vue';
+export { default as ScvAppBar } from './scv-app-bar.vue';
 export { default as ScvCheckbox } from './scv-checkbox.vue';
 export { default as ScvSettings } from './scv-settings.vue';
 export { default as ScvCursor } from './scv-cursor.vue';

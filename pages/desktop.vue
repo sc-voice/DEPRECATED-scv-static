@@ -1,12 +1,5 @@
 <template>
   <v-sheet light class="desktop" >
-    <div class="desktop-nav">
-      <div class="text-h6">Sample Desktop Layout</div>
-      <scv-settings dark :js="js" 
-        :monolingual="monolingual"
-        :version="`version ${version}`"
-        />
-    </div>
     <div class="desktop-search">
       <scv-search-field :js="js"
         v-on:search-text="search"

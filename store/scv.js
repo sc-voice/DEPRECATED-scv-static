@@ -12,7 +12,7 @@ const DEFAULT = {
         lang: 'en',
         sutta_uid: null,
         segments: [
-            {scid: '...', pli: '...', en: '...'}
+            {scid: null, pli: '...', en: '...'}
         ],
     }}
 }
@@ -38,20 +38,29 @@ export const mutations = {
             console.log(`$store.state.scv.cursorScid:`, cursor);
         }
     },
-    sutta(state, value) {
-        Object.assign(state.sutta, DEFAULT.sutta, value);
-        console.log(`$store.state.scv.sutta:`, value);
+    sutta(state, sutta) {
+        let { settings } = state;
+        let { history } = settings;
+        let { sutta_uid, lang, updateHistory=true } = sutta;
+        let sh = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+        if (sh && !sh.scid) {
+            sh.scid = sutta.segments[0].scid;
+            settings.cursor = sh;
+        }
+        Object.assign(state.sutta, DEFAULT.sutta, sutta);
+        console.log(`$store.state.scv.sutta:`, sutta, sh);
     },
     suttaRef(state, value) {
+        let { settings } = state;
         let { sutta_uid, lang, updateHistory=true } = value;
         Object.assign(state.sutta, DEFAULT.sutta, {sutta_uid, lang});
         if (updateHistory) {
-            let { cursor, settings } = state;
             let { history } = settings;
             let sh = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
             let date = new Date();
             if (sh) {
                 sh.date = date;
+                settings.cursor = sh;
             } else {
                 let { scid } = state.sutta.segments[0];
                 let historyNew = { sutta_uid, date, lang, scid};
@@ -59,9 +68,12 @@ export const mutations = {
                 console.log(`dbg suttaRef`, historyNew);
                 history.push(historyNew);
             }
+            if (!settings.cursor.scid) {
+                settings.cursor.scid = state.sutta.segments[0].scid;
+            }
             history.sort((a,b)=>a.date-b.date);
         }
-        console.log(`$store.state.scv.sutta_uid:`, value); 
+        console.log(`$store.state.scv.suttaRef:`, value, settings); 
     },
     search(state, value) {
         if (value !== state.search) {

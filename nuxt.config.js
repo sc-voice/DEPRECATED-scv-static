@@ -103,7 +103,7 @@ export default {
     ],
     //treeShake: true,
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: 0xcc6600,

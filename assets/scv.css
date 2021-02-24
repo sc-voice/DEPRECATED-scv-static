@@ -16,12 +16,15 @@
   --scv-focus-color-light: #882200; 
   --scv-focus-color-dark: #ff9f80; 
   --scv-focus-background-color-dark: #000000;
-  --scv-background-color: #FFFFFF;
+  --scv-focus-background-color-light: #ffffff;
+  --scv-background-color-light: #eeeeee;
+  --scv-background-color-dark: #000000;
   --scv-settings-width: 350px;
   --scv-setting-width: 330px;
   --scv-label-color: rgba(0,0,0,0.6);
-  --scv-color: #222;
-  --scv-cursor-border: 0.2em;
+  --scv-color-dark: #FFFFFF;
+  --scv-color-light: #222;
+  --scv-cursor-border: 0.15em;
 }
 @media(width < 600px) {
   :root {
@@ -56,12 +59,6 @@ label {
   box-shadow: 0 0 3pt 2pt var(--scv-focus-color-light) ;
 }
 
-.scv-app-icon {
-}
-.scv-app-icon:hover {
-    cursor: pointer;
-}
-
 .scv-summary {
   margin: 2pt;
   padding-left: 0.4rem;
@@ -75,7 +72,7 @@ label {
   text-align: right;
 }
 .scv-select:focus {
-  box-shadow: 0 0 3pt 2pt var(--scv-focus-color-light);
+  box-shadow: -1 0 3pt 2pt var(--scv-focus-color-light);
 }
 .scv-select-container {
   display: flex;
@@ -135,7 +132,7 @@ label {
   margin-bottom: 1em;
   border: 1pt solid #222;
   height: 24px;
-  text-decoration-color: var(--scv-color);
+  text-decoration-color: var(--scv-color-light);
 }
 .scv-text-btn .v-btn__content {
   font-size: 0.75rem;
@@ -157,6 +154,7 @@ label {
   text-decoration: underline;
   text-decoration-color: var(--scv-focus-color-light);
   color: var(--scv-focus-color-light);
+  background-color: var(--scv-focus-background-color-light);
 }
 .theme--dark.scv-text-btn:hover,
 .theme--dark.scv-text-btn:focus-within {
@@ -180,6 +178,8 @@ label {
 
 .scv-icon-btn {
   margin: 0;
+  margin-left:2px;
+  margin-right:2px;
   border-radius:5px;
   border: none;
   font-size: 1rem !important; /* override .v-btn.v-size--default */
@@ -214,8 +214,13 @@ summary:focus {
 }
 
 .scv-settings {
-    background-color: var(--scv-background-color);
+    background-color: var(--scv-background-color-light);
+    color: var(--scv-color-light);
     z-index: 1000;
+}
+.scv-settings.theme--dark {
+    background-color: var(--scv-background-color-dark);
+    color: var(--scv-color-dark);
 }
 .scv-settings-detail {
     max-width: var(--scv-settings-width);
@@ -247,9 +252,11 @@ summary:focus {
 }
 
 .scv-settings-icon {
+  background-color: --var(scv-background-color-dark);
+  color: --var(scv-color-dark);
 }
 .scv-settings-icon:focus > svg {
-  background-color: $focus-color-light;
+  background-color: --var(scv-focus-color-dark);
   margin-bottom: 5px;
 }
 .scv-more-menu {
@@ -268,7 +275,7 @@ summary:focus {
     border-right: 1pt solid #555;
     border-bottom: 1pt solid #555;
     border-radius: 2pt;
-    background-color: var(--scv-background-color);
+    background-color: var(--scv-background-color-light);
 }
 
 .scv-scid {
@@ -372,18 +379,18 @@ summary:focus {
   margin-left: auto;
   margin-right: auto;
 }
+.scv-sutta-cursor {
+  border-left: var(--scv-cursor-border) solid var(--scv-focus-color-light);
+  border-right: var(--scv-cursor-border) solid var(--scv-focus-color-light);
+  border-radius: var(--scv-cursor-border);
+  background-color: var(--scv-focus-background-color-light);
+}
 .scv-segment {
   margin-bottom: var(--scv-segment-margin-bottom);
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.8em;
   padding-right: 1em;
-  border-left: var(--scv-cursor-border) solid transparent;
-}
-.scv-segment-cursor {
-  border-left: var(--scv-cursor-border) solid var(--scv-focus-color-light);
-  border-top-left-radius: var(--scv-cursor-border);
-  border-bottom-left-radius: var(--scv-cursor-border);
 }
 .scv-header {
   margin-bottom: var(--scv-header-margin-bottom);
@@ -415,4 +422,53 @@ summary:focus {
 .scv-nav-btn-disabled svg {
   min-width: 5rem;
   color: rgba(127,127,127,0.25);
+}
+.scv-nav-app {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.scv-nav-title {
+  margin-left: 1em;
+}
+.scv-nav-img {
+  height: 56px;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+.scv-nav-app-title {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.scv-nav-app-icons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+.v-app-bar .v-toolbar__content {
+  padding-left: 0px;
+  padding-right: 0.5em;
+}
+.v-btn:before {
+  background-color: inherit;
+}
+.theme--light.v-application {
+  background-color: var(--scv-background-color-light) !important;
+}
+.theme--light.v-sheet {
+  background-color: var(--scv-background-color-light) !important;
+}
+.v-input__slot:focus-within {
+  background-color: var(--scv-focus-background-color-light);
+}
+.v-btn:hover,
+.v-btn:focus-within {
+  background-color: var(--scv-focus-background-color-light);
 }

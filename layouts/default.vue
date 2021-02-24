@@ -1,53 +1,25 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <home-icon v-if="item.icon==='home-icon'" />
-            <monitor-icon v-if="item.icon==='monitor-icon'" />
-            <menu-icon v-if="item.icon==='menu-icon'" />
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-    <v-app-bar
-      :clipped-left="clipped"
-      fixed
-      app
-    >
-      <Logo/>
-      <v-toolbar-title >
-        scv-static{{$route.path}}
-      </v-toolbar-title>
-      <v-spacer />
-      <menu-icon  class="scv-app-icon"
-        @click="menuClicked"
+  <v-app >
+    <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll flat >
+      <scv-app-bar title="Scv-Static" imgUrl="candle.png">
+        <v-btn icon to="/desktop" class="scv-icon-btn" >
+          <monitor-icon class="scv-settings-icon"/>
+        </v-btn>
+        <v-btn icon to="/components" class="scv-icon-btn" >
+          <menu-icon class="scv-settings-icon"/>
+        </v-btn>
+        <scv-settings :js="js" 
+          :monolingual="monolingual"
+          :version="`version ${version}`"
         />
+      </scv-app-bar>
     </v-app-bar>
-    <v-main>
-      <v-container>
+    <div class="site-main">
+      <v-container class="site-content">
         <nuxt />
       </v-container>
-    </v-main>
-    <v-footer
-      app
-    >
+    </div>
+    <v-footer app dark >
       <scv-cursor />
     </v-footer>
   </v-app>
@@ -62,8 +34,13 @@ import MenuIcon from 'vue-material-design-icons/Menu.vue';
 import MonitorIcon from 'vue-material-design-icons/Monitor.vue';
 import { ScvVue } from '../index';
 let {
-  ScvCursor
+  ScvAppBar,
+  ScvCursor,
 } = ScvVue;
+const JS = {
+  BilaraWeb: require('../src/bilara-web'),
+  Tipitaka: require('scv-bilara/src/tipitaka'),
+}
 
 
 export default {
@@ -73,12 +50,14 @@ export default {
     MenuIcon,
     MonitorIcon,
     ScvCursor,
+    ScvAppBar,
   },
   data () {
     return {
       clipped: false,
       drawer: false,
       fixed: false,
+      monolingual: null,
       items: [
         { icon: 'home-icon', title: 'Home', to: '/' },
         { icon: 'monitor-icon', title: 'Desktop', to: '/desktop' },
@@ -99,8 +78,18 @@ export default {
     version() {
       return version;
     },
+    js() { 
+      return JS;
+    },
   },
 }
 </script>
 <style>
+.site-main {
+}
+.site-content {
+  margin-top: 90px;
+  padding: 0;
+  padding-bottom: 60px;
+}
 </style>

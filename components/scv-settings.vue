@@ -1,6 +1,6 @@
 <template>
   <v-sheet class="scv-settings" v-if="isMounted">
-    <v-btn icon
+    <v-btn dark icon
         id="more-menu-btn"
         @click="clickSettings()"
         aria-haspopup="true"
@@ -10,7 +10,8 @@
         class="scv-icon-btn" :style="cssProps" >
         <cog-icon class="scv-settings-icon"/>
     </v-btn>
-    <ul class="scv-more-menu" 
+    <v-sheet light>
+    <ul light class="scv-more-menu" 
       id = "more-menu"
       ref="ref-more-menu"
       aria-labelledby="more-menu-btn"
@@ -197,7 +198,7 @@
             <div class="scv-settings-title">
                 <div>{{$t('general')}}</div>
                 <div class="body-2">
-                  v{{version}}
+                  {{version}}
                   <span v-if="saveCookies && openDetail!=='general'">, cookies</span>
                 </div>
             </div><!--scv-settings-title-->
@@ -284,6 +285,7 @@
         </v-btn>
       </li>
     </ul> <!-- scv-more-menu -->
+    </v-sheet>
   </v-sheet> <!-- scv-more -->
 </template>
 
