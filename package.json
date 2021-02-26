@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "public": true,
@@ -9,6 +9,7 @@
     "test": "test"
   },
   "dependencies": {
+    "@nuxt/content": "^1.13.1",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "vue-cookie": "^1.1.4",

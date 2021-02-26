@@ -86,6 +86,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxt/content',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

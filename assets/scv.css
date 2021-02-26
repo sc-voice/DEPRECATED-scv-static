@@ -432,8 +432,10 @@ summary:focus {
 }
 .scv-nav-title {
   margin-left: 1em;
+  cursor: pointer;
 }
 .scv-nav-img {
+  cursor: pointer;
   height: 56px;
   border-bottom: 1px solid transparent;
   border-top: 1px solid transparent;
@@ -457,10 +459,13 @@ summary:focus {
   padding-right: 0.5em;
 }
 .v-btn:before {
-  background-color: inherit;
+  background-color: inherit !important;
 }
 .theme--light.v-application {
   background-color: var(--scv-background-color-light) !important;
+}
+.theme--dark.v-sheet {
+  background-color: var(--scv-background-color-dark) !important;
 }
 .theme--light.v-sheet {
   background-color: var(--scv-background-color-light) !important;
@@ -471,4 +476,8 @@ summary:focus {
 .v-btn:hover,
 .v-btn:focus-within {
   background-color: var(--scv-focus-background-color-light);
+}
+.scv-article {
+  padding: 1em;
+  padding-bottom: 20em;
 }

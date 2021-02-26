@@ -1,8 +1,13 @@
 <template>
   <div class="scv-nav-app">
     <div class="scv-nav-app-title">
-      <img :src="imgUrl" class="scv-nav-img"/>
-      <div class="scv-nav-title">{{title}}</div>
+      <img :src="imgUrl" class="scv-nav-img"
+        @click="clickHome()"
+      />
+      <div class="scv-nav-title"
+        @click="clickHome()">
+        {{title}}
+      </div>
     </div>
     <div class="scv-nav-app-icons">
       <slot></slot>
@@ -42,6 +47,9 @@ export default {
   async mounted() {
   },
   methods:{
+    clickHome() {
+      location.href = "/";
+    },
     clickPageTop() {
         let elt = document.getElementById("scv-search-field");
         if (elt) {
