@@ -157,4 +157,10 @@ export default {
     },
   },
 
+  generate: {
+    routes: [
+        'blog/2021-02-25',
+    ],
+  },
+
 }
