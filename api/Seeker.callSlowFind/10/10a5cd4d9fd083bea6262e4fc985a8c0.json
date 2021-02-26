@@ -32,7 +32,7 @@
     "pattern": "gesund",
     "method": "phrase",
     "resultPattern": "\\bgesund",
-    "segsMatched": 38,
+    "segsMatched": 39,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/kn/kp/kp7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp7_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
@@ -107,6 +110,7 @@
       "an4.192/de/sabbamitta",
       "mn2/de/sabbamitta",
       "kp7/de/sabbamitta",
+      "dn30/de/sabbamitta",
       "dn29/de/sabbamitta",
       "dn19/de/sabbamitta",
       "dn12/de/sabbamitta",
@@ -882,6 +886,38 @@
           "pli": 465,
           "de": 404,
           "en": 464
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn30",
+        "lang": "de",
+        "segMap": {
+          "dn30:2.6.8": {
+            "scid": "dn30:2.6.8",
+            "pli": "Kathaṁ na hāyeyyuṁ pareti icchati, ",
+            "de": "<span class=\"scv-matched\">Gesund</span>heit, Schönheit und Glück?‘ ",
+            "en": "in health, and both beauty and happiness?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 721,
+          "de": 716,
+          "en": 720
         }
       }
     ]

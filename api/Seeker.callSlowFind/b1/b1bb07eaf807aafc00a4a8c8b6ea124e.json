@@ -32,11 +32,14 @@
     "pattern": "gewissenhaft und gütig",
     "method": "phrase",
     "resultPattern": "\\bgewissenhaft und gütig",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "an3.70/de/sabbamitta",
+      "dn30/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an4.198/de/sabbamitta"
     ],
@@ -151,6 +155,38 @@
           "pli": 284,
           "de": 226,
           "en": 281
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn30",
+        "lang": "de",
+        "segMap": {
+          "dn30:1.10.2": {
+            "scid": "dn30:1.10.2",
+            "pli": "pāṇātipātaṁ pahāya pāṇātipātā paṭivirato ahosi nihitadaṇḍo nihitasattho lajjī dayāpanno, sabbapāṇabhūtahitānukampī vihāsi. ",
+            "de": "Er gab das Töten lebender Geschöpfe auf und verzichtete auf Stock und Schwert. Er war <span class=\"scv-matched\">gewissenhaft und gütig</span> und lebte voller Anteilnahme für alle Lebewesen. ",
+            "en": "He gave up killing living creatures, renouncing the rod and the sword. He was scrupulous and kind, living full of compassion for all living beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 721,
+          "de": 716,
+          "en": 720
         }
       }
     ]

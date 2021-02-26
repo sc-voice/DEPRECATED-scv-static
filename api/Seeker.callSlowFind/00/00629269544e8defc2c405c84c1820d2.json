@@ -32,11 +32,14 @@
     "pattern": "den besinnungstag ein",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag ein",
-    "segsMatched": 28,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json",
@@ -49,6 +52,7 @@
     ],
     "suttaRefs": [
       "an3.70/de/sabbamitta",
+      "dn30/de/sabbamitta",
       "an3.37/de/sabbamitta",
       "an3.38/de/sabbamitta",
       "dn17/de/sabbamitta"
@@ -277,6 +281,52 @@
           "pli": 39,
           "de": 38,
           "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn30",
+        "lang": "de",
+        "segMap": {
+          "dn30:1.4.1": {
+            "scid": "dn30:1.4.1",
+            "pli": "Yampi, bhikkhave, tathāgato purimaṁ jātiṁ purimaṁ bhavaṁ purimaṁ niketaṁ pubbe manussabhūto samāno daḷhasamādāno ahosi kusalesu dhammesu, avatthitasamādāno kāyasucarite vacīsucarite manosucarite dānasaṁvibhāge sīlasamādāne uposathupavāse matteyyatāya petteyyatāya sāmaññatāya brahmaññatāya kule jeṭṭhāpacāyitāya aññataraññataresu ca adhikusalesu dhammesu. ",
+            "de": "Der Klargewordene wurde in manchen früheren Leben als Mensch wiedergeboren, in manchen früheren Daseinsformen, an manchen früheren Wohnplätzen. Er unternahm es entschieden, mit dem Körper, der Sprache und dem Geist taugliches Verhalten zu üben, und war darin beharrlich; Geben und Teilen, sich Übungsregeln vornehmen, <span class=\"scv-matched\">den Besinnungstag ein</span>halten, Mutter und Vater, Asketen und Brahmanen den gebührenden Respekt zollen, die Ältesten in der Familie ehren und verschiedene andere Dinge, die zum tauglichen Verhalten gehören. ",
+            "en": "In some past lives, past existences, past abodes the Realized One was reborn as a human being. He firmly undertook and persisted in skillful behaviors such as good conduct by way of body, speech, and mind, giving and sharing, taking precepts, observing the sabbath, paying due respect to mother and father, ascetics and brahmins, honoring the elders in the family, and various other things pertaining to skillful behaviors. ",
+            "matched": true
+          },
+          "dn30:1.6.3": {
+            "scid": "dn30:1.6.3",
+            "pli": "Soceyyasīlālayuposathesu ca; ",
+            "de": "Reinheit, Übungsregeln, <span class=\"scv-matched\">den Besinnungstag ein</span>halten; ",
+            "en": "purity, precepts, and observing the sabbath; ",
+            "matched": true
+          },
+          "dn30:2.13.2": {
+            "scid": "dn30:2.13.2",
+            "pli": "bahujanapubbaṅgamo ahosi kusalesu dhammesu bahujanapāmokkho kāyasucarite vacīsucarite manosucarite dānasaṁvibhāge sīlasamādāne uposathupavāse matteyyatāya petteyyatāya sāmaññatāya brahmaññatāya kule jeṭṭhāpacāyitāya aññataraññataresu ca adhikusalesu dhammesu. ",
+            "de": "Er war Leiter und Wegbereiter der Menschen für taugliche Verhaltensweisen wie gutes Verhalten mit dem Körper, der Sprache und dem Geist, Geben und Teilen, sich Übungsregeln vornehmen, <span class=\"scv-matched\">den Besinnungstag ein</span>halten, Mutter und Vater, Asketen und Brahmanen den gebührenden Respekt zollen, die Ältesten in der Familie ehren und verschiedene andere Dinge, die zum tauglichen Verhalten gehören. ",
+            "en": "He was the leader and forerunner of people in skillful behaviors such as good conduct by way of body, speech, and mind, giving and sharing, taking precepts, observing the sabbath, paying due respect to mother and father, ascetics and brahmins, honoring the elders in the family, and various other things pertaining to skillful behaviors. ",
+            "matched": true
+          }
+        },
+        "score": 3.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 721,
+          "de": 716,
+          "en": 720
         }
       },
       {
