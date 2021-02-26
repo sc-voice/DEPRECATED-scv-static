@@ -5,6 +5,7 @@
         <li><nuxt-link to="/desktop">Desktop Layout</nuxt-link></li>
         <li><nuxt-link to="/cellphone">Cellphone Layout</nuxt-link></li>
         <li><nuxt-link to="/components">Components</nuxt-link></li>
+        <li><nuxt-link to="/blog/2021-02-25">Blog test</nuxt-link></li>
     </ul>
   </div>
 </template>

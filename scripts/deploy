@@ -14,6 +14,7 @@ export BABEL_ENV=deploy
 npm run generate &&\
 npm run deploy:branch &&\
 git push &&\
+find dist &&\
+RC=?$
 
-echo -e "DEPLOY\t: done"
-
+echo -e "DEPLOY\t: done => $RC"
