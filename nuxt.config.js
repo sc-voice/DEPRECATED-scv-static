@@ -160,6 +160,7 @@ export default {
   generate: {
     routes: [
         'blog/2021-02-25',
+        '_content/articles/2021-02-25.md',
     ],
   },
 
