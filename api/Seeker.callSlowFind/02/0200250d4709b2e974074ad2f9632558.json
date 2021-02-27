@@ -32,10 +32,7 @@
     "method": "keywords",
     "resultPattern": "\\bif|\\bi|\\bwere|\\bto|\\bsorrow|\\band|\\bpine",
     "segsMatched": 0,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
-    ],
+    "bilaraPaths": [],
     "suttaRefs": [],
     "mlDocs": []
   }
