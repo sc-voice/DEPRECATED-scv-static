@@ -32,17 +32,21 @@
     "pattern": "sag.* die wahrheit",
     "method": "phrase",
     "resultPattern": "\\bsag.* die wahrheit",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.70/de/sabbamitta",
+      "dn30/de/sabbamitta",
       "an4.198/de/sabbamitta"
     ],
     "mlDocs": [
@@ -122,6 +126,38 @@
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn30",
+        "lang": "de",
+        "segMap": {
+          "dn30:2.16.2": {
+            "scid": "dn30:2.16.2",
+            "pli": "musāvādaṁ pahāya musāvādā paṭivirato ahosi, saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Er gab das Lügen auf. Er <span class=\"scv-matched\">sagte die Wahrheit und hielt sich an die Wahrheit</span>. Er war ehrlich und vertrauenswürdig und legte die Welt nicht mit seinen Worten herein. ",
+            "en": "He refrained from lying. He spoke the truth and stuck to the truth. He was honest and trustworthy, and didn’t trick the world with his words. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 721,
+          "de": 716,
+          "en": 720
         }
       }
     ]

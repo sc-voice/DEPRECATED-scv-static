@@ -3,7 +3,7 @@
   "volume": "Seeker.slowGrep",
   "args": [
     {
-      "pattern": "\\bas long as a finger",
+      "pattern": "\\bfinger-snap",
       "maxResults": 1000,
       "lang": "en",
       "root": "local/bilara-data",
@@ -11,8 +11,8 @@
     }
   ],
   "value": [
-    "translation/en/sujato/sutta/an/an1/an1.51-60_translation-en-sujato.json:3",
-    "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json:2",
+    "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json:13",
+    "translation/en/sujato/sutta/an/an1/an1.51-60_translation-en-sujato.json:4",
     "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json:2",
     "translation/en/sujato/sutta/kn/thig/thig5.1_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thag/thag6.6_translation-en-sujato.json:1",

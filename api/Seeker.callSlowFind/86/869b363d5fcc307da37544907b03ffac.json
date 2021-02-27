@@ -32,14 +32,18 @@
     "pattern": "lachende.* weisheit",
     "method": "phrase",
     "resultPattern": "\\blachende.* weisheit",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.575-615_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.575-615_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an1/an1.575-615_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an1/an1.575-615_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an1.575-615/de/sabbamitta"
+      "an1.575-615/de/sabbamitta",
+      "dn30/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 52,
           "de": 51,
           "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn30",
+        "lang": "de",
+        "segMap": {
+          "dn30:1.26.6": {
+            "scid": "dn30:1.26.6",
+            "pli": "Mahāpañño hoti puthupañño hāsapañño javanapañño tikkhapañño nibbedhikapañño, nāssa hoti koci paññāya sadiso vā seṭṭho vā sabbasattānaṁ. ",
+            "de": "Er besitzt große Weisheit, umfassende Weisheit, <span class=\"scv-matched\">lachende Weisheit, flinke Weisheit, scharfe Weisheit und durchdringende Weisheit. Es gibt kein Lebewesen, das ihm an Weisheit</span> gleichkäme oder ihn überträfe. ",
+            "en": "He has great wisdom, widespread wisdom, laughing wisdom, swift wisdom, sharp wisdom, and penetrating wisdom. No sentient being is his equal or better in wisdom. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 721,
+          "de": 716,
+          "en": 720
         }
       }
     ]
