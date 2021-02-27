@@ -86,11 +86,11 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    '@nuxt/content',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxt/content',
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
