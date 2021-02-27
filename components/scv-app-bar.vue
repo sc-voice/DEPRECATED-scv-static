@@ -3,9 +3,10 @@
     <div class="scv-nav-app-title">
       <img :src="imgUrl" class="scv-nav-img"
         @click="clickHome()"
-      />
+      ></img>
       <div class="scv-nav-title"
-        @click="clickHome()">
+        @click="clickHome()"
+      >
         {{title}}
       </div>
     </div>
@@ -48,7 +49,7 @@ export default {
   },
   methods:{
     clickHome() {
-      location.href = "/";
+      this.$route !== "/" && this.$router.replace("/");
     },
     clickPageTop() {
         let elt = document.getElementById("scv-search-field");
