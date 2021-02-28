@@ -17,7 +17,11 @@
 <script>
   export default {
     async asyncData({ $content, params }) {
-      const article = await $content(params.slug).fetch()
+      console.log('params', params);
+      const contentSlug = $content(params.slug);
+      console.log('contentSlug', $content, contentSlug);
+      const article = await contentSlug.fetch()
+      console.log('article', article);
 
       return { article }
     },
