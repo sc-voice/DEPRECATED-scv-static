@@ -21,9 +21,7 @@ var routerBase;
 var babelCompact;
 if (!routerBase) {
     let BABEL_ENV = process.env.BABEL_ENV;
-    routerBase = BABEL_ENV === 'deploy' 
-        ? `/${appName}/`
-        : '/test/';
+    routerBase = `/${appName}/`;
     babelCompact = BABEL_ENV === 'deploy' ? true : false;
     console.log(`nuxt.config.js`, JSON.stringify({routerBase, BABEL_ENV, babelCompact}));
 }
@@ -161,6 +159,8 @@ export default {
     routes: [
         'wiki/2021-02-27',
         'blog/2021-02-25',
+        '_content/articles/2021-02-25',
+        '_content/2021-02-27',
     ],
   },
 

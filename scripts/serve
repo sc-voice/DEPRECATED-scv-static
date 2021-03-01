@@ -4,11 +4,12 @@ const http = require('http');
 const express = require('express');
 const app = module.exports = express();
 
-app.use('/test', express.static('dist'))
+const ROOT='scv-static';
+app.use(`/${ROOT}`, express.static('dist'))
 
 
 const PORT = 3000;
 app.listen(PORT, ()=>{
-    console.log(`listening on http://localhost:${PORT}/test`);
+    console.log(`listening on http://localhost:${PORT}/${ROOT}`);
 });
 

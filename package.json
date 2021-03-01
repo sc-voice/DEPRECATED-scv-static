@@ -11,7 +11,7 @@
   "dependencies": {
     "@nuxt/content": "^1.13.1",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
+    "nuxt": "^2.14.7",
     "vue-cookie": "^1.1.4",
     "vue-details": "^1.0.9"
   },
