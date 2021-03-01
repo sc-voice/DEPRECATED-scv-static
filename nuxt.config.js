@@ -162,6 +162,13 @@ export default {
         '_content/articles/2021-02-25',
         '_content/2021-02-27',
     ],
+    cache: false,
+    crawler: true,
+    dir: 'dist',
+    devtools: false,
+    exclude: [],
+    fallback: '404.html',
+    subFolders: true,
   },
 
 }

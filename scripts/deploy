@@ -13,12 +13,10 @@ else
   exit -1
 fi
 
-echo -e "DEPLOY\t: nuxt generate"
 export BABEL_ENV=deploy
 npm run version:nuxt
 npm run generate 2>&1
 
-echo -e "DEPLOY\t: deploying to static Github pages (gh-pages)"
 npm run deploy:branch &&\
 git push &&\
 find dist &&\
