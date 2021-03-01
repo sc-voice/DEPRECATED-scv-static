@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo -e "DEPLOY\t: start"
+
+echo -e "DEPLOY\t: checking git..."
 git checkout package-lock.json
 git status 2> /dev/null | grep "nothing to commit"; RC=$?
 if [ "$RC" == "0" ]; then
@@ -10,11 +13,15 @@ else
   exit -1
 fi
 
+echo -e "DEPLOY\t: nuxt generate"
 export BABEL_ENV=deploy
-npm run generate &&\
+npm run version:nuxt
+npm run generate 2>&1
+
+echo -e "DEPLOY\t: deploying to static Github pages (gh-pages)"
 npm run deploy:branch &&\
 git push &&\
 find dist &&\
-RC=?$
+RC=$?
 
 echo -e "DEPLOY\t: done => $RC"
