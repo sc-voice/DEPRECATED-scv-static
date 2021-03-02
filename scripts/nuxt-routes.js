@@ -23,5 +23,5 @@ var routes = files.reduce((a,f)=> {
 }, []);
 
 let routesPath = path.join(APP_DIR, 'nuxt-routes.json');
-console.log(`routes: ', routes);
+console.log('routes: ', routes);
 fs.writeFileSync(routesPath, JSON.stringify(routes, null, '\t'));
