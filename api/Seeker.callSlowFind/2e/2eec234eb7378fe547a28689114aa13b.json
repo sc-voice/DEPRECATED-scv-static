@@ -32,7 +32,7 @@
     "pattern": "kraft der weisheit",
     "method": "phrase",
     "resultPattern": "\\bkraft der weisheit",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
@@ -256,6 +256,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.394-574",
+        "lang": "de",
+        "segMap": {
+          "an1.423:1.1": {
+            "scid": "an1.423:1.1",
+            "pli": "paññābalaṁ bhāveti …. ",
+            "de": "wenn sie die <span class=\"scv-matched\">Kraft der Weisheit</span> entwickelt, und sei es nur für die Dauer eines Fingerschnippens … ",
+            "en": "the power of wisdom, even for the time of a finger-snap … ",
+            "matched": true
+          },
+          "an1.504:1.1": {
+            "scid": "an1.504:1.1",
+            "pli": "paññābalaṁ bhāveti …. ",
+            "de": "die <span class=\"scv-matched\">Kraft der Weisheit</span> zusammen mit der ersten Vertiefung … ",
+            "en": "the power of wisdom together with the first absorption … ",
+            "matched": true
+          },
+          "an1.574:1.1": {
+            "scid": "an1.574:1.1",
+            "pli": "paññābalaṁ bhāveti. ",
+            "de": "sie entwickelt die <span class=\"scv-matched\">Kraft der Weisheit</span> zusammen mit Gleichmut. ",
+            "en": "the power of wisdom. ",
+            "matched": true
+          }
+        },
+        "score": 3.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 1\n29. Noch ein Kapitel über ein Fingerschnippen\n394–574",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 176,
+          "de": 175,
+          "en": 175
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.153_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.153_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.153_translation-en-sujato.json"
@@ -330,45 +376,6 @@
           "pli": 23,
           "de": 22,
           "en": 22
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an1.394-574",
-        "lang": "de",
-        "segMap": {
-          "an1.423:1.1": {
-            "scid": "an1.423:1.1",
-            "pli": "paññābalaṁ bhāveti …. ",
-            "de": "wenn sie die <span class=\"scv-matched\">Kraft der Weisheit</span> entwickelt, und sei es nur für die Dauer eines Fingerschnippens … ",
-            "en": "the power of wisdom, even for the time of a finger-snap … ",
-            "matched": true
-          },
-          "an1.504:1.1": {
-            "scid": "an1.504:1.1",
-            "pli": "paññābalaṁ bhāveti …. ",
-            "de": "die <span class=\"scv-matched\">Kraft der Weisheit</span> zusammen mit der ersten Vertiefung … ",
-            "en": "the power of wisdom together with the first absorption … ",
-            "matched": true
-          }
-        },
-        "score": 2.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 1\n29. Noch ein Kapitel über ein Fingerschnippen\n394–574",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 176,
-          "de": 176,
-          "en": 175
         }
       },
       {

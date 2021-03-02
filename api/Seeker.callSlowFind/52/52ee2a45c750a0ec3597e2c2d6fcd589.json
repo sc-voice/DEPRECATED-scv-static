@@ -69,7 +69,7 @@
             "matched": true
           }
         },
-        "score": 2.008,
+        "score": 2.009,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
@@ -77,7 +77,7 @@
         "segsMatched": 2,
         "langSegs": {
           "pli": 235,
-          "de": 200,
+          "de": 204,
           "en": 233
         }
       }
