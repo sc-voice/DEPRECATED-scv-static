@@ -477,7 +477,84 @@ summary:focus {
 .v-btn:focus-within {
   background-color: var(--scv-focus-background-color-light);
 }
+
 .scv-article {
   padding: 1em;
   padding-bottom: 20em;
+  font-size: 14px;
+  xcolor: #232323;
+  xbackground-color: #FBFAF7;
+}
+.scv-wiki-heading {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+.scv-wiki-heading img {
+  margin-right: 1em;
+  height: 175px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nuxt-content a {
+  color: var(--scv-color-light) !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nuxt-content a:hover,
+.nuxt-content a:focus {
+  color: var(--scv-focus-color-light) !important;
+  text-decoration: underline;
+}
+.nuxt-content nav {
+  font-size: 12px;
+  margin-top: 1em;
+}
+.nuxt-content {
+}
+.nuxt-content h1,h2,h3,h4,h5,h6 {
+  margin: 36px 0 10px;
+}
+.nuxt-content h1,h2,h3,h4,h5 {
+  font-family: var(--scv-sans-font);
+  margin-top: 1.5em;
+}
+.nuxt-content h1,h2,h3 {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+.nuxt-content h1 {
+  font-size: 24px;
+  margin-top: 0em;
+}
+.nuxt-content h3 {
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.nuxt-content p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.scv-toc {
+  margin: 1em;
+}
+.scv-toc-item a {
+  display: flex;
+  flex-flow: row wrap;
+  align-item: flex-start;
+}
+.scv-toc-item-text {
+  margin-left: 1em;
+}
+.scv-toc-item-subtitle {
+  font-size: smaller;
+  font-weight: 400;
 }

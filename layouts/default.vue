@@ -8,6 +8,9 @@
         <v-btn icon to="/components" class="scv-icon-btn" >
           <menu-icon class="scv-settings-icon"/>
         </v-btn>
+        <v-btn icon to="/wiki" class="scv-icon-btn" >
+          <information-variant-icon class="scv-settings-icon"/>
+        </v-btn>
         <scv-settings :js="js" 
           :monolingual="monolingual"
           :version="`version ${version}`"
@@ -31,6 +34,7 @@ import Logo from '~/components/logo.vue';
 const { version } = require('~/package.json');
 import HomeIcon from 'vue-material-design-icons/Home.vue';
 import MenuIcon from 'vue-material-design-icons/Menu.vue';
+import InformationVariantIcon from 'vue-material-design-icons/InformationVariant.vue';
 import MonitorIcon from 'vue-material-design-icons/Monitor.vue';
 import { ScvVue } from '../index';
 let {
@@ -47,6 +51,7 @@ export default {
   components: {
     Logo,
     HomeIcon,
+    InformationVariantIcon,
     MenuIcon,
     MonitorIcon,
     ScvCursor,

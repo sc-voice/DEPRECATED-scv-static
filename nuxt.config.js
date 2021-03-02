@@ -14,6 +14,7 @@ import pt from './src/i18n/pt.ts'
 import ro from './src/i18n/ro.ts'
 import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
+import routes from './nuxt-routes.json'
 
 var { name } = require('./package.json');
 var appName = name.split('/').filter(n=>n.length).pop();
@@ -156,12 +157,13 @@ export default {
   },
 
   generate: {
-    routes: [
-        'wiki/2021-02-27',
-        'blog/2021-02-25',
-        '_content/articles/2021-02-25',
-        '_content/2021-02-27',
-    ],
+    //routes: [
+        //'wiki/2021-02-27',
+        //'blog/2021-02-25',
+        //'_content/articles/2021-02-25',
+        //'_content/2021-02-27',
+    //],
+    routes,
     cache: false,
     crawler: true,
     dir: 'dist',
