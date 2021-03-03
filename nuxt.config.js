@@ -157,12 +157,6 @@ export default {
   },
 
   generate: {
-    //routes: [
-        //'wiki/2021-02-27',
-        //'blog/2021-02-25',
-        //'_content/articles/2021-02-25',
-        //'_content/2021-02-27',
-    //],
     routes,
     cache: false,
     crawler: true,

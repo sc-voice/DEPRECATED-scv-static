@@ -550,6 +550,7 @@ summary:focus {
   display: flex;
   flex-flow: row wrap;
   align-item: flex-start;
+  margin-top: 0.4em;
 }
 .scv-toc-item-text {
   margin-left: 1em;

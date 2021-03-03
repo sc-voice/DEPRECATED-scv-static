@@ -8,7 +8,7 @@
         :aria-label="$t('ariaMore')"
         :aria-expanded="moreVisible"
         class="scv-icon-btn" :style="cssProps" >
-        <cog-icon class="scv-settings-icon"/>
+        <v-icon size="20px" class="scv-settings-icon">{{mdiCog}}</v-icon>
     </v-btn>
     <v-sheet light>
     <ul light class="scv-more-menu" 
@@ -293,11 +293,13 @@
 import Vue from "vue";
 import 'vue-material-design-icons/styles.css';
 import ScvCheckbox from './scv-checkbox.vue';
-import CogIcon from 'vue-material-design-icons/Cog.vue';
 import FormatAlignJustifyIcon from 'vue-material-design-icons/FormatAlignJustify.vue';
 import FormatColumnsIcon from 'vue-material-design-icons/FormatColumns.vue';
 import RobotOutlineIcon from 'vue-material-design-icons/RobotOutline.vue';
 import VolumeHighIcon from 'vue-material-design-icons/VolumeHigh.vue';
+import {
+  mdiCog,
+} from "@mdi/js";
 const {
   Settings,
   BilaraWeb,
@@ -306,7 +308,6 @@ const {version } = require('../package.json');
 
 export default {
   components: {
-    CogIcon,
     FormatColumnsIcon,
     RobotOutlineIcon,
     VolumeHighIcon,
@@ -329,6 +330,7 @@ export default {
       openDetail: null,
       languages: Settings.WEB_LANGUAGES,
       moreFocus: null,
+      mdiCog,
     };
   },
   mounted() {

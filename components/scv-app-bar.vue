@@ -12,22 +12,43 @@
     </div>
     <div class="scv-nav-app-icons">
       <slot></slot>
+      <v-btn icon to="/suttas" class="scv-icon-btn" >
+        <v-icon dark>{{mdiMagnify}}</v-icon>
+      </v-btn>
+      <v-btn icon to="/wiki" class="scv-icon-btn" >
+        <v-icon dark>{{mdiWikipedia}}</v-icon>
+      </v-btn>
+      <scv-settings :js="js" 
+        :monolingual="monolingual"
+        :version="`version ${version}`"
+      />
     </div>
   </div>
 </template>
 
 <script>
 import {
-  mdiChevronLeft,
-  mdiChevronRight,
-  mdiChevronUp,
-  mdiChevronDown,
+  mdiMagnify,
+  mdiWikipedia,
 } from '@mdi/js';
+import { version } from '@/package.json';
+const JS = {
+  BilaraWeb: require('../src/bilara-web'),
+  Tipitaka: require('scv-bilara/src/tipitaka'),
+}
 
 export default {
   components: {
   },
   props: {
+    version: {
+      type: String,
+      default: version,
+    },
+    monolingual : {
+      type: String,
+      default: null,
+    },
     title: {
       type: String,
       default: "scv-static",
@@ -39,10 +60,8 @@ export default {
   },
   data: function(){
     return {
-      mdiChevronLeft,
-      mdiChevronRight,
-      mdiChevronUp,
-      mdiChevronDown,
+      mdiMagnify,
+      mdiWikipedia,
     };
   },
   async mounted() {
@@ -103,6 +122,9 @@ export default {
     },
     history() {
       return this.$store.state.scv.settings.history;
+    },
+    js() { 
+      return JS;
     },
   },
 }

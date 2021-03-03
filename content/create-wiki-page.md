@@ -1,5 +1,5 @@
 ---
-title: Wiki pages
+title: Create a wiki page
 description: Learn how to create a wiki page
 img: rktkn-iGj6MTyjC3M-unsplash.png
 imgSrc: https://unsplash.com/photos/iGj6MTyjC3M
