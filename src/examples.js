@@ -281,6 +281,7 @@
     "Teich mit blauen Seerosen",
     "Traurigkeit, die mit Gier, Hass und Täuschung",
     "Traurigkeit, die mit Sinnlichkeit",
+    "tut ein Hausbesitzer genug",
     "über das Leiden hinaus",
     "um die Wesen zu läutern",
     "Umfang der Weisheit",
