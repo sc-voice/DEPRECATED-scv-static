@@ -32,8 +32,11 @@
     "pattern": "abnehmend",
     "method": "phrase",
     "resultPattern": "\\babnehmend",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.33_translation-en-sujato.json",
@@ -45,19 +48,55 @@
       "translation/en/sujato/sutta/sn/sn12/sn12.28_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.27_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.27_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.27_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn31/de/sabbamitta",
       "sn12.33/de/sabbamitta",
       "sn12.2/de/sabbamitta",
       "sn12.28/de/sabbamitta",
-      "sn12.27/de/sabbamitta",
-      "dn31/de/sabbamitta"
+      "sn12.27/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn31",
+        "lang": "de",
+        "segMap": {
+          "dn31:6.4": {
+            "scid": "dn31:6.4",
+            "pli": "kāḷapakkheva candimā. ",
+            "de": "wie der <span class=\"scv-matched\">abnehmend</span>e Mond. ",
+            "en": "like the moon in the waning fortnight. ",
+            "matched": true
+          },
+          "dn31:14.20": {
+            "scid": "dn31:14.20",
+            "pli": "Nihīyate kāḷapakkheva cando. ",
+            "de": "Sie schwinden dahin wie der <span class=\"scv-matched\">abnehmend</span>e Mond. ",
+            "en": "they diminish like the waning moon. ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 31\nRat für Sigālaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 267,
+          "de": 264,
+          "en": 266
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.27_root-pli-ms.json",
@@ -184,38 +223,6 @@
           "pli": 79,
           "de": 78,
           "en": 78
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn31",
-        "lang": "de",
-        "segMap": {
-          "dn31:14.20": {
-            "scid": "dn31:14.20",
-            "pli": "Nihīyate kāḷapakkheva cando. ",
-            "de": "Sie schwinden dahin wie der <span class=\"scv-matched\">abnehmend</span>e Mond. ",
-            "en": "they diminish like the waning moon. ",
-            "matched": true
-          }
-        },
-        "score": 1.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 31\nRat für Sigālaka",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 267,
-          "de": 264,
-          "en": 266
         }
       }
     ]
