@@ -32,8 +32,11 @@
     "pattern": "um die wesen zu läutern",
     "method": "phrase",
     "resultPattern": "\\bum die wesen zu läutern",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn47/sn47.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.1_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -51,6 +54,7 @@
       "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn47.1/de/sabbamitta",
       "mn10/de/sabbamitta",
       "an6.30/de/sabbamitta",
       "an6.26/de/sabbamitta",
@@ -58,6 +62,45 @@
       "an3.74/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.1",
+        "lang": "de",
+        "segMap": {
+          "sn47.1:2.1": {
+            "scid": "sn47.1:2.1",
+            "pli": "“Ekāyanvāyaṁ, bhikkhave, maggo sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ—cattāro satipaṭṭhānā. ",
+            "de": "„Mönche und Nonnen, die vier Arten der Achtsamkeitsmeditation sind der Pfad zum Zusammenfließen: <span class=\"scv-matched\">um die Wesen zu läutern</span>, Kummer und Weinen zu überwinden, Schmerz und Traurigkeit ein Ende zu machen, den Kreislauf des Leidens zu beenden und das Erlöschen zu verwirklichen. ",
+            "en": "“Mendicants, the four kinds of mindfulness meditation are the path to convergence. They are in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to end the cycle of suffering, and to realize extinguishment. ",
+            "matched": true
+          },
+          "sn47.1:2.7": {
+            "scid": "sn47.1:2.7",
+            "pli": "Ekāyanvāyaṁ, bhikkhave, maggo sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ—cattāro satipaṭṭhānā”ti. ",
+            "de": "Die vier Arten der Achtsamkeitsmeditation sind der Pfad zum Zusammenfließen: <span class=\"scv-matched\">um die Wesen zu läutern</span>, Kummer und Weinen zu überwinden, Schmerz und Traurigkeit ein Ende zu machen, den Kreislauf des Leidens zu beenden und das Erlöschen zu verwirklichen.“ ",
+            "en": "The four kinds of mindfulness meditation are the path to convergence. They are in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to end the cycle of suffering, and to realize extinguishment.” ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n1. In Ambapālīs Wald\n1. In Ambapālīs Wald",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.194_root-pli-ms.json",

@@ -32,7 +32,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 38,
+    "segsMatched": 39,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -115,6 +118,7 @@
       "mn7/de/sabbamitta",
       "mn2/de/sabbamitta",
       "dn34/de/sabbamitta",
+      "dn32/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an6.58/de/sabbamitta",
       "an5.140/de/sabbamitta",
@@ -937,6 +941,38 @@
           "pli": 444,
           "de": 359,
           "en": 443
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn32",
+        "lang": "de",
+        "segMap": {
+          "dn32:9.1": {
+            "scid": "dn32:9.1",
+            "pli": "Santi hi, mārisa, amanussā caṇḍā ruddhā rabhasā, te neva mahārājānaṁ ādiyanti, na mahārājānaṁ purisakānaṁ ādiyanti, na mahārājānaṁ purisakānaṁ purisakānaṁ ādiyanti. ",
+            "de": "Denn, lieber Herr, es gibt nicht-menschliche Wesen, die grimmig, <span class=\"scv-matched\">grausam</span> und gewalttätig sind. Sie gehorchen den Großen Königen oder ihren Männern oder den Männern ihrer Männer nicht. ",
+            "en": "For there are, dear sir, non-humans who are fierce, cruel, and violent. They don’t obey the Great Kings or their men or their men’s men. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 32\nDer Āṭānāṭiya-Schutz\n1. Der erste Abschnitt zum Aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 574,
+          "de": 291,
+          "en": 573
         }
       },
       {

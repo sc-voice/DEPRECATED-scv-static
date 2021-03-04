@@ -32,7 +32,7 @@
     "pattern": "ausgeht und zurückkommt",
     "method": "phrase",
     "resultPattern": "\\bausgeht und zurückkommt",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.105_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.105_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an4/an4.103_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.103_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.103_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.2_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "an4.105/de/sabbamitta",
       "an4.104/de/sabbamitta",
       "an4.103/de/sabbamitta",
+      "sn47.2/de/sabbamitta",
       "mn10/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an4.198/de/sabbamitta"
@@ -219,6 +223,38 @@
           "pli": 42,
           "de": 41,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.2",
+        "lang": "de",
+        "segMap": {
+          "sn47.2:3.2": {
+            "scid": "sn47.2:3.2",
+            "pli": "Idha, bhikkhave, bhikkhu abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. ",
+            "de": "Da handelt ein Mönch umsichtig, wenn er <span class=\"scv-matched\">ausgeht und zurückkommt</span>, wenn er hin- und wegschaut, wenn er die Glieder beugt und streckt, wenn er die äußere Robe, die Schale und die Roben trägt, wenn er isst, trinkt, kaut und schmeckt, wenn er Blase und Darm entleert, wenn er geht, steht, sitzt, schläft und wacht, redet und schweigt. ",
+            "en": "It’s when a mendicant acts with situational awareness when going out and coming back; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n1. In Ambapālīs Wald\n2. Achtsam",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "de": 21,
+          "en": 21
         }
       },
       {
