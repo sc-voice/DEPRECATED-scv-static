@@ -1,36 +1,28 @@
 <template>
   <div class="nuxt-content scv-toc">
     <h1>Wiki Contents</h1>
-    <div v-for="article of articles" 
-      :key="article.slug" 
-      v-if="article.title"
-      class="scv-toc-item">
-      <NuxtLink :to="{ name: 'wiki-slug', params: { slug: article.slug } }">
-        <img :src="article.img" style="height:50px"/>
-        <div class="scv-toc-item-text">
-          <div class="scv-toc-item-title">
-            {{ article.title }}
-          </div>
-          <div class="scv-toc-item-subtitle">
-            {{ article.description }}
-          </div>
-        </div>
-      </NuxtLink>
-    </div><!-- scv-toc-item -->
+    <scv-article-items :article="article" :items="items"/>
   </div>
 </template>
 <script>
+  import ScvArticleItems from '@/components/scv-article-items';
   export default {
     async asyncData({ $content, params }) {
-      const articles = await $content()
+      const items = await $content('wiki')
         .only(['title', 'description', 'img', 'slug', 'author'])
-        .sortBy('createdAt', 'asc')
+        .sortBy('title', 'asc')
         .fetch()
 
       return {
-        articles
+        items,
+        article: {
+          slugDir: 'wiki',
+        },
       }
-    }
+    },
+    components: {
+      ScvArticleItems,
+    },
   }
 </script>
 <style>

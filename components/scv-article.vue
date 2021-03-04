@@ -8,8 +8,8 @@
         <div class="text-caption" >
           <NuxtLink to="/wiki">Wiki</NuxtLink>
           &gt;
-          <span v-if="dir">
-            <NuxtLink :to="`/wiki/${dir}-index`">{{ dir }}</NuxtLink>
+          <span v-if="dir && dir !== 'wiki'">
+            <NuxtLink :to="`/wiki/${dir}`">{{ dir }}</NuxtLink>
             &gt;
           </span>
           {{pagePath}}
@@ -35,29 +35,15 @@
 
     <nuxt-content :document="article" />
 
-    <div v-if="article.slugDir"
-      <div v-for="item of items" 
-        :key="item.slug" 
-        v-if="item.title"
-        class="scv-toc-item">
-        <NuxtLink :to="itemLink(item)">
-          <img :src="item.img" style="height:50px"/>
-          <div class="scv-toc-item-text">
-            <div class="scv-toc-item-title">
-              {{ item.title }}
-            </div>
-            <div class="scv-toc-item-subtitle">
-              {{ item.description }}
-            </div>
-          </div>
-        </NuxtLink>
-      </div><!-- scv-toc-item -->
-    </div> <!-- article.slugDir -->
-
+    <scv-article-items :article="article" :items="items" />
   </article>
 </template>
 <script>
+  import ScvArticleItems from './scv-article-items';
   export default {
+    components: {
+      ScvArticleItems,
+    },
     props: {
       article: {
         type: Object,
@@ -77,7 +63,17 @@
       const { article, $content } = this;
       const { slugDir } = article;
       if (slugDir) {
-        this.items = await $content(slugDir).fetch();
+        let items = await $content(slugDir)
+          .only(['title', 'description', 'img', 'slug', 'order', 'author'])
+          .fetch();
+
+        this.items = items.sort((a,b) => {
+          let cmp = Number(a.order ?? 9999) - Number(b.order ?? 9999);
+          if (cmp) {
+            return cmp;
+          }
+          return a.title.toLowerCase().localeCompare(b.title.toLowerCase);
+        });
       }
     },
     methods: {

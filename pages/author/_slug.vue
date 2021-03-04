@@ -4,10 +4,12 @@
   </scv-article>
 </template>
 <script>
+  import ScvArticle from '@/components/scv-article';
   export default {
     async asyncData({ $content, params }) {
-      const article = await $content('wiki', params.slug).fetch();
-      return { article };
+      const article = await $content('author', params.slug).fetch()
+      return { article }
     },
+    components: { ScvArticle, },
   }
 </script>
