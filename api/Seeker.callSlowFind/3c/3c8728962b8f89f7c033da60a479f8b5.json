@@ -32,14 +32,18 @@
     "pattern": "weit weg von der tollen menge",
     "method": "phrase",
     "resultPattern": "\\bweit weg von der tollen menge",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn25/de/sabbamitta"
+      "dn25/de/sabbamitta",
+      "dn32/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 383,
           "de": 347,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn32",
+        "lang": "de",
+        "segMap": {
+          "dn32:2.13": {
+            "scid": "dn32:2.13",
+            "pli": "Santi hi, bhante, bhagavato sāvakā araññavanapatthāni pantāni senāsanāni paṭisevanti appasaddāni appanigghosāni vijanavātāni manussarāhasseyyakāni paṭisallānasāruppāni. ",
+            "de": "Herr, es gibt Schülerinnen und Schüler des Buddha, die abgelegene Unterkünfte in der Wildnis und im Wald aufsuchen, die ruhig und still sind, <span class=\"scv-matched\">weit weg von der tollen Menge</span>, fern von menschlichen Siedlungen und für die Klausur geeignet. ",
+            "en": "Sir, there are disciples of the Buddha who frequent remote lodgings in the wilderness and the forest that are quiet and still, far from the madding crowd, remote from human settlements, and fit for retreat. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 32\nDer Āṭānāṭiya-Schutz\n1. Der erste Abschnitt zum Aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 574,
+          "de": 291,
+          "en": 573
         }
       }
     ]

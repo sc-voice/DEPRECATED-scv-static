@@ -32,7 +32,7 @@
     "pattern": "zu töten",
     "method": "phrase",
     "resultPattern": "\\bzu töten",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.174_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.174_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.174_translation-en-sujato.json"
@@ -67,6 +70,7 @@
       "sn45.8/de/sabbamitta",
       "kp2/de/sabbamitta",
       "dn34/de/sabbamitta",
+      "dn32/de/sabbamitta",
       "an5.174/de/sabbamitta"
     ],
     "mlDocs": [
@@ -320,6 +324,38 @@
           "pli": 44,
           "de": 43,
           "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn32",
+        "lang": "de",
+        "segMap": {
+          "dn32:2.10": {
+            "scid": "dn32:2.10",
+            "pli": "Bhagavā hi, bhante, pāṇātipātā veramaṇiyā dhammaṁ deseti, adinnādānā veramaṇiyā dhammaṁ deseti, kāmesumicchācārā veramaṇiyā dhammaṁ deseti, musāvādā veramaṇiyā dhammaṁ deseti, surāmerayamajjappamādaṭṭhānā veramaṇiyā dhammaṁ deseti. ",
+            "de": "Weil der Buddha sie lehrt, keine lebenden Geschöpfe <span class=\"scv-matched\">zu töten</span>, nicht zu stehlen, keine sexuellen Verfehlungen zu begehen und keinen Alkohol zu trinken. ",
+            "en": "Because the Buddha teaches them to refrain from killing living creatures, stealing, lying, sexual misconduct, and drinking alcohol. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 32\nDer Āṭānāṭiya-Schutz\n1. Der erste Abschnitt zum Aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 574,
+          "de": 291,
+          "en": 573
         }
       },
       {
