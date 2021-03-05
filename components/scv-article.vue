@@ -20,7 +20,9 @@
             {{ article.description }} 
           </summary>
           <div class="ml-5">
-            <div class="text-caption" >updated: {{date(article.updatedAt)}}</div>
+            <div class="text-caption" >
+              updated: {{date(article.updatedAt)}} ({{language}})
+            </div>
             <nav v-if="article.toc">
               <ul>
                 <li v-for="link of article.toc" :key="link.id">
@@ -31,6 +33,9 @@
           </div>
         </details>
       </div>
+    </div>
+    <div v-if="article.link" class="scv-article-link">
+      <a :href="article.link">{{article.link}}</a>
     </div>
 
     <nuxt-content :document="article" />
@@ -78,7 +83,7 @@
     },
     methods: {
       date(d) {
-        return (new Date(d)).toLocaleDateString();
+        return (new Date(d)).toLocaleDateString(navigator.language);
       },
       itemLink(item) {
         let { article } = this;
@@ -91,6 +96,9 @@
     computed: {
       dir() {
         return this.article.dir.replace('/','');
+      },
+      language() {
+        return navigator.language;
       },
       imgSrc() {
         let { article={} } = this;

@@ -511,6 +511,7 @@ summary:focus {
 }
 .nuxt-content h1,h2,h3,h4,h5,h6 {
   margin: 36px 0 10px;
+  font-weight: 600;
 }
 .nuxt-content h1,h2,h3,h4,h5 {
   font-family: var(--scv-sans-font);
@@ -520,7 +521,6 @@ summary:focus {
   display: block;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
-  font-weight: normal;
 }
 .nuxt-content h1 {
   font-size: 24px;
@@ -564,5 +564,9 @@ summary:focus {
   border-top-left-radius: 0.5em;
 }
 .scv-thumbnail img {
-  height: 4em;
+  height: 4.5em;
+}
+.scv-article-link a {
+  font-size: 18px;
+  font-weight: 400;
 }
