@@ -80,7 +80,6 @@
           },
           "an3.70:18.10": {
             "scid": "an3.70:18.10",
-            "pli": "Ayaṁ vuccati, visākhe, ‘ariyasāvako devatuposathaṁ upavasati, devatāhi saddhiṁ saṁvasati, devatā ārabbha cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti’. ",
             "en": "This is called: ‘A noble disciple who <span class=\"scv-matched\">observes the sabbath</span> of the deities, living together with the deities. And because they think of the deities their mind becomes clear, joy arises, and mental corruptions are given up.’ ",
             "matched": true
           }
@@ -92,7 +91,7 @@
         "title": "Numbered Discourses 3\n7. The Great Chapter\n70. Sabbath",
         "segsMatched": 5,
         "langSegs": {
-          "pli": 238,
+          "pli": 234,
           "en": 232
         }
       },

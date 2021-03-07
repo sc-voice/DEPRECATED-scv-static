@@ -92,7 +92,7 @@
           },
           "an5.139:2.3": {
             "scid": "an5.139:2.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti rūpānaṁ. #1",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti rūpānaṁ. (1) ",
             "en": "That’s how a royal bull elephant can’t endure sights. ",
             "matched": true
           },
@@ -104,7 +104,7 @@
           },
           "an5.139:3.3": {
             "scid": "an5.139:3.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti saddānaṁ. #2",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti saddānaṁ. (2) ",
             "en": "That’s how a royal bull elephant can’t endure sounds. ",
             "matched": true
           },
@@ -116,7 +116,7 @@
           },
           "an5.139:4.3": {
             "scid": "an5.139:4.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti gandhānaṁ. #3",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti gandhānaṁ. (3) ",
             "en": "That’s how a royal bull elephant can’t endure smells. ",
             "matched": true
           },
@@ -128,7 +128,7 @@
           },
           "an5.139:5.3": {
             "scid": "an5.139:5.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti rasānaṁ. #4",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti rasānaṁ. (4) ",
             "en": "That’s how a royal bull elephant can’t endure tastes. ",
             "matched": true
           },
@@ -140,7 +140,7 @@
           },
           "an5.139:6.3": {
             "scid": "an5.139:6.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti phoṭṭhabbānaṁ. #5",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo akkhamo hoti phoṭṭhabbānaṁ. (5) ",
             "en": "That’s how a royal bull elephant can’t endure touches. ",
             "matched": true
           },
@@ -158,7 +158,7 @@
           },
           "an5.139:9.3": {
             "scid": "an5.139:9.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti rūpānaṁ. #1",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti rūpānaṁ. (1) ",
             "en": "That’s how a mendicant can’t endure sights. ",
             "matched": true
           },
@@ -170,7 +170,7 @@
           },
           "an5.139:10.3": {
             "scid": "an5.139:10.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti saddānaṁ. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti saddānaṁ. (2) ",
             "en": "That’s how a mendicant can’t endure sounds. ",
             "matched": true
           },
@@ -182,7 +182,7 @@
           },
           "an5.139:11.3": {
             "scid": "an5.139:11.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti gandhānaṁ. #3",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti gandhānaṁ. (3) ",
             "en": "That’s how a mendicant can’t endure smells. ",
             "matched": true
           },
@@ -194,7 +194,7 @@
           },
           "an5.139:12.3": {
             "scid": "an5.139:12.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti rasānaṁ. #4",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti rasānaṁ. (4) ",
             "en": "That’s how a mendicant can’t endure tastes. ",
             "matched": true
           },
@@ -206,7 +206,7 @@
           },
           "an5.139:13.3": {
             "scid": "an5.139:13.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti phoṭṭhabbānaṁ. #5",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu akkhamo hoti phoṭṭhabbānaṁ. (5) ",
             "en": "That’s how a mendicant can’t endure touches. ",
             "matched": true
           },
@@ -224,7 +224,7 @@
           },
           "an5.139:16.3": {
             "scid": "an5.139:16.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti rūpānaṁ. #1",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti rūpānaṁ. (1) ",
             "en": "That’s how a royal bull elephant <span class=\"scv-matched\">can endure</span> sights. ",
             "matched": true
           },
@@ -236,7 +236,7 @@
           },
           "an5.139:17.3": {
             "scid": "an5.139:17.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti saddānaṁ. #2",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti saddānaṁ. (2) ",
             "en": "That’s how a royal bull elephant <span class=\"scv-matched\">can endure</span> sounds. ",
             "matched": true
           },
@@ -248,7 +248,7 @@
           },
           "an5.139:18.3": {
             "scid": "an5.139:18.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti gandhānaṁ. #3",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti gandhānaṁ. (3) ",
             "en": "That’s how a royal bull elephant <span class=\"scv-matched\">can endure</span> smells. ",
             "matched": true
           },
@@ -260,7 +260,7 @@
           },
           "an5.139:19.3": {
             "scid": "an5.139:19.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti rasānaṁ. #4",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti rasānaṁ. (4) ",
             "en": "That’s how a royal bull elephant <span class=\"scv-matched\">can endure</span> tastes. ",
             "matched": true
           },
@@ -272,7 +272,7 @@
           },
           "an5.139:20.3": {
             "scid": "an5.139:20.3",
-            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti phoṭṭhabbānaṁ. #5",
+            "pli": "Evaṁ kho, bhikkhave, rañño nāgo khamo hoti phoṭṭhabbānaṁ. (5) ",
             "en": "That’s how a royal bull elephant <span class=\"scv-matched\">can endure</span> touches. ",
             "matched": true
           },
@@ -290,7 +290,7 @@
           },
           "an5.139:23.3": {
             "scid": "an5.139:23.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti rūpānaṁ. #1",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti rūpānaṁ. (1) ",
             "en": "That’s how a mendicant <span class=\"scv-matched\">can endure</span> sights. ",
             "matched": true
           },
@@ -302,7 +302,7 @@
           },
           "an5.139:24.3": {
             "scid": "an5.139:24.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti saddānaṁ. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti saddānaṁ. (2) ",
             "en": "That’s how a mendicant <span class=\"scv-matched\">can endure</span> sounds. ",
             "matched": true
           },
@@ -314,7 +314,7 @@
           },
           "an5.139:25.3": {
             "scid": "an5.139:25.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti gandhānaṁ. #3",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti gandhānaṁ. (3) ",
             "en": "That’s how a mendicant <span class=\"scv-matched\">can endure</span> smells. ",
             "matched": true
           },
@@ -326,7 +326,7 @@
           },
           "an5.139:26.3": {
             "scid": "an5.139:26.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti rasānaṁ. #4",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti rasānaṁ. (4) ",
             "en": "That’s how a mendicant <span class=\"scv-matched\">can endure</span> tastes. ",
             "matched": true
           },
@@ -338,7 +338,7 @@
           },
           "an5.139:27.3": {
             "scid": "an5.139:27.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti phoṭṭhabbānaṁ. #5",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu khamo hoti phoṭṭhabbānaṁ. (5) ",
             "en": "That’s how a mendicant <span class=\"scv-matched\">can endure</span> touches. ",
             "matched": true
           }

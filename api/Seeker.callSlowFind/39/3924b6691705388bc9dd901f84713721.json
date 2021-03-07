@@ -266,8 +266,8 @@
         "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 284,
-          "en": 281
+          "pli": 266,
+          "en": 265
         }
       },
       {
@@ -310,8 +310,8 @@
         "sutta_uid": "mn77",
         "lang": "en",
         "segMap": {
-          "mn77:33.18": {
-            "scid": "mn77:33.18",
+          "mn77:33.2": {
+            "scid": "mn77:33.2",
             "pli": "Seyyathāpi, udāyi, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṁ mukhanimittaṁ paccavekkhamāno sakaṇikaṁ vā ‘sakaṇikan’ti jāneyya, akaṇikaṁ vā ‘akaṇikan’ti jāneyya; ",
             "en": "Suppose there was a woman or man who was young, youthful, and fond of adornments, <span class=\"scv-matched\">and they check their own reflection</span> in a clean bright mirror or a clear bowl of water. If they had a spot they’d know ‘I have a spot’, and if they had no spots they’d know ‘I have no spots’. ",
             "matched": true
@@ -324,8 +324,8 @@
         "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 390,
-          "en": 373
+          "pli": 352,
+          "en": 357
         }
       },
       {
@@ -353,8 +353,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       }
     ]

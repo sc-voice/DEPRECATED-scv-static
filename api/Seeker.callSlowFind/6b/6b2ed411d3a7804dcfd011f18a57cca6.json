@@ -158,14 +158,14 @@
             "matched": true
           }
         },
-        "score": 2.014,
+        "score": 2.013,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 146,
+          "pli": 145,
           "en": 144
         }
       },
@@ -310,7 +310,7 @@
         "title": "Middle Discourses 146\nAdvice from Nandaka",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 361,
+          "pli": 349,
           "en": 360
         }
       },
@@ -339,7 +339,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       }

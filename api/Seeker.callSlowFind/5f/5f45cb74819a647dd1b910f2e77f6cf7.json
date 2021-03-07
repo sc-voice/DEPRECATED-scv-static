@@ -178,13 +178,12 @@
           },
           "sn46.54:12.2": {
             "scid": "sn46.54:12.2",
-            "pli": "Idha, bhikkhave, bhikkhu mettāsahagataṁ satisambojjhaṅgaṁ bhāveti …pe… ",
+            "pli": "Idha, bhikkhave, bhikkhu mettāsahagataṁ satisambojjhaṅgaṁ bhāveti …pe… mettāsahagataṁ upekkhāsambojjhaṅgaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ. ",
             "en": "It’s when a mendicant develops the <span class=\"scv-matched\">heart’s release by love</span> together with the awakening factors of mindfulness, investigation of principles, energy, rapture, tranquility, immersion, ",
             "matched": true
           },
           "sn46.54:12.9": {
             "scid": "sn46.54:12.9",
-            "pli": "Subhaparamāhaṁ, bhikkhave, mettācetovimuttiṁ vadāmi, idhapaññassa bhikkhuno uttarivimuttiṁ appaṭivijjhato. ",
             "en": "The apex of the <span class=\"scv-matched\">heart’s release by love</span> is the beautiful, I say, for a mendicant who has not penetrated to a higher freedom. ",
             "matched": true
           }
@@ -196,7 +195,7 @@
         "title": "Linked Discourses 46\n6. Discussion\n54. Full of Love",
         "segsMatched": 4,
         "langSegs": {
-          "pli": 86,
+          "pli": 83,
           "en": 85
         }
       },
@@ -307,7 +306,7 @@
           },
           "an6.13:1.9": {
             "scid": "an6.13:1.9",
-            "pli": "Nissaraṇañhetaṁ, āvuso, byāpādassa yadidaṁ mettācetovimuttī’ti. #1",
+            "pli": "Nissaraṇañhetaṁ, āvuso, byāpādassa yadidaṁ mettācetovimuttī’ti. (1) ",
             "en": "For it is the <span class=\"scv-matched\">heart’s release by love</span> that is the escape from ill will.’ ",
             "matched": true
           }
@@ -348,7 +347,7 @@
           },
           "dn33:2.2.76": {
             "scid": "dn33:2.2.76",
-            "pli": "Nissaraṇaṁ hetaṁ, āvuso, byāpādassa, yadidaṁ mettā cetovimuttī’ti. #17.1 ",
+            "pli": "Nissaraṇaṁ hetaṁ, āvuso, byāpādassa, yadidaṁ mettā cetovimuttī’ti. (17.1) ",
             "en": "For it is the <span class=\"scv-matched\">heart’s release by love</span> that is the escape from ill will.’ ",
             "matched": true
           }
@@ -360,7 +359,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },
@@ -389,7 +388,7 @@
           },
           "dn34:1.7.41": {
             "scid": "dn34:1.7.41",
-            "pli": "Nissaraṇaṁ hetaṁ, āvuso, byāpādassa, yadidaṁ mettācetovimuttī’ti. #7.1 ",
+            "pli": "Nissaraṇaṁ hetaṁ, āvuso, byāpādassa, yadidaṁ mettācetovimuttī’ti. (7.1) ",
             "en": "For it is the <span class=\"scv-matched\">heart’s release by love</span> that is the escape from ill will.’ ",
             "matched": true
           }
@@ -401,7 +400,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       },
@@ -512,41 +511,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an1/an1.11-20_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an1/an1.11-20_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an1.11-20",
-        "lang": "en",
-        "segMap": {
-          "an1.17:1.1": {
-            "scid": "an1.17:1.1",
-            "pli": "“Nāhaṁ, bhikkhave, aññaṁ ekadhammampi samanupassāmi yena anuppanno vā byāpādo nuppajjati uppanno vā byāpādo pahīyati yathayidaṁ, bhikkhave, mettā cetovimutti. ",
-            "en": "“Mendicants, I do not see a single thing that prevents ill will from arising, or, when it has arisen, abandons it like the <span class=\"scv-matched\">heart’s release by love</span>. ",
-            "matched": true
-          },
-          "an1.17:1.2": {
-            "scid": "an1.17:1.2",
-            "pli": "Mettaṁ, bhikkhave, cetovimuttiṁ yoniso manasi karoto anuppanno ceva byāpādo nuppajjati uppanno ca byāpādo pahīyatī”ti. ",
-            "en": "When you attend properly on the <span class=\"scv-matched\">heart’s release by love</span>, ill will does not arise, or, if it has already arisen, it’s given up.” ",
-            "matched": true
-          }
-        },
-        "score": 2.045,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 1\n2. Giving Up the Hindrances\n11–20",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 44,
-          "en": 43
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.68_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.68_translation-en-sujato.json"
         ],
@@ -578,6 +542,41 @@
         "langSegs": {
           "pli": 47,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.11-20_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an1/an1.11-20_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.11-20",
+        "lang": "en",
+        "segMap": {
+          "an1.17:1.1": {
+            "scid": "an1.17:1.1",
+            "pli": "“Nāhaṁ, bhikkhave, aññaṁ ekadhammampi samanupassāmi yena anuppanno vā byāpādo nuppajjati uppanno vā byāpādo pahīyati yathayidaṁ, bhikkhave, mettā cetovimutti. ",
+            "en": "“Mendicants, I do not see a single thing that prevents ill will from arising, or, when it has arisen, abandons it like the <span class=\"scv-matched\">heart’s release by love</span>. ",
+            "matched": true
+          },
+          "an1.17:1.2": {
+            "scid": "an1.17:1.2",
+            "pli": "Mettaṁ, bhikkhave, cetovimuttiṁ yoniso manasi karoto anuppanno ceva byāpādo nuppajjati uppanno ca byāpādo pahīyatī”ti. ",
+            "en": "When you attend properly on the <span class=\"scv-matched\">heart’s release by love</span>, ill will does not arise, or, if it has already arisen, it’s given up.” ",
+            "matched": true
+          }
+        },
+        "score": 2.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 1\n2. Giving Up the Hindrances\n11–20",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 43,
+          "en": 43
         }
       },
       {
@@ -802,19 +801,18 @@
         "segMap": {
           "an1.398:1.1": {
             "scid": "an1.398:1.1",
-            "pli": "mettaṁ cetovimuttiṁ bhāveti …pe… ",
             "en": "or the <span class=\"scv-matched\">heart’s release by love</span> … ",
             "matched": true
           }
         },
-        "score": 1.006,
+        "score": 1.004,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger-Snap\n394–574",
+        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger Snap\n394–574",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 176,
+          "pli": 79,
           "en": 175
         }
       },

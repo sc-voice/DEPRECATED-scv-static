@@ -31,14 +31,10 @@
     "pattern": "the buddha kept silent",
     "method": "phrase",
     "resultPattern": "\\bthe buddha kept silent",
-    "segsMatched": 11,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn44/sn44.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.10_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga3/ud3.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.20_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.20_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.3_root-pli-ms.json",
@@ -50,8 +46,6 @@
     ],
     "suttaRefs": [
       "sn44.10/en/sujato",
-      "ud5.5/en/sujato",
-      "ud3.3/en/sujato",
       "an8.20/en/sujato",
       "sn7.3/en/sujato",
       "mn85/en/sujato",
@@ -126,76 +120,6 @@
         "langSegs": {
           "pli": 73,
           "en": 71
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga3/ud3.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.3_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud3.3",
-        "lang": "en",
-        "segMap": {
-          "ud3.3:12.6": {
-            "scid": "ud3.3:12.6",
-            "pli": "Evaṁ vutte, bhagavā tuṇhī ahosi.",
-            "en": "But <span class=\"scv-matched\">the Buddha kept silent</span>. ",
-            "matched": true
-          },
-          "ud3.3:13.6": {
-            "scid": "ud3.3:13.6",
-            "pli": "Dutiyampi kho bhagavā tuṇhī ahosi.",
-            "en": "But for a second time <span class=\"scv-matched\">the Buddha kept silent</span>. ",
-            "matched": true
-          }
-        },
-        "score": 2.024,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n3.3. With Yasoja",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 85,
-          "en": 69
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud5.5",
-        "lang": "en",
-        "segMap": {
-          "ud5.5:2.6": {
-            "scid": "ud5.5:2.6",
-            "pli": "Evaṁ vutte, bhagavā tuṇhī ahosi.",
-            "en": "But when he said this, <span class=\"scv-matched\">the Buddha kept silent</span>. ",
-            "matched": true
-          },
-          "ud5.5:3.6": {
-            "scid": "ud5.5:3.6",
-            "pli": "Dutiyampi kho bhagavā tuṇhī ahosi.",
-            "en": "But for a second time <span class=\"scv-matched\">the Buddha kept silent</span>. ",
-            "matched": true
-          }
-        },
-        "score": 2.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n5.5. Sabbath",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 117,
-          "en": 90
         }
       },
       {

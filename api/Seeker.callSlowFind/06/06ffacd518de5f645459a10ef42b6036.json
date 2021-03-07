@@ -31,14 +31,12 @@
     "pattern": "fewness of wishes",
     "method": "phrase",
     "resultPattern": "\\bfewness of wishes",
-    "segsMatched": 11,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.90_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.90_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
@@ -55,7 +53,6 @@
     "suttaRefs": [
       "mn122/en/sujato",
       "an5.90/en/sujato",
-      "ud4.1/en/sujato",
       "an9.3/en/sujato",
       "an9.1/en/sujato",
       "an8.23/en/sujato",
@@ -306,35 +303,6 @@
         "langSegs": {
           "pli": 74,
           "en": 73
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud4.1",
-        "lang": "en",
-        "segMap": {
-          "ud4.1:14.1": {
-            "scid": "ud4.1:14.1",
-            "pli": "Puna caparaṁ, meghiya, bhikkhu yāyaṁ kathā abhisallekhikā cetovivaraṇasappāyā ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati, seyyathidaṁ—",
-            "en": "Furthermore, a mendicant gets to take part in talk about self-effacement that helps open the heart and leads solely to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment when they want, without trouble or difficulty. That is, talk about <span class=\"scv-matched\">fewness of wishes</span>, contentment, seclusion, aloofness, arousing energy, ethics, immersion, wisdom, freedom, and the knowledge and vision of freedom.’ ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n4.1. With Meghiya",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 91,
-          "en": 68
         }
       }
     ]

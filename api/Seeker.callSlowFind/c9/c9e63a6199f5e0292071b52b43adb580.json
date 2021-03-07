@@ -143,8 +143,8 @@
           },
           "sn16.9:12.1": {
             "scid": "sn16.9:12.1",
-            "pli": "Ahaṁ, bhikkhave, yāvade ākaṅkhāmi parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajānāmi—",
-            "en": "<span class=\"scv-matched\">Whenever I want</span>, I understand the minds of other beings and individuals, having comprehended them with my mind. ",
+            "pli": "Ahaṁ, bhikkhave, yāvade ākaṅkhāmi parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajānāmi—sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajānāmi, vītarāgaṁ vā cittaṁ vītarāgaṁ cittanti pajānāmi, sadosaṁ vā cittaṁ …pe… vītadosaṁ vā cittaṁ … samohaṁ vā cittaṁ … vītamohaṁ vā cittaṁ … saṅkhittaṁ vā cittaṁ … vikkhittaṁ vā cittaṁ … mahaggataṁ vā cittaṁ … amahaggataṁ vā cittaṁ … sauttaraṁ vā cittaṁ … anuttaraṁ vā cittaṁ … samāhitaṁ vā cittaṁ … asamāhitaṁ vā cittaṁ … vimuttaṁ vā cittaṁ … avimuttaṁ vā cittaṁ avimuttaṁ cittanti pajānāmi. ",
+            "en": "<span class=\"scv-matched\">Whenever I want</span>, I understand the minds of other beings and individuals, having comprehended them with my mind. I understand mind with greed as ‘mind with greed’, and mind without greed as ‘mind without greed’; mind with hate … mind without hate … mind with delusion … mind without delusion … constricted mind … scattered mind … expansive mind … unexpansive mind … mind that is not supreme … mind that is supreme … mind immersed in samādhi … mind not immersed in samādhi … freed mind … unfreed mind … ",
             "matched": true
           },
           "sn16.9:13.1": {
@@ -160,15 +160,15 @@
             "matched": true
           }
         },
-        "score": 14.264,
+        "score": 14.4,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 16\n1. Kassapa\n9. Absorptions and Insights",
         "segsMatched": 14,
         "langSegs": {
-          "pli": 53,
-          "en": 50
+          "pli": 35,
+          "en": 34
         }
       },
       {

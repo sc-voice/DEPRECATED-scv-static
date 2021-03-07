@@ -279,7 +279,7 @@
         "segMap": {
           "dn33:1.10.49": {
             "scid": "dn33:1.10.49",
-            "pli": "seyyohamasmīti vidhā, sadisohamasmīti vidhā, hīnohamasmīti vidhā. #23",
+            "pli": "seyyohamasmīti vidhā, sadisohamasmīti vidhā, hīnohamasmīti vidhā. (23) ",
             "en": "‘<span class=\"scv-matched\">I’m better</span>’, ‘I’m equal’, and ‘I’m worse’. ",
             "matched": true
           }
@@ -291,7 +291,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

@@ -107,8 +107,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 5,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       },
       {
@@ -148,8 +148,8 @@
         "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 284,
-          "en": 281
+          "pli": 266,
+          "en": 265
         }
       },
       {
@@ -200,7 +200,7 @@
         "segMap": {
           "an1.198:1.1": {
             "scid": "an1.198:1.1",
-            "pli": "“Etadaggaṁ, bhikkhave, mama sāvakānaṁ bhikkhūnaṁ manomayaṁ kāyaṁ abhinimminantānaṁ yadidaṁ cūḷapanthako. #1",
+            "pli": "“Etadaggaṁ, bhikkhave, mama sāvakānaṁ bhikkhūnaṁ manomayaṁ kāyaṁ abhinimminantānaṁ yadidaṁ cūḷapanthako. (1) ",
             "en": "“The foremost of my monk disciples in creating a <span class=\"scv-matched\">mind-made body</span> is Cūḷapanthaka. ",
             "matched": true
           }

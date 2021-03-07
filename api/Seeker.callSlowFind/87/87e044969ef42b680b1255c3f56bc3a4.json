@@ -31,7 +31,7 @@
     "pattern": "might not be mine",
     "method": "phrase",
     "resultPattern": "\\bmight not be mine",
-    "segsMatched": 33,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.55_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.55_translation-en-sujato.json",
@@ -45,8 +45,6 @@
       "translation/en/sujato/sutta/mn/mn106_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga7/ud7.8_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
     ],
@@ -57,7 +55,6 @@
       "sn22.55/en/sujato",
       "mn106/en/sujato",
       "sn22.81/en/sujato",
-      "ud7.8/en/sujato",
       "an10.29/en/sujato"
     ],
     "mlDocs": [
@@ -383,35 +380,6 @@
         "langSegs": {
           "pli": 140,
           "en": 139
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga7/ud7.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga7/ud7.8_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud7.8",
-        "lang": "en",
-        "segMap": {
-          "ud7.8:4.3": {
-            "scid": "ud7.8:4.3",
-            "pli": "No cassa no ca me siyā,",
-            "en": "‘It might not be, and it <span class=\"scv-matched\">might not be mine</span>, ",
-            "matched": true
-          }
-        },
-        "score": 1.071,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nKaccāna",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 14,
-          "en": 13
         }
       },
       {

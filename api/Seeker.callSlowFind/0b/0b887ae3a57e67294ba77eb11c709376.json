@@ -31,19 +31,16 @@
     "pattern": "study",
     "method": "phrase",
     "resultPattern": "\\bstudy",
-    "segsMatched": 5,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.73_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.73_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga3/ud3.9_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.9_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.73/en/sujato",
-      "an5.192/en/sujato",
-      "ud3.9/en/sujato"
+      "an5.192/en/sujato"
     ],
     "mlDocs": [
       {
@@ -95,13 +92,13 @@
           "an5.192:5.4": {
             "scid": "an5.192:5.4",
             "pli": "So aṭṭhacattālīsavassāni komārabrahmacariyaṁ carati mante adhīyamāno. ",
-            "en": "For forty-eight years he leads the virginal spiritual life <span class=\"scv-matched\">study</span>ing the hymns. ",
+            "en": "For forty-eight years he leads the spiritual life, from childhood, <span class=\"scv-matched\">study</span>ing the hymns. ",
             "matched": true
           },
           "an5.192:13.4": {
             "scid": "an5.192:13.4",
             "pli": "So aṭṭhacattālīsavassāni komārabrahmacariyaṁ carati mante adhīyamāno. ",
-            "en": "For forty-eight years he leads the virginal spiritual life <span class=\"scv-matched\">study</span>ing the hymns. ",
+            "en": "For forty-eight years he leads the spiritual life, from childhood, <span class=\"scv-matched\">study</span>ing the hymns. ",
             "matched": true
           }
         },
@@ -114,35 +111,6 @@
         "langSegs": {
           "pli": 120,
           "en": 119
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga3/ud3.9_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.9_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud3.9",
-        "lang": "en",
-        "segMap": {
-          "ud3.9:1.5": {
-            "scid": "ud3.9:1.5",
-            "pli": "Ko kiṁ sippaṁ sikkhi?",
-            "en": "Who is <span class=\"scv-matched\">study</span>ing which craft?",
-            "matched": true
-          }
-        },
-        "score": 1.014,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n3.9. Professions",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 74,
-          "en": 35
         }
       }
     ]

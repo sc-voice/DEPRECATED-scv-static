@@ -31,14 +31,12 @@
     "pattern": "gradual training",
     "method": "phrase",
     "resultPattern": "\\bgradual training",
-    "segsMatched": 6,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.20_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.19_root-pli-ms.json",
@@ -47,7 +45,6 @@
     "suttaRefs": [
       "mn70/en/sujato",
       "mn107/en/sujato",
-      "ud5.5/en/sujato",
       "an8.20/en/sujato",
       "an8.19/en/sujato"
     ],
@@ -172,35 +169,6 @@
         "langSegs": {
           "pli": 104,
           "en": 103
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud5.5",
-        "lang": "en",
-        "segMap": {
-          "ud5.5:19.2": {
-            "scid": "ud5.5:19.2",
-            "pli": "evamevaṁ kho, bhikkhave, imasmiṁ dhammavinaye anupubbasikkhā anupubbakiriyā anupubbapaṭipadā, na āyatakeneva aññāpaṭivedho.",
-            "en": "In the same way in this teaching and training the penetration to enlightenment comes from <span class=\"scv-matched\">gradual training</span>, progress, and practice, not abruptly. ",
-            "matched": true
-          }
-        },
-        "score": 1.009,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n5.5. Sabbath",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 117,
-          "en": 90
         }
       }
     ]

@@ -31,12 +31,10 @@
     "pattern": "my lasting welfare and happiness",
     "method": "phrase",
     "resultPattern": "\\bmy lasting welfare and happiness",
-    "segsMatched": 19,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn135_root-pli-ms.json",
@@ -56,7 +54,6 @@
     ],
     "suttaRefs": [
       "dn5/en/sujato",
-      "ud1.10/en/sujato",
       "mn85/en/sujato",
       "mn135/en/sujato",
       "an7.47/en/sujato",
@@ -118,47 +115,6 @@
         "langSegs": {
           "pli": 375,
           "en": 374
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud1.10",
-        "lang": "en",
-        "segMap": {
-          "ud1.10:5.4": {
-            "scid": "ud1.10:5.4",
-            "pli": "desetu sugato dhammaṁ, yaṁ mamassa dīgharattaṁ hitāya sukhāyā”ti.",
-            "en": "That would be for <span class=\"scv-matched\">my lasting welfare and happiness</span>.”",
-            "matched": true
-          },
-          "ud1.10:6.4": {
-            "scid": "ud1.10:6.4",
-            "pli": "desetu sugato dhammaṁ, yaṁ mamassa dīgharattaṁ hitāya sukhāyā”ti.",
-            "en": "That would be for <span class=\"scv-matched\">my lasting welfare and happiness</span>.”",
-            "matched": true
-          },
-          "ud1.10:7.4": {
-            "scid": "ud1.10:7.4",
-            "pli": "desetu sugato dhammaṁ, yaṁ mamassa dīgharattaṁ hitāya sukhāyā”ti.",
-            "en": "That would be for <span class=\"scv-matched\">my lasting welfare and happiness</span>.”",
-            "matched": true
-          }
-        },
-        "score": 3.038,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n1.10. With Bāhiya",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 79,
-          "en": 70
         }
       },
       {
@@ -367,7 +323,7 @@
           "dn23:30.7": {
             "scid": "dn23:30.7",
             "pli": "Icchāmi cāhaṁ, bho kassapa, mahāyaññaṁ yajituṁ, anusāsatu maṁ bhavaṁ kassapo, yaṁ mamassa dīgharattaṁ hitāya sukhāyā”ti. ",
-            "en": "Master Kassapa, I wish to perform a great sacrifice. Please instruct me so it will be for <span class=\"scv-matched\">my lasting welfare and happiness</span>.” ",
+            "en": "Master Kassapa, I wish to perform a great sacrifice. Please instruct me so it will be for <span class=\"scv-matched\">my lasting welfare and happiness</span>. ",
             "matched": true
           }
         },
@@ -378,7 +334,7 @@
         "title": "Long Discourses 23\nWith Pāyāsi",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 715,
+          "pli": 714,
           "en": 713
         }
       },

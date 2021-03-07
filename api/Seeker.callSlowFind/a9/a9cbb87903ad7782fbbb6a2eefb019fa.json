@@ -90,7 +90,7 @@
           "kp3:1.1": {
             "scid": "kp3:1.1",
             "pli": "Atthi imasmiṁ kāye—",
-            "en": "“In this body there is <span class=\"scv-matched\">head hair, body hair</span>, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidneys, heart, liver, diaphragm, spleen, lungs, intestines, mesentery, undigested food, feces, brain, bile, phlegm, pus, blood, sweat, fat, tears, grease, saliva, snot, synovial fluid, urine.”",
+            "en": "“In this body there is <span class=\"scv-matched\">head hair, body hair</span>, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidneys, heart, liver, diaphragm, spleen, lungs, intestines, mesentery, undigested food, feces, bile, phlegm, pus, blood, sweat, fat, tears, grease, saliva, snot, synovial fluid, urine.”",
             "matched": true
           }
         },
@@ -326,14 +326,14 @@
             "matched": true
           }
         },
-        "score": 1.005,
+        "score": 1.006,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 190,
+          "pli": 174,
           "en": 173
         }
       },
@@ -391,7 +391,7 @@
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 235,
+          "pli": 226,
           "en": 233
         }
       },
@@ -449,8 +449,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 454,
-          "en": 453
+          "pli": 439,
+          "en": 438
         }
       }
     ]

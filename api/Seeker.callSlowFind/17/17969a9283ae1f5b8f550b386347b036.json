@@ -149,7 +149,7 @@
           "dn30:1.3.4": {
             "scid": "dn30:1.3.4",
             "pli": "Imāni kho, bhikkhave, dvattiṁsa mahāpurisassa mahāpurisalakkhaṇāni bāhirakāpi isayo dhārenti, no ca kho te jānanti: ",
-            "en": "Seers who are outsiders remember these <span class=\"scv-matched\">marks</span>, but they do not know ",
+            "en": "Seers outside of Buddhism remember these <span class=\"scv-matched\">marks</span>, but they do not know ",
             "matched": true
           },
           "dn30:1.10.4": {
@@ -659,7 +659,7 @@
           "dn4:5.10": {
             "scid": "dn4:5.10",
             "pli": "Bhavañhi soṇadaṇḍo ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo …pe… ",
-            "en": "You recite and remember the hymns, and have mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. You know philology and grammar, and are well versed in cosmology and the <span class=\"scv-matched\">marks</span> of a great man. … ",
+            "en": "You recite and remember the hymns, and are have mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. You know philology and grammar, and are well versed in cosmology and the <span class=\"scv-matched\">marks</span> of a great man. … ",
             "matched": true
           },
           "dn4:6.23": {
@@ -671,13 +671,13 @@
           "dn4:13.6": {
             "scid": "dn4:13.6",
             "pli": "ajjhāyako hoti mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo; ",
-            "en": "He recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the <span class=\"scv-matched\">marks</span> of a great man. ",
+            "en": "He recites and remembers the hymns, and have mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the <span class=\"scv-matched\">marks</span> of a great man. ",
             "matched": true
           },
           "dn4:20.6": {
             "scid": "dn4:20.6",
             "pli": "Aṅgako kho māṇavako ajjhāyako mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo. ",
-            "en": "Aṅgaka recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the <span class=\"scv-matched\">marks</span> of a great man. ",
+            "en": "Aṅgaka recites and remembers the hymns, and have mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the <span class=\"scv-matched\">marks</span> of a great man. ",
             "matched": true
           }
         },
@@ -963,8 +963,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       },
       {

@@ -76,14 +76,14 @@
             "matched": true
           }
         },
-        "score": 2.03,
+        "score": 2.026,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n5. A Spike\n41–50",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 67,
+          "pli": 66,
           "en": 66
         }
       },
@@ -141,8 +141,8 @@
         "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 284,
-          "en": 281
+          "pli": 266,
+          "en": 265
         }
       },
       {
@@ -170,8 +170,8 @@
         "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 390,
-          "en": 373
+          "pli": 352,
+          "en": 357
         }
       },
       {
@@ -199,8 +199,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       }
     ]

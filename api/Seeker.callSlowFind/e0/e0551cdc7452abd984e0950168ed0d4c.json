@@ -64,14 +64,14 @@
             "matched": true
           }
         },
-        "score": 1.011,
+        "score": 1.009,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n15. Attainment\n163–179",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 90,
+          "pli": 89,
           "en": 89
         }
       },
@@ -93,14 +93,14 @@
             "matched": true
           }
         },
-        "score": 1.008,
+        "score": 1.007,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n1. Punishments\n1–10",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 126,
+          "pli": 125,
           "en": 124
         }
       },
@@ -117,7 +117,7 @@
         "segMap": {
           "dn33:1.9.34": {
             "scid": "dn33:1.9.34",
-            "pli": "Asantuṭṭhitā ca kusalesu dhammesu appaṭivānitā ca padhānasmiṁ. #31",
+            "pli": "Asantuṭṭhitā ca kusalesu dhammesu appaṭivānitā ca padhānasmiṁ. (31) ",
             "en": "To <span class=\"scv-matched\">never be content</span> with skillful qualities, and to never stop trying. ",
             "matched": true
           }
@@ -129,7 +129,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

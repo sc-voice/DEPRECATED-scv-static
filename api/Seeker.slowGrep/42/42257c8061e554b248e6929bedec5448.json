@@ -1,0 +1,18 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bfor faith",
+      "maxResults": 1000,
+      "lang": "en",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/an/an10/an10.61_translation-en-sujato.json:1"
+  ]
+}

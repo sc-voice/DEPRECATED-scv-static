@@ -230,25 +230,23 @@
         "segMap": {
           "an1.600-615:1.1": {
             "scid": "an1.600-615:1.1",
-            "pli": "“Ekadhammo, bhikkhave, bhāvito bahulīkato paññāpaṭilābhāya saṁvattati … paññāvuddhiyā saṁvattati … paññāvepullāya saṁvattati … mahāpaññatāya saṁvattati … puthupaññatāya saṁvattati … vipulapaññatāya saṁvattati … gambhīrapaññatāya saṁvattati … asāmantapaññatāya saṁvattati … bhūripaññatāya saṁvattati … paññābāhullāya saṁvattati … sīghapaññatāya saṁvattati … lahupaññatāya saṁvattati … hāsapaññatāya saṁvattati … javanapaññatāya saṁvattati … tikkhapaññatāya saṁvattati … nibbedhikapaññatāya saṁvattati. ",
             "en": "“One thing, mendicants, when developed and cultivated, leads to the getting of wisdom … the growth of wisdom … the increase of wisdom … to great wisdom … to widespread wisdom … to abundant wisdom … to deep wisdom … to extraordinary wisdom … to vast wisdom … to much wisdom … to fast wisdom … to light wisdom … to <span class=\"scv-matched\">laughing wisdom</span> … to swift wisdom … to sharp wisdom … to penetrating wisdom. ",
             "matched": true
           },
           "an1.600-615:1.4": {
             "scid": "an1.600-615:1.4",
-            "pli": "Ayaṁ kho, bhikkhave, ekadhammo bhāvito bahulīkato paññāpaṭilābhāya saṁvattati … paññāvuddhiyā saṁvattati … paññāvepullāya saṁvattati … mahāpaññatāya saṁvattati … puthupaññatāya saṁvattati … vipulapaññatāya saṁvattati … gambhīrapaññatāya saṁvattati … asāmantapaññatāya saṁvattati … bhūripaññatāya saṁvattati … paññābāhullāya saṁvattati … sīghapaññatāya saṁvattati … lahupaññatāya saṁvattati … hāsapaññatāya saṁvattati … javanapaññatāya saṁvattati … tikkhapaññatāya saṁvattati … nibbedhikapaññatāya saṁvattatī”ti. ",
             "en": "This one thing, when developed and cultivated, leads to the getting of wisdom … the growth of wisdom … the increase of wisdom … to great wisdom … to widespread wisdom … to abundant wisdom … to deep wisdom … to extraordinary wisdom … to vast wisdom … to much wisdom … to fast wisdom … to light wisdom … to <span class=\"scv-matched\">laughing wisdom</span> … to swift wisdom … to sharp wisdom … to penetrating wisdom.” ",
             "matched": true
           }
         },
-        "score": 2.038,
+        "score": 2.025,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n30. Mindfulness of the Body\n575–615",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 52,
+          "pli": 51,
           "en": 51
         }
       },

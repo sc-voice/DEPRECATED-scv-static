@@ -179,13 +179,13 @@
         "segMap": {
           "dn33:1.11.119": {
             "scid": "dn33:1.11.119",
-            "pli": "pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu. #16",
+            "pli": "chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati. (19) ",
             "en": "<span class=\"scv-matched\">earth, water, fire, and air</span>. ",
             "matched": true
           },
           "dn33:2.2.68": {
             "scid": "dn33:2.2.68",
-            "pli": "pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu, ākāsadhātu, viññāṇadhātu. #16",
+            "pli": "pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu, ākāsadhātu, viññāṇadhātu. (16) ",
             "en": "earth, water, fire, air, space, and consciousness. ",
             "matched": true
           }
@@ -197,7 +197,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },

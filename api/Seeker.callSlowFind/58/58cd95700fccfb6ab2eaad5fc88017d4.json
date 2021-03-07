@@ -327,13 +327,13 @@
         "segMap": {
           "dn33:1.11.211": {
             "scid": "dn33:1.11.211",
-            "pli": "Idhāvuso, ekacco puggalo attahitāya paṭipanno hoti no parahitāya. ",
+            "pli": "tattha sabbeheva saṅgāyitabbaṁ …pe… atthāya hitāya sukhāya devamanussānaṁ. ",
             "en": "One person practices to benefit themselves, but not others. ",
             "matched": true
           },
           "dn33:1.11.212": {
             "scid": "dn33:1.11.212",
-            "pli": "Idhāvuso, ekacco puggalo parahitāya paṭipanno hoti no attahitāya. ",
+            "pli": "Paṭhamabhāṇavāro niṭṭhito. ",
             "en": "One person practices to benefit others, <span class=\"scv-matched\">but not themselves</span>. ",
             "matched": true
           }
@@ -345,7 +345,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

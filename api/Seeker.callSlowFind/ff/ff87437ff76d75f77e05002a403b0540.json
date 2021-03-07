@@ -31,16 +31,19 @@
     "pattern": "giving up the five",
     "method": "phrase",
     "resultPattern": "\\bgiving up the five",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn54/sn54.12_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn54/sn54.12_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn54/sn54.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.38_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn64/en/sujato",
-      "sn54.12/en/sujato"
+      "sn54.12/en/sujato",
+      "thag2.38/en/sujato"
     ],
     "mlDocs": [
       {
@@ -165,6 +168,35 @@
         "langSegs": {
           "pli": 50,
           "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.38_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.38",
+        "lang": "en",
+        "segMap": {
+          "thag2.38:1.2": {
+            "scid": "thag2.38:1.2",
+            "pli": "Piyarūpe manorame;",
+            "en": "<span class=\"scv-matched\">giving up the five</span> kinds of sensual stimulation,",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twos\nChapter Four\n2.38. Nisabha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "en": 12
         }
       }
     ]

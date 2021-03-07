@@ -31,7 +31,7 @@
     "pattern": "hard to see",
     "method": "phrase",
     "resultPattern": "\\bhard to see",
-    "segsMatched": 39,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
@@ -51,8 +51,6 @@
       "translation/en/sujato/sutta/sn/sn11/sn11.13_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig6.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig3.5_root-pli-ms.json",
@@ -74,7 +72,6 @@
       "sn43.14-43/en/sujato",
       "sn11.13/en/sujato",
       "mn72/en/sujato",
-      "ud8.2/en/sujato",
       "thig6.1/en/sujato",
       "thig3.5/en/sujato",
       "thag2.46/en/sujato",
@@ -96,7 +93,7 @@
           "sn6.1:1.4": {
             "scid": "sn6.1:1.4",
             "pli": "“adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
-            "en": "“This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "“This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           },
           "sn6.1:1.6": {
@@ -155,37 +152,37 @@
           "dn1:1.28.1": {
             "scid": "dn1:1.28.1",
             "pli": "Atthi, bhikkhave, aññeva dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
-            "en": "There are other principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. Those who genuinely praise the Realized One would rightly speak of these things. ",
+            "en": "There are other principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. Those who genuinely praise the Realized One would rightly speak of these things. ",
             "matched": true
           },
           "dn1:1.37.1": {
             "scid": "dn1:1.37.1",
             "pli": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
-            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
+            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
             "matched": true
           },
           "dn1:2.15.5": {
             "scid": "dn1:2.15.5",
             "pli": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
-            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
+            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
             "matched": true
           },
           "dn1:2.22.5": {
             "scid": "dn1:2.22.5",
             "pli": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
-            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
+            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
             "matched": true
           },
           "dn1:2.36.5": {
             "scid": "dn1:2.36.5",
             "pli": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
-            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
+            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
             "matched": true
           },
           "dn1:3.31.1": {
             "scid": "dn1:3.31.1",
             "pli": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
-            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
+            "en": "These are the principles—deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. ",
             "matched": true
           }
         },
@@ -214,7 +211,7 @@
           "mn26:19.2": {
             "scid": "mn26:19.2",
             "pli": "‘adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
-            "en": "‘This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "‘This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           },
           "mn26:19.4": {
@@ -267,7 +264,7 @@
           "mn85:43.2": {
             "scid": "mn85:43.2",
             "pli": "‘adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
-            "en": "‘This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "‘This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           },
           "mn85:43.4": {
@@ -320,7 +317,7 @@
           "dn14:3.1.4": {
             "scid": "dn14:3.1.4",
             "pli": "‘adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
-            "en": "‘This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "‘This principle I have discovered is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           },
           "dn14:3.1.6": {
@@ -373,19 +370,19 @@
           "mn95:17.12": {
             "scid": "mn95:17.12",
             "pli": "Yaṁ kho pana ayamāyasmā dhammaṁ deseti, gambhīro so dhammo duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo; ",
-            "en": "And the principle that they teach is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "And the principle that they teach is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           },
           "mn95:18.10": {
             "scid": "mn95:18.10",
             "pli": "Yaṁ kho pana ayamāyasmā dhammaṁ deseti, gambhīro so dhammo duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo; ",
-            "en": "And the principle that they teach is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "And the principle that they teach is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           },
           "mn95:19.10": {
             "scid": "mn95:19.10",
             "pli": "Yaṁ kho pana ayamāyasmā dhammaṁ deseti, gambhīro so dhammo duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo; ",
-            "en": "And the principle that they teach is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "And the principle that they teach is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           }
         },
@@ -426,35 +423,6 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 11,
-          "en": 11
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud8.2",
-        "lang": "en",
-        "segMap": {
-          "ud8.2:3.1": {
-            "scid": "ud8.2:3.1",
-            "pli": "“Duddasaṁ anataṁ nāma,",
-            "en": "“It’s <span class=\"scv-matched\">hard to see</span> what they call the ‘uninclined’,",
-            "matched": true
-          }
-        },
-        "score": 1.083,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nAbout Extinguishment (2nd)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 12,
           "en": 11
         }
       },
@@ -617,7 +585,7 @@
           "mn72:18.2": {
             "scid": "mn72:18.2",
             "pli": "Gambhīro hāyaṁ, vaccha, dhammo duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
-            "en": "For this principle is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "en": "For this principle is deep, <span class=\"scv-matched\">hard to see</span>, hard to understand, peaceful, sublime, beyond the scope of reason, subtle, comprehensible to the astute. ",
             "matched": true
           }
         },

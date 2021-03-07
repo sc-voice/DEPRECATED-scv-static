@@ -70,14 +70,14 @@
             "matched": true
           }
         },
-        "score": 2.022,
+        "score": 2.019,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n15. Attainment\n163–179",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 90,
+          "pli": 89,
           "en": 89
         }
       },
@@ -129,13 +129,13 @@
         "segMap": {
           "dn33:1.9.31": {
             "scid": "dn33:1.9.31",
-            "pli": "Sīlavisuddhi ca diṭṭhivisuddhi ca. #28",
+            "pli": "Sīlavisuddhi ca diṭṭhivisuddhi ca. (28) ",
             "en": "Purification of ethics and <span class=\"scv-matched\">purification of view</span>. ",
             "matched": true
           },
           "dn33:1.9.32": {
             "scid": "dn33:1.9.32",
-            "pli": "Diṭṭhivisuddhi kho pana yathā diṭṭhissa ca padhānaṁ. #29",
+            "pli": "Diṭṭhivisuddhi kho pana yathā diṭṭhissa ca padhānaṁ. (29) ",
             "en": "<span class=\"scv-matched\">Purification of view</span> and making an effort in line with that view. ",
             "matched": true
           }
@@ -147,7 +147,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

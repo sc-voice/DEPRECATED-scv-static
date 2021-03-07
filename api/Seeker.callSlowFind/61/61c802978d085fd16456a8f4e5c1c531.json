@@ -31,7 +31,7 @@
     "pattern": "goosebumps",
     "method": "phrase",
     "resultPattern": "\\bgoosebumps",
-    "segsMatched": 34,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
@@ -65,8 +65,6 @@
       "translation/en/sujato/sutta/sn/sn4/sn4.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn11/sn11.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.3_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga1/ud1.7_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.8_root-pli-ms.json",
@@ -97,7 +95,6 @@
       "sn4.2/en/sujato",
       "sn4.11/en/sujato",
       "sn11.3/en/sujato",
-      "ud1.7/en/sujato",
       "thag20.1/en/sujato",
       "thag1.8/en/sujato",
       "thag17.3/en/sujato",
@@ -517,35 +514,6 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 12,
-          "en": 12
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga1/ud1.7_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.7_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud1.7",
-        "lang": "en",
-        "segMap": {
-          "ud1.7:1.5": {
-            "scid": "ud1.7:1.5",
-            "pli": "Atha kho ajakalāpako yakkho bhagavato bhayaṁ chambhitattaṁ lomahaṁsaṁ uppādetukāmo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavato avidūre tikkhattuṁ “akkulo pakkulo”ti akkulapakkulikaṁ akāsi:",
-            "en": "Then Ajakalāpaka, wanting to make the Buddha feel fear, terror, and <span class=\"scv-matched\">goosebumps</span>, approached him, and while not far away yelled three times, “Grr! Arrgh!” Then he added, ",
-            "matched": true
-          }
-        },
-        "score": 1.071,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nAt Ajakalāpaka",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 14,
           "en": 12
         }
       },

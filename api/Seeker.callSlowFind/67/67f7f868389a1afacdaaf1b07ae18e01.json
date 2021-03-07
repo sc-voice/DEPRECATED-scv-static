@@ -73,14 +73,14 @@
             "matched": true
           }
         },
-        "score": 3.049,
+        "score": 3.041,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n26. Third\n316–332",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 61,
+          "pli": 60,
           "en": 60
         }
       },
@@ -108,14 +108,14 @@
             "matched": true
           }
         },
-        "score": 2.012,
+        "score": 2.011,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n4. Peaceful Mind\n32–41",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 169,
+          "pli": 168,
           "en": 168
         }
       }

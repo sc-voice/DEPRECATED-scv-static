@@ -212,7 +212,7 @@
           },
           "mn129:35.18": {
             "scid": "mn129:35.18",
-            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ cakkaratanaṁ pātubhavati. #1",
+            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ cakkaratanaṁ pātubhavati. (1) ",
             "en": "Such is the wheel-treasure that appears to the <span class=\"scv-matched\">wheel-turning monarch</span>. ",
             "matched": true
           },
@@ -230,7 +230,7 @@
           },
           "mn129:36.7": {
             "scid": "mn129:36.7",
-            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ hatthiratanaṁ pātubhavati. #2",
+            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ hatthiratanaṁ pātubhavati. (2) ",
             "en": "Such is the elephant-treasure that appears to the <span class=\"scv-matched\">wheel-turning monarch</span>. ",
             "matched": true
           },
@@ -248,7 +248,7 @@
           },
           "mn129:37.7": {
             "scid": "mn129:37.7",
-            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ assaratanaṁ pātubhavati. #3",
+            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ assaratanaṁ pātubhavati. (3) ",
             "en": "Such is the horse-treasure that appears to the <span class=\"scv-matched\">wheel-turning monarch</span>. ",
             "matched": true
           },
@@ -266,7 +266,7 @@
           },
           "mn129:38.6": {
             "scid": "mn129:38.6",
-            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ maṇiratanaṁ pātubhavati. #4",
+            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ maṇiratanaṁ pātubhavati. (4) ",
             "en": "Such is the jewel-treasure that appears to the <span class=\"scv-matched\">wheel-turning monarch</span>. ",
             "matched": true
           },
@@ -284,7 +284,7 @@
           },
           "mn129:39.8": {
             "scid": "mn129:39.8",
-            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ itthiratanaṁ pātubhavati. #5",
+            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ itthiratanaṁ pātubhavati. (5) ",
             "en": "Such is the woman-treasure who appears to the <span class=\"scv-matched\">wheel-turning monarch</span>. ",
             "matched": true
           },
@@ -314,7 +314,7 @@
           },
           "mn129:40.13": {
             "scid": "mn129:40.13",
-            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ gahapatiratanaṁ pātubhavati. #6",
+            "pli": "Rañño, bhikkhave, cakkavattissa evarūpaṁ gahapatiratanaṁ pātubhavati. (6) ",
             "en": "Such is the householder-treasure that appears to the <span class=\"scv-matched\">wheel-turning monarch</span>. ",
             "matched": true
           },
@@ -338,7 +338,7 @@
           },
           "mn129:41.6": {
             "scid": "mn129:41.6",
-            "pli": "Rājā, bhikkhave, cakkavattī imehi sattahi ratanehi samannāgato hoti. #7",
+            "pli": "Rājā, bhikkhave, cakkavattī imehi sattahi ratanehi samannāgato hoti. (7) ",
             "en": "These are the seven treasures possessed by a <span class=\"scv-matched\">wheel-turning monarch</span>. ",
             "matched": true
           },
@@ -1073,14 +1073,14 @@
             "matched": true
           }
         },
-        "score": 4.182,
+        "score": 4.148,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n22. Second\n278–286",
         "segsMatched": 4,
         "langSegs": {
-          "pli": 22,
+          "pli": 21,
           "en": 21
         }
       },
@@ -1167,14 +1167,14 @@
             "matched": true
           }
         },
-        "score": 4.045,
+        "score": 4.04,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n6. Persons\n52–63",
         "segsMatched": 4,
         "langSegs": {
-          "pli": 88,
+          "pli": 87,
           "en": 87
         }
       },
@@ -1554,6 +1554,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn46/sn46.49_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn46/sn46.49_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn46.49",
+        "lang": "en",
+        "segMap": {
+          "sn46.49:0.2": {
+            "scid": "sn46.49:0.2",
+            "pli": "5. Cakkavattivagga ",
+            "en": "5. A <span class=\"scv-matched\">Wheel-Turning Monarch</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 46\n5. A Wheel-Turning Monarch\n49. Interior",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn46/sn46.45_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn46/sn46.45_translation-en-sujato.json"
         ],
@@ -1641,17 +1670,17 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn46/sn46.49_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn46/sn46.49_translation-en-sujato.json"
+          "root/pli/ms/sutta/sn/sn46/sn46.48_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn46/sn46.48_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn46.49",
+        "sutta_uid": "sn46.48",
         "lang": "en",
         "segMap": {
-          "sn46.49:0.2": {
-            "scid": "sn46.49:0.2",
+          "sn46.48:0.2": {
+            "scid": "sn46.48:0.2",
             "pli": "5. Cakkavattivagga ",
             "en": "5. A <span class=\"scv-matched\">Wheel-Turning Monarch</span> ",
             "matched": true
@@ -1661,11 +1690,11 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 46\n5. A Wheel-Turning Monarch\n49. Interior",
+        "title": "Linked Discourses 46\n5. A Wheel-Turning Monarch\n48. The Sun",
         "segsMatched": 1,
         "langSegs": {
           "pli": 10,
-          "en": 9
+          "en": 10
         }
       },
       {
@@ -1691,35 +1720,6 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 46\n5. A Wheel-Turning Monarch\n44. Witless",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 11,
-          "en": 10
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn46/sn46.48_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn46/sn46.48_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn46.48",
-        "lang": "en",
-        "segMap": {
-          "sn46.48:0.2": {
-            "scid": "sn46.48:0.2",
-            "pli": "5. Cakkavattivagga ",
-            "en": "5. A <span class=\"scv-matched\">Wheel-Turning Monarch</span> ",
-            "matched": true
-          }
-        },
-        "score": 1.091,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Linked Discourses 46\n5. A Wheel-Turning Monarch\n48. The Sun",
         "segsMatched": 1,
         "langSegs": {
           "pli": 11,
@@ -1809,7 +1809,7 @@
         "title": "Linked Discourses 46\n5. A Wheel-Turning Monarch\n50. Exterior",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 16,
+          "pli": 15,
           "en": 14
         }
       },

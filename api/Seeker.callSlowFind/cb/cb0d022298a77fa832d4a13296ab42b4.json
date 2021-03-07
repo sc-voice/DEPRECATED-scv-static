@@ -85,7 +85,7 @@
         "segMap": {
           "sn46.55:12.1": {
             "scid": "sn46.55:12.1",
-            "pli": "Seyyathāpi, brāhmaṇa, udapatto āvilo luḷito kalalībhūto andhakāre nikkhitto. ",
+            "pli": "Seyyathāpi, brāhmaṇa, udapatto āvilo luḷito kalalībhūto andhakāre nikkhitto. Tattha cakkhumā puriso sakaṁ mukhanimittaṁ paccavekkhamāno yathābhūtaṁ na jāneyya na passeyya. ",
             "en": "Suppose there was a bowl of <span class=\"scv-matched\">water that was cloudy, murky, and muddy</span>, hidden in the darkness. ",
             "matched": true
           }
@@ -97,7 +97,7 @@
         "title": "Linked Discourses 46\n6. Discussion\n55. With Saṅgārava",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 58,
+          "pli": 48,
           "en": 57
         }
       }

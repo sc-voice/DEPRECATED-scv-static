@@ -277,7 +277,6 @@
           },
           "sn46.76:2.8": {
             "scid": "sn46.76:2.8",
-            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitāti. ",
             "en": "enlightenment in the present life, or if there’s <span class=\"scv-matched\">something left over</span>, non-return.” ",
             "matched": true
           }
@@ -289,7 +288,7 @@
         "title": "Linked Discourses 46\n8. Cessation\n76. Cessation",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 28,
+          "pli": 25,
           "en": 26
         }
       },
@@ -317,14 +316,14 @@
             "matched": true
           }
         },
-        "score": 2.009,
+        "score": 2.008,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 235,
+          "pli": 226,
           "en": 233
         }
       },
@@ -352,15 +351,15 @@
             "matched": true
           }
         },
-        "score": 2.004,
+        "score": 2.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 454,
-          "en": 453
+          "pli": 439,
+          "en": 438
         }
       },
       {
@@ -613,14 +612,14 @@
             "matched": true
           }
         },
-        "score": 1.025,
+        "score": 1.026,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 46\n7. Breathing\n57. A Skeleton",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 40,
+          "pli": 34,
           "en": 35
         }
       },

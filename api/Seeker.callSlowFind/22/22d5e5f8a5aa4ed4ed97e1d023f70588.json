@@ -101,7 +101,7 @@
           },
           "an11.17:4.3": {
             "scid": "an11.17:4.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu na lakkhaṇakusalo hoti. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu na lakkhaṇakusalo hoti. (2) ",
             "en": "That’s how a mendicant isn’t skilled in <span class=\"scv-matched\">characteristics</span>. ",
             "matched": true
           },
@@ -125,7 +125,7 @@
           },
           "an11.17:18.3": {
             "scid": "an11.17:18.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu lakkhaṇakusalo hoti. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu lakkhaṇakusalo hoti. (2) ",
             "en": "That’s how a mendicant is skilled in <span class=\"scv-matched\">characteristics</span>. ",
             "matched": true
           }
@@ -172,7 +172,7 @@
           },
           "mn33:5.3": {
             "scid": "mn33:5.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu na lakkhaṇakusalo hoti. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu na lakkhaṇakusalo hoti. (2) ",
             "en": "That’s how a mendicant isn’t skilled in <span class=\"scv-matched\">characteristics</span>. ",
             "matched": true
           },
@@ -196,7 +196,7 @@
           },
           "mn33:18.3": {
             "scid": "mn33:18.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu lakkhaṇakusalo hoti. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu lakkhaṇakusalo hoti. (2) ",
             "en": "That’s how a mendicant is skilled in <span class=\"scv-matched\">characteristics</span>. ",
             "matched": true
           }
@@ -520,7 +520,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Long Discourses 27\nWhat Came First",
+        "title": "Long Discourses 27\nThe Origin of the World",
         "segsMatched": 1,
         "langSegs": {
           "pli": 323,

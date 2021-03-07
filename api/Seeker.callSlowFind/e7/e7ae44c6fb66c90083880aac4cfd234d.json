@@ -31,7 +31,7 @@
     "pattern": "has ceased",
     "method": "phrase",
     "resultPattern": "\\bhas ceased",
-    "segsMatched": 43,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn36/sn36.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.11_translation-en-sujato.json",
@@ -44,9 +44,7 @@
       "root/pli/ms/sutta/sn/sn22/sn22.85_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.85_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn36/sn36.15_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn36/sn36.15_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.9_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn36/sn36.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn36.11/en/sujato",
@@ -54,8 +52,7 @@
       "dn33/en/sujato",
       "an9.31/en/sujato",
       "sn22.85/en/sujato",
-      "sn36.15/en/sujato",
-      "ud8.9/en/sujato"
+      "sn36.15/en/sujato"
     ],
     "mlDocs": [
       {
@@ -291,7 +288,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 9,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       },
@@ -356,7 +353,7 @@
           },
           "dn33:3.2.91": {
             "scid": "dn33:3.2.91",
-            "pli": "Saññāvedayitanirodhaṁ samāpannassa saññā ca vedanā ca niruddhā honti. #6",
+            "pli": "Saññāvedayitanirodhaṁ samāpannassa saññā ca vedanā ca niruddhā honti. (6) ",
             "en": "For someone who has attained the cessation of perception and feeling, perception and feeling have ceased. ",
             "matched": true
           }
@@ -368,7 +365,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 9,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },
@@ -446,35 +443,6 @@
         "langSegs": {
           "pli": 197,
           "en": 196
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.9_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud8.9",
-        "lang": "en",
-        "segMap": {
-          "ud8.9:5.1": {
-            "scid": "ud8.9:5.1",
-            "pli": "“Abhedi kāyo nirodhi saññā,",
-            "en": "“The body is broken up, perception <span class=\"scv-matched\">has ceased</span>,",
-            "matched": true
-          }
-        },
-        "score": 1.056,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nWith Dabba (1st)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 18,
-          "en": 15
         }
       }
     ]
