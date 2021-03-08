@@ -86,6 +86,7 @@ label {
 
 .scv-text {
   line-height: var(--scv-text-line-height);
+  font-size: var(--scv-text-font-size);
   max-width: var(--scv-text-width);
 }
 .scv-root {
@@ -96,17 +97,14 @@ label {
   font-family: var(--scv-sans-font);
 }
 .scv-text-root {
-  line-height: var(--scv-text-line-height);
   max-width: var(--scv-text-width);
   font-family: var(--scv-sans-font);
   padding-bottom: 0.3em;
   font-style: italic;
 }
 .scv-text-trans {
-  line-height: var(--scv-text-line-height);
   max-width: var(--scv-text-width);
   font-family: var(--scv-sans-font);
-  font-size: var(--scv-text-font-size);
   padding-bottom: 0.7em;
 }
 .scv-matched { 
