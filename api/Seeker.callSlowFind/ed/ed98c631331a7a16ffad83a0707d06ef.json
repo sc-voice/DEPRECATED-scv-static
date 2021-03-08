@@ -185,14 +185,14 @@
             "matched": true
           }
         },
-        "score": 2.029,
+        "score": 2.024,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n9. Negligence\n82–97",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 68,
+          "pli": 67,
           "en": 67
         }
       },
@@ -220,14 +220,14 @@
             "matched": true
           }
         },
-        "score": 2.026,
+        "score": 2.022,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n10. Negligence (2nd)\n98–139",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 76,
+          "pli": 75,
           "en": 75
         }
       },
@@ -360,19 +360,18 @@
         "segMap": {
           "an1.392:1.1": {
             "scid": "an1.392:1.1",
-            "pli": "appicchatā … ",
             "en": " <span class=\"scv-matched\">having few wishes</span> …",
             "matched": true
           }
         },
-        "score": 1.05,
+        "score": 1.042,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 1\n28. Inspirational\n378–393",
+        "title": "Aṅguttara Nikāya 1\nNumbered Discourses 1\n28. Pasādakaradhammavagga\n28. Inspirational",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 20,
+          "pli": 5,
           "en": 19
         }
       },
@@ -423,14 +422,14 @@
             "matched": true
           }
         },
-        "score": 1.023,
+        "score": 1.019,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n7. Arousing Energy\n61–70",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 44,
+          "pli": 43,
           "en": 43
         }
       },

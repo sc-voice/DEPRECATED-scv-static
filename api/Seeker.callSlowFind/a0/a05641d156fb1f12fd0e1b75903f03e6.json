@@ -106,19 +106,19 @@
         "segMap": {
           "dn22:11.2": {
             "scid": "dn22:11.2",
-            "pli": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. #1",
+            "pli": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. (1) ",
             "en": "It’s when a mendicant who feels a pleasant feeling knows: ‘<span class=\"scv-matched\">I feel a pleasant feeling</span>.’ ",
             "matched": true
           },
           "dn22:11.5": {
             "scid": "dn22:11.5",
-            "pli": "Sāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. #4",
+            "pli": "Sāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. (4) ",
             "en": "When they feel a material pleasant feeling, they know: ‘I feel a material pleasant feeling.’ ",
             "matched": true
           },
           "dn22:11.6": {
             "scid": "dn22:11.6",
-            "pli": "Nirāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. #5",
+            "pli": "Nirāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. (5) ",
             "en": "When they feel a spiritual pleasant feeling, they know: ‘I feel a spiritual pleasant feeling.’ ",
             "matched": true
           },
@@ -136,8 +136,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 4,
         "langSegs": {
-          "pli": 454,
-          "en": 453
+          "pli": 439,
+          "en": 438
         }
       },
       {
@@ -153,31 +153,31 @@
         "segMap": {
           "mn10:32.2": {
             "scid": "mn10:32.2",
-            "pli": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. #1",
+            "pli": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. (1) ",
             "en": "It’s when a mendicant who feels a pleasant feeling knows: ‘<span class=\"scv-matched\">I feel a pleasant feeling</span>.’ ",
             "matched": true
           },
           "mn10:32.5": {
             "scid": "mn10:32.5",
-            "pli": "Sāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. #4",
+            "pli": "Sāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. (4) ",
             "en": "When they feel a material pleasant feeling, they know: ‘I feel a material pleasant feeling.’ ",
             "matched": true
           },
           "mn10:32.6": {
             "scid": "mn10:32.6",
-            "pli": "Nirāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. #5",
+            "pli": "Nirāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. (5) ",
             "en": "When they feel a spiritual pleasant feeling, they know: ‘I feel a spiritual pleasant feeling.’ ",
             "matched": true
           }
         },
-        "score": 3.013,
+        "score": 3.012,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 235,
+          "pli": 226,
           "en": 233
         }
       }

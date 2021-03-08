@@ -62,13 +62,13 @@
         "segMap": {
           "an7.52:7.2": {
             "scid": "an7.52:7.2",
-            "pli": "api ca kho ‘dinnapubbaṁ katapubbaṁ pitupitāmahehi na arahāmi porāṇaṁ kulavaṁsaṁ hāpetun’ti dānaṁ deti …pe…. #3",
+            "pli": "api ca kho ‘dinnapubbaṁ katapubbaṁ pitupitāmahehi na arahāmi porāṇaṁ kulavaṁsaṁ hāpetun’ti dānaṁ deti …pe…. (3) ",
             "en": "They give a gift thinking, ‘Giving was practiced by my father and my father’s father. It would not be right for me to abandon this family tradition.’ … ",
             "matched": true
           },
           "an7.52:10.3": {
             "scid": "an7.52:10.3",
-            "pli": "api ca kho ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti …pe…. #6",
+            "pli": "api ca kho ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti …pe…. (6) ",
             "en": "They give a gift thinking, ‘When <span class=\"scv-matched\">giving this gift</span> my mind becomes clear, and I become happy and joyful.’ … ",
             "matched": true
           },
@@ -173,7 +173,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

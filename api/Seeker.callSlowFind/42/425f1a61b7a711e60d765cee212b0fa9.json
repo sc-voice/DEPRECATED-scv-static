@@ -31,7 +31,7 @@
     "pattern": "devadatta",
     "method": "phrase",
     "resultPattern": "\\bdevadatta",
-    "segsMatched": 55,
+    "segsMatched": 53,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.7_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.7_translation-en-sujato.json",
@@ -59,8 +59,6 @@
       "translation/en/sujato/sutta/sn/sn14/sn14.15_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga5/ud5.8_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn17/sn17.34_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn17/sn17.34_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn17/sn17.33_root-pli-ms.json",
@@ -84,7 +82,6 @@
       "sn6.12/en/sujato",
       "sn14.15/en/sujato",
       "mn29/en/sujato",
-      "ud5.8/en/sujato",
       "sn17.34/en/sujato",
       "sn17.33/en/sujato",
       "sn17.32/en/sujato",
@@ -612,41 +609,6 @@
         "langSegs": {
           "pli": 11,
           "en": 11
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga5/ud5.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.8_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud5.8",
-        "lang": "en",
-        "segMap": {
-          "ud5.8:2.1": {
-            "scid": "ud5.8:2.1",
-            "pli": "Addasā kho devadatto āyasmantaṁ ānandaṁ rājagahe piṇḍāya carantaṁ.",
-            "en": "<span class=\"scv-matched\">Devadatta</span> saw him wandering for alms,",
-            "matched": true
-          },
-          "ud5.8:4.5": {
-            "scid": "ud5.8:4.5",
-            "pli": "Ajja, bhante, devadatto saṅghaṁ bhindissati, uposathañca karissati saṅghakammāni cā”ti.",
-            "en": "“Today, sir, <span class=\"scv-matched\">Devadatta</span> will split the Saṅgha. He will perform the sabbath and legal proceedings of the Saṅgha.”",
-            "matched": true
-          }
-        },
-        "score": 2.095,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nSchism in the Saṅgha",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 21,
-          "en": 16
         }
       },
       {

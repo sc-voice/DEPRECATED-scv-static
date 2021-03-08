@@ -346,6 +346,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.244_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.244_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.244",
+        "lang": "en",
+        "segMap": {
+          "sn35.244:2.2": {
+            "scid": "sn35.244:2.2",
+            "pli": "‘Iti rūpaṁ, iti rūpassa samudayo, iti rūpassa atthaṅgamo; ",
+            "en": "‘<span class=\"scv-matched\">Such is form</span>, such is the origin of form, such is the ending of form. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35\n19. The Simile of the Vipers\n244. Entailing Suffering",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json"
         ],
@@ -396,35 +425,6 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 22\n10. Flowers\n101. The Adze",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 61,
-          "en": 60
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn35/sn35.244_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.244_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn35.244",
-        "lang": "en",
-        "segMap": {
-          "sn35.244:2.2": {
-            "scid": "sn35.244:2.2",
-            "pli": "‘Iti rūpaṁ, iti rūpassa samudayo, iti rūpassa atthaṅgamo; ",
-            "en": "‘<span class=\"scv-matched\">Such is form</span>, such is the origin of form, such is the ending of form. ",
-            "matched": true
-          }
-        },
-        "score": 1.016,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Linked Discourses 35\n19. The Simile of the Vipers\n244. Entailing Suffering",
         "segsMatched": 1,
         "langSegs": {
           "pli": 61,
@@ -601,7 +601,7 @@
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 235,
+          "pli": 226,
           "en": 233
         }
       },
@@ -630,8 +630,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 454,
-          "en": 453
+          "pli": 439,
+          "en": 438
         }
       },
       {
@@ -688,7 +688,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },
@@ -717,7 +717,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       }

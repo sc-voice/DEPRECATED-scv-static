@@ -222,7 +222,7 @@
           },
           "dn33:1.10.133": {
             "scid": "dn33:1.10.133",
-            "pli": "attādhipateyyaṁ, lokādhipateyyaṁ, dhammādhipateyyaṁ. #56",
+            "pli": "attādhipateyyaṁ, lokādhipateyyaṁ, dhammādhipateyyaṁ. (56) ",
             "en": "putting oneself, the world, or the teaching <span class=\"scv-matched\">in charge</span>. ",
             "matched": true
           }
@@ -234,7 +234,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },
@@ -263,7 +263,7 @@
         "title": "Long Discourses 23\nWith Pāyāsi",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 715,
+          "pli": 714,
           "en": 713
         }
       }

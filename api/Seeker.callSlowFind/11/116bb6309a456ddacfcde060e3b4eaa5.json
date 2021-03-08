@@ -77,13 +77,13 @@
           },
           "an5.308-1152:1.2": {
             "scid": "an5.308-1152:1.2",
-            "pli": "Dosassa … mohassa … kodhassa … upanāhassa … makkhassa … paḷāsassa … issāya … macchariyassa … māyāya … sāṭheyyassa … thambhassa … sārambhassa … mānassa … atimānassa … madassa … pamādassa abhiññāya … pariññāya … parikkhayāya … pahānāya … khayāya … vayāya … virāgāya … nirodhāya … cāgāya … paṭinissaggāya pañca dhammā bhāvetabbā. #6–849 ",
+            "pli": "Dosassa … mohassa … kodhassa … upanāhassa … makkhassa … paḷāsassa … issāya … macchariyassa … māyāya … sāṭheyyassa … thambhassa … sārambhassa … mānassa … atimānassa … madassa … pamādassa abhiññāya … pariññāya … parikkhayāya … pahānāya … khayāya … vayāya … virāgāya … nirodhāya … cāgāya … paṭinissaggāya pañca dhammā bhāvetabbā. (6–849.) ",
             "en": "“Of hate … delusion … anger … hostility … disdain … contempt … jealousy … stinginess … deceit … deviousness … obstinacy … aggression … conceit … arrogance … vanity … negligence … for insight … complete understanding … finishing … giving up … ending … vanishing … fading away … cessation … giving away … letting go … <span class=\"scv-matched\">five things should be developed</span>. ",
             "matched": true
           },
           "an5.308-1152:2.3": {
             "scid": "an5.308-1152:2.3",
-            "pli": "pamādassa, bhikkhave, paṭinissaggāya ime pañca dhammā bhāvetabbā”ti. #850",
+            "pli": "pamādassa, bhikkhave, paṭinissaggāya ime pañca dhammā bhāvetabbā”ti. (850) ",
             "en": "For the letting go of negligence, these <span class=\"scv-matched\">five things should be developed</span>.” ",
             "matched": true
           }
@@ -118,7 +118,7 @@
           },
           "an5.303:1.4": {
             "scid": "an5.303:1.4",
-            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. #1",
+            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. (1) ",
             "en": "For insight into greed, these <span class=\"scv-matched\">five things should be developed</span>.”",
             "matched": true
           }
@@ -153,7 +153,7 @@
           },
           "an5.304:1.4": {
             "scid": "an5.304:1.4",
-            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. #2",
+            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. (2) ",
             "en": "For insight into greed, these <span class=\"scv-matched\">five things should be developed</span>.”",
             "matched": true
           }
@@ -188,7 +188,7 @@
           },
           "an5.305:1.4": {
             "scid": "an5.305:1.4",
-            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. #3",
+            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. (3) ",
             "en": "For insight into greed, these <span class=\"scv-matched\">five things should be developed</span>.”",
             "matched": true
           }
@@ -223,7 +223,7 @@
           },
           "an5.306:1.4": {
             "scid": "an5.306:1.4",
-            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. #4",
+            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. (4) ",
             "en": "For insight into greed, these <span class=\"scv-matched\">five things should be developed</span>.”",
             "matched": true
           }
@@ -258,7 +258,7 @@
           },
           "an5.307:1.4": {
             "scid": "an5.307:1.4",
-            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. #5",
+            "pli": "rāgassa, bhikkhave, abhiññāya ime pañca dhammā bhāvetabbā”ti. (5) ",
             "en": "For insight into greed, these <span class=\"scv-matched\">five things should be developed</span>.”",
             "matched": true
           }
@@ -299,7 +299,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       }

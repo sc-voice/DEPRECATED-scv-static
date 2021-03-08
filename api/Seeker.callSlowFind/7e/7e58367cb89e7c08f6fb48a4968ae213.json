@@ -31,7 +31,7 @@
     "pattern": "a condition for old age and death",
     "method": "phrase",
     "resultPattern": "\\ba condition for old age and death",
-    "segsMatched": 44,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
@@ -75,10 +75,6 @@
       "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga1/ud1.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
@@ -108,8 +104,6 @@
       "sn12.1/en/sujato",
       "mn75/en/sujato",
       "mn115/en/sujato",
-      "ud1.3/en/sujato",
-      "ud1.1/en/sujato",
       "dn1/en/sujato",
       "an3.61/en/sujato",
       "an10.92/en/sujato"
@@ -544,35 +538,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga1/ud1.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud1.1",
-        "lang": "en",
-        "segMap": {
-          "ud1.1:2.13": {
-            "scid": "ud1.1:2.13",
-            "pli": "jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti.",
-            "en": "Rebirth is <span class=\"scv-matched\">a condition for old age and death</span>, sorrow, lamentation, pain, sadness, and distress to come to be. ",
-            "matched": true
-          }
-        },
-        "score": 1.038,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nUpon Awakening (1st)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 26,
-          "en": 24
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.52_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn12/sn12.52_translation-en-sujato.json"
         ],
@@ -656,35 +621,6 @@
         "langSegs": {
           "pli": 42,
           "en": 41
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud1.3",
-        "lang": "en",
-        "segMap": {
-          "ud1.3:2.16": {
-            "scid": "ud1.3:2.16",
-            "pli": "jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti.",
-            "en": "Rebirth is <span class=\"scv-matched\">a condition for old age and death</span>, sorrow, lamentation, pain, sadness, and distress to come to be. ",
-            "matched": true
-          }
-        },
-        "score": 1.024,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nUpon Awakening (3rd)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 41,
-          "en": 37
         }
       },
       {
@@ -915,8 +851,8 @@
         "title": "Linked Discourses 12\n7. The Great Chapter\n70. The Wanderer Susīma",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 180,
-          "en": 176
+          "pli": 162,
+          "en": 160
         }
       },
       {

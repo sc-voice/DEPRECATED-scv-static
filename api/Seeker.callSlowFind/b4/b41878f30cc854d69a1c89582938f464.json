@@ -284,8 +284,8 @@
             "en": "This too, great king, is a fruit of the ascetic life that’s apparent in the present life which is <span class=\"scv-matched\">better and finer</span> than the former ones. ",
             "matched": true
           },
-          "dn2:92.20": {
-            "scid": "dn2:92.20",
+          "dn2:92.4": {
+            "scid": "dn2:92.4",
             "pli": "Idampi kho, mahārāja, sandiṭṭhikaṁ sāmaññaphalaṁ purimehi sandiṭṭhikehi sāmaññaphalehi abhikkantatarañca paṇītatarañca. ",
             "en": "This too, great king, is a fruit of the ascetic life that’s apparent in the present life which is <span class=\"scv-matched\">better and finer</span> than the former ones. ",
             "matched": true
@@ -315,15 +315,15 @@
             "matched": true
           }
         },
-        "score": 14.022,
+        "score": 14.023,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 14,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       },
       {

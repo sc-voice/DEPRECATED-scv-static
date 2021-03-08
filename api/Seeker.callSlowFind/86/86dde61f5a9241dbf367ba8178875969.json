@@ -177,7 +177,7 @@
           },
           "an7.4:2.4": {
             "scid": "an7.4:2.4",
-            "pli": "Idaṁ vuccati, bhikkhave, saddhābalaṁ. #1",
+            "pli": "Idaṁ vuccati, bhikkhave, saddhābalaṁ. (1) ",
             "en": "This is called <span class=\"scv-matched\">the power of faith</span>. ",
             "matched": true
           }
@@ -206,31 +206,28 @@
         "segMap": {
           "an1.419:1.1": {
             "scid": "an1.419:1.1",
-            "pli": "Saddhābalaṁ bhāveti …",
             "en": "If they develop <span class=\"scv-matched\">the power of faith</span> … ",
             "matched": true
           },
           "an1.500:1.1": {
             "scid": "an1.500:1.1",
-            "pli": "saddhābalaṁ bhāveti … ",
             "en": "<span class=\"scv-matched\">the power of faith</span> … ",
             "matched": true
           },
           "an1.570:1.1": {
             "scid": "an1.570:1.1",
-            "pli": "saddhābalaṁ bhāveti … ",
             "en": "<span class=\"scv-matched\">the power of faith</span> … ",
             "matched": true
           }
         },
-        "score": 3.017,
+        "score": 3.012,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger-Snap\n394–574",
+        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger Snap\n394–574",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 176,
+          "pli": 79,
           "en": 175
         }
       },
@@ -364,7 +361,7 @@
         "title": "Numbered Discourses 3\n16. Naked\n156–162",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 82,
+          "pli": 81,
           "en": 80
         }
       },

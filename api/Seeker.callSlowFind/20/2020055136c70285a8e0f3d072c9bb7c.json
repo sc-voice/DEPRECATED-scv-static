@@ -31,18 +31,14 @@
     "pattern": "moderation in eating",
     "method": "phrase",
     "resultPattern": "\\bmoderation in eating",
-    "segsMatched": 11,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga4/iti29_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga4/iti29_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
@@ -55,9 +51,7 @@
     "suttaRefs": [
       "sn3.13/en/sujato",
       "mn53/en/sujato",
-      "ud4.6/en/sujato",
       "iti29/en/sujato",
-      "dhp179-196/en/sujato",
       "dn33/en/sujato",
       "dn14/en/sujato",
       "an5.150/en/sujato",
@@ -136,35 +130,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.6_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud4.6",
-        "lang": "en",
-        "segMap": {
-          "ud4.6:4.3": {
-            "scid": "ud4.6:4.3",
-            "pli": "Mattaññutā ca bhattasmiṁ,",
-            "en": "<span class=\"scv-matched\">moderation in eating</span>; ",
-            "matched": true
-          }
-        },
-        "score": 1.071,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n4.6. With Piṇḍola",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 14,
-          "en": 13
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.150_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an5/an5.150_translation-en-sujato.json"
         ],
@@ -194,64 +159,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an2/an2.163-179_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an2/an2.163-179_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an2.163-179",
-        "lang": "en",
-        "segMap": {
-          "an2.169:1.3": {
-            "scid": "an2.169:1.3",
-            "pli": "Indriyesu guttadvāratā ca bhojane mattaññutā ca. ",
-            "en": "Guarding the sense doors and <span class=\"scv-matched\">moderation in eating</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 2\n15. Attainment\n163–179",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 90,
-          "en": 89
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp179-196",
-        "lang": "en",
-        "segMap": {
-          "dhp185:3": {
-            "scid": "dhp185:3",
-            "pli": "Mattaññutā ca bhattasmiṁ,",
-            "en": "<span class=\"scv-matched\">moderation in eating</span>; ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Minor Collection\nSayings of the Dhamma\n14. The Buddhas\nMāradhītaravatthu",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 88,
-          "en": 77
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json"
         ],
@@ -277,6 +184,35 @@
         "langSegs": {
           "pli": 100,
           "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.163-179_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an2/an2.163-179_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.163-179",
+        "lang": "en",
+        "segMap": {
+          "an2.169:1.3": {
+            "scid": "an2.169:1.3",
+            "pli": "Indriyesu guttadvāratā ca bhojane mattaññutā ca. ",
+            "en": "Guarding the sense doors and <span class=\"scv-matched\">moderation in eating</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 2\n15. Attainment\n163–179",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 89,
+          "en": 89
         }
       },
       {
@@ -321,7 +257,7 @@
         "segMap": {
           "dn33:1.9.23": {
             "scid": "dn33:1.9.23",
-            "pli": "Indriyesu guttadvāratā ca bhojane mattaññutā ca. #20",
+            "pli": "Indriyesu guttadvāratā ca bhojane mattaññutā ca. (20) ",
             "en": "Guarding the sense doors and <span class=\"scv-matched\">moderation in eating</span>. ",
             "matched": true
           }
@@ -333,7 +269,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

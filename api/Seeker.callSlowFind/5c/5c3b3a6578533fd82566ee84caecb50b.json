@@ -165,14 +165,14 @@
             "matched": true
           }
         },
-        "score": 6.079,
+        "score": 6.065,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n10. Negligence (2nd)\n98–139",
         "segsMatched": 6,
         "langSegs": {
-          "pli": 76,
+          "pli": 75,
           "en": 75
         }
       },
@@ -371,7 +371,7 @@
         "title": "Numbered Discourses 2\n2. Issues\n11–20",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 176,
+          "pli": 169,
           "en": 175
         }
       }

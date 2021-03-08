@@ -215,14 +215,14 @@
             "matched": true
           }
         },
-        "score": 2.014,
+        "score": 2.013,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 146,
+          "pli": 145,
           "en": 144
         }
       },
@@ -312,7 +312,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 10\n2. A Protector\n16. Worthy of Offerings Dedicated to the Gods",
+        "title": "Numbered Discourses 10\n2. A Protector\n16. Worthy of Offerings to the Gods",
         "segsMatched": 1,
         "langSegs": {
           "pli": 8,
@@ -419,7 +419,7 @@
         "segMap": {
           "dn33:2.3.44": {
             "scid": "dn33:2.3.44",
-            "pli": "ubhatobhāgavimutto, paññāvimutto, kāyasakkhi, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. #11",
+            "pli": "ubhatobhāgavimutto, paññāvimutto, kāyasakkhi, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. (11) ",
             "en": "one freed both ways, one freed by wisdom, a personal witness, one attained to view, one <span class=\"scv-matched\">freed by faith</span>, a follower of the teachings, and a follower by faith. ",
             "matched": true
           }
@@ -431,7 +431,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

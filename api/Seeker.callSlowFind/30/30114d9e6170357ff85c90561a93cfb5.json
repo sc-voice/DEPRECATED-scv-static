@@ -345,7 +345,7 @@
         "segMap": {
           "dn33:1.11.152": {
             "scid": "dn33:1.11.152",
-            "pli": "ekaṁsabyākaraṇīyo pañho, paṭipucchābyākaraṇīyo pañho, vibhajjabyākaraṇīyo pañho, ṭhapanīyo pañho. #28",
+            "pli": "aṭṭha vimokkhā kāyena sacchikaraṇīyā; ",
             "en": "There is a question that should be answered <span class=\"scv-matched\">definitively</span>. There is a question that should be answered analytically. There is a question that should be answered with a counter-question. There is a question that should be set aside. ",
             "matched": true
           }
@@ -357,7 +357,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

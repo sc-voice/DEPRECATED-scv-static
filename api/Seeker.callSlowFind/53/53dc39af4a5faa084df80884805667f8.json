@@ -480,6 +480,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn119",
+        "lang": "en",
+        "segMap": {
+          "mn119:6.1": {
+            "scid": "mn119:6.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. ",
+            "en": "Furthermore, a mendicant acts with situational awareness <span class=\"scv-matched\">when going out and coming back</span>; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 119\nMindfulness of the Body",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 174,
+          "en": 173
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json"
         ],
@@ -596,35 +625,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn119",
-        "lang": "en",
-        "segMap": {
-          "mn119:6.1": {
-            "scid": "mn119:6.1",
-            "pli": "Puna caparaṁ, bhikkhave, bhikkhu abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. ",
-            "en": "Furthermore, a mendicant acts with situational awareness <span class=\"scv-matched\">when going out and coming back</span>; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. ",
-            "matched": true
-          }
-        },
-        "score": 1.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 119\nMindfulness of the Body",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 190,
-          "en": 173
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
         ],
@@ -648,8 +648,8 @@
         "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 284,
-          "en": 281
+          "pli": 266,
+          "en": 265
         }
       },
       {
@@ -677,7 +677,7 @@
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 235,
+          "pli": 226,
           "en": 233
         }
       },
@@ -764,8 +764,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       },
       {
@@ -793,8 +793,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 454,
-          "en": 453
+          "pli": 439,
+          "en": 438
         }
       },
       {

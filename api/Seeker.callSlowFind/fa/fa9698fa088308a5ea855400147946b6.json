@@ -31,19 +31,16 @@
     "pattern": "a person’s ethics",
     "method": "phrase",
     "resultPattern": "\\ba person’s ethics",
-    "segsMatched": 5,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.192_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.11_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn3/sn3.11_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga6/ud6.2_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn3/sn3.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.192/en/sujato",
-      "sn3.11/en/sujato",
-      "ud6.2/en/sujato"
+      "sn3.11/en/sujato"
     ],
     "mlDocs": [
       {
@@ -71,7 +68,7 @@
           },
           "an4.192:3.4": {
             "scid": "an4.192:3.4",
-            "pli": "‘Saṁvāsena, bhikkhave, sīlaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. #1",
+            "pli": "‘Saṁvāsena, bhikkhave, sīlaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. (1) ",
             "en": "That’s why I said that you can get to know <span class=\"scv-matched\">a person’s ethics</span> by living with them. But only after a long time, not a short time; only when paying attention, not when inattentive; and only by the wise, not the witless. ",
             "matched": true
           }
@@ -100,49 +97,20 @@
         "segMap": {
           "sn3.11:5.1": {
             "scid": "sn3.11:5.1",
-            "pli": "Saṁvāsena kho, mahārāja, sīlaṁ veditabbaṁ. Tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññena. ",
+            "pli": "Saṁvāsena kho, mahārāja, sīlaṁ veditabbaṁ. ",
             "en": "You can get to know <span class=\"scv-matched\">a person’s ethics</span> by living with them. But only after a long time, not casually; only when paying attention, not when inattentive; and only by the wise, not the witless. ",
             "matched": true
           }
         },
-        "score": 1.028,
+        "score": 1.017,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 3\n2. Childless\n11. Seven Matted-Hair Ascetics",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 36,
+          "pli": 60,
           "en": 36
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga6/ud6.2_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.2_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud6.2",
-        "lang": "en",
-        "segMap": {
-          "ud6.2:6.1": {
-            "scid": "ud6.2:6.1",
-            "pli": "Saṁvāsena kho, mahārāja, sīlaṁ veditabbaṁ. Tañca kho dīghena addhunā na ittaraṁ, manasikarotā no amanasikarotā, paññavatā no duppaññena.",
-            "en": "You can get to know <span class=\"scv-matched\">a person’s ethics</span> by living with them. But only after a long time, not casually; only when paying attention, not when inattentive; and only by the wise, not the witless. ",
-            "matched": true
-          }
-        },
-        "score": 1.027,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nSeven Matted-Hair Ascetics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 37,
-          "en": 30
         }
       }
     ]

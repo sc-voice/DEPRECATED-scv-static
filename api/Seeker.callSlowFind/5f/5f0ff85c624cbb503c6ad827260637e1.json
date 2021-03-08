@@ -31,7 +31,7 @@
     "pattern": "perception of ugliness",
     "method": "phrase",
     "resultPattern": "\\bperception of ugliness",
-    "segsMatched": 24,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.49_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.49_translation-en-sujato.json",
@@ -39,10 +39,6 @@
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.67_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.67_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -62,8 +58,6 @@
       "an7.49/en/sujato",
       "an10.60/en/sujato",
       "sn46.67/en/sujato",
-      "ud4.1/en/sujato",
-      "dhp334-359/en/sujato",
       "dn34/en/sujato",
       "dn33/en/sujato",
       "an9.3/en/sujato",
@@ -175,7 +169,7 @@
           },
           "an10.60:6.5": {
             "scid": "an10.60:6.5",
-            "pli": "Ayaṁ vuccatānanda, asubhasaññā. #3",
+            "pli": "Ayaṁ vuccatānanda, asubhasaññā. (3) ",
             "en": "This is called the <span class=\"scv-matched\">perception of ugliness</span>. ",
             "matched": true
           }
@@ -228,7 +222,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       },
@@ -245,7 +239,7 @@
         "segMap": {
           "sn46.67:1.1": {
             "scid": "sn46.67:1.1",
-            "pli": "“Asubhasaññā, bhikkhave …pe…” ",
+            "pli": "“Asubhasaññā, bhikkhave …pe… ",
             "en": "“Mendicants, when the <span class=\"scv-matched\">perception of ugliness</span> is developed and cultivated it’s very fruitful and beneficial. …” ",
             "matched": true
           }
@@ -379,64 +373,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud4.1",
-        "lang": "en",
-        "segMap": {
-          "ud4.1:21.2": {
-            "scid": "ud4.1:21.2",
-            "pli": "asubhā bhāvetabbā rāgassa pahānāya, mettā bhāvetabbā byāpādassa pahānāya, ānāpānassati bhāvetabbā vitakkupacchedāya, aniccasaññā bhāvetabbā asmimānasamugghātāya.",
-            "en": "They should develop the <span class=\"scv-matched\">perception of ugliness</span> to give up greed, love to give up hate, mindfulness of breathing to cut off thinking, and perception of impermanence to uproot the conceit ‘I am’. ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n4.1. With Meghiya",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 91,
-          "en": 68
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp334-359",
-        "lang": "en",
-        "segMap": {
-          "dhp350:2": {
-            "scid": "dhp350:2",
-            "pli": "Asubhaṁ bhāvayate sadā sato;",
-            "en": "developing <span class=\"scv-matched\">perception of ugliness</span>, ever mindful,",
-            "matched": true
-          }
-        },
-        "score": 1.008,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Minor Collection\nSayings of the Dhamma\n24. Craving\nKapilamacchavatthu",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 124,
-          "en": 111
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
         ],
@@ -448,19 +384,18 @@
         "segMap": {
           "an1.465:1.1": {
             "scid": "an1.465:1.1",
-            "pli": "Asubhasaññaṁ bhāveti … ",
             "en": "They develop the <span class=\"scv-matched\">perception of ugliness</span> … ",
             "matched": true
           }
         },
-        "score": 1.006,
+        "score": 1.004,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger-Snap\n394–574",
+        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger Snap\n394–574",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 176,
+          "pli": 79,
           "en": 175
         }
       },
@@ -477,7 +412,7 @@
         "segMap": {
           "dn33:2.3.25": {
             "scid": "dn33:2.3.25",
-            "pli": "aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. #8",
+            "pli": "aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. (8) ",
             "en": "the perception of impermanence, the perception of not-self, the <span class=\"scv-matched\">perception of ugliness</span>, the perception of drawbacks, the perception of giving up, the perception of fading away, and the perception of cessation. ",
             "matched": true
           }
@@ -489,7 +424,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

@@ -31,7 +31,7 @@
     "pattern": "has a beginning has an end",
     "method": "phrase",
     "resultPattern": "\\bhas a beginning has an end",
-    "segsMatched": 17,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -51,8 +51,6 @@
       "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn147_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn147_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
@@ -76,7 +74,6 @@
       "mn74/en/sujato",
       "mn56/en/sujato",
       "mn147/en/sujato",
-      "ud5.3/en/sujato",
       "dn5/en/sujato",
       "dn3/en/sujato",
       "dn21/en/sujato",
@@ -205,35 +202,6 @@
         "langSegs": {
           "pli": 71,
           "en": 70
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud5.3",
-        "lang": "en",
-        "segMap": {
-          "ud5.3:4.13": {
-            "scid": "ud5.3:4.13",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Everything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          }
-        },
-        "score": 1.014,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n5.3. With Suppabuddha the Leper",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 70,
-          "en": 62
         }
       },
       {

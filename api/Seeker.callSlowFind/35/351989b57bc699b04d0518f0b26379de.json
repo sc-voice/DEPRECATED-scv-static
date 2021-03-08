@@ -62,7 +62,7 @@
           },
           "an3.183-352:1.4": {
             "scid": "an3.183-352:1.4",
-            "pli": "rāgassa, bhikkhave, abhiññāya ime tayo dhammā bhāvetabbā. (…)",
+            "pli": "rāgassa, bhikkhave, abhiññāya ime tayo dhammā bhāvetabbā. (1) (…) ",
             "en": "For insight into greed, these <span class=\"scv-matched\">three things should be developed</span>. ",
             "matched": true
           },
@@ -109,7 +109,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       }

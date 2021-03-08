@@ -65,44 +65,44 @@
           },
           "an5.28:2.7": {
             "scid": "an5.28:2.7",
-            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ paṭhamā bhāvanā. #1",
+            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ paṭhamā bhāvanā. (1) ",
             "en": "This is the first way to <span class=\"scv-matched\">develop noble right immersion</span> with five factors. ",
             "matched": true
           },
           "an5.28:3.8": {
             "scid": "an5.28:3.8",
-            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ dutiyā bhāvanā. #2",
+            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ dutiyā bhāvanā. (2) ",
             "en": "This is the second way to <span class=\"scv-matched\">develop noble right immersion</span> with five factors. ",
             "matched": true
           },
           "an5.28:4.9": {
             "scid": "an5.28:4.9",
-            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ tatiyā bhāvanā. #3",
+            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ tatiyā bhāvanā. (3) ",
             "en": "This is the third way to <span class=\"scv-matched\">develop noble right immersion</span> with five factors. ",
             "matched": true
           },
           "an5.28:5.8": {
             "scid": "an5.28:5.8",
-            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ catutthā bhāvanā. #4",
+            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ catutthā bhāvanā. (4) ",
             "en": "This is the fourth way to <span class=\"scv-matched\">develop noble right immersion</span> with five factors. ",
             "matched": true
           },
           "an5.28:6.4": {
             "scid": "an5.28:6.4",
-            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ pañcamā bhāvanā. #5",
+            "pli": "Ariyassa, bhikkhave, pañcaṅgikassa sammāsamādhissa ayaṁ pañcamā bhāvanā. (5) ",
             "en": "This is the fifth way to <span class=\"scv-matched\">develop noble right immersion</span> with five factors. ",
             "matched": true
           }
         },
-        "score": 7.082,
+        "score": 7.101,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 5\n3. With Five Factors\n28. With Five Factors",
         "segsMatched": 7,
         "langSegs": {
-          "pli": 85,
-          "en": 84
+          "pli": 69,
+          "en": 68
         }
       }
     ]

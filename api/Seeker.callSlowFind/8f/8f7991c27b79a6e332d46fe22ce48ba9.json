@@ -63,6 +63,47 @@
     "mlDocs": [
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.101",
+        "lang": "en",
+        "segMap": {
+          "an3.101:1.8": {
+            "scid": "an3.101:1.8",
+            "pli": "Tamenaṁ suvaṇṇakāro vā suvaṇṇakārantevāsī vā jātarūpaṁ mūsāyaṁ pakkhipitvā dhamati sandhamati niddhamati. ",
+            "en": "A <span class=\"scv-matched\">goldsmith</span> or their apprentice places the gold in a crucible where they blow, melt, and smelt it. ",
+            "matched": true
+          },
+          "an3.101:1.10": {
+            "scid": "an3.101:1.10",
+            "pli": "Hoti so, bhikkhave, samayo yaṁ suvaṇṇakāro vā suvaṇṇakārantevāsī vā taṁ jātarūpaṁ dhamati sandhamati niddhamati. ",
+            "en": "But the <span class=\"scv-matched\">goldsmith</span> keeps on blowing, melting, and smelting it. ",
+            "matched": true
+          },
+          "an3.101:1.12": {
+            "scid": "an3.101:1.12",
+            "pli": "Yassā yassā ca pilandhanavikatiyā ākaṅkhati—yadi paṭṭikāya, yadi kuṇḍalāya, yadi gīveyyake, yadi suvaṇṇamālāya—tañcassa atthaṁ anubhoti. ",
+            "en": "Then the <span class=\"scv-matched\">goldsmith</span> can successfully create any kind of ornament they want, whether a bracelet, earrings, a necklace, or a golden garland. ",
+            "matched": true
+          }
+        },
+        "score": 3.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 36,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.102_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.102_translation-en-sujato.json"
         ],
@@ -104,47 +145,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.101",
-        "lang": "en",
-        "segMap": {
-          "an3.101:1.8": {
-            "scid": "an3.101:1.8",
-            "pli": "Tamenaṁ suvaṇṇakāro vā suvaṇṇakārantevāsī vā jātarūpaṁ mūsāyaṁ pakkhipitvā dhamati sandhamati niddhamati. ",
-            "en": "A <span class=\"scv-matched\">goldsmith</span> or their apprentice places the gold in a crucible where they blow, melt, and smelt it. ",
-            "matched": true
-          },
-          "an3.101:1.10": {
-            "scid": "an3.101:1.10",
-            "pli": "Hoti so, bhikkhave, samayo yaṁ suvaṇṇakāro vā suvaṇṇakārantevāsī vā taṁ jātarūpaṁ dhamati sandhamati niddhamati. ",
-            "en": "But the <span class=\"scv-matched\">goldsmith</span> keeps on blowing, melting, and smelting it. ",
-            "matched": true
-          },
-          "an3.101:1.12": {
-            "scid": "an3.101:1.12",
-            "pli": "Yassā yassā ca pilandhanavikatiyā ākaṅkhati—yadi paṭṭikāya, yadi kuṇḍalāya, yadi gīveyyake, yadi suvaṇṇamālāya—tañcassa atthaṁ anubhoti. ",
-            "en": "Then the <span class=\"scv-matched\">goldsmith</span> can successfully create any kind of ornament they want, whether a bracelet, earrings, a necklace, or a golden garland. ",
-            "matched": true
-          }
-        },
-        "score": 3.058,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 52,
-          "en": 51
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.23_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json"
         ],
@@ -161,15 +161,15 @@
             "matched": true
           }
         },
-        "score": 1.023,
+        "score": 1.034,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 5\n3. With Five Factors\n23. Corruptions",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 44,
-          "en": 43
+          "pli": 29,
+          "en": 28
         }
       },
       {
@@ -226,8 +226,8 @@
         "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 284,
-          "en": 281
+          "pli": 266,
+          "en": 265
         }
       },
       {
@@ -284,8 +284,8 @@
         "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 390,
-          "en": 373
+          "pli": 352,
+          "en": 357
         }
       },
       {
@@ -313,8 +313,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       }
     ]

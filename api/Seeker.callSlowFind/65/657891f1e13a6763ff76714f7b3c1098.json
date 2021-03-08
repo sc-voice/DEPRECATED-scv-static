@@ -324,7 +324,7 @@
         "title": "Numbered Discourses 3\n7. The Great Chapter\n70. Sabbath",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 238,
+          "pli": 234,
           "en": 232
         }
       },
@@ -341,7 +341,7 @@
         "segMap": {
           "an10.211:12.3": {
             "scid": "an10.211:12.3",
-            "pli": "Idha, bhikkhave, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati. #1",
+            "pli": "Idha, bhikkhave, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati. (1) ",
             "en": "It’s when a certain person gives up killing living creatures. They renounce the rod and the sword. They’re <span class=\"scv-matched\">scrupulous and kind</span>, living full of compassion for all living beings. ",
             "matched": true
           }
@@ -399,7 +399,7 @@
         "segMap": {
           "an10.217:20.2": {
             "scid": "an10.217:20.2",
-            "pli": "Idha, bhikkhave, ekacco pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati …pe…. #1",
+            "pli": "Idha, bhikkhave, ekacco pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati …pe…. (1) ",
             "en": "It’s when a certain person gives up killing living creatures. They renounce the rod and the sword. They’re <span class=\"scv-matched\">scrupulous and kind</span>, living full of compassion for all living beings. ",
             "matched": true
           }
@@ -457,7 +457,7 @@
         "segMap": {
           "an10.176:25.2": {
             "scid": "an10.176:25.2",
-            "pli": "Idha, cunda, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho, lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati. #1",
+            "pli": "Idha, cunda, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho, lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati. (1) ",
             "en": "It’s when a certain person gives up killing living creatures. They renounce the rod and the sword. They’re <span class=\"scv-matched\">scrupulous and kind</span>, living full of compassion for all living beings. ",
             "matched": true
           }
@@ -759,8 +759,8 @@
         "title": "Long Discourses 10\nWith Subha",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 284,
-          "en": 281
+          "pli": 266,
+          "en": 265
         }
       },
       {
@@ -875,8 +875,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 649,
-          "en": 632
+          "pli": 617,
+          "en": 616
         }
       },
       {

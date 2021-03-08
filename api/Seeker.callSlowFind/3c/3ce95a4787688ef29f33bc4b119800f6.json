@@ -71,49 +71,49 @@
           },
           "an8.29:1.6": {
             "scid": "an8.29:1.6",
-            "pli": "Ayaṁ, bhikkhave, paṭhamo akkhaṇo asamayo brahmacariyavāsāya. #1",
+            "pli": "Ayaṁ, bhikkhave, paṭhamo akkhaṇo asamayo brahmacariyavāsāya. (1) ",
             "en": "This is the first <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
           "an8.29:2.2": {
             "scid": "an8.29:2.2",
-            "pli": "ayañca puggalo tiracchānayoniṁ upapanno hoti …pe…. #2",
+            "pli": "ayañca puggalo tiracchānayoniṁ upapanno hoti …pe…. (2) ",
             "en": "But a person has been reborn in the animal realm. This is the second <span class=\"scv-matched\">lost opportunit</span>y. ",
             "matched": true
           },
           "an8.29:3.2": {
             "scid": "an8.29:3.2",
-            "pli": "ayañca puggalo pettivisayaṁ upapanno hoti …pe…. #3",
+            "pli": "ayañca puggalo pettivisayaṁ upapanno hoti …pe…. (3) ",
             "en": "But a person has been reborn in the ghost realm. This is the third <span class=\"scv-matched\">lost opportunit</span>y. ",
             "matched": true
           },
           "an8.29:4.2": {
             "scid": "an8.29:4.2",
-            "pli": "ayañca puggalo aññataraṁ dīghāyukaṁ devanikāyaṁ upapanno hoti …pe…. #4",
+            "pli": "ayañca puggalo aññataraṁ dīghāyukaṁ devanikāyaṁ upapanno hoti …pe…. (4) ",
             "en": "But a person has been reborn in one of the long-lived orders of gods. This is the fourth <span class=\"scv-matched\">lost opportunit</span>y. ",
             "matched": true
           },
           "an8.29:5.2": {
             "scid": "an8.29:5.2",
-            "pli": "ayañca puggalo paccantimesu janapadesu paccājāto hoti, so ca hoti aviññātāresu milakkhesu, yattha natthi gati bhikkhūnaṁ bhikkhunīnaṁ upāsakānaṁ upāsikānaṁ …pe…. #5",
+            "pli": "ayañca puggalo paccantimesu janapadesu paccājāto hoti, so ca hoti aviññātāresu milakkhesu, yattha natthi gati bhikkhūnaṁ bhikkhunīnaṁ upāsakānaṁ upāsikānaṁ …pe…. (5) ",
             "en": "But a person has been reborn in the borderlands, among strange barbarian tribes, where monks, nuns, laymen, and laywomen do not go. This is the fifth <span class=\"scv-matched\">lost opportunit</span>y … ",
             "matched": true
           },
           "an8.29:6.2": {
             "scid": "an8.29:6.2",
-            "pli": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammā paṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti …pe…. #6",
+            "pli": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammā paṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti …pe…. (6) ",
             "en": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no obligation to mother and father. No beings are reborn spontaneously. And there’s no ascetic or brahmin who is well attained and practiced, and who describes the afterlife after realizing it with their own insight.’ This is the sixth <span class=\"scv-matched\">lost opportunit</span>y … ",
             "matched": true
           },
           "an8.29:7.3": {
             "scid": "an8.29:7.3",
-            "pli": "Ayaṁ, bhikkhave, sattamo akkhaṇo asamayo brahmacariyavāsāya. #7",
+            "pli": "Ayaṁ, bhikkhave, sattamo akkhaṇo asamayo brahmacariyavāsāya. (7) ",
             "en": "This is the seventh <span class=\"scv-matched\">lost opportunit</span>y … ",
             "matched": true
           },
           "an8.29:8.3": {
             "scid": "an8.29:8.3",
-            "pli": "Ayaṁ, bhikkhave, aṭṭhamo akkhaṇo asamayo brahmacariyavāsāya. #8",
+            "pli": "Ayaṁ, bhikkhave, aṭṭhamo akkhaṇo asamayo brahmacariyavāsāya. (8) ",
             "en": "This is the eighth <span class=\"scv-matched\">lost opportunit</span>y … ",
             "matched": true
           },
@@ -202,7 +202,7 @@
           },
           "dn33:3.2.71": {
             "scid": "dn33:3.2.71",
-            "pli": "Ayaṁ navamo akkhaṇo asamayo brahmacariyavāsāya. #4",
+            "pli": "Ayaṁ navamo akkhaṇo asamayo brahmacariyavāsāya. (4) ",
             "en": "This is the ninth <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           }
@@ -214,7 +214,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 10,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },
@@ -237,43 +237,43 @@
           },
           "dn34:2.1.125": {
             "scid": "dn34:2.1.125",
-            "pli": "Ayaṁ paṭhamo akkhaṇo asamayo brahmacariyavāsāya. #7.1 ",
+            "pli": "Ayaṁ paṭhamo akkhaṇo asamayo brahmacariyavāsāya. (7.1) ",
             "en": "This is the first <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.128": {
             "scid": "dn34:2.1.128",
-            "pli": "Ayaṁ dutiyo akkhaṇo asamayo brahmacariyavāsāya. #7.2 ",
+            "pli": "Ayaṁ dutiyo akkhaṇo asamayo brahmacariyavāsāya. (7.2) ",
             "en": "This is the second <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.131": {
             "scid": "dn34:2.1.131",
-            "pli": "Ayaṁ tatiyo akkhaṇo asamayo brahmacariyavāsāya. #7.3 ",
+            "pli": "Ayaṁ tatiyo akkhaṇo asamayo brahmacariyavāsāya. (7.3) ",
             "en": "This is the third <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.134": {
             "scid": "dn34:2.1.134",
-            "pli": "Ayaṁ catuttho akkhaṇo asamayo brahmacariyavāsāya. #7.4 ",
+            "pli": "Ayaṁ catuttho akkhaṇo asamayo brahmacariyavāsāya. (7.4) ",
             "en": "This is the fourth <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.137": {
             "scid": "dn34:2.1.137",
-            "pli": "Ayaṁ pañcamo akkhaṇo asamayo brahmacariyavāsāya. #7.5 ",
+            "pli": "Ayaṁ pañcamo akkhaṇo asamayo brahmacariyavāsāya. (7.5) ",
             "en": "This is the fifth <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.141": {
             "scid": "dn34:2.1.141",
-            "pli": "Ayaṁ chaṭṭho akkhaṇo asamayo brahmacariyavāsāya. #7.6 ",
+            "pli": "Ayaṁ chaṭṭho akkhaṇo asamayo brahmacariyavāsāya. (7.6) ",
             "en": "This is the sixth <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.144": {
             "scid": "dn34:2.1.144",
-            "pli": "Ayaṁ sattamo akkhaṇo asamayo brahmacariyavāsāya. #7.7 ",
+            "pli": "Ayaṁ sattamo akkhaṇo asamayo brahmacariyavāsāya. (7.7) ",
             "en": "This is the seventh <span class=\"scv-matched\">lost opportunit</span>y for spiritual practice. ",
             "matched": true
           },
@@ -291,7 +291,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 9,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       }

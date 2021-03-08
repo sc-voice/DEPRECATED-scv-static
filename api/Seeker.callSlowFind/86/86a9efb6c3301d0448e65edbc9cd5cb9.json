@@ -31,14 +31,12 @@
     "pattern": "giant",
     "method": "phrase",
     "resultPattern": "\\bgiant",
-    "segsMatched": 51,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
@@ -55,19 +53,14 @@
       "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn24_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn24_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga4/ud4.4_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag4.6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag4.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.43/en/sujato",
       "thag15.2/en/sujato",
-      "ud4.5/en/sujato",
       "thag21.1/en/sujato",
       "sn8.8/en/sujato",
       "sn22.76/en/sujato",
@@ -76,10 +69,8 @@
       "mn5/en/sujato",
       "mn56/en/sujato",
       "mn24/en/sujato",
-      "ud4.4/en/sujato",
       "thag4.6/en/sujato",
-      "thag16.6/en/sujato",
-      "dhp320-333/en/sujato"
+      "thag16.6/en/sujato"
     ],
     "mlDocs": [
       {
@@ -346,41 +337,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud4.5",
-        "lang": "en",
-        "segMap": {
-          "ud4.5:8.1": {
-            "scid": "ud4.5:8.1",
-            "pli": "“Etaṁ nāgassa nāgena,",
-            "en": "“The <span class=\"scv-matched\">giant</span> elephant, ",
-            "matched": true
-          },
-          "ud4.5:8.3": {
-            "scid": "ud4.5:8.3",
-            "pli": "Sameti cittaṁ cittena,",
-            "en": "agrees heart to heart with the spiritual <span class=\"scv-matched\">giant</span>, ",
-            "matched": true
-          }
-        },
-        "score": 2.059,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n4.5. A Bull Elephant",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 34,
-          "en": 33
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
         ],
@@ -411,7 +367,7 @@
         "segsMatched": 2,
         "langSegs": {
           "pli": 309,
-          "en": 309
+          "en": 308
         }
       },
       {
@@ -503,35 +459,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga4/ud4.4_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.4_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud4.4",
-        "lang": "en",
-        "segMap": {
-          "ud4.4:8.1": {
-            "scid": "ud4.4:8.1",
-            "pli": "Assosi kho bhagavā dibbāya sotadhātuyā visuddhāya atikkantamānusikāya tesaṁ ubhinnaṁ mahānāgānaṁ imaṁ evarūpaṁ kathāsallāpaṁ.",
-            "en": "With clairaudience that is purified and superhuman, the Buddha heard that discussion between those two spiritual <span class=\"scv-matched\">giant</span>s. ",
-            "matched": true
-          }
-        },
-        "score": 1.02,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n4.4. The Spirit’s Blow",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 49,
-          "en": 48
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.76_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn22/sn22.76_translation-en-sujato.json"
         ],
@@ -557,35 +484,6 @@
         "langSegs": {
           "pli": 54,
           "en": 53
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp320-333",
-        "lang": "en",
-        "segMap": {
-          "dhp322:4": {
-            "scid": "dhp322:4",
-            "pli": "attadanto tato varaṁ.",
-            "en": "or <span class=\"scv-matched\">giant</span> tuskers.",
-            "matched": true
-          }
-        },
-        "score": 1.015,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Minor Collection\nSayings of the Dhamma\n23. Elephants\nAttadantavatthu",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 68,
-          "en": 59
         }
       },
       {

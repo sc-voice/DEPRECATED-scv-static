@@ -84,13 +84,13 @@
           "an8.80:5.3": {
             "scid": "an8.80:5.3",
             "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto nālatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. Tassa me kāyo kilanto akammañño. Handāhaṁ nipajjāmī’ti. ",
-            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, rough or fine. My body is tired and unfit for work. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
+            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, coarse or fine. My body is tired and unfit for work. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
             "matched": true
           },
           "an8.80:6.3": {
             "scid": "an8.80:6.3",
             "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto alatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. Tassa me kāyo garuko akammañño māsācitaṁ maññe. Handāhaṁ nipajjāmī’ti. ",
-            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, rough or fine. My body is heavy, unfit for work, like I’ve just eaten a load of beans. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
+            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, coarse or fine. My body is heavy, unfit for work, like I’ve just eaten a load of beans. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
             "matched": true
           },
           "an8.80:7.3": {
@@ -155,13 +155,13 @@
           "dn34:2.1.66": {
             "scid": "dn34:2.1.66",
             "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto nālatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo kilanto akammañño, handāhaṁ nipajjāmī’ti …pe… ",
-            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, rough or fine. My body is tired and unfit for work. I’d better <span class=\"scv-matched\">have a lie down</span>.’… ",
+            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, coarse or fine. My body is tired and unfit for work. I’d better <span class=\"scv-matched\">have a lie down</span>.’… ",
             "matched": true
           },
           "dn34:2.1.70": {
             "scid": "dn34:2.1.70",
             "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto alatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo garuko akammañño, māsācitaṁ maññe, handāhaṁ nipajjāmī’ti. ",
-            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, rough or fine. My body is heavy, unfit for work, like I’ve just eaten a load of beans. I’d better <span class=\"scv-matched\">have a lie down</span>.’… ",
+            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, coarse or fine. My body is heavy, unfit for work, like I’ve just eaten a load of beans. I’d better <span class=\"scv-matched\">have a lie down</span>.’… ",
             "matched": true
           },
           "dn34:2.1.74": {
@@ -184,7 +184,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 8,
         "langSegs": {
-          "pli": 894,
+          "pli": 892,
           "en": 891
         }
       },
@@ -226,13 +226,13 @@
           "dn33:3.1.33": {
             "scid": "dn33:3.1.33",
             "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto nālatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo kilanto akammañño, handāhaṁ nipajjāmī’ti. ",
-            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, rough or fine. My body is tired and unfit for work. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
+            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, coarse or fine. My body is tired and unfit for work. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
             "matched": true
           },
           "dn33:3.1.38": {
             "scid": "dn33:3.1.38",
             "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto alatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ, tassa me kāyo garuko akammañño, māsācitaṁ maññe, handāhaṁ nipajjāmī’ti. ",
-            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, rough or fine. My body is heavy and unfit for work, like I’ve just eaten a load of beans. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
+            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, coarse or fine. My body is heavy and unfit for work, like I’ve just eaten a load of beans. I’d better <span class=\"scv-matched\">have a lie down</span>.’ ",
             "matched": true
           },
           "dn33:3.1.43": {
@@ -255,7 +255,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 8,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

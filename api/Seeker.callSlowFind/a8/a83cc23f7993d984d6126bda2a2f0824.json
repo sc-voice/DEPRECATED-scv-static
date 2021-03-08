@@ -31,10 +31,8 @@
     "pattern": "substantial wealth",
     "method": "phrase",
     "resultPattern": "\\bsubstantial wealth",
-    "segsMatched": 8,
+    "segsMatched": 6,
     "bilaraPaths": [
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
@@ -43,7 +41,6 @@
       "translation/en/sujato/sutta/an/an5/an5.213_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "ud8.6/en/sujato",
       "dn33/en/sujato",
       "dn16/en/sujato",
       "an5.213/en/sujato"
@@ -86,41 +83,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud8.6",
-        "lang": "en",
-        "segMap": {
-          "ud8.6:4.3": {
-            "scid": "ud8.6:4.3",
-            "pli": "Idha, gahapatayo, dussīlo sīlavipanno pamādādhikaraṇaṁ mahatiṁ bhogajāniṁ nigacchati.",
-            "en": "Firstly, an unethical person loses <span class=\"scv-matched\">substantial wealth</span> on account of negligence. ",
-            "matched": true
-          },
-          "ud8.6:9.3": {
-            "scid": "ud8.6:9.3",
-            "pli": "Idha, gahapatayo, sīlavā sīlasampanno appamādādhikaraṇaṁ mahantaṁ bhogakkhandhaṁ adhigacchati.",
-            "en": "Firstly, an ethical person gains <span class=\"scv-matched\">substantial wealth</span> on account of diligence. ",
-            "matched": true
-          }
-        },
-        "score": 2.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nThe Layfolk of Pāṭali Village",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 118,
-          "en": 98
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
         ],
@@ -150,7 +112,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },

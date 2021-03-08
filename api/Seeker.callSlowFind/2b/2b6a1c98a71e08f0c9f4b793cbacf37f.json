@@ -31,7 +31,7 @@
     "pattern": "this is the only truth",
     "method": "phrase",
     "resultPattern": "\\bthis is the only truth",
-    "segsMatched": 66,
+    "segsMatched": 63,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
@@ -61,12 +61,6 @@
       "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
@@ -87,9 +81,6 @@
       "sn45.174/en/sujato",
       "mn139/en/sujato",
       "mn102/en/sujato",
-      "ud6.6/en/sujato",
-      "ud6.5/en/sujato",
-      "ud6.4/en/sujato",
       "dn33/en/sujato",
       "dn21/en/sujato"
     ],
@@ -108,13 +99,13 @@
           "mn72:3.1": {
             "scid": "mn72:3.1",
             "pli": "“Kiṁ nu kho, bho gotama, ‘sassato loko, idameva saccaṁ moghamaññan’ti—",
-            "en": "“Master Gotama, is this your view: ‘The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
+            "en": "“Master Gotama, is this your view: ‘The world is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
             "matched": true
           },
           "mn72:4.1": {
             "scid": "mn72:4.1",
             "pli": "“Kiṁ pana, bho gotama, ‘asassato loko, idameva saccaṁ moghamaññan’ti—",
-            "en": "“Then is this your view: ‘The cosmos is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
+            "en": "“Then is this your view: ‘The world is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
             "matched": true
           },
           "mn72:5.1": {
@@ -339,13 +330,13 @@
           "an10.96:5.1": {
             "scid": "an10.96:5.1",
             "pli": "“Kiṁ nu kho, bho, ‘sassato loko, idameva saccaṁ moghamaññan’ti—evaṁdiṭṭhi bhavan”ti? ",
-            "en": "“Is this your view: ‘The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
+            "en": "“Is this your view: ‘The world is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
             "matched": true
           },
           "an10.96:6.1": {
             "scid": "an10.96:6.1",
             "pli": "“Kiṁ pana, bho, ‘asassato loko, idameva saccaṁ moghamaññan’ti—evaṁdiṭṭhi bhavan”ti? ",
-            "en": "“Then is this your view: ‘The cosmos is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
+            "en": "“Then is this your view: ‘The world is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
             "matched": true
           },
           "an10.96:7.8": {
@@ -357,13 +348,13 @@
           "an10.96:13.1": {
             "scid": "an10.96:13.1",
             "pli": "“‘Sassato loko, idameva saccaṁ moghamaññan’ti kho, āvuso, diṭṭhigatametaṁ. ",
-            "en": "“‘The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly:’ that’s a misconception. ",
+            "en": "“‘The world is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly:’ that’s a misconception. ",
             "matched": true
           },
           "an10.96:13.2": {
             "scid": "an10.96:13.2",
             "pli": "‘Asassato loko, idameva saccaṁ moghamaññan’ti kho, āvuso, diṭṭhigatametaṁ. ",
-            "en": "‘The cosmos is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly:’ that’s a misconception. ",
+            "en": "‘The world is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly:’ that’s a misconception. ",
             "matched": true
           },
           "an10.96:13.10": {
@@ -398,13 +389,13 @@
           "an10.93:6.2": {
             "scid": "an10.93:6.2",
             "pli": "“sassato loko, idameva saccaṁ moghamaññanti—",
-            "en": "“The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
+            "en": "“The world is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
             "matched": true
           },
           "an10.93:7.2": {
             "scid": "an10.93:7.2",
             "pli": "“asassato loko, idameva saccaṁ moghamaññanti—",
-            "en": "“The cosmos is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
+            "en": "“The world is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
             "matched": true
           },
           "an10.93:8.9": {
@@ -416,13 +407,13 @@
           "an10.93:9.3": {
             "scid": "an10.93:9.3",
             "pli": "‘sassato loko, idameva saccaṁ moghamaññanti—",
-            "en": "‘The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
+            "en": "‘The world is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
             "matched": true
           },
           "an10.93:10.2": {
             "scid": "an10.93:10.2",
             "pli": "‘asassato loko, idameva saccaṁ moghamaññanti—",
-            "en": "‘The cosmos is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
+            "en": "‘The world is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly. ",
             "matched": true
           },
           "an10.93:11.9": {
@@ -456,25 +447,25 @@
         "segMap": {
           "mn136:9.9": {
             "scid": "mn136:9.9",
-            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. #1",
+            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. (1) ",
             "en": "And so they obstinately stick to what they have known, seen, and understood for themselves, insisting that: ‘<span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.’ ",
             "matched": true
           },
           "mn136:10.9": {
             "scid": "mn136:10.9",
-            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. #2",
+            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. (2) ",
             "en": "And so they obstinately stick to what they have known, seen, and understood for themselves, insisting that: ‘<span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.’ ",
             "matched": true
           },
           "mn136:11.9": {
             "scid": "mn136:11.9",
-            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. #3",
+            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. (3) ",
             "en": "And so they obstinately stick to what they have known, seen, and understood for themselves, insisting that: ‘<span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.’ ",
             "matched": true
           },
           "mn136:12.7": {
             "scid": "mn136:12.7",
-            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. #4",
+            "pli": "Iti so yadeva tassa sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tadeva tattha thāmasā parāmāsā abhinivissa voharati: ‘idameva saccaṁ, moghamaññan’ti. (4) ",
             "en": "And so they obstinately stick to what they have known, seen, and understood for themselves, insisting that: ‘<span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.’ ",
             "matched": true
           },
@@ -516,13 +507,13 @@
           "an10.95:1.3": {
             "scid": "an10.95:1.3",
             "pli": "“kiṁ nu kho, bho gotama, sassato loko, idameva saccaṁ moghamaññan”ti? ",
-            "en": "“Master Gotama, is this right: ‘The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
+            "en": "“Master Gotama, is this right: ‘The world is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
             "matched": true
           },
           "an10.95:2.1": {
             "scid": "an10.95:2.1",
             "pli": "“Kiṁ pana, bho gotama, asassato loko, idameva saccaṁ moghamaññan”ti? ",
-            "en": "“Then is this right: ‘The cosmos is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
+            "en": "“Then is this right: ‘The world is not eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly’?” ",
             "matched": true
           },
           "an10.95:3.8": {
@@ -649,14 +640,14 @@
             "matched": true
           }
         },
-        "score": 2.014,
+        "score": 2.013,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 146,
+          "pli": 145,
           "en": 144
         }
       },
@@ -680,7 +671,7 @@
           "mn60:34.7": {
             "scid": "mn60:34.7",
             "pli": "idameva saccaṁ, moghamaññanti, na metaṁ assa patirūpaṁ. ",
-            "en": "‘<span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.’ ",
+            "en": "‚<span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.’ ",
             "matched": true
           }
         },
@@ -722,93 +713,6 @@
         "langSegs": {
           "pli": 9,
           "en": 8
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud6.5",
-        "lang": "en",
-        "segMap": {
-          "ud6.5:2.2": {
-            "scid": "ud6.5:2.2",
-            "pli": "“sassato attā ca loko ca, idameva saccaṁ moghamaññan”ti.",
-            "en": "“The self and the cosmos are eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.” ",
-            "matched": true
-          }
-        },
-        "score": 1.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nFollowers of Other Paths (2nd)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 60,
-          "en": 33
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud6.6",
-        "lang": "en",
-        "segMap": {
-          "ud6.6:2.2": {
-            "scid": "ud6.6:2.2",
-            "pli": "“sassato attā ca loko ca, idameva saccaṁ moghamaññan”ti.",
-            "en": "“The self and the cosmos are eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.” ",
-            "matched": true
-          }
-        },
-        "score": 1.015,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nFollowers of Other Paths (3rd)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 67,
-          "en": 40
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud6.4",
-        "lang": "en",
-        "segMap": {
-          "ud6.4:2.2": {
-            "scid": "ud6.4:2.2",
-            "pli": "“sassato loko, idameva saccaṁ moghamaññan”ti.",
-            "en": "“The cosmos is eternal. <span class=\"scv-matched\">This is the only truth</span>, other ideas are silly.” ",
-            "matched": true
-          }
-        },
-        "score": 1.009,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nFollowers of Other Paths (1st)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 106,
-          "en": 88
         }
       },
       {
@@ -911,7 +815,7 @@
         "segMap": {
           "dn33:1.11.170": {
             "scid": "dn33:1.11.170",
-            "pli": "abhijjhā kāyagantho, byāpādo kāyagantho, sīlabbataparāmāso kāyagantho, idaṁsaccābhiniveso kāyagantho. #34",
+            "pli": "Puna caparaṁ, āvuso, idhekacco sampajāno mātukucchiṁ okkamati, sampajāno mātukucchismiṁ ṭhāti, sampajāno mātukucchimhā nikkhamati, ayaṁ catutthā gabbhāvakkanti. (37) ",
             "en": "the personal ties to covetousness, ill will, misapprehension of precepts and observances, and the insistence that <span class=\"scv-matched\">this is the only truth</span>. ",
             "matched": true
           }
@@ -923,7 +827,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       }

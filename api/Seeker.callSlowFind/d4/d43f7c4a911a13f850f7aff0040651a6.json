@@ -31,12 +31,10 @@
     "pattern": "extinguished until i have nun disciples",
     "method": "phrase",
     "resultPattern": "\\bextinguished until i have nun disciples",
-    "segsMatched": 4,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga6/ud6.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
@@ -44,7 +42,6 @@
     ],
     "suttaRefs": [
       "sn51.10/en/sujato",
-      "ud6.1/en/sujato",
       "dn16/en/sujato",
       "an8.70/en/sujato"
     ],
@@ -105,35 +102,6 @@
         "langSegs": {
           "pli": 87,
           "en": 85
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga6/ud6.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud6.1",
-        "lang": "en",
-        "segMap": {
-          "ud6.1:10.2": {
-            "scid": "ud6.1:10.2",
-            "pli": "‘na tāvāhaṁ, pāpima, parinibbāyissāmi yāva me bhikkhuniyo na sāvikā bhavissanti viyattā vinītā visāradā bahussutā dhammadharā dhammānudhammappaṭipannā sāmīcippaṭipannā anudhammacāriniyo sakaṁ ācariyakaṁ uggahetvā ācikkhissanti desessanti paññapessanti paṭṭhapessanti vivarissanti vibhajissanti uttānīkarissanti uppannaṁ parappavādaṁ sahadhammena suniggahitaṁ niggahetvā sappāṭihāriyaṁ dhammaṁ desessantī’ti.",
-            "en": "‘Wicked One, I will not become fully <span class=\"scv-matched\">extinguished until I have nun disciples</span> who are competent, educated, assured, learned …’ … ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nSurrendering the Life Force",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 91,
-          "en": 58
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "cruel",
     "method": "phrase",
     "resultPattern": "\\bcruel",
-    "segsMatched": 116,
+    "segsMatched": 113,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
@@ -55,8 +55,6 @@
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn124_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn124_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.74_root-pli-ms.json",
@@ -117,8 +115,6 @@
       "translation/en/sujato/sutta/mn/mn114_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti87_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti87_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
@@ -184,7 +180,6 @@
       "mn78/en/sujato",
       "mn33/en/sujato",
       "mn124/en/sujato",
-      "ud4.1/en/sujato",
       "an9.3/en/sujato",
       "an6.74/en/sujato",
       "an6.113/en/sujato",
@@ -215,7 +210,6 @@
       "mn115/en/sujato",
       "mn114/en/sujato",
       "iti87/en/sujato",
-      "dhp383-423/en/sujato",
       "dn34/en/sujato",
       "dn32/en/sujato",
       "dn17/en/sujato",
@@ -375,31 +369,31 @@
         "segMap": {
           "dn33:1.10.13": {
             "scid": "dn33:1.10.13",
-            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. #5",
+            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. (5) ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
           "dn33:1.10.17": {
             "scid": "dn33:1.10.17",
-            "pli": "kāmasaṅkappo, byāpādasaṅkappo, vihiṁsāsaṅkappo. #7",
+            "pli": "kāmasaṅkappo, byāpādasaṅkappo, vihiṁsāsaṅkappo. (7) ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
           "dn33:1.10.21": {
             "scid": "dn33:1.10.21",
-            "pli": "kāmasaññā, byāpādasaññā, vihiṁsāsaññā. #9",
+            "pli": "kāmasaññā, byāpādasaññā, vihiṁsāsaññā. (9) ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
           "dn33:1.10.25": {
             "scid": "dn33:1.10.25",
-            "pli": "kāmadhātu, byāpādadhātu, vihiṁsādhātu. #11",
+            "pli": "kāmadhātu, byāpādadhātu, vihiṁsādhātu. (11) ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
           "dn33:1.11.87": {
             "scid": "dn33:1.11.87",
-            "pli": "uppannaṁ vihiṁsāvitakkaṁ …pe… ",
+            "pli": "Katamañcāvuso, bhāvanāpadhānaṁ? ",
             "en": "or <span class=\"scv-matched\">cruel</span> thought that’s arisen, but gives it up, gets rid of it, eliminates it, and obliterates it. ",
             "matched": true
           },
@@ -417,7 +411,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 6,
         "langSegs": {
-          "pli": 1167,
+          "pli": 1158,
           "en": 1166
         }
       },
@@ -487,7 +481,7 @@
         "segMap": {
           "mn8:12.2": {
             "scid": "mn8:12.2",
-            "pli": "‘Pare vihiṁsakā bhavissanti, mayamettha avihiṁsakā bhavissāmā’ti sallekho karaṇīyo. #1",
+            "pli": "‘Pare vihiṁsakā bhavissanti, mayamettha avihiṁsakā bhavissāmā’ti sallekho karaṇīyo. (1) ",
             "en": "‘Others will be <span class=\"scv-matched\">cruel</span>, but here we will not be <span class=\"scv-matched\">cruel</span>.’ ",
             "matched": true
           },
@@ -499,7 +493,7 @@
           },
           "mn8:14.3": {
             "scid": "mn8:14.3",
-            "pli": "evameva kho, cunda, vihiṁsakassa purisapuggalassa avihiṁsā hoti parikkamanāya, pāṇātipātissa purisapuggalassa pāṇātipātā veramaṇī hoti parikkamanāya, adinnādāyissa purisapuggalassa adinnādānā veramaṇī hoti parikkamanāya, abrahmacārissa purisapuggalassa abrahmacariyā veramaṇī hoti parikkamanāya, musāvādissa purisapuggalassa musāvādā veramaṇī hoti parikkamanāya, pisuṇavācassa purisapuggalassa pisuṇāya vācāya veramaṇī hoti parikkamanāya, pharusavācassa purisapuggalassa pharusāya vācāya veramaṇī hoti parikkamanāya, samphappalāpissa purisapuggalassa samphappalāpā veramaṇī hoti parikkamanāya, abhijjhālussa purisapuggalassa anabhijjhā hoti parikkamanāya, byāpannacittassa purisapuggalassa abyāpādo hoti parikkamanāya. #1–10 ",
+            "pli": "evameva kho, cunda, vihiṁsakassa purisapuggalassa avihiṁsā hoti parikkamanāya, pāṇātipātissa purisapuggalassa pāṇātipātā veramaṇī hoti parikkamanāya, adinnādāyissa purisapuggalassa adinnādānā veramaṇī hoti parikkamanāya, abrahmacārissa purisapuggalassa abrahmacariyā veramaṇī hoti parikkamanāya, musāvādissa purisapuggalassa musāvādā veramaṇī hoti parikkamanāya, pisuṇavācassa purisapuggalassa pisuṇāya vācāya veramaṇī hoti parikkamanāya, pharusavācassa purisapuggalassa pharusāya vācāya veramaṇī hoti parikkamanāya, samphappalāpissa purisapuggalassa samphappalāpā veramaṇī hoti parikkamanāya, abhijjhālussa purisapuggalassa anabhijjhā hoti parikkamanāya, byāpannacittassa purisapuggalassa abyāpādo hoti parikkamanāya. (1–10.) ",
             "en": "In the same way, a <span class=\"scv-matched\">cruel</span> individual gets around it by not being <span class=\"scv-matched\">cruel</span>. An individual who kills gets around it by not killing. … ",
             "matched": true
           },
@@ -892,13 +886,13 @@
           "an6.74:1.3": {
             "scid": "an6.74:1.3",
             "pli": "Kāmavitakkaṁ, byāpādavitakkaṁ, vihiṁsāvitakkaṁ, kāmasaññaṁ, byāpādasaññaṁ, vihiṁsāsaññaṁ—",
-            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts; and sensual, malicious, and <span class=\"scv-matched\">cruel</span> perceptions. ",
+            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts and perceptions. ",
             "matched": true
           },
           "an6.74:2.3": {
             "scid": "an6.74:2.3",
             "pli": "Kāmavitakkaṁ, byāpādavitakkaṁ, vihiṁsāvitakkaṁ, kāmasaññaṁ, byāpādasaññaṁ, vihiṁsāsaññaṁ—",
-            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts; and sensual, malicious, and <span class=\"scv-matched\">cruel</span> perceptions. ",
+            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts and perceptions. ",
             "matched": true
           }
         },
@@ -1055,41 +1049,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud4.1",
-        "lang": "en",
-        "segMap": {
-          "ud4.1:8.3": {
-            "scid": "ud4.1:8.3",
-            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko.",
-            "en": "sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts. ",
-            "matched": true
-          },
-          "ud4.1:9.5": {
-            "scid": "ud4.1:9.5",
-            "pli": "kāmavitakkena, byāpādavitakkena, vihiṁsāvitakkena”.",
-            "en": "sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts.” ",
-            "matched": true
-          }
-        },
-        "score": 2.022,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\n4.1. With Meghiya",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 91,
-          "en": 68
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
         ],
@@ -1236,7 +1195,7 @@
           "an6.75:1.3": {
             "scid": "an6.75:1.3",
             "pli": "Kāmavitakkena, byāpādavitakkena, vihiṁsāvitakkena, kāmasaññāya, byāpādasaññāya, vihiṁsāsaññāya—",
-            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts; and sensual, malicious, and <span class=\"scv-matched\">cruel</span> perceptions. ",
+            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts and perceptions. ",
             "matched": true
           }
         },
@@ -1496,7 +1455,7 @@
         "segMap": {
           "an10.211:6.1": {
             "scid": "an10.211:6.1",
-            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. #6",
+            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. (6) ",
             "en": "They speak harshly. They use the kinds of words that are <span class=\"scv-matched\">cruel</span>, nasty, hurtful, offensive, bordering on anger, not leading to immersion. ",
             "matched": true
           }
@@ -1601,6 +1560,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.101",
+        "lang": "en",
+        "segMap": {
+          "an3.101:2.2": {
+            "scid": "an3.101:2.2",
+            "pli": "Tasmiṁ pahīne tasmiṁ byantīkate santi adhicittamanuyuttassa bhikkhuno majjhimasahagatā upakkilesā kāmavitakko byāpādavitakko vihiṁsāvitakko, tamenaṁ sacetaso bhikkhu dabbajātiko pajahati vinodeti byantīkaroti anabhāvaṁ gameti. ",
+            "en": "When they’ve been given up and eliminated, there are middling corruptions: sensual, malicious, or <span class=\"scv-matched\">cruel</span> thoughts. A sincere, capable mendicant gives these up, gets rid of, eliminates, and obliterates them. ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.123_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.123_translation-en-sujato.json"
         ],
@@ -1670,7 +1658,6 @@
         "segMap": {
           "an4.14:2.4": {
             "scid": "an4.14:2.4",
-            "pli": "uppannaṁ vihiṁsāvitakkaṁ …pe… ",
             "en": "or <span class=\"scv-matched\">cruel</span> thought that’s arisen, but gives it up, gets rid of it, eliminates it, and obliterates it. ",
             "matched": true
           }
@@ -1682,37 +1669,8 @@
         "title": "Numbered Discourses 4\n2. Walking\n14. Restraint",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 42,
+          "pli": 33,
           "en": 41
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.101",
-        "lang": "en",
-        "segMap": {
-          "an3.101:2.2": {
-            "scid": "an3.101:2.2",
-            "pli": "Tasmiṁ pahīne tasmiṁ byantīkate santi adhicittamanuyuttassa bhikkhuno majjhimasahagatā upakkilesā kāmavitakko byāpādavitakko vihiṁsāvitakko, tamenaṁ sacetaso bhikkhu dabbajātiko pajahati vinodeti byantīkaroti anabhāvaṁ gameti. ",
-            "en": "When they’ve been given up and eliminated, there are middling corruptions: sensual, malicious, or <span class=\"scv-matched\">cruel</span> thoughts. A sincere, capable mendicant gives these up, gets rid of, eliminates, and obliterates them. ",
-            "matched": true
-          }
-        },
-        "score": 1.019,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 52,
-          "en": 51
         }
       },
       {
@@ -1786,7 +1744,7 @@
         "segMap": {
           "an6.58:7.4": {
             "scid": "an6.58:7.4",
-            "pli": "uppannaṁ vihiṁsāvitakkaṁ …  ",
+            "pli": "Ime vuccanti, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti. (5) ",
             "en": "or <span class=\"scv-matched\">cruel</span> thought that has arisen.  ",
             "matched": true
           }
@@ -1798,7 +1756,7 @@
         "title": "Numbered Discourses 6\n6. The Great Chapter\n58. Defilements",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 59,
+          "pli": 50,
           "en": 58
         }
       },
@@ -1815,7 +1773,7 @@
         "segMap": {
           "an10.217:9.1": {
             "scid": "an10.217:9.1",
-            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā. Asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. #6",
+            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā. Asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. (6) ",
             "en": "They speak harshly. They use the kinds of words that are <span class=\"scv-matched\">cruel</span>, nasty, hurtful, offensive, bordering on anger, not leading to immersion. ",
             "matched": true
           }
@@ -1844,7 +1802,7 @@
         "segMap": {
           "an6.57:2.1": {
             "scid": "an6.57:2.1",
-            "pli": "Tatridaṁ, bhante, pūraṇena kassapena kaṇhābhijāti paññattā, orabbhikā sūkarikā sākuṇikā māgavikā luddā macchaghātakā corā coraghātakā bandhanāgārikā ye vā panaññepi keci kurūrakammantā. #1",
+            "pli": "Tatridaṁ, bhante, pūraṇena kassapena kaṇhābhijāti paññattā, orabbhikā sūkarikā sākuṇikā māgavikā luddā macchaghātakā corā coraghātakā bandhanāgārikā ye vā panaññepi keci kurūrakammantā. (1) ",
             "en": "The black class of rebirth consists of slaughterers of sheep, pigs, poultry, or deer, hunters or fishers, bandits, executioners, butchers of cattle, jailers, and any others with a <span class=\"scv-matched\">cruel</span> livelihood. ",
             "matched": true
           }
@@ -1970,6 +1928,35 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 55\nWith Jīvaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.80",
+        "lang": "en",
+        "segMap": {
+          "sn22.80:8.2": {
+            "scid": "sn22.80:8.2",
+            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. ",
+            "en": "Sensual, malicious, and <span class=\"scv-matched\">cruel</span> thoughts. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22\n8. Itchy\n80. Beggars",
         "segsMatched": 1,
         "langSegs": {
           "pli": 80,

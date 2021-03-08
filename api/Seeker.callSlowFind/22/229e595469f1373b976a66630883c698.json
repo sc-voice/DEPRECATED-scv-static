@@ -473,7 +473,7 @@
         "segMap": {
           "an5.75:16.2": {
             "scid": "an5.75:16.2",
-            "pli": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti, ",
+            "pli": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti, ‘ime āsavā’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
             "en": "He <span class=\"scv-matched\">truly understands: ‘This is suffering’</span> … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. ",
             "matched": true
           }
@@ -485,7 +485,7 @@
         "title": "Numbered Discourses 5\n8. Warriors\n75. Warriors (1st)",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 104,
+          "pli": 103,
           "en": 103
         }
       },
@@ -502,7 +502,7 @@
         "segMap": {
           "an5.76:19.2": {
             "scid": "an5.76:19.2",
-            "pli": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti …pe…",
+            "pli": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti …pe… nāparaṁ itthattāyāti pajānāti. ",
             "en": "He <span class=\"scv-matched\">truly understands: ‘This is suffering’</span> … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. He truly understands: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. Knowing and seeing like this, his mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. When freed, he knows ‘it is freed’.",
             "matched": true
           }
@@ -514,7 +514,7 @@
         "title": "Numbered Discourses 5\n8. Warriors\n76. Warriors (2nd)",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 138,
+          "pli": 137,
           "en": 137
         }
       },
@@ -572,7 +572,7 @@
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 235,
+          "pli": 226,
           "en": 233
         }
       },
@@ -601,8 +601,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 454,
-          "en": 453
+          "pli": 439,
+          "en": 438
         }
       }
     ]

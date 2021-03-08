@@ -31,20 +31,16 @@
     "pattern": "loved one",
     "method": "phrase",
     "resultPattern": "\\bloved one",
-    "segsMatched": 31,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.8_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/dhp/dhp209-220_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp209-220_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
@@ -58,11 +54,9 @@
     ],
     "suttaRefs": [
       "mn87/en/sujato",
-      "ud8.8/en/sujato",
       "sn3.4/en/sujato",
       "mn56/en/sujato",
       "thag19.1/en/sujato",
-      "dhp209-220/en/sujato",
       "dn30/en/sujato",
       "an8.44/en/sujato",
       "an7.64/en/sujato",
@@ -185,71 +179,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga8/ud8.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.8_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud8.8",
-        "lang": "en",
-        "segMap": {
-          "ud8.8:5.1": {
-            "scid": "ud8.8:5.1",
-            "pli": "“Yesaṁ kho, visākhe, sataṁ piyāni, sataṁ tesaṁ dukkhāni;",
-            "en": "“Those who have a hundred <span class=\"scv-matched\">loved one</span>s, Visākhā, have a hundred sufferings.",
-            "matched": true
-          },
-          "ud8.8:5.2": {
-            "scid": "ud8.8:5.2",
-            "pli": "yesaṁ navuti piyāni, navuti tesaṁ dukkhāni;",
-            "en": "Those who have a ninety <span class=\"scv-matched\">loved one</span>s,",
-            "matched": true
-          },
-          "ud8.8:5.17": {
-            "scid": "ud8.8:5.17",
-            "pli": "yesaṁ ekaṁ piyaṁ, ekaṁ tesaṁ dukkhaṁ;",
-            "en": "or one <span class=\"scv-matched\">loved one</span> have one suffering.",
-            "matched": true
-          },
-          "ud8.8:5.18": {
-            "scid": "ud8.8:5.18",
-            "pli": "yesaṁ natthi piyaṁ, natthi tesaṁ dukkhaṁ, asokā te virajā anupāyāsāti vadāmī”ti.",
-            "en": "“Those who have no <span class=\"scv-matched\">loved one</span>s have no suffering. They are free of sorrow, stains, and anguish I say.”",
-            "matched": true
-          },
-          "ud8.8:7.4": {
-            "scid": "ud8.8:7.4",
-            "pli": "Piye asante na bhavanti ete.",
-            "en": "without <span class=\"scv-matched\">loved one</span>s they do not occur.",
-            "matched": true
-          },
-          "ud8.8:8.1": {
-            "scid": "ud8.8:8.1",
-            "pli": "Tasmā hi te sukhino vītasokā,",
-            "en": "That’s why those who have no <span class=\"scv-matched\">loved one</span>s at all in the world",
-            "matched": true
-          },
-          "ud8.8:8.4": {
-            "scid": "ud8.8:8.4",
-            "pli": "Piyaṁ na kayirātha kuhiñci loke”ti.",
-            "en": "have no <span class=\"scv-matched\">loved one</span>s in the world at all.”",
-            "matched": true
-          }
-        },
-        "score": 7.127,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Heartfelt Sayings\nWith Visākhā",
-        "segsMatched": 7,
-        "langSegs": {
-          "pli": 55,
-          "en": 54
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an8/an8.44_translation-en-sujato.json"
         ],
@@ -337,35 +266,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp209-220_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp209-220_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp209-220",
-        "lang": "en",
-        "segMap": {
-          "dhp219:3": {
-            "scid": "dhp219:3",
-            "pli": "Ñātimittā suhajjā ca,",
-            "en": "family, friends, and <span class=\"scv-matched\">loved one</span>s",
-            "matched": true
-          }
-        },
-        "score": 1.016,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Minor Collection\nSayings of the Dhamma\n16. The Beloved\nTayojanapabbajitavatthu",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 61,
-          "en": 51
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json"
         ],
@@ -407,7 +307,7 @@
           "an7.64:11.3": {
             "scid": "an7.64:11.3",
             "pli": "Ñātimittā suhajjā ca, ",
-            "en": "Family, friends, and <span class=\"scv-matched\">loved one</span>s ",
+            "en": "Relatives, friends, and <span class=\"scv-matched\">loved one</span>s ",
             "matched": true
           }
         },
