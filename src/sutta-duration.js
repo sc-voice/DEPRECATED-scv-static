@@ -24,7 +24,7 @@
             let url = SUID_DURATION_URL;
             let fetch = this.fetch;
             let res = await fetch(url, {headers:{Accept:'text/plain'}});
-            this.suidMap = await res.json();
+            this.suidDuration = await res.json();
             this.initialized = true;
             return this;
         } catch(e) {
@@ -35,10 +35,10 @@
         duration(suid) {
             let {
                 language,
-                suidMap,
+                suidDuration,
                 voice,
             } = this;
-            let langMap = suidMap[language] || {};
+            let langMap = suidDuration[language] || {};
             let voiceMap = langMap[voice] || {};
             return voiceMap[suid]; // duration or undefined
         }

@@ -2,15 +2,15 @@
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
     const { examples } = require('./examples.js');
-    const { suidmap:suidMap } = require('scv-bilara/src/auto/suidmap');
+    const SUID_MAP = require('scv-bilara/src/auto/suidmap.json');
     const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
 
     class BilaraWeb {
         constructor(opts={}) {
             (opts.logger || logger).logInstance(this, opts);
             this.examples = opts.examples || examples;
-            this.suidMap = opts.suidMap || suidMap;
-            this.suids = Object.keys(suidMap).sort(SuttaCentralId.compareLow);
+            this.suidMap = opts.suidMap || SUID_MAP;
+            this.suids = Object.keys(this.suidMap).sort(SuttaCentralId.compareLow);
             this.lang = opts.lang || 'en';
             this.mj = new MerkleJson;
             this.maxResults = opts.maxResults==null ? 1000 : opts.maxResults;
