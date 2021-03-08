@@ -59,31 +59,31 @@
         "segMap": {
           "an5.77:2.6": {
             "scid": "an5.77:2.6",
-            "pli": "Idaṁ, bhikkhave, paṭhamaṁ anāgatabhayaṁ sampassamānena alameva āraññikena bhikkhunā appamattena ātāpinā pahitattena viharituṁ appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. ",
+            "pli": "tena me assa kālaṅkiriyā, so mamassa antarāyo; ",
             "en": "<span class=\"scv-matched\">And if I died from that</span> it would stop my practice.",
             "matched": true
           },
           "an5.77:3.5": {
             "scid": "an5.77:3.5",
-            "pli": "Idaṁ, bhikkhave, dutiyaṁ anāgatabhayaṁ sampassamānena alameva āraññikena bhikkhunā appamattena ātāpinā pahitattena viharituṁ appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. ",
+            "pli": "tena me assa kālaṅkiriyā, so mamassa antarāyo; ",
             "en": "<span class=\"scv-matched\">And if I died from that</span> it would stop my practice.",
             "matched": true
           },
           "an5.77:4.5": {
             "scid": "an5.77:4.5",
-            "pli": "Idaṁ, bhikkhave, tatiyaṁ anāgatabhayaṁ sampassamānena alameva āraññikena bhikkhunā appamattena ātāpinā pahitattena viharituṁ appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. ",
+            "pli": "tena me assa kālaṅkiriyā, so mamassa antarāyo; ",
             "en": "<span class=\"scv-matched\">And if I died from that</span> it would stop my practice.",
             "matched": true
           },
           "an5.77:5.5": {
             "scid": "an5.77:5.5",
-            "pli": "Idaṁ, bhikkhave, catutthaṁ anāgatabhayaṁ sampassamānena alameva āraññikena bhikkhunā appamattena ātāpinā pahitattena viharituṁ appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. ",
+            "pli": "tena me assa kālaṅkiriyā, so mamassa antarāyo; ",
             "en": "<span class=\"scv-matched\">And if I died from that</span> it would stop my practice.",
             "matched": true
           },
           "an5.77:6.4": {
             "scid": "an5.77:6.4",
-            "pli": "handāhaṁ vīriyaṁ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā’ti. ",
+            "pli": "tena me assa kālaṅkiriyā, so mamassa antarāyo; ",
             "en": "<span class=\"scv-matched\">And if I died from that</span> it would stop my practice.",
             "matched": true
           }
@@ -95,7 +95,7 @@
         "title": "Numbered Discourses 5\n8. Warriors\n77. Future Perils (1st)",
         "segsMatched": 5,
         "langSegs": {
-          "pli": 32,
+          "pli": 41,
           "en": 40
         }
       },

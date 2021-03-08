@@ -240,6 +240,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.575-615_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an1/an1.575-615_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.575-615",
+        "lang": "en",
+        "segMap": {
+          "an1.591-592:1.1": {
+            "scid": "an1.591-592:1.1",
+            "pli": "“Ekadhammo, bhikkhave, bhāvito bahulīkato paññāpabhedāya saṁvattati … anupādāparinibbānāya saṁvattati. ",
+            "en": "“One thing, mendicants, when developed and cultivated leads to demolition by wisdom … to <span class=\"scv-matched\">extinguishment by not grasping</span>. ",
+            "matched": true
+          },
+          "an1.591-592:1.4": {
+            "scid": "an1.591-592:1.4",
+            "pli": "Ayaṁ kho, bhikkhave, ekadhammo bhāvito bahulīkato paññāpabhedāya saṁvattati … anupādāparinibbānāya saṁvattatī”ti. ",
+            "en": "This one thing, mendicants, when developed and cultivated leads to demolition by wisdom … to <span class=\"scv-matched\">extinguishment by not grasping</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 2.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 1\n30. Mindfulness of the Body\n575–615",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 52,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.75_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn35/sn35.75_translation-en-sujato.json"
         ],
@@ -275,39 +310,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an1/an1.575-615_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an1/an1.575-615_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an1.575-615",
-        "lang": "en",
-        "segMap": {
-          "an1.591-592:1.1": {
-            "scid": "an1.591-592:1.1",
-            "en": "“One thing, mendicants, when developed and cultivated leads to demolition by wisdom … to <span class=\"scv-matched\">extinguishment by not grasping</span>. ",
-            "matched": true
-          },
-          "an1.591-592:1.4": {
-            "scid": "an1.591-592:1.4",
-            "en": "This one thing, mendicants, when developed and cultivated leads to demolition by wisdom … to <span class=\"scv-matched\">extinguishment by not grasping</span>.” ",
-            "matched": true
-          }
-        },
-        "score": 2.025,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 1\n30. Mindfulness of the Body\n575–615",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 51,
-          "en": 51
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
         ],
@@ -325,7 +327,7 @@
           },
           "an10.29:21.5": {
             "scid": "an10.29:21.5",
-            "pli": "Kāmānañcāhaṁ, bhikkhave, pariññaṁ paññāpemi, rūpānañca pariññaṁ paññāpemi, vedanānañca pariññaṁ paññāpemi, diṭṭheva dhamme nicchāto nibbuto sītibhūto anupādā parinibbānaṁ paññāpemī”ti. (10) ",
+            "pli": "Kāmānañcāhaṁ, bhikkhave, pariññaṁ paññāpemi, rūpānañca pariññaṁ paññāpemi, vedanānañca pariññaṁ paññāpemi, diṭṭheva dhamme nicchāto nibbuto sītibhūto anupādā parinibbānaṁ paññāpemī”ti. #10",
             "en": "But I do advocate the complete understanding of sensual pleasures, sights, and feelings. And I advocate complete <span class=\"scv-matched\">extinguishment by not grasping</span> in this very life, wishless, extinguished, and cooled.” ",
             "matched": true
           }

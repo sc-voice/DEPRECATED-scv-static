@@ -453,7 +453,7 @@
         "segMap": {
           "an1.216:1.1": {
             "scid": "an1.216:1.1",
-            "pli": "… Khippābhiññānaṁ yadidaṁ bāhiyo dārucīriyo. (8) ",
+            "pli": "… Khippābhiññānaṁ yadidaṁ bāhiyo dārucīriyo. #8",
             "en": "… with <span class=\"scv-matched\">swift insight</span> is Bāhiya of the Bark Cloth. ",
             "matched": true
           }
@@ -482,7 +482,7 @@
         "segMap": {
           "an1.243:1.1": {
             "scid": "an1.243:1.1",
-            "pli": "… Khippābhiññānaṁ yadidaṁ bhaddā kuṇḍalakesā. (9) ",
+            "pli": "… Khippābhiññānaṁ yadidaṁ bhaddā kuṇḍalakesā. #9",
             "en": "… with <span class=\"scv-matched\">swift insight</span> is Bhaddā Kuṇḍalakesā. ",
             "matched": true
           }
@@ -511,7 +511,7 @@
         "segMap": {
           "dn33:1.11.135": {
             "scid": "dn33:1.11.135",
-            "pli": "Atthāvuso, dhammasamādānaṁ paccuppannasukhañceva āyatiñca sukhavipākaṁ. (24) ",
+            "pli": "dukkhā paṭipadā dandhābhiññā, dukkhā paṭipadā khippābhiññā, sukhā paṭipadā dandhābhiññā, sukhā paṭipadā khippābhiññā. #21",
             "en": "painful practice with slow insight, painful practice with <span class=\"scv-matched\">swift insight</span>, pleasant practice with slow insight, and pleasant practice with <span class=\"scv-matched\">swift insight</span>. ",
             "matched": true
           }
@@ -523,7 +523,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       }

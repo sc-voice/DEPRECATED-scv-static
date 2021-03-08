@@ -151,6 +151,12 @@
         "sutta_uid": "an2.1-10",
         "lang": "en",
         "segMap": {
+          "an2.4:1.0": {
+            "scid": "an2.4:1.0",
+            "pli": "4. Atapanīyasutta ",
+            "en": "4. <span class=\"scv-matched\">Not Mortifying</span> ",
+            "matched": true
+          },
           "an2.4:1.1": {
             "scid": "an2.4:1.1",
             "pli": "“Dveme, bhikkhave, dhammā atapanīyā. ",
@@ -162,21 +168,16 @@
             "pli": "Ime kho, bhikkhave, dve dhammā atapanīyā”ti. ",
             "en": "These are the two things that are <span class=\"scv-matched\">not mortifying</span>.” ",
             "matched": true
-          },
-          "an2.4:1.0": {
-            "scid": "an2.4:1.0",
-            "en": "4. <span class=\"scv-matched\">Not Mortifying</span> ",
-            "matched": true
           }
         },
-        "score": 3.022,
+        "score": 3.024,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n1. Punishments\n1–10",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 125,
+          "pli": 126,
           "en": 124
         }
       },
@@ -310,7 +311,7 @@
         "segMap": {
           "dn33:1.11.208": {
             "scid": "dn33:1.11.208",
-            "pli": "Aparepi cattāro puggalā—",
+            "pli": "Idhāvuso, ekacco puggalo neva attantapo hoti na attaparitāpanānuyogamanuyutto na parantapo na paraparitāpanānuyogamanuyutto. ",
             "en": "One person doesn’t mortify either themselves or others, committed to the practice of <span class=\"scv-matched\">not mortifying</span> themselves or others. ",
             "matched": true
           }
@@ -322,7 +323,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       }

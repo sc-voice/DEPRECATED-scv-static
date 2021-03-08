@@ -70,15 +70,15 @@
             "matched": true
           }
         },
-        "score": 2.056,
+        "score": 2.038,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 36,
-          "en": 35
+          "pli": 52,
+          "en": 51
         }
       },
       {
@@ -135,7 +135,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

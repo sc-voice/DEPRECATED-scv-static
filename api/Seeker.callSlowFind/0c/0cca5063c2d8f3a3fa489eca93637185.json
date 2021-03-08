@@ -218,7 +218,7 @@
           },
           "an3.164:1.3": {
             "scid": "an3.164:1.3",
-            "pli": "Attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti, pāṇātipātā veramaṇiyā ca samanuñño hoti …pe…. (2) ",
+            "pli": "Attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti, pāṇātipātā veramaṇiyā ca samanuñño hoti …pe…. #2",
             "en": "They don’t themselves kill living creatures. They encourage others to not kill living creatures. And they approve of not killing living creatures. … ",
             "matched": true
           }
@@ -374,14 +374,14 @@
             "matched": true
           }
         },
-        "score": 1.006,
+        "score": 1.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 174,
+          "pli": 190,
           "en": 173
         }
       },
@@ -410,7 +410,7 @@
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 226,
+          "pli": 235,
           "en": 233
         }
       },
@@ -526,7 +526,7 @@
         "title": "Middle Discourses 146\nAdvice from Nandaka",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 349,
+          "pli": 361,
           "en": 360
         }
       },
@@ -555,8 +555,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 439,
-          "en": 438
+          "pli": 454,
+          "en": 453
         }
       }
     ]

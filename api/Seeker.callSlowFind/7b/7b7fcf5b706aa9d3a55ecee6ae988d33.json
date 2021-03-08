@@ -111,14 +111,14 @@
             "matched": true
           }
         },
-        "score": 2.047,
+        "score": 2.054,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n13. One Person\n170–187",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 36,
+          "pli": 37,
           "en": 36
         }
       },
@@ -188,7 +188,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -217,7 +217,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

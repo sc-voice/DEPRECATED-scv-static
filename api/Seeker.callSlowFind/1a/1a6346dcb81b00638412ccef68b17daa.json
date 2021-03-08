@@ -155,7 +155,7 @@
           },
           "an6.58:3.10": {
             "scid": "an6.58:3.10",
-            "pli": "Ime vuccanti, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti. (1) ",
+            "pli": "Ime vuccanti, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti. #1",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by restraint. ",
             "matched": true
           },
@@ -167,7 +167,7 @@
           },
           "an6.58:4.11": {
             "scid": "an6.58:4.11",
-            "pli": "Ime vuccanti, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti. (2) ",
+            "pli": "Ime vuccanti, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti. #2",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by using. ",
             "matched": true
           },
@@ -179,7 +179,7 @@
           },
           "an6.58:5.4": {
             "scid": "an6.58:5.4",
-            "pli": "Ime vuccanti, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti. (3) ",
+            "pli": "Ime vuccanti, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti. #3",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by enduring. ",
             "matched": true
           },
@@ -191,7 +191,7 @@
           },
           "an6.58:6.4": {
             "scid": "an6.58:6.4",
-            "pli": "Ime vuccanti, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti. (4) ",
+            "pli": "Ime vuccanti, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti. #4",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by avoiding. ",
             "matched": true
           },
@@ -201,19 +201,21 @@
             "en": "And what are the defilements that <span class=\"scv-matched\">should be given up</span> by getting rid? ",
             "matched": true
           },
+          "an6.58:7.7": {
+            "scid": "an6.58:7.7",
+            "pli": "Ime vuccanti, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti. #5",
+            "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by getting rid. ",
+            "matched": true
+          },
           "an6.58:8.1": {
             "scid": "an6.58:8.1",
             "pli": "Katame ca, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti? ",
             "en": "And what are the defilements that <span class=\"scv-matched\">should be given up</span> by developing? ",
             "matched": true
           },
-          "an6.58:7.7": {
-            "scid": "an6.58:7.7",
-            "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by getting rid. ",
-            "matched": true
-          },
           "an6.58:8.10": {
             "scid": "an6.58:8.10",
+            "pli": "Ime vuccanti, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti. #6",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by developing. ",
             "matched": true
           }
@@ -225,7 +227,7 @@
         "title": "Numbered Discourses 6\n6. The Great Chapter\n58. Defilements",
         "segsMatched": 18,
         "langSegs": {
-          "pli": 50,
+          "pli": 59,
           "en": 58
         }
       },
@@ -330,15 +332,16 @@
             "en": "And what are the defilements that <span class=\"scv-matched\">should be given up</span> by developing? ",
             "matched": true
           },
+          "mn2:21.10": {
+            "scid": "mn2:21.10",
+            "pli": "Ime vuccanti, bhikkhave, āsavā bhāvanā pahātabbā. ",
+            "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by developing. ",
+            "matched": true
+          },
           "mn2:22.1": {
             "scid": "mn2:22.1",
             "pli": "Yato kho, bhikkhave, bhikkhuno ye āsavā dassanā pahātabbā te dassanā pahīnā honti, ye āsavā saṁvarā pahātabbā te saṁvarā pahīnā honti, ye āsavā paṭisevanā pahātabbā te paṭisevanā pahīnā honti, ye āsavā adhivāsanā pahātabbā te adhivāsanā pahīnā honti, ye āsavā parivajjanā pahātabbā te parivajjanā pahīnā honti, ye āsavā vinodanā pahātabbā te vinodanā pahīnā honti, ye āsavā bhāvanā pahātabbā te bhāvanā pahīnā honti; ",
             "en": "Now, take a mendicant who, by seeing, has given up the defilements that <span class=\"scv-matched\">should be given up</span> by seeing. By restraint, they’ve given up the defilements that <span class=\"scv-matched\">should be given up</span> by restraint. By using, they’ve given up the defilements that <span class=\"scv-matched\">should be given up</span> by using. By enduring, they’ve given up the defilements that <span class=\"scv-matched\">should be given up</span> by enduring. By avoiding, they’ve given up the defilements that <span class=\"scv-matched\">should be given up</span> by avoiding. By dispelling, they’ve given up the defilements that <span class=\"scv-matched\">should be given up</span> by dispelling. By developing, they’ve given up the defilements that <span class=\"scv-matched\">should be given up</span> by developing. ",
-            "matched": true
-          },
-          "mn2:21.10": {
-            "scid": "mn2:21.10",
-            "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by developing. ",
             "matched": true
           }
         },
@@ -349,7 +352,7 @@
         "title": "Middle Discourses 2\nAll the Defilements",
         "segsMatched": 17,
         "langSegs": {
-          "pli": 119,
+          "pli": 125,
           "en": 124
         }
       },
@@ -450,7 +453,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 13,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       },

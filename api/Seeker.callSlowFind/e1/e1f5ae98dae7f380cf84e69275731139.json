@@ -31,18 +31,15 @@
     "pattern": "fear and terror",
     "method": "phrase",
     "resultPattern": "\\bfear and terror",
-    "segsMatched": 11,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn11/sn11.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.3_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn6_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn6_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn11.3/en/sujato",
-      "mn6/en/sujato",
       "mn4/en/sujato"
     ],
     "mlDocs": [
@@ -121,35 +118,6 @@
         "langSegs": {
           "pli": 51,
           "en": 51
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn6_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn6_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn6",
-        "lang": "en",
-        "segMap": {
-          "mn6:8.1": {
-            "scid": "mn6:8.1",
-            "pli": "Ākaṅkheyya ce, bhikkhave, bhikkhu: ‘bhayabheravasaho assaṁ, na ca maṁ bhayabheravaṁ saheyya, uppannaṁ bhayabheravaṁ abhibhuyya abhibhuyya vihareyyan’ti, sīlesvevassa paripūrakārī …pe… brūhetā suññāgārānaṁ. (6) ",
-            "en": "A mendicant might wish: ‘May I prevail over <span class=\"scv-matched\">fear and terror</span>, and may fear and dread not prevail over me. May I live having mastered fear and dread whenever they arose.’ So let them fulfill their precepts … ",
-            "matched": true
-          }
-        },
-        "score": 1.029,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 6\nOne Might Wish",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 35,
-          "en": 34
         }
       },
       {

@@ -343,20 +343,20 @@
           },
           "mn12:47.4": {
             "scid": "mn12:47.4",
-            "pli": "Idaṁsu me, sāriputta, jegucchismiṁ hoti. (2) ",
+            "pli": "Idaṁsu me, sāriputta, jegucchismiṁ hoti. #2",
             "en": "Such was my living <span class=\"scv-matched\">in disgust of sin</span>. ",
             "matched": true
           }
         },
-        "score": 2.006,
+        "score": 2.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 12\nThe Longer Discourse on the Lion’s Roar",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 356,
-          "en": 355
+          "pli": 372,
+          "en": 371
         }
       }
     ]

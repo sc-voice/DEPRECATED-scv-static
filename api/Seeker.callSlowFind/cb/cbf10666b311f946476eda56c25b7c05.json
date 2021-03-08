@@ -128,7 +128,7 @@
         "title": "Long Discourses 23\nWith Pāyāsi",
         "segsMatched": 10,
         "langSegs": {
-          "pli": 714,
+          "pli": 715,
           "en": 713
         }
       },
@@ -192,7 +192,7 @@
         "segMap": {
           "an1.217:1.1": {
             "scid": "an1.217:1.1",
-            "pli": "… Cittakathikānaṁ yadidaṁ kumārakassapo. (9) ",
+            "pli": "… Cittakathikānaṁ yadidaṁ kumārakassapo. #9",
             "en": "… with brilliant speech is <span class=\"scv-matched\">Kassapa the Prince</span>. ",
             "matched": true
           }

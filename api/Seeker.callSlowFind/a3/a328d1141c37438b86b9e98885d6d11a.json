@@ -101,7 +101,7 @@
         "title": "Linked Discourses 54\nChapter Two\n13. With Ānanda (1st)",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 82,
+          "pli": 84,
           "en": 83
         }
       },
@@ -304,7 +304,7 @@
         "title": "Middle Discourses 118\nMindfulness of Breathing",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 148,
+          "pli": 154,
           "en": 153
         }
       },
@@ -326,14 +326,14 @@
             "matched": true
           }
         },
-        "score": 1.006,
+        "score": 1.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 174,
+          "pli": 190,
           "en": 173
         }
       },
@@ -362,7 +362,7 @@
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 226,
+          "pli": 235,
           "en": 233
         }
       },
@@ -391,8 +391,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 439,
-          "en": 438
+          "pli": 454,
+          "en": 453
         }
       }
     ]

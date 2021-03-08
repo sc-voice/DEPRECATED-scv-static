@@ -125,7 +125,7 @@
           },
           "dn1:3.2.1": {
             "scid": "dn1:3.2.1",
-            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. (1: 35) ",
+            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. #1",
             "en": "They assert: ‘The self is sound and <span class=\"scv-matched\">non-percipient</span> after death, and it is physical … ",
             "matched": true
           },
@@ -155,7 +155,7 @@
           },
           "dn1:3.6.1": {
             "scid": "dn1:3.6.1",
-            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā nevasaññīnāsaññī’ti naṁ paññapenti. (1: 43) ",
+            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā nevasaññīnāsaññī’ti naṁ paññapenti. #1",
             "en": "They assert: ‘The self is sound and neither percipient nor <span class=\"scv-matched\">non-percipient</span> after death, and it is physical … ",
             "matched": true
           },
@@ -740,8 +740,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 617,
-          "en": 616
+          "pli": 649,
+          "en": 632
         }
       },
       {
@@ -798,7 +798,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -827,7 +827,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

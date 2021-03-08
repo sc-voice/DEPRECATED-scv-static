@@ -231,19 +231,19 @@
         "segMap": {
           "an1.337:1.1": {
             "scid": "an1.337:1.1",
-            "pli": "… Evamevaṁ kho, bhikkhave, appakā te sattā ye labhanti tathāgataṁ dassanāya; ",
+            "pli": "… Evamevaṁ kho, bhikkhave, appakā te sattā ye ariyena paññācakkhunā samannāgatā; ",
             "en": "… so too the sentient beings who have the noble <span class=\"scv-matched\">eye of wisdom</span> are few, ",
             "matched": true
           }
         },
-        "score": 1.007,
+        "score": 1.012,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 1\n27. Fourth\n333–377",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 83,
+          "pli": 85,
           "en": 84
         }
       },
@@ -289,7 +289,7 @@
         "segMap": {
           "dn33:1.10.113": {
             "scid": "dn33:1.10.113",
-            "pli": "maṁsacakkhu, dibbacakkhu, paññācakkhu. (46) ",
+            "pli": "maṁsacakkhu, dibbacakkhu, paññācakkhu. #46",
             "en": "the eye of the flesh, the eye of clairvoyance, and the <span class=\"scv-matched\">eye of wisdom</span>. ",
             "matched": true
           }
@@ -301,7 +301,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       }

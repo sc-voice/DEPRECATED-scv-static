@@ -31,7 +31,7 @@
     "pattern": "is it really true",
     "method": "phrase",
     "resultPattern": "\\bis it really true",
-    "segsMatched": 38,
+    "segsMatched": 41,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json",
@@ -69,6 +69,12 @@
       "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga2/ud2.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga2/ud2.10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
@@ -107,6 +113,9 @@
       "mn48/en/sujato",
       "mn21/en/sujato",
       "mn101/en/sujato",
+      "ud3.6/en/sujato",
+      "ud3.2/en/sujato",
+      "ud2.10/en/sujato",
       "dn9/en/sujato",
       "dn5/en/sujato",
       "dn4/en/sujato",
@@ -418,6 +427,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.6",
+        "lang": "en",
+        "segMap": {
+          "ud3.6:3.3": {
+            "scid": "ud3.6:3.3",
+            "pli": "“saccaṁ kira tvaṁ, vaccha, bhikkhū vasalavādena samudācarasī”ti?",
+            "en": "“<span class=\"scv-matched\">Is it really true</span>, Vaccha, that you addressed the mendicants as ‘lowlifes’?”",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n3.6. With Pilindavaccha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn21/sn21.10_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn21/sn21.10_translation-en-sujato.json"
         ],
@@ -476,6 +514,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga2/ud2.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga2/ud2.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud2.10",
+        "lang": "en",
+        "segMap": {
+          "ud2.10:6.1": {
+            "scid": "ud2.10:6.1",
+            "pli": "“Saccaṁ kira tvaṁ, bhaddiya, araññagatopi rukkhamūlagatopi suññāgāragatopi abhikkhaṇaṁ udānaṁ udānesi:",
+            "en": "“<span class=\"scv-matched\">Is it really true</span>, Bhaddiya, that even in the wilderness, at the foot of a tree, or in an empty dwelling, you frequently express this heartfelt sentiment:",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n2.10. With Bhaddiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 48,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json"
         ],
@@ -530,6 +597,35 @@
         "langSegs": {
           "pli": 63,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.2",
+        "lang": "en",
+        "segMap": {
+          "ud3.2:5.1": {
+            "scid": "ud3.2:5.1",
+            "pli": "“Saccaṁ kira tvaṁ, nanda, sambahulānaṁ bhikkhūnaṁ evamārocesi:",
+            "en": "“<span class=\"scv-matched\">Is it really true</span>, Nanda, that you informed several mendicants that ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n3.2. With Nanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "en": 59
         }
       },
       {
@@ -673,8 +769,8 @@
         "title": "Linked Discourses 12\n7. The Great Chapter\n70. The Wanderer Susīma",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 162,
-          "en": 160
+          "pli": 180,
+          "en": 176
         }
       },
       {
@@ -963,7 +1059,7 @@
         "title": "Long Discourses 23\nWith Pāyāsi",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 714,
+          "pli": 715,
           "en": 713
         }
       }

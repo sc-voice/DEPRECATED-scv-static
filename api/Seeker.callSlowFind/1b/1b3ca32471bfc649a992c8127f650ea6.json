@@ -162,6 +162,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.394-574",
+        "lang": "en",
+        "segMap": {
+          "an1.449:1.1": {
+            "scid": "an1.449:1.1",
+            "pli": "subhanteva adhimutto hoti … ",
+            "en": "they’re <span class=\"scv-matched\">focus</span>ed <span class=\"scv-matched\">only</span> <span class=\"scv-matched\">on</span> <span class=\"scv-matched\">beauty</span> … ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger-Snap\n394–574",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 176,
+          "en": 175
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn137_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json"
         ],
@@ -187,34 +216,6 @@
         "langSegs": {
           "pli": 195,
           "en": 194
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an1.394-574",
-        "lang": "en",
-        "segMap": {
-          "an1.449:1.1": {
-            "scid": "an1.449:1.1",
-            "en": "they’re <span class=\"scv-matched\">focus</span>ed <span class=\"scv-matched\">only</span> <span class=\"scv-matched\">on</span> <span class=\"scv-matched\">beauty</span> … ",
-            "matched": true
-          }
-        },
-        "score": 1.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger Snap\n394–574",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 79,
-          "en": 175
         }
       },
       {
@@ -271,8 +272,8 @@
         "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 352,
-          "en": 357
+          "pli": 390,
+          "en": 373
         }
       },
       {
@@ -329,7 +330,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -358,7 +359,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

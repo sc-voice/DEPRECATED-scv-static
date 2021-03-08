@@ -1,0 +1,16 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bedle rechte versenkung mit fünf",
+      "maxResults": 1000,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an5/an5.28_translation-de-sabbamitta.json:11"
+  ]
+}

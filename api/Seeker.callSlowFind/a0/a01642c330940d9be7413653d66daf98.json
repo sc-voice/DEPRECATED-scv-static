@@ -62,7 +62,7 @@
         "segMap": {
           "an6.29:7.3": {
             "scid": "an6.29:7.3",
-            "pli": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. (4) ",
+            "pli": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. #4",
             "en": "‘<span class=\"scv-matched\">This body is also of that same nature</span>, that same kind, and cannot go beyond that.’ ",
             "matched": true
           },
@@ -120,14 +120,14 @@
             "matched": true
           }
         },
-        "score": 3.017,
+        "score": 3.016,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 174,
+          "pli": 190,
           "en": 173
         }
       },
@@ -156,19 +156,19 @@
           },
           "mn10:30.3": {
             "scid": "mn10:30.3",
-            "pli": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. (9) ",
+            "pli": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. #9",
             "en": "‘<span class=\"scv-matched\">This body is also of that same nature</span>, that same kind, and cannot go beyond that.’ ",
             "matched": true
           }
         },
-        "score": 3.012,
+        "score": 3.013,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 226,
+          "pli": 235,
           "en": 233
         }
       },
@@ -209,8 +209,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 439,
-          "en": 438
+          "pli": 454,
+          "en": 453
         }
       }
     ]

@@ -165,7 +165,7 @@
           },
           "dn33:2.1.64": {
             "scid": "dn33:2.1.64",
-            "pli": "Codakena, āvuso, bhikkhunā paraṁ codetukāmena ime pañca dhamme ajjhattaṁ upaṭṭhapetvā paro codetabbo. (15) ",
+            "pli": "Codakena, āvuso, bhikkhunā paraṁ codetukāmena ime pañca dhamme ajjhattaṁ upaṭṭhapetvā paro codetabbo. #15",
             "en": "A mendicant who wants to accuse another should first establish these five <span class=\"scv-matched\">things in themselves</span>. ",
             "matched": true
           }
@@ -177,7 +177,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       }

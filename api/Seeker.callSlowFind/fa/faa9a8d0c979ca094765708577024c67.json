@@ -104,28 +104,31 @@
         "segMap": {
           "an1.418:1.1": {
             "scid": "an1.418:1.1",
-            "en": "the <span class=\"scv-matched\">faculty of wisdom</span>, even for the time of a finger snap … ",
+            "pli": "paññindriyaṁ bhāveti …. ",
+            "en": "the <span class=\"scv-matched\">faculty of wisdom</span>, even for the time of a finger-snap … ",
             "matched": true
           },
           "an1.499:1.1": {
             "scid": "an1.499:1.1",
+            "pli": "paññindriyaṁ bhāveti … ",
             "en": "the <span class=\"scv-matched\">faculty of wisdom</span> … ",
             "matched": true
           },
           "an1.569:1.1": {
             "scid": "an1.569:1.1",
+            "pli": "paññindriyaṁ bhāveti … ",
             "en": "the <span class=\"scv-matched\">faculty of wisdom</span> … ",
             "matched": true
           }
         },
-        "score": 3.012,
+        "score": 3.017,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger Snap\n394–574",
+        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger-Snap\n394–574",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 79,
+          "pli": 176,
           "en": 175
         }
       },

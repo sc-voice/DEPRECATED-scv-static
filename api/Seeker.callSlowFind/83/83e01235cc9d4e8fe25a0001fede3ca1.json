@@ -206,9 +206,33 @@
             "en": "“Mendicants, seeing these five future perils is quite enough for a wilderness mendicant to meditate diligently, keenly, and resolutely for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized. ",
             "matched": true
           },
+          "an5.77:2.7": {
+            "scid": "an5.77:2.7",
+            "pli": "handāhaṁ vīriyaṁ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā’ti. ",
+            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
+            "matched": true
+          },
+          "an5.77:3.6": {
+            "scid": "an5.77:3.6",
+            "pli": "handāhaṁ vīriyaṁ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā’ti. ",
+            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
+            "matched": true
+          },
+          "an5.77:4.6": {
+            "scid": "an5.77:4.6",
+            "pli": "handāhaṁ vīriyaṁ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā’ti. ",
+            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
+            "matched": true
+          },
+          "an5.77:5.6": {
+            "scid": "an5.77:5.6",
+            "pli": "handāhaṁ vīriyaṁ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā’ti. ",
+            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
+            "matched": true
+          },
           "an5.77:6.5": {
             "scid": "an5.77:6.5",
-            "pli": "Idaṁ, bhikkhave, pañcamaṁ anāgatabhayaṁ sampassamānena alameva āraññikena bhikkhunā appamattena ātāpinā pahitattena viharituṁ appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. ",
+            "pli": "handāhaṁ vīriyaṁ ārabhāmi appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā’ti. ",
             "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
             "matched": true
           },
@@ -216,26 +240,6 @@
             "scid": "an5.77:7.1",
             "pli": "Imāni kho, bhikkhave, pañca anāgatabhayāni sampassamānena alameva āraññikena bhikkhunā appamattena ātāpinā pahitattena viharituṁ appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāyā”ti. ",
             "en": "These are the five future perils, seeing which is quite enough for a wilderness mendicant to meditate diligently, keenly, and resolutely for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.” ",
-            "matched": true
-          },
-          "an5.77:2.7": {
-            "scid": "an5.77:2.7",
-            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
-            "matched": true
-          },
-          "an5.77:3.6": {
-            "scid": "an5.77:3.6",
-            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
-            "matched": true
-          },
-          "an5.77:4.6": {
-            "scid": "an5.77:4.6",
-            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
-            "matched": true
-          },
-          "an5.77:5.6": {
-            "scid": "an5.77:5.6",
-            "en": "I’d better rouse up energy for attaining <span class=\"scv-matched\">the unattained</span>, achieving the unachieved, and realizing the unrealized.’ ",
             "matched": true
           }
         },
@@ -246,7 +250,7 @@
         "title": "Numbered Discourses 5\n8. Warriors\n77. Future Perils (1st)",
         "segsMatched": 7,
         "langSegs": {
-          "pli": 32,
+          "pli": 41,
           "en": 40
         }
       },
@@ -370,7 +374,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 6,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -423,7 +427,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 5,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       },
@@ -463,14 +467,14 @@
             "matched": true
           }
         },
-        "score": 4.026,
+        "score": 4.027,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
         "segsMatched": 4,
         "langSegs": {
-          "pli": 145,
+          "pli": 146,
           "en": 144
         }
       },
@@ -819,7 +823,7 @@
         "title": "Middle Discourses 118\nMindfulness of Breathing",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 148,
+          "pli": 154,
           "en": 153
         }
       }

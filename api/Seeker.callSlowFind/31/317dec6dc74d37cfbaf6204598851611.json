@@ -144,18 +144,19 @@
           },
           "an4.276:1.7": {
             "scid": "an4.276:1.7",
+            "pli": "Rāgassa, bhikkhave, abhiññāya ime cattāro dhammā bhāvetabbā”ti. ",
             "en": "For insight into greed, these <span class=\"scv-matched\">four things should be developed</span>.” ",
             "matched": true
           }
         },
-        "score": 2.2,
+        "score": 2.182,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 4\n28. Abbreviated Texts Beginning with Greed\n276. Bases of Psychic Power",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 9,
+          "pli": 11,
           "en": 10
         }
       },
@@ -242,7 +243,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

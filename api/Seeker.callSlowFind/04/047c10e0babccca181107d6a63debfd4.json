@@ -101,7 +101,7 @@
           },
           "an5.162:3.4": {
             "scid": "an5.162:3.4",
-            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. (1) ",
+            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. #1",
             "en": "That’s how to get <span class=\"scv-matched\">rid of resentment</span> for that person. ",
             "matched": true
           },
@@ -113,7 +113,7 @@
           },
           "an5.162:4.6": {
             "scid": "an5.162:4.6",
-            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. (2) ",
+            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. #2",
             "en": "That’s how to get <span class=\"scv-matched\">rid of resentment</span> for that person. ",
             "matched": true
           },
@@ -125,7 +125,7 @@
           },
           "an5.162:5.12": {
             "scid": "an5.162:5.12",
-            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. (3) ",
+            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. #3",
             "en": "That’s how to get <span class=\"scv-matched\">rid of resentment</span> for that person. ",
             "matched": true
           },
@@ -137,7 +137,7 @@
           },
           "an5.162:6.14": {
             "scid": "an5.162:6.14",
-            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. (4) ",
+            "pli": "Evaṁ tasmiṁ puggale āghāto paṭivinetabbo. #4",
             "en": "That’s how to get <span class=\"scv-matched\">rid of resentment</span> for that person. ",
             "matched": true
           },
@@ -355,7 +355,7 @@
           },
           "dn33:3.2.23": {
             "scid": "dn33:3.2.23",
-            "pli": "atthaṁ carissati, taṁ kutettha labbhā’ti āghātaṁ paṭivineti. (2) ",
+            "pli": "atthaṁ carissati, taṁ kutettha labbhā’ti āghātaṁ paṭivineti. #2",
             "en": "Thinking: ‘They will help someone I dislike, but what can I possibly do?’ you get <span class=\"scv-matched\">rid of resentment</span>. ",
             "matched": true
           }
@@ -367,7 +367,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -408,7 +408,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       },

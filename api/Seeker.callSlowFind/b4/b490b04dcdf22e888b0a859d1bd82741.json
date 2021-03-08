@@ -56,38 +56,43 @@
         "segMap": {
           "an2.310-319:1.1": {
             "scid": "an2.310-319:1.1",
+            "pli": "“Rāgassa, bhikkhave, abhiññāya dve dhammā bhāvetabbā. ",
             "en": "“For insight into greed, <span class=\"scv-matched\">two things should be developed</span>. ",
             "matched": true
           },
           "an2.310-319:1.4": {
             "scid": "an2.310-319:1.4",
+            "pli": "Rāgassa, bhikkhave, abhiññāya ime dve dhammā bhāvetabbā”ti. #1",
             "en": "For insight into greed, these <span class=\"scv-matched\">two things should be developed</span>.” ",
             "matched": true
           },
           "an2.310-319:2.1": {
             "scid": "an2.310-319:2.1",
+            "pli": "“Rāgassa, bhikkhave, pariññāya … parikkhayāya … pahānāya … khayāya … vayāya … virāgāya … nirodhāya … cāgāya … paṭinissaggāya dve dhammā bhāvetabbā …pe… #2–10 ",
             "en": "“For the complete understanding … finishing … giving up … ending … vanishing … fading away … cessation … giving away … letting go of greed, <span class=\"scv-matched\">two things should be developed</span>.” ",
             "matched": true
           },
           "an2.320-479:1.1": {
             "scid": "an2.320-479:1.1",
+            "pli": "“Dosassa …pe… mohassa … kodhassa … upanāhassa … makkhassa … paḷāsassa … issāya … macchariyassa … māyāya … sāṭheyyassa … thambhassa … sārambhassa … mānassa … atimānassa … madassa … pamādassa … abhiññāya … pariññāya … parikkhayāya … pahānāya … khayāya … vayāya … virāgāya … nirodhāya … cāgāya … paṭinissaggāya dve dhammā bhāvetabbā. ",
             "en": "“Of hate … delusion … anger … hostility … disdain … contempt … jealousy … stinginess … deceit … deviousness … obstinacy … aggression … conceit … arrogance … vanity … negligence … for insight … complete understanding … finishing … giving up … ending … vanishing … fading away … cessation … giving away … letting go … <span class=\"scv-matched\">two things should be developed</span>. ",
             "matched": true
           },
           "an2.320-479:1.4": {
             "scid": "an2.320-479:1.4",
+            "pli": "Pamādassa, bhikkhave, paṭinissaggāya ime dve dhammā bhāvetabbā”ti. ",
             "en": "For the letting go of negligence, these <span class=\"scv-matched\">two things should be developed</span>.” ",
             "matched": true
           }
         },
-        "score": 5.143,
+        "score": 5.278,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Aṅguttara Nikāya 2\nNumbered Discourses 2\n19. Rāgapeyyāla\n19. Abbreviated Texts Beginning with Greed",
+        "title": "Numbered Discourses 2\n19. Abbreviated Texts Beginning with Greed\n310–479",
         "segsMatched": 5,
         "langSegs": {
-          "pli": 17,
+          "pli": 18,
           "en": 18
         }
       },
@@ -122,7 +127,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

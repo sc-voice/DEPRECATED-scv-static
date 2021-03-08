@@ -164,7 +164,7 @@
           },
           "dn34:2.3.98": {
             "scid": "dn34:2.3.98",
-            "pli": "Evaṁ kho, āvuso, bhikkhu suvimuttacitto hoti. (7.9) ",
+            "pli": "Evaṁ kho, āvuso, bhikkhu suvimuttacitto hoti. #7.9 ",
             "en": "That’s how a mendicant is <span class=\"scv-matched\">well freed</span> in mind. ",
             "matched": true
           },
@@ -188,7 +188,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 7,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       },
@@ -229,7 +229,7 @@
           },
           "dn33:3.3.80": {
             "scid": "dn33:3.3.80",
-            "pli": "Evaṁ kho, āvuso, bhikkhu suvimuttacitto hoti. (5.9) ",
+            "pli": "Evaṁ kho, āvuso, bhikkhu suvimuttacitto hoti. #5.9 ",
             "en": "That’s how a mendicant is <span class=\"scv-matched\">well freed</span> in mind. ",
             "matched": true
           },
@@ -241,7 +241,7 @@
           },
           "dn33:3.3.85": {
             "scid": "dn33:3.3.85",
-            "pli": "Evaṁ kho, āvuso, bhikkhu suvimuttapañño hoti. (5.10) ",
+            "pli": "Evaṁ kho, āvuso, bhikkhu suvimuttapañño hoti. #5.10 ",
             "en": "That’s how a mendicant’s mind is <span class=\"scv-matched\">well freed</span> by wisdom. ",
             "matched": true
           }
@@ -253,7 +253,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 7,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -282,7 +282,7 @@
           },
           "an10.20:11.3": {
             "scid": "an10.20:11.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu suvimuttacitto hoti. (9) ",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu suvimuttacitto hoti. #9",
             "en": "That’s how a mendicant is <span class=\"scv-matched\">well freed</span> in mind. ",
             "matched": true
           },
@@ -294,7 +294,7 @@
           },
           "an10.20:12.3": {
             "scid": "an10.20:12.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu suvimuttapañño hoti. (10) ",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu suvimuttapañño hoti. #10",
             "en": "That’s how a mendicant’s mind is <span class=\"scv-matched\">well freed</span> by wisdom. ",
             "matched": true
           }
@@ -359,7 +359,7 @@
         "title": "Linked Discourses 46\n1. Mountains\n6. Kuṇḍaliya",
         "segsMatched": 5,
         "langSegs": {
-          "pli": 58,
+          "pli": 59,
           "en": 58
         }
       },

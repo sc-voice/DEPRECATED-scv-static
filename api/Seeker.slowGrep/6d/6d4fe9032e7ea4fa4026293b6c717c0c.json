@@ -90,6 +90,7 @@
     "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json:2",
     "translation/en/sujato/sutta/mn/mn11_translation-en-sujato.json:2",
     "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json:2",
+    "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json:2",
     "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json:2",
     "translation/en/sujato/sutta/an/an9/an9.35_translation-en-sujato.json:2",
     "translation/en/sujato/sutta/an/an9/an9.28_translation-en-sujato.json:2",
@@ -156,6 +157,8 @@
     "translation/en/sujato/sutta/mn/mn111_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/mn/mn108_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/ud/vagga1/ud1.2_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/ud/vagga1/ud1.1_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/dhp/dhp76-89_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json:1",
@@ -194,6 +197,7 @@
     "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json:1"
+    "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd8_translation-en-brahmali.json:1"
   ]
 }

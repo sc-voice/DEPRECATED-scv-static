@@ -140,63 +140,73 @@
         "segMap": {
           "an2.180-184:1.3": {
             "scid": "an2.180-184:1.3",
+            "pli": "Kodho ca upanāho ca … makkho ca paḷāso ca … issā ca macchariyañca … māyā ca sāṭheyyañca … ahirikañca anottappañca. ",
             "en": "Anger and hostility … disdain and contempt … jealousy and stinginess … deceit and deviousness … lack of <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.185-189:1.3": {
             "scid": "an2.185-189:1.3",
+            "pli": "Akkodho ca anupanāho ca … amakkho ca apaḷāso ca … anissā ca amacchariyañca … amāyā ca asāṭheyyañca … hirī ca ottappañca. ",
             "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.190-194:1.3": {
             "scid": "an2.190-194:1.3",
+            "pli": "Kodhena ca upanāhena ca … makkhena ca paḷāsena ca … issāya ca macchariyena ca … māyāya ca sāṭheyyena ca … ahirikena ca anottappena ca. ",
             "en": "Anger and hostility … disdain and contempt … jealousy and stinginess … deceit and deviousness … lack of <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.195-199:1.3": {
             "scid": "an2.195-199:1.3",
+            "pli": "Akkodhena ca anupanāhena ca … amakkhena ca apaḷāsena ca … anissāya ca amacchariyena ca … amāyāya ca asāṭheyyena ca … hiriyā ca ottappena ca. ",
             "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.200-204:1.3": {
             "scid": "an2.200-204:1.3",
+            "pli": "Kodho ca upanāho ca … makkho ca paḷāso ca … issā ca macchariyañca … māyā ca sāṭheyyañca … ahirikañca anottappañca. ",
             "en": "Anger and hostility … disdain and contempt … jealousy and stinginess … deceit and deviousness … lack of <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.205-209:1.3": {
             "scid": "an2.205-209:1.3",
+            "pli": "Akkodho ca anupanāho ca … amakkho ca apaḷāso ca … anissā ca amacchariyañca … amāyā ca asāṭheyyañca … hirī ca ottappañca. ",
             "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.210-214:1.3": {
             "scid": "an2.210-214:1.3",
+            "pli": "Kodhena ca upanāhena ca … makkhena ca paḷāsena ca … issāya ca macchariyena ca … māyāya ca sāṭheyyena ca … ahirikena ca anottappena ca. ",
             "en": "Anger and hostility … disdain and contempt … jealousy and stinginess … deceit and deviousness … lack of <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.215-219:1.3": {
             "scid": "an2.215-219:1.3",
+            "pli": "Akkodhena ca anupanāhena ca … amakkhena ca apaḷāsena ca … anissāya ca amacchariyena ca … amāyāya ca asāṭheyyena ca … hiriyā ca ottappena ca. ",
             "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.220-224:1.3": {
             "scid": "an2.220-224:1.3",
+            "pli": "Kodhena ca upanāhena ca … makkhena ca paḷāsena ca … issāya ca macchariyena ca … māyāya ca sāṭheyyena ca … ahirikena ca anottappena ca. ",
             "en": "Anger and hostility … disdain and contempt … jealousy and stinginess … deceit and deviousness … lack of <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "an2.225-229:1.3": {
             "scid": "an2.225-229:1.3",
+            "pli": "Akkodhena ca anupanāhena ca … amakkhena ca apaḷāsena ca … anissāya ca amacchariyena ca … amāyāya ca asāṭheyyena ca … hiriyā ca ottappena ca. ",
             "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           }
         },
-        "score": 10.094,
+        "score": 10.185,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Aṅguttara Nikāya 2\nNumbered Discourses 2\n16. Kodhapeyyāla\n16. Abbreviated Texts Beginning with Anger",
+        "title": "Numbered Discourses 2\n16. Abbreviated Texts Beginning with Anger\n180–229",
         "segsMatched": 10,
         "langSegs": {
-          "pli": 53,
+          "pli": 54,
           "en": 53
         }
       },
@@ -408,25 +418,25 @@
         "segMap": {
           "dn33:1.9.7": {
             "scid": "dn33:1.9.7",
-            "pli": "Ahirikañca anottappañca. (4) ",
+            "pli": "Ahirikañca anottappañca. #4",
             "en": "Lack of <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "dn33:1.9.8": {
             "scid": "dn33:1.9.8",
-            "pli": "Hirī ca ottappañca. (5) ",
+            "pli": "Hirī ca ottappañca. #5",
             "en": "<span class=\"scv-matched\">Conscience and prudence</span>. ",
             "matched": true
           },
           "dn33:2.3.5": {
             "scid": "dn33:2.3.5",
-            "pli": "saddhādhanaṁ, sīladhanaṁ, hiridhanaṁ, ottappadhanaṁ, sutadhanaṁ, cāgadhanaṁ, paññādhanaṁ. (1) ",
+            "pli": "saddhādhanaṁ, sīladhanaṁ, hiridhanaṁ, ottappadhanaṁ, sutadhanaṁ, cāgadhanaṁ, paññādhanaṁ. #1",
             "en": "the wealth of faith, ethical conduct, conscience, prudence, learning, generosity, and wisdom. ",
             "matched": true
           },
           "dn33:2.3.27": {
             "scid": "dn33:2.3.27",
-            "pli": "saddhābalaṁ, vīriyabalaṁ, hiribalaṁ, ottappabalaṁ, satibalaṁ, samādhibalaṁ, paññābalaṁ. (9) ",
+            "pli": "saddhābalaṁ, vīriyabalaṁ, hiribalaṁ, ottappabalaṁ, satibalaṁ, samādhibalaṁ, paññābalaṁ. #9",
             "en": "faith, energy, conscience, prudence, mindfulness, immersion, and wisdom. ",
             "matched": true
           }
@@ -438,7 +448,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 4,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -554,14 +564,14 @@
             "matched": true
           }
         },
-        "score": 3.022,
+        "score": 3.024,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n1. Punishments\n1–10",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 125,
+          "pli": 126,
           "en": 124
         }
       },
@@ -602,7 +612,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       },
@@ -1155,14 +1165,14 @@
             "matched": true
           }
         },
-        "score": 2.029,
+        "score": 2.034,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 2\n9. Things\n87–97",
+        "title": "Numbered Discourses 2\n9. Two Things\n87–97",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 58,
+          "pli": 59,
           "en": 58
         }
       },

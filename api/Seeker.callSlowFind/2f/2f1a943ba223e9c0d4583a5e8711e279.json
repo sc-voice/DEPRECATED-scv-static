@@ -322,6 +322,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.42-51",
+        "lang": "en",
+        "segMap": {
+          "an2.43:2.2": {
+            "scid": "an2.43:2.2",
+            "pli": "Idha, bhikkhave, yassaṁ parisāyaṁ bhikkhū samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharanti. ",
+            "en": "An assembly where the mendicants live in harmony, appreciating each other, without quarreling, blending like <span class=\"scv-matched\">milk and water</span>, and regarding each other with kindly eyes. ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 146,
+          "en": 144
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn36/sn36.19_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn36/sn36.19_translation-en-sujato.json"
         ],
@@ -347,35 +376,6 @@
         "langSegs": {
           "pli": 136,
           "en": 135
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an2.42-51",
-        "lang": "en",
-        "segMap": {
-          "an2.43:2.2": {
-            "scid": "an2.43:2.2",
-            "pli": "Idha, bhikkhave, yassaṁ parisāyaṁ bhikkhū samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharanti. ",
-            "en": "An assembly where the mendicants live in harmony, appreciating each other, without quarreling, blending like <span class=\"scv-matched\">milk and water</span>, and regarding each other with kindly eyes. ",
-            "matched": true
-          }
-        },
-        "score": 1.006,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 145,
-          "en": 144
         }
       },
       {

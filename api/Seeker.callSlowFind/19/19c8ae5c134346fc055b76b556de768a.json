@@ -334,14 +334,14 @@
             "matched": true
           }
         },
-        "score": 2.013,
+        "score": 2.014,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 145,
+          "pli": 146,
           "en": 144
         }
       },
@@ -445,7 +445,7 @@
         "segMap": {
           "dn33:1.11.128": {
             "scid": "dn33:1.11.128",
-            "pli": "akkhamā paṭipadā, khamā paṭipadā, damā paṭipadā, samā paṭipadā. (22) ",
+            "pli": "chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati. #19",
             "en": "making decisions prejudiced by <span class=\"scv-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
             "matched": true
           }
@@ -457,7 +457,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       }

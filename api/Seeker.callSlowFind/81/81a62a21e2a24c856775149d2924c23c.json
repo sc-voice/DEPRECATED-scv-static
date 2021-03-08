@@ -31,7 +31,7 @@
     "pattern": "annoyance, hate, and bitterness",
     "method": "phrase",
     "resultPattern": "\\bannoyance, hate, and bitterness",
-    "segsMatched": 29,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
@@ -45,6 +45,8 @@
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn135_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn135_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.67_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.67_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.27_root-pli-ms.json",
@@ -69,6 +71,7 @@
       "an3.64/en/sujato",
       "mn36/en/sujato",
       "mn135/en/sujato",
+      "dn24/en/sujato",
       "an3.67/en/sujato",
       "an3.27/en/sujato",
       "an3.25/en/sujato",
@@ -428,6 +431,41 @@
         "langSegs": {
           "pli": 360,
           "en": 359
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "en",
+        "segMap": {
+          "dn24:1.12.3": {
+            "scid": "dn24:1.12.3",
+            "pli": "Asampāyanto kopañca dosañca appaccayañca pātvākāsi. ",
+            "en": "he displayed <span class=\"scv-matched\">annoyance, hate, and bitterness</span>. ",
+            "matched": true
+          },
+          "dn24:1.13.7": {
+            "scid": "dn24:1.13.7",
+            "pli": "Asampāyanto kopañca dosañca appaccayañca pātvākāsi. ",
+            "en": "he displayed <span class=\"scv-matched\">annoyance, hate, and bitterness</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 24\nAbout Pāṭikaputta\n1. On Sunakkhatta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 581,
+          "en": 580
         }
       },
       {

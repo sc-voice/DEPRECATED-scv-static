@@ -195,19 +195,19 @@
         "segMap": {
           "an6.42:3.7": {
             "scid": "an6.42:3.7",
-            "pli": "Taṁ kissa hetu? ",
+            "pli": "Tathā hi, bhante, bhagavato sīlapaññāṇan”ti. ",
             "en": "Because of the Buddha’s <span class=\"scv-matched\">ethics and wisdom</span>.” ",
             "matched": true
           }
         },
-        "score": 1.016,
+        "score": 1.017,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 6\n4. Deities\n42. With Nāgita",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 61,
+          "pli": 60,
           "en": 58
         }
       },

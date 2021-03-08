@@ -31,10 +31,12 @@
     "pattern": "good friends, companions, and associates",
     "method": "phrase",
     "resultPattern": "\\bgood friends, companions, and associates",
-    "segsMatched": 37,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
@@ -72,6 +74,7 @@
     ],
     "suttaRefs": [
       "sn3.18/en/sujato",
+      "ud4.1/en/sujato",
       "an9.3/en/sujato",
       "an9.1/en/sujato",
       "sn45.3/en/sujato",
@@ -240,7 +243,7 @@
           },
           "an9.3:18.1": {
             "scid": "an9.3:18.1",
-            "pli": "Kalyāṇamittassetaṁ, meghiya, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa: ‘paññavā bhavissati …pe… sammādukkhakkhayagāminiyā’. (5) ",
+            "pli": "Kalyāṇamittassetaṁ, meghiya, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa: ‘paññavā bhavissati …pe… sammādukkhakkhayagāminiyā’. #5",
             "en": "A mendicant with <span class=\"scv-matched\">good friends, companions, and associates</span> can expect to be wise … ",
             "matched": true
           }
@@ -254,6 +257,59 @@
         "langSegs": {
           "pli": 74,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "en",
+        "segMap": {
+          "ud4.1:12.1": {
+            "scid": "ud4.1:12.1",
+            "pli": "Idha, meghiya, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko.",
+            "en": "Firstly, a mendicant has <span class=\"scv-matched\">good friends, companions, and associates</span>. ",
+            "matched": true
+          },
+          "ud4.1:17.1": {
+            "scid": "ud4.1:17.1",
+            "pli": "Kalyāṇamittassetaṁ, meghiya, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa yaṁ sīlavā bhavissati, pātimokkhasaṁvarasaṁvuto viharissati, ācāragocarasampanno, aṇumattesu vajjesu bhayadassāvī, samādāya sikkhissati sikkhāpadesu.",
+            "en": "A mendicant with <span class=\"scv-matched\">good friends, companions, and associates</span> can expect to be ethical …",
+            "matched": true
+          },
+          "ud4.1:18.1": {
+            "scid": "ud4.1:18.1",
+            "pli": "Kalyāṇamittassetaṁ, meghiya, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa yaṁ yāyaṁ kathā abhisallekhikā cetovivaraṇasappāyā ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati, seyyathidaṁ—",
+            "en": "A mendicant with <span class=\"scv-matched\">good friends, companions, and associates</span> can expect to take part in talk about self-effacement that helps open the heart … ",
+            "matched": true
+          },
+          "ud4.1:19.1": {
+            "scid": "ud4.1:19.1",
+            "pli": "Kalyāṇamittassetaṁ, meghiya, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa yaṁ āraddhavīriyo viharissati akusalānaṁ dhammānaṁ pahānāya, kusalānaṁ dhammānaṁ upasampadāya, thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesu.",
+            "en": "A mendicant with <span class=\"scv-matched\">good friends, companions, and associates</span> can expect to be energetic … ",
+            "matched": true
+          },
+          "ud4.1:20.1": {
+            "scid": "ud4.1:20.1",
+            "pli": "Kalyāṇamittassetaṁ, meghiya, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa yaṁ paññavā bhavissati, udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā.",
+            "en": "A mendicant with <span class=\"scv-matched\">good friends, companions, and associates</span> can expect to be wise … ",
+            "matched": true
+          }
+        },
+        "score": 5.055,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n4.1. With Meghiya",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 91,
+          "en": 68
         }
       },
       {
@@ -357,7 +413,7 @@
           },
           "an8.55:8.5": {
             "scid": "an8.55:8.5",
-            "pli": "na itthidhutto …pe… kalyāṇasampavaṅko. (4: 4) ",
+            "pli": "na itthidhutto …pe… kalyāṇasampavaṅko. #4",
             "en": "Not womanizing, drinking, or gambling, and having <span class=\"scv-matched\">good friends, companions, and associates</span>. ",
             "matched": true
           }
@@ -392,7 +448,7 @@
           },
           "an8.54:7.8": {
             "scid": "an8.54:7.8",
-            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. (4: 4) ",
+            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. #4",
             "en": "Not womanizing, drinking, or gambling, and having <span class=\"scv-matched\">good friends, companions, and associates</span>. ",
             "matched": true
           }
@@ -459,40 +515,11 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 8\n6. Gotamī\n57. Worthy of Offerings to the Gods (1st)",
+        "title": "Numbered Discourses 8\n6. Gotamī\n57. Worthy of Offerings Dedicated to the Gods (1st)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 15,
           "en": 14
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an10.97",
-        "lang": "en",
-        "segMap": {
-          "an10.97:4.1": {
-            "scid": "an10.97:4.1",
-            "pli": "Kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
-            "en": "They have <span class=\"scv-matched\">good friends, companions, and associates</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.059,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 10\n10. With Upāli\n97. Worthy of Offerings to the Gods",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 17,
-          "en": 16
         }
       },
       {
@@ -522,6 +549,35 @@
         "langSegs": {
           "pli": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.97",
+        "lang": "en",
+        "segMap": {
+          "an10.97:4.1": {
+            "scid": "an10.97:4.1",
+            "pli": "Kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "en": "They have <span class=\"scv-matched\">good friends, companions, and associates</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n10. With Upāli\n97. Worthy of Offerings Dedicated to the Gods",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "en": 32
         }
       },
       {
@@ -694,7 +750,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -723,7 +779,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

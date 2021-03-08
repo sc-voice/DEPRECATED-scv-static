@@ -144,9 +144,10 @@
     "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/mn/mn147_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thig/thig9.1_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thag/thag6.4_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/kn/thag/thag4.8_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thag/thag4.6_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thag/thag2.27_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thag/thag1.91_translation-en-sujato.json:1",
@@ -200,6 +201,13 @@
     "translation/en/sujato/sutta/an/an10/an10.69_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/an/an10/an10.30_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/an/an10/an10.12_translation-en-sujato.json:1"
+    "translation/en/sujato/sutta/an/an10/an10.12_translation-en-sujato.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json:42",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json:11",
+    "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json:9",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json:6",
+    "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_translation-en-brahmali.json:2",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd5_translation-en-brahmali.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json:1"
   ]
 }

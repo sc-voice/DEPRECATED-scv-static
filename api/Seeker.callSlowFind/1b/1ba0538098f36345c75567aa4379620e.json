@@ -226,7 +226,7 @@
         "segMap": {
           "dn33:3.1.141": {
             "scid": "dn33:3.1.141",
-            "pli": "lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañca. (9) ",
+            "pli": "lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañca. #9",
             "en": "<span class=\"scv-matched\">gain and loss</span>, fame and disgrace, praise and blame, pleasure and pain. ",
             "matched": true
           }
@@ -238,7 +238,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       },
@@ -267,7 +267,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       }

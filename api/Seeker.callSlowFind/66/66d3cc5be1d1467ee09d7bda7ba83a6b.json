@@ -277,6 +277,7 @@
         "segMap": {
           "dn33:1.11.218": {
             "scid": "dn33:1.11.218",
+            "pli": "samaṇamacalo, samaṇapadumo, samaṇapuṇḍarīko, samaṇesu samaṇasukhumālo. #50",
             "en": "the confirmed ascetic, the white <span class=\"scv-matched\">lotus ascetic</span>, the pink <span class=\"scv-matched\">lotus ascetic</span>, and the exquisite ascetic of ascetics. ",
             "matched": true
           }
@@ -288,7 +289,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       }

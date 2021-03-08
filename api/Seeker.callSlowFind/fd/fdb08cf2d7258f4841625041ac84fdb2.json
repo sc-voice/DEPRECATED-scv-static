@@ -91,13 +91,13 @@
         "segMap": {
           "sn46.55:10.1": {
             "scid": "sn46.55:10.1",
-            "pli": "Seyyathāpi, brāhmaṇa, udapatto vāterito calito bhanto ūmijāto. Tattha cakkhumā puriso sakaṁ mukhanimittaṁ paccavekkhamāno yathābhūtaṁ na jāneyya na passeyya. ",
+            "pli": "Seyyathāpi, brāhmaṇa, udapatto vāterito calito bhanto ūmijāto. ",
             "en": "Suppose there was a bowl of <span class=\"scv-matched\">water stirred by the wind</span>, churning, swirling, and rippling. ",
             "matched": true
           },
           "sn46.55:20.1": {
             "scid": "sn46.55:20.1",
-            "pli": "Seyyathāpi, brāhmaṇa, udapatto na vāterito na calito na bhanto na ūmijāto. Tattha cakkhumā puriso sakaṁ mukhanimittaṁ paccavekkhamāno yathābhūtaṁ jāneyya passeyya. ",
+            "pli": "Seyyathāpi, brāhmaṇa, udapatto na vāterito na calito na bhanto na ūmijāto. ",
             "en": "Suppose there is a bowl of water that is not stirred by the wind, churning, swirling, and rippling. ",
             "matched": true
           }
@@ -109,7 +109,7 @@
         "title": "Linked Discourses 46\n6. Discussion\n55. With Saṅgārava",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 48,
+          "pli": 58,
           "en": 57
         }
       }

@@ -160,7 +160,7 @@
         "title": "Numbered Discourses 3\n7. The Great Chapter\n70. Sabbath",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 234,
+          "pli": 238,
           "en": 232
         }
       },
@@ -177,7 +177,7 @@
         "segMap": {
           "an10.211:13.1": {
             "scid": "an10.211:13.1",
-            "pli": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ gāmagataṁ vā araññagataṁ vā, na taṁ adinnaṁ theyyasaṅkhātaṁ ādātā hoti. (2) ",
+            "pli": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ gāmagataṁ vā araññagataṁ vā, na taṁ adinnaṁ theyyasaṅkhātaṁ ādātā hoti. #2",
             "en": "They <span class=\"scv-matched\">give up stealing</span>. They don’t, with the intention to commit theft, take the wealth or belongings of others from village or wilderness. ",
             "matched": true
           }
@@ -322,7 +322,7 @@
         "segMap": {
           "an10.176:26.1": {
             "scid": "an10.176:26.1",
-            "pli": "Adinnādānaṁ pahāya, adinnādānā paṭivirato hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ gāmagataṁ vā araññagataṁ vā, na taṁ adinnaṁ theyyasaṅkhātaṁ ādātā hoti. (2) ",
+            "pli": "Adinnādānaṁ pahāya, adinnādānā paṭivirato hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ gāmagataṁ vā araññagataṁ vā, na taṁ adinnaṁ theyyasaṅkhātaṁ ādātā hoti. #2",
             "en": "They <span class=\"scv-matched\">give up stealing</span>. They don’t, with the intention to commit theft, take the wealth or belongings of others from village or wilderness. ",
             "matched": true
           }
@@ -624,8 +624,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 617,
-          "en": 616
+          "pli": 649,
+          "en": 632
         }
       },
       {

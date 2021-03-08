@@ -173,7 +173,7 @@
         "title": "Long Discourses 34\nUp to Ten",
         "segsMatched": 13,
         "langSegs": {
-          "pli": 892,
+          "pli": 894,
           "en": 891
         }
       },
@@ -454,13 +454,13 @@
         "segMap": {
           "an6.61:3.5": {
             "scid": "an6.61:3.5",
-            "pli": "Ettāvatā kho, āvuso, bhikkhu abhiññeyyaṁ abhijānāti, pariññeyyaṁ parijānāti, abhiññeyyaṁ abhijānanto pariññeyyaṁ parijānanto diṭṭheva dhamme dukkhassantakaro hotī”ti. (1) ",
+            "pli": "Ettāvatā kho, āvuso, bhikkhu abhiññeyyaṁ abhijānāti, pariññeyyaṁ parijānāti, abhiññeyyaṁ abhijānanto pariññeyyaṁ parijānanto diṭṭheva dhamme dukkhassantakaro hotī”ti. #1",
             "en": "That’s how a mendicant directly knows what should be directly known and completely understands what should <span class=\"scv-matched\">be completely understood</span>. Knowing and understanding thus they make an end of suffering in this very life.” ",
             "matched": true
           },
           "an6.61:8.4": {
             "scid": "an6.61:8.4",
-            "pli": "Ettāvatā kho, āvuso, bhikkhu abhiññeyyaṁ abhijānāti, pariññeyyaṁ parijānāti, abhiññeyyaṁ abhijānanto pariññeyyaṁ parijānanto diṭṭheva dhamme dukkhassantakaro hotī”ti. (6) ",
+            "pli": "Ettāvatā kho, āvuso, bhikkhu abhiññeyyaṁ abhijānāti, pariññeyyaṁ parijānāti, abhiññeyyaṁ abhijānanto pariññeyyaṁ parijānanto diṭṭheva dhamme dukkhassantakaro hotī”ti. #6",
             "en": "That’s how a mendicant directly knows what should be directly known and completely understands what should <span class=\"scv-matched\">be completely understood</span>. Knowing and understanding thus they make an end of suffering in this very life.” ",
             "matched": true
           },

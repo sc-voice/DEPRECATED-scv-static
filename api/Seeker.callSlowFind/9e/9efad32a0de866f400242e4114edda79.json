@@ -31,8 +31,10 @@
     "pattern": "dreadful racket",
     "method": "phrase",
     "resultPattern": "\\bdreadful racket",
-    "segsMatched": 28,
+    "segsMatched": 33,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.3_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn67_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.116_root-pli-ms.json",
@@ -69,6 +71,7 @@
       "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "ud3.3/en/sujato",
       "mn67/en/sujato",
       "an10.116/en/sujato",
       "mn79/en/sujato",
@@ -88,6 +91,59 @@
       "an10.93/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.3",
+        "lang": "en",
+        "segMap": {
+          "ud3.3:1.4": {
+            "scid": "ud3.3:1.4",
+            "pli": "Tedha kho āgantukā bhikkhū nevāsikehi bhikkhūhi saddhiṁ paṭisammodamānā senāsanāni paññāpayamānā pattacīvarāni paṭisāmayamānā uccāsaddā mahāsaddā ahesuṁ.",
+            "en": "At that, those visiting mendicants, while exchanging pleasantries with the resident mendicants, preparing their lodgings, and putting away their bowls and robes, made a <span class=\"scv-matched\">dreadful racket</span>. ",
+            "matched": true
+          },
+          "ud3.3:2.2": {
+            "scid": "ud3.3:2.2",
+            "pli": "“ke panete, ānanda, uccāsaddā mahāsaddā kevaṭṭā maññe macchavilope”ti?",
+            "en": "“Ānanda, who’s making that <span class=\"scv-matched\">dreadful racket</span>? You’d think it was fishermen hauling in a catch!” ",
+            "matched": true
+          },
+          "ud3.3:2.4": {
+            "scid": "ud3.3:2.4",
+            "pli": "Tete āgantukā bhikkhū nevāsikehi bhikkhūhi saddhiṁ paṭisammodamānā senāsanāni paññāpayamānā pattacīvarāni paṭisāmayamānā uccāsaddā mahāsaddā”ti.",
+            "en": "It’s those visiting mendicants who, while exchanging pleasantries with the resident mendicants, preparing their lodgings, and putting away their bowls and robes, made a <span class=\"scv-matched\">dreadful racket</span>.” ",
+            "matched": true
+          },
+          "ud3.3:4.1": {
+            "scid": "ud3.3:4.1",
+            "pli": "“Kiṁ nu tumhe, bhikkhave, uccāsaddā mahāsaddā, kevaṭṭā maññe macchavilope”ti?",
+            "en": "“Mendicants, what’s with that <span class=\"scv-matched\">dreadful racket</span>? You’d think it was fishermen hauling in a catch!” ",
+            "matched": true
+          },
+          "ud3.3:4.4": {
+            "scid": "ud3.3:4.4",
+            "pli": "Teme āgantukā bhikkhū nevāsikehi bhikkhūhi saddhiṁ paṭisammodamānā senāsanāni paññāpayamānā pattacīvarāni paṭisāmayamānā uccāsaddā mahāsaddā”ti.",
+            "en": "It’s these visiting mendicants who, while exchanging pleasantries with the resident mendicants, preparing their lodgings, and putting away their bowls and robes, made a <span class=\"scv-matched\">dreadful racket</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 5.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\n3.3. With Yasoja",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 85,
+          "en": 69
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.116_root-pli-ms.json",
@@ -271,7 +327,7 @@
         "title": "Numbered Discourses 6\n4. Deities\n42. With Nāgita",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 61,
+          "pli": 60,
           "en": 58
         }
       },
@@ -614,8 +670,8 @@
         "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 352,
-          "en": 357
+          "pli": 390,
+          "en": 373
         }
       },
       {

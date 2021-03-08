@@ -118,14 +118,14 @@
             "matched": true
           }
         },
-        "score": 10.081,
+        "score": 10.095,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n10. Fools\n98–117",
         "segsMatched": 10,
         "langSegs": {
-          "pli": 104,
+          "pli": 105,
           "en": 104
         }
       },
@@ -188,14 +188,14 @@
             "matched": true
           }
         },
-        "score": 2.024,
+        "score": 2.028,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 2\n3. Fools\n21–31",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 71,
+          "pli": 72,
           "en": 71
         }
       }

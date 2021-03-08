@@ -327,7 +327,7 @@
           },
           "an7.4:8.3": {
             "scid": "an7.4:8.3",
-            "pli": "Idaṁ vuccati, bhikkhave, paññābalaṁ. (7) ",
+            "pli": "Idaṁ vuccati, bhikkhave, paññābalaṁ. #7",
             "en": "This is called the <span class=\"scv-matched\">power of wisdom</span>. ",
             "matched": true
           }
@@ -356,28 +356,31 @@
         "segMap": {
           "an1.423:1.1": {
             "scid": "an1.423:1.1",
-            "en": "the <span class=\"scv-matched\">power of wisdom</span>, even for the time of a finger snap … ",
+            "pli": "paññābalaṁ bhāveti …. ",
+            "en": "the <span class=\"scv-matched\">power of wisdom</span>, even for the time of a finger-snap … ",
             "matched": true
           },
           "an1.504:1.1": {
             "scid": "an1.504:1.1",
+            "pli": "paññābalaṁ bhāveti …. ",
             "en": "the <span class=\"scv-matched\">power of wisdom</span> together with the first absorption … ",
             "matched": true
           },
           "an1.574:1.1": {
             "scid": "an1.574:1.1",
+            "pli": "paññābalaṁ bhāveti. ",
             "en": "the <span class=\"scv-matched\">power of wisdom</span>. ",
             "matched": true
           }
         },
-        "score": 3.012,
+        "score": 3.017,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger Snap\n394–574",
+        "title": "Numbered Discourses 1\n29. Another Chapter on a Finger-Snap\n394–574",
         "segsMatched": 3,
         "langSegs": {
-          "pli": 79,
+          "pli": 176,
           "en": 175
         }
       },

@@ -256,7 +256,7 @@
           "an9.20:4.3": {
             "scid": "an9.20:4.3",
             "pli": "Caturāsīti suvaṇṇapātisahassāni adāsi rūpiyapūrāni, caturāsīti rūpiyapātisahassāni adāsi suvaṇṇapūrāni, caturāsīti kaṁsapātisahassāni adāsi hiraññapūrāni, caturāsīti hatthisahassāni adāsi sovaṇṇālaṅkārāni sovaṇṇadhajāni hemajālappaṭicchannāni, caturāsīti rathasahassāni adāsi sīhacammaparivārāni byagghacammaparivārāni dīpicammaparivārāni paṇḍukambalaparivārāni sovaṇṇālaṅkārāni sovaṇṇadhajāni hemajālappaṭicchannāni, caturāsīti dhenusahassāni adāsi dukūlasandhanāni kaṁsūpadhāraṇāni, caturāsīti kaññāsahassāni adāsi āmuttamaṇikuṇḍalāyo, caturāsīti pallaṅkasahassāni adāsi gonakatthatāni paṭikatthatāni paṭalikatthatāni kadalimigapavarapaccattharaṇāni sauttaracchadāni ubhatolohitakūpadhānāni, caturāsīti vatthakoṭisahassāni adāsi khomasukhumānaṁ koseyyasukhumānaṁ kambalasukhumānaṁ kappāsikasukhumānaṁ, ko pana vādo annassa pānassa khajjassa bhojjassa leyyassa peyyassa, najjo maññe vissandanti. ",
-            "en": "84,000 gold bowls filled with silver. 84,000 silver bowls filled with gold. 84,000 bronze bowls filled with gold coins. 84,000 elephants with gold adornments and banners, covered with gold netting. 84,000 chariots upholstered with the hide of lions, tigers, and leopards, and cream rugs, with gold adornments and banners, covered with gold netting. 84,000 milk cows with silken reins and bronze pails. 84,000 maidens bedecked with jeweled earrings. 84,000 couches spread with woolen covers—shag-piled, pure white, or embroidered with flowers—and spread with a fine deer hide, with canopies above and red pillows at <span class=\"scv-matched\">both ends</span>. 8,400,000,000 fine cloths of linen, silk, wool, and cotton. And who can say how much food, drink, snacks, meals, refreshments, and beverages? It seemed like an overflowing river. ",
+            "en": "84,000 gold bowls filled with silver. 84,000 silver bowls filled with gold. 84,000 bronze bowls filled with gold coins. 84,000 elephants with gold adornments and banners, covered with gold netting. 84,000 chariots upholstered with the hide of lions, tigers, and leopards, and cream rugs, with gold adornments and banners, covered with gold netting. 84,000 milk cows with silken reins and bronze pails. 84,000 maidens bedecked with jeweled earrings. 84,000 couches spread with woolen covers—shag-piled, pure white, or embroidered with flowers—and spread with a fine deer hide, with canopies above and red pillows at <span class=\"scv-matched\">both ends</span>. 8,400,000,000 fine cloths of linen, cotton, silk, and wool. And who can say how much food, drink, snacks, meals, refreshments, and beverages? It seemed like an overflowing river. ",
             "matched": true
           }
         },
@@ -434,14 +434,14 @@
             "matched": true
           }
         },
-        "score": 1.006,
+        "score": 1.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 119\nMindfulness of the Body",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 174,
+          "pli": 190,
           "en": 173
         }
       },
@@ -470,7 +470,7 @@
         "title": "Middle Discourses 10\nMindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 226,
+          "pli": 235,
           "en": 233
         }
       },
@@ -499,8 +499,8 @@
         "title": "Middle Discourses 12\nThe Longer Discourse on the Lion’s Roar",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 356,
-          "en": 355
+          "pli": 372,
+          "en": 371
         }
       },
       {
@@ -557,8 +557,8 @@
         "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 617,
-          "en": 616
+          "pli": 649,
+          "en": 632
         }
       },
       {
@@ -615,8 +615,8 @@
         "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 439,
-          "en": 438
+          "pli": 454,
+          "en": 453
         }
       }
     ]

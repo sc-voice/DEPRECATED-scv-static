@@ -189,6 +189,7 @@
         "segMap": {
           "dn33:1.11.216": {
             "scid": "dn33:1.11.216",
+            "pli": "tamo tamaparāyano, tamo jotiparāyano, joti tamaparāyano, joti jotiparāyano. #49",
             "en": "the dark bound for darkness, the <span class=\"scv-matched\">dark bound for light</span>, the light bound for darkness, and the light bound for light. ",
             "matched": true
           }
@@ -200,7 +201,7 @@
         "title": "Long Discourses 33\nReciting in Concert",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 1158,
+          "pli": 1167,
           "en": 1166
         }
       }

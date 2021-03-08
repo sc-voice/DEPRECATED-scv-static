@@ -58,6 +58,8 @@
     "translation/en/sujato/sutta/sn/sn21/sn21.5_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/ud/vagga8/ud8.5_translation-en-sujato.json:1",
+    "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thig/thig5.2_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json:1",
@@ -86,6 +88,8 @@
     "translation/en/sujato/sutta/an/an4/an4.34_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/an/an3/an3.18_translation-en-sujato.json:1",
     "translation/en/sujato/sutta/an/an2/an2.118-129_translation-en-sujato.json:1",
-    "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json:1"
+    "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json:1",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json:2",
+    "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json:2"
   ]
 }

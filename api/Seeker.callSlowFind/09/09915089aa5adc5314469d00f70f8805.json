@@ -31,7 +31,7 @@
     "pattern": "when this exists, that is",
     "method": "phrase",
     "resultPattern": "\\bwhen this exists, that is",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
@@ -57,6 +57,10 @@
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.92_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.92_translation-en-sujato.json"
     ],
@@ -73,6 +77,8 @@
       "sn12.21/en/sujato",
       "mn38/en/sujato",
       "mn115/en/sujato",
+      "ud1.3/en/sujato",
+      "ud1.1/en/sujato",
       "an10.92/en/sujato"
     ],
     "mlDocs": [
@@ -167,6 +173,35 @@
         "langSegs": {
           "pli": 19,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.1",
+        "lang": "en",
+        "segMap": {
+          "ud1.1:2.1": {
+            "scid": "ud1.1:2.1",
+            "pli": "“Iti imasmiṁ sati idaṁ hoti,",
+            "en": "“<span class=\"scv-matched\">When this exists, that is</span>; due to the arising of this, that arises. That is: ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nUpon Awakening (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "en": 24
         }
       },
       {
@@ -341,6 +376,35 @@
         "langSegs": {
           "pli": 41,
           "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.3",
+        "lang": "en",
+        "segMap": {
+          "ud1.3:2.1": {
+            "scid": "ud1.3:2.1",
+            "pli": "“Iti imasmiṁ sati idaṁ hoti,",
+            "en": "“<span class=\"scv-matched\">When this exists, that is</span>; due to the arising of this, that arises. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nUpon Awakening (3rd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "en": 37
         }
       },
       {

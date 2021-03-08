@@ -91,13 +91,13 @@
         "segMap": {
           "sn46.55:8.1": {
             "scid": "sn46.55:8.1",
-            "pli": "Seyyathāpi, brāhmaṇa, udapatto sevālapaṇakapariyonaddho. Tattha cakkhumā puriso sakaṁ mukhanimittaṁ paccavekkhamāno yathābhūtaṁ na jāneyya na passeyya. ",
+            "pli": "Seyyathāpi, brāhmaṇa, udapatto sevālapaṇakapariyonaddho. ",
             "en": "Suppose there was a bowl of <span class=\"scv-matched\">water overgrown with moss</span> and aquatic plants. ",
             "matched": true
           },
           "sn46.55:18.1": {
             "scid": "sn46.55:18.1",
-            "pli": "Seyyathāpi, brāhmaṇa, udapatto na sevālapaṇakapariyonaddho. Tattha cakkhumā puriso sakaṁ mukhanimittaṁ paccavekkhamāno yathābhūtaṁ jāneyya passeyya. ",
+            "pli": "Seyyathāpi, brāhmaṇa, udapatto na sevālapaṇakapariyonaddho. ",
             "en": "Suppose there is a bowl of water that is not overgrown with moss and aquatic plants. ",
             "matched": true
           }
@@ -109,7 +109,7 @@
         "title": "Linked Discourses 46\n6. Discussion\n55. With Saṅgārava",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 48,
+          "pli": 58,
           "en": 57
         }
       }

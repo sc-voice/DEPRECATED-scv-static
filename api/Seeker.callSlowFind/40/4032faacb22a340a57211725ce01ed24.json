@@ -91,13 +91,13 @@
         "segMap": {
           "sn46.55:4.1": {
             "scid": "sn46.55:4.1",
-            "pli": "Seyyathāpi, brāhmaṇa, udapatto saṁsaṭṭho lākhāya vā haliddiyā vā nīliyā vā mañjiṭṭhāya vā. Tattha cakkhumā puriso sakaṁ mukhanimittaṁ paccavekkhamāno yathābhūtaṁ na jāneyya na passeyya. ",
+            "pli": "Seyyathāpi, brāhmaṇa, udapatto saṁsaṭṭho lākhāya vā haliddiyā vā nīliyā vā mañjiṭṭhāya vā. ",
             "en": "Suppose there was a bowl of <span class=\"scv-matched\">water that was mixed with dye</span> such as red lac, turmeric, indigo, or rose madder. ",
             "matched": true
           },
           "sn46.55:14.1": {
             "scid": "sn46.55:14.1",
-            "pli": "Seyyathāpi, brāhmaṇa, udapatto asaṁsaṭṭho lākhāya vā haliddiyā vā nīliyā vā mañjiṭṭhāya vā. Tattha cakkhumā puriso sakaṁ mukhanimittaṁ paccavekkhamāno yathābhūtaṁ jāneyya passeyya. ",
+            "pli": "Seyyathāpi, brāhmaṇa, udapatto asaṁsaṭṭho lākhāya vā haliddiyā vā nīliyā vā mañjiṭṭhāya vā. ",
             "en": "Suppose there was a bowl of water that was not mixed with dye such as red lac, turmeric, indigo, or rose madder. ",
             "matched": true
           }
@@ -109,7 +109,7 @@
         "title": "Linked Discourses 46\n6. Discussion\n55. With Saṅgārava",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 48,
+          "pli": 58,
           "en": 57
         }
       }

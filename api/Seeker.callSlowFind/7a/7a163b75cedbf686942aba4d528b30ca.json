@@ -469,7 +469,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Long Discourses 27\nThe Origin of the World",
+        "title": "Long Discourses 27\nWhat Came First",
         "segsMatched": 2,
         "langSegs": {
           "pli": 323,
@@ -548,35 +548,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.101",
-        "lang": "en",
-        "segMap": {
-          "an3.101:2.6": {
-            "scid": "an3.101:2.6",
-            "pli": "Hoti so, bhikkhave, samayo yaṁ taṁ cittaṁ ajjhattaṁyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
-            "en": "But <span class=\"scv-matched\">there comes a time</span> when that mind is stilled internally; it settles, unifies, and becomes immersed in samādhi. ",
-            "matched": true
-          }
-        },
-        "score": 1.028,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 36,
-          "en": 35
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.170_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an4/an4.170_translation-en-sujato.json"
         ],
@@ -602,6 +573,35 @@
         "langSegs": {
           "pli": 36,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.101",
+        "lang": "en",
+        "segMap": {
+          "an3.101:2.6": {
+            "scid": "an3.101:2.6",
+            "pli": "Hoti so, bhikkhave, samayo yaṁ taṁ cittaṁ ajjhattaṁyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+            "en": "But <span class=\"scv-matched\">there comes a time</span> when that mind is stilled internally; it settles, unifies, and becomes immersed in samādhi. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3\n10. A Lump of Salt\n101. A Panner",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "en": 51
         }
       },
       {

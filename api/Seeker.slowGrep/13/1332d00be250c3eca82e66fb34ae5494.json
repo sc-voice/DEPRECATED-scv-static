@@ -1,0 +1,14 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\bunglück der vielen",
+      "maxResults": 1000,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": []
+}
