@@ -7,6 +7,7 @@ export { default as ScvArticleItems } from './scv-article-items.vue';
 export { default as ScvCheckbox } from './scv-checkbox.vue';
 export { default as ScvCursor } from './scv-cursor.vue';
 export { default as ScvHistory } from './scv-history.vue';
+//export { default as ScvPageMain } from './scv-page-main.vue';
 export { default as ScvResults } from './scv-results.vue';
 export { default as ScvSearchField } from './scv-search-field.vue';
 export { default as ScvSettings } from './scv-settings.vue';
