@@ -66,9 +66,7 @@ export default {
         if (/:0.1$/.test(scid)) {
           segClass = `scv-division`;
         } else if (/:0/.test(scid)) {
-          segClass = seg.scid === titles[titles.length-1].scid
-            ? `scv-sutta-title`
-            : `scv-division`;
+          segClass = `scv-sutta-title`;
         }
 
         return cursor && seg.scid === cursor.scid

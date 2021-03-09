@@ -69,10 +69,14 @@
                 <div >
                   <span v-if="showId" class="body-2">#</span>
                   <span v-if="showPali" class="body-2">Pali</span>
-                  <format-align-justify-icon class="scv-setting-icon"
-                    v-if="fullLine && showPali && showTrans" />
-                  <format-columns-icon class="scv-setting-icon"
-                    v-if="!fullLine && showPali && showTrans" />
+                  <v-icon class="scv-settings-icon"
+                    v-if="fullLine && showPali && showTrans">
+                    {{ mdiFormatAlignJustify}}
+                  </v-icon>
+                  <v-icon class="scv-settings-icon"
+                    v-if="!fullLine && showPali && showTrans" >
+                    {{ mdiFormatColumns}}
+                  </v-icon>
                   <span v-if="showTrans" class="body-2">
                     {{lang.toUpperCase()}}</span>
                 </div>
@@ -176,7 +180,7 @@
                   class="scv-icon-btn"
                   @click="playBell"
                   >
-                  <volume-high-icon />
+                  <v-icon small>{{mdiVolumeHigh}}</v-icon>
                 </v-btn>
               </label>
               <audio v-for="bell in ipsChoices"
@@ -291,14 +295,13 @@
 
 <script>
 import Vue from "vue";
-import 'vue-material-design-icons/styles.css';
+//import 'vue-material-design-icons/styles.css';
 import ScvCheckbox from './scv-checkbox.vue';
-import FormatAlignJustifyIcon from 'vue-material-design-icons/FormatAlignJustify.vue';
-import FormatColumnsIcon from 'vue-material-design-icons/FormatColumns.vue';
-import RobotOutlineIcon from 'vue-material-design-icons/RobotOutline.vue';
-import VolumeHighIcon from 'vue-material-design-icons/VolumeHigh.vue';
 import {
   mdiCog,
+  mdiVolumeHigh,
+  mdiFormatAlignJustify,
+  mdiFormatColumns,
 } from "@mdi/js";
 const {
   Settings,
@@ -308,9 +311,6 @@ const {version } = require('../package.json');
 
 export default {
   components: {
-    FormatColumnsIcon,
-    RobotOutlineIcon,
-    VolumeHighIcon,
     ScvCheckbox,
   },
   props: {
@@ -331,6 +331,9 @@ export default {
       languages: Settings.WEB_LANGUAGES,
       moreFocus: null,
       mdiCog,
+      mdiVolumeHigh,
+      mdiFormatAlignJustify,
+      mdiFormatColumns,
     };
   },
   mounted() {

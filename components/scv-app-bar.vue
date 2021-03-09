@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import ScvSettings from './scv-settings';
 import {
   mdiMagnify,
   mdiWikipedia,
@@ -39,6 +40,7 @@ const JS = {
 
 export default {
   components: {
+    ScvSettings,
   },
   props: {
     version: {

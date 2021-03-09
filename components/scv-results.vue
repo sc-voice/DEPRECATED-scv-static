@@ -151,7 +151,6 @@
 <script>
 import Vue from 'vue';
 import VueDetails from 'vue-details';
-import DotsHorizontalIcon from 'vue-material-design-icons/DotsHorizontal.vue';
 import { 
   mdiLaunch, 
   mdiDotsHorizontal,
@@ -163,10 +162,7 @@ const {
 
 export default {
   components: {
-    DotsHorizontalIcon,
     VueDetails,
-    mdiLaunch,
-    mdiDotsHorizontal,
   },
   props: {
     width: {

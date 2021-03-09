@@ -2,8 +2,8 @@
 :root {
   --scv-text-width: 45em;
   --scv-text-line-height: 1.5;
-  --scv-sutta-title-font-size: 28px;
-  --scv-division-title-font-size: 18.08px;
+  --scv-sutta-title-font-size: 20px;
+  --scv-division-title-font-size: 12px;
   --scv-header-margin-bottom: 64px;
   --scv-segment-margin-bottom: 0.5em;
   --scv-text-font-size: 16px;
@@ -29,8 +29,7 @@
 @media(width < 600px) {
   :root {
     --scv-text-line-height: 1.4;
-    --scv-sutta-title-font-size: 20px;
-    --scv-division-title-font-size: 16px;
+    --scv-sutta-title-font-size: 18px;
     --scv-header-margin-bottom: 32px;
     --scv-segment-margin-bottom: 0.3em;
     --scv-text-font-size: 16px;
@@ -335,7 +334,9 @@ summary:focus {
 }
 .scv-division {
   font-size: var(--scv-division-title-font-size);
-  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 .scv-division-root {
   xfont-variant-caps: all-small-caps; /* ugly without SC font */
@@ -351,8 +352,8 @@ summary:focus {
 .scv-sutta-title {
   font-size: var(--scv-sutta-title-font-size);
   text-align: center;
-  font-weight: 300;
-  line-height: 1.3333;
+  font-weight: 400;
+  line-height: 1.2em;
   margin-top: 0.5rem;
   letter-spacing: 0.02em;
 }

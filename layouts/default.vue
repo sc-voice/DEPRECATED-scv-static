@@ -3,7 +3,7 @@
     <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll flat >
       <scv-app-bar title="Scv-Static" imgUrl="amanda-flavell-buddha.png">
         <v-btn icon to="/components" class="scv-icon-btn" >
-          <menu-icon class="scv-settings-icon"/>
+          <v-icon class="scv-settings-icon">{{mdiMenu}}</v-icon>
         </v-btn>
       </scv-app-bar>
     </v-app-bar>
@@ -22,6 +22,9 @@
 import Vue from 'vue';
 const { version } = require('~/package.json');
 import { ScvVue } from '../index';
+import {
+  mdiMenu,
+} from "@mdi/js";
 let {
   ScvAppBar,
   ScvCursor,
@@ -35,6 +38,7 @@ export default {
   data () {
     return {
       clipped: false,
+      mdiMenu,
     }
   },
   methods: {
