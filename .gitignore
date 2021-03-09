@@ -6,7 +6,6 @@ archive
 .eslint*
 dist/
 ripgrep*
-nuxt-routes.json
 
 # Logs
 logs
