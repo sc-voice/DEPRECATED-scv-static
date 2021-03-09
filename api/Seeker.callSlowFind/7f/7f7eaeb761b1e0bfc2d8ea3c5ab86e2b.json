@@ -32,11 +32,14 @@
     "pattern": "holz",
     "method": "phrase",
     "resultPattern": "\\bholz",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.7_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "dn23/de/sabbamitta",
+      "sn47.7/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn24/de/sabbamitta",
       "an4.95/de/sabbamitta",
@@ -301,6 +305,38 @@
           "pli": 46,
           "de": 45,
           "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.7",
+        "lang": "de",
+        "segMap": {
+          "sn47.7:2.13": {
+            "scid": "sn47.7:2.13",
+            "pli": "Tamenaṁ, bhikkhave, luddo vijjhitvā tasmiṁyeva kaṭṭhakataṅgāre avassajjetvā yena kāmaṁ pakkamati. ",
+            "de": "Der Jäger spießt ihn auf, macht ihn von dem geteerten <span class=\"scv-matched\">Holz</span>stück los und geht, wohin er will. ",
+            "en": "The hunter spears him, pries him off that tarred block of wood, and goes wherever he wants. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n1. In Ambapālīs Wald\n7. Ein Affe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "de": 42,
+          "en": 44
         }
       },
       {
