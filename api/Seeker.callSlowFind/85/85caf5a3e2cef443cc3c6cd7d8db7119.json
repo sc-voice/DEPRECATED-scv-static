@@ -31,7 +31,7 @@
     "pattern": "what is right",
     "method": "phrase",
     "resultPattern": "\\bwhat is right",
-    "segsMatched": 44,
+    "segsMatched": 53,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn117_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn117_translation-en-sujato.json",
@@ -44,7 +44,19 @@
       "root/pli/ms/sutta/an/an5/an5.132_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.132_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.131_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.131_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.131_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd11_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd11_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc58_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc58_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "mn117/en/sujato",
@@ -52,7 +64,13 @@
       "mn141/en/sujato",
       "dn22/en/sujato",
       "an5.132/en/sujato",
-      "an5.131/en/sujato"
+      "an5.131/en/sujato",
+      "pli-tv-kd1/en/brahmali",
+      "pli-tv-kd11/en/brahmali",
+      "pli-tv-bu-vb-pj2/en/brahmali",
+      "pli-tv-bu-vb-pj1/en/brahmali",
+      "pli-tv-bu-vb-pc58/en/brahmali",
+      "pli-tv-bi-vb-pj5/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -389,6 +407,53 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd1:6.44.1": {
+            "scid": "pli-tv-kd1:6.44.1",
+            "pli": "“Tasmātiha, bhikkhave, yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ rūpaṁ—",
+            "en": "“Therefore, whatever form there is—whether past, present, or future, internal or external, gross or subtle, inferior or superior, near or far—it should all be seen with right wisdom according to reality like this: ",
+            "matched": true
+          },
+          "pli-tv-kd1:6.45.10": {
+            "scid": "pli-tv-kd1:6.45.10",
+            "pli": "Yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ viññāṇaṁ—",
+            "en": "Whatever consciousness there is—whether past, present, or future, internal or external, gross or subtle, inferior or superior, near or far—it should all be seen with right wisdom according to reality like this: ",
+            "matched": true
+          },
+          "pli-tv-kd1:25.6.1": {
+            "scid": "pli-tv-kd1:25.6.1",
+            "pli": "Atha kho bhagavā te bhikkhū anekapariyāyena vigarahitvā dubbharatāya dupposatāya mahicchatāya asantuṭṭhitāya saṅgaṇikāya kosajjassa avaṇṇaṁ bhāsitvā anekapariyāyena subharatāya suposatāya appicchassa santuṭṭhassa sallekhassa dhutassa pāsādikassa apacayassa vīriyārambhassa vaṇṇaṁ bhāsitvā bhikkhūnaṁ tadanucchavikaṁ tadanulomikaṁ dhammiṁ kathaṁ katvā bhikkhū āmantesi—",
+            "en": "Then the Buddha spoke in many ways in dispraise of being difficult to support and maintain, in dispraise of great desires, discontent, socializing, and laziness; but he spoke in many ways in praise of being easy to support and maintain, of fewness of wishes, contentment, self-elimination, ascetic practices, serenity, reduction in things, and of being energetic. After giving a teaching on <span class=\"scv-matched\">what is right</span> and proper, he addressed the monks: ",
+            "matched": true
+          },
+          "pli-tv-kd1:31.4.6": {
+            "scid": "pli-tv-kd1:31.4.6",
+            "pli": "Jānantāpi tathāgatā pucchanti, jānantāpi na pucchanti, kālaṁ viditvā pucchanti, kālaṁ viditvā na pucchanti;",
+            "en": "When Buddhas know what is going on, sometimes they ask and sometimes not; they know the right time to ask and the right time not to ask. ",
+            "matched": true
+          }
+        },
+        "score": 4.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 3591,
+          "en": 3230
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.131_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an5/an5.131_translation-en-sujato.json"
         ],
@@ -455,6 +520,151 @@
         "langSegs": {
           "pli": 16,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc58_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc58_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pc58",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pc58:1.10": {
+            "scid": "pli-tv-bu-vb-pc58:1.10",
+            "pli": "Atha kho bhagavā etasmiṁ nidāne etasmiṁ pakaraṇe bhikkhusaṅghaṁ sannipātāpetvā bhikkhūnaṁ tadanucchavikaṁ tadanulomikaṁ dhammiṁ kathaṁ katvā bhikkhū āmantesi—",
+            "en": "He had the Sangha gathered, gave a teaching on <span class=\"scv-matched\">what is right</span> and proper, and then addressed the monks: ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on drinking alcohol",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bi-vb-pj5",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bi-vb-pj5:1.50": {
+            "scid": "pli-tv-bi-vb-pj5:1.50",
+            "pli": "Atha kho bhagavā sundarīnandaṁ bhikkhuniṁ anekapariyāyena vigarahitvā dubbharatāya dupposatāya mahicchatāya asantuṭṭhitāya saṅgaṇikāya kosajjassa avaṇṇaṁ bhāsitvā, anekapariyāyena subharatāya suposatāya appicchassa santuṭṭhassa sallekhassa dhutassa pāsādikassa apacayassa vīriyārambhassa vaṇṇaṁ bhāsitvā, bhikkhūnaṁ tadanucchavikaṁ tadanulomikaṁ dhammiṁ kathaṁ katvā bhikkhū āmantesi—",
+            "en": "And the Buddha spoke in many ways in dispraise of being difficult to support and maintain, in dispraise of great desires, discontent, socializing, and laziness; but he spoke in many ways in praise of being easy to support and maintain, of fewness of wishes, contentment, self-elimination, ascetic practices, serenity, reduction in things, and of being energetic. After giving a teaching on <span class=\"scv-matched\">what is right</span> and proper, he addressed the monks: ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe nuns’ rules and their analysis\nThe chapter on offenses entailing expulsion\n5. The training rule on above the knees",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 168,
+          "en": 181
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pj1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pj1:5.11.30": {
+            "scid": "pli-tv-bu-vb-pj1:5.11.30",
+            "pli": "bhikkhūnaṁ tadanucchavikaṁ tadanulomikaṁ dhammiṁ kathaṁ katvā bhikkhū āmantesi—",
+            "en": "After giving a teaching on <span class=\"scv-matched\">what is right</span> and proper, he addressed the monks: ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1450,
+          "en": 1422
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pj2",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pj2:2.26": {
+            "scid": "pli-tv-bu-vb-pj2:2.26",
+            "pli": "vīriyārambhassa vaṇṇaṁ bhāsitvā bhikkhūnaṁ tadanucchavikaṁ tadanulomikaṁ dhammiṁ kathaṁ katvā bhikkhū āmantesi … pe",
+            "en": "but he spoke in praise … of being energetic. Having given a teaching on <span class=\"scv-matched\">what is right</span> and proper, he addressed the monks … ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n2. The second training rule on expulsion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1237,
+          "en": 1234
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd11_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd11_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd11",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd11:1.3.1": {
+            "scid": "pli-tv-kd11:1.3.1",
+            "pli": "Atha kho bhagavā te bhikkhū anekapariyāyena vigarahitvā dubbharatāya dupposatāya mahicchatāya asantuṭṭhitāya saṅgaṇikāya kosajjassa avaṇṇaṁ bhāsitvā anekapariyāyena subharatāya suposatāya appicchassa santuṭṭhassa sallekhassa dhutassa pāsādikassa apacayassa vīriyārambhassa vaṇṇaṁ bhāsitvā bhikkhūnaṁ tadanucchavikaṁ tadanulomikaṁ dhammiṁ kathaṁ katvā bhikkhū āmantesi—",
+            "en": "The Buddha then spoke in many ways in dispraise of being difficult to support and maintain, in dispraise of great desires, discontent, socializing, and laziness; but he spoke in many ways in praise of being easy to support and maintain, of fewness of wishes, contentment, self-elimination, ascetic practices, serenity, reduction in things, and of being energetic. After giving a teaching on <span class=\"scv-matched\">what is right</span> and proper, he addressed the monks: ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on legal procedures",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1957,
+          "en": 1588
         }
       }
     ]

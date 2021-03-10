@@ -94,7 +94,11 @@
       "root/pli/ms/sutta/sn/sn35/sn35.153_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.153_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.232_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.232_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn35/sn35.232_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd14_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd14_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "sn35.153/en/sujato"

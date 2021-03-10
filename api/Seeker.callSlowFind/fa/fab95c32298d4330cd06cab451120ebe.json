@@ -31,7 +31,7 @@
     "pattern": "signless",
     "method": "phrase",
     "resultPattern": "\\bsignless",
-    "segsMatched": 65,
+    "segsMatched": 105,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json",
@@ -78,7 +78,11 @@
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.183-352_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.183-352_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.183-352_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "mn43/en/sujato",
@@ -103,9 +107,178 @@
       "thag21.1/en/sujato",
       "thag1.92/en/sujato",
       "dn16/en/sujato",
-      "an3.183-352/en/sujato"
+      "an3.183-352/en/sujato",
+      "pli-tv-bu-vb-pj4/en/brahmali",
+      "pli-tv-bu-vb-pc8/en/brahmali"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pj4",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pj4:4.1.6": {
+            "scid": "pli-tv-bu-vb-pj4:4.1.6",
+            "pli": "suññato vimokkho animitto vimokkho appaṇihito vimokkho.",
+            "en": "emptiness release, <span class=\"scv-matched\">signless</span> release, desireless release. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.1.8": {
+            "scid": "pli-tv-bu-vb-pj4:4.1.8",
+            "pli": "suññato samādhi animitto samādhi appaṇihito samādhi.",
+            "en": "emptiness stillness, <span class=\"scv-matched\">signless</span> stillness, desireless stillness. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.1.10": {
+            "scid": "pli-tv-bu-vb-pj4:4.1.10",
+            "pli": "suññatā samāpatti animittā samāpatti appaṇihitā samāpatti.",
+            "en": "emptiness attainment, <span class=\"scv-matched\">signless</span> attainment, desireless attainment. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.5.2": {
+            "scid": "pli-tv-bu-vb-pj4:4.5.2",
+            "pli": "animittaṁ vimokkhaṁ …",
+            "en": "… “I attained the <span class=\"scv-matched\">signless</span> release,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.5.10": {
+            "scid": "pli-tv-bu-vb-pj4:4.5.10",
+            "pli": "animittaṁ samādhiṁ …",
+            "en": "… “I attained the <span class=\"scv-matched\">signless</span> stillness,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.5.18": {
+            "scid": "pli-tv-bu-vb-pj4:4.5.18",
+            "pli": "animittaṁ samāpattiṁ …",
+            "en": "… “I attained the <span class=\"scv-matched\">signless</span> attainment,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.6.20": {
+            "scid": "pli-tv-bu-vb-pj4:4.6.20",
+            "pli": "paṭhamañca jhānaṁ animittañca vimokkhaṁ …",
+            "en": "… “I attained the first absorption and the <span class=\"scv-matched\">signless</span> release,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.6.28": {
+            "scid": "pli-tv-bu-vb-pj4:4.6.28",
+            "pli": "paṭhamañca jhānaṁ animittañca samādhiṁ …",
+            "en": "… “I attained the first absorption and the <span class=\"scv-matched\">signless</span> stillness,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.6.36": {
+            "scid": "pli-tv-bu-vb-pj4:4.6.36",
+            "pli": "paṭhamañca jhānaṁ animittañca samāpattiṁ …",
+            "en": "… “I attained the first absorption and the <span class=\"scv-matched\">signless</span> attainment,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.7.14": {
+            "scid": "pli-tv-bu-vb-pj4:4.7.14",
+            "pli": "animittañca vimokkhaṁ …",
+            "en": "… and the <span class=\"scv-matched\">signless</span> release,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.7.17": {
+            "scid": "pli-tv-bu-vb-pj4:4.7.17",
+            "pli": "animittañca samādhiṁ …",
+            "en": "… and the <span class=\"scv-matched\">signless</span> stillness,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.7.20": {
+            "scid": "pli-tv-bu-vb-pj4:4.7.20",
+            "pli": "animittañca samāpattiṁ …",
+            "en": "… and the <span class=\"scv-matched\">signless</span> attainment,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.8.38": {
+            "scid": "pli-tv-bu-vb-pj4:4.8.38",
+            "pli": "animittañca vimokkhaṁ …",
+            "en": "… and I attained the <span class=\"scv-matched\">signless</span> release,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.8.46": {
+            "scid": "pli-tv-bu-vb-pj4:4.8.46",
+            "pli": "animittañca samādhiṁ …",
+            "en": "… and I attained the <span class=\"scv-matched\">signless</span> stillness,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.8.54": {
+            "scid": "pli-tv-bu-vb-pj4:4.8.54",
+            "pli": "animittañca samāpattiṁ …",
+            "en": "… and I attained the <span class=\"scv-matched\">signless</span> attainment,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:4.9.3": {
+            "scid": "pli-tv-bu-vb-pj4:4.9.3",
+            "pli": "Tīhākārehi …pe… sattahākārehi paṭhamañca jhānaṁ dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …",
+            "en": "If he lies in full awareness, saying, “I attained the first absorption and the second absorption and the third absorption and the fourth absorption and the emptiness release and the <span class=\"scv-matched\">signless</span> release and the desireless release and the emptiness stillness and the <span class=\"scv-matched\">signless</span> stillness and the desireless stillness and the emptiness attainment and the <span class=\"scv-matched\">signless</span> attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the four foundations for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream-entry and the fruit of once-returning and the fruit of non-returning and perfection ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:5.1.8": {
+            "scid": "pli-tv-bu-vb-pj4:5.1.8",
+            "pli": "animittaṁ vimokkhaṁ …",
+            "en": "… the <span class=\"scv-matched\">signless</span> release,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:5.1.11": {
+            "scid": "pli-tv-bu-vb-pj4:5.1.11",
+            "pli": "animittaṁ samādhiṁ …",
+            "en": "… the <span class=\"scv-matched\">signless</span> stillness,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:5.1.14": {
+            "scid": "pli-tv-bu-vb-pj4:5.1.14",
+            "pli": "animittaṁ samāpattiṁ …",
+            "en": "… the <span class=\"scv-matched\">signless</span> attainment,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:5.4.3": {
+            "scid": "pli-tv-bu-vb-pj4:5.4.3",
+            "pli": "Tīhākārehi …pe… sattahākārehi paṭhamañca jhānaṁ dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …pe…",
+            "en": "If he lies in full awareness, meaning to say, “I attained the first absorption and the second absorption and the third absorption and the fourth absorption and the emptiness release and the <span class=\"scv-matched\">signless</span> release and the desireless release and the emptiness stillness and the <span class=\"scv-matched\">signless</span> stillness and the desireless stillness and the emptiness attainment and the <span class=\"scv-matched\">signless</span> attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the four foundations for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream-entry and the fruit of once-returning and the fruit of non-returning and perfection … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:5.4.8": {
+            "scid": "pli-tv-bu-vb-pj4:5.4.8",
+            "pli": "Tīhākārehi dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …pe…",
+            "en": "If he lies in full awareness, meaning to say, “I attained the second absorption and the third absorption and the fourth absorption and the emptiness release and the <span class=\"scv-matched\">signless</span> release and the desireless release and the emptiness stillness and the <span class=\"scv-matched\">signless</span> stillness and the desireless stillness and the emptiness attainment and the <span class=\"scv-matched\">signless</span> attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the four foundations for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream-entry and the fruit of once-returning and the fruit of non-returning and perfection … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:6.1.29": {
+            "scid": "pli-tv-bu-vb-pj4:6.1.29",
+            "pli": "animittaṁ vimokkhaṁ …",
+            "en": "… the <span class=\"scv-matched\">signless</span> release,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:6.1.32": {
+            "scid": "pli-tv-bu-vb-pj4:6.1.32",
+            "pli": "animittaṁ samādhiṁ …",
+            "en": "… the <span class=\"scv-matched\">signless</span> stillness,” … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj4:6.1.35": {
+            "scid": "pli-tv-bu-vb-pj4:6.1.35",
+            "pli": "animittaṁ samāpattiṁ …",
+            "en": "… the <span class=\"scv-matched\">signless</span> attainment,” … ",
+            "matched": true
+          }
+        },
+        "score": 24.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n4. The fourth training rule on expulsion",
+        "segsMatched": 24,
+        "langSegs": {
+          "pli": 1431,
+          "en": 1462
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
@@ -229,6 +402,125 @@
         "langSegs": {
           "pli": 183,
           "en": 182
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pc8",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pc8:2.1.12": {
+            "scid": "pli-tv-bu-vb-pc8:2.1.12",
+            "pli": "suññato vimokkho, animitto vimokkho, appaṇihito vimokkho.",
+            "en": "emptiness release, <span class=\"scv-matched\">signless</span> release, desireless release. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.1.14": {
+            "scid": "pli-tv-bu-vb-pc8:2.1.14",
+            "pli": "suññato samādhi, animitto samādhi, appaṇihito samādhi.",
+            "en": "emptiness stillness, <span class=\"scv-matched\">signless</span> stillness, desireless stillness. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.1.16": {
+            "scid": "pli-tv-bu-vb-pc8:2.1.16",
+            "pli": "suññatā samāpatti, animittā samāpatti, appaṇihitā samāpatti.",
+            "en": "emptiness attainment, <span class=\"scv-matched\">signless</span> attainment, desireless attainment. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.2.19": {
+            "scid": "pli-tv-bu-vb-pc8:2.2.19",
+            "pli": "animittaṁ vimokkhaṁ …",
+            "en": "the <span class=\"scv-matched\">signless</span> release … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.2.22": {
+            "scid": "pli-tv-bu-vb-pc8:2.2.22",
+            "pli": "animittaṁ samādhiṁ …",
+            "en": "the <span class=\"scv-matched\">signless</span> stillness … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.2.26": {
+            "scid": "pli-tv-bu-vb-pc8:2.2.26",
+            "pli": "animittaṁ samāpattiṁ …",
+            "en": "the <span class=\"scv-matched\">signless</span> attainment … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.3.8": {
+            "scid": "pli-tv-bu-vb-pc8:2.3.8",
+            "pli": "animittañca vimokkhaṁ …",
+            "en": "and the <span class=\"scv-matched\">signless</span> release … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.3.11": {
+            "scid": "pli-tv-bu-vb-pc8:2.3.11",
+            "pli": "animittañca samādhiṁ …",
+            "en": "and the <span class=\"scv-matched\">signless</span> stillness … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.3.15": {
+            "scid": "pli-tv-bu-vb-pc8:2.3.15",
+            "pli": "animittañca samāpattiṁ …",
+            "en": "the <span class=\"scv-matched\">signless</span> attainment … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.3.56": {
+            "scid": "pli-tv-bu-vb-pc8:2.3.56",
+            "pli": "anupasampannassa— “paṭhamañca jhānaṁ dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …pe…",
+            "en": "if a monk says to a person who is not fully ordained, “I attained the first absorption and the second absorption and the third absorption and the fourth absorption and the emptiness release and the <span class=\"scv-matched\">signless</span> release and the desireless release and the emptiness stillness and the <span class=\"scv-matched\">signless</span> stillness and the desireless stillness and the emptiness attainment and the <span class=\"scv-matched\">signless</span> attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the four foundations for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream entry and the fruit of once-returning and the fruit of non-returning and perfection … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.4.7": {
+            "scid": "pli-tv-bu-vb-pc8:2.4.7",
+            "pli": "animittaṁ vimokkhaṁ,",
+            "en": "the <span class=\"scv-matched\">signless</span> release … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.4.10": {
+            "scid": "pli-tv-bu-vb-pc8:2.4.10",
+            "pli": "animittaṁ samādhiṁ,",
+            "en": "the <span class=\"scv-matched\">signless</span> stillness … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.4.13": {
+            "scid": "pli-tv-bu-vb-pc8:2.4.13",
+            "pli": "animittaṁ samāpattiṁ,",
+            "en": "the <span class=\"scv-matched\">signless</span> attainment … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.5.9": {
+            "scid": "pli-tv-bu-vb-pc8:2.5.9",
+            "pli": "animittaṁ vimokkhaṁ",
+            "en": "the <span class=\"scv-matched\">signless</span> release … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.5.12": {
+            "scid": "pli-tv-bu-vb-pc8:2.5.12",
+            "pli": "animittaṁ samādhiṁ",
+            "en": "the <span class=\"scv-matched\">signless</span> stillness … ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc8:2.5.16": {
+            "scid": "pli-tv-bu-vb-pc8:2.5.16",
+            "pli": "animittaṁ samāpattiṁ",
+            "en": "the <span class=\"scv-matched\">signless</span> attainment … ",
+            "matched": true
+          }
+        },
+        "score": 16.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on lying",
+        "segsMatched": 16,
+        "langSegs": {
+          "pli": 304,
+          "en": 316
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "to criticize",
     "method": "phrase",
     "resultPattern": "\\bto criticize",
-    "segsMatched": 8,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json",
@@ -44,7 +44,11 @@
       "root/pli/ms/sutta/an/an4/an4.6_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.28_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.28_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.28_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc36_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc36_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "an8.51/en/sujato",
@@ -52,7 +56,9 @@
       "dn1/en/sujato",
       "an5.42/en/sujato",
       "an4.6/en/sujato",
-      "an4.28/en/sujato"
+      "an4.28/en/sujato",
+      "pli-tv-bu-vb-pc36/en/brahmali",
+      "pli-tv-kd6/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -92,6 +98,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc36_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc36_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pc36",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pc36:1.28.1": {
+            "scid": "pli-tv-bu-vb-pc36:1.28.1",
+            "pli": "“Yo pana bhikkhu bhikkhuṁ bhuttāviṁ pavāritaṁ anatirittena khādanīyena vā bhojanīyena vā abhihaṭṭhuṁ pavāreyya—‘handa, bhikkhu, khāda vā bhuñja vā’ti, jānaṁ āsādanāpekkho, bhuttasmiṁ, pācittiyan”ti.",
+            "en": "‘If a monk invites a monk, whom he knows has finished his meal and refused an invitation to eat more, to eat staple or non-staple food that is not left over, saying, “Here, monk, eat,” aiming <span class=\"scv-matched\">to criticize</span> him, he commits an offense entailing confession.’” ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pc36:2.1.29": {
+            "scid": "pli-tv-bu-vb-pc36:2.1.29",
+            "pli": "Āsādanāpekkhoti",
+            "en": "Aiming <span class=\"scv-matched\">to criticize</span> him: ",
+            "matched": true
+          }
+        },
+        "score": 2.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on eating",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 84,
+          "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
         ],
@@ -123,6 +164,41 @@
         "langSegs": {
           "pli": 662,
           "en": 661
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd6",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd6:25.4.3": {
+            "scid": "pli-tv-kd6:25.4.3",
+            "pli": "kupito anattamano āsādanāpekkho bhikkhūnaṁ patte pūrento agamāsi—“bhuñjatha vā haratha vā”ti.",
+            "en": "Angry and aiming <span class=\"scv-matched\">to criticize</span>, he walked around filling the monks’ almsbowls, saying, “Eat it or take it away.” ",
+            "matched": true
+          },
+          "pli-tv-kd6:31.4.6": {
+            "scid": "pli-tv-kd6:31.4.6",
+            "pli": "Kacci te, bhante, bhagavato vuttavādino, na ca bhagavantaṁ abhūtena abbhācikkhanti, dhammassa cānudhammaṁ byākaronti, na ca koci sahadhammiko vādānuvādo gārayhaṁ ṭhānaṁ āgacchati?",
+            "en": "do they say what you have said without falsely misrepresenting you? Do they explain according to the Teaching so that they can’t be legitimately criticized? ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1643,
+          "en": 1375
         }
       },
       {

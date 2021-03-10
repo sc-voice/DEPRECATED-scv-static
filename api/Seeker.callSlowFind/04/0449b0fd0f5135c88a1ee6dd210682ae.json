@@ -31,7 +31,7 @@
     "pattern": "hard to see",
     "method": "phrase",
     "resultPattern": "\\bhard to see",
-    "segsMatched": 39,
+    "segsMatched": 46,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
@@ -62,7 +62,11 @@
       "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.4_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag1.4_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag1.4_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "dn1/en/sujato",
@@ -79,7 +83,9 @@
       "thig3.5/en/sujato",
       "thag2.46/en/sujato",
       "thag19.1/en/sujato",
-      "thag1.4/en/sujato"
+      "thag1.4/en/sujato",
+      "pli-tv-kd1/en/brahmali",
+      "pli-tv-kd16/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -198,6 +204,65 @@
         "langSegs": {
           "pli": 662,
           "en": 661
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd1:5.2.2": {
+            "scid": "pli-tv-kd1:5.2.2",
+            "pli": "“adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo.",
+            "en": "“I have discovered this profound truth, so <span class=\"scv-matched\">hard to see</span>, so hard to comprehend. It’s peaceful and sublime, subtle, beyond the intellect, and knowable only to the wise. ",
+            "matched": true
+          },
+          "pli-tv-kd1:5.2.4": {
+            "scid": "pli-tv-kd1:5.2.4",
+            "pli": "Ālayarāmāya kho pana pajāya ālayaratāya ālayasammuditāya duddasaṁ idaṁ ṭhānaṁ yadidaṁ idappaccayatāpaṭiccasamuppādo;",
+            "en": "and because of that it’s hard for them to see causal relationships, dependent origination. ",
+            "matched": true
+          },
+          "pli-tv-kd1:5.2.5": {
+            "scid": "pli-tv-kd1:5.2.5",
+            "pli": "idampi kho ṭhānaṁ sududdasaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānaṁ.",
+            "en": "This too is very hard for them to see: the stilling of all intentional activities, the giving up of all ownership, the stopping of craving, fading away, ending, extinguishment. ",
+            "matched": true
+          },
+          "pli-tv-kd1:5.3.9": {
+            "scid": "pli-tv-kd1:5.3.9",
+            "pli": "tamokhandhena āvuṭā”ti.",
+            "en": "What’s subtle and refined, profound and <span class=\"scv-matched\">hard to see</span>.” ",
+            "matched": true
+          },
+          "pli-tv-kd1:5.8.5": {
+            "scid": "pli-tv-kd1:5.8.5",
+            "pli": "Ālayarāmāya kho pana pajāya ālayaratāya ālayasammuditāya duddasaṁ idaṁ ṭhānaṁ yadidaṁ idappaccayatāpaṭiccasamuppādo;",
+            "en": "and because of that it’s hard for them to see causal relationships, dependent origination. ",
+            "matched": true
+          },
+          "pli-tv-kd1:5.8.6": {
+            "scid": "pli-tv-kd1:5.8.6",
+            "pli": "idampi kho ṭhānaṁ sududdasaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānaṁ.",
+            "en": "This too is very hard for them to see: the stilling of all intentional activities, the giving up of all ownership, the stopping of craving, fading away, ending, extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 6.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 3591,
+          "en": 3230
         }
       },
       {
@@ -659,6 +724,35 @@
         "langSegs": {
           "pli": 232,
           "en": 224
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd16",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd16:2.2.5": {
+            "scid": "pli-tv-kd16:2.2.5",
+            "pli": "Tena kho pana samayena vihārā avātapānakā honti acakkhussā duggandhā.",
+            "en": "At that time the dwellings did not have windows. It was <span class=\"scv-matched\">hard to see</span> and the dwellings were smelly. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on dwellings\nThe allowance for dwellings",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1556,
+          "en": 1214
         }
       }
     ]

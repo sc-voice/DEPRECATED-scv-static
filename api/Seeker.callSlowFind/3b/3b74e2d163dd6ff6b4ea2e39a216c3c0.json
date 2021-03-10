@@ -32,7 +32,7 @@
     "pattern": "wahrnehmung des hässlichen",
     "method": "phrase",
     "resultPattern": "\\bwahrnehmung des hässlichen",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.61_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "dn34/de/sabbamitta",
       "an10.60/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "an9.1/de/sabbamitta",
       "an5.61/de/sabbamitta",
       "an5.303/de/sabbamitta",
       "an1.394-574/de/sabbamitta"
@@ -216,6 +220,38 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.1",
+        "lang": "de",
+        "segMap": {
+          "an9.1:14.2": {
+            "scid": "an9.1:14.2",
+            "pli": "asubhā bhāvetabbā rāgassa pahānāya, mettā bhāvetabbā byāpādassa pahānāya, ānāpānassati bhāvetabbā vitakkupacchedāya, aniccasaññā bhāvetabbā asmimānasamugghātāya. ",
+            "de": "Sie sollte die <span class=\"scv-matched\">Wahrnehmung des Hässlichen</span> entwickeln, um Gier aufzugeben, Liebe entwickeln, um Hass aufzugeben, Achtsamkeit auf den Atem entwickeln, um das Denken zu unterbrechen und die Wahrnehmung der Unbeständigkeit entwickeln, um die Einbildung ‚ich bin‘ zu entwurzeln. ",
+            "en": "They should develop the perception of ugliness to give up greed, love to give up hate, mindfulness of breathing to cut off thinking, and perception of impermanence to uproot the conceit ‘I am’. ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n1. Erwachen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
         }
       },
       {

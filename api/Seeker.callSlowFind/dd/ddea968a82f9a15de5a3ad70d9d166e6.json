@@ -31,7 +31,7 @@
     "pattern": "snake scorpion centipede",
     "method": "keywords",
     "resultPattern": "\\bsnake|\\bscorpion|\\bcentipede",
-    "segsMatched": 8,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.216_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.216_translation-en-sujato.json",
@@ -42,14 +42,28 @@
       "root/pli/ms/sutta/an/an4/an4.67_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.67_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.77_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.77_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.77_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss6_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss6_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss7_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss7_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "an10.216/en/sujato",
       "an6.20/en/sujato",
       "an8.74/en/sujato",
       "an4.67/en/sujato",
-      "an5.77/en/sujato"
+      "an5.77/en/sujato",
+      "pli-tv-bu-vb-ss6/en/brahmali",
+      "pli-tv-bu-vb-ss7/en/brahmali",
+      "pli-tv-kd15/en/brahmali",
+      "pli-tv-kd16/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -159,6 +173,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss6_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss6_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-ss6",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-ss6:2.3.2": {
+            "scid": "pli-tv-bu-vb-ss6:2.3.2",
+            "pli": "kipillikānaṁ vā āsayo hoti, upacikānaṁ vā āsayo hoti, undūrānaṁ vā āsayo hoti, ahīnaṁ vā āsayo hoti, vicchikānaṁ vā āsayo hoti, satapadīnaṁ vā āsayo hoti, hatthīnaṁ vā āsayo hoti, assānaṁ vā āsayo hoti, sīhānaṁ vā āsayo hoti, byagghānaṁ vā āsayo hoti, dīpīnaṁ vā āsayo hoti, acchānaṁ vā āsayo hoti, taracchānaṁ vā āsayo hoti, yesaṁ kesañci tiracchānagatānaṁ pāṇānaṁ āsayo hoti,",
+            "en": "it is the abode of ants, termites, rats, <span class=\"scv-matched\">snake</span>s, <span class=\"scv-matched\">scorpion</span>s, <span class=\"scv-matched\">centipede</span>s, elephants, horses, lions, tigers, leopards, bears, or hyenas, or any other animals; ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-ss6:2.3.8": {
+            "scid": "pli-tv-bu-vb-ss6:2.3.8",
+            "pli": "na kipillikānaṁ vā āsayo hoti, na upacikānaṁ vā āsayo hoti, na undūrānaṁ vā āsayo hoti, na ahīnaṁ vā āsayo hoti, na vicchikānaṁ vā āsayo hoti, na satapadīnaṁ vā āsayo hoti …pe… na saṁsaraṇanissitaṁ vā hoti. Etaṁ anārambhaṁ nāma.",
+            "en": "it is not the abode of ants, termites, rats, <span class=\"scv-matched\">snake</span>s, <span class=\"scv-matched\">scorpion</span>s, <span class=\"scv-matched\">centipede</span>s … it is not bordering on … a cul-de-sac—this is called “where no harm will be done”. ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing suspension\n6. The training rule on building huts",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 525,
+          "en": 521
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.67_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an4/an4.67_translation-en-sujato.json"
         ],
@@ -213,6 +262,93 @@
         "langSegs": {
           "pli": 41,
           "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss7_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss7_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-ss7",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-ss7:2.63": {
+            "scid": "pli-tv-bu-vb-ss7:2.63",
+            "pli": "kipillikānaṁ vā āsayo hoti, upacikānaṁ vā āsayo hoti, undūrānaṁ vā …pe… ahīnaṁ vā … vicchikānaṁ vā … satapadīnaṁ vā … hatthīnaṁ vā … assānaṁ vā … sīhānaṁ vā … byagghānaṁ vā … dīpīnaṁ vā … acchānaṁ vā … taracchānaṁ vā āsayo hoti, yesaṁ kesañci tiracchānagatānaṁ pāṇānaṁ āsayo hoti,",
+            "en": "it is the abode of ants, termites, rats, <span class=\"scv-matched\">snake</span>s, <span class=\"scv-matched\">scorpion</span>s, <span class=\"scv-matched\">centipede</span>s, elephants, horses, lions, tigers, leopards, bears, or hyenas, or any other animals; ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing suspension\n7. The training rule on building dwellings",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 209,
+          "en": 222
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd15",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd15:6.1.31": {
+            "scid": "pli-tv-kd15:6.1.31",
+            "pli": "Ahi vicchikā satapadī,",
+            "en": "<span class=\"scv-matched\">Snake</span>s, <span class=\"scv-matched\">scorpion</span>s, <span class=\"scv-matched\">centipede</span>s, ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter with short topics",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1854,
+          "en": 1528
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd16",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd16:2.1.4": {
+            "scid": "pli-tv-kd16:2.1.4",
+            "pli": "ahīpi vicchikāpi satapadiyopi pavisanti.",
+            "en": "<span class=\"scv-matched\">snake</span>s, <span class=\"scv-matched\">scorpion</span>s, and <span class=\"scv-matched\">centipede</span>s came inside. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on dwellings\nThe allowance for dwellings",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1556,
+          "en": 1214
         }
       }
     ]

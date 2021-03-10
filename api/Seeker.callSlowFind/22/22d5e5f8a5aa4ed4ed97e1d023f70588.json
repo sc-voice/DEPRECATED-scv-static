@@ -31,7 +31,7 @@
     "pattern": "characteristics",
     "method": "phrase",
     "resultPattern": "\\bcharacteristics",
-    "segsMatched": 34,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
@@ -54,7 +54,17 @@
       "root/pli/ms/sutta/an/an3/an3.2_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.22-29_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an11/an11.22-29_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an11/an11.22-29_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd19_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd19_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd4_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd4_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd2_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd2_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "mn33/en/sujato",
@@ -67,7 +77,12 @@
       "thag1.106/en/sujato",
       "dn27/en/sujato",
       "an3.2/en/sujato",
-      "an11.22-29/en/sujato"
+      "an11.22-29/en/sujato",
+      "pli-tv-kd19/en/brahmali",
+      "pli-tv-bu-vb-pj1/en/brahmali",
+      "pli-tv-kd1/en/brahmali",
+      "pli-tv-kd4/en/brahmali",
+      "pli-tv-kd2/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -214,6 +229,71 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd19_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd19_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd19",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd19:3.4.2": {
+            "scid": "pli-tv-kd19:3.4.2",
+            "pli": "Idha, bhikkhave, yehi ākārehi yehi liṅgehi yehi nimittehi pārājikassa dhammassa ajjhāpatti hoti, tehi ākārehi tehi liṅgehi tehi nimittehi bhikkhu bhikkhuṁ passati pārājikaṁ dhammaṁ ajjhāpajjantaṁ.",
+            "en": "A monk sees in a monk the <span class=\"scv-matched\">characteristics</span> and signs of someone committing an offense entailing expulsion. ",
+            "matched": true
+          },
+          "pli-tv-kd19:3.5.2": {
+            "scid": "pli-tv-kd19:3.5.2",
+            "pli": "Idha pana, bhikkhave, bhikkhu yehi ākārehi yehi liṅgehi yehi nimittehi sikkhā paccakkhātā hoti, tehi ākārehi tehi liṅgehi tehi nimittehi bhikkhu bhikkhuṁ passati sikkhaṁ paccakkhantaṁ.",
+            "en": "A monk sees in a monk the <span class=\"scv-matched\">characteristics</span> and signs of someone renouncing the training. ",
+            "matched": true
+          },
+          "pli-tv-kd19:3.6.2": {
+            "scid": "pli-tv-kd19:3.6.2",
+            "pli": "Idha pana, bhikkhave, bhikkhu yehi ākārehi yehi liṅgehi yehi nimittehi dhammikāya sāmaggiyānupagamanaṁ hoti, tehi ākārehi tehi liṅgehi tehi nimittehi bhikkhu bhikkhuṁ passati dhammikaṁ sāmaggiṁ na upentaṁ.",
+            "en": "A monk sees in a monk the <span class=\"scv-matched\">characteristics</span> and signs of someone who doesn’t go to a legitimate legal procedure of a complete assembly. ",
+            "matched": true
+          },
+          "pli-tv-kd19:3.7.2": {
+            "scid": "pli-tv-kd19:3.7.2",
+            "pli": "Idha, bhikkhave, bhikkhu yehi ākārehi yehi liṅgehi yehi nimittehi dhammikāya sāmaggiyā paccādānaṁ hoti, tehi ākārehi tehi liṅgehi tehi nimittehi bhikkhu bhikkhuṁ passati dhammikaṁ sāmaggiṁ paccādiyantaṁ.",
+            "en": "A monk sees in a monk the <span class=\"scv-matched\">characteristics</span> and signs of someone who reopens a legitimate legal procedure of a complete assembly. ",
+            "matched": true
+          },
+          "pli-tv-kd19:3.8.2": {
+            "scid": "pli-tv-kd19:3.8.2",
+            "pli": "Idha pana, bhikkhave, bhikkhu yehi ākārehi yehi liṅgehi yehi nimittehi sīlavipattiyā diṭṭhasutaparisaṅkito hoti, tehi ākārehi tehi liṅgehi tehi nimittehi bhikkhu bhikkhuṁ passati sīlavipattiyā diṭṭhasutaparisaṅkitaṁ.",
+            "en": "A monk sees in a monk the <span class=\"scv-matched\">characteristics</span> and signs of someone who has been seen, heard, or suspected of failure in morality. ",
+            "matched": true
+          },
+          "pli-tv-kd19:3.9.2": {
+            "scid": "pli-tv-kd19:3.9.2",
+            "pli": "Idha pana, bhikkhave, bhikkhu yehi ākārehi yehi liṅgehi yehi nimittehi ācāravipattiyā diṭṭhasutaparisaṅkito hoti tehi ākārehi tehi liṅgehi tehi nimittehi bhikkhu bhikkhuṁ passati ācāravipattiyā diṭṭhasutaparisaṅkitaṁ.",
+            "en": "A monk sees in a monk the <span class=\"scv-matched\">characteristics</span> and signs of someone who has been seen, heard, or suspected of failure in conduct. ",
+            "matched": true
+          },
+          "pli-tv-kd19:3.9.13": {
+            "scid": "pli-tv-kd19:3.9.13",
+            "pli": "Idha pana, bhikkhave, bhikkhu yehi ākārehi yehi liṅgehi yehi nimittehi diṭṭhivipattiyā diṭṭhasutaparisaṅkito hoti, tehi ākārehi tehi liṅgehi tehi nimittehi bhikkhu bhikkhuṁ passati diṭṭhivipattiyā diṭṭhasutaparisaṅkitaṁ.",
+            "en": "A monk sees in a monk the <span class=\"scv-matched\">characteristics</span> and signs of someone who has been seen, heard, or suspected of failure in view. ",
+            "matched": true
+          }
+        },
+        "score": 7.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on the cancellation of the Monastic Code\nThe request for the recitation of the Monastic Code",
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 550,
+          "en": 394
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.47_translation-en-sujato.json"
         ],
@@ -320,6 +400,53 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pj1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pj1:1.6.8": {
+            "scid": "pli-tv-bu-vb-pj1:1.6.8",
+            "pli": "Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarāmi.",
+            "en": "In this way I recollected many past lives with their <span class=\"scv-matched\">characteristics</span> and particulars. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj1:9.7.35": {
+            "scid": "pli-tv-bu-vb-pj1:9.7.35",
+            "pli": "byañjanehipare duve.",
+            "en": "Two others with <span class=\"scv-matched\">characteristics</span>. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj1:10.6.1": {
+            "scid": "pli-tv-bu-vb-pj1:10.6.1",
+            "pli": "Tena kho pana samayena aññatarassa bhikkhuno itthiliṅgaṁ pātubhūtaṁ hoti.",
+            "en": "At one time the <span class=\"scv-matched\">characteristics</span> of a woman appeared on a monk. ",
+            "matched": true
+          },
+          "pli-tv-bu-vb-pj1:10.6.6": {
+            "scid": "pli-tv-bu-vb-pj1:10.6.6",
+            "pli": "Tena kho pana samayena aññatarissā bhikkhuniyā purisaliṅgaṁ pātubhūtaṁ hoti.",
+            "en": "At one time the <span class=\"scv-matched\">characteristics</span> of a man appeared on a nun. ",
+            "matched": true
+          }
+        },
+        "score": 4.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 1450,
+          "en": 1422
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json"
         ],
@@ -351,6 +478,41 @@
         "langSegs": {
           "pli": 303,
           "en": 302
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd1:6.27.1": {
+            "scid": "pli-tv-kd1:6.27.1",
+            "pli": "Yāvakīvañca me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ na suvisuddhaṁ ahosi, neva tāvāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddhoti paccaññāsiṁ.",
+            "en": "So long as I had not fully purified my knowledge and vision according to reality of these four noble truths with their three stages and twelve <span class=\"scv-matched\">characteristics</span>, I didn’t claim the supreme full awakening in this world with its gods, its lords of death, and its supreme beings, in this population with its ascetics and brahmins, its gods and people. ",
+            "matched": true
+          },
+          "pli-tv-kd1:6.28.1": {
+            "scid": "pli-tv-kd1:6.28.1",
+            "pli": "Yato ca kho me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ suvisuddhaṁ ahosi, athāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddhoti paccaññāsiṁ.",
+            "en": "But when I had fully purified my knowledge and vision according to reality of these four noble truths with their three stages and twelve <span class=\"scv-matched\">characteristics</span>, then I did claim the supreme full awakening in this world with its gods, its lords of death, and its supreme beings, in this population with its ascetics and brahmins, its gods and people. ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 3591,
+          "en": 3230
         }
       },
       {
@@ -525,6 +687,64 @@
         "langSegs": {
           "pli": 323,
           "en": 322
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd2_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd2_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd2",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd2:34.5.0": {
+            "scid": "pli-tv-kd2:34.5.0",
+            "pli": "34. Liṅgādidassana",
+            "en": "The seeing of <span class=\"scv-matched\">characteristics</span>, etc. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on the observance day\nThe instruction to gather together",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1605,
+          "en": 1430
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd4_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd4_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd4",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd4:13.1.20.0": {
+            "scid": "pli-tv-kd4:13.1.20.0",
+            "pli": "16. Liṅgādidassana",
+            "en": "The seeing of <span class=\"scv-matched\">characteristics</span>, etc. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on the invitation procedure\nAbiding in discomfort",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1269,
+          "en": 1178
         }
       }
     ]

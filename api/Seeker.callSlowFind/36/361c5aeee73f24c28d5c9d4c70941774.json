@@ -32,11 +32,14 @@
     "pattern": "eindeutig",
     "method": "phrase",
     "resultPattern": "\\beindeutig",
-    "segsMatched": 12,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.12_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "an3.21/de/sabbamitta",
+      "sn47.12/de/sabbamitta",
       "dn28/de/sabbamitta",
       "an4.42/de/sabbamitta",
       "an3.67/de/sabbamitta",
@@ -156,6 +160,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.12",
+        "lang": "de",
+        "segMap": {
+          "sn47.12:1.5": {
+            "scid": "sn47.12:1.5",
+            "pli": "“Uḷārā kho tyāyaṁ, sāriputta, āsabhī vācā bhāsitā, ekaṁso gahito, sīhanādo nadito: ",
+            "de": "„Das ist eine gewaltige und dramatische Aussage, Sāriputta. Du hast ein <span class=\"scv-matched\">eindeutig</span>es und bestimmtes Löwengebrüll gebrüllt: ",
+            "en": "“That’s a grand and dramatic statement, Sāriputta. You’ve roared a definitive, categorical lion’s roar, saying: ",
+            "matched": true
+          },
+          "sn47.12:5.2": {
+            "scid": "sn47.12:5.2",
+            "pli": "Atha kiñcarahi tyāyaṁ, sāriputta, uḷārā āsabhī vācā bhāsitā, ekaṁso gahito, sīhanādo nadito: ",
+            "de": "was genau tust du, dass du so eine gewaltige und dramatische Aussage machst, so ein <span class=\"scv-matched\">eindeutig</span>es und bestimmtes Löwengebrüll brüllst?“ ",
+            "en": "what exactly are you doing, making such a grand and dramatic statement, roaring such a definitive, categorical lion’s roar?” ",
+            "matched": true
+          }
+        },
+        "score": 2.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n2. Bei Nālandā\n12. Bei Nālandā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 38,
+          "de": 33,
+          "en": 37
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.67_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an3/an3.67_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an3/an3.67_translation-en-sujato.json"
@@ -215,7 +258,7 @@
           "dn28:1.18": {
             "scid": "dn28:1.18",
             "pli": "Atha kiṁ carahi te ayaṁ, sāriputta, uḷārā āsabhī vācā bhāsitā, ekaṁso gahito, sīhanādo nadito: ",
-            "de": "was genau tust du, dass du so eine gewaltige und dramatische Aussage machst, so ein ein <span class=\"scv-matched\">eindeutig</span>es und bestimmtes Löwengebrüll brüllst?“ ",
+            "de": "was genau tust du, dass du so eine gewaltige und dramatische Aussage machst, so ein <span class=\"scv-matched\">eindeutig</span>es und bestimmtes Löwengebrüll brüllst?“ ",
             "en": "what exactly are you doing, making such a grand and dramatic statement, roaring such a definitive, categorical lion’s roar?” ",
             "matched": true
           }

@@ -61,12 +61,18 @@
       "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.55_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn46/sn46.55_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn46/sn46.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.12_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn10/de/sabbamitta",

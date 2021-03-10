@@ -31,7 +31,7 @@
     "pattern": "these four noble truths",
     "method": "phrase",
     "resultPattern": "\\bthese four noble truths",
-    "segsMatched": 15,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.29_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.29_translation-en-sujato.json",
@@ -50,7 +50,11 @@
       "root/pli/ms/sutta/sn/sn56/sn56.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag7.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "sn56.29/en/sujato",
@@ -61,7 +65,9 @@
       "sn56.26/en/sujato",
       "sn56.14/en/sujato",
       "sn56.13/en/sujato",
-      "thag7.5/en/sujato"
+      "thag7.5/en/sujato",
+      "pli-tv-kd1/en/brahmali",
+      "pli-tv-kd6/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -218,6 +224,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd1:6.27.1": {
+            "scid": "pli-tv-kd1:6.27.1",
+            "pli": "Yāvakīvañca me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ na suvisuddhaṁ ahosi, neva tāvāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddhoti paccaññāsiṁ.",
+            "en": "So long as I had not fully purified my knowledge and vision according to reality of <span class=\"scv-matched\">these four noble truths</span> with their three stages and twelve characteristics, I didn’t claim the supreme full awakening in this world with its gods, its lords of death, and its supreme beings, in this population with its ascetics and brahmins, its gods and people. ",
+            "matched": true
+          },
+          "pli-tv-kd1:6.28.1": {
+            "scid": "pli-tv-kd1:6.28.1",
+            "pli": "Yato ca kho me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ suvisuddhaṁ ahosi, athāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddhoti paccaññāsiṁ.",
+            "en": "But when I had fully purified my knowledge and vision according to reality of <span class=\"scv-matched\">these four noble truths</span> with their three stages and twelve characteristics, then I did claim the supreme full awakening in this world with its gods, its lords of death, and its supreme beings, in this population with its ascetics and brahmins, its gods and people. ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 3591,
+          "en": 3230
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.26_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn56/sn56.26_translation-en-sujato.json"
         ],
@@ -359,6 +400,35 @@
         "langSegs": {
           "pli": 44,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd6",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd6:29.1.4": {
+            "scid": "pli-tv-kd6:29.1.4",
+            "pli": "“catunnaṁ, bhikkhave, ariyasaccānaṁ ananubodhā appaṭivedhā evamidaṁ dīghamaddhānaṁ sandhāvitaṁ saṁsaritaṁ mamañceva tumhākañca.",
+            "en": "“It is because of not awakening to and not penetrating <span class=\"scv-matched\">these four noble truths</span> that you and I have wandered on and transmigrated for such a long time: ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1643,
+          "en": 1375
         }
       }
     ]

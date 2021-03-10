@@ -31,7 +31,7 @@
     "pattern": "lord of the",
     "method": "phrase",
     "resultPattern": "\\blord of the",
-    "segsMatched": 42,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
@@ -56,7 +56,11 @@
       "root/pli/ms/sutta/an/an5/an5.40_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.40_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.48_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.48_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.48_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd10_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd10_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "sn35.245/en/sujato",
@@ -70,7 +74,9 @@
       "dn19/en/sujato",
       "an7.62/en/sujato",
       "an5.40/en/sujato",
-      "an3.48/en/sujato"
+      "an3.48/en/sujato",
+      "pli-tv-kd10/en/brahmali",
+      "pli-tv-bu-vb-pj2/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -429,6 +435,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd10_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd10_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd10",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd10:2.2.12": {
+            "scid": "pli-tv-kd10:2.2.12",
+            "pli": "appossukko, bhante, bhagavā diṭṭhadhammasukhavihāramanuyutto viharatu.",
+            "en": "You are the <span class=\"scv-matched\">Lord of the</span> Teaching and there is no need for you to be concerned. Just enjoy the happiness of the present life. ",
+            "matched": true
+          },
+          "pli-tv-kd10:2.20.9": {
+            "scid": "pli-tv-kd10:2.20.9",
+            "pli": "“āgametu, bhante, bhagavā dhammassāmī;",
+            "en": "“Wait, Sir. You are the <span class=\"scv-matched\">Lord of the</span> Teaching ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on those from Kosambī\nThe account of the dispute at Kosambī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 769,
+          "en": 611
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.16_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn3/sn3.16_translation-en-sujato.json"
         ],
@@ -599,6 +640,35 @@
         "langSegs": {
           "pli": 323,
           "en": 322
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pj2",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pj2:1.2.17": {
+            "scid": "pli-tv-bu-vb-pj2:1.2.17",
+            "pli": "“Bhindathāvuso, sace dhammassāmī bhedāpetī”ti.",
+            "en": "“Demolish it, if the <span class=\"scv-matched\">Lord of the</span> Truth has said so.” ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n2. The second training rule on expulsion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1237,
+          "en": 1234
         }
       }
     ]

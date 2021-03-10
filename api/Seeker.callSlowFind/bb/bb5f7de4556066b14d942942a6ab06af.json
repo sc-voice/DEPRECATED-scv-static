@@ -31,7 +31,7 @@
     "pattern": "diminished",
     "method": "phrase",
     "resultPattern": "\\bdiminished",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json",
@@ -48,7 +48,11 @@
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd19_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd19_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "sn54.9/en/sujato",
@@ -58,7 +62,9 @@
       "sn12.27/en/sujato",
       "mn9/en/sujato",
       "mn141/en/sujato",
-      "dn22/en/sujato"
+      "dn22/en/sujato",
+      "pli-tv-kd19/en/brahmali",
+      "pli-tv-bu-vb-pj3/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -291,6 +297,64 @@
         "langSegs": {
           "pli": 454,
           "en": 453
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd19_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd19_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd19",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd19:1.3.15": {
+            "scid": "pli-tv-kd19:1.3.15",
+            "pli": "Puna caparaṁ, bhikkhave, yā ca loke savantiyo mahāsamuddaṁ appenti, yā ca antalikkhā dhārā papatanti, na tena mahāsamuddassa ūnattaṁ vā pūrattaṁ vā paññāyati.",
+            "en": "Whatever rivers in the world flow into the ocean and whatever rain falls into it, the ocean is not <span class=\"scv-matched\">diminished</span> or filled up because of that. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on the cancellation of the Monastic Code\nThe request for the recitation of the Monastic Code",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 550,
+          "en": 394
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pj3",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pj3:1.2.2": {
+            "scid": "pli-tv-bu-vb-pj3:1.2.2",
+            "pli": "“kiṁ nu kho, ānanda, tanubhūto viya bhikkhusaṅgho”ti?",
+            "en": "“Ānanda, why is the Sangha of monks so <span class=\"scv-matched\">diminished</span>?” ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n3. The third training rule on expulsion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 868,
+          "en": 863
         }
       }
     ]

@@ -31,7 +31,7 @@
     "pattern": "in public and in private",
     "method": "phrase",
     "resultPattern": "\\bin public and in private",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -56,7 +56,9 @@
       "root/pli/ms/sutta/mn/mn31_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn31_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd10_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd10_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "dn33/en/sujato",
@@ -70,7 +72,8 @@
       "mn33/en/sujato",
       "an11.17/en/sujato",
       "mn31/en/sujato",
-      "mn128/en/sujato"
+      "mn128/en/sujato",
+      "pli-tv-kd10/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -551,6 +554,35 @@
         "langSegs": {
           "pli": 281,
           "en": 280
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd10_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd10_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd10",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd10:4.4.5": {
+            "scid": "pli-tv-kd10:4.4.5",
+            "pli": "mettaṁ manokammaṁ paccupaṭṭhitaṁ āvi ceva raho ca.",
+            "en": "and mind, both <span class=\"scv-matched\">in public and in private</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on those from Kosambī\nThe account of the dispute at Kosambī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 769,
+          "en": 611
         }
       }
     ]

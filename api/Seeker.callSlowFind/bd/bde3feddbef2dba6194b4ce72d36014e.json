@@ -31,7 +31,7 @@
     "pattern": "mind-made body",
     "method": "phrase",
     "resultPattern": "\\bmind-made body",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -46,7 +46,9 @@
       "root/pli/ms/sutta/an/an5/an5.166_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.166_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.198-208_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an1/an1.198-208_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an1/an1.198-208_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "dn2/en/sujato",
@@ -55,7 +57,8 @@
       "thag16.9/en/sujato",
       "an8.30/en/sujato",
       "an5.166/en/sujato",
-      "an1.198-208/en/sujato"
+      "an1.198-208/en/sujato",
+      "pli-tv-kd17/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -301,6 +304,35 @@
         "langSegs": {
           "pli": 119,
           "en": 118
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd17",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd17:2.2.1": {
+            "scid": "pli-tv-kd17:2.2.1",
+            "pli": "Tena kho pana samayena kakudho nāma koḷiyaputto, āyasmato mahāmoggallānassa upaṭṭhāko, adhunā kālaṅkato aññataraṁ manomayaṁ kāyaṁ upapanno.",
+            "en": "At that time Kakudha the Koḷiyan, the attendant to Venerable Mahāmoggallāna, had recently died and been reborn in a <span class=\"scv-matched\">mind-made body</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on schism in the Sangha\nThe account of the going forth of the six Sakyans",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1104,
+          "en": 951
         }
       }
     ]

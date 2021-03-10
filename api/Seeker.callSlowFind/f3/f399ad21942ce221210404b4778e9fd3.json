@@ -31,13 +31,16 @@
     "pattern": "the eye is burning",
     "method": "phrase",
     "resultPattern": "\\bthe eye is burning",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.28_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.28_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn35/sn35.28_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
     ],
     "suttaRefs": [
-      "sn35.28/en/sujato"
+      "sn35.28/en/sujato",
+      "pli-tv-kd1/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -67,6 +70,35 @@
         "langSegs": {
           "pli": 24,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd1:21.2.4": {
+            "scid": "pli-tv-kd1:21.2.4",
+            "pli": "Cakkhu ādittaṁ, rūpā ādittā, cakkhuviññāṇaṁ ādittaṁ, cakkhusamphasso āditto, yamidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi ādittaṁ.",
+            "en": "<span class=\"scv-matched\">The eye is burning</span>. Sights are burning. Eye-consciousness is burning. Eye-contact is burning. Whatever feelings arise because of eye-contact—whether pleasant, painful, or neither-pleasant-nor-painful—those too are burning. ",
+            "matched": true
+          }
+        },
+        "score": 1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 3591,
+          "en": 3230
         }
       }
     ]

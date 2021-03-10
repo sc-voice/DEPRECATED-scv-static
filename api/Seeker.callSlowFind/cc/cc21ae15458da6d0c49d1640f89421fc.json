@@ -31,7 +31,7 @@
     "pattern": "unification of mind",
     "method": "phrase",
     "resultPattern": "\\bunification of mind",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn111_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn111_translation-en-sujato.json",
@@ -58,7 +58,9 @@
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.45_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "mn111/en/sujato",
@@ -73,7 +75,8 @@
       "sn45.28/en/sujato",
       "mn117/en/sujato",
       "dn18/en/sujato",
-      "an7.45/en/sujato"
+      "an7.45/en/sujato",
+      "pli-tv-bu-vb-pj1/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -529,6 +532,35 @@
         "langSegs": {
           "pli": 299,
           "en": 298
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-pj1",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-pj1:1.5.3": {
+            "scid": "pli-tv-bu-vb-pj1:1.5.3",
+            "pli": "Vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja vihāsiṁ.",
+            "en": "Through the stilling of the movement of the mind, I entered and remained in the second absorption, which has internal confidence and <span class=\"scv-matched\">unification of mind</span> and consists of joy and bliss born of stillness. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1450,
+          "en": 1422
         }
       }
     ]

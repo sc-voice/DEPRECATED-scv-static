@@ -31,7 +31,7 @@
     "pattern": "shoulders drooping",
     "method": "phrase",
     "resultPattern": "\\bshoulders drooping",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json",
@@ -54,7 +54,11 @@
       "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.93_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd14_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd14_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss8_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss8_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "an3.64/en/sujato",
@@ -67,7 +71,9 @@
       "mn152/en/sujato",
       "an5.49/en/sujato",
       "an10.94/en/sujato",
-      "an10.93/en/sujato"
+      "an10.93/en/sujato",
+      "pli-tv-kd14/en/brahmali",
+      "pli-tv-bu-vb-ss8/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -411,6 +417,64 @@
         "langSegs": {
           "pli": 445,
           "en": 444
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss8_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss8_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-ss8",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-ss8:1.7.21": {
+            "scid": "pli-tv-bu-vb-ss8:1.7.21",
+            "pli": "Atha kho mettiyabhūmajakā bhikkhū pacchābhattaṁ piṇḍapātapaṭikkantā ārāmaṁ gantvā pattacīvaraṁ paṭisāmetvā bahārāmakoṭṭhake saṅghāṭipallatthikāya nisīdiṁsu tuṇhībhūtā maṅkubhūtā pattakkhandhā adhomukhā pajjhāyantā appaṭibhānā.",
+            "en": "After the meal they returned to the monastery, put their bowls and robes away, and squatted on their heels outside the monastery gateway, using their upper robe as a back-and-knee strap. They were silent and humiliated, their <span class=\"scv-matched\">shoulders drooping</span> and their heads down, glum and speechless. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing suspension\n8. The training rule on anger",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 399,
+          "en": 402
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd14_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd14_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd14",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd14:4.7.23": {
+            "scid": "pli-tv-kd14:4.7.23",
+            "pli": "Atha kho mettiyabhūmajakā bhikkhū pacchābhattaṁ piṇḍapātapaṭikkantā ārāmaṁ gantvā pattacīvaraṁ paṭisāmetvā bahārāmakoṭṭhake saṅghāṭipallatthikāya nisīdiṁsu tuṇhībhūtā maṅkubhūtā pattakkhandhā adhomukhā pajjhāyantā appaṭibhānā.",
+            "en": "After the meal they returned to the monastery, put their bowls and robes away, and sat outside the monastery gateway, using their upper robe as a back-and-knee strap. They were silent and humiliated, their <span class=\"scv-matched\">shoulders drooping</span> and their heads down, glum and speechless. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on the settling of legal issues\n1. Resolution face-to-face",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1459,
+          "en": 1371
         }
       }
     ]

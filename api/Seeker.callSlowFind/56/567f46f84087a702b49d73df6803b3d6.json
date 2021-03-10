@@ -31,7 +31,7 @@
     "pattern": "both ends",
     "method": "phrase",
     "resultPattern": "\\bboth ends",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
@@ -68,7 +68,9 @@
       "root/pli/ms/sutta/an/an3/an3.63_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.63_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.35_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.35_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.35_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "an6.61/en/sujato",
@@ -88,7 +90,8 @@
       "an5.44/en/sujato",
       "an4.95/en/sujato",
       "an3.63/en/sujato",
-      "an3.35/en/sujato"
+      "an3.35/en/sujato",
+      "pli-tv-kd15/en/brahmali"
     ],
     "mlDocs": [
       {
@@ -124,6 +127,41 @@
         "langSegs": {
           "pli": 56,
           "en": 55
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd15",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd15:30.1.1": {
+            "scid": "pli-tv-kd15:30.1.1",
+            "pli": "Tena kho pana samayena chabbaggiyā bhikkhū ubhatokājaṁ haranti.",
+            "en": "At that time the monks from the group of six used carrying poles with loads on <span class=\"scv-matched\">both ends</span>. ",
+            "matched": true
+          },
+          "pli-tv-kd15:30.1.5": {
+            "scid": "pli-tv-kd15:30.1.5",
+            "pli": "“Na, bhikkhave, ubhatokājaṁ haritabbaṁ.",
+            "en": "“You should not use a carrying pole with loads on <span class=\"scv-matched\">both ends</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter with short topics",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1854,
+          "en": 1528
         }
       },
       {

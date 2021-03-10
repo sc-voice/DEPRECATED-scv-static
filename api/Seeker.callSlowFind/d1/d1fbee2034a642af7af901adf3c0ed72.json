@@ -31,7 +31,7 @@
     "pattern": "in charge",
     "method": "phrase",
     "resultPattern": "\\bin charge",
-    "segsMatched": 21,
+    "segsMatched": 95,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.40_translation-en-sujato.json",
@@ -40,15 +40,471 @@
       "root/pli/ms/sutta/an/an4/an4.258_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.258_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd2_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd2_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd11_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd11_translation-en-brahmali.json",
+      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-np/pli-tv-bu-vb-np23_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-np/pli-tv-bu-vb-np23_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "an3.40/en/sujato",
       "dn33/en/sujato",
       "an4.258/en/sujato",
-      "dn23/en/sujato"
+      "dn23/en/sujato",
+      "pli-tv-kd16/en/brahmali",
+      "pli-tv-kd2/en/brahmali",
+      "pli-tv-kd6/en/brahmali",
+      "pli-tv-bi-vb-pj5/en/brahmali",
+      "pli-tv-kd11/en/brahmali",
+      "pli-tv-bu-vb-np23/en/brahmali"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd11_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd11_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd11",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd11:1.4.2": {
+            "scid": "pli-tv-kd11:1.4.2",
+            "pli": "Paṭhamaṁ paṇḍukalohitakā bhikkhū codetabbā, codetvā sāretabbā, sāretvā āpattiṁ āropetabbā, āpattiṁ āropetvā byattena bhikkhunā paṭibalena saṅgho ñāpetabbo—",
+            "en": "First you should accuse the monks Paṇḍuka and Lohitaka. They should then be reminded of what they have done, before they are charged with an offense. A competent and capable monk should then inform the Sangha: ",
+            "matched": true
+          },
+          "pli-tv-kd11:2.1.35": {
+            "scid": "pli-tv-kd11:2.1.35",
+            "pli": "Āpattiṁ anāropetvā kataṁ hoti, adhammena kataṁ hoti, vaggena kataṁ hoti—",
+            "en": "it is done without having charged the person with their offense, it is done illegitimately, it is done by an incomplete assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:9.2.2": {
+            "scid": "pli-tv-kd11:9.2.2",
+            "pli": "Paṭhamaṁ seyyasako bhikkhu codetabbo, codetvā sāretabbo, sāretvā āpattiṁ āropetabbo, āpattiṁ āropetvā byattena bhikkhunā paṭibalena saṅgho ñāpetabbo—",
+            "en": "First you should accuse the monk Seyyasaka. He should then be reminded of what he has done, before he is charged with an offense. A competent and capable monk should then inform the Sangha: ",
+            "matched": true
+          },
+          "pli-tv-kd11:10.1.35": {
+            "scid": "pli-tv-kd11:10.1.35",
+            "pli": "Āpattiṁ anāropetvā kataṁ hoti, adhammena kataṁ hoti, vaggena kataṁ hoti—",
+            "en": "it is done without having charged the person with their offense, it is done illegitimately, it is done by an incomplete assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:13.7.2": {
+            "scid": "pli-tv-kd11:13.7.2",
+            "pli": "paṭhamaṁ assajipunabbasukā bhikkhū codetabbā, codetvā sāretabbā, sāretvā āpattiṁ āropetabbā, āpattiṁ āropetvā byattena bhikkhunā paṭibalena saṅgho ñāpetabbo—",
+            "en": "First you should accuse the monks Assaji and Punabbasuka. They should then be reminded of what they have done, before they are charged with an offense. A competent and capable monk should then inform the Sangha: ",
+            "matched": true
+          },
+          "pli-tv-kd11:14.1.15": {
+            "scid": "pli-tv-kd11:14.1.15",
+            "pli": "āpattiṁ anāropetvā kataṁ hoti, adhammena kataṁ hoti, vaggena kataṁ hoti—",
+            "en": "When a procedure of banishment has another three qualities, it is also illegitimate, contrary to the Monastic Law, and not properly resolved: it is done without having charged the person with their offense, it is done illegitimately, it is done by an incomplete assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:14.1.23": {
+            "scid": "pli-tv-kd11:14.1.23",
+            "pli": "codetvā kataṁ hoti, sāretvā kataṁ hoti, āpattiṁ āropetvā kataṁ hoti …pe…",
+            "en": "When a procedure of banishment has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having accused the person of their offense, it is done after having reminded the person of their offense, it is done after having charged the person with their offense. ",
+            "matched": true
+          },
+          "pli-tv-kd11:14.1.32": {
+            "scid": "pli-tv-kd11:14.1.32",
+            "pli": "āpattiṁ āropetvā kataṁ hoti, dhammena kataṁ hoti, samaggena kataṁ hoti—",
+            "en": "When a procedure of banishment has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having charged the person with their offense, it is done legitimately, it is done by a unanimous assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:18.1.1": {
+            "scid": "pli-tv-kd11:18.1.1",
+            "pli": "Tena kho pana samayena āyasmā sudhammo macchikāsaṇḍe cittassa gahapatino āvāsiko hoti, navakammiko dhuvabhattiko.",
+            "en": "At one time Venerable Sudhamma was the resident monk at the householder Citta’s monastery at Macchikāsaṇḍa. He was <span class=\"scv-matched\">in charge</span> of the building work and received a regular supply of food. ",
+            "matched": true
+          },
+          "pli-tv-kd11:18.6.2": {
+            "scid": "pli-tv-kd11:18.6.2",
+            "pli": "paṭhamaṁ sudhammo bhikkhu codetabbo, codetvā sāretabbo, sāretvā āpattiṁ āropetabbo, āpattiṁ āropetvā byattena bhikkhunā paṭibalena saṅgho ñāpetabbo—",
+            "en": "First you should accuse the monk Sudhamma. He should then be reminded of what he has done, before he is charged with an offense. A competent and capable monk should then inform the Sangha: ",
+            "matched": true
+          },
+          "pli-tv-kd11:19.1.15": {
+            "scid": "pli-tv-kd11:19.1.15",
+            "pli": "āpattiṁ anāropetvā kataṁ hoti, adhammena kataṁ hoti, vaggena kataṁ hoti—",
+            "en": "When a procedure of reconciliation has another three qualities, it is also illegitimate, contrary to the Monastic Law, and not properly resolved: it is done without having charged the person with their offense, it is done illegitimately, it is done by an incomplete assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:19.1.23": {
+            "scid": "pli-tv-kd11:19.1.23",
+            "pli": "codetvā kataṁ hoti, sāretvā kataṁ hoti, āpattiṁ āropetvā kataṁ hoti …pe…",
+            "en": "When a procedure of reconciliation has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having accused the person of their offense, it is done after having reminded the person of their offense, it is done after having charged the person with their offense. ",
+            "matched": true
+          },
+          "pli-tv-kd11:19.1.32": {
+            "scid": "pli-tv-kd11:19.1.32",
+            "pli": "āpattiṁ āropetvā kataṁ hoti, dhammena kataṁ hoti, samaggena kataṁ hoti—",
+            "en": "When a procedure of reconciliation has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having charged the person with their offense, it is done legitimately, it is done by a unanimous assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:25.2.2": {
+            "scid": "pli-tv-kd11:25.2.2",
+            "pli": "paṭhamaṁ channo bhikkhu codetabbo, codetvā sāretabbo, sāretvā āpattiṁ āropetabbo, āpattiṁ āropetvā byattena bhikkhunā paṭibalena saṅgho ñāpetabbo—",
+            "en": "First you should accuse the monk Channa. He should then be reminded of what he has done, before he is charged with an offense. A competent and capable monk should then inform the Sangha: ",
+            "matched": true
+          },
+          "pli-tv-kd11:26.1.15": {
+            "scid": "pli-tv-kd11:26.1.15",
+            "pli": "āpattiṁ anāropetvā kataṁ hoti, adhammena kataṁ hoti, vaggena kataṁ hoti—",
+            "en": "When a procedure of ejection for not recognizing an offense has another three qualities, it is also illegitimate, contrary to the Monastic Law, and not properly resolved: it is done without having charged the person with their offense, it is done illegitimately, it is done by an incomplete assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:26.1.23": {
+            "scid": "pli-tv-kd11:26.1.23",
+            "pli": "codetvā kataṁ hoti, sāretvā kataṁ hoti, āpattiṁ āropetvā kataṁ hoti …pe…",
+            "en": "When a procedure of ejection for not recognizing an offense has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having accused the person of their offense, it is done after having reminded the person of their offense, it is done after having charged the person with their offense. ",
+            "matched": true
+          },
+          "pli-tv-kd11:26.1.32": {
+            "scid": "pli-tv-kd11:26.1.32",
+            "pli": "āpattiṁ āropetvā kataṁ hoti, dhammena kataṁ hoti, samaggena kataṁ hoti—",
+            "en": "When a procedure of ejection for not recognizing an offense has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having charged the person with their offense, it is done legitimately, it is done by a unanimous assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:27.1.23": {
+            "scid": "pli-tv-kd11:27.1.23",
+            "pli": "Na pakatatto bhikkhu sīlavipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in morality. ",
+            "matched": true
+          },
+          "pli-tv-kd11:27.1.24": {
+            "scid": "pli-tv-kd11:27.1.24",
+            "pli": "na ācāravipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in conduct. ",
+            "matched": true
+          },
+          "pli-tv-kd11:27.1.25": {
+            "scid": "pli-tv-kd11:27.1.25",
+            "pli": "na diṭṭhivipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in view. ",
+            "matched": true
+          },
+          "pli-tv-kd11:27.1.26": {
+            "scid": "pli-tv-kd11:27.1.26",
+            "pli": "na ājīvavipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in livelihood. ",
+            "matched": true
+          },
+          "pli-tv-kd11:28.2.15": {
+            "scid": "pli-tv-kd11:28.2.15",
+            "pli": "Pakatattaṁ bhikkhuṁ sīlavipattiyā anuddhaṁseti, ācāravipattiyā anuddhaṁseti, diṭṭhivipattiyā anuddhaṁseti, ājīvavipattiyā anuddhaṁseti, bhikkhuṁ bhikkhūhi bhedeti—",
+            "en": "he charges a regular monk with failure in morality; he charges a regular monk with failure in conduct; he charges a regular monk with failure in view; he charges a regular monk with failure in livelihood; he causes division between monks. ",
+            "matched": true
+          },
+          "pli-tv-kd11:29.1.15": {
+            "scid": "pli-tv-kd11:29.1.15",
+            "pli": "Na pakatattaṁ bhikkhuṁ sīlavipattiyā anuddhaṁseti, na ācāravipattiyā anuddhaṁseti, na diṭṭhivipattiyā anuddhaṁseti, na ājīvavipattiyā anuddhaṁseti, na bhikkhuṁ bhikkhūhi bhedeti—",
+            "en": "he doesn’t charge a regular monk with failure in morality; he doesn’t charge a regular monk with failure in conduct; he doesn’t charge a regular monk with failure in view; he doesn’t charge a regular monk with failure in livelihood; he doesn’t cause division between monks. ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.18": {
+            "scid": "pli-tv-kd11:31.1.18",
+            "pli": "paṭhamaṁ channo bhikkhu codetabbo, codetvā sāretabbo, sāretvā āpattiṁ āropetabbo, āpattiṁ āropetvā byattena bhikkhunā paṭibalena saṅgho ñāpetabbo—",
+            "en": "First you should accuse the monk Channa. He should then be reminded of what he has done, before he is charged with an offense. A competent and capable monk should then inform the Sangha: ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.60": {
+            "scid": "pli-tv-kd11:31.1.60",
+            "pli": "āpattiṁ anāropetvā kataṁ hoti, adhammena kataṁ hoti, vaggena kataṁ hoti—",
+            "en": "When a procedure of ejection for not making amends for an offense has another three qualities, it is also illegitimate, contrary to the Monastic Law, and not properly resolved: it is done without having charged the person with their offense, it is done illegitimately, it is done by an incomplete assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.68": {
+            "scid": "pli-tv-kd11:31.1.68",
+            "pli": "codetvā kataṁ hoti, sāretvā kataṁ hoti, āpattiṁ āropetvā kataṁ hoti …pe…",
+            "en": "When a procedure of ejection for not making amends for an offense has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having accused the person of their offense, it is done after having reminded the person of their offense, it is done after having charged the person with their offense. ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.77": {
+            "scid": "pli-tv-kd11:31.1.77",
+            "pli": "āpattiṁ āropetvā kataṁ hoti, dhammena kataṁ hoti, samaggena kataṁ hoti—",
+            "en": "When a procedure of ejection for not making amends for an offense has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having charged the person with their offense, it is done legitimately, it is done by a unanimous assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.125": {
+            "scid": "pli-tv-kd11:31.1.125",
+            "pli": "Na pakatatto bhikkhu sīlavipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in morality. ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.126": {
+            "scid": "pli-tv-kd11:31.1.126",
+            "pli": "na ācāravipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in conduct. ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.127": {
+            "scid": "pli-tv-kd11:31.1.127",
+            "pli": "na diṭṭhivipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in view. ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.128": {
+            "scid": "pli-tv-kd11:31.1.128",
+            "pli": "na ājīvavipattiyā anuddhaṁsetabbo,",
+            "en": "He should not charge a regular monk with failure in livelihood. ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.171": {
+            "scid": "pli-tv-kd11:31.1.171",
+            "pli": "pakatattaṁ bhikkhuṁ sīlavipattiyā anuddhaṁseti, ācāravipattiyā anuddhaṁseti, diṭṭhivipattiyā anuddhaṁseti, ājīvavipattiyā anuddhaṁseti, bhikkhuṁ bhikkhūhi bhedeti …pe…",
+            "en": "he charges a regular monk with failure in morality; he charges a regular monk with failure in conduct; he charges a regular monk with failure in view; he charges a regular monk with failure in livelihood; he causes division between monks. … ",
+            "matched": true
+          },
+          "pli-tv-kd11:31.1.187": {
+            "scid": "pli-tv-kd11:31.1.187",
+            "pli": "na pakatattaṁ bhikkhuṁ sīlavipattiyā anuddhaṁseti, na ācāravipattiyā anuddhaṁseti, na diṭṭhivipattiyā anuddhaṁseti, na ājīvavipattiyā anuddhaṁseti, na bhikkhuṁ bhikkhūhi bhedeti …pe…",
+            "en": "he doesn’t charge a regular monk with failure in morality; he doesn’t charge a regular monk with failure in conduct; he doesn’t charge a regular monk with failure in view; he doesn’t charge a regular monk with failure in livelihood; he doesn’t cause division between monks. … ",
+            "matched": true
+          },
+          "pli-tv-kd11:32.4.2": {
+            "scid": "pli-tv-kd11:32.4.2",
+            "pli": "paṭhamaṁ ariṭṭho bhikkhu codetabbo, codetvā sāretabbo, sāretvā āpattiṁ āropetabbo, āpattiṁ āropetvā byattena bhikkhunā paṭibalena saṅgho ñāpetabbo—",
+            "en": "First you should accuse the monk Ariṭṭha. He should then be reminded of what he has done, before he is charged with an offense. A competent and capable monk should then inform the Sangha: ",
+            "matched": true
+          },
+          "pli-tv-kd11:33.1.15": {
+            "scid": "pli-tv-kd11:33.1.15",
+            "pli": "āpattiṁ anāropetvā kataṁ hoti, adhammena kataṁ hoti, vaggena kataṁ hoti—",
+            "en": "When a procedure of ejection for not giving up a bad view has another three qualities, it is also illegitimate, contrary to the Monastic Law, and not properly resolved: it is done without having charged the person with their offense, it is done illegitimately, it is done by an incomplete assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:33.1.23": {
+            "scid": "pli-tv-kd11:33.1.23",
+            "pli": "codetvā kataṁ hoti, sāretvā kataṁ hoti, āpattiṁ āropetvā kataṁ hoti …pe…",
+            "en": "When a procedure of ejection for not giving up a bad view has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having accused the person of their offense, it is done after having reminded the person of their offense, it is done after having charged the person with their offense. ",
+            "matched": true
+          },
+          "pli-tv-kd11:33.1.32": {
+            "scid": "pli-tv-kd11:33.1.32",
+            "pli": "āpattiṁ āropetvā kataṁ hoti, dhammena kataṁ hoti, samaggena kataṁ hoti—",
+            "en": "When a procedure of ejection for not giving up a bad view has another three qualities, it is also legitimate, in accordance with the Monastic Law, and properly resolved: it is done after having charged the person with their offense, it is done legitimately, it is done by a unanimous assembly.” ",
+            "matched": true
+          },
+          "pli-tv-kd11:34.2.8": {
+            "scid": "pli-tv-kd11:34.2.8",
+            "pli": "pe….",
+            "en": "he consents to a regular monk bowing down to him; he consents to a regular monk standing up for him; he consents to a regular monk raising his joined palms to him; he consents to a regular monk doing appropriate duties for him; he consents to a regular monk offering him a seat. … he consents to a regular monk offering him a bed; he consents to a regular monk offering him water for washing his feet and a foot-stool; he consents to a regular monk offering him a foot-scraper; he consents to a regular monk receiving his bowl and robe; he consents to a regular monk massaging his back when bathing. … he charges a regular monk with failure in morality; he charges a regular monk with failure in conduct; he charges a regular monk with failure in view; he charges a regular monk with failure in livelihood; he causes splits between monks. … he wears lay clothes; he wears the robes of the ascetics of other religions; he associates with the ascetics of other religions; he doesn’t associate with monks; he doesn’t train in the monks’ training. … he stays in the same room in a monastery as a regular monk; he stays in the same room in a non-monastery as a regular monk; he stays in the same room in a monastery or a non-monastery as a regular monk; he doesn’t get up from his seat when he sees a regular monk; he dismisses a regular monk, whether inside or outside a dwelling. ",
+            "matched": true
+          },
+          "pli-tv-kd11:34.2.20": {
+            "scid": "pli-tv-kd11:34.2.20",
+            "pli": "pe….",
+            "en": "he doesn’t consent to a regular monk bowing down to him; he doesn’t consent to a regular monk standing up for him; he doesn’t consent to a regular monk raising his joined palms to him; he doesn’t consent to a regular monk doing appropriate duties for him; he doesn’t consent to a regular monk offering him a seat. … he doesn’t consent to a regular monk offering him a bed; he doesn’t consent to a regular monk offering him water for washing his feet and a foot-stool; he doesn’t consent to a regular monk offering him a foot-scraper; he doesn’t consent to a regular monk receiving his bowl and robe; he doesn’t consent to a regular monk massaging his back when bathing. … he doesn’t charge a regular monk with failure in morality; he doesn’t charge a regular monk with failure in conduct; he doesn’t charge a regular monk with failure in view; he doesn’t charge a regular monk with failure in livelihood; he doesn’t cause splits between monks. … he doesn’t wear lay clothes; he doesn’t wear the robes of the ascetics of other religions; he doesn’t associate with the ascetics of other religions; he associates with monks; he trains in the monks’ training. … he doesn’t stay in the same room in a monastery as a regular monk; he doesn’t stay in the same room in a non-monastery as a regular monk; he doesn’t stay in the same room in a monastery or a non-monastery as a regular monk; he gets up from his seat when he sees a regular monk; he doesn’t dismiss a regular monk, whether inside or outside a dwelling. ",
+            "matched": true
+          },
+          "pli-tv-kd11:33.1.69.12": {
+            "scid": "pli-tv-kd11:33.1.69.12",
+            "en": "He should not charge a regular monk with failure in morality. ",
+            "matched": true
+          },
+          "pli-tv-kd11:33.1.69.13": {
+            "scid": "pli-tv-kd11:33.1.69.13",
+            "en": "He should not charge a regular monk with failure in conduct. ",
+            "matched": true
+          },
+          "pli-tv-kd11:33.1.69.14": {
+            "scid": "pli-tv-kd11:33.1.69.14",
+            "en": "He should not charge a regular monk with failure in view. ",
+            "matched": true
+          },
+          "pli-tv-kd11:33.1.69.15": {
+            "scid": "pli-tv-kd11:33.1.69.15",
+            "en": "He should not charge a regular monk with failure in livelihood. ",
+            "matched": true
+          }
+        },
+        "score": 43.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on legal procedures",
+        "segsMatched": 43,
+        "langSegs": {
+          "pli": 1957,
+          "en": 1588
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd16",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd16:5.1.0": {
+            "scid": "pli-tv-kd16:5.1.0",
+            "pli": "2. Navakammadāna",
+            "en": "Putting <span class=\"scv-matched\">in charge</span> of building work ",
+            "matched": true
+          },
+          "pli-tv-kd16:5.2.8": {
+            "scid": "pli-tv-kd16:5.2.8",
+            "pli": "“anujānāmi, bhikkhave, navakammaṁ dātuṁ.",
+            "en": "“You should put a monk <span class=\"scv-matched\">in charge</span> of the building work. ",
+            "matched": true
+          },
+          "pli-tv-kd16:5.2.9": {
+            "scid": "pli-tv-kd16:5.2.9",
+            "pli": "Navakammiko, bhikkhave, bhikkhu ussukkaṁ āpajjissati—",
+            "en": "The monk <span class=\"scv-matched\">in charge</span> of building work should make an effort ",
+            "matched": true
+          },
+          "pli-tv-kd16:5.3.1": {
+            "scid": "pli-tv-kd16:5.3.1",
+            "pli": "Evañca pana, bhikkhave, dātabbaṁ.",
+            "en": "And he is to be put <span class=\"scv-matched\">in charge</span> like this. ",
+            "matched": true
+          },
+          "pli-tv-kd16:5.3.4": {
+            "scid": "pli-tv-kd16:5.3.4",
+            "pli": "Yadi saṅghassa pattakallaṁ, saṅgho itthannāmassa gahapatino vihāraṁ itthannāmassa bhikkhuno navakammaṁ dadeyya.",
+            "en": "If it seems appropriate to the Sangha, the Sangha should put monk so-and-so <span class=\"scv-matched\">in charge</span> of the building work relating to the dwelling of householder so-and-so. ",
+            "matched": true
+          },
+          "pli-tv-kd16:5.3.7": {
+            "scid": "pli-tv-kd16:5.3.7",
+            "pli": "Saṅgho itthannāmassa gahapatino vihāraṁ itthannāmassa bhikkhuno navakammaṁ deti.",
+            "en": "The Sangha puts monk so-and-so <span class=\"scv-matched\">in charge</span> of the building work relating to the dwelling of householder so-and-so. ",
+            "matched": true
+          },
+          "pli-tv-kd16:5.3.8": {
+            "scid": "pli-tv-kd16:5.3.8",
+            "pli": "Yassāyasmato khamati itthannāmassa gahapatino vihāraṁ itthannāmassa bhikkhuno navakammassa dānaṁ, so tuṇhassa;",
+            "en": "Any monk who approves of putting monk so-and-so <span class=\"scv-matched\">in charge</span> of that building work should remain silent. ",
+            "matched": true
+          },
+          "pli-tv-kd16:5.3.10": {
+            "scid": "pli-tv-kd16:5.3.10",
+            "pli": "Dinno saṅghena itthannāmassa gahapatino vihāro itthannāmassa bhikkhuno navakammaṁ.",
+            "en": "The Sangha has put monk so-and-so <span class=\"scv-matched\">in charge</span> of the building work relating to the dwelling of householder so-and-so. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.0": {
+            "scid": "pli-tv-kd16:17.1.0",
+            "pli": "3. Navakammadānakathā",
+            "en": "Discussion on putting <span class=\"scv-matched\">in charge</span> of building work ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.4": {
+            "scid": "pli-tv-kd16:17.1.4",
+            "pli": "Tena kho pana samayena āḷavakā bhikkhū evarūpāni navakammāni denti—",
+            "en": "At that time the monks of Āḷava put monks <span class=\"scv-matched\">in charge</span> of building work such as this: ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.18": {
+            "scid": "pli-tv-kd16:17.1.18",
+            "pli": "vīsativassikampi navakammaṁ denti;",
+            "en": "and they put monks <span class=\"scv-matched\">in charge</span> of building work for twenty years, ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.21": {
+            "scid": "pli-tv-kd16:17.1.21",
+            "pli": "dhūmakālikampi pariyositaṁ vihāraṁ navakammaṁ denti.",
+            "en": "and they put monks <span class=\"scv-matched\">in charge</span> of building work for life on finished dwellings. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.23": {
+            "scid": "pli-tv-kd16:17.1.23",
+            "pli": "“kathañhi nāma āḷavakā bhikkhū evarūpāni navakammāni dassanti—",
+            "en": "“How can the monks at Āḷavī put monks <span class=\"scv-matched\">in charge</span> of such kinds of work?” ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.46": {
+            "scid": "pli-tv-kd16:17.1.46",
+            "pli": "“na, bhikkhave, piṇḍanikkhepanamattena navakammaṁ dātabbaṁ …pe…",
+            "en": "“You should not put monks <span class=\"scv-matched\">in charge</span> of building work such as this: the mere filling of gaps, ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.59": {
+            "scid": "pli-tv-kd16:17.1.59",
+            "pli": "Na vīsativassikaṁ navakammaṁ dātabbaṁ.",
+            "en": "and you should not put monks <span class=\"scv-matched\">in charge</span> of building work for twenty years, ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.62": {
+            "scid": "pli-tv-kd16:17.1.62",
+            "pli": "Na dhūmakālikampi pariyositaṁ vihāraṁ navakammaṁ dātabbaṁ.",
+            "en": "or put monks <span class=\"scv-matched\">in charge</span> of building work for life on finished dwellings. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.1.64": {
+            "scid": "pli-tv-kd16:17.1.64",
+            "pli": "Anujānāmi, bhikkhave, akataṁ vā vippakataṁ vā navakammaṁ dātuṁ, khuddake vihāre kammaṁ oloketvā chappañcavassikaṁ navakammaṁ dātuṁ, aḍḍhayoge kammaṁ oloketvā sattaṭṭhavassikaṁ navakammaṁ dātuṁ, mahallake vihāre pāsāde vā kammaṁ oloketvā dasadvādasavassikaṁ navakammaṁ dātun”ti.",
+            "en": "I allow you to put a monk <span class=\"scv-matched\">in charge</span> of building work that isn’t yet started or that’s partially complete. For a small dwelling, after inspecting the work, you may put a monk <span class=\"scv-matched\">in charge</span> of the building work for five or six years. For a small stilt house, after inspecting the work, you may put a monk <span class=\"scv-matched\">in charge</span> of the building work for seven or eight years. For a large dwelling or stilt house, after inspecting the work, you may put a monk <span class=\"scv-matched\">in charge</span> of the building work for ten or twelve years.” ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.2.1": {
+            "scid": "pli-tv-kd16:17.2.1",
+            "pli": "Tena kho pana samayena bhikkhū sabbe vihāre navakammaṁ denti.",
+            "en": "On one occasion the monks put one person <span class=\"scv-matched\">in charge</span> of building work on all the dwellings. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.2.3": {
+            "scid": "pli-tv-kd16:17.2.3",
+            "pli": "“Na, bhikkhave, sabbe vihāre navakammaṁ dātabbaṁ.",
+            "en": "“You should not put one person <span class=\"scv-matched\">in charge</span> of building work on all the dwellings. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.2.5": {
+            "scid": "pli-tv-kd16:17.2.5",
+            "pli": "Tena kho pana samayena bhikkhū ekassa dve denti.",
+            "en": "On one occasion the monks put one person <span class=\"scv-matched\">in charge</span> of building work on two dwellings. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.2.7": {
+            "scid": "pli-tv-kd16:17.2.7",
+            "pli": "“Na, bhikkhave, ekassa dve dātabbā.",
+            "en": "“You should not put one person <span class=\"scv-matched\">in charge</span> of building work on two dwellings. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.2.18": {
+            "scid": "pli-tv-kd16:17.2.18",
+            "pli": "Tena kho pana samayena bhikkhū nissīme ṭhitassa navakammaṁ denti.",
+            "en": "On one occasion the monks put one who was outside the monastic boundary <span class=\"scv-matched\">in charge</span> of building work. ",
+            "matched": true
+          },
+          "pli-tv-kd16:17.2.20": {
+            "scid": "pli-tv-kd16:17.2.20",
+            "pli": "“Na, bhikkhave, nissīme ṭhitassa navakammaṁ dātabbaṁ.",
+            "en": "“You should not put one who is outside the monastic boundary <span class=\"scv-matched\">in charge</span> of building work. ",
+            "matched": true
+          }
+        },
+        "score": 23.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on dwellings\nThe allowance for dwellings",
+        "segsMatched": 23,
+        "langSegs": {
+          "pli": 1556,
+          "en": 1214
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
@@ -170,6 +626,47 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd2_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd2_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd2",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd2:16.9.5": {
+            "scid": "pli-tv-kd2:16.9.5",
+            "pli": "Anujānāmi, bhikkhave, therādhikaṁ pātimokkhan”ti.",
+            "en": "The most senior monk should be <span class=\"scv-matched\">in charge</span> of the recitation of the Monastic Code.” ",
+            "matched": true
+          },
+          "pli-tv-kd2:17.2.3": {
+            "scid": "pli-tv-kd2:17.2.3",
+            "pli": "‘therādhikaṁ pātimokkhan’ti, ayañca amhākaṁ thero bālo abyatto, na jānāti uposathaṁ vā uposathakammaṁ vā, pātimokkhaṁ vā pātimokkhuddesaṁ vā.",
+            "en": "that the most senior monk should be <span class=\"scv-matched\">in charge</span> of the recitation of the Monastic Code, ",
+            "matched": true
+          },
+          "pli-tv-kd2:17.2.6": {
+            "scid": "pli-tv-kd2:17.2.6",
+            "pli": "“Anujānāmi, bhikkhave, yo tattha bhikkhu byatto paṭibalo tassādheyyaṁ pātimokkhan”ti.",
+            "en": "“In such a case a competent and capable monk should be <span class=\"scv-matched\">in charge</span> of the recitation of the Monastic Code.” ",
+            "matched": true
+          }
+        },
+        "score": 3.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on the observance day\nThe instruction to gather together",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 1605,
+          "en": 1430
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.258_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an4/an4.258_translation-en-sujato.json"
         ],
@@ -205,6 +702,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj5_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bi-vb-pj5",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bi-vb-pj5:1.5": {
+            "scid": "pli-tv-bi-vb-pj5:1.5",
+            "pli": "Detha me navakammikaṁ bhikkhunin”ti.",
+            "en": "Please give me the nun <span class=\"scv-matched\">in charge</span> of building work.” ",
+            "matched": true
+          },
+          "pli-tv-bi-vb-pj5:1.9": {
+            "scid": "pli-tv-bi-vb-pj5:1.9",
+            "pli": "Atha kho bhikkhunisaṅgho sundarīnandaṁ bhikkhuniṁ sammannitvā sāḷhassa migāranattuno navakammikaṁ adāsi.",
+            "en": "After appointing Sundarīnandā to be <span class=\"scv-matched\">in charge</span> of building work, the Sangha made her work with Sāḷha. ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe nuns’ rules and their analysis\nThe chapter on offenses entailing expulsion\n5. The training rule on above the knees",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 168,
+          "en": 181
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
         ],
@@ -236,6 +768,70 @@
         "langSegs": {
           "pli": 1167,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd6",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd6:15.3.6": {
+            "scid": "pli-tv-kd6:15.3.6",
+            "pli": "Atha kho rājā māgadho seniyo bimbisāro āyasmato pilindavacchassa ārāmikaṁ paṭissutvā, vissaritvā, cirena satiṁ paṭilabhitvā, aññataraṁ sabbatthakaṁ mahāmattaṁ āmantesi—",
+            "en": "But after making this promise, he forgot, and only remembered after a long time. He then addressed the official <span class=\"scv-matched\">in charge</span> of all practical affairs: ",
+            "matched": true
+          },
+          "pli-tv-kd6:34.5.1": {
+            "scid": "pli-tv-kd6:34.5.1",
+            "pli": "Atha kho rājā māgadho seniyo bimbisāro aññataraṁ sabbatthakaṁ mahāmattaṁ āmantesi—",
+            "en": "The King then told the official <span class=\"scv-matched\">in charge</span> of all practical affairs about this, ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1643,
+          "en": 1375
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-np/pli-tv-bu-vb-np23_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-np/pli-tv-bu-vb-np23_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-bu-vb-np23",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-bu-vb-np23:1.1.20": {
+            "scid": "pli-tv-bu-vb-np23:1.1.20",
+            "pli": "Atha kho rājā māgadho seniyo bimbisāro āyasmato pilindavacchassa ārāmikaṁ paṭissuṇitvā vissaritvā cirena satiṁ paṭilabhitvā aññataraṁ sabbatthakaṁ mahāmattaṁ āmantesi—“yo mayā, bhaṇe, ayyassa ārāmiko paṭissuto, dinno so ārāmiko”ti?",
+            "en": "But after making this promise, he forgot, and only remembered after a long time. He then addressed the official <span class=\"scv-matched\">in charge</span> of all practical affairs: “Listen, has the monastery worker I promised been provided?” ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on relinquishment\nThe sub-chapter on almsbowls",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 127,
+          "en": 132
         }
       },
       {

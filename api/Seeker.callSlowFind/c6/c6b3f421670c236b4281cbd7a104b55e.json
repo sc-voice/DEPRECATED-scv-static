@@ -31,7 +31,7 @@
     "pattern": "cause a schism",
     "method": "phrase",
     "resultPattern": "\\bcause a schism",
-    "segsMatched": 8,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
@@ -42,16 +42,132 @@
       "root/pli/ms/sutta/an/an6/an6.94_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.94_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.236_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.236_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.236_translation-en-sujato.json",
+      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
+      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
     ],
     "suttaRefs": [
       "mn115/en/sujato",
       "an6.87/en/sujato",
       "an1.268-277/en/sujato",
       "an6.94/en/sujato",
-      "an4.236/en/sujato"
+      "an4.236/en/sujato",
+      "pli-tv-kd17/en/brahmali"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
+          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
+        ],
+        "author_uid": "brahmali",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "pli-tv-kd17",
+        "lang": "en",
+        "segMap": {
+          "pli-tv-kd17:5.1.25": {
+            "scid": "pli-tv-kd17:5.1.25",
+            "pli": "Na kho, upāli, bhikkhunī saṅghaṁ bhindati, api ca bhedāya parakkamati, na sikkhamānā saṅghaṁ bhindati …pe…",
+            "en": "A nun cannot <span class=\"scv-matched\">cause a schism</span> in the Sangha, even if she makes an effort to <span class=\"scv-matched\">cause a schism</span>. A trainee nun, ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.1.26": {
+            "scid": "pli-tv-kd17:5.1.26",
+            "pli": "na sāmaṇero saṅghaṁ bhindati, na sāmaṇerī saṅghaṁ bhindati, na upāsako saṅghaṁ bhindati, na upāsikā saṅghaṁ bhindati, api ca bhedāya parakkamati.",
+            "en": "a novice monk, a novice nun, a male lay follower, or a female lay follower cannot <span class=\"scv-matched\">cause a schism</span> in the Sangha, even if she makes an effort to <span class=\"scv-matched\">cause a schism</span>. ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.1.27": {
+            "scid": "pli-tv-kd17:5.1.27",
+            "pli": "Bhikkhu kho, upāli, pakatatto, samānasaṁvāsako, samānasīmāyaṁ ṭhito, saṅghaṁ bhindatī”ti.",
+            "en": "Only a monk of regular standing, one who belongs to the same Buddhist sect and is present within the same monastic boundary, can <span class=\"scv-matched\">cause a schism</span> in the Sangha.” ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.4.2": {
+            "scid": "pli-tv-kd17:5.4.2",
+            "pli": "“Samaggaṁ kho, upāli, saṅghaṁ bhinditvā kappaṭṭhikaṁ kibbisaṁ pasavati, kappaṁ nirayamhi paccatīti.",
+            "en": "“Anyone who causes a schism in a united Sangha does a bad act with effect for an eon; he’s boiled in hell for an eon. ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.1": {
+            "scid": "pli-tv-kd17:5.5.1",
+            "pli": "“Siyā nu kho, bhante, saṅghabhedako āpāyiko, nerayiko, kappaṭṭho, atekiccho”ti?",
+            "en": "“Might one who causes a schism in the Sangha be irredeemably destined to an eon in hell?” ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.3": {
+            "scid": "pli-tv-kd17:5.5.3",
+            "pli": "“Siyā pana, bhante, saṅghabhedako na āpāyiko, na nerayiko, na kappaṭṭho, na atekiccho”ti?",
+            "en": "“Might one who causes a schism in the Sangha not be irredeemably destined to an eon in hell?” ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.5": {
+            "scid": "pli-tv-kd17:5.5.5",
+            "pli": "“Katamo pana, bhante, saṅghabhedako āpāyiko, nerayiko, kappaṭṭho, atekiccho”ti?",
+            "en": "“What sort of person who causes a schism in the Sangha is irredeemably destined to an eon in hell?” ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.9": {
+            "scid": "pli-tv-kd17:5.5.9",
+            "pli": "Ayampi kho, upāli, saṅghabhedako āpāyiko, nerayiko, kappaṭṭho, atekiccho.",
+            "en": "This person who causes a schism in the Sangha is irredeemably destined to an eon in hell. ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.13": {
+            "scid": "pli-tv-kd17:5.5.13",
+            "pli": "Ayampi kho, upāli, saṅghabhedako āpāyiko, nerayiko, kappaṭṭho, atekiccho.",
+            "en": "This person, too, who causes a schism in the Sangha is irredeemably destined to an eon in hell. ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.17": {
+            "scid": "pli-tv-kd17:5.5.17",
+            "pli": "Ayampi kho, upāli, saṅghabhedako āpāyiko, nerayiko, kappaṭṭho, atekiccho.",
+            "en": "This person, too, who causes a schism in the Sangha is irredeemably destined to an eon in hell. ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.26": {
+            "scid": "pli-tv-kd17:5.5.26",
+            "pli": "Ayampi kho, upāli, saṅghabhedako āpāyiko, nerayiko, kappaṭṭho, atekiccho.",
+            "en": "This person, too, who causes a schism in the Sangha is irredeemably destined to an eon in hell. ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.5.54": {
+            "scid": "pli-tv-kd17:5.5.54",
+            "pli": "Ayampi kho, upāli, saṅghabhedako āpāyiko, nerayiko, kappaṭṭho, atekiccho”ti.",
+            "en": "This person, too, who causes a schism in the Sangha is irredeemably destined to an eon in hell.” ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.6.1": {
+            "scid": "pli-tv-kd17:5.6.1",
+            "pli": "“Katamo pana, bhante, saṅghabhedako na āpāyiko, na nerayiko, na kappaṭṭho, na atekiccho”ti?",
+            "en": "“What sort of person who causes a schism in the Sangha isn’t irredeemably destined to an eon in hell?” ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.6.5": {
+            "scid": "pli-tv-kd17:5.6.5",
+            "pli": "Ayampi kho, upāli, saṅghabhedako na āpāyiko, na nerayiko, na kappaṭṭho, na atekiccho.",
+            "en": "This person who causes a schism in the Sangha isn’t irredeemably destined to an eon in hell. ",
+            "matched": true
+          },
+          "pli-tv-kd17:5.6.10": {
+            "scid": "pli-tv-kd17:5.6.10",
+            "pli": "Ayampi kho, upāli, saṅghabhedako na āpāyiko, na nerayiko, na kappaṭṭho, na atekiccho”ti.",
+            "en": "This person, too, who causes a schism in the Sangha isn’t irredeemably destined to an eon in hell.” ",
+            "matched": true
+          }
+        },
+        "score": 15.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on schism in the Sangha\nThe account of the going forth of the six Sakyans",
+        "segsMatched": 15,
+        "langSegs": {
+          "pli": 1104,
+          "en": 951
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.87_root-pli-ms.json",
