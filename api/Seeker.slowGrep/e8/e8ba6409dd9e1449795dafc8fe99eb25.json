@@ -1,0 +1,17 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.slowGrep",
+  "args": [
+    {
+      "pattern": "\\baufpasst",
+      "maxResults": 0,
+      "lang": "de",
+      "root": "local/bilara-data",
+      "patPrimary": "/sutta/"
+    }
+  ],
+  "value": [
+    "translation/de/sabbamitta/sutta/an/an5/an5.140_translation-de-sabbamitta.json:2",
+    "translation/de/sabbamitta/sutta/an/an4/an4.114_translation-de-sabbamitta.json:2"
+  ]
+}

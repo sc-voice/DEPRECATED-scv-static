@@ -32,7 +32,7 @@
     "pattern": "lodert freude auf",
     "method": "phrase",
     "resultPattern": "\\blodert freude auf",
-    "segsMatched": 19,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an5/an5.26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "an5.26/de/sabbamitta",
+      "sn47.10/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn10/de/sabbamitta"
     ],
@@ -214,6 +218,59 @@
           "pli": 894,
           "de": 754,
           "en": 891
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.10",
+        "lang": "de",
+        "segMap": {
+          "sn47.10:6.5": {
+            "scid": "sn47.10:6.5",
+            "pli": "Tassa kismiñcideva pasādanīye nimitte cittaṁ paṇidahato pāmojjaṁ jāyati. ",
+            "de": "Wenn sie das tut, <span class=\"scv-matched\">lodert Freude auf</span>. ",
+            "en": "As they do so, joy springs up. ",
+            "matched": true
+          },
+          "sn47.10:6.6": {
+            "scid": "sn47.10:6.6",
+            "pli": "Pamuditassa pīti jāyati. ",
+            "de": "Wenn sie voller Freude ist, lodert Ekstase auf. ",
+            "en": "Being joyful, rapture springs up. ",
+            "matched": true
+          },
+          "sn47.10:7.6": {
+            "scid": "sn47.10:7.6",
+            "pli": "Tassa kismiñcideva pasādanīye nimitte cittaṁ paṇidahato pāmojjaṁ jāyati. ",
+            "de": "Wenn sie das tut, <span class=\"scv-matched\">lodert Freude auf</span>. ",
+            "en": "As they do so, joy springs up. ",
+            "matched": true
+          },
+          "sn47.10:7.7": {
+            "scid": "sn47.10:7.7",
+            "pli": "Pamuditassa pīti jāyati. ",
+            "de": "Wenn sie voller Freude ist, lodert Ekstase auf. ",
+            "en": "Being joyful, rapture springs up. ",
+            "matched": true
+          }
+        },
+        "score": 4.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n1. In Ambapālīs Wald\n10. Die Nonnenunterkünfte",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 76,
+          "de": 63,
+          "en": 74
         }
       },
       {
