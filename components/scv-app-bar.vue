@@ -32,7 +32,10 @@ import {
   mdiMagnify,
   mdiWikipedia,
 } from '@mdi/js';
-import { version } from '@/package.json';
+import { 
+  name, 
+  version,
+} from '@/package.json';
 const JS = {
   BilaraWeb: require('../src/bilara-web'),
   Tipitaka: require('scv-bilara/src/tipitaka'),
@@ -70,7 +73,8 @@ export default {
   },
   methods:{
     clickHome() {
-      this.$route !== "/" && this.$router.replace("/");
+      const newRoute = `/${name}`;
+      this.$route !== newRoute && this.$router.replace(newRoute);
     },
     clickPageTop() {
         let elt = document.getElementById("scv-search-field");
