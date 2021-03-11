@@ -50,6 +50,10 @@ export default {
       type: String,
       default: version,
     },
+    home: {
+      type: String,
+      default: '/wiki/welcome',
+    },
     monolingual : {
       type: String,
       default: null,
@@ -73,8 +77,12 @@ export default {
   },
   methods:{
     clickHome() {
-      const newRoute = `/${name}`;
-      this.$route !== newRoute && this.$router.replace(newRoute);
+      let { home } = this;
+      try {
+        this.$route !== home && this.$router.replace(home);
+      } catch(e) {
+        console.log(`clickHome`, home, e.message);
+      }
     },
     clickPageTop() {
         let elt = document.getElementById("scv-search-field");
