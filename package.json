@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.4.41",
+  "version": "0.4.42",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "public": true,
@@ -48,8 +48,10 @@
   },
   "scripts": {
     "build": "scripts/build",
+    "build:commit": "scripts/build-commit",
     "build:examples": "scripts/js/build.js",
     "build:routes": "scripts/nuxt-routes.js",
+    "build:generate-dist": "unset CI; echo CI=$CI; nuxt generate",
     "build:nuxt": "nuxt build",
     "build:vue": "cross-env NODE_ENV=production rollup --config rollup.config.js",
     "build:ssr": "cross-env NODE_ENV=production rollup --config rollup.config.js --format cjs",

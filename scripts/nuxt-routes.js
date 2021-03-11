@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
+const { logger } = require('log-instance');
 const { Files } = require('memo-again');
 const { APP_DIR } = Files;
 const contentPath = path.join(APP_DIR, 'content');
+const SCRIPT=path.basename(__filename);
+
+logger.logLevel = 'info';
 
 var files = [...Files.filesSync(contentPath)];
 var routes = files.reduce((a,f)=> {
@@ -16,12 +20,12 @@ var routes = files.reduce((a,f)=> {
         } else if (fparts.length === 1) {
             a.push(`${fparts[0]}/${fname}`);
         } else {
-            console.log(`skipping ${f}`, fparts);
+            logger.debug(`skipping ${f}`, fparts);
         }
     }
     return a;
 }, []);
 
 let routesPath = path.join(APP_DIR, 'nuxt-routes.json');
-console.log('routes: ', routes);
+logger.log(`${SCRIPT}: writing ${routesPath}`);
 fs.writeFileSync(routesPath, JSON.stringify(routes, null, '\t'));

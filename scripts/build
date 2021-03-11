@@ -14,20 +14,9 @@ npm install --save scv-bilara@latest
 rm -rf api/Seeker*
 $DIR/js/build.js
 
-git status | grep 'nothing to commit' ; RC=$?
-if [ "$RC" == "0" ]; then
-  echo -e "BUILD\t:nothing to commit"
-else
-  echo -e "BUILD\t:committing build changes"
-  git add api
-  git commit -am "build examples"
-  npm version patch
-  VERSION=`$DIR/version`
-  git reset --soft HEAD~1
-  git commit --amend -m "v$VERSION build"
-  git push
-  scripts/deploy
-fi
+npm run build:commit &&\
+git push &&\
+scripts/deploy
 
 scripts/publish-npm
 
