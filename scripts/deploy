@@ -18,8 +18,7 @@ export BABEL_ENV=deploy
 npm run version:nuxt &&\
 npm run build:routes &&\
 npm run build:generate-dist &&\
-npm run build:commit &&\
-git push &&\
+npm run build:commit xPUSH &&\
 npm run deploy:branch &&\
 find dist &&\
 RC=$?
