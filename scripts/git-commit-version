@@ -8,7 +8,7 @@ if [ "$RC" == "0" ]; then
   echo -e "$SCRIPT: nothing to commit"
 else
   OLDVERSION=`$DIR/version`
-  MSG="$SCRIPT: changes by $GITHUB_JOB $HOSTNAME"
+  MSG="$SCRIPT: changes by $GITHUB_WORKFLOW $HOSTNAME"
   echo -e $MSG
   git add .
   git commit -am "$MSG"
