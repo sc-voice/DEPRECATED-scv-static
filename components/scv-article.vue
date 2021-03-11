@@ -38,7 +38,11 @@
       <a :href="article.link">{{article.link}}</a>
     </div>
 
-    <nuxt-content :document="article" />
+    <slot>
+      <!--
+        <nuxt-content :document="article" />
+      -->
+    </slot>
 
     <scv-article-items :article="article" :items="items" />
   </article>
