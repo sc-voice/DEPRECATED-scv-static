@@ -14,9 +14,7 @@ npm install --save scv-bilara@latest
 rm -rf api/Seeker*
 $DIR/js/build.js
 
-npm run build:commit &&\
-git push &&\
-scripts/deploy
-
+scripts/build-commit PUSH &&
+scripts/deploy &&\
 scripts/publish-npm
 
