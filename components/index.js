@@ -9,6 +9,7 @@ export { default as ScvCursor } from './scv-cursor.vue';
 export { default as ScvHistory } from './scv-history.vue';
 export { default as ScvPageSuttas } from './scv-page-suttas.vue';
 export { default as ScvResults } from './scv-results.vue';
+export { default as ScvImageInfo } from './scv-image-info.vue';
 export { default as ScvSearchField } from './scv-search-field.vue';
 export { default as ScvSettings } from './scv-settings.vue';
 export { default as ScvSutta } from './scv-sutta.vue';
