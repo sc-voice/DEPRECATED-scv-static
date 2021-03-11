@@ -1,0 +1,18 @@
+#!/bin/bash
+
+DIR=`dirname $0`
+
+git status | grep 'nothing to commit' ; RC=$?
+if [ "$RC" == "0" ]; then
+  echo -e "BUILD\t:nothing to commit"
+else
+  echo -e "BUILD\t:committing build changes"
+  git add .
+  git commit -am "$0 changes"
+  npm version patch
+  VERSION=`$DIR/version`
+  git reset --soft HEAD~1
+  git commit --amend -m "v$VERSION build"
+  [ "$1" == "PUSH" ] && git push
+fi
+exit $RC

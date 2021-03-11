@@ -1,6 +1,6 @@
 {
   "name": "@sc-voice/scv-static",
-  "version": "0.4.39",
+  "version": "0.4.40",
   "description": "SuttaCentral Voice static website library",
   "main": "index.js",
   "public": true,
@@ -49,6 +49,7 @@
   "scripts": {
     "build": "scripts/build",
     "build:examples": "scripts/js/build.js",
+    "build:routes": "scripts/nuxt-routes.js",
     "build:nuxt": "nuxt build",
     "build:vue": "cross-env NODE_ENV=production rollup --config rollup.config.js",
     "build:ssr": "cross-env NODE_ENV=production rollup --config rollup.config.js --format cjs",
@@ -63,8 +64,8 @@
     "start": "nuxt start",
     "version:nuxt": "nuxt --version",
     "env": "scripts/env",
-    "generate": "scripts/nuxt-routes.js && nuxt generate",
-    "generate:deploy": "export BABEL_ENV=deploy; scripts/nuxt-routes.js && nuxt generate",
+    "generate": "npm run build:routes && nuxt generate",
+    "generate:deploy": "export BABEL_ENV=deploy; npm run generate",
     "deploy": "scripts/deploy",
     "deploy:branch": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },

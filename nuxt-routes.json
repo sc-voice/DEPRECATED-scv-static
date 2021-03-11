@@ -1,6 +1,24 @@
 [
+	"_content/sites",
+	"wiki/sites",
+	"_content/news",
+	"wiki/news",
+	"_content/author",
+	"wiki/author",
+	"_content/voice",
+	"sites/voice",
+	"_content/suttacentral",
+	"sites/suttacentral",
+	"_content/dhammaregen",
+	"sites/dhammaregen",
+	"_content/news-index",
+	"wiki/news-index",
 	"_content/2021-02-25",
-	"blog/2021-02-25",
-	"_content/2021-02-27",
-	"wiki/2021-02-27"
+	"news/2021-02-25",
+	"_content/create-wiki-page",
+	"wiki/create-wiki-page",
+	"_content/build-site",
+	"author/build-site",
+	"_content/add-image",
+	"author/add-image"
 ]
