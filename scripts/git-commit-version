@@ -1,14 +1,17 @@
 #!/bin/bash
 
 DIR=`dirname $0`
+SCRIPT=`basename $0`
 
 git status | grep 'nothing to commit' ; RC=$?
 if [ "$RC" == "0" ]; then
-  echo -e "BUILD\t:nothing to commit"
+  echo -e "$SCRIPT: nothing to commit"
 else
-  echo -e "BUILD\t: committing build changes"
+  OLDVERSION=`$DIR/version`
+  MSG="$SCRIPT: $OLDVERSION has changed"
+  echo -e $MSG
   git add .
-  git commit -am "$0 changes"
+  git commit -am "$MSG"
   npm version patch
   VERSION=`$DIR/version`
   git reset --soft HEAD~1
