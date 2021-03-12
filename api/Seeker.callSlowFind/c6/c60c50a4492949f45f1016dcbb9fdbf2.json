@@ -32,14 +32,20 @@
     "pattern": "mitgenommen, leidend, schwer krank",
     "method": "phrase",
     "resultPattern": "\\bmitgenommen, leidend, schwer krank",
-    "segsMatched": 11,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.29_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.30_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
@@ -61,7 +67,9 @@
     ],
     "suttaRefs": [
       "dn23/de/sabbamitta",
+      "sn47.29/de/sabbamitta",
       "an10.60/de/sabbamitta",
+      "sn47.30/de/sabbamitta",
       "sn47.13/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an6.16/de/sabbamitta",
@@ -118,6 +126,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.29",
+        "lang": "de",
+        "segMap": {
+          "sn47.29:1.2": {
+            "scid": "sn47.29:1.2",
+            "pli": "Tena kho pana samayena sirivaḍḍho gahapati ābādhiko hoti dukkhito bāḷhagilāno. ",
+            "de": "Zu dieser Zeit nun war der Hausbesitzer Sirivaḍḍha <span class=\"scv-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "Now at that time the householder Sirivaḍḍha was sick, suffering, gravely ill. ",
+            "matched": true
+          },
+          "sn47.29:1.5": {
+            "scid": "sn47.29:1.5",
+            "pli": "‘sirivaḍḍho, bhante, gahapati ābādhiko dukkhito bāḷhagilāno. ",
+            "de": "‚Herr, der Hausbesitzer Sirivaḍḍha ist <span class=\"scv-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "‘Sir, the householder Sirivaḍḍha is sick, suffering, gravely ill. ",
+            "matched": true
+          }
+        },
+        "score": 2.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n3. Ethik und Beständigkeit\n29. Mit Sirivaḍḍha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 34,
+          "de": 30,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
@@ -138,7 +185,7 @@
           "an10.60:2.1": {
             "scid": "an10.60:2.1",
             "pli": "“Āyasmā, bhante, girimānando ābādhiko hoti dukkhito bāḷhagilāno. ",
-            "de": "„Herr, der ehrwürdige Girimānanda ist <span class=\"scv-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "de": "„Herr, der Ehrwürdige Girimānanda ist <span class=\"scv-matched\">mitgenommen, leidend, schwer krank</span>. ",
             "en": "“Sir, Venerable Girimānanda is sick, suffering, gravely ill. ",
             "matched": true
           }
@@ -153,6 +200,38 @@
           "pli": 80,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.30",
+        "lang": "de",
+        "segMap": {
+          "sn47.30:1.2": {
+            "scid": "sn47.30:1.2",
+            "pli": "Tena kho pana samayena mānadinno gahapati ābādhiko hoti dukkhito bāḷhagilāno. ",
+            "de": "Zu dieser Zeit nun war der Hausbesitzer Mānadinna <span class=\"scv-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "Now at that time the householder Mānadinna was sick, suffering, gravely ill. ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n3. Ethik und Beständigkeit\n30. Mit Mānadinna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "de": 15,
+          "en": 20
         }
       },
       {
