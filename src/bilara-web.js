@@ -384,14 +384,15 @@
 
         async voices() {
             let { fetch } = this;
-            let url = [
-                'https://raw.githubusercontent.com',
-                'sc-voice',
-                'sc-voice',
-                'master',
-                'words',
-                'voices.json',
-            ].join('/');
+            //let url = [
+                //'https://raw.githubusercontent.com',
+                //'sc-voice',
+                //'sc-voice',
+                //'master',
+                //'words',
+                //'voices.json',
+            //].join('/');
+            let url = 'https://unpkg.com/sc-voice/words/voices.json';
             try {
                 let res = await fetch(url, {headers:{Accept: 'text/plain'}});
                 return await res.json();
