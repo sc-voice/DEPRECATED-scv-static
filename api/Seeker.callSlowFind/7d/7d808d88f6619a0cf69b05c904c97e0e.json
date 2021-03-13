@@ -32,7 +32,7 @@
     "pattern": "noch etwas übrig bleibt",
     "method": "phrase",
     "resultPattern": "\\bnoch etwas übrig bleibt",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/an/an5/an5.67_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.122_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.122_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.122_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.36_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn10/de/sabbamitta",
       "an5.67/de/sabbamitta",
-      "an5.122/de/sabbamitta"
+      "an5.122/de/sabbamitta",
+      "sn47.36/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -165,6 +169,38 @@
           "pli": 235,
           "de": 204,
           "en": 233
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.36",
+        "lang": "de",
+        "segMap": {
+          "sn47.36:1.9": {
+            "scid": "sn47.36:1.9",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"scv-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr.“ ",
+            "en": "enlightenment in the present life, or if there’s something left over, non-return.” ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n4. Von niemand anderem gehört\n36. Erleuchtung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       }
     ]

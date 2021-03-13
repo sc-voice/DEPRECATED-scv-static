@@ -32,11 +32,14 @@
     "pattern": "es ist einfach dieser edle achtfache pfad",
     "method": "phrase",
     "resultPattern": "\\bes ist einfach dieser edle achtfache pfad",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.40_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.40_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.40_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "sn56.11/de/sabbamitta",
+      "sn47.40/de/sabbamitta",
       "dn6/de/sabbamitta",
       "dn19/de/sabbamitta",
       "an3.71/de/sabbamitta",
@@ -99,6 +103,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.40_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn47/sn47.40_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.40_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.40",
+        "lang": "de",
+        "segMap": {
+          "sn47.40:3.2": {
+            "scid": "sn47.40:3.2",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "de": "<span class=\"scv-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 47\n4. Von niemand anderem gehört\n40. Aufgliederung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 21,
+          "en": 26
         }
       },
       {
