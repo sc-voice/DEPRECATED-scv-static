@@ -27,8 +27,12 @@ if (!routerBase) {
     babelCompact = BABEL_ENV === 'deploy' ? true : false;
     console.log(`nuxt.config.js`, JSON.stringify({routerBase, BABEL_ENV, babelCompact}));
 }
-
-let repository = path.basename(__dirname);
+let ebtRepo = require('./ebt-repo.json');
+let env = {
+    ebt_account: ebtRepo.account,
+    ebt_repository: ebtRepo.repository,
+}
+console.log(`nuxt.config.js env:`, JSON.stringify(env, null, 2));
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -38,6 +42,8 @@ export default {
   target: 'static',
 
   telemetry: true,
+
+  env,
 
   render: {
     dist: {
@@ -92,10 +98,6 @@ export default {
   modules: [
     '@nuxt/content',
   ],
-
-  env: {
-    repository,
-  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

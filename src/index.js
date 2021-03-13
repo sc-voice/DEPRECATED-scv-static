@@ -3,7 +3,6 @@ module.exports = {
     BilaraPath: require("./bilara-path"),
     BilaraWeb: require("./bilara-web"),
     Examples: require("./examples.js"),
-    RepoInfo: require("./repo-info"),
     Settings: require('./settings'),
     SuttaCentralId: require('scv-bilara/src/sutta-central-id'),
     SuttaDuration: require('./sutta-duration'),
