@@ -25,6 +25,12 @@
             </div>
             <nav v-if="article.toc">
               <ul>
+                <li >
+                  <b>env:</b> {{$nuxt.context.env}}
+                </li>
+                <li >
+                  <b>Source:</b> {{sourceUrl}}
+                </li>
                 <li v-for="link of article.toc" :key="link.id">
                   <NuxtLink :to="`#${link.id}`" >{{ link.text }}</NuxtLink>
                 </li>
@@ -122,6 +128,11 @@
         return this.article.path
             .replace(/.*\//, '')
             .replace(/\.md/, '')
+      },
+      sourceUrl() {
+        let { path } = this.article;
+        let { repository } = this.$nuxt.context.env;
+        return `https://github.com/ACCOUNT/${repository}/content${path}.md`;
       },
       title() {
         return this.article.title || "(no title)";

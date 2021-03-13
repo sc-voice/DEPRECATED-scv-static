@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const { RepoInfo } = require('../src/index');
+
+(async function(){
+  let info = await RepoInfo.info();
+  Object.keys(info).forEach(key => {
+    console.log(`${key}: ${info[key]}`);
+  });
+})();

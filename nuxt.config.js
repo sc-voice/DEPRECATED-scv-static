@@ -16,6 +16,7 @@ import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 import routes from './nuxt-routes.json'
 
+const path = require('path');
 var { name } = require('./package.json');
 var appName = name.split('/').filter(n=>n.length).pop();
 var routerBase;
@@ -26,6 +27,8 @@ if (!routerBase) {
     babelCompact = BABEL_ENV === 'deploy' ? true : false;
     console.log(`nuxt.config.js`, JSON.stringify({routerBase, BABEL_ENV, babelCompact}));
 }
+
+let repository = path.basename(__dirname);
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -89,6 +92,10 @@ export default {
   modules: [
     '@nuxt/content',
   ],
+
+  env: {
+    repository,
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
