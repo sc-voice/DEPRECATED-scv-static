@@ -16,7 +16,11 @@
         </div>
         <h1 class="nuxt-content">
           {{ title }} 
-          <v-btn :href="sourceUrl" title="View/Edit wiki page on Github" target="_blank" >
+          <v-btn 
+            :href="sourceUrl" target="_blank" 
+            title="View/Edit wiki page on Github" 
+            icon class="ml-5"
+            >
             <v-icon>{{ mdiFileEditOutline }}</v-icon>
           </v-btn>
         </h1>
