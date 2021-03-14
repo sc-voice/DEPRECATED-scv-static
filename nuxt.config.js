@@ -17,22 +17,22 @@ import vi from './src/i18n/vi.ts'
 import routes from './nuxt-routes.json'
 
 const path = require('path');
+const { logger } = require('log-instance');
+let ebtRepo = require('./ebt-repo.json');
+let env = {
+    ebt_account: ebtRepo.account,
+    ebt_repository: ebtRepo.repository,
+}
 var { name } = require('./package.json');
-var appName = name.split('/').filter(n=>n.length).pop();
+var appName = ebtRepo.repository || name.split('/').filter(n=>n.length).pop();
 var routerBase;
 var babelCompact;
 if (!routerBase) {
     let BABEL_ENV = process.env.BABEL_ENV;
     routerBase = `/${appName}/`;
     babelCompact = BABEL_ENV === 'deploy' ? true : false;
-    console.log(`nuxt.config.js`, JSON.stringify({routerBase, BABEL_ENV, babelCompact}));
 }
-let ebtRepo = require('./ebt-repo.json');
-let env = {
-    ebt_account: ebtRepo.account,
-    ebt_repository: ebtRepo.repository,
-}
-console.log(`nuxt.config.js env:`, JSON.stringify(env));
+logger.info(`nuxt.config.js`, {env, routerBase, babelCompact});
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -62,8 +62,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: `%s - ${appName}`,
-    title: `${appName}`,
+    titleTemplate: appName,
+    title: appName,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

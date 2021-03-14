@@ -1,7 +1,7 @@
 <template>
   <v-app >
-    <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll flat >
-      <scv-app-bar title="Scv-Static" imgUrl="amanda-flavell-buddha.png">
+    <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll >
+      <scv-app-bar title="Scv-Static" :imgUrl="siteImage">
         <v-btn icon to="/components" class="scv-icon-btn" >
           <v-icon class="scv-settings-icon">{{mdiMenu}}</v-icon>
         </v-btn>
@@ -46,6 +46,9 @@ export default {
   computed: {
     version() {
       return version;
+    },
+    siteImage() {
+      return 'greg-rosenke-bJdK9v-VVw0-unsplash.png';
     },
   },
 }

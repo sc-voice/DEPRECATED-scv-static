@@ -430,11 +430,10 @@ summary:focus {
   width: 100%;
 }
 .scv-nav-title {
-  margin-left: 1em;
+  margin-left: 0.5em;
   cursor: pointer;
 }
 .scv-nav-img {
-  cursor: pointer;
   height: 56px;
   border-bottom: 1px solid transparent;
   border-top: 1px solid transparent;
@@ -445,6 +444,7 @@ summary:focus {
   justify-content: flex-start;
   align-items: center;
   width: 50%;
+  cursor: pointer;
 }
 .scv-nav-app-icons {
   display: flex;
@@ -491,6 +491,9 @@ summary:focus {
   margin-right: 1em;
   height: 175px;
   border-top-left-radius: 0.5em;
+}
+.nuxt-content {
+  max-width: 50em;
 }
 .nuxt-content a {
   color: var(--scv-color-light) !important;
@@ -539,6 +542,18 @@ summary:focus {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+.nuxt-content table {
+  border-collapse: collapse;
+}
+.nuxt-content thead th {
+  border-bottom: 1pt solid #888;
+}
+.nuxt-content th {
+  padding: 0.25em;
+}
+.nuxt-content td {
+  padding: 0.25em;
+}
 .scv-toc {
   margin: 1em;
 }
@@ -568,4 +583,14 @@ summary:focus {
 .scv-article-link a {
   font-size: 18px;
   font-weight: 400;
+}
+.site-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+pre,
+blockquote {
+  border-left: 3pt solid #ccc;
+  padding-left: 0.5em;
 }

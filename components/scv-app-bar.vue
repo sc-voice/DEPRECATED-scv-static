@@ -1,14 +1,9 @@
 <template>
   <div class="scv-nav-app">
-    <div class="scv-nav-app-title">
-      <img :src="imgUrl" class="scv-nav-img"
-        @click="clickHome()"
-      ></img>
-      <div class="scv-nav-title"
-        @click="clickHome()"
-      >
-        {{title}}
-      </div>
+    <div class="scv-nav-app-title" @click="clickHome()">
+      <img :src="imgUrl" class="scv-nav-img" @click="clickHome()" ></img>
+      <v-icon class="ml-2 mb-1">{{mdiHome}}</v-icon>
+      <div class="scv-nav-title">{{title}}</div>
     </div>
     <div class="scv-nav-app-icons">
       <slot></slot>
@@ -29,6 +24,7 @@
 <script>
 import ScvSettings from './scv-settings';
 import {
+  mdiHome,
   mdiMagnify,
   mdiWikipedia,
 } from '@mdi/js';
@@ -71,6 +67,7 @@ export default {
     return {
       mdiMagnify,
       mdiWikipedia,
+      mdiHome,
     };
   },
   async mounted() {
