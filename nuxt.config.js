@@ -32,7 +32,7 @@ let env = {
     ebt_account: ebtRepo.account,
     ebt_repository: ebtRepo.repository,
 }
-console.log(`nuxt.config.js env:`, JSON.stringify(env, null, 2));
+console.log(`nuxt.config.js env:`, JSON.stringify(env));
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode

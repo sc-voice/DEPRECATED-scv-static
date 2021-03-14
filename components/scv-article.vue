@@ -14,25 +14,27 @@
           </span>
           {{pagePath}}
         </div>
-        <h1 class="nuxt-content">{{ title }} </h1>
+        <h1 class="nuxt-content">
+          {{ title }} 
+          <v-btn :href="sourceUrl" title="View/Edit wiki page on Github" target="_blank" >
+            <v-icon>{{ mdiFileEditOutline }}</v-icon>
+          </v-btn>
+        </h1>
         <details class="ml-1">
           <summary class="text-caption">
             {{ article.description }} 
           </summary>
           <div class="ml-5">
-            <div class="text-caption" >
-              updated: {{date(article.updatedAt)}} ({{language}})
-            </div>
             <nav v-if="article.toc">
               <ul>
                 <li v-for="link of article.toc" :key="link.id">
                   <NuxtLink :to="`#${link.id}`" >{{ link.text }}</NuxtLink>
                 </li>
-                <li >
-                  <a :href="sourceUrl" target="_blank">View Github source</a>
-                </li>
               </ul>
             </nav>
+            <div class="text-caption text-right" >
+              {{date(article.updatedAt)}} 
+            </div>
           </div>
         </details>
       </div>
@@ -52,6 +54,9 @@
 </template>
 <script>
   import ScvArticleItems from './scv-article-items';
+  import {
+    mdiFileEditOutline,
+  } from '@mdi/js';
   export default {
     components: {
       ScvArticleItems,
@@ -69,7 +74,8 @@
       }
     },
     data: ()=>({
-      items: []
+      items: [],
+      mdiFileEditOutline,
     }),
     async fetch() {
       const { article, $content } = this;
