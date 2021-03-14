@@ -493,7 +493,7 @@ summary:focus {
   border-top-left-radius: 0.5em;
 }
 .nuxt-content {
-  max-width: 50em;
+  max-width: 55em;
 }
 .nuxt-content a {
   color: var(--scv-color-light) !important;
