@@ -4,7 +4,7 @@
   "args": [
     {
       "pattern": "\\beinswerden",
-      "maxResults": 1000,
+      "maxResults": 0,
       "lang": "de",
       "root": "local/bilara-data",
       "patPrimary": "/sutta/"
