@@ -10,11 +10,14 @@
     </v-btn>
     <v-icon v-else class="scv-nav-btn-disabled">{{mdiChevronLeft}}</v-icon>
 
-    <v-spacer/>
-
-    <v-btn text > {{current.sutta_uid}}/{{current.lang}}</v-btn>
-
-    <v-spacer/>
+    <div class="scv-suttacentral"
+      @mouseover="suttacentral=true" @mouseleave="suttacentral=false">
+      <a v-if="suttacentral"
+        :href="`https://suttacentral.net/${current.sutta_uid}`"
+        target="_blank"> SuttaCentral </a>
+      <span v-else >
+        {{current.sutta_uid}}/{{current.lang}} </span>
+    </div>
 
     <v-btn v-if="next" small text
       class="scv-text-btn scv-nav-btn"
@@ -46,6 +49,7 @@ export default {
       mdiChevronLeft,
       mdiChevronRight,
       tipitaka: null,
+      suttacentral: false,
     };
   },
   async mounted() {

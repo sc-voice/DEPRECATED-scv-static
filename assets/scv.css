@@ -408,6 +408,7 @@ summary:focus {
     align-items: baseline;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 1em;
 }
 .scv-nav-sutta > button {
     width: 8em !important;
@@ -584,10 +585,18 @@ summary:focus {
   font-size: 18px;
   font-weight: 400;
 }
-.site-content {
+div.site-content {
   display: flex;
   flex-flow: column;
   align-items: center;
+  padding-bottom: 8em;
+}
+.scv-suttacentral {
+  font-size: smaller;
+  font-variant: small-caps;
+}
+.scv-suttacentral a:hover {
+  color: var(--scv-focus-color-light);
 }
 pre,
 blockquote {
