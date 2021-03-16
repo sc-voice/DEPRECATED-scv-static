@@ -31,6 +31,12 @@
           <a :href="unsplashUrl" target="_blank"> <code>{{unsplashUrl}}</code> </a>
         </td>
       </tr>
+      <tr v-if="/-?pexels-?/.test(article.slug)">
+        <td>Source</td>
+        <td>
+          <a :href="pexelsUrl" target="_blank"> <code>{{pexelsUrl}}</code> </a>
+        </td>
+      </tr>
     </tbody>
   </table>
 </template>
@@ -50,6 +56,11 @@
         let { protocol, host, pathname } = window.location;
         let pathParts = pathname.split('/');
         return `${protocol}//${host}/${pathParts[1]}/${slug}.png`;
+      },
+      pexelsUrl() {
+        let { slug } = this.article;
+        let id = slug.replace(/-?pexels-?/, '')
+        return `https://pexels.com/photo/${id}`;
       },
       unsplashUrl() {
         let { slug } = this.article;
