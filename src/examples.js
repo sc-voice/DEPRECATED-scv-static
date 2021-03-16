@@ -649,7 +649,6 @@
     "knowing choices",
     "knowledge and vision externally",
     "knowledge of the six sense fields",
-    "knows mind with greed",
     "lack of faith",
     "laughing wisdom",
     "lead the mendicant",
