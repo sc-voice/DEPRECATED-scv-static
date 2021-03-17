@@ -295,7 +295,6 @@
 
 <script>
 import Vue from "vue";
-//import 'vue-material-design-icons/styles.css';
 import ScvCheckbox from './scv-checkbox.vue';
 import {
   mdiCog,

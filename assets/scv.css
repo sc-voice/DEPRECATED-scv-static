@@ -26,15 +26,6 @@
   --scv-color-light: #222;
   --scv-cursor-border: 0.15em;
 }
-@media(width < 600px) {
-  :root {
-    --scv-text-line-height: 1.4;
-    --scv-sutta-title-font-size: 18px;
-    --scv-header-margin-bottom: 32px;
-    --scv-segment-margin-bottom: 0.3em;
-    --scv-text-font-size: 16px;
-  }
-}
 
 label {
     color: var(--scv-label-color);
@@ -306,20 +297,6 @@ summary:focus {
 .scv-result-text {
   padding-left: 1.15em;
   width: 32rem;
-}
-@media (width < 600px) {
-  .scv-results {
-    width: 340px;
-  }
-  .scv-result-details summary {
-    max-width: 305px;
-  }
-  .scv-result-summary {
-    min-width: 240px;
-  }
-  .scv-result-text {
-    max-width: 290px;
-  }
 }
 .scv-result-icons {
   cursor: pointer;
@@ -603,3 +580,34 @@ blockquote {
   border-left: 3pt solid #ccc;
   padding-left: 0.5em;
 }
+
+@media(width < 600px) {
+  :root {
+    --scv-text-line-height: 1.4;
+    --scv-sutta-title-font-size: 18px;
+    --scv-header-margin-bottom: 32px;
+    --scv-segment-margin-bottom: 0.3em;
+    --scv-text-font-size: 16px;
+    --scv-text-width: 100%;
+  }
+  .scv-nav-app-title svg,
+  .scv-nav-app-title img {
+    display: none;
+  }
+  .nuxt-content {
+    max-width: 100%;
+  }
+  .scv-results {
+    width: 340px;
+  }
+  .scv-result-details summary {
+    max-width: 305px;
+  }
+  .scv-result-summary {
+    min-width: 240px;
+  }
+  .scv-result-text {
+    max-width: 290px;
+  }
+}
+

@@ -30,8 +30,12 @@
             this.fullLine = fullLine;
             this.history = history.slice();
             this.ips = 6;
-            this.lang = lang;
-            this.locale = locale;
+            this.lang = ScvSettings.TRANS_LANGUAGES.reduce((a,l)=>{
+                return l.code===lang ? lang : a;
+            }, 'en');
+            this.locale = ScvSettings.WEB_LANGUAGES.reduce((a,l)=>{
+                return l.code===locale ? locale : a;
+            }, 'en');
             this.maxResults = maxResults;
             this.maxHistory = maxHistory,
             this.saveSettingsExamples = saveSettingsExamples;
