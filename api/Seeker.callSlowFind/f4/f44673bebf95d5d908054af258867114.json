@@ -113,7 +113,7 @@
         "title": "Numbered Discourses 3\n10. A Lump of Salt\n102. Foundations",
         "segsMatched": 7,
         "langSegs": {
-          "pli": 36,
+          "pli": 34,
           "en": 34
         }
       },
@@ -130,7 +130,7 @@
         "segMap": {
           "dn33:1.9.27": {
             "scid": "dn33:1.9.27",
-            "pli": "Samathanimittañca paggahanimittañca. #24",
+            "pli": "Samathanimittañca paggahanimittañca. ",
             "en": "<span class=\"scv-matched\">The foundation of</span> serenity and <span class=\"scv-matched\">the foundation of</span> exertion. ",
             "matched": true
           },
@@ -142,7 +142,7 @@
           },
           "dn33:1.11.150": {
             "scid": "dn33:1.11.150",
-            "pli": "paññādhiṭṭhānaṁ, saccādhiṭṭhānaṁ, cāgādhiṭṭhānaṁ, upasamādhiṭṭhānaṁ. #27",
+            "pli": "paññādhiṭṭhānaṁ, saccādhiṭṭhānaṁ, cāgādhiṭṭhānaṁ, upasamādhiṭṭhānaṁ. ",
             "en": "the foundations of wisdom, truth, generosity, and peace. ",
             "matched": true
           },

@@ -196,7 +196,7 @@
         "segMap": {
           "dn33:1.10.131": {
             "scid": "dn33:1.10.131",
-            "pli": "ārogyamado, yobbanamado, jīvitamado. #55",
+            "pli": "ārogyamado, yobbanamado, jīvitamado. ",
             "de": "Eitelkeit wegen der <span class=\"scv-matched\">Gesund</span>heit, Eitelkeit wegen der Jugend und Eitelkeit wegen des Lebens. ",
             "en": "the vanity of health, the vanity of youth, and the vanity of life. ",
             "matched": true
@@ -582,7 +582,7 @@
         "segMap": {
           "an1.226:1.1": {
             "scid": "an1.226:1.1",
-            "pli": "… Appābādhānaṁ yadidaṁ bākulo. #8",
+            "pli": "… Appābādhānaṁ yadidaṁ bākulo. ",
             "de": "… mit guter <span class=\"scv-matched\">Gesund</span>heit ist Bakkula. ",
             "en": "… with good health is Bakkula. ",
             "matched": true

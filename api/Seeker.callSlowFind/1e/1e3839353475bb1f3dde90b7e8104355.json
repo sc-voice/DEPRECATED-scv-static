@@ -148,37 +148,37 @@
         "segMap": {
           "an6.10:2.9": {
             "scid": "an6.10:2.9",
-            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno buddhānussatiṁ bhāveti’. #1",
+            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno buddhānussatiṁ bhāveti’. ",
             "en": "a noble disciple who lives in balance among people who are unbalanced, and lives untroubled among people who are troubled. They’ve entered the stream of the teaching and develop <span class=\"scv-matched\">the recollection of</span> the Buddha. ",
             "matched": true
           },
           "an6.10:3.8": {
             "scid": "an6.10:3.8",
-            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno dhammānussatiṁ bhāveti’. #2",
+            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno dhammānussatiṁ bhāveti’. ",
             "en": "a noble disciple who lives in balance among people who are unbalanced, and lives untroubled among people who are troubled. They’ve entered the stream of the teaching and develop <span class=\"scv-matched\">the recollection of</span> the teaching. ",
             "matched": true
           },
           "an6.10:4.8": {
             "scid": "an6.10:4.8",
-            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno saṅghānussatiṁ bhāveti’. #3",
+            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno saṅghānussatiṁ bhāveti’. ",
             "en": "a noble disciple who lives in balance among people who are unbalanced, and lives untroubled among people who are troubled. They’ve entered the stream of the teaching and develop <span class=\"scv-matched\">the recollection of</span> the Saṅgha. ",
             "matched": true
           },
           "an6.10:5.7": {
             "scid": "an6.10:5.7",
-            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno sīlānussatiṁ bhāveti’. #4",
+            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno sīlānussatiṁ bhāveti’. ",
             "en": "a noble disciple who lives in balance among people who are unbalanced, and lives untroubled among people who are troubled. They’ve entered the stream of the teaching and develop <span class=\"scv-matched\">the recollection of</span> ethics. ",
             "matched": true
           },
           "an6.10:6.9": {
             "scid": "an6.10:6.9",
-            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno cāgānussatiṁ bhāveti’. #5",
+            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno cāgānussatiṁ bhāveti’. ",
             "en": "a noble disciple who lives in balance among people who are unbalanced, and lives untroubled among people who are troubled. They’ve entered the stream of the teaching and develop <span class=\"scv-matched\">the recollection of</span> generosity. ",
             "matched": true
           },
           "an6.10:7.13": {
             "scid": "an6.10:7.13",
-            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno devatānussatiṁ bhāveti’. #6",
+            "pli": "‘ariyasāvako visamagatāya pajāya samappatto viharati, sabyāpajjāya pajāya abyāpajjo viharati, dhammasotaṁ samāpanno devatānussatiṁ bhāveti’. ",
             "en": "a noble disciple who lives in balance among people who are unbalanced, and lives untroubled among people who are troubled. They’ve entered the stream of the teaching and develop <span class=\"scv-matched\">the recollection of</span> the deities. ",
             "matched": true
           }
@@ -266,19 +266,19 @@
         "segMap": {
           "dn33:1.10.142": {
             "scid": "dn33:1.10.142",
-            "pli": "pubbenivāsānussatiñāṇaṁ vijjā, sattānaṁ cutūpapāteñāṇaṁ vijjā, āsavānaṁ khayeñāṇaṁ vijjā. #58",
+            "pli": "pubbenivāsānussatiñāṇaṁ vijjā, sattānaṁ cutūpapāteñāṇaṁ vijjā, āsavānaṁ khayeñāṇaṁ vijjā. ",
             "en": "recollection of past lives, knowledge of the death and rebirth of sentient beings, and knowledge of the ending of defilements. ",
             "matched": true
           },
           "dn33:2.2.115": {
             "scid": "dn33:2.2.115",
-            "pli": "buddhānussati, dhammānussati, saṅghānussati, sīlānussati, cāgānussati, devatānussati. #19",
+            "pli": "buddhānussati, dhammānussati, saṅghānussati, sīlānussati, cāgānussati, devatānussati. ",
             "en": "<span class=\"scv-matched\">the recollection of</span> the Buddha, the teaching, the Saṅgha, ethics, generosity, and the deities. ",
             "matched": true
           },
           "dn33:2.3.50": {
             "scid": "dn33:2.3.50",
-            "pli": "uppannuppannānaṁ adhikaraṇānaṁ samathāya vūpasamāya sammukhāvinayo dātabbo, sativinayo dātabbo, amūḷhavinayo dātabbo, paṭiññāya kāretabbaṁ, yebhuyyasikā, tassapāpiyasikā, tiṇavatthārako. #14",
+            "pli": "uppannuppannānaṁ adhikaraṇānaṁ samathāya vūpasamāya sammukhāvinayo dātabbo, sativinayo dātabbo, amūḷhavinayo dātabbo, paṭiññāya kāretabbaṁ, yebhuyyasikā, tassapāpiyasikā, tiṇavatthārako. ",
             "en": "Removal in the presence of those concerned is applicable. Removal by accurate recollection is applicable. Removal due to recovery from madness is applicable. The acknowledgement of the offense is applicable. The decision of a majority is applicable. A verdict of aggravated misconduct is applicable. Covering over with grass is applicable. ",
             "matched": true
           }

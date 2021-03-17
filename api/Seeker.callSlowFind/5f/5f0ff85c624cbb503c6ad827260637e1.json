@@ -172,7 +172,7 @@
           },
           "an10.60:6.5": {
             "scid": "an10.60:6.5",
-            "pli": "Ayaṁ vuccatānanda, asubhasaññā. #3",
+            "pli": "Ayaṁ vuccatānanda, asubhasaññā. ",
             "en": "This is called the <span class=\"scv-matched\">perception of ugliness</span>. ",
             "matched": true
           }
@@ -445,7 +445,7 @@
         "segMap": {
           "dn33:2.3.25": {
             "scid": "dn33:2.3.25",
-            "pli": "aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. #8",
+            "pli": "aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. ",
             "en": "the perception of impermanence, the perception of not-self, the <span class=\"scv-matched\">perception of ugliness</span>, the perception of drawbacks, the perception of giving up, the perception of fading away, and the perception of cessation. ",
             "matched": true
           }

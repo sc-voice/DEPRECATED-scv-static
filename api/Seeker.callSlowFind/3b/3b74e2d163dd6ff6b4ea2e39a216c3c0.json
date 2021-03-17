@@ -94,7 +94,7 @@
           },
           "an10.60:6.5": {
             "scid": "an10.60:6.5",
-            "pli": "Ayaṁ vuccatānanda, asubhasaññā. #3",
+            "pli": "Ayaṁ vuccatānanda, asubhasaññā. ",
             "de": "Das nennt man die <span class=\"scv-matched\">Wahrnehmung des Hässlichen</span>. ",
             "en": "This is called the perception of ugliness. ",
             "matched": true
@@ -300,7 +300,7 @@
         "segMap": {
           "dn33:2.3.25": {
             "scid": "dn33:2.3.25",
-            "pli": "aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. #8",
+            "pli": "aniccasaññā, anattasaññā, asubhasaññā, ādīnavasaññā, pahānasaññā, virāgasaññā, nirodhasaññā. ",
             "de": "die Wahrnehmung der Unbeständigkeit, die Wahrnehmung des Nicht-selbst, die <span class=\"scv-matched\">Wahrnehmung des Hässlichen</span>, die Wahrnehmung der nachteiligen Folgen, die Wahrnehmung des Aufgebens, die Wahrnehmung des Schwindens und die Wahrnehmung des Aufhörens. ",
             "en": "the perception of impermanence, the perception of not-self, the perception of ugliness, the perception of drawbacks, the perception of giving up, the perception of fading away, and the perception of cessation. ",
             "matched": true

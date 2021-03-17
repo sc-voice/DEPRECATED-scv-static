@@ -223,7 +223,7 @@
         "segMap": {
           "sn43.12:4.8": {
             "scid": "sn43.12:4.8",
-            "pli": "Appaṇihito samādhi. Ayaṁ vuccati, bhikkhave, asaṅkhatagāmimaggo …pe…. #6–8 ",
+            "pli": "Appaṇihito samādhi. Ayaṁ vuccati, bhikkhave, asaṅkhatagāmimaggo …pe….  ",
             "en": "<span class=\"scv-matched\">Undirected</span> immersion. … ",
             "matched": true
           }
@@ -281,7 +281,7 @@
         "segMap": {
           "dn33:1.10.123": {
             "scid": "dn33:1.10.123",
-            "pli": "suññato samādhi, animitto samādhi, appaṇihito samādhi. #51",
+            "pli": "suññato samādhi, animitto samādhi, appaṇihito samādhi. ",
             "en": "emptiness, signless, and <span class=\"scv-matched\">undirected</span>. ",
             "matched": true
           }

@@ -321,7 +321,7 @@
         "segMap": {
           "dn33:1.11.152": {
             "scid": "dn33:1.11.152",
-            "pli": "ekaṁsabyākaraṇīyo pañho, paṭipucchābyākaraṇīyo pañho, vibhajjabyākaraṇīyo pañho, ṭhapanīyo pañho. #28",
+            "pli": "ekaṁsabyākaraṇīyo pañho, paṭipucchābyākaraṇīyo pañho, vibhajjabyākaraṇīyo pañho, ṭhapanīyo pañho. ",
             "de": "Es gibt eine Frage, die mit einer <span class=\"scv-matched\">eindeutig</span>en Aussage zu beantworten ist. Es gibt eine Frage, die mit einer Gegenfrage zu beantworten ist. Es gibt eine Frage, die durch Aufgliederung zu beantworten ist. Es gibt eine Frage, die auszulassen ist. ",
             "en": "There is a question that should be answered definitively. There is a question that should be answered analytically. There is a question that should be answered with a counter-question. There is a question that should be set aside. ",
             "matched": true

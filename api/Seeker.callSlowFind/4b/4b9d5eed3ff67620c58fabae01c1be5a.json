@@ -516,7 +516,7 @@
           },
           "mn33:5.3": {
             "scid": "mn33:5.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu na lakkhaṇakusalo hoti. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu na lakkhaṇakusalo hoti. ",
             "de": "So kennt sich eine Nonne mit den <span class=\"scv-matched\">Kennzeichen</span> nicht aus. ",
             "en": "That’s how a mendicant isn’t skilled in characteristics. ",
             "matched": true
@@ -544,7 +544,7 @@
           },
           "mn33:18.3": {
             "scid": "mn33:18.3",
-            "pli": "Evaṁ kho, bhikkhave, bhikkhu lakkhaṇakusalo hoti. #2",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu lakkhaṇakusalo hoti. ",
             "de": "So kennt sich eine Nonne mit den <span class=\"scv-matched\">Kennzeichen</span> aus. ",
             "en": "That’s how a mendicant is skilled in characteristics. ",
             "matched": true

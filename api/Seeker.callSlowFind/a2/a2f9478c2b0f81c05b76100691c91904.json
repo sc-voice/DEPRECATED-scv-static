@@ -378,25 +378,25 @@
         "segMap": {
           "dn33:1.10.13": {
             "scid": "dn33:1.10.13",
-            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. #5",
+            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
           "dn33:1.10.17": {
             "scid": "dn33:1.10.17",
-            "pli": "kāmasaṅkappo, byāpādasaṅkappo, vihiṁsāsaṅkappo. #7",
+            "pli": "kāmasaṅkappo, byāpādasaṅkappo, vihiṁsāsaṅkappo. ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
           "dn33:1.10.21": {
             "scid": "dn33:1.10.21",
-            "pli": "kāmasaññā, byāpādasaññā, vihiṁsāsaññā. #9",
+            "pli": "kāmasaññā, byāpādasaññā, vihiṁsāsaññā. ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
           "dn33:1.10.25": {
             "scid": "dn33:1.10.25",
-            "pli": "kāmadhātu, byāpādadhātu, vihiṁsādhātu. #11",
+            "pli": "kāmadhātu, byāpādadhātu, vihiṁsādhātu. ",
             "en": "sensuality, malice, and <span class=\"scv-matched\">cruel</span>ty. ",
             "matched": true
           },
@@ -490,7 +490,7 @@
         "segMap": {
           "mn8:12.2": {
             "scid": "mn8:12.2",
-            "pli": "‘Pare vihiṁsakā bhavissanti, mayamettha avihiṁsakā bhavissāmā’ti sallekho karaṇīyo. #1",
+            "pli": "‘Pare vihiṁsakā bhavissanti, mayamettha avihiṁsakā bhavissāmā’ti sallekho karaṇīyo. ",
             "en": "‘Others will be <span class=\"scv-matched\">cruel</span>, but here we will not be <span class=\"scv-matched\">cruel</span>.’ ",
             "matched": true
           },
@@ -502,7 +502,7 @@
           },
           "mn8:14.3": {
             "scid": "mn8:14.3",
-            "pli": "evameva kho, cunda, vihiṁsakassa purisapuggalassa avihiṁsā hoti parikkamanāya, pāṇātipātissa purisapuggalassa pāṇātipātā veramaṇī hoti parikkamanāya, adinnādāyissa purisapuggalassa adinnādānā veramaṇī hoti parikkamanāya, abrahmacārissa purisapuggalassa abrahmacariyā veramaṇī hoti parikkamanāya, musāvādissa purisapuggalassa musāvādā veramaṇī hoti parikkamanāya, pisuṇavācassa purisapuggalassa pisuṇāya vācāya veramaṇī hoti parikkamanāya, pharusavācassa purisapuggalassa pharusāya vācāya veramaṇī hoti parikkamanāya, samphappalāpissa purisapuggalassa samphappalāpā veramaṇī hoti parikkamanāya, abhijjhālussa purisapuggalassa anabhijjhā hoti parikkamanāya, byāpannacittassa purisapuggalassa abyāpādo hoti parikkamanāya. #1–10 ",
+            "pli": "evameva kho, cunda, vihiṁsakassa purisapuggalassa avihiṁsā hoti parikkamanāya, pāṇātipātissa purisapuggalassa pāṇātipātā veramaṇī hoti parikkamanāya, adinnādāyissa purisapuggalassa adinnādānā veramaṇī hoti parikkamanāya, abrahmacārissa purisapuggalassa abrahmacariyā veramaṇī hoti parikkamanāya, musāvādissa purisapuggalassa musāvādā veramaṇī hoti parikkamanāya, pisuṇavācassa purisapuggalassa pisuṇāya vācāya veramaṇī hoti parikkamanāya, pharusavācassa purisapuggalassa pharusāya vācāya veramaṇī hoti parikkamanāya, samphappalāpissa purisapuggalassa samphappalāpā veramaṇī hoti parikkamanāya, abhijjhālussa purisapuggalassa anabhijjhā hoti parikkamanāya, byāpannacittassa purisapuggalassa abyāpādo hoti parikkamanāya.  ",
             "en": "In the same way, a <span class=\"scv-matched\">cruel</span> individual gets around it by not being <span class=\"scv-matched\">cruel</span>. An individual who kills gets around it by not killing. … ",
             "matched": true
           },
@@ -1499,7 +1499,7 @@
         "segMap": {
           "an10.211:6.1": {
             "scid": "an10.211:6.1",
-            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. #6",
+            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. ",
             "en": "They speak harshly. They use the kinds of words that are <span class=\"scv-matched\">cruel</span>, nasty, hurtful, offensive, bordering on anger, not leading to immersion. ",
             "matched": true
           }
@@ -1818,7 +1818,7 @@
         "segMap": {
           "an10.217:9.1": {
             "scid": "an10.217:9.1",
-            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā. Asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. #6",
+            "pli": "Pharusavāco hoti, yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā. Asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. ",
             "en": "They speak harshly. They use the kinds of words that are <span class=\"scv-matched\">cruel</span>, nasty, hurtful, offensive, bordering on anger, not leading to immersion. ",
             "matched": true
           }
@@ -1876,7 +1876,7 @@
         "segMap": {
           "an6.57:2.1": {
             "scid": "an6.57:2.1",
-            "pli": "Tatridaṁ, bhante, pūraṇena kassapena kaṇhābhijāti paññattā, orabbhikā sūkarikā sākuṇikā māgavikā luddā macchaghātakā corā coraghātakā bandhanāgārikā ye vā panaññepi keci kurūrakammantā. #1",
+            "pli": "Tatridaṁ, bhante, pūraṇena kassapena kaṇhābhijāti paññattā, orabbhikā sūkarikā sākuṇikā māgavikā luddā macchaghātakā corā coraghātakā bandhanāgārikā ye vā panaññepi keci kurūrakammantā. ",
             "en": "The black class of rebirth consists of slaughterers of sheep, pigs, poultry, or deer, hunters or fishers, bandits, executioners, butchers of cattle, jailers, and any others with a <span class=\"scv-matched\">cruel</span> livelihood. ",
             "matched": true
           }

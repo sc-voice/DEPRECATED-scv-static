@@ -155,7 +155,7 @@
           },
           "an6.58:3.10": {
             "scid": "an6.58:3.10",
-            "pli": "Ime vuccanti, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti. #1",
+            "pli": "Ime vuccanti, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti. ",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by restraint. ",
             "matched": true
           },
@@ -167,7 +167,7 @@
           },
           "an6.58:4.11": {
             "scid": "an6.58:4.11",
-            "pli": "Ime vuccanti, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti. #2",
+            "pli": "Ime vuccanti, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti. ",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by using. ",
             "matched": true
           },
@@ -179,7 +179,7 @@
           },
           "an6.58:5.4": {
             "scid": "an6.58:5.4",
-            "pli": "Ime vuccanti, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti. #3",
+            "pli": "Ime vuccanti, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti. ",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by enduring. ",
             "matched": true
           },
@@ -191,7 +191,7 @@
           },
           "an6.58:6.4": {
             "scid": "an6.58:6.4",
-            "pli": "Ime vuccanti, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti. #4",
+            "pli": "Ime vuccanti, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti. ",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by avoiding. ",
             "matched": true
           },
@@ -203,7 +203,7 @@
           },
           "an6.58:7.7": {
             "scid": "an6.58:7.7",
-            "pli": "Ime vuccanti, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti. #5",
+            "pli": "Ime vuccanti, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti. ",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by getting rid. ",
             "matched": true
           },
@@ -215,7 +215,7 @@
           },
           "an6.58:8.10": {
             "scid": "an6.58:8.10",
-            "pli": "Ime vuccanti, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti. #6",
+            "pli": "Ime vuccanti, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti. ",
             "en": "These are called the defilements that <span class=\"scv-matched\">should be given up</span> by developing. ",
             "matched": true
           }
@@ -913,7 +913,7 @@
         "title": "Linked Discourses 35\n3. All\n24. Giving Up",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 13,
+          "pli": 12,
           "en": 12
         }
       },
@@ -948,7 +948,7 @@
         "title": "Linked Discourses 35\n3. All\n25. Giving Up By Direct Knowledge and Complete Understanding",
         "segsMatched": 2,
         "langSegs": {
-          "pli": 13,
+          "pli": 12,
           "en": 12
         }
       },

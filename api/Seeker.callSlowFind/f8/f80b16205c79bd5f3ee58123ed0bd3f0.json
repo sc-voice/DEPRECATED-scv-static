@@ -463,7 +463,7 @@
         "segMap": {
           "an1.216:1.1": {
             "scid": "an1.216:1.1",
-            "pli": "… Khippābhiññānaṁ yadidaṁ bāhiyo dārucīriyo. #8",
+            "pli": "… Khippābhiññānaṁ yadidaṁ bāhiyo dārucīriyo. ",
             "de": "… mit <span class=\"scv-matched\">rascher Einsicht</span> ist Bāhiya mit dem Rindenkleid. ",
             "en": "… with swift insight is Bāhiya of the Bark Cloth. ",
             "matched": true
@@ -495,7 +495,7 @@
         "segMap": {
           "an1.243:1.1": {
             "scid": "an1.243:1.1",
-            "pli": "… Khippābhiññānaṁ yadidaṁ bhaddā kuṇḍalakesā. #9",
+            "pli": "… Khippābhiññānaṁ yadidaṁ bhaddā kuṇḍalakesā. ",
             "de": "… mit <span class=\"scv-matched\">rascher Einsicht</span> ist Bhaddā Kuṇḍalakesā. ",
             "en": "… with swift insight is Bhaddā Kuṇḍalakesā. ",
             "matched": true
@@ -527,7 +527,7 @@
         "segMap": {
           "dn33:1.11.135": {
             "scid": "dn33:1.11.135",
-            "pli": "dukkhā paṭipadā dandhābhiññā, dukkhā paṭipadā khippābhiññā, sukhā paṭipadā dandhābhiññā, sukhā paṭipadā khippābhiññā. #21",
+            "pli": "dukkhā paṭipadā dandhābhiññā, dukkhā paṭipadā khippābhiññā, sukhā paṭipadā dandhābhiññā, sukhā paṭipadā khippābhiññā. ",
             "de": "schmerzhafte Übung mit langsamer Einsicht, schmerzhafte Übung mit <span class=\"scv-matched\">rascher Einsicht</span>, angenehme Übung mit langsamer Einsicht und angenehme Übung mit <span class=\"scv-matched\">rascher Einsicht</span>. ",
             "en": "painful practice with slow insight, painful practice with swift insight, pleasant practice with slow insight, and pleasant practice with swift insight. ",
             "matched": true

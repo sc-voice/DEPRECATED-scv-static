@@ -418,25 +418,25 @@
         "segMap": {
           "dn33:1.9.7": {
             "scid": "dn33:1.9.7",
-            "pli": "Ahirikañca anottappañca. #4",
+            "pli": "Ahirikañca anottappañca. ",
             "en": "Lack of <span class=\"scv-matched\">conscience and prudence</span>. ",
             "matched": true
           },
           "dn33:1.9.8": {
             "scid": "dn33:1.9.8",
-            "pli": "Hirī ca ottappañca. #5",
+            "pli": "Hirī ca ottappañca. ",
             "en": "<span class=\"scv-matched\">Conscience and prudence</span>. ",
             "matched": true
           },
           "dn33:2.3.5": {
             "scid": "dn33:2.3.5",
-            "pli": "saddhādhanaṁ, sīladhanaṁ, hiridhanaṁ, ottappadhanaṁ, sutadhanaṁ, cāgadhanaṁ, paññādhanaṁ. #1",
+            "pli": "saddhādhanaṁ, sīladhanaṁ, hiridhanaṁ, ottappadhanaṁ, sutadhanaṁ, cāgadhanaṁ, paññādhanaṁ. ",
             "en": "the wealth of faith, ethical conduct, conscience, prudence, learning, generosity, and wisdom. ",
             "matched": true
           },
           "dn33:2.3.27": {
             "scid": "dn33:2.3.27",
-            "pli": "saddhābalaṁ, vīriyabalaṁ, hiribalaṁ, ottappabalaṁ, satibalaṁ, samādhibalaṁ, paññābalaṁ. #9",
+            "pli": "saddhābalaṁ, vīriyabalaṁ, hiribalaṁ, ottappabalaṁ, satibalaṁ, samādhibalaṁ, paññābalaṁ. ",
             "en": "faith, energy, conscience, prudence, mindfulness, immersion, and wisdom. ",
             "matched": true
           }

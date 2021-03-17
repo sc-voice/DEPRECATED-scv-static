@@ -125,7 +125,7 @@
           },
           "dn1:3.2.1": {
             "scid": "dn1:3.2.1",
-            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. #1",
+            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. ",
             "en": "They assert: ‘The self is sound and <span class=\"scv-matched\">non-percipient</span> after death, and it is physical … ",
             "matched": true
           },
@@ -155,7 +155,7 @@
           },
           "dn1:3.6.1": {
             "scid": "dn1:3.6.1",
-            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā nevasaññīnāsaññī’ti naṁ paññapenti. #1",
+            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā nevasaññīnāsaññī’ti naṁ paññapenti. ",
             "en": "They assert: ‘The self is sound and neither percipient nor <span class=\"scv-matched\">non-percipient</span> after death, and it is physical … ",
             "matched": true
           },
