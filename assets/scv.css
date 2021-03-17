@@ -590,9 +590,16 @@ blockquote {
     --scv-text-font-size: 16px;
     --scv-text-width: 100%;
   }
-  .scv-nav-app-title svg,
-  .scv-nav-app-title img {
+  .scv-nav-app-title svg { 
     display: none;
+  }
+  .scv-nav-app-title img {
+    position: absolute;
+    width: 7pt;
+  }
+  .scv-nav-title {
+    border-top-left-radius: 0.5em;
+    padding-left: 0.3em;
   }
   .nuxt-content {
     max-width: 100%;

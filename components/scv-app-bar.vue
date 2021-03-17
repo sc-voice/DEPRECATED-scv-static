@@ -6,17 +6,17 @@
       <div class="scv-nav-title">{{title}}</div>
     </div>
     <div class="scv-nav-app-icons">
+      <v-btn icon to="/suttas" class="scv-icon-btn" >
+        <v-icon dark>{{mdiMagnify}}</v-icon>
+      </v-btn>
       <scv-settings :js="js" 
         :monolingual="monolingual"
         :version="`version ${version}`"
       />
-      <slot></slot>
       <v-btn icon to="/wiki" class="scv-icon-btn" >
         <v-icon dark>{{mdiWikipedia}}</v-icon>
       </v-btn>
-      <v-btn icon to="/suttas" class="scv-icon-btn" >
-        <v-icon dark>{{mdiMagnify}}</v-icon>
-      </v-btn>
+      <slot></slot>
     </div>
   </div>
 </template>
