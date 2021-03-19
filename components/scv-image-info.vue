@@ -37,6 +37,12 @@
           <a :href="pexelsUrl" target="_blank"> <code>{{pexelsUrl}}</code> </a>
         </td>
       </tr>
+      <tr v-if="article.imgSrc">
+        <td>Source</td>
+        <td>
+          <a :href="article.imgSrc" target="_blank"> <code>{{article.imgSrc}}</code> </a>
+        </td>
+      </tr>
     </tbody>
   </table>
 </template>
