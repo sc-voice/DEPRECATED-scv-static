@@ -37,6 +37,12 @@
           <a :href="pexelsUrl" target="_blank"> <code>{{pexelsUrl}}</code> </a>
         </td>
       </tr>
+      <tr v-if="/-?pixabay-?/.test(article.slug)">
+        <td>Source</td>
+        <td>
+          <a :href="pixabayUrl" target="_blank"> <code>{{pixabayUrl}}</code> </a>
+        </td>
+      </tr>
       <tr v-if="article.imgSrc">
         <td>Source</td>
         <td>
@@ -62,6 +68,13 @@
         let { protocol, host, pathname } = window.location;
         let pathParts = pathname.split('/');
         return `${protocol}//${host}/${pathParts[1]}/${slug}.png`;
+      },
+      pixabayUrl() {
+        let { slug } = this.article;
+        let id = slug
+          .replace(/-?pixabay-?/, '')
+          .replace(/_[0-9]+$/, '')
+        return `https://pixabay.com/photos/${id}`;
       },
       pexelsUrl() {
         let { slug } = this.article;
