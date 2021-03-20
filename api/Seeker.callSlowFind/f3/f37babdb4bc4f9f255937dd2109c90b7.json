@@ -32,7 +32,7 @@
     "pattern": "auf beiden seiten",
     "method": "phrase",
     "resultPattern": "\\bauf beiden seiten",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.44_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "an5.51/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
       "dn17/de/sabbamitta",
+      "an6.45/de/sabbamitta",
       "an5.44/de/sabbamitta",
       "an5.43/de/sabbamitta",
       "an3.65/de/sabbamitta",
@@ -431,6 +435,38 @@
           "pli": 79,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.45",
+        "lang": "de",
+        "segMap": {
+          "an6.45:22.2": {
+            "scid": "an6.45:22.2",
+            "pli": "saddhassa gharamesino; ",
+            "de": "gewinnt <span class=\"scv-matched\">auf beiden Seiten</span>: ",
+            "en": "wins both ways: ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n45. Schulden",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "de": 99,
+          "en": 99
         }
       },
       {

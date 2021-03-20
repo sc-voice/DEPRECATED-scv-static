@@ -30,48 +30,48 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vertrauensvolle hausbesitzer",
-    "method": "keywords",
-    "resultPattern": "\\bvertrauensvolle|\\bhausbesitzer",
+    "method": "phrase",
+    "resultPattern": "\\bvertrauensvolle hausbesitzer",
     "segsMatched": 1,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an4.122/de/sabbamitta"
+      "an6.45/de/sabbamitta"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json"
         ],
         "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "an4.122",
+        "sutta_uid": "an6.45",
         "lang": "de",
         "segMap": {
-          "an4.122:3.13": {
-            "scid": "an4.122:3.13",
-            "pli": "yampi no saddhā gahapatikā divā vikāle paṇītaṁ khādanīyaṁ vā bhojanīyaṁ vā denti, tatrapime mukhāvaraṇaṁ maññe karontī’ti. ",
-            "de": "Und diese <span class=\"scv-matched\">vertrauensvolle</span>n <span class=\"scv-matched\">Hausbesitzer</span> geben uns verschiedene köstliche Speisen zur falschen Tageszeit. Doch diese Mönche denken, sie könnten uns den Mund zuhalten!‘ ",
-            "en": "And these faithful householders give us a variety of delicious foods at the wrong time of day. But these mendicants imagine they can gag our mouths!’ ",
+          "an6.45:22.1": {
+            "scid": "an6.45:22.1",
+            "pli": "Ubhayattha kaṭaggāho, ",
+            "de": "Dieser <span class=\"scv-matched\">vertrauensvolle Hausbesitzer</span> ",
+            "en": "That faithful householder ",
             "matched": true
           }
         },
-        "score": 1.015,
+        "score": 1.01,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n13. Furcht\n122. Gefahr durch Wellen",
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n45. Schulden",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 68,
-          "de": 67,
-          "en": 67
+          "pli": 100,
+          "de": 99,
+          "en": 99
         }
       }
     ]

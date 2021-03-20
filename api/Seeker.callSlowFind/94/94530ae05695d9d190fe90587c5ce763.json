@@ -32,7 +32,7 @@
     "pattern": "gewissen und zurückhaltung",
     "method": "phrase",
     "resultPattern": "\\bgewissen und zurückhaltung",
-    "segsMatched": 26,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.180-229_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.87-97_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.87-97_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.87-97_translation-en-sujato.json",
@@ -62,6 +65,7 @@
       "an2.1-10/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "an6.45/de/sabbamitta",
       "an2.87-97/de/sabbamitta",
       "an2.230-279/de/sabbamitta"
     ],
@@ -219,6 +223,52 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.45",
+        "lang": "de",
+        "segMap": {
+          "an6.45:7.2": {
+            "scid": "an6.45:7.2",
+            "pli": "evamevaṁ kho, bhikkhave, yassa kassaci saddhā natthi kusalesu dhammesu, hirī natthi kusalesu dhammesu, ottappaṁ natthi kusalesu dhammesu, vīriyaṁ natthi kusalesu dhammesu, paññā natthi kusalesu dhammesu—",
+            "de": "Ebenso gilt jeder, der kein Vertrauen, kein Gewissen, keine Zurückhaltung, keine Energie und keine Weisheit besitzt, wenn es um taugliche Eigenschaften geht, ",
+            "en": "In the same way, whoever has no faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities ",
+            "matched": true
+          },
+          "an6.45:8.1": {
+            "scid": "an6.45:8.1",
+            "pli": "Sa kho so, bhikkhave, daliddo assako anāḷhiko saddhāya asati kusalesu dhammesu, hiriyā asati kusalesu dhammesu, ottappe asati kusalesu dhammesu, vīriye asati kusalesu dhammesu, paññāya asati kusalesu dhammesu, kāyena duccaritaṁ carati, vācāya duccaritaṁ carati, manasā duccaritaṁ carati. ",
+            "de": "Weil dieser Mensch kein Vertrauen, kein Gewissen, keine Zurückhaltung, keine Energie und keine Weisheit besitzt, wenn es um taugliche Eigenschaften geht, tut er Schlechtes mit dem Körper, der Sprache und dem Geist. ",
+            "en": "Since they have no faith, conscience, prudence, energy, or wisdom when it comes to skillful qualities, they do bad things by way of body, speech, and mind. ",
+            "matched": true
+          },
+          "an6.45:23.3": {
+            "scid": "an6.45:23.3",
+            "pli": "Hirīmano ca ottappī, ",
+            "de": "der <span class=\"scv-matched\">Gewissen und Zurückhaltung</span> besitzt, ",
+            "en": "with conscience and prudence, ",
+            "matched": true
+          }
+        },
+        "score": 3.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n45. Schulden",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 100,
+          "de": 99,
+          "en": 99
         }
       },
       {
