@@ -32,7 +32,7 @@
     "pattern": "gut befreit",
     "method": "phrase",
     "resultPattern": "\\bgut befreit",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig2.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig2.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig2.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.43_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.43_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "thig2.3/de/sabbamitta",
       "thag1.43/de/sabbamitta",
       "an5.200/de/sabbamitta",
       "thig1.11/de/sabbamitta"
@@ -204,6 +208,45 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig2.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig2.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig2.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig2.3",
+        "lang": "de",
+        "segMap": {
+          "thig2.3:1.1": {
+            "scid": "thig2.3:1.1",
+            "pli": "“Sumuttikā sumuttikā,",
+            "de": "<span class=\"scv-matched\">Gut befreit</span>! <span class=\"scv-matched\">Gut befreit</span>! ",
+            "en": "I’m well freed, well freed,",
+            "matched": true
+          },
+          "thig2.3:1.2": {
+            "scid": "thig2.3:1.2",
+            "pli": "Sādhumuttikāmhi musalassa;",
+            "de": "Wirklich so <span class=\"scv-matched\">gut befreit</span> bin ich vom Stoßen des Stößels! ",
+            "en": "so very well freed!",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Zweierbuch\n2.3. Sumaṅgalas Mutter",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
         }
       },
       {
