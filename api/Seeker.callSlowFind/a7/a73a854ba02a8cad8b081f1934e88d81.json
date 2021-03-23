@@ -31,19 +31,16 @@
     "pattern": "the problem",
     "method": "phrase",
     "resultPattern": "\\bthe problem",
-    "segsMatched": 3,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn56/en/sujato",
-      "dn23/en/sujato",
-      "pli-tv-bu-vb-pj1/en/brahmali"
+      "dn23/en/sujato"
     ],
     "mlDocs": [
       {
@@ -102,35 +99,6 @@
         "langSegs": {
           "pli": 715,
           "en": 713
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj1:2.1.15": {
-            "scid": "pli-tv-bu-vb-pj1:2.1.15",
-            "pli": "Tumhehi, ānanda, sappurisehi vijitaṁ. Pacchimā janatā sālimaṁsodanaṁ atimaññissatī”ti.",
-            "en": "You who are superior people have conquered <span class=\"scv-matched\">the problem</span>s of famine; later generations will despise even rice and meat. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1450,
-          "en": 1422
         }
       }
     ]

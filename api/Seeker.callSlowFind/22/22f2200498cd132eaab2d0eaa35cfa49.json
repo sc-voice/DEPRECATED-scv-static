@@ -31,7 +31,7 @@
     "pattern": "door to the deathless",
     "method": "phrase",
     "resultPattern": "\\bdoor to the deathless",
-    "segsMatched": 13,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
@@ -44,9 +44,7 @@
       "root/pli/ms/sutta/kn/iti/vagga9/iti84_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti84_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.16_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn6.1/en/sujato",
@@ -54,8 +52,7 @@
       "mn52/en/sujato",
       "mn26/en/sujato",
       "iti84/en/sujato",
-      "an11.16/en/sujato",
-      "pli-tv-kd1/en/brahmali"
+      "an11.16/en/sujato"
     ],
     "mlDocs": [
       {
@@ -231,41 +228,6 @@
         "langSegs": {
           "pli": 553,
           "en": 552
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:5.7.4": {
-            "scid": "pli-tv-kd1:5.7.4",
-            "pli": "Apāpuretaṁ amatassa dvāraṁ,",
-            "en": "Open this <span class=\"scv-matched\">door to the deathless</span>! ",
-            "matched": true
-          },
-          "pli-tv-kd1:5.12.2": {
-            "scid": "pli-tv-kd1:5.12.2",
-            "pli": "“Apārutā tesaṁ amatassa dvārā,",
-            "en": "“Open to them are the doors to the deathless; ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       },
       {

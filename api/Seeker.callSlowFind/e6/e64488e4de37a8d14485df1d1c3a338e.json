@@ -31,7 +31,7 @@
     "pattern": "rose-apple",
     "method": "phrase",
     "resultPattern": "\\brose-apple",
-    "segsMatched": 12,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn48/sn48.67_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.67_translation-en-sujato.json",
@@ -42,75 +42,16 @@
       "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag4.11_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag4.11_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/kn/thag/thag4.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn48.67/en/sujato",
       "mn85/en/sujato",
       "mn36/en/sujato",
       "mn100/en/sujato",
-      "thag4.11/en/sujato",
-      "pli-tv-kd1/en/brahmali",
-      "pli-tv-kd6/en/brahmali"
+      "thag4.11/en/sujato"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:20.7.3": {
-            "scid": "pli-tv-kd1:20.7.3",
-            "pli": "“Gaccha tvaṁ, kassapa, āyāmahan”ti uruvelakassapaṁ jaṭilaṁ uyyojetvā yāya jambuyā “jambudīpo” paññāyati, tato phalaṁ gahetvā paṭhamataraṁ āgantvā agyāgāre nisīdi.",
-            "en": "“You just go ahead, Kassapa, I’ll come.” After dismissing him, he took a fruit from a <span class=\"scv-matched\">rose-apple</span> tree—the tree after which the <span class=\"scv-matched\">Rose-apple</span> Land of India is named—and then arrived first in the fire hut, where he sat down. ",
-            "matched": true
-          },
-          "pli-tv-kd1:20.9.6": {
-            "scid": "pli-tv-kd1:20.9.6",
-            "pli": "“mahiddhiko kho mahāsamaṇo mahānubhāvo, yatra hi nāma maṁ paṭhamataraṁ uyyojetvā yāya jambuyā ‘jambudīpo’ paññāyati, tato phalaṁ gahetvā paṭhamataraṁ āgantvā agyāgāre nisīdissati, na tveva ca kho arahā yathā ahan”ti.",
-            "en": "“The Great Ascetic is powerful and mighty, in that he dismissed me, then took a fruit from a <span class=\"scv-matched\">rose-apple</span> tree, and still arrived first in the fire hut. But he’s not a perfected one like me.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:20.10.3": {
-            "scid": "pli-tv-kd1:20.10.3",
-            "pli": "“Gaccha tvaṁ, kassapa, āyāmahan”ti uruvelakassapaṁ jaṭilaṁ uyyojetvā yāya jambuyā “jambudīpo” paññāyati, tassā avidūre ambo …pe…",
-            "en": "“You just go ahead, Kassapa, I’ll come.” After dismissing him, he took a fruit from a mango tree not far from the <span class=\"scv-matched\">rose-apple</span> tree … ",
-            "matched": true
-          },
-          "pli-tv-kd1:20.10.4": {
-            "scid": "pli-tv-kd1:20.10.4",
-            "pli": "tassā avidūre āmalakī …pe…",
-            "en": "he took a fruit from an emblic myrobalan tree not far from the <span class=\"scv-matched\">rose-apple</span> tree … ",
-            "matched": true
-          },
-          "pli-tv-kd1:20.10.5": {
-            "scid": "pli-tv-kd1:20.10.5",
-            "pli": "tassā avidūre harītakī …pe…",
-            "en": "he took a fruit from a chebulic myrobalan tree not far from the <span class=\"scv-matched\">rose-apple</span> tree … ",
-            "matched": true
-          }
-        },
-        "score": 5.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 5,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn48/sn48.67_root-pli-ms.json",
@@ -260,35 +201,6 @@
         "langSegs": {
           "pli": 553,
           "en": 552
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd6",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd6:35.6.3": {
-            "scid": "pli-tv-kd6:35.6.3",
-            "pli": "ambapānaṁ jambupānaṁ cocapānaṁ mocapānaṁ madhūkapānaṁ muddikapānaṁ sālūkapānaṁ phārusakapānaṁ.",
-            "en": "mango drinks, <span class=\"scv-matched\">rose-apple</span> drinks, drinks from bananas with seeds, drinks from seedless bananas, licorice drinks, grape drinks, drinks made from lotus tubers, falsa fruit drinks. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1643,
-          "en": 1375
         }
       }
     ]

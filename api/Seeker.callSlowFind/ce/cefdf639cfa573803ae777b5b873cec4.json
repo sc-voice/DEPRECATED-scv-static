@@ -31,7 +31,7 @@
     "pattern": "the doors to the deathless",
     "method": "phrase",
     "resultPattern": "\\bthe doors to the deathless",
-    "segsMatched": 6,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
@@ -42,17 +42,14 @@
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn6.1/en/sujato",
       "mn85/en/sujato",
       "mn26/en/sujato",
       "dn18/en/sujato",
-      "dn14/en/sujato",
-      "pli-tv-kd1/en/brahmali"
+      "dn14/en/sujato"
     ],
     "mlDocs": [
       {
@@ -198,35 +195,6 @@
         "langSegs": {
           "pli": 851,
           "en": 850
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:5.12.2": {
-            "scid": "pli-tv-kd1:5.12.2",
-            "pli": "“Apārutā tesaṁ amatassa dvārā,",
-            "en": "“Open to them are <span class=\"scv-matched\">the doors to the deathless</span>; ",
-            "matched": true
-          }
-        },
-        "score": 1,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       }
     ]

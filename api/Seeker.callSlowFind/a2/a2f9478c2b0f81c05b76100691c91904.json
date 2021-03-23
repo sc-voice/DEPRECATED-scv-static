@@ -31,7 +31,7 @@
     "pattern": "cruel",
     "method": "phrase",
     "resultPattern": "\\bcruel",
-    "segsMatched": 118,
+    "segsMatched": 116,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
@@ -170,11 +170,7 @@
       "root/pli/ms/sutta/an/an10/an10.20_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc64_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc64_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj6_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj6_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn35.95/en/sujato",
@@ -245,9 +241,7 @@
       "an10.212/en/sujato",
       "an10.211/en/sujato",
       "an10.20/en/sujato",
-      "an10.176/en/sujato",
-      "pli-tv-bu-vb-pc64/en/brahmali",
-      "pli-tv-bi-vb-pj6/en/brahmali"
+      "an10.176/en/sujato"
     ],
     "mlDocs": [
       {
@@ -1839,35 +1833,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc64_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc64_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc64",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc64:2.3.4": {
-            "scid": "pli-tv-bu-vb-pc64:2.3.4",
-            "pli": "“ayaṁ kakkhaḷo pharuso jīvitantarāyaṁ vā brahmacariyantarāyaṁ vā karissatī”ti nāroceti,",
-            "en": "if he does not tell because he thinks the person he is telling about is <span class=\"scv-matched\">cruel</span> and harsh and that he might become a danger to life or to the living of the spiritual life; ",
-            "matched": true
-          }
-        },
-        "score": 1.016,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on containing living beings",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 58,
-          "en": 63
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.57_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an6/an6.57_translation-en-sujato.json"
         ],
@@ -1893,35 +1858,6 @@
         "langSegs": {
           "pli": 67,
           "en": 66
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj6_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pj/pli-tv-bi-vb-pj6_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bi-vb-pj6",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bi-vb-pj6:2.2.4": {
-            "scid": "pli-tv-bi-vb-pj6:2.2.4",
-            "pli": "“ayaṁ kakkhaḷā pharusā jīvitantarāyaṁ vā brahmacariyantarāyaṁ vā karissatī”ti nāroceti,",
-            "en": "if she does not tell because she thinks the person she is telling about is <span class=\"scv-matched\">cruel</span> and harsh and that she might become a danger to life or to the living of the spiritual life; ",
-            "matched": true
-          }
-        },
-        "score": 1.014,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe nuns’ rules and their analysis\nThe chapter on offenses entailing expulsion\n6. The training rule on those who conceal offenses",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 69,
-          "en": 73
         }
       },
       {
@@ -1980,6 +1916,64 @@
         "langSegs": {
           "pli": 76,
           "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.60",
+        "lang": "en",
+        "segMap": {
+          "an10.60:8.2": {
+            "scid": "an10.60:8.2",
+            "pli": "Idhānanda, bhikkhu uppannaṁ kāmavitakkaṁ nādhivāseti, pajahati, vinodeti, byantīkaroti, anabhāvaṁ gameti. Uppannaṁ byāpādavitakkaṁ nādhivāseti, pajahati, vinodeti, byantīkaroti, anabhāvaṁ gameti. Uppannaṁ vihiṁsāvitakkaṁ nādhivāseti, pajahati, vinodeti, byantīkaroti, anabhāvaṁ gameti. Uppannuppanne pāpake akusale dhamme nādhivāseti, pajahati, vinodeti, byantīkaroti, anabhāvaṁ gameti. ",
+            "en": "It’s when a mendicant doesn’t tolerate a sensual, malicious, or <span class=\"scv-matched\">cruel</span> thought that has arisen, and they don’t tolerate any bad, unskillful qualities that have arisen, but give them up, get rid of them, eliminate them, and obliterate them. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n6. Your Own Mind\n60. With Girimānanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn55",
+        "lang": "en",
+        "segMap": {
+          "mn55:11.6": {
+            "scid": "mn55:11.6",
+            "pli": "“Yena kho, jīvaka, rāgena yena dosena yena mohena vihesavā assa arativā assa paṭighavā assa so rāgo so doso so moho tathāgatassa pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo. ",
+            "en": "“Any greed, hate, or delusion that might give rise to <span class=\"scv-matched\">cruel</span>ty, negativity, or repulsion has been given up by the Realized One, cut off at the root, made like a palm stump, obliterated, and is unable to arise in the future. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 55\nWith Jīvaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "en": 79
         }
       }
     ]

@@ -31,7 +31,7 @@
     "pattern": "goosebumps",
     "method": "phrase",
     "resultPattern": "\\bgoosebumps",
-    "segsMatched": 36,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
@@ -78,11 +78,7 @@
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn10.8/en/sujato",
@@ -107,9 +103,7 @@
       "thag17.3/en/sujato",
       "thag1.6/en/sujato",
       "dn18/en/sujato",
-      "dn16/en/sujato",
-      "pli-tv-kd6/en/brahmali",
-      "pli-tv-kd16/en/brahmali"
+      "dn16/en/sujato"
     ],
     "mlDocs": [
       {
@@ -843,64 +837,6 @@
         "langSegs": {
           "pli": 1665,
           "en": 1664
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd6",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd6:26.7.4": {
-            "scid": "pli-tv-kd6:26.7.4",
-            "pli": "Atha kho belaṭṭho kaccāno saṁviggo lomahaṭṭhajāto yena bhagavā tenupasaṅkami, upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi.",
-            "en": "Belaṭṭha Kaccāna was awestruck, with <span class=\"scv-matched\">goosebumps</span> all over. He approached the Buddha, bowed, and sat down. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1643,
-          "en": 1375
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd16",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd16:4.3.3": {
-            "scid": "pli-tv-kd16:4.3.3",
-            "pli": "Atha kho anāthapiṇḍikassa gahapatissa nagaramhā nikkhantassa āloko antaradhāyi, andhakāro pāturahosi, bhayaṁ chambhitattaṁ lomahaṁso udapādi;",
-            "en": "Then, as he was leaving town, the light disappeared and it was dark. He was paralyzed with fear, with <span class=\"scv-matched\">goosebumps</span> all over, ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on dwellings\nThe allowance for dwellings",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1556,
-          "en": 1214
         }
       }
     ]

@@ -31,7 +31,7 @@
     "pattern": "the recollection of",
     "method": "phrase",
     "resultPattern": "\\bthe recollection of",
-    "segsMatched": 30,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
@@ -48,9 +48,7 @@
       "root/pli/ms/sutta/an/an6/an6.64_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.64_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.141_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an6/an6.141_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an6/an6.141_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an1.394-574/en/sujato",
@@ -60,8 +58,7 @@
       "dn33/en/sujato",
       "an6.9/en/sujato",
       "an6.64/en/sujato",
-      "an6.141/en/sujato",
-      "pli-tv-bu-vb-pj1/en/brahmali"
+      "an6.141/en/sujato"
     ],
     "mlDocs": [
       {
@@ -420,35 +417,6 @@
         "langSegs": {
           "pli": 8,
           "en": 7
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj1:1.6.1": {
-            "scid": "pli-tv-bu-vb-pj1:1.6.1",
-            "pli": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte pubbenivāsānussatiñāṇāya cittaṁ abhininnāmesiṁ.",
-            "en": "Then, with my mind collected, purified, cleansed, flawless, free from defilements, supple, wieldy, steady, and imperturbable, I directed it to the knowledge which is <span class=\"scv-matched\">the recollection of</span> former lives. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1450,
-          "en": 1422
         }
       }
     ]

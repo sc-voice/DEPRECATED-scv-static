@@ -31,7 +31,7 @@
     "pattern": "marks",
     "method": "phrase",
     "resultPattern": "\\bmarks",
-    "segsMatched": 104,
+    "segsMatched": 99,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
@@ -82,13 +82,7 @@
       "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.59_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.58_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.58_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc84_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc84_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an3/an3.58_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn30/en/sujato",
@@ -114,10 +108,7 @@
       "an7.71/en/sujato",
       "an5.192/en/sujato",
       "an3.59/en/sujato",
-      "an3.58/en/sujato",
-      "pli-tv-bu-vb-pj1/en/brahmali",
-      "pli-tv-bu-vb-pc84/en/brahmali",
-      "pli-tv-kd15/en/brahmali"
+      "an3.58/en/sujato"
     ],
     "mlDocs": [
       {
@@ -908,41 +899,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc84_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc84_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc84",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc84:4.1.20": {
-            "scid": "pli-tv-bu-vb-pc84:4.1.20",
-            "pli": "rūpena vā nimittena vā saññāṇaṁ katvā nikkhipitvā ācikkhitabbaṁ—“yassa bhaṇḍaṁ naṭṭhaṁ so āgacchatū”ti.",
-            "en": "after taking note of its appearance or distinguishing <span class=\"scv-matched\">marks</span>, he should put it aside, and then make an announcement: “Whoever has lost anything should come.” ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc84:4.1.22": {
-            "scid": "pli-tv-bu-vb-pc84:4.1.22",
-            "pli": "Sace rūpena vā nimittena vā sampādeti dātabbaṁ, no ce sampādeti “vicināhi, āvuso”ti vattabbo.",
-            "en": "If they rightly describe the appearance or distinguishing <span class=\"scv-matched\">marks</span>, it should be given to them. If they do not, they should be told, “Keep looking.” ",
-            "matched": true
-          }
-        },
-        "score": 2.021,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on precious things",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 86,
-          "en": 95
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
         ],
@@ -1009,41 +965,6 @@
         "langSegs": {
           "pli": 649,
           "en": 632
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj1:8.3.50": {
-            "scid": "pli-tv-bu-vb-pj1:8.3.50",
-            "pli": "tehi ākārehi tehi liṅgehi tehi nimittehi vadati viññāpeti.",
-            "en": "he speaks and declares by way of these indications, by way of these <span class=\"scv-matched\">marks</span>, by way of these signs. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj1:8.4.2": {
-            "scid": "pli-tv-bu-vb-pj1:8.4.2",
-            "pli": "Idha, bhikkhave, yehi ākārehi yehi liṅgehi yehi nimittehi sikkhā paccakkhātā hoti tehi ākārehi tehi liṅgehi tehi nimittehi ummattako sikkhaṁ paccakkhāti, apaccakkhātā hoti sikkhā.",
-            "en": "If you renounce the training by way of these indications, by way of these <span class=\"scv-matched\">marks</span>, by way of these signs, but you’re insane, then the training isn’t renounced. ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1450,
-          "en": 1422
         }
       },
       {
@@ -1334,35 +1255,6 @@
         "langSegs": {
           "pli": 306,
           "en": 303
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd15",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd15:9.2.15": {
-            "scid": "pli-tv-kd15:9.2.15",
-            "pli": "Valī honti.",
-            "en": "There were <span class=\"scv-matched\">marks</span> left from the carving. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter with short topics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1854,
-          "en": 1528
         }
       }
     ]

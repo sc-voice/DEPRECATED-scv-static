@@ -31,7 +31,7 @@
     "pattern": "against the stream",
     "method": "phrase",
     "resultPattern": "\\bagainst the stream",
-    "segsMatched": 14,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.5_translation-en-sujato.json",
@@ -44,13 +44,7 @@
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd20_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd20_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc28_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc28_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.5/en/sujato",
@@ -58,10 +52,7 @@
       "sn6.1/en/sujato",
       "mn85/en/sujato",
       "mn26/en/sujato",
-      "dn14/en/sujato",
-      "pli-tv-kd20/en/brahmali",
-      "pli-tv-kd1/en/brahmali",
-      "pli-tv-bu-vb-pc28/en/brahmali"
+      "dn14/en/sujato"
     ],
     "mlDocs": [
       {
@@ -148,41 +139,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd20_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd20_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd20",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd20:27.4.19": {
-            "scid": "pli-tv-kd20:27.4.19",
-            "pli": "Tena kho pana samayena bhikkhuniyo paṭisote nahāyanti dhārāsamphassaṁ sādiyantī.",
-            "en": "On one occasion the nuns were bathing <span class=\"scv-matched\">against the stream</span>, consenting to the touch of the current. ",
-            "matched": true
-          },
-          "pli-tv-kd20:27.4.21": {
-            "scid": "pli-tv-kd20:27.4.21",
-            "pli": "“Na, bhikkhave, bhikkhuniyā paṭisote nahāyitabbaṁ.",
-            "en": "“A nun should not bathe <span class=\"scv-matched\">against the stream</span>. ",
-            "matched": true
-          }
-        },
-        "score": 2.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on nuns\nThe account of Mahāpajāpati Gotamī",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1228,
-          "en": 1045
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
         ],
@@ -208,35 +164,6 @@
         "langSegs": {
           "pli": 53,
           "en": 53
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc28_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc28_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc28",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc28:3.1.15": {
-            "scid": "pli-tv-bu-vb-pc28:3.1.15",
-            "pli": "ujjavanikāya.",
-            "en": "for the purpose of going <span class=\"scv-matched\">against the stream</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.012,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on the instruction",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 73,
-          "en": 81
         }
       },
       {
@@ -324,35 +251,6 @@
         "langSegs": {
           "pli": 851,
           "en": 850
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:5.3.8": {
-            "scid": "pli-tv-kd1:5.3.8",
-            "pli": "Rāgarattā na dakkhanti,",
-            "en": "Won’t see what goes <span class=\"scv-matched\">against the stream</span>, ",
-            "matched": true
-          }
-        },
-        "score": 1,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       }
     ]

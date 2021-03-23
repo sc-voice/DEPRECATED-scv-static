@@ -31,25 +31,19 @@
     "pattern": "study",
     "method": "phrase",
     "resultPattern": "\\bstudy",
-    "segsMatched": 7,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.73_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.73_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.9_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.9_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd8_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd8_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.9_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.73/en/sujato",
       "an5.192/en/sujato",
-      "ud3.9/en/sujato",
-      "pli-tv-kd8/en/brahmali",
-      "pli-tv-kd15/en/brahmali"
+      "ud3.9/en/sujato"
     ],
     "mlDocs": [
       {
@@ -149,64 +143,6 @@
         "langSegs": {
           "pli": 74,
           "en": 35
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd8_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd8_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd8",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd8:1.6.7": {
-            "scid": "pli-tv-kd8:1.6.7",
-            "pli": "“ahaṁ kho bahuñca gaṇhāmi lahuñca gaṇhāmi suṭṭhu ca upadhāremi, gahitañca me na sammussati, satta ca me vassāni adhīyantassa, nayimassa sippassa anto paññāyati.",
-            "en": "“I’m a good learner, and I’ve been <span class=\"scv-matched\">study</span>ing for seven years. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on robes\nThe account of Jīvaka",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1534,
-          "en": 1248
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd15",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd15:33.2.22": {
-            "scid": "pli-tv-kd15:33.2.22",
-            "pli": "“Na, bhikkhave, tiracchānavijjā pariyāpuṇitabbā.",
-            "en": "“You should not <span class=\"scv-matched\">study</span> pointless knowledge. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter with short topics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1854,
-          "en": 1528
         }
       }
     ]

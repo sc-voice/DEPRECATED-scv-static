@@ -31,7 +31,7 @@
     "pattern": "little dust in their eyes",
     "method": "phrase",
     "resultPattern": "\\blittle dust in their eyes",
-    "segsMatched": 19,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -44,9 +44,7 @@
       "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn14/en/sujato",
@@ -54,8 +52,7 @@
       "mn26/en/sujato",
       "mn85/en/sujato",
       "sn4.5/en/sujato",
-      "mn143/en/sujato",
-      "pli-tv-kd1/en/brahmali"
+      "mn143/en/sujato"
     ],
     "mlDocs": [
       {
@@ -197,47 +194,6 @@
         "langSegs": {
           "pli": 365,
           "en": 364
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:5.6.3": {
-            "scid": "pli-tv-kd1:5.6.3",
-            "pli": "Santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, bhavissanti dhammassa aññātāro”ti.",
-            "en": "There are beings with <span class=\"scv-matched\">little dust in their eyes</span> who are ruined because of not hearing the Teaching. There will be those who understand.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:5.11.1": {
-            "scid": "pli-tv-kd1:5.11.1",
-            "pli": "Addasā kho bhagavā buddhacakkhunā lokaṁ volokento satte apparajakkhe mahārajakkhe tikkhindriye mudindriye svākāre dvākāre suviññāpaye duviññāpaye, appekacce paralokavajjabhayadassāvine viharante, appekacce na paralokavajjabhayadassāvine viharante.",
-            "en": "He saw beings with <span class=\"scv-matched\">little dust in their eyes</span> and with much dust in their eyes, with sharp faculties and with dull faculties, with good qualities and with bad qualities, those easy to teach and those difficult to teach, and he even saw some who regarded the next world as dangerous and to be avoided. ",
-            "matched": true
-          },
-          "pli-tv-kd1:11.1.7": {
-            "scid": "pli-tv-kd1:11.1.7",
-            "pli": "Santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, bhavissanti dhammassa aññātāro.",
-            "en": "There are beings with <span class=\"scv-matched\">little dust in their eyes</span> who are ruined because of not hearing the Teaching. There will be those who understand. ",
-            "matched": true
-          }
-        },
-        "score": 3.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "a condition for old age and death",
     "method": "phrase",
     "resultPattern": "\\ba condition for old age and death",
-    "segsMatched": 45,
+    "segsMatched": 44,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
@@ -84,9 +84,7 @@
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.92_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.92_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an10/an10.92_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn38/en/sujato",
@@ -114,8 +112,7 @@
       "ud1.1/en/sujato",
       "dn1/en/sujato",
       "an3.61/en/sujato",
-      "an10.92/en/sujato",
-      "pli-tv-kd1/en/brahmali"
+      "an10.92/en/sujato"
     ],
     "mlDocs": [
       {
@@ -978,35 +975,6 @@
         "langSegs": {
           "pli": 662,
           "en": 661
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:1.2.2": {
-            "scid": "pli-tv-kd1:1.2.2",
-            "pli": "“Avijjāpaccayā saṅkhārā, saṅkhārapaccayā viññāṇaṁ, viññāṇapaccayā nāmarūpaṁ, nāmarūpapaccayā saḷāyatanaṁ, saḷāyatanapaccayā phasso, phassapaccayā vedanā, vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ, upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti.",
-            "en": "“Ignorance is a condition for intentional activities; intentional activities are a condition for consciousness; consciousness is a condition for name and form; name and form are a condition for the six sense spheres; the six sense spheres are a condition for contact; contact is a condition for feeling; feeling is a condition for craving; craving is a condition for grasping; grasping is a condition for existence; existence is a condition for birth; birth is <span class=\"scv-matched\">a condition for old age and death</span>, for grief, sorrow, pain, aversion, and distress to come to be. ",
-            "matched": true
-          }
-        },
-        "score": 1,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       }
     ]

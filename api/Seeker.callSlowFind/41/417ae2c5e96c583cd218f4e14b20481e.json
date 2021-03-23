@@ -31,187 +31,18 @@
     "pattern": "four foundations",
     "method": "phrase",
     "resultPattern": "\\bfour foundations",
-    "segsMatched": 26,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd19_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd19_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn140/en/sujato",
-      "dn33/en/sujato",
-      "pli-tv-bu-vb-pj4/en/brahmali",
-      "pli-tv-bu-vb-pc8/en/brahmali",
-      "pli-tv-kd19/en/brahmali"
+      "dn33/en/sujato"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj4",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj4:4.1.14": {
-            "scid": "pli-tv-bu-vb-pj4:4.1.14",
-            "pli": "cattāro satipaṭṭhānā, cattāro sammappadhānā, cattāro iddhipādā, pañcindriyāni, pañca balāni, satta bojjhaṅgā, ariyo aṭṭhaṅgiko maggo.",
-            "en": "the four applications of mindfulness, the four right efforts, the <span class=\"scv-matched\">four foundations</span> for supernormal power, the five spiritual faculties, the five spiritual powers, the seven factors of awakening, the noble eightfold path. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.5.33": {
-            "scid": "pli-tv-bu-vb-pj4:4.5.33",
-            "pli": "cattāro iddhipāde samāpajjiṁ …",
-            "en": "… “I attained the <span class=\"scv-matched\">four foundations</span> for supernormal power,” … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.5.38": {
-            "scid": "pli-tv-bu-vb-pj4:4.5.38",
-            "pli": "cattāro iddhipādā sacchikatā mayāti sampajānamusā bhaṇantassa āpatti pārājikassa.",
-            "en": "… “I’ve realized the <span class=\"scv-matched\">four foundations</span> for supernormal power,” he commits an offense entailing expulsion when three conditions are fulfilled. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.6.51": {
-            "scid": "pli-tv-bu-vb-pj4:4.6.51",
-            "pli": "paṭhamañca jhānaṁ cattāro ca iddhipāde samāpajjiṁ …",
-            "en": "… “I attained the first absorption and the <span class=\"scv-matched\">four foundations</span> for supernormal power,” … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.6.56": {
-            "scid": "pli-tv-bu-vb-pj4:4.6.56",
-            "pli": "paṭhamañca jhānaṁ cattāro ca iddhipādā sacchikatā mayāti sampajānamusā bhaṇantassa āpatti pārājikassa.",
-            "en": "… “I’ve realized the first absorption and the <span class=\"scv-matched\">four foundations</span> for supernormal power,” he commits an offense entailing expulsion when three conditions are fulfilled. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.7.25": {
-            "scid": "pli-tv-bu-vb-pj4:4.7.25",
-            "pli": "cattāro ca iddhipāde …",
-            "en": "… and the <span class=\"scv-matched\">four foundations</span> for supernormal power,” … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.8.69": {
-            "scid": "pli-tv-bu-vb-pj4:4.8.69",
-            "pli": "cattāro ca iddhipāde samāpajjiṁ …",
-            "en": "… and I attained the <span class=\"scv-matched\">four foundations</span> for supernormal power,” … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.8.74": {
-            "scid": "pli-tv-bu-vb-pj4:4.8.74",
-            "pli": "mohā ca me cittaṁ vinīvaraṇaṁ cattāro ca iddhipādā sacchikatā mayāti sampajānamusā bhaṇantassa āpatti pārājikassa.",
-            "en": "… “My mind is free from the hindrance of confusion and I’ve realized the <span class=\"scv-matched\">four foundations</span> for supernormal power,” he commits an offense entailing expulsion when three conditions are fulfilled. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:4.9.3": {
-            "scid": "pli-tv-bu-vb-pj4:4.9.3",
-            "pli": "Tīhākārehi …pe… sattahākārehi paṭhamañca jhānaṁ dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …",
-            "en": "If he lies in full awareness, saying, “I attained the first absorption and the second absorption and the third absorption and the fourth absorption and the emptiness release and the signless release and the desireless release and the emptiness stillness and the signless stillness and the desireless stillness and the emptiness attainment and the signless attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the <span class=\"scv-matched\">four foundations</span> for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream-entry and the fruit of once-returning and the fruit of non-returning and perfection ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:5.1.19": {
-            "scid": "pli-tv-bu-vb-pj4:5.1.19",
-            "pli": "cattāro iddhipāde …",
-            "en": "… the <span class=\"scv-matched\">four foundations</span> for supernormal power,” … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:5.4.3": {
-            "scid": "pli-tv-bu-vb-pj4:5.4.3",
-            "pli": "Tīhākārehi …pe… sattahākārehi paṭhamañca jhānaṁ dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …pe…",
-            "en": "If he lies in full awareness, meaning to say, “I attained the first absorption and the second absorption and the third absorption and the fourth absorption and the emptiness release and the signless release and the desireless release and the emptiness stillness and the signless stillness and the desireless stillness and the emptiness attainment and the signless attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the <span class=\"scv-matched\">four foundations</span> for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream-entry and the fruit of once-returning and the fruit of non-returning and perfection … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:5.4.8": {
-            "scid": "pli-tv-bu-vb-pj4:5.4.8",
-            "pli": "Tīhākārehi dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …pe…",
-            "en": "If he lies in full awareness, meaning to say, “I attained the second absorption and the third absorption and the fourth absorption and the emptiness release and the signless release and the desireless release and the emptiness stillness and the signless stillness and the desireless stillness and the emptiness attainment and the signless attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the <span class=\"scv-matched\">four foundations</span> for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream-entry and the fruit of once-returning and the fruit of non-returning and perfection … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:6.1.40": {
-            "scid": "pli-tv-bu-vb-pj4:6.1.40",
-            "pli": "cattāro iddhipāde …",
-            "en": "… the <span class=\"scv-matched\">four foundations</span> for supernormal power,” … ",
-            "matched": true
-          }
-        },
-        "score": 13.009,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n4. The fourth training rule on expulsion",
-        "segsMatched": 13,
-        "langSegs": {
-          "pli": 1431,
-          "en": 1462
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc8_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc8",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc8:2.1.20": {
-            "scid": "pli-tv-bu-vb-pc8:2.1.20",
-            "pli": "cattāro satipaṭṭhānā, cattāro sammappadhānā, cattāro iddhipādā, pañcindriyāni, pañca balāni, satta bojjhaṅgā, ariyo aṭṭhaṅgiko maggo.",
-            "en": "the four applications of mindfulness, the four right efforts, the <span class=\"scv-matched\">four foundations</span> for supernormal power, the five spiritual faculties, the five spiritual powers, the seven factors of awakening, the noble eightfold path. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc8:2.2.33": {
-            "scid": "pli-tv-bu-vb-pc8:2.2.33",
-            "pli": "cattāro iddhipāde samāpajjiṁ, samāpajjāmi, samāpanno; catunnaṁ iddhipādānaṁ lābhimhi, vasimhi; cattāro iddhipādā sacchikatā mayā”ti bhaṇantassa āpatti pācittiyassa.",
-            "en": "the <span class=\"scv-matched\">four foundations</span> for supernormal power … I’m attaining … I’ve attained … I obtain … I master … I’ve realized the <span class=\"scv-matched\">four foundations</span> for supernormal power,” he commits an offense entailing confession. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc8:2.3.22": {
-            "scid": "pli-tv-bu-vb-pc8:2.3.22",
-            "pli": "cattāro ca iddhipāde samāpajjiṁ, samāpajjāmi, samāpanno; paṭhamassa ca jhānassa catunnañca iddhipādānaṁ lābhimhi, vasimhi; paṭhamañca jhānaṁ cattāro ca iddhipādā sacchikatā mayā”ti bhaṇantassa āpatti pācittiyassa.",
-            "en": "the <span class=\"scv-matched\">four foundations</span> for supernormal power … I’m attaining … I’ve attained … I obtain … I master … I’ve realized the first absorption and the <span class=\"scv-matched\">four foundations</span> for supernormal power,” he commits an offense entailing confession. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc8:2.3.56": {
-            "scid": "pli-tv-bu-vb-pc8:2.3.56",
-            "pli": "anupasampannassa— “paṭhamañca jhānaṁ dutiyañca jhānaṁ tatiyañca jhānaṁ catutthañca jhānaṁ suññatañca vimokkhaṁ animittañca vimokkhaṁ appaṇihitañca vimokkhaṁ suññatañca samādhiṁ animittañca samādhiṁ appaṇihitañca samādhiṁ suññatañca samāpattiṁ animittañca samāpattiṁ appaṇihitañca samāpattiṁ tisso ca vijjā cattāro ca satipaṭṭhāne cattāro ca sammappadhāne cattāro ca iddhipāde pañca ca indriyāni pañca ca balāni satta ca bojjhaṅge ariyañca aṭṭhaṅgikaṁ maggaṁ sotāpattiphalañca sakadāgāmiphalañca anāgāmiphalañca arahattañca samāpajjiṁ …pe…",
-            "en": "if a monk says to a person who is not fully ordained, “I attained the first absorption and the second absorption and the third absorption and the fourth absorption and the emptiness release and the signless release and the desireless release and the emptiness stillness and the signless stillness and the desireless stillness and the emptiness attainment and the signless attainment and the desireless attainment and the three true insights and the four applications of mindfulness and the four right efforts and the <span class=\"scv-matched\">four foundations</span> for supernormal power and the five spiritual faculties and the five spiritual powers and the seven factors of awakening and the noble eightfold path and the fruit of stream entry and the fruit of once-returning and the fruit of non-returning and perfection … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc8:2.4.18": {
-            "scid": "pli-tv-bu-vb-pc8:2.4.18",
-            "pli": "cattāro iddhipāde,",
-            "en": "the <span class=\"scv-matched\">four foundations</span> for supernormal power … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc8:2.5.22": {
-            "scid": "pli-tv-bu-vb-pc8:2.5.22",
-            "pli": "cattāro iddhipāde,",
-            "en": "the <span class=\"scv-matched\">four foundations</span> for supernormal power … ",
-            "matched": true
-          }
-        },
-        "score": 6.019,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on lying",
-        "segsMatched": 6,
-        "langSegs": {
-          "pli": 304,
-          "en": 316
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
@@ -263,35 +94,6 @@
         "langSegs": {
           "pli": 239,
           "en": 238
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd19_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd19_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd19",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd19:1.4.28": {
-            "scid": "pli-tv-kd19:1.4.28",
-            "pli": "evameva kho, bhikkhave, ayaṁ dhammavinayo bahuratano anekaratano. Tatrimāni ratanāni, seyyathidaṁ—cattāro satipaṭṭhānā, cattāro sammappadhānā, cattāro iddhipādā, pañcindriyāni, pañca balāni, satta bojjhaṅgā, ariyo aṭṭhaṅgiko maggo.",
-            "en": "so too, this spiritual path contains many precious things—the four applications of mindfulness, the four right efforts, the <span class=\"scv-matched\">four foundations</span> for supernormal power, the five spiritual faculties, the five spiritual powers, the seven factors of awakening, and the noble eightfold path. ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on the cancellation of the Monastic Code\nThe request for the recitation of the Monastic Code",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 550,
-          "en": 394
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "wretched",
     "method": "phrase",
     "resultPattern": "\\bwretched",
-    "segsMatched": 12,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
@@ -48,9 +48,7 @@
       "root/pli/ms/sutta/kn/thig/thig5.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig5.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "thag6.5/en/sujato",
@@ -60,8 +58,7 @@
       "sn2.30/en/sujato",
       "mn130/en/sujato",
       "thig5.8/en/sujato",
-      "an3.36/en/sujato",
-      "pli-tv-kd17/en/brahmali"
+      "an3.36/en/sujato"
     ],
     "mlDocs": [
       {
@@ -312,35 +309,6 @@
         "langSegs": {
           "pli": 203,
           "en": 201
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd17",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd17:3.1.12": {
-            "scid": "pli-tv-kd17:3.1.12",
-            "pli": "“Sāriputtamoggallānānampi kho ahaṁ, devadatta, bhikkhusaṅghaṁ na nissajjeyyaṁ, kiṁ pana tuyhaṁ chavassa kheḷāsakassā”ti.",
-            "en": "“I wouldn’t even hand the Sangha over to Sāriputta and Mogallāna, so why then to you, a <span class=\"scv-matched\">wretched</span> devourer of junk?” ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on schism in the Sangha\nThe account of the going forth of the six Sakyans",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1104,
-          "en": 951
         }
       }
     ]

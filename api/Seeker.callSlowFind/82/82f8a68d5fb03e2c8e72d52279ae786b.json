@@ -31,7 +31,7 @@
     "pattern": "very helpful to",
     "method": "phrase",
     "resultPattern": "\\bvery helpful to",
-    "segsMatched": 27,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.24_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.24_translation-en-sujato.json",
@@ -62,9 +62,7 @@
       "root/pli/ms/sutta/an/an3/an3.31_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.31_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd20_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd20_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.24/en/sujato",
@@ -81,8 +79,7 @@
       "an8.51/en/sujato",
       "an4.63/en/sujato",
       "an3.31/en/sujato",
-      "an2.32-41/en/sujato",
-      "pli-tv-kd20/en/brahmali"
+      "an2.32-41/en/sujato"
     ],
     "mlDocs": [
       {
@@ -584,35 +581,6 @@
         "langSegs": {
           "pli": 553,
           "en": 552
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd20_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd20_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd20",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd20:1.3.18": {
-            "scid": "pli-tv-kd20:1.3.18",
-            "pli": "bahūpakārā, bhante, mahāpajāpati gotamī bhagavato mātucchā āpādikā, posikā, khīrassa dāyikā, bhagavantaṁ janettiyā kālaṅkatāya thaññaṁ pāyesi;",
-            "en": "and considering that Mahāpajāpati has been <span class=\"scv-matched\">very helpful to</span> you—she is your aunt who nurtured you, brought you up, and breastfed you when your own mother died—",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on nuns\nThe account of Mahāpajāpati Gotamī",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1228,
-          "en": 1045
         }
       }
     ]

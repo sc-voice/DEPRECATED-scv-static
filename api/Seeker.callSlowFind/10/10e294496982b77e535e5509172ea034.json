@@ -31,7 +31,7 @@
     "pattern": "rafter",
     "method": "phrase",
     "resultPattern": "\\brafter",
-    "segsMatched": 23,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn48/sn48.52_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.52_translation-en-sujato.json",
@@ -62,11 +62,7 @@
       "root/pli/ms/sutta/an/an6/an6.53_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.53_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.15_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn48.52/en/sujato",
@@ -83,58 +79,9 @@
       "thag2.32/en/sujato",
       "dhp146-156/en/sujato",
       "an6.53/en/sujato",
-      "an10.15/en/sujato",
-      "pli-tv-bu-vb-pj3/en/brahmali",
-      "pli-tv-bu-vb-pj2/en/brahmali"
+      "an10.15/en/sujato"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj3",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj3:4.11.15": {
-            "scid": "pli-tv-bu-vb-pj3:4.11.15",
-            "pli": "Vāsī gopānasī ceva,",
-            "en": "And also machete, and <span class=\"scv-matched\">rafter</span>. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj3:5.10.2": {
-            "scid": "pli-tv-bu-vb-pj3:5.10.2",
-            "pli": "Aññataro bhikkhu heṭṭhā hutvā gopānasiṁ uccāresi.",
-            "en": "A monk who was below lifted up a <span class=\"scv-matched\">rafter</span>. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj3:5.10.8": {
-            "scid": "pli-tv-bu-vb-pj3:5.10.8",
-            "pli": "Aññataro bhikkhu heṭṭhā hutvā gopānasiṁ uccāresi.",
-            "en": "A monk who was below lifted up a <span class=\"scv-matched\">rafter</span>. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj3:5.10.9": {
-            "scid": "pli-tv-bu-vb-pj3:5.10.9",
-            "pli": "Uparimo bhikkhu maraṇādhippāyo heṭṭhimassa bhikkhuno matthake gopānasiṁ muñci.",
-            "en": "A second monk who was above, meaning to cause the death of the monk below, dropped the <span class=\"scv-matched\">rafter</span> on his head. ",
-            "matched": true
-          }
-        },
-        "score": 4.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n3. The third training rule on expulsion",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 868,
-          "en": 863
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.110_root-pli-ms.json",
@@ -586,35 +533,6 @@
         "langSegs": {
           "pli": 553,
           "en": 552
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj2",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj2:7.42.9": {
-            "scid": "pli-tv-bu-vb-pj2:7.42.9",
-            "pli": "saṅghassa gopānasiṁ theyyacitto avahari …",
-            "en": "intending to steal it, he took a <span class=\"scv-matched\">rafter</span> belonging to the Sangha. … ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n2. The second training rule on expulsion",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1237,
-          "en": 1234
         }
       }
     ]

@@ -31,7 +31,7 @@
     "pattern": "a raft",
     "method": "phrase",
     "resultPattern": "\\ba raft",
-    "segsMatched": 21,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
@@ -42,23 +42,14 @@
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn22/en/sujato",
       "mn38/en/sujato",
       "ud8.6/en/sujato",
       "dn16/en/sujato",
-      "sn35.238/en/sujato",
-      "pli-tv-kd6/en/brahmali",
-      "pli-tv-bu-vb-pj3/en/brahmali",
-      "pli-tv-bu-vb-pj2/en/brahmali"
+      "sn35.238/en/sujato"
     ],
     "mlDocs": [
       {
@@ -118,53 +109,6 @@
         "langSegs": {
           "pli": 359,
           "en": 358
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj3",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj3:4.11.15": {
-            "scid": "pli-tv-bu-vb-pj3:4.11.15",
-            "pli": "Vāsī gopānasī ceva,",
-            "en": "And also machete, and rafter. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj3:5.10.2": {
-            "scid": "pli-tv-bu-vb-pj3:5.10.2",
-            "pli": "Aññataro bhikkhu heṭṭhā hutvā gopānasiṁ uccāresi.",
-            "en": "A monk who was below lifted up <span class=\"scv-matched\">a raft</span>er. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj3:5.10.8": {
-            "scid": "pli-tv-bu-vb-pj3:5.10.8",
-            "pli": "Aññataro bhikkhu heṭṭhā hutvā gopānasiṁ uccāresi.",
-            "en": "A monk who was below lifted up <span class=\"scv-matched\">a raft</span>er. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj3:5.10.9": {
-            "scid": "pli-tv-bu-vb-pj3:5.10.9",
-            "pli": "Uparimo bhikkhu maraṇādhippāyo heṭṭhimassa bhikkhuno matthake gopānasiṁ muñci.",
-            "en": "A second monk who was above, meaning to cause the death of the monk below, dropped the rafter on his head. ",
-            "matched": true
-          }
-        },
-        "score": 4.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n3. The third training rule on expulsion",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 868,
-          "en": 863
         }
       },
       {
@@ -305,70 +249,6 @@
         "langSegs": {
           "pli": 1665,
           "en": 1664
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd6",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd6:28.12.7": {
-            "scid": "pli-tv-kd6:28.12.7",
-            "pli": "Manussā aññe nāvaṁ pariyesanti, aññe uḷumpaṁ pariyesanti, aññe kullaṁ bandhanti orā pāraṁ gantukāmā.",
-            "en": "Among the people who wanted to cross, some were looking for a boat, some for a barge, and some were putting together <span class=\"scv-matched\">a raft</span>. ",
-            "matched": true
-          },
-          "pli-tv-kd6:28.13.5": {
-            "scid": "pli-tv-kd6:28.13.5",
-            "pli": "Kullañhi jano bandhati,",
-            "en": "While ordinary people put together <span class=\"scv-matched\">a raft</span>, ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1643,
-          "en": 1375
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj2",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj2:7.42.9": {
-            "scid": "pli-tv-bu-vb-pj2:7.42.9",
-            "pli": "saṅghassa gopānasiṁ theyyacitto avahari …",
-            "en": "intending to steal it, he took <span class=\"scv-matched\">a raft</span>er belonging to the Sangha. … ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n2. The second training rule on expulsion",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1237,
-          "en": 1234
         }
       }
     ]

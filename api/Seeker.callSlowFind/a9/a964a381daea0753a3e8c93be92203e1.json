@@ -31,118 +31,21 @@
     "pattern": "to endure",
     "method": "phrase",
     "resultPattern": "\\bto endure",
-    "segsMatched": 17,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.36_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.36_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.49_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.49_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.17_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc71_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc71_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc65_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc65_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc65_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc65_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.36/en/sujato",
       "an3.49/en/sujato",
-      "sn1.17/en/sujato",
-      "pli-tv-bi-vb-pc71/en/brahmali",
-      "pli-tv-bi-vb-pc65/en/brahmali",
-      "pli-tv-kd1/en/brahmali",
-      "pli-tv-bu-vb-pj4/en/brahmali",
-      "pli-tv-bu-vb-pc65/en/brahmali"
+      "sn1.17/en/sujato"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc65_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc65_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bi-vb-pc65",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bi-vb-pc65:1.3": {
-            "scid": "pli-tv-bi-vb-pc65:1.3",
-            "pli": "Tā akkhamā honti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ.",
-            "en": "They were unable <span class=\"scv-matched\">to endure</span> cold and heat; hunger and thirst; contact with horseflies, mosquitoes, wind, the burning sun, and creeping animals and insects; rude and unwelcome speech; ",
-            "matched": true
-          },
-          "pli-tv-bi-vb-pc65:1.11": {
-            "scid": "pli-tv-bi-vb-pc65:1.11",
-            "pli": "Ūnadvādasavassā, bhikkhave, gihigatā akkhamā hoti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ.",
-            "en": "A married girl less than twelve years old is unable <span class=\"scv-matched\">to endure</span> cold and heat; hunger and thirst; contact with horseflies, mosquitoes, wind, the burning sun, and creeping animals and insects; rude and unwelcome speech; ",
-            "matched": true
-          },
-          "pli-tv-bi-vb-pc65:1.13": {
-            "scid": "pli-tv-bi-vb-pc65:1.13",
-            "pli": "Dvādasavassāva kho, bhikkhave, gihigatā khamā hoti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ.",
-            "en": "But a married girl who is twelve years old is able <span class=\"scv-matched\">to endure</span> these things. ",
-            "matched": true
-          }
-        },
-        "score": 3.056,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe nuns’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on pregnant women",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 49,
-          "en": 53
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc71_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bi-vb/pli-tv-bi-vb-pc/pli-tv-bi-vb-pc71_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bi-vb-pc71",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bi-vb-pc71:1.3": {
-            "scid": "pli-tv-bi-vb-pc71:1.3",
-            "pli": "Tā akkhamā honti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ.",
-            "en": "They were unable <span class=\"scv-matched\">to endure</span> cold and heat; hunger and thirst; contact with horseflies, mosquitoes, wind, the burning sun, and creeping animals and insects; rude and unwelcome speech; ",
-            "matched": true
-          },
-          "pli-tv-bi-vb-pc71:1.11": {
-            "scid": "pli-tv-bi-vb-pc71:1.11",
-            "pli": "Ūnavīsativassā, bhikkhave, kumāribhūtā akkhamā hoti sītassa uṇhassa …pe…",
-            "en": "An unmarried girl less than twenty years old is unable <span class=\"scv-matched\">to endure</span> cold and heat; hunger and thirst; contact with horseflies, mosquitoes, wind, the burning sun, and creeping animals and insects; rude and unwelcome speech; ",
-            "matched": true
-          },
-          "pli-tv-bi-vb-pc71:1.13": {
-            "scid": "pli-tv-bi-vb-pc71:1.13",
-            "pli": "Vīsativassāva kho, bhikkhave, kumāribhūtā khamā hoti sītassa uṇhassa …pe…",
-            "en": "But an unmarried girl who is twenty years old is able <span class=\"scv-matched\">to endure</span> these things. ",
-            "matched": true
-          }
-        },
-        "score": 3.056,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe nuns’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on unmarried girls",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 49,
-          "en": 53
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.49_root-pli-ms.json",
@@ -211,111 +114,6 @@
         "langSegs": {
           "pli": 20,
           "en": 19
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc65_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc65_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc65",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc65:1.48": {
-            "scid": "pli-tv-bu-vb-pc65:1.48",
-            "pli": "Ūnakavīsativasso, bhikkhave, puggalo akkhamo hoti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ anadhivāsakajātiko hoti.",
-            "en": "A person who is less than twenty years old is unable <span class=\"scv-matched\">to endure</span> cold and heat; hunger and thirst; horseflies, mosquitoes, wind, and the burning sun; creeping animals and insects; and rude and unwelcome speech. And they are unable to bear up with bodily feelings that are painful, severe, sharp, and destructive of life. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc65:1.49": {
-            "scid": "pli-tv-bu-vb-pc65:1.49",
-            "pli": "Vīsativassova kho, bhikkhave, puggalo khamo hoti sītassa uṇhassa …pe…",
-            "en": "But a person who’s twenty years old is able <span class=\"scv-matched\">to endure</span> these things. ",
-            "matched": true
-          }
-        },
-        "score": 2.023,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on containing living beings",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 83,
-          "en": 78
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj4_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj4",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj4:8.10.4": {
-            "scid": "pli-tv-bu-vb-pj4:8.10.4",
-            "pli": "“Nāvuso, sakkā yena vā tena vā adhivāsetun”ti.",
-            "en": "“It’s not possible for just anyone <span class=\"scv-matched\">to endure</span> this.” ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj4:8.10.10": {
-            "scid": "pli-tv-bu-vb-pj4:8.10.10",
-            "pli": "“Nāvuso, sakkā puthujjanena adhivāsetun”ti.",
-            "en": "“It’s not possible for an ordinary person <span class=\"scv-matched\">to endure</span> this.” ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\n4. The fourth training rule on expulsion",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1431,
-          "en": 1462
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:49.6.1": {
-            "scid": "pli-tv-kd1:49.6.1",
-            "pli": "Ūnavīsativasso, bhikkhave, puggalo akkhamo hoti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ anadhivāsakajātiko hoti.",
-            "en": "A person who’s less than twenty years old is unable <span class=\"scv-matched\">to endure</span> cold and heat; hunger and thirst; horseflies, mosquitoes, wind, and the burning sun; creeping animals and insects; and rude and unwelcome speech. And he’s unable to bear up with bodily feelings that are painful, severe, sharp, and destructive of life. ",
-            "matched": true
-          },
-          "pli-tv-kd1:49.6.2": {
-            "scid": "pli-tv-kd1:49.6.2",
-            "pli": "Vīsativassova kho, bhikkhave, puggalo khamo hoti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ, uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ adhivāsakajātiko hoti.",
-            "en": "But a person who’s twenty years old is able <span class=\"scv-matched\">to endure</span> these things. ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       },
       {

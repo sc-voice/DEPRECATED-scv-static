@@ -31,7 +31,7 @@
     "pattern": "anxiety",
     "method": "phrase",
     "resultPattern": "\\banxiety",
-    "segsMatched": 38,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
@@ -50,17 +50,7 @@
       "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc72_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc72_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd3_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd3_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn22/en/sujato",
@@ -71,12 +61,7 @@
       "sn22.90/en/sujato",
       "mn98/en/sujato",
       "dhp383-423/en/sujato",
-      "dn1/en/sujato",
-      "pli-tv-kd1/en/brahmali",
-      "pli-tv-bu-vb-pc72/en/brahmali",
-      "pli-tv-kd3/en/brahmali",
-      "pli-tv-kd6/en/brahmali",
-      "pli-tv-bu-vb-pj1/en/brahmali"
+      "dn1/en/sujato"
     ],
     "mlDocs": [
       {
@@ -270,94 +255,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:36.10.2": {
-            "scid": "pli-tv-kd1:36.10.2",
-            "pli": "Na paṭibalo hoti antevāsiṁ vā saddhivihāriṁ vā gilānaṁ upaṭṭhātuṁ vā upaṭṭhāpetuṁ vā, anabhirataṁ vūpakāsetuṁ vā vūpakāsāpetuṁ vā, uppannaṁ kukkuccaṁ dhammato vinodetuṁ āpattiṁ na jānāti, āpattiyā vuṭṭhānaṁ na jānāti—",
-            "en": "He’s not capable of three things in regard to a student: to nurse him or to have someone nurse him when he’s sick; to send him away or to have him sent away when he’s discontent with the spiritual life; and to use the Teaching to dispel <span class=\"scv-matched\">anxiety</span>. And he doesn’t know the offenses; and he doesn’t know how offenses are cleared. ",
-            "matched": true
-          },
-          "pli-tv-kd1:36.11.2": {
-            "scid": "pli-tv-kd1:36.11.2",
-            "pli": "Paṭibalo hoti antevāsiṁ vā saddhivihāriṁ vā gilānaṁ upaṭṭhātuṁ vā upaṭṭhāpetuṁ vā, anabhirataṁ vūpakāsetuṁ vā vūpakāsāpetuṁ vā, uppannaṁ kukkuccaṁ dhammato vinodetuṁ āpattiṁ jānāti, āpattiyā vuṭṭhānaṁ jānāti—",
-            "en": "He’s capable of three things in regard to a student: to nurse him or to have someone nurse him when he’s sick; to send him away or to have him sent away when he’s discontent with the spiritual life; and to use the Teaching to dispel <span class=\"scv-matched\">anxiety</span>. And he knows the offenses; and he knows how offenses are cleared. ",
-            "matched": true
-          },
-          "pli-tv-kd1:37.9.2": {
-            "scid": "pli-tv-kd1:37.9.2",
-            "pli": "Na paṭibalo hoti antevāsiṁ vā saddhivihāriṁ vā gilānaṁ upaṭṭhātuṁ vā upaṭṭhāpetuṁ vā, anabhirataṁ vūpakāsetuṁ vā vūpakāsāpetuṁ vā, uppannaṁ kukkuccaṁ dhammato vinodetuṁ, āpattiṁ na jānāti, āpattiyā vuṭṭhānaṁ na jānāti, ūnadasavasso hoti—",
-            "en": "He’s not capable of three things in regard to a student: to nurse him or to have someone nurse him when he’s sick; to send him away or to have him sent away when he’s discontent with the spiritual life; to use the Teaching to dispel <span class=\"scv-matched\">anxiety</span>. And he doesn’t know the offenses; he doesn’t know how offenses are cleared; and he has less than ten years of seniority. ",
-            "matched": true
-          },
-          "pli-tv-kd1:37.10.2": {
-            "scid": "pli-tv-kd1:37.10.2",
-            "pli": "Paṭibalo hoti antevāsiṁ vā saddhivihāriṁ vā gilānaṁ upaṭṭhātuṁ vā upaṭṭhāpetuṁ vā, anabhirataṁ vūpakāsetuṁ vā vūpakāsāpetuṁ vā, uppannaṁ kukkuccaṁ dhammato vinodetuṁ, āpattiṁ jānāti, āpattiyā vuṭṭhānaṁ jānāti, dasavasso vā hoti atirekadasavasso vā—",
-            "en": "He’s capable of three things in regard to a student: to nurse him or to have someone nurse him when he’s sick; to send him away or to have him sent away when he’s discontent with the spiritual life; to use the Teaching to dispel <span class=\"scv-matched\">anxiety</span>. And he knows the offenses; he knows how offenses are cleared; and he has ten or more years of seniority. ",
-            "matched": true
-          }
-        },
-        "score": 4.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc72_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc72_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc72",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc72:1.11": {
-            "scid": "pli-tv-bu-vb-pc72:1.11",
-            "pli": "“kiṁ panimehi khuddānukhuddakehi sikkhāpadehi uddiṭṭhehi, yāvadeva kukkuccāya vihesāya vilekhāya saṁvattantī”ti.",
-            "en": "“What’s the point of reciting these minor and insignificant training rules, when they just lead to <span class=\"scv-matched\">anxiety</span>, oppression, and annoyance?” ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc72:1.20.1": {
-            "scid": "pli-tv-bu-vb-pc72:1.20.1",
-            "pli": "“Yo pana bhikkhu pātimokkhe uddissamāne evaṁ vadeyya—‘kiṁ panimehi khuddānukhuddakehi sikkhāpadehi uddiṭṭhehi, yāvadeva kukkuccāya vihesāya vilekhāya saṁvattantī’ti, sikkhāpadavivaṇṇake pācittiyan”ti.",
-            "en": "‘When the Monastic Code is being recited, if a monk says, “What’s the point of reciting these minor and insignificant training rules, when they just lead to <span class=\"scv-matched\">anxiety</span>, oppression, and annoyance?” then in disparaging the training rules, he commits an offense entailing confession.’” ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc72:2.1.8": {
-            "scid": "pli-tv-bu-vb-pc72:2.1.8",
-            "pli": "“kiṁ panimehi khuddānukhuddakehi sikkhāpadehi uddiṭṭhehi, yāvadeva kukkuccāya vihesāya vilekhāya saṁvattantī”ti.",
-            "en": "“What’s the point of reciting these minor and insignificant training rules, when they just lead to <span class=\"scv-matched\">anxiety</span>, oppression, and annoyance?” ",
-            "matched": true
-          }
-        },
-        "score": 3.058,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on legitimately",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 47,
-          "en": 51
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.43_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn22/sn22.43_translation-en-sujato.json"
         ],
@@ -389,41 +286,6 @@
         "langSegs": {
           "pli": 29,
           "en": 28
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd3_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd3_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd3",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd3:6.4.4": {
-            "scid": "pli-tv-kd3:6.4.4",
-            "pli": "‘kukkuccaṁ vinodessāmi vā, vinodāpessāmi vā, dhammakathaṁ vāssa karissāmī’ti.",
-            "en": "ʻI’ll dispel his <span class=\"scv-matched\">anxiety</span> or find someone else to do it, or I’ll give him a teaching.’ ",
-            "matched": true
-          },
-          "pli-tv-kd3:6.14.4": {
-            "scid": "pli-tv-kd3:6.14.4",
-            "pli": "‘kukkuccaṁ vinodessāmi vā, vinodāpessāmi vā, dhammakathaṁ vāssā karissāmī’ti.",
-            "en": "ʻI’ll dispel her <span class=\"scv-matched\">anxiety</span> or find someone else to do it, or I’ll give her a teaching.’ ",
-            "matched": true
-          }
-        },
-        "score": 2.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on entering the rainy-season residence\nThe instruction to enter the rainy-season residence",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 911,
-          "en": 845
         }
       },
       {
@@ -569,64 +431,6 @@
         "langSegs": {
           "pli": 662,
           "en": 661
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj1:5.10.4": {
-            "scid": "pli-tv-bu-vb-pj1:5.10.4",
-            "pli": "So teneva kukkuccena tena vippaṭisārena kiso ahosi lūkho dubbaṇṇo uppaṇḍuppaṇḍukajāto dhamanisanthatagatto antomano līnamano dukkhī dummano vippaṭisārī pajjhāyi.",
-            "en": "And because of his <span class=\"scv-matched\">anxiety</span> and remorse, he became thin, haggard, and pale, his veins protruding all over his limbs; he became sad, sluggish, miserable, depressed, remorseful, weighed down by grief. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1450,
-          "en": 1422
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd6",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd6:25.5.1": {
-            "scid": "pli-tv-kd6:25.5.1",
-            "pli": "Atha kho tassa taruṇapasannassa mahāmattassa acirapakkantassa bhagavato ahudeva kukkuccaṁ, ahu vippaṭisāro—",
-            "en": "Soon after the Buddha had left, that official felt <span class=\"scv-matched\">anxiety</span> and remorse, thinking, ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1643,
-          "en": 1375
         }
       }
     ]

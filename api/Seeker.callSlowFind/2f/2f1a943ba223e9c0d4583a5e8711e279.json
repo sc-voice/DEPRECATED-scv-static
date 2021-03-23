@@ -31,7 +31,7 @@
     "pattern": "milk and water",
     "method": "phrase",
     "resultPattern": "\\bmilk and water",
-    "segsMatched": 16,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn31_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn31_translation-en-sujato.json",
@@ -54,9 +54,7 @@
       "root/pli/ms/sutta/an/an3/an3.124_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.124_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd10_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd10_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn31/en/sujato",
@@ -69,8 +67,7 @@
       "an5.78/en/sujato",
       "an5.54/en/sujato",
       "an3.124/en/sujato",
-      "an2.42-51/en/sujato",
-      "pli-tv-kd10/en/brahmali"
+      "an2.42-51/en/sujato"
     ],
     "mlDocs": [
       {
@@ -176,41 +173,6 @@
         "langSegs": {
           "pli": 281,
           "en": 280
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd10_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd10_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd10",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd10:4.3.9": {
-            "scid": "pli-tv-kd10:4.3.9",
-            "pli": "“Kacci pana vo, anuruddhā, samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharathā”ti?",
-            "en": "“I hope you’re living together in harmony, without dispute, blending like <span class=\"scv-matched\">milk and water</span>, and that you regard one another with affection?” ",
-            "matched": true
-          },
-          "pli-tv-kd10:4.3.10": {
-            "scid": "pli-tv-kd10:4.3.10",
-            "pli": "“Taggha mayaṁ, bhante, samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharāmā”ti.",
-            "en": "“Yes, we are living together in harmony, without dispute, blending like <span class=\"scv-matched\">milk and water</span>, and we regard one another with affection.” ",
-            "matched": true
-          }
-        },
-        "score": 2.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on those from Kosambī\nThe account of the dispute at Kosambī",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 769,
-          "en": 611
         }
       },
       {

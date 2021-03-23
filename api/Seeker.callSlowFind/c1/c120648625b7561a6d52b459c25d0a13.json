@@ -31,7 +31,7 @@
     "pattern": "farmer",
     "method": "phrase",
     "resultPattern": "\\bfarmer",
-    "segsMatched": 48,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
@@ -62,13 +62,7 @@
       "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag10.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc2_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc2_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc51_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc51_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc3_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc3_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn7.11/en/sujato",
@@ -85,10 +79,7 @@
       "an3.93/en/sujato",
       "sn22.102/en/sujato",
       "mn86/en/sujato",
-      "thag10.1/en/sujato",
-      "pli-tv-bu-vb-pc2/en/brahmali",
-      "pli-tv-bu-vb-pc51/en/brahmali",
-      "pli-tv-bu-vb-pc3/en/brahmali"
+      "thag10.1/en/sujato"
     ],
     "mlDocs": [
       {
@@ -225,53 +216,6 @@
         "langSegs": {
           "pli": 23,
           "en": 22
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc2_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc2_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc2",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc2:2.2.15": {
-            "scid": "pli-tv-bu-vb-pc2:2.2.15",
-            "pli": "Upasampanno upasampannaṁ khuṁsetukāmo vambhetukāmo maṅkukattukāmo hīnena ukkaṭṭhaṁ vadeti, kassakaṁ vāṇijaṁ gorakkhaṁ—",
-            "en": "If one who is fully ordained, wishing to revile, wishing to insult, wishing to humiliate another who is fully ordained, says what is low to one who is high—a <span class=\"scv-matched\">farmer</span>, a trader, a cattle-keeper—",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc2:2.2.17": {
-            "scid": "pli-tv-bu-vb-pc2:2.2.17",
-            "pli": "Upasampanno upasampannaṁ khuṁsetukāmo vambhetukāmo maṅkukattukāmo ukkaṭṭhena hīnaṁ vadeti, koṭṭhakaṁ pupphachaḍḍakaṁ— “kassakosi, vāṇijosi, gorakkhosī”ti bhaṇati, āpatti vācāya, vācāya pācittiyassa.",
-            "en": "If one who is fully ordained, wishing to revile, wishing to insult, wishing to humiliate another who is fully ordained, says what is high to one who is low—a carpenter, a waste-remover—saying, “You’re a <span class=\"scv-matched\">farmer</span>,” “You’re a trader,” “You’re a cattle-keeper,” then for every statement, he commits an offense entailing confession. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc2:2.2.18": {
-            "scid": "pli-tv-bu-vb-pc2:2.2.18",
-            "pli": "Upasampanno upasampannaṁ khuṁsetukāmo vambhetukāmo maṅkukattukāmo ukkaṭṭhena ukkaṭṭhaṁ vadeti, kassakaṁ vāṇijaṁ gorakkhaṁ— “kassakosi, vāṇijosi, gorakkhosī”ti bhaṇati, āpatti vācāya, vācāya pācittiyassa.",
-            "en": "If one who is fully ordained, wishing to revile, wishing to insult, wishing to humiliate another who is fully ordained, says what is high to one who is high—a <span class=\"scv-matched\">farmer</span>, a trader, a cattle-keeper—saying, “You’re a <span class=\"scv-matched\">farmer</span>,” “You’re a trader,” “You’re a cattle-keeper,” then for every statement, he commits an offense entailing confession. ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pc2:2.3.8": {
-            "scid": "pli-tv-bu-vb-pc2:2.3.8",
-            "pli": "“Santi idhekacce kassakā vāṇijā gorakkhā”ti bhaṇati …pe….",
-            "en": "… says, “There are <span class=\"scv-matched\">farmer</span>s right here,” “There are traders right here,” “There are cattle-keepers right here” … ",
-            "matched": true
-          }
-        },
-        "score": 4.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on lying",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 214,
-          "en": 235
         }
       },
       {
@@ -704,64 +648,6 @@
         "langSegs": {
           "pli": 47,
           "en": 46
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc51_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc51_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc51",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc51:1.2": {
-            "scid": "pli-tv-bu-vb-pc51:1.2",
-            "pli": "Addasaṁsu kho gopālakā pasupālakā kassakā pathāvino bhagavantaṁ dūratova āgacchantaṁ.",
-            "en": "A number of cow-herds, shepherds, <span class=\"scv-matched\">farmer</span>s, and travelers saw the Buddha coming. ",
-            "matched": true
-          }
-        },
-        "score": 1.013,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on drinking alcohol",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 73,
-          "en": 74
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc3_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc3_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc3",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc3:2.2.8": {
-            "scid": "pli-tv-bu-vb-pc3:2.2.8",
-            "pli": "Upasampanno upasampannassa sutvā upasampannassa pesuññaṁ upasaṁharati— “itthannāmo taṁ ‘kassako vāṇijo gorakkho’ti bhaṇatī”ti. Āpatti vācāya, vācāya pācittiyassa.",
-            "en": "If one who is fully ordained, after hearing it from another who is fully ordained, engages in malicious talebearing by saying to yet another who is fully ordained, “So-and-so says this about you, ‘He’s a <span class=\"scv-matched\">farmer</span>,’ ‘He’s a trader,’ ‘He’s a cattle-keeper,’” then for every statement, he commits an offense entailing confession. ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on lying",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 78,
-          "en": 88
         }
       },
       {

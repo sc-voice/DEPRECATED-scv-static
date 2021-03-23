@@ -31,16 +31,13 @@
     "pattern": "hard to comprehend",
     "method": "phrase",
     "resultPattern": "\\bhard to comprehend",
-    "segsMatched": 14,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn34/en/sujato",
-      "pli-tv-kd1/en/brahmali"
+      "dn34/en/sujato"
     ],
     "mlDocs": [
       {
@@ -142,35 +139,6 @@
         "langSegs": {
           "pli": 894,
           "en": 891
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:5.2.2": {
-            "scid": "pli-tv-kd1:5.2.2",
-            "pli": "“adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo.",
-            "en": "“I have discovered this profound truth, so hard to see, so <span class=\"scv-matched\">hard to comprehend</span>. It’s peaceful and sublime, subtle, beyond the intellect, and knowable only to the wise. ",
-            "matched": true
-          }
-        },
-        "score": 1,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       }
     ]

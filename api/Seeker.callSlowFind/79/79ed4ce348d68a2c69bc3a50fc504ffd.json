@@ -31,7 +31,7 @@
     "pattern": "food given in faith",
     "method": "phrase",
     "resultPattern": "\\bfood given in faith",
-    "segsMatched": 38,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -42,19 +42,13 @@
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc9_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc9_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn2/en/sujato",
       "dn1/en/sujato",
       "dn8/en/sujato",
-      "dn10/en/sujato",
-      "pli-tv-bu-vb-ss1/en/brahmali",
-      "pli-tv-bu-vb-pc9/en/brahmali"
+      "dn10/en/sujato"
     ],
     "mlDocs": [
       {
@@ -309,35 +303,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc9_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pc/pli-tv-bu-vb-pc9_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pc9",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pc9:1.8": {
-            "scid": "pli-tv-bu-vb-pc9:1.8",
-            "pli": "“eso, āvuso, āyasmā upanando sakyaputto tumhākaṁ sambhāvito kulūpako; yeneva hatthena saddhādeyyaṁ bhuñjati teneva hatthena upakkamitvā asuciṁ mocesi.",
-            "en": "“This Venerable Upananda, the esteemed associate of your families, eats the <span class=\"scv-matched\">food given in faith</span> with the same hand he uses to emit semen. ",
-            "matched": true
-          }
-        },
-        "score": 1.013,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing confession\nThe sub-chapter on lying",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 68,
-          "en": 78
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
         ],
@@ -392,35 +357,6 @@
         "langSegs": {
           "pli": 284,
           "en": 281
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-ss/pli-tv-bu-vb-ss1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-ss1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-ss1:1.2.1": {
-            "scid": "pli-tv-bu-vb-ss1:1.2.1",
-            "pli": "“Kiṁ pana tvaṁ, āvuso seyyasaka, yeneva hatthena saddhādeyyaṁ bhuñjasi teneva hatthena upakkamitvā asuciṁ mocesī”ti?",
-            "en": "“Do you eat the <span class=\"scv-matched\">food given in faith</span> with the same hand you use to emit semen?” ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing suspension\n1. The training rule on emission of semen",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 758,
-          "en": 784
         }
       }
     ]

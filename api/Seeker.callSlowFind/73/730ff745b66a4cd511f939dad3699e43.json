@@ -31,7 +31,7 @@
     "pattern": "by ear",
     "method": "phrase",
     "resultPattern": "\\bby ear",
-    "segsMatched": 17,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.191_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.191_translation-en-sujato.json",
@@ -40,19 +40,13 @@
       "root/pli/ms/sutta/sn/sn35/sn35.235_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.235_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.191/en/sujato",
       "sn35.65/en/sujato",
       "sn35.235/en/sujato",
-      "mn98/en/sujato",
-      "pli-tv-kd1/en/brahmali",
-      "pli-tv-kd15/en/brahmali"
+      "mn98/en/sujato"
     ],
     "mlDocs": [
       {
@@ -235,64 +229,6 @@
         "langSegs": {
           "pli": 293,
           "en": 292
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd15_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd15_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd15",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd15:27.6.1": {
-            "scid": "pli-tv-kd15:27.6.1",
-            "pli": "Tena kho pana samayena aññatarassa bhikkhuno kaṇṇagūthakehi kaṇṇā thakitā honti.",
-            "en": "On one occasion a monk’s ear was blocked <span class=\"scv-matched\">by ear</span>wax. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter with short topics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1854,
-          "en": 1528
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:21.4.2": {
-            "scid": "pli-tv-kd1:21.4.2",
-            "pli": "Sotasmimpi nibbindati, saddesupi nibbindati …pe…",
-            "en": "They are repelled by the ear, repelled by sounds, repelled <span class=\"scv-matched\">by ear</span>-consciousness, repelled <span class=\"scv-matched\">by ear</span>-contact, repelled by whatever feelings arise because of ear-contact—whether pleasant, painful, or neither-pleasant-nor-painful. ",
-            "matched": true
-          }
-        },
-        "score": 1,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
         }
       }
     ]

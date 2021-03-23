@@ -31,7 +31,7 @@
     "pattern": "well freed",
     "method": "phrase",
     "resultPattern": "\\bwell freed",
-    "segsMatched": 77,
+    "segsMatched": 75,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -92,9 +92,7 @@
       "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.56_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.19_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.19_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an10/an10.19_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/en/sujato",
@@ -126,8 +124,7 @@
       "mn116/en/sujato",
       "thig1.11/en/sujato",
       "an7.56/en/sujato",
-      "an10.19/en/sujato",
-      "pli-tv-bu-vb-pj1/en/brahmali"
+      "an10.19/en/sujato"
     ],
     "mlDocs": [
       {
@@ -1065,41 +1062,6 @@
         "langSegs": {
           "pli": 41,
           "en": 39
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-bu-vb-pj1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-bu-vb-pj1:8.3.46": {
-            "scid": "pli-tv-bu-vb-pj1:8.3.46",
-            "pli": "“sumuttāhaṁ buddhenā”ti vadati viññāpeti …pe…",
-            "en": " he says and declares: ‘I’m <span class=\"scv-matched\">well freed</span> from the Buddha.’ … ",
-            "matched": true
-          },
-          "pli-tv-bu-vb-pj1:8.3.47": {
-            "scid": "pli-tv-bu-vb-pj1:8.3.47",
-            "pli": "“sumuttāhaṁ sabrahmacārīhī”ti vadati viññāpeti.",
-            "en": "‘I’m <span class=\"scv-matched\">well freed</span> from my fellow monks.’ ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe monks’ rules and their analysis\nThe chapter on offenses entailing expulsion\nThe first training rule on expulsion",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1450,
-          "en": 1422
         }
       },
       {

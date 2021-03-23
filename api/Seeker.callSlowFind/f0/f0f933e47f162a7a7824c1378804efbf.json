@@ -31,7 +31,7 @@
     "pattern": "root of suffering",
     "method": "phrase",
     "resultPattern": "\\broot of suffering",
-    "segsMatched": 15,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json",
@@ -46,9 +46,7 @@
       "root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn42.11/en/sujato",
@@ -57,8 +55,7 @@
       "sn56.21/en/sujato",
       "mn66/en/sujato",
       "mn116/en/sujato",
-      "dn16/en/sujato",
-      "pli-tv-kd6/en/brahmali"
+      "dn16/en/sujato"
     ],
     "mlDocs": [
       {
@@ -304,35 +301,6 @@
         "langSegs": {
           "pli": 1665,
           "en": 1664
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd6",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd6:29.2.8": {
-            "scid": "pli-tv-kd6:29.2.8",
-            "pli": "Ucchinnaṁ mūlaṁ dukkhassa,",
-            "en": "The <span class=\"scv-matched\">root of suffering</span> has been cut off; ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1643,
-          "en": 1375
         }
       }
     ]

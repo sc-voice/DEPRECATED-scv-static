@@ -31,7 +31,7 @@
     "pattern": "has a beginning has an end",
     "method": "phrase",
     "resultPattern": "\\bhas a beginning has an end",
-    "segsMatched": 40,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -64,17 +64,7 @@
       "root/pli/ms/sutta/an/an8/an8.21_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.21_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd5_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd5_translation-en-brahmali.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn14/en/sujato",
@@ -92,174 +82,9 @@
       "dn21/en/sujato",
       "an8.22/en/sujato",
       "an8.21/en/sujato",
-      "an8.12/en/sujato",
-      "pli-tv-kd1/en/brahmali",
-      "pli-tv-kd6/en/brahmali",
-      "pli-tv-kd17/en/brahmali",
-      "pli-tv-kd5/en/brahmali",
-      "pli-tv-kd16/en/brahmali"
+      "an8.12/en/sujato"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd1_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd1_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd1",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd1:6.29.5": {
-            "scid": "pli-tv-kd1:6.29.5",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:6.33.3": {
-            "scid": "pli-tv-kd1:6.33.3",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:6.36.2": {
-            "scid": "pli-tv-kd1:6.36.2",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:7.6.5": {
-            "scid": "pli-tv-kd1:7.6.5",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:7.10.7": {
-            "scid": "pli-tv-kd1:7.10.7",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:8.2.7": {
-            "scid": "pli-tv-kd1:8.2.7",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:9.3.6": {
-            "scid": "pli-tv-kd1:9.3.6",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:10.3.6": {
-            "scid": "pli-tv-kd1:10.3.6",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:11.1.6": {
-            "scid": "pli-tv-kd1:11.1.6",
-            "pli": "Desetha, bhikkhave, dhammaṁ ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha.",
-            "en": "Proclaim the Teaching, which is good in the beginning, good in the middle, and good in the end, which has a true goal and is well articulated. Set out the perfectly complete and pure spiritual life. ",
-            "matched": true
-          },
-          "pli-tv-kd1:14.4.6": {
-            "scid": "pli-tv-kd1:14.4.6",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:22.2.6": {
-            "scid": "pli-tv-kd1:22.2.6",
-            "pli": "So dhammaṁ deseti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāseti.",
-            "en": "He has a Teaching that’s good in the beginning, good in the middle, and good in the end. It has a true goal and is well articulated. He sets out a perfectly complete and pure spiritual life.’ ",
-            "matched": true
-          },
-          "pli-tv-kd1:22.8.3": {
-            "scid": "pli-tv-kd1:22.8.3",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:23.5.7": {
-            "scid": "pli-tv-kd1:23.5.7",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd1:23.10.7": {
-            "scid": "pli-tv-kd1:23.10.7",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhammanti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          }
-        },
-        "score": 14.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe long chapter",
-        "segsMatched": 14,
-        "langSegs": {
-          "pli": 3591,
-          "en": 3230
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd6_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd6_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd6",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd6:26.8.5": {
-            "scid": "pli-tv-kd6:26.8.5",
-            "pli": "“yaṁ kiñci samudayadhammaṁ, sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd6:31.12.2": {
-            "scid": "pli-tv-kd6:31.12.2",
-            "pli": "dānakathaṁ …pe…",
-            "en": "talk on generosity, talk on morality, talk on heaven; and he revealed the danger, degradation, and defilement in worldly pleasures, and the benefit of renunciation. When the Buddha knew that his mind were ready, supple, without hindrances, joyful, and confident, he revealed the teaching unique to the Buddhas: suffering, its origin, its end, and the path. And just as a clean and stainless cloth takes the dye properly, so too, while he was sitting right there, Sīha experienced the stainless vision of the Truth: “Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” He had seen the Truth, had reached, understood, and penetrated it; he had gone beyond doubt and uncertainty, had attained to confidence, and had become independent of others in the Teacher’s instruction. ",
-            "matched": true
-          },
-          "pli-tv-kd6:34.11.6": {
-            "scid": "pli-tv-kd6:34.11.6",
-            "pli": "So dhammaṁ deseti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāseti.",
-            "en": "He has a Teaching that’s good in the beginning, good in the middle, and good in the end. It has a true goal and is well articulated. He sets out a perfectly complete and pure spiritual life.’ ",
-            "matched": true
-          },
-          "pli-tv-kd6:34.13.5": {
-            "scid": "pli-tv-kd6:34.13.5",
-            "pli": "dānakathaṁ …pe…",
-            "en": "talk on generosity, talk on morality, talk on heaven; and he revealed the danger, degradation, and defilement in worldly pleasures, and the benefit of renunciation. When the Buddha knew that his mind were ready, supple, without hindrances, joyful, and confident, he revealed the teaching unique to the Buddhas: suffering, its origin, its end, and the path. And just as a clean and stainless cloth takes the dye properly, so too, while he was sitting right there, Meṇḍaka experienced the stainless vision of the Truth: “Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” He had seen the Truth, had reached, understood, and penetrated it; he had gone beyond doubt and uncertainty, had attained to confidence, and had become independent of others in the Teacher’s instruction. ",
-            "matched": true
-          },
-          "pli-tv-kd6:36.5.4": {
-            "scid": "pli-tv-kd6:36.5.4",
-            "pli": "dānakathaṁ …pe…",
-            "en": "talk on generosity, talk on morality, talk on heaven; and he revealed the danger, degradation, and defilement in worldly pleasures, and the benefit of renunciation. When the Buddha knew that his mind were ready, supple, without hindrances, joyful, and confident, he revealed the teaching unique to the Buddhas: suffering, its origin, its end, and the path. And just as a clean and stainless cloth takes the dye properly, so too, while he was sitting right there, Roja experienced the stainless vision of the Truth: “Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” He had seen the Truth, had reached, understood, and penetrated it; he had gone beyond doubt and uncertainty, had attained to confidence, and had become independent of others in the Teacher’s instruction. ",
-            "matched": true
-          }
-        },
-        "score": 5.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on medicines\nDiscussion of the five tonics",
-        "segsMatched": 5,
-        "langSegs": {
-          "pli": 1643,
-          "en": 1375
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
@@ -293,41 +118,6 @@
         "langSegs": {
           "pli": 851,
           "en": 850
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd17",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd17:3.7.18": {
-            "scid": "pli-tv-kd17:3.7.18",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          },
-          "pli-tv-kd17:4.3.4": {
-            "scid": "pli-tv-kd17:4.3.4",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          }
-        },
-        "score": 2.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on schism in the Sangha\nThe account of the going forth of the six Sakyans",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1104,
-          "en": 951
         }
       },
       {
@@ -763,64 +553,6 @@
         "langSegs": {
           "pli": 515,
           "en": 514
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd5_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd5_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd5",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd5:1.9.7": {
-            "scid": "pli-tv-kd5:1.9.7",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Long Division\nThe chapter on skins\nThe account of Soṇa Koḷivisa",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 635,
-          "en": 538
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd16_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd16_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd16",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd16:4.5.7": {
-            "scid": "pli-tv-kd16:4.5.7",
-            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
-            "en": "“Anything that <span class=\"scv-matched\">has a beginning has an end</span>.” ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on dwellings\nThe allowance for dwellings",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1556,
-          "en": 1214
         }
       }
     ]

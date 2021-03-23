@@ -31,7 +31,7 @@
     "pattern": "mind of love",
     "method": "phrase",
     "resultPattern": "\\bmind of love",
-    "segsMatched": 12,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.51-60_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.51-60_translation-en-sujato.json",
@@ -46,9 +46,7 @@
       "root/pli/ms/sutta/kn/iti/vagga7/iti60_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga7/iti60_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
-      "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
-      "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an1.51-60/en/sujato",
@@ -57,8 +55,7 @@
       "thag3.7/en/sujato",
       "thag14.1/en/sujato",
       "iti60/en/sujato",
-      "iti22/en/sujato",
-      "pli-tv-kd17/en/brahmali"
+      "iti22/en/sujato"
     ],
     "mlDocs": [
       {
@@ -286,35 +283,6 @@
         "langSegs": {
           "pli": 61,
           "en": 60
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/vinaya/pli-tv-kd/pli-tv-kd17_root-pli-ms.json",
-          "translation/en/brahmali/vinaya/pli-tv-kd/pli-tv-kd17_translation-en-brahmali.json"
-        ],
-        "author_uid": "brahmali",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "pli-tv-kd17",
-        "lang": "en",
-        "segMap": {
-          "pli-tv-kd17:3.12.6": {
-            "scid": "pli-tv-kd17:3.12.6",
-            "pli": "Atha kho bhagavā nāḷāgiriṁ hatthiṁ mettena cittena phari.",
-            "en": "The Buddha then pervaded Nāḷāgiri with a <span class=\"scv-matched\">mind of love</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Theravāda Collection on Monastic Law\nThe Short Division\nThe chapter on schism in the Sangha\nThe account of the going forth of the six Sakyans",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1104,
-          "en": 951
         }
       }
     ]
