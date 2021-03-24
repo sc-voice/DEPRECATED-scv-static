@@ -244,6 +244,7 @@
     "ohne Wahrnehmung",
     "Pañcasikha -sl de",
     "Persönlichkeitskonzepte",
+    "Pulsadern",
     "Rad-drehend.* Herrscher",
     "rascher Einsicht",
     "richtig eingeprägt",
@@ -936,6 +937,7 @@
     "worthy of veneration",
     "wrapped from head to foot",
     "wretched",
+    "wrists",
     "wrong immersion is blown away",
     "zombie"
   ],
