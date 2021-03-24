@@ -749,6 +749,8 @@
     "purification of view",
     "pursue other material possessions",
     "rafter",
+    "rebirth in the dimension",
+    "rebirth in the realm",
     "regain their appetite",
     "relish work",
     "remember the householder",
