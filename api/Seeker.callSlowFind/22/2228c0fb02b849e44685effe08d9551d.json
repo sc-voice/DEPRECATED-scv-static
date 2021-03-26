@@ -32,7 +32,7 @@
     "pattern": "verwirklicht werden",
     "method": "phrase",
     "resultPattern": "\\bverwirklicht werden",
-    "segsMatched": 28,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an4/an4.189_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.189_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.189_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.254_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.254_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.254_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "an4.189/de/sabbamitta",
+      "dn33/de/sabbamitta",
       "an4.254/de/sabbamitta",
       "sn56.11/de/sabbamitta"
     ],
@@ -270,6 +274,66 @@
           "pli": 19,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.11.158": {
+            "scid": "dn33:1.11.158",
+            "pli": "Cattāro sacchikaraṇīyā dhammā—",
+            "de": "Vier Dinge, die <span class=\"scv-matched\">verwirklicht werden</span> müssen: ",
+            "en": "Four things to be realized. ",
+            "matched": true
+          },
+          "dn33:1.11.159": {
+            "scid": "dn33:1.11.159",
+            "pli": "pubbenivāso satiyā sacchikaraṇīyo; ",
+            "de": "Frühere Leben müssen durch Erinnerung <span class=\"scv-matched\">verwirklicht werden</span>. ",
+            "en": "Past lives are to be realized with recollection. ",
+            "matched": true
+          },
+          "dn33:1.11.160": {
+            "scid": "dn33:1.11.160",
+            "pli": "sattānaṁ cutūpapāto cakkhunā sacchikaraṇīyo; ",
+            "de": "Tod und Wiedergeburt der Lebewesen müssen durch Sehen <span class=\"scv-matched\">verwirklicht werden</span>. ",
+            "en": "The passing away and rebirth of sentient beings is to be realized with vision. ",
+            "matched": true
+          },
+          "dn33:1.11.161": {
+            "scid": "dn33:1.11.161",
+            "pli": "aṭṭha vimokkhā kāyena sacchikaraṇīyā; ",
+            "de": "Die acht Befreiungen müssen durch leibhaftige meditative Erfahrung <span class=\"scv-matched\">verwirklicht werden</span>. ",
+            "en": "The eight liberations are to be realized with direct meditative experience. ",
+            "matched": true
+          },
+          "dn33:1.11.162": {
+            "scid": "dn33:1.11.162",
+            "pli": "āsavānaṁ khayo paññāya sacchikaraṇīyo. ",
+            "de": "Das Auflösen der Befleckungen muss durch Weisheit <span class=\"scv-matched\">verwirklicht werden</span>. ",
+            "en": "The ending of defilements is to be realized with wisdom. ",
+            "matched": true
+          }
+        },
+        "score": 5.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
         }
       },
       {
