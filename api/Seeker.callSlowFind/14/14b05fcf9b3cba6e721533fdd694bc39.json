@@ -32,17 +32,21 @@
     "pattern": "element de",
     "method": "phrase",
     "resultPattern": "\\belement de",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.46_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.46_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.46_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.41_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.38/de/sabbamitta",
+      "an6.46/de/sabbamitta",
       "an6.41/de/sabbamitta"
     ],
     "mlDocs": [
@@ -157,6 +161,38 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.46_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.46_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.46_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.46",
+        "lang": "de",
+        "segMap": {
+          "an6.46:6.5": {
+            "scid": "an6.46:6.5",
+            "pli": "Acchariyā hete, āvuso, puggalā dullabhā lokasmiṁ, ye amataṁ dhātuṁ kāyena phusitvā viharanti. ",
+            "de": "Weil es unglaublich selten ist, dass man Menschen in der Welt findet, die das <span class=\"scv-matched\">Element de</span>r Unsterblichkeit leibhaftig in der Meditation erfahren haben. ",
+            "en": "Because it’s incredibly rare to find individuals in the world who have direct meditative experience of the deathless element. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n46. Mahācundas Lehrrede",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       }
     ]

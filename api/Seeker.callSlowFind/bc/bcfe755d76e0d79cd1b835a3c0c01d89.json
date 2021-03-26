@@ -34,6 +34,9 @@
     "resultPattern": "\\bunglück|\\bder|\\bvielen",
     "segsMatched": 0,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.69_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.69_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.69_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.192_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.192_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json",
