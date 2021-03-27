@@ -32,52 +32,16 @@
     "pattern": "brutal",
     "method": "phrase",
     "resultPattern": "\\bbrutal",
-    "segsMatched": 2,
+    "segsMatched": 1,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.58_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.58_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.58_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an6.45/de/sabbamitta",
-      "an5.58/de/sabbamitta"
+      "an6.45/de/sabbamitta"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.58_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.58_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.58_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.58",
-        "lang": "de",
-        "segMap": {
-          "an5.58:4.3": {
-            "scid": "an5.58:4.3",
-            "pli": "“Ime, bhante, licchavikumārakā caṇḍā pharusā apānubhā. ",
-            "de": "„Herr, diese Jugendlichen sind gewalttätig, <span class=\"scv-matched\">brutal</span> und unverschämt. ",
-            "en": "“Sir, these Licchavi youths are violent, harsh, and brash. ",
-            "matched": true
-          }
-        },
-        "score": 1.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 5\n6. Hindernisse\n58. Die jungen Licchaver",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 60,
-          "de": 59,
-          "en": 59
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",

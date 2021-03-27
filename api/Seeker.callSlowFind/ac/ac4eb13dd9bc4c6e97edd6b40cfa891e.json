@@ -30,20 +30,20 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sei deine eigene insel",
-    "method": "phrase",
-    "resultPattern": "\\bsei deine eigene insel",
+    "method": "keywords",
+    "resultPattern": "\\bsei|\\bdeine|\\beigene|\\binsel",
     "segsMatched": 2,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.13_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn47.9/de/sabbamitta",
-      "sn47.13/de/sabbamitta"
+      "sn47.13/de/sabbamitta",
+      "sn47.9/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -61,7 +61,7 @@
           "sn47.13:6.9": {
             "scid": "sn47.13:6.9",
             "pli": "Tasmātihānanda, attadīpā viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā. ",
-            "de": "Daher, Ānanda, <span class=\"scv-matched\">sei deine eigene Insel</span>, deine eigene Zuflucht, suche keine andere Zuflucht. Lass die Lehre deine Insel und deine Zuflucht sein, suche keine andere Zuflucht. ",
+            "de": "Daher, Ānanda, lebe als <span class=\"scv-matched\">deine</span> <span class=\"scv-matched\">eigene</span> <span class=\"scv-matched\">Insel</span>, als <span class=\"scv-matched\">deine</span> <span class=\"scv-matched\">eigene</span> Zuflucht, suche keine andere Zuflucht. Lass die Lehre <span class=\"scv-matched\">deine</span> <span class=\"scv-matched\">Insel</span> und <span class=\"scv-matched\">deine</span> Zuflucht <span class=\"scv-matched\">sei</span>n, suche keine andere Zuflucht. ",
             "en": "So Ānanda, be your own island, your own refuge, with no other refuge. Let the teaching be your island and your refuge, with no other refuge. ",
             "matched": true
           }
@@ -93,7 +93,7 @@
           "sn47.9:5.2": {
             "scid": "sn47.9:5.2",
             "pli": "Tasmātihānanda, attadīpā viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā. ",
-            "de": "Daher, Ānanda, <span class=\"scv-matched\">sei deine eigene Insel</span>, deine eigene Zuflucht, suche keine andere Zuflucht. Lass die Lehre deine Insel und deine Zuflucht sein, suche keine andere Zuflucht. ",
+            "de": "Daher, Ānanda, lebe als <span class=\"scv-matched\">deine</span> <span class=\"scv-matched\">eigene</span> <span class=\"scv-matched\">Insel</span>, als <span class=\"scv-matched\">deine</span> <span class=\"scv-matched\">eigene</span> Zuflucht, suche keine andere Zuflucht. Lass die Lehre <span class=\"scv-matched\">deine</span> <span class=\"scv-matched\">Insel</span> und <span class=\"scv-matched\">deine</span> Zuflucht <span class=\"scv-matched\">sei</span>n, suche keine andere Zuflucht. ",
             "en": "So Ānanda, be your own island, your own refuge, with no other refuge. Let the teaching be your island and your refuge, with no other refuge. ",
             "matched": true
           }
