@@ -32,7 +32,7 @@
     "pattern": "aufgegeben werden",
     "method": "phrase",
     "resultPattern": "\\baufgegeben werden",
-    "segsMatched": 60,
+    "segsMatched": 62,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an4/an4.254_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.254_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.254_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.188_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json",
@@ -58,6 +61,7 @@
       "an6.58/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an4.254/de/sabbamitta",
+      "mn10/de/sabbamitta",
       "an4.188/de/sabbamitta",
       "sn56.11/de/sabbamitta"
     ],
@@ -598,6 +602,45 @@
           "pli": 29,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn10",
+        "lang": "de",
+        "segMap": {
+          "mn10:36.6": {
+            "scid": "mn10:36.6",
+            "pli": "Santaṁ vā ajjhattaṁ thinamiddhaṁ ‘atthi me ajjhattaṁ thinamiddhan’ti pajānāti, asantaṁ vā ajjhattaṁ thinamiddhaṁ ‘natthi me ajjhattaṁ thinamiddhan’ti pajānāti, yathā ca anuppannassa thinamiddhassa uppādo hoti tañca pajānāti, yathā ca uppannassa thinamiddhassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa thinamiddhassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+            "de": "Wenn Dumpfheit und Benommenheit in ihr sind, versteht sie: ‚In mir sind Dumpfheit und Benommenheit‘. Wenn keine Dumpfheit und keine Benommenheit in ihr ist, versteht sie: ‚In mir ist keine Dumpfheit und keine Benommenheit‘. Sie versteht, wie Dumpfheit und Benommenheit aufkommen; wie sie, wenn sie aufgekommen sind, <span class=\"scv-matched\">aufgegeben werden</span>; und wie sie, wenn sie aufgegeben wurden, in Zukunft nicht mehr aufkommen. ",
+            "en": "When they have dullness and drowsiness in them, they understand: ‘I have dullness and drowsiness in me.’ When they don’t have dullness and drowsiness in them, they understand: ‘I don’t have dullness and drowsiness in me.’ They understand how dullness and drowsiness arise; how, when they’ve already arisen, they’re given up; and how, once they’re given up, they don’t arise again in the future. ",
+            "matched": true
+          },
+          "mn10:36.7": {
+            "scid": "mn10:36.7",
+            "pli": "Santaṁ vā ajjhattaṁ uddhaccakukkuccaṁ ‘atthi me ajjhattaṁ uddhaccakukkuccan’ti pajānāti, asantaṁ vā ajjhattaṁ uddhaccakukkuccaṁ ‘natthi me ajjhattaṁ uddhaccakukkuccan’ti pajānāti; yathā ca anuppannassa uddhaccakukkuccassa uppādo hoti tañca pajānāti, yathā ca uppannassa uddhaccakukkuccassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa uddhaccakukkuccassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+            "de": "Wenn Rastlosigkeit und Reue in ihr sind, versteht sie: ‚In mir sind Rastlosigkeit und Reue‘. Wenn keine Rastlosigkeit und keine Reue in ihr ist, versteht sie: ‚In mir ist keine Rastlosigkeit und keine Reue‘. Sie versteht, wie Rastlosigkeit und Reue aufkommen; wie sie, wenn sie aufgekommen sind, <span class=\"scv-matched\">aufgegeben werden</span>; und wie sie, wenn sie aufgegeben wurden, in Zukunft nicht mehr aufkommen. ",
+            "en": "When they have restlessness and remorse in them, they understand: ‘I have restlessness and remorse in me.’ When they don’t have restlessness and remorse in them, they understand: ‘I don’t have restlessness and remorse in me.’ They understand how restlessness and remorse arise; how, when they’ve already arisen, they’re given up; and how, once they’re given up, they don’t arise again in the future. ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 10\nAchtsamkeitsmeditation",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 235,
+          "de": 204,
+          "en": 233
         }
       },
       {

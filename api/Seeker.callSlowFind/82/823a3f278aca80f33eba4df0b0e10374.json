@@ -32,7 +32,7 @@
     "pattern": "blind",
     "method": "phrase",
     "resultPattern": "\\bblind",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.29_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an3/an3.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.71_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig5.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig5.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -60,6 +63,7 @@
       "an3.29/de/sabbamitta",
       "dn23/de/sabbamitta",
       "an3.71/de/sabbamitta",
+      "thig5.9/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.66/de/sabbamitta",
       "an3.123/de/sabbamitta",
@@ -248,6 +252,38 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig5.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig5.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig5.9",
+        "lang": "de",
+        "segMap": {
+          "thig5.9:1.4": {
+            "scid": "thig5.9:1.4",
+            "pli": "vajje cāvajjadassinī.",
+            "de": "und war für wirkliche Fehler <span class=\"scv-matched\">blind</span>. ",
+            "en": "and was <span class=\"scv-matched\">blind</span> to the actual fault.",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Fünferbuch\n5.9. Bhaddā Kuṇḍalakesā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
         }
       },
       {

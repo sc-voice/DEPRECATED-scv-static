@@ -32,7 +32,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 56,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.53_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.53_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.53_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.247_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.247_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.247_translation-en-sujato.json"
@@ -87,6 +90,7 @@
       "dn14/de/sabbamitta",
       "kp8/de/sabbamitta",
       "an7.66/de/sabbamitta",
+      "an6.53/de/sabbamitta",
       "an4.247/de/sabbamitta"
     ],
     "mlDocs": [
@@ -741,6 +745,38 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.53_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.53_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.53_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.53",
+        "lang": "de",
+        "segMap": {
+          "an6.53:8.1": {
+            "scid": "an6.53:8.1",
+            "pli": "Seyyathāpi, brāhmaṇa, ye keci khuddarājāno sabbete rañño cakkavattissa anuyantā bhavanti, rājā tesaṁ cakkavattī aggamakkhāyati; ",
+            "de": "Alle niederen Herrscher sind Lehnsleute eines <span class=\"scv-matched\">Rad-drehenden Herrschers, daher gilt der Rad-drehende Herrscher</span> als der vorderste von allen. ",
+            "en": "All lesser rulers are vassals of a wheel-turning monarch, so the wheel-turning monarch is said to be the foremost of them all. ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n53. Eifer",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
         }
       },
       {
