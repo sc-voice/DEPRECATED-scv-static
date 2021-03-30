@@ -149,28 +149,28 @@
           "an6.43:12.3": {
             "scid": "an6.43:12.3",
             "pli": "Gacchaṁ samāhito nāgo, ",
-            "de": "Der <span class=\"scv-matched\">Riese</span> ist heiter, wenn er geht, ",
+            "de": "Der <span class=\"scv-matched\">Riese</span> ist gelassen, wenn er geht, ",
             "en": "The giant is serene when walking, ",
             "matched": true
           },
           "an6.43:12.4": {
             "scid": "an6.43:12.4",
             "pli": "ṭhito nāgo samāhito. ",
-            "de": "der <span class=\"scv-matched\">Riese</span> ist heiter, wenn er steht, ",
+            "de": "der <span class=\"scv-matched\">Riese</span> ist gelassen, wenn er steht, ",
             "en": "the giant is serene when standing, ",
             "matched": true
           },
           "an6.43:13.1": {
             "scid": "an6.43:13.1",
             "pli": "Seyyaṁ samāhito nāgo, ",
-            "de": "der <span class=\"scv-matched\">Riese</span> ist heiter, wenn er liegt, ",
+            "de": "der <span class=\"scv-matched\">Riese</span> ist gelassen, wenn er liegt, ",
             "en": "the giant is serene when lying down, ",
             "matched": true
           },
           "an6.43:13.2": {
             "scid": "an6.43:13.2",
             "pli": "nisinnopi samāhito; ",
-            "de": "und auch wenn er sitzt, ist der <span class=\"scv-matched\">Riese</span> heiter. ",
+            "de": "und auch wenn er sitzt, ist der <span class=\"scv-matched\">Riese</span> gelassen. ",
             "en": "and when sitting, the giant is serene. ",
             "matched": true
           },
@@ -272,28 +272,28 @@
           "thag15.2:8.3": {
             "scid": "thag15.2:8.3",
             "pli": "Gacchaṁ samāhito nāgo,",
-            "de": "Der <span class=\"scv-matched\">Riese</span> ist heiter, wenn er geht, ",
+            "de": "Der <span class=\"scv-matched\">Riese</span> ist gelassen, wenn er geht, ",
             "en": "The giant is serene when walking,",
             "matched": true
           },
           "thag15.2:8.4": {
             "scid": "thag15.2:8.4",
             "pli": "ṭhito nāgo samāhito.",
-            "de": "der <span class=\"scv-matched\">Riese</span> ist heiter, wenn er steht, ",
+            "de": "der <span class=\"scv-matched\">Riese</span> ist gelassen, wenn er steht, ",
             "en": "the giant is serene when standing,",
             "matched": true
           },
           "thag15.2:9.1": {
             "scid": "thag15.2:9.1",
             "pli": "Sayaṁ samāhito nāgo,",
-            "de": "der <span class=\"scv-matched\">Riese</span> ist heiter, wenn er liegt, ",
+            "de": "der <span class=\"scv-matched\">Riese</span> ist gelassen, wenn er liegt, ",
             "en": "the giant is serene when lying down,",
             "matched": true
           },
           "thag15.2:9.2": {
             "scid": "thag15.2:9.2",
             "pli": "nisinnopi samāhito;",
-            "de": "und auch wenn er sitzt, ist der <span class=\"scv-matched\">Riese</span> heiter. ",
+            "de": "und auch wenn er sitzt, ist der <span class=\"scv-matched\">Riese</span> gelassen. ",
             "en": "and when sitting, the giant is serene.",
             "matched": true
           },
