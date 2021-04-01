@@ -723,6 +723,7 @@
     "mind of love",
     "mind purified by immersion",
     "mired in suffering",
+    "moderation",
     "moderation in eating",
     "modes of conceit",
     "more peaceful",
