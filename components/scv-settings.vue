@@ -18,6 +18,32 @@
       v-if="moreVisible"
       @focusin="focusMore(true)"
       :aria-hidden="!moreVisible">
+      <li class="" role="none" ><!-- General -->
+        <details role="menuitem" 
+          @click="clickDetails('general', $event)"
+          :open="showDetail('general')"
+        >
+          <summary class="scv-summary">
+            <div class="scv-settings-title">
+                <div>{{$t('general')}}</div>
+                <div class="body-2">
+                  {{version}}
+                  <span v-if="saveCookies && openDetail!=='general'">, cookies</span>
+                </div>
+            </div><!--scv-settings-title-->
+          </summary>
+          <div class="scv-settings-detail">
+            <scv-checkbox v-model="saveSettingsExamples"
+              ref="saveSettingsExamples-focus"
+              :label="$t('storeSettingsHistory')"/>
+          </div>
+          <div class="scv-settings-detail">
+            <scv-checkbox v-model="saveSettings"
+              ref="saveSettings-focus"
+              :label="$t('storeSettingsInCookies')"/>
+          </div>
+        </details>
+      </li><!-- General -->
       <li class="" role="none" v-if="!monolingual"><!-- Language -->
         <details role="menuitem" 
           @click="clickDetails('lang', $event)"
@@ -150,75 +176,6 @@
           </div>
         </details>
       </li><!-- reader -->
-      <li class="" role="none" ><!-- Sound -->
-        <details role="menuitem" 
-          @click="clickDetails('sound', $event)"
-          :open="showDetail('sound')"
-          >
-          <summary class="scv-summary">
-            <div class="scv-settings-title">
-              <div>{{$t('bellSound')}}</div>
-              <div class="body-2">{{ips}}</div>
-            </div>
-          </summary>
-          <div class="scv-settings-detail">
-            <div class="scv-select-container"
-              @click="stopPropagation($event)"
-              >
-              <select id="ips-select" 
-                ref="sound-focus"
-                class="scv-select caption"
-                v-model="ips"
-                >
-                <option v-for="item in ipsChoices" :key="item.value" 
-                  v-if="item.value !== 1"
-                  :selected="item.value===ips"
-                  :value="item.value">{{$t(item.i18n)}}</option>
-              </select>
-              <label for="ips-select" v-if="ips">
-                <v-btn icon 
-                  class="scv-icon-btn"
-                  @click="playBell"
-                  >
-                  <v-icon small>{{mdiVolumeHigh}}</v-icon>
-                </v-btn>
-              </label>
-              <audio v-for="bell in ipsChoices"
-                :ref="`refIps${bell.value}`" 
-                preload=auto v-if="bell.value" >
-                <source type="audio/ogg" :src="bell.url.substring(1)" />
-                <p>{{$t('noHTML5')}}</p>
-              </audio>
-            </div><!--scv-select-container-->
-          </div><!--scv-settings-->
-        </details>
-      </li><!-- Sound -->
-      <li class="" role="none" ><!-- General -->
-        <details role="menuitem" 
-          @click="clickDetails('general', $event)"
-          :open="showDetail('general')"
-        >
-          <summary class="scv-summary">
-            <div class="scv-settings-title">
-                <div>{{$t('general')}}</div>
-                <div class="body-2">
-                  {{version}}
-                  <span v-if="saveCookies && openDetail!=='general'">, cookies</span>
-                </div>
-            </div><!--scv-settings-title-->
-          </summary>
-          <div class="scv-settings-detail">
-            <scv-checkbox v-model="saveSettingsExamples"
-              ref="saveSettingsExamples-focus"
-              :label="$t('storeSettingsHistory')"/>
-          </div>
-          <div class="scv-settings-detail">
-            <scv-checkbox v-model="saveSettings"
-              ref="saveSettings-focus"
-              :label="$t('storeSettingsInCookies')"/>
-          </div>
-        </details>
-      </li><!-- General -->
       <li class="" role="none" >
         <details role="menuitem" 
           @click="clickDetails('search', $event)"
@@ -259,9 +216,7 @@
             </div>
           </summary>
           <div class="scv-settings-detail">
-            <div class="scv-select-container"
-              @click="stopPropagation($event)"
-              >
+            <div class="scv-select-container" @click="stopPropagation($event)" >
               <select id="audio-select" 
                 ref="audio-focus"
                 class="scv-select "
@@ -274,6 +229,32 @@
                 <option :selected="audio==='mp3'" value="mp3">
                   MP3 {{$t('audio')}}</option>
               </select>
+            </div><!--scv-select-container-->
+            <div class="scv-select-container" @click="stopPropagation($event)" >
+              <select id="ips-select" 
+                ref="sound-focus"
+                class="scv-select caption"
+                v-model="ips"
+                >
+                <option v-for="item in ipsChoices" :key="item.value" 
+                  v-if="item.value !== 1"
+                  :selected="item.value===ips"
+                  :value="item.value">{{$t(item.i18n)}}</option>
+              </select>
+              <label for="ips-select" v-if="ips">
+                <v-btn icon 
+                  class="scv-icon-btn"
+                  @click="playBell"
+                  >
+                  <v-icon small>{{mdiVolumeHigh}}</v-icon>
+                </v-btn>
+              </label>
+              <audio v-for="bell in ipsChoices"
+                :ref="`refIps${bell.value}`" 
+                preload=auto v-if="bell.value" >
+                <source type="audio/ogg" :src="bell.url.substring(1)" />
+                <p>{{$t('noHTML5')}}</p>
+              </audio>
             </div><!--scv-select-container-->
           </div>
         </details>

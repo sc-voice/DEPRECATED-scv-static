@@ -1,6 +1,6 @@
 /* CSS variables */
 :root {
-  --scv-text-width: 45em;
+  --scv-text-width: 45rem;
   --scv-text-line-height: 1.5;
   --scv-sutta-title-font-size: 20px;
   --scv-division-title-font-size: 12px;
@@ -91,11 +91,17 @@ label {
   font-family: var(--scv-sans-font);
   padding-bottom: 0.3em;
   font-style: italic;
+  flex: 1 1 50%;
 }
 .scv-text-trans {
   max-width: var(--scv-text-width);
   font-family: var(--scv-sans-font);
   padding-bottom: 0.7em;
+  padding-left: 0.7em;
+  flex: 1 1 50%;
+}
+.scv-side-by-side {
+  display: flex;
 }
 .scv-matched { 
   color: #232323;
@@ -272,6 +278,7 @@ summary:focus {
     color: #888;
     margin-top: 0.6em;
     margin-left: 0.2em;
+    flex: 1 1 10em;
 }
 .scv-sutta {
   margin-top: 2em;
@@ -310,10 +317,11 @@ summary:focus {
   padding-right: 0.5em;
 }
 .scv-division {
+  text-align: center;
+}
+.scv-division div.scv-text-root,
+.scv-division div.scv-text-trans {
   font-size: var(--scv-division-title-font-size);
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }
 .scv-division-root {
   xfont-variant-caps: all-small-caps; /* ugly without SC font */

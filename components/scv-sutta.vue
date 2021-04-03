@@ -59,7 +59,7 @@ export default {
       }
     },
     segmentClass(seg) {
-        let { cursor } = this.$store.state.scv.settings;
+        let { cursor, fullLine } = this.$store.state.scv.settings;
         let { scid } = seg;
         let { titles } = this;
         let segClass = "scv-segment";
@@ -67,6 +67,9 @@ export default {
           segClass = `scv-division`;
         } else if (/:0/.test(scid)) {
           segClass = `scv-sutta-title`;
+        }
+        if (!fullLine) {
+          segClass += ' scv-side-by-side';
         }
 
         return cursor && seg.scid === cursor.scid
